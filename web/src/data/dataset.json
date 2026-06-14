@@ -1,0 +1,982 @@
+{
+  "generated_at": "2026-05-29",
+  "scope": "EU-UCITS · fixed income + equity · iShares (walking skeleton)",
+  "records": [
+    {
+      "portfolioId": 251832,
+      "isin": "IE0032895942",
+      "name": "iShares $ Corp Bond UCITS ETF",
+      "group": "fixed_income",
+      "ter": 0.2,
+      "inception": "2003-05-16",
+      "perf": {
+        "as_of": "2026-05-29",
+        "n_points": 5862,
+        "ter_pct": 0.2,
+        "return_1y_net": 0.06791480722558418,
+        "return_3y_net": 0.05417672158806841,
+        "return_5y_net": 0.00013634986119925863,
+        "return_si_net": 0.03791584848110663,
+        "return_1y_gross": 0.06991480722558419,
+        "return_3y_gross": 0.05617672158806841,
+        "return_5y_gross": 0.0021363498611992587,
+        "return_si_gross": 0.03991584848110663,
+        "volatility_ann": 0.06665847577283092,
+        "sharpe": 0.3626953858120247,
+        "max_drawdown": -0.2507376609343416,
+        "tracking_difference_3y": -0.0015950188515170272
+      },
+      "aum_now": 3789232031.66,
+      "aum_prev": 3710857916.94,
+      "top10_weight": 2.71,
+      "n_holdings": 3119,
+      "docs": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "fundName": "iShares $ Corp Bond UCITS ETF",
+        "doc_count": 11,
+        "by_category": {
+          "fact-sheet": 1,
+          "kiid": 1,
+          "annual-report": 4,
+          "prospectus": 5
+        },
+        "latest_annual_report": "2025-02-28"
+      },
+      "source_xls": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls"
+    },
+    {
+      "portfolioId": 350665,
+      "isin": "IE0001GX77Y5",
+      "name": "iShares $ AAA CLO Active UCITS ETF",
+      "group": "fixed_income",
+      "ter": 0.25,
+      "inception": "2026-04-29",
+      "perf": {
+        "as_of": "2026-05-29",
+        "n_points": 19,
+        "ter_pct": 0.25,
+        "return_1y_net": null,
+        "return_3y_net": null,
+        "return_5y_net": null,
+        "return_si_net": null,
+        "return_1y_gross": null,
+        "return_3y_gross": null,
+        "return_5y_gross": null,
+        "return_si_gross": null,
+        "volatility_ann": 0.0020772387263113977,
+        "sharpe": null,
+        "max_drawdown": -5.392888492550263e-05,
+        "tracking_difference_3y": null
+      },
+      "aum_now": 1704181.92,
+      "aum_prev": null,
+      "top10_weight": 35.93,
+      "n_holdings": 48,
+      "docs": {
+        "portfolioId": 350665,
+        "isin": "IE0001GX77Y5",
+        "fundName": "iShares $ AAA CLO Active UCITS ETF",
+        "doc_count": 13,
+        "by_category": {
+          "fact-sheet": 1,
+          "kiid": 1,
+          "annual-report": 5,
+          "prospectus": 6
+        },
+        "latest_annual_report": "2026-10-31"
+      },
+      "source_xls": "iShares/products/350665__ishares-aaa-clo-active-ucits-etf/data/fund_data.xls"
+    },
+    {
+      "portfolioId": 309959,
+      "isin": "IE00BKLC5874",
+      "name": "iShares High Yield Corp Bond ESG UCITS ETF",
+      "group": "fixed_income",
+      "ter": 0.25,
+      "inception": "2019-11-20",
+      "perf": {
+        "as_of": "2026-05-29",
+        "n_points": 1637,
+        "ter_pct": 0.25,
+        "return_1y_net": 0.04564804579816628,
+        "return_3y_net": 0.07134007581699597,
+        "return_5y_net": 0.024598568226748663,
+        "return_si_net": 0.025105670694865134,
+        "return_1y_gross": 0.048148045798166283,
+        "return_3y_gross": 0.07384007581699598,
+        "return_5y_gross": 0.02709856822674866,
+        "return_si_gross": 0.027605670694865133,
+        "volatility_ann": 0.0474440250704123,
+        "sharpe": 0.8713441946724086,
+        "max_drawdown": -0.20462637140993356,
+        "tracking_difference_3y": 0.0007237622954126
+      },
+      "aum_now": 459888991.97,
+      "aum_prev": 463242738.67,
+      "top10_weight": 7.15,
+      "n_holdings": 352,
+      "docs": {
+        "portfolioId": 309959,
+        "isin": "IE00BKLC5874",
+        "fundName": "iShares € High Yield Corp Bond ESG SRI UCITS ETF",
+        "doc_count": 15,
+        "by_category": {
+          "fact-sheet": 1,
+          "kiid": 1,
+          "annual-report": 5,
+          "sfdr-web-disclosure": 2,
+          "prospectus": 6
+        },
+        "latest_annual_report": "2026-10-31"
+      },
+      "source_xls": "iShares/products/309959__ishares-high-yield-corp-bond-esg-sri-ucits-etf/data/fund_data.xls"
+    },
+    {
+      "portfolioId": 348766,
+      "isin": "IE0000N55FP4",
+      "name": "iShares MSCI Europe Small Cap UCITS ETF",
+      "group": "equity",
+      "ter": 0.25,
+      "inception": "2026-03-25",
+      "perf": {
+        "as_of": "2026-05-28",
+        "n_points": 43,
+        "ter_pct": 0.25,
+        "return_1y_net": null,
+        "return_3y_net": null,
+        "return_5y_net": null,
+        "return_si_net": null,
+        "return_1y_gross": null,
+        "return_3y_gross": null,
+        "return_5y_gross": null,
+        "return_si_gross": null,
+        "volatility_ann": 0.1700206335622035,
+        "sharpe": null,
+        "max_drawdown": -0.03763979876263346,
+        "tracking_difference_3y": null
+      },
+      "aum_now": 6755711.21,
+      "aum_prev": null,
+      "top10_weight": 5.8,
+      "n_holdings": 840,
+      "docs": {
+        "portfolioId": 348766,
+        "isin": "IE0000N55FP4",
+        "fundName": "iShares MSCI Europe Small Cap UCITS ETF",
+        "doc_count": 12,
+        "by_category": {
+          "fact-sheet": 1,
+          "kiid": 1,
+          "annual-report": 4,
+          "prospectus": 6
+        },
+        "latest_annual_report": "2025-06-30"
+      },
+      "source_xls": "iShares/products/348766__ishares-mscieurope-small-cap-ucits-etf/data/fund_data.xls"
+    },
+    {
+      "portfolioId": 285209,
+      "isin": "IE00BD1F4L37",
+      "name": "iShares Edge MSCI USA Quality Factor UCITS ETF",
+      "group": "equity",
+      "ter": 0.2,
+      "inception": "2016-10-13",
+      "perf": {
+        "as_of": "2026-05-28",
+        "n_points": 2427,
+        "ter_pct": 0.2,
+        "return_1y_net": 0.2348473327414844,
+        "return_3y_net": 0.199536470742673,
+        "return_5y_net": 0.1195867840303304,
+        "return_si_net": 0.14368391225971178,
+        "return_1y_gross": 0.2368473327414844,
+        "return_3y_gross": 0.201536470742673,
+        "return_5y_gross": 0.12158678403033041,
+        "return_si_gross": 0.14568391225971178,
+        "volatility_ann": 0.1841782875006358,
+        "sharpe": 0.920501938873157,
+        "max_drawdown": -0.3391690624868503,
+        "tracking_difference_3y": -0.00017145173554955484
+      },
+      "aum_now": 1809914474.88,
+      "aum_prev": 1554634039.7,
+      "top10_weight": 40.94,
+      "n_holdings": 127,
+      "docs": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "fundName": "iShares Edge MSCI USA Quality Factor UCITS ETF",
+        "doc_count": 12,
+        "by_category": {
+          "fact-sheet": 1,
+          "kiid": 1,
+          "annual-report": 5,
+          "prospectus": 5
+        },
+        "latest_annual_report": "2025-05-31"
+      },
+      "source_xls": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls"
+    },
+    {
+      "portfolioId": 251952,
+      "isin": "DE000A0H08L5",
+      "name": "iShares STOXX Europe 600 Media UCITS ETF",
+      "group": "equity",
+      "ter": 0.46,
+      "inception": "2002-07-08",
+      "perf": {
+        "as_of": "2026-05-29",
+        "n_points": 6055,
+        "ter_pct": 0.46,
+        "return_1y_net": -0.2120841569339902,
+        "return_3y_net": 0.04561554557264924,
+        "return_5y_net": 0.05450625218319005,
+        "return_si_net": 0.0528345067038849,
+        "return_1y_gross": -0.2074841569339902,
+        "return_3y_gross": 0.05021554557264924,
+        "return_5y_gross": 0.05910625218319005,
+        "return_si_gross": 0.0574345067038849,
+        "volatility_ann": 0.1941100237240524,
+        "sharpe": 0.08044687890434946,
+        "max_drawdown": -0.5278374589753396,
+        "tracking_difference_3y": -0.002459081693586329
+      },
+      "aum_now": 28761190.09,
+      "aum_prev": 21050574.62,
+      "top10_weight": 99.92,
+      "n_holdings": 18,
+      "docs": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "fundName": "iShares STOXX Europe 600 Media UCITS ETF (DE)",
+        "doc_count": 13,
+        "by_category": {
+          "fund-announcement": 2,
+          "fact-sheet": 1,
+          "annual-report": 4,
+          "interim-report": 5,
+          "prospectus": 1
+        },
+        "latest_annual_report": null
+      },
+      "source_xls": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls"
+    }
+  ],
+  "signals": [
+    {
+      "id": "S-1001",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.2,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.20% is below peer median 0.25% (fixed_income)."
+    },
+    {
+      "id": "S-1002",
+      "type": "performance_positioning",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": 0.0628,
+      "after": 0.0542,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "cross-sectional",
+      "note": "3y net return 5.4% is below peer median 6.3% (fixed_income)."
+    },
+    {
+      "id": "S-1003",
+      "type": "aum_trend",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": 3710857917.0,
+      "after": 3789232032.0,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "AUM +2.1% over ~3 months (flow proxy)."
+    },
+    {
+      "id": "S-1004",
+      "type": "tracking_difference",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": null,
+      "after": -0.0016,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "3y annualized tracking difference -0.16% vs benchmark."
+    },
+    {
+      "id": "S-1005",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": null,
+      "after": 2.71,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 2.7% of portfolio."
+    },
+    {
+      "id": "S-1006",
+      "type": "launch",
+      "entity": {
+        "portfolioId": 350665,
+        "isin": "IE0001GX77Y5",
+        "name": "iShares $ AAA CLO Active UCITS ETF"
+      },
+      "before": null,
+      "after": "2026-04-29",
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/350665__ishares-aaa-clo-active-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Inception 2026-04-29 — new product in fixed_income."
+    },
+    {
+      "id": "S-1007",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 350665,
+        "isin": "IE0001GX77Y5",
+        "name": "iShares $ AAA CLO Active UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.25,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/350665__ishares-aaa-clo-active-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.25% is at peer median 0.25% (fixed_income)."
+    },
+    {
+      "id": "S-1008",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 350665,
+        "isin": "IE0001GX77Y5",
+        "name": "iShares $ AAA CLO Active UCITS ETF"
+      },
+      "before": null,
+      "after": 35.93,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/350665__ishares-aaa-clo-active-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 35.9% of portfolio."
+    },
+    {
+      "id": "S-1009",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 309959,
+        "isin": "IE00BKLC5874",
+        "name": "iShares High Yield Corp Bond ESG UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.25,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/309959__ishares-high-yield-corp-bond-esg-sri-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.25% is at peer median 0.25% (fixed_income)."
+    },
+    {
+      "id": "S-1010",
+      "type": "performance_positioning",
+      "entity": {
+        "portfolioId": 309959,
+        "isin": "IE00BKLC5874",
+        "name": "iShares High Yield Corp Bond ESG UCITS ETF"
+      },
+      "before": 0.0628,
+      "after": 0.0713,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/309959__ishares-high-yield-corp-bond-esg-sri-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "cross-sectional",
+      "note": "3y net return 7.1% is above peer median 6.3% (fixed_income)."
+    },
+    {
+      "id": "S-1011",
+      "type": "tracking_difference",
+      "entity": {
+        "portfolioId": 309959,
+        "isin": "IE00BKLC5874",
+        "name": "iShares High Yield Corp Bond ESG UCITS ETF"
+      },
+      "before": null,
+      "after": 0.00072,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/309959__ishares-high-yield-corp-bond-esg-sri-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "3y annualized tracking difference 0.07% vs benchmark."
+    },
+    {
+      "id": "S-1012",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 309959,
+        "isin": "IE00BKLC5874",
+        "name": "iShares High Yield Corp Bond ESG UCITS ETF"
+      },
+      "before": null,
+      "after": 7.15,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/309959__ishares-high-yield-corp-bond-esg-sri-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 7.2% of portfolio."
+    },
+    {
+      "id": "S-1013",
+      "type": "launch",
+      "entity": {
+        "portfolioId": 348766,
+        "isin": "IE0000N55FP4",
+        "name": "iShares MSCI Europe Small Cap UCITS ETF"
+      },
+      "before": null,
+      "after": "2026-03-25",
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/348766__ishares-mscieurope-small-cap-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Inception 2026-03-25 — new product in equity."
+    },
+    {
+      "id": "S-1014",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 348766,
+        "isin": "IE0000N55FP4",
+        "name": "iShares MSCI Europe Small Cap UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.25,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/348766__ishares-mscieurope-small-cap-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.25% is at peer median 0.25% (equity)."
+    },
+    {
+      "id": "S-1015",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 348766,
+        "isin": "IE0000N55FP4",
+        "name": "iShares MSCI Europe Small Cap UCITS ETF"
+      },
+      "before": null,
+      "after": 5.8,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/348766__ishares-mscieurope-small-cap-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 5.8% of portfolio."
+    },
+    {
+      "id": "S-1016",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "name": "iShares Edge MSCI USA Quality Factor UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.2,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.20% is below peer median 0.25% (equity)."
+    },
+    {
+      "id": "S-1017",
+      "type": "performance_positioning",
+      "entity": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "name": "iShares Edge MSCI USA Quality Factor UCITS ETF"
+      },
+      "before": 0.1226,
+      "after": 0.1995,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "cross-sectional",
+      "note": "3y net return 20.0% is above peer median 12.3% (equity)."
+    },
+    {
+      "id": "S-1018",
+      "type": "aum_trend",
+      "entity": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "name": "iShares Edge MSCI USA Quality Factor UCITS ETF"
+      },
+      "before": 1554634040.0,
+      "after": 1809914475.0,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "AUM +16.4% over ~3 months (flow proxy)."
+    },
+    {
+      "id": "S-1019",
+      "type": "tracking_difference",
+      "entity": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "name": "iShares Edge MSCI USA Quality Factor UCITS ETF"
+      },
+      "before": null,
+      "after": -0.00017,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "3y annualized tracking difference -0.02% vs benchmark."
+    },
+    {
+      "id": "S-1020",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 285209,
+        "isin": "IE00BD1F4L37",
+        "name": "iShares Edge MSCI USA Quality Factor UCITS ETF"
+      },
+      "before": null,
+      "after": 40.94,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/285209__ishares-edge-msci-usa-quality-factor-ucits-etf/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 40.9% of portfolio."
+    },
+    {
+      "id": "S-1021",
+      "type": "fee_positioning",
+      "entity": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "name": "iShares STOXX Europe 600 Media UCITS ETF"
+      },
+      "before": 0.25,
+      "after": 0.46,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls",
+      "confidence": "high",
+      "method": "cross-sectional",
+      "note": "TER 0.46% is above peer median 0.25% (equity)."
+    },
+    {
+      "id": "S-1022",
+      "type": "performance_positioning",
+      "entity": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "name": "iShares STOXX Europe 600 Media UCITS ETF"
+      },
+      "before": 0.1226,
+      "after": 0.0456,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "cross-sectional",
+      "note": "3y net return 4.6% is below peer median 12.3% (equity)."
+    },
+    {
+      "id": "S-1023",
+      "type": "aum_trend",
+      "entity": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "name": "iShares STOXX Europe 600 Media UCITS ETF"
+      },
+      "before": 21050575.0,
+      "after": 28761190.0,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "AUM +36.6% over ~3 months (flow proxy)."
+    },
+    {
+      "id": "S-1024",
+      "type": "tracking_difference",
+      "entity": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "name": "iShares STOXX Europe 600 Media UCITS ETF"
+      },
+      "before": null,
+      "after": -0.00246,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls",
+      "confidence": "medium",
+      "method": "deterministic",
+      "note": "3y annualized tracking difference -0.25% vs benchmark."
+    },
+    {
+      "id": "S-1025",
+      "type": "concentration",
+      "entity": {
+        "portfolioId": 251952,
+        "isin": "DE000A0H08L5",
+        "name": "iShares STOXX Europe 600 Media UCITS ETF"
+      },
+      "before": null,
+      "after": 99.92,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251952__ishares-stoxx-europe-600-media-ucits-etf-de-fund/data/fund_data.xls",
+      "confidence": "high",
+      "method": "deterministic",
+      "note": "Top-10 holdings = 99.9% of portfolio."
+    },
+    {
+      "id": "S-1026",
+      "type": "fee_change",
+      "entity": {
+        "portfolioId": 251832,
+        "isin": "IE0032895942",
+        "name": "iShares $ Corp Bond UCITS ETF"
+      },
+      "before": 0.2,
+      "after": 0.12,
+      "detected_at": "2026-05-29",
+      "source": "iShares/products/251832__ishares-corporate-bond-ucits-etf/data/fund_data.xls",
+      "confidence": "n/a",
+      "method": "constructed-demo",
+      "note": "CONSTRUCTED demo (not observed): proves the fee-diff→signal mechanism. Real temporal fee-change detection needs a 2nd crawl snapshot — see FINDINGS §G5."
+    }
+  ],
+  "brief": {
+    "issuer": "iShares (BlackRock)",
+    "n_signals": 26,
+    "n_claims": 5,
+    "uncited_claims": 0,
+    "claims": [
+      {
+        "text": "iShares (BlackRock) is competing on price in core exposures — 2 of its products are priced below their peer-group median TER.",
+        "cited_signal_ids": [
+          "S-1001",
+          "S-1016"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      {
+        "text": "iShares (BlackRock) is extending into ACTIVE fixed income — recent active-strategy launches in the ETF wrapper.",
+        "cited_signal_ids": [
+          "S-1006"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      {
+        "text": "Asset momentum is positive across 3 tracked products (AUM rising over the trailing quarter — directional flow proxy).",
+        "cited_signal_ids": [
+          "S-1003",
+          "S-1018",
+          "S-1023"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      {
+        "text": "Index-tracking quality is a live selling point — 4 products track within ±0.5% p.a. of benchmark.",
+        "cited_signal_ids": [
+          "S-1004",
+          "S-1011",
+          "S-1019",
+          "S-1024"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      {
+        "text": "Pipeline can flag competitor fee moves the moment a KIID/holdings version changes (mechanism shown on a constructed example; needs a 2nd crawl for live detection).",
+        "cited_signal_ids": [
+          "S-1026"
+        ],
+        "confidence": "n/a",
+        "inferred": false
+      }
+    ]
+  },
+  "inventory": [
+    {
+      "issuer": "Amundi",
+      "has_catalog_json": true,
+      "product_count": 336,
+      "sampled": 25,
+      "pct_detail_html": 100,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Axis",
+      "has_catalog_json": true,
+      "product_count": 137,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 68,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "BNPParibas",
+      "has_catalog_json": true,
+      "product_count": 173,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Dimensional",
+      "has_catalog_json": true,
+      "product_count": 88,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Fidelity",
+      "has_catalog_json": true,
+      "product_count": 399,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "FirstTrust",
+      "has_catalog_json": true,
+      "product_count": 320,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Fubon",
+      "has_catalog_json": true,
+      "product_count": 90,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "HDFC",
+      "has_catalog_json": true,
+      "product_count": 209,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 52,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "ICICIPrudential",
+      "has_catalog_json": true,
+      "product_count": 194,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Invesco",
+      "has_catalog_json": true,
+      "product_count": 220,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Kotak",
+      "has_catalog_json": true,
+      "product_count": 191,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 72,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "MotilalOswal",
+      "has_catalog_json": true,
+      "product_count": 174,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 68,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "NipponIndia",
+      "has_catalog_json": true,
+      "product_count": 228,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 52,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "SBI",
+      "has_catalog_json": true,
+      "product_count": 146,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 76,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Schwab",
+      "has_catalog_json": true,
+      "product_count": 111,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "StateStreet",
+      "has_catalog_json": true,
+      "product_count": 173,
+      "sampled": 25,
+      "pct_detail_html": 100,
+      "pct_fund_data_xls": 100,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 96,
+      "tier": "full"
+    },
+    {
+      "issuer": "UTI",
+      "has_catalog_json": true,
+      "product_count": 92,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "VanEck",
+      "has_catalog_json": true,
+      "product_count": 87,
+      "sampled": 25,
+      "pct_detail_html": 100,
+      "pct_fund_data_xls": 88,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 96,
+      "tier": "full"
+    },
+    {
+      "issuer": "Vanguard",
+      "has_catalog_json": true,
+      "product_count": 192,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "WisdomTree",
+      "has_catalog_json": true,
+      "product_count": 106,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "Yuanta",
+      "has_catalog_json": true,
+      "product_count": 100,
+      "sampled": 25,
+      "pct_detail_html": 0,
+      "pct_fund_data_xls": 0,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 0,
+      "tier": "docs-only"
+    },
+    {
+      "issuer": "iShares",
+      "has_catalog_json": true,
+      "product_count": 1269,
+      "sampled": 25,
+      "pct_detail_html": 100,
+      "pct_fund_data_xls": 100,
+      "pct_documents_json": 100,
+      "pct_icloud_dupes": 100,
+      "tier": "full"
+    }
+  ]
+}
