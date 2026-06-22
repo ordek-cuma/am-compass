@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { BackIcon } from '../../components/icons'
 import { AttachList, PlainRow, StatCard, type Attachment } from '../../components/facts'
-import { Panel } from '../../components/Panel'
+import { Empty, Panel } from '../../components/Panel'
 import { COMPANIES } from '../../data/companies'
 import { documentsFor, financialsFor, fmtBytes } from '../../data/financials'
 import { fdate } from '../../lib/format'
@@ -17,21 +17,18 @@ export function CompanyDetail() {
 
   const [tab, setTab] = useState<'docs' | 'financials'>('docs')
   const hasFinancials = !!financialsFor(c.tick)
-  const docs = [...c.docs].sort((a, b) => b.date.localeCompare(a.date))
-  const last = docs.length ? docs[0].date : ''
-  const cats = [...new Set(c.docs.map((d) => d.cat))]
-  // Real crawled filings (from the ingestion agent) lead the list; placeholder doc types follow.
-  const crawled: Attachment[] = documentsFor(c.tick).map((d) => ({
+  // ONLY real documents — crawled local files or primary-source links. No placeholders.
+  const realDocs = [...documentsFor(c.tick)].sort((a, b) => b.date.localeCompare(a.date))
+  const last = realDocs.length ? realDocs[0].date : ''
+  const attachments: Attachment[] = realDocs.map((d) => ({
     name: d.name,
     fmt: d.fmt,
-    meta: `${d.form} · ${fdate(d.date)} · ${fmtBytes(d.sizeBytes)} · SEC EDGAR`,
-    file: d.file,
-    edgarUrl: d.edgarUrl,
+    meta: d.file
+      ? `${d.form} · ${fdate(d.date)} · ${fmtBytes(d.sizeBytes)} · crawled (SEC EDGAR)`
+      : `${d.form} · ${fdate(d.date)} · primary source`,
+    file: d.file || undefined,
+    edgarUrl: d.edgarUrl || undefined,
   }))
-  const attachments: Attachment[] = [
-    ...crawled,
-    ...docs.map((d) => ({ name: d.doc, fmt: d.fmt, meta: `${d.cat} · ${fdate(d.date)} · ${d.sz}` })),
-  ]
   const facts: [string, import('react').ReactNode][] = [
     ['Focus', c.seg],
     ['Region', c.region ?? '—'],
@@ -44,9 +41,8 @@ export function CompanyDetail() {
         {c.website}
       </a>
     ) : '—'],
-    ['Documents', c.docs.length],
-    ['Categories', cats.join(', ')],
-    ['Last Update', fdate(last)],
+    ['Documents', realDocs.length],
+    ['Last Update', realDocs.length ? fdate(last) : '—'],
   ]
 
   return (
@@ -64,15 +60,15 @@ export function CompanyDetail() {
           {c.region ? <span className="ac-chip">{c.region}</span> : null}
           {c.regime ? <span className="ac-chip">{c.regime}</span> : null}
           <span className="ac-chip">{c.country}</span>
-          <span className="pd-isin">{c.docs.length} documents</span>
+          <span className="pd-isin">{realDocs.length} documents</span>
         </div>
       </div>
 
       <div className="pd-stats">
-        <StatCard label="Documents" value={c.docs.length} />
+        <StatCard label="Documents" value={realDocs.length} />
         <StatCard label="Focus" value={c.seg} />
         <StatCard label="Region" value={c.region ?? '—'} />
-        <StatCard label="Last Updated" value={fdate(last)} />
+        <StatCard label="Last Updated" value={realDocs.length ? fdate(last) : '—'} />
       </div>
 
       <div className="mtabs ftabs">
@@ -87,7 +83,11 @@ export function CompanyDetail() {
       {tab === 'docs' ? (
         <div className="cols-21">
           <Panel title={`Documents · ${attachments.length}`}>
-            <AttachList items={attachments} />
+            {attachments.length ? (
+              <AttachList items={attachments} />
+            ) : (
+              <Empty title="No documents yet" desc="This competitor’s filings haven’t been crawled yet (e.g. acquired or pending a harvester)." icon="docs" />
+            )}
           </Panel>
           <Panel title="Competitor Details">
             {facts.map(([k, v]) => (
