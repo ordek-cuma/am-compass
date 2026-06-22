@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:42:57+00:00",
+  "generated_at": "2026-06-22T11:58:35+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -757,10 +757,10 @@
           "name": "Universal Registration Document / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 103178,
           "edgarUrl": "https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
-          "file": ""
+          "file": "filings/AMU/source.html"
         }
       ],
       "metrics": {
@@ -801,10 +801,10 @@
           "name": "Universal Registration Document / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 212741,
           "edgarUrl": "https://www.allianz.com/en/investor_relations.html",
-          "file": ""
+          "file": "filings/AGI/source.html"
         }
       ],
       "metrics": {
@@ -829,10 +829,10 @@
           "name": "Universal Registration Document / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 163583,
           "edgarUrl": "https://www.im.natixis.com/en-intl/about",
-          "file": ""
+          "file": "filings/NAT/source.html"
         }
       ],
       "metrics": {
@@ -857,10 +857,10 @@
           "name": "Universal Registration Document / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 112128,
           "edgarUrl": "https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
-          "file": ""
+          "file": "filings/BNP/source.html"
         }
       ],
       "metrics": {
@@ -913,10 +913,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 58206,
           "edgarUrl": "https://www.union-investment.com/",
-          "file": ""
+          "file": "filings/Union/source.html"
         }
       ],
       "metrics": {
@@ -941,10 +941,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 151950,
           "edgarUrl": "https://www.deka.de/deka-group/who-we-are/at-a-glance-",
-          "file": ""
+          "file": "filings/DEKA/source.html"
         }
       ],
       "metrics": {
@@ -969,10 +969,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 53265,
           "edgarUrl": "https://www.meag.com/en/inform/portraet.html",
-          "file": ""
+          "file": "filings/MEAG/source.html"
         }
       ],
       "metrics": {
@@ -997,10 +997,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 174725,
           "edgarUrl": "https://www.bayerninvest.de/",
-          "file": ""
+          "file": "filings/Bayern_Invest/source.html"
         }
       ],
       "metrics": {
@@ -1025,10 +1025,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 61291,
           "edgarUrl": "https://www.deka-immobilien.de/en/about-us/",
-          "file": ""
+          "file": "filings/Deka_Immobilien/source.html"
         }
       ],
       "metrics": {
@@ -1053,10 +1053,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 95407,
           "edgarUrl": "https://www.universal-investment.com/en/",
-          "file": ""
+          "file": "filings/Universal_Invest/source.html"
         }
       ],
       "metrics": {
@@ -1081,10 +1081,10 @@
           "name": "Gesch\u00e4ftsbericht / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 66658,
           "edgarUrl": "https://www.inka-kag.de/",
-          "file": ""
+          "file": "filings/HSBC_T_B/source.html"
         }
       ],
       "metrics": {
@@ -1109,10 +1109,10 @@
           "name": "Annual Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 48037,
           "edgarUrl": "https://www.advratings.com/company/vanguard-group",
-          "file": ""
+          "file": "filings/Vanguard/source.html"
         }
       ],
       "metrics": {
@@ -1137,10 +1137,10 @@
           "name": "Annual Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 1232648,
           "edgarUrl": "https://about.fidelity.com/",
-          "file": ""
+          "file": "filings/Fidelity/source.html"
         }
       ],
       "metrics": {
@@ -1173,10 +1173,10 @@
           "name": "Annual Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 175445,
           "edgarUrl": "https://www.pimco.com/us/en/about-us",
-          "file": ""
+          "file": "filings/PIMCO/source.html"
         }
       ],
       "metrics": {
@@ -1201,10 +1201,10 @@
           "name": "AM-Segment Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 51918,
           "edgarUrl": "https://www.ssga.com/",
-          "file": ""
+          "file": "filings/SSgA/source.html"
         }
       ],
       "metrics": {
@@ -1229,10 +1229,10 @@
           "name": "AM-Segment Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 10513,
           "edgarUrl": "https://am.jpmorgan.com/",
-          "file": ""
+          "file": "filings/JPM/source.html"
         }
       ],
       "metrics": {
@@ -1257,10 +1257,10 @@
           "name": "AM-Segment Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 718213,
           "edgarUrl": "https://am.gs.com/",
-          "file": ""
+          "file": "filings/Goldman_Sachs/source.html"
         }
       ],
       "metrics": {
@@ -1285,10 +1285,10 @@
           "name": "Universal Registration Document / FY2025 Results",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 171368,
           "edgarUrl": "https://www.ubs.com/global/en/assetmanagement.html",
-          "file": ""
+          "file": "filings/UBS/source.html"
         }
       ],
       "metrics": {
@@ -1313,10 +1313,10 @@
           "name": "AM-Segment Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 69383,
           "edgarUrl": "https://www.morganstanley.com/im",
-          "file": ""
+          "file": "filings/MS/source.html"
         }
       ],
       "metrics": {
@@ -1341,10 +1341,10 @@
           "name": "AM-Segment Results & AuM Disclosure",
           "form": "IR",
           "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
+          "fmt": "HTML",
+          "sizeBytes": 30500,
           "edgarUrl": "https://www.pgim.com/",
-          "file": ""
+          "file": "filings/PGIM/source.html"
         }
       ],
       "metrics": {
