@@ -12,10 +12,11 @@ Archive: spike/out/competitor_ingest/archive/<slug>/  (manifest.json + docs/…)
 from __future__ import annotations
 import datetime as dt
 import json
+import re
 import sys
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, web
+from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, site_scrapers, web
 
 ARCHIVE = C.OUT_DIR / "archive"
 EDGAR_FORMS = {"10-K", "10-Q", "8-K", "DEF 14A", "DEFA14A", "20-F", "6-K", "40-F", "ARS"}
@@ -83,6 +84,24 @@ def crawl_edgar(code: str, name: str, cik: str, now: str) -> tuple[list[dict], t
 
 
 # ---------------------------------------------------------------- IR/web crawl
+def _label_date(label: str) -> str:
+    """Parse a leading date from an IR label → YYYY-MM-DD. Handles both dd.mm.yyyy and
+    mm.dd.yyyy (Amundi's English page mixes them); falls back to a period-end sentinel."""
+    m = re.match(r"\s*(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})", label)
+    if not m:
+        return "2025-12-31"
+    a, b, y = int(m.group(1)), int(m.group(2)), m.group(3)
+    if a > 12:        # a must be the day → dd.mm
+        day, mon = a, b
+    elif b > 12:      # b must be the day → mm.dd
+        mon, day = a, b
+    else:             # ambiguous → assume dd.mm (European)
+        day, mon = a, b
+    if not (1 <= mon <= 12 and 1 <= day <= 31):
+        return "2025-12-31"
+    return f"{y}-{mon:02d}-{day:02d}"
+
+
 def _discover(sources: list[str], pdf_only: bool) -> list[tuple[str, str, str]]:
     """Harvest [(label, url, 'Reports')] of report links from IR/source pages. pdf_only keeps
     just PDFs (for EDGAR firms, whose HTML filings already come from EDGAR)."""
@@ -136,8 +155,9 @@ def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now:
                 changed += 1; status = "changed"
             else:
                 new += 1; status = "new"
+        date = _label_date(label)
         docs.append({"doc_id": doc_id, "name": label, "form": "IR", "group": group,
-                     "date": "2025-12-31", "fmt": ext.upper(), "sizeBytes": len(data),
+                     "date": date, "fmt": ext.upper(), "sizeBytes": len(data),
                      "edgarUrl": url, "file": f"filings/{slug}/{rel}", "sha256": sha,
                      "fetched_at": now, "status": status})
     return docs, new, changed, unchanged
@@ -199,6 +219,7 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str) -> tuple[li
                     "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
     sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
     targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
+    targets += site_scrapers.discover(code)  # JS-rendered libraries (Amundi-style)
     docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set())
     _finalize(code, name, None, slug, prev, docs, now)
     return docs, (n, c, u)

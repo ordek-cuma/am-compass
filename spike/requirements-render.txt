@@ -1,0 +1,13 @@
+# Optional headless-render dependency for per-site JS document scrapers (site_scrapers.py /
+# render_worker.py). The core crawler is stdlib-only; this is needed ONLY for JS-rendered IR
+# libraries (e.g. Amundi's Nuxeo DMS) whose document links a plain HTTP GET can't see.
+#
+# Setup (one time):
+#   cd spike
+#   python3 -m venv .venv
+#   ./.venv/bin/pip install -r requirements-render.txt
+#   ./.venv/bin/python -m playwright install chromium
+#
+# The crawler auto-detects spike/.venv and shells out to it; if absent, JS sites are skipped
+# with a warning and the static crawl still runs. .venv is gitignored.
+playwright>=1.40
