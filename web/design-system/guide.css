@@ -1,0 +1,10 @@
+/* Layout classes used only by the style-guide preview pages (not shipped in the app). */
+.swrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.sw{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.sw .chip-c{height:54px;border-bottom:1px solid var(--line)}
+.sw .meta{padding:8px 10px}
+.sw .nm{font-size:11.5px;font-weight:600}
+.sw .hx{font-family:"Inter",sans-serif;font-size:10.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.type-row{display:flex;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.type-row .tag{width:170px;flex:none;font-family:"Inter",sans-serif;font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.04em}
+code{font-family:"Inter",sans-serif;font-size:12px;background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--teal-ink)}

@@ -1,0 +1,76 @@
+<!-- @dsCard group="Components" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Compass · Components</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens.css" />
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="guide.css" />
+<style>
+  body{padding:28px;background:var(--bg)}
+  h2{font-size:23px;font-weight:700;letter-spacing:-.02em;margin:0 0 4px}
+  .lead{color:var(--ink-2);font-size:13px;margin:0 0 22px;max-width:680px}
+  .cl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:24px 0 11px;font-weight:600}
+  .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .chev{opacity:.5}
+</style>
+</head>
+<body>
+  <h2>Components</h2>
+  <p class="lead">Core controls. 32&nbsp;px control height; <code>--r-sm</code> radius. Primary action is teal; gold buttons are for Signals only.</p>
+
+  <div class="cl">Buttons — .btn</div>
+  <div class="row">
+    <button class="btn pri">Request Access</button>
+    <button class="btn">Upload</button>
+    <button class="btn ghost">Export</button>
+    <button class="btn gold">Signal</button>
+    <button class="btn sm">Small</button>
+  </div>
+
+  <div class="cl">Chips — .chip</div>
+  <div class="row">
+    <span class="chip">Neutral</span>
+    <span class="chip teal">iShares</span>
+    <span class="chip blue">Secondary</span>
+    <span class="chip gold">Signal</span>
+    <span class="chip teal">Equity <span class="x">×</span></span>
+  </div>
+
+  <div class="cl">Badges — .badge</div>
+  <div class="row">
+    <span class="badge master">Master</span>
+    <span class="badge instance">Instance</span>
+    <span class="badge system">System</span>
+    <span class="badge live">Live</span>
+    <span class="badge alert">Alert</span>
+    <span class="badge draft">Draft</span>
+  </div>
+
+  <div class="cl">Context field & select — .ctx-field / .sel</div>
+  <div class="row">
+    <div class="ctx-field"><span class="lab">Market</span><span class="val">Global · Multi</span>
+      <svg width="11" height="11" viewBox="0 0 12 12" class="chev"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></div>
+    <button class="sel"><span class="lab">Period</span><span>FY25 · QTD</span>
+      <svg width="11" height="11" viewBox="0 0 12 12" class="chev"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.4" fill="none"/></svg></button>
+  </div>
+
+  <div class="cl">Segmented control — .seg</div>
+  <div class="row">
+    <div class="seg"><button class="on">Table</button><button>Chart</button><button>Map</button></div>
+  </div>
+
+  <div class="cl">Room filter controls — .room-inp / .room-sel</div>
+  <div class="row">
+    <div class="room-inp" style="max-width:260px">
+      <svg viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.5"/></svg>
+      <input placeholder="Search funds, tickers, ISIN…" />
+    </div>
+    <select class="room-sel"><option>Provider</option><option>iShares</option></select>
+    <select class="room-sel act"><option>Equity</option></select>
+  </div>
+</body>
+</html>

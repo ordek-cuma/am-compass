@@ -147,3 +147,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.gstack/
+
+# macOS
+.DS_Store
+
+# Claude Code (machine-specific launch config)
+.claude/

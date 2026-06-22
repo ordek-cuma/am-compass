@@ -1,0 +1,72 @@
+/* ============================================================
+   Compass · Asset Management — Design Tokens
+   v1.0 · the single source of truth for color/spacing/type
+   ============================================================ */
+:root{
+  /* ---- surfaces ---- */
+  --bg:#F4F6F7;            /* app canvas */
+  --surface:#FFFFFF;       /* panels, cards, nav */
+  --surface-2:#FAFBFC;     /* subtle fills, toolbars, inputs */
+  --surface-3:#EEF2F3;     /* hover, neutral chips */
+
+  /* ---- ink (text) ---- */
+  --ink:#0E1A1F;           /* primary text */
+  --ink-2:#51646C;         /* secondary text */
+  --ink-3:#8597A0;         /* muted text, labels, icons */
+  --ink-on:#EAF3F1;        /* text on navy */
+
+  /* ---- lines ---- */
+  --line:#E3E9EB;          /* default border */
+  --line-2:#CFD9DC;        /* control border */
+  --line-3:#B9C6CA;        /* stronger border, scrollbar */
+
+  /* ---- brand teal (action + identity) ---- */
+  --teal:#0E9A88;
+  --teal-deep:#0A7A6C;     /* hover on teal */
+  --teal-ink:#075C52;      /* teal text on light */
+  --teal-tint:#E6F5F2;     /* active fills */
+  --teal-tint-2:#D2ECE7;
+
+  /* ---- structure (icon rail) ---- */
+  --navy:#0B2A30;
+  --navy-2:#103A42;
+  --navy-3:#16505A;
+
+  /* ---- secondary accent (links) ---- */
+  --blue:#2D6BD4;
+  --blue-tint:#E7EFFB;
+
+  /* ---- signal / attention — RESERVED for signals only ---- */
+  --gold:#C98A1F;
+  --gold-bright:#E2A937;
+  --gold-tint:#FBF1DC;
+
+  /* ---- semantic ---- */
+  --pos:#198E63;  --pos-tint:#E2F2EB;
+  --warn:#C98A1F;
+  --neg:#CB4A3B;  --neg-tint:#FBE9E6;
+
+  /* ---- categorical chart palette ---- */
+  --c1:#0E9A88; --c2:#2D6BD4; --c3:#C98A1F; --c4:#CB6A3B;
+  --c5:#7C5BC4; --c6:#4FA3C4; --c7:#5C9A4E;
+
+  /* ---- radius ---- */
+  --r:10px;       /* tiles */
+  --r-sm:7px;     /* controls */
+  --r-lg:16px;    /* panels */
+
+  /* ---- elevation ---- */
+  --shadow:0 1px 2px rgba(11,42,48,.06), 0 8px 24px -16px rgba(11,42,48,.22);
+  --shadow-pop:0 12px 40px -12px rgba(11,42,48,.30);
+
+  /* ---- layout ---- */
+  --rail-w:236px; /* legacy wide rail (unused) */
+  --ir-w:74px;    /* icon rail width */
+  --sp-w:250px;   /* secondary panel default (resize 208–380) */
+  --topbar-h:54px;
+
+  /* ---- type ---- */
+  --font:"Inter", system-ui, -apple-system, sans-serif;
+  --control-h:32px;       /* shared control height */
+  --gap-section:16px;     /* space between stacked sections */
+}
