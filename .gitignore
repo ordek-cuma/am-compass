@@ -147,3 +147,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.gstack/
+
+# macOS
+.DS_Store

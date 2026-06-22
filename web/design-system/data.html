@@ -1,0 +1,65 @@
+<!-- @dsCard group="Data" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Compass · Data display</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens.css" />
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="guide.css" />
+<style>
+  body{padding:28px;background:var(--bg)}
+  h2{font-size:23px;font-weight:700;letter-spacing:-.02em;margin:0 0 4px}
+  .lead{color:var(--ink-2);font-size:13px;margin:0 0 22px;max-width:680px}
+  .cl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:24px 0 11px;font-weight:600}
+</style>
+</head>
+<body>
+  <h2>Data display</h2>
+  <p class="lead">Dense, tabular, Aladdin-class. Numeric columns are right-aligned with tabular figures; sort glyphs and availability dots are first-class.</p>
+
+  <div class="cl">Stat cards — .statc / .pd-stats</div>
+  <div class="pd-stats" style="margin-bottom:24px">
+    <div class="statc"><div class="l">Fund Size (M USD)</div><div class="v">96,250</div></div>
+    <div class="statc"><div class="l">TER · OCF</div><div class="v">0.07%</div></div>
+    <div class="statc"><div class="l">1Y p.a.</div><div class="v pos">+22.4%</div></div>
+    <div class="statc"><div class="l">1Y p.a.</div><div class="v neg">−3.4%</div></div>
+  </div>
+
+  <div class="cl">Sortable table — .tbl with sort glyphs</div>
+  <div class="panel" style="margin-bottom:24px">
+    <div class="tbl-wrap"><table class="tbl">
+      <thead><tr>
+        <th class="srt">Fund <span class="si">⇅</span></th>
+        <th class="srt">Structure <span class="si">⇅</span></th>
+        <th class="num srt act">Fund Size <span class="si">▼</span></th>
+        <th class="num srt">TER <span class="si">⇅</span></th>
+        <th class="num srt">1Y p.a. <span class="si">⇅</span></th>
+      </tr></thead>
+      <tbody>
+        <tr class="prow"><td><div style="font-weight:600">iShares Core S&amp;P 500</div><div class="tk-tick">CSPX · F10037</div></td><td>UCITS ETF</td><td class="num">96,250</td><td class="num">0.07</td><td class="num pos">+22.4%</td></tr>
+        <tr class="prow"><td><div style="font-weight:600">iShares Global Clean Energy</div><div class="tk-tick">INRG · F10370</div></td><td>UCITS ETF</td><td class="num">4,380</td><td class="num">0.65</td><td class="num neg">−3.4%</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="cl">Availability dots — .sdot + legend</div>
+  <div class="legend" style="margin-bottom:18px">
+    <span><span class="sdot have"></span>In archive</span>
+    <span><span class="sdot partial"></span>Partial / derivable</span>
+    <span><span class="sdot add"></span>To add</span>
+  </div>
+
+  <div class="cl">Format badges — .fmt</div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <span class="fmt pdf">PDF</span>
+    <span class="fmt docx">DOCX</span>
+    <span class="fmt xlsx">XLSX</span>
+    <span class="fmt csv">CSV</span>
+    <span class="fmt zip">ZIP</span>
+    <span class="fmt pptx">PPTX</span>
+  </div>
+</body>
+</html>

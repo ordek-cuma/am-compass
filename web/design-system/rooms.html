@@ -1,0 +1,62 @@
+<!-- @dsCard group="Rooms" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Compass · Rooms patterns</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens.css" />
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="guide.css" />
+<style>
+  body{padding:28px;background:var(--bg)}
+  h2{font-size:23px;font-weight:700;letter-spacing:-.02em;margin:0 0 4px}
+  .lead{color:var(--ink-2);font-size:13px;margin:0 0 22px;max-width:680px}
+  .cl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:24px 0 11px;font-weight:600}
+  .dl{color:var(--ink-3);display:inline-flex}
+</style>
+</head>
+<body>
+  <h2>Rooms patterns</h2>
+  <p class="lead">The recurring building blocks of the data rooms: the filter bar, document attachment rows, fact rows with status dots, and section panels.</p>
+
+  <div class="cl">Filter bar — .filters</div>
+  <div class="filters">
+    <div class="frow">
+      <div class="room-inp">
+        <svg viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.5"/></svg>
+        <input placeholder="Search funds, tickers, ISIN…" />
+      </div>
+      <select class="room-sel"><option>Provider</option></select>
+      <select class="room-sel act"><option>Equity</option></select>
+      <select class="room-sel"><option>Region</option></select>
+    </div>
+    <div class="ffoot"><span class="cnt"><b>20</b> funds</span><button class="f-reset">Reset filters</button></div>
+  </div>
+
+  <div class="cl">Document attachment — .attach</div>
+  <div style="max-width:520px">
+    <div class="attach on">
+      <span class="fmt pdf">PDF</span>
+      <div class="ad"><div class="an">Annual Report</div><div class="am">FY2024 · 3.1 MB</div></div>
+      <span class="dlb dl"><svg viewBox="0 0 16 16" fill="none" style="width:15px;height:15px"><path d="M8 2v8M5 7.5L8 10.5l3-3M3.5 13h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </div>
+    <div class="attach">
+      <span class="fmt csv">CSV</span>
+      <div class="ad"><div class="an">Holdings</div><div class="am">Daily · 88 KB</div></div>
+      <span class="dlb dl"><svg viewBox="0 0 16 16" fill="none" style="width:15px;height:15px"><path d="M8 2v8M5 7.5L8 10.5l3-3M3.5 13h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </div>
+  </div>
+
+  <div class="cl">Fact rows — .meta-row + status dots</div>
+  <div class="panel" style="max-width:520px">
+    <div class="panel-h"><span class="t">Classification</span></div>
+    <div class="panel-b">
+      <div class="meta-row"><span class="k"><span class="sdot have"></span>Asset Class</span><span class="v">Equity</span></div>
+      <div class="meta-row"><span class="k"><span class="sdot partial"></span>Sub-Asset Class</span><span class="v">Large Cap</span></div>
+      <div class="meta-row"><span class="k"><span class="sdot add"></span>Methodology</span><span class="v ph">To add</span></div>
+    </div>
+  </div>
+</body>
+</html>
