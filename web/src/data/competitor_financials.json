@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:12:40+00:00",
+  "generated_at": "2026-06-22T11:42:57+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -752,7 +752,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 2570400000000.0,
@@ -786,7 +796,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.allianz.com/en/investor_relations.html",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 638280000000.0001,
@@ -804,7 +824,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.im.natixis.com/en-intl/about",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 1553000000000.0,
@@ -822,7 +852,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 1728000000000.0,
@@ -840,7 +880,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 160270000000.0,
@@ -858,7 +908,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.union-investment.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 577368000000.0,
@@ -876,7 +936,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-06-30",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.deka.de/deka-group/who-we-are/at-a-glance-",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 461160000000.0,
@@ -894,7 +964,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.meag.com/en/inform/portraet.html",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 397440000000.00006,
@@ -912,7 +992,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.bayerninvest.de/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 106920000000.0,
@@ -930,7 +1020,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.deka-immobilien.de/en/about-us/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 59616000000.00001,
@@ -948,7 +1048,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.universal-investment.com/en/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aua": {
           "value": 1512000000000.0,
@@ -966,7 +1076,17 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Gesch\u00e4ftsbericht / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.inka-kag.de/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aua": {
           "value": 464400000000.00006,
@@ -984,7 +1104,17 @@
       "regime": "Private / Mutual",
       "cik": null,
       "period_end": "2025-09-30",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Annual Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.advratings.com/company/vanguard-group",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 11600000000000.0,
@@ -1002,7 +1132,17 @@
       "regime": "Private / Mutual",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Annual Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://about.fidelity.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 7100000000000.0,
@@ -1028,7 +1168,17 @@
       "regime": "Private / Mutual",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Annual Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.pimco.com/us/en/about-us",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 2260000000000.0,
@@ -1046,7 +1196,17 @@
       "regime": "US-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "AM-Segment Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.ssga.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 5700000000000.0,
@@ -1064,7 +1224,17 @@
       "regime": "US-listed",
       "cik": null,
       "period_end": "2025-09-30",
-      "documents": [],
+      "documents": [
+        {
+          "name": "AM-Segment Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://am.jpmorgan.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 4000000000000.0,
@@ -1082,7 +1252,17 @@
       "regime": "US-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "AM-Segment Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://am.gs.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 3600000000000.0,
@@ -1100,7 +1280,17 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Universal Registration Document / FY2025 Results",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.ubs.com/global/en/assetmanagement.html",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 2000000000000.0,
@@ -1118,7 +1308,17 @@
       "regime": "US-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "AM-Segment Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.morganstanley.com/im",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 1895000000000.0,
@@ -1136,7 +1336,17 @@
       "regime": "US-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "AM-Segment Results & AuM Disclosure",
+          "form": "IR",
+          "date": "2025-12-31",
+          "fmt": "WEB",
+          "sizeBytes": 0,
+          "edgarUrl": "https://www.pgim.com/",
+          "file": ""
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 1466000000000.0,

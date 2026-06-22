@@ -61,7 +61,11 @@ export function AttachList({ items }: { items: Attachment[] }) {
           <div className="ad">
             <div className="an">
               {d.name}
-              {d.file ? <span className="badge live" style={{ marginLeft: 8 }}>crawled</span> : null}
+              {d.file ? (
+                <span className="badge live" style={{ marginLeft: 8 }}>crawled</span>
+              ) : d.edgarUrl ? (
+                <span className="badge system" style={{ marginLeft: 8 }}>source</span>
+              ) : null}
             </div>
             <div className="am">{d.meta}</div>
           </div>
