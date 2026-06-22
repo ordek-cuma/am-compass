@@ -84,28 +84,43 @@ Computed from base observations with `confidence = min(inputs)` and the input ke
 Built at [`spike/competitor_ingest/`](../../spike/competitor_ingest/). Stdlib-only harvest +
 XBRL extraction; the LLM extractor is stdlib HTTP to the Claude API, gated on a key.
 
-**Verified live against EDGAR** for 5 bellwethers (BlackRock, T. Rowe Price, Invesco, Franklin
-Resources, AllianceBernstein Holding): 21 observations, GAAP financials accurate with full
-provenance (e.g. BlackRock FY2025 revenue $24.2B / op-income $7.0B / EPS $35.31, op-margin 29.1%).
+**Verified live against EDGAR** for **9 US-listed pure-play AMs** — BlackRock, T. Rowe Price, Invesco,
+Franklin, AllianceBernstein, Federated Hermes, WisdomTree, Janus Henderson, AMG (all firms where group
+financials ≈ AM financials). **64 observations**, GAAP financials accurate with full provenance
+(e.g. BlackRock FY2025 revenue $24.2B / op-income $7.0B / EPS $35.31, op-margin 29.1%).
 
-**What's deterministic now (no key):** total revenue, operating income, net income, diluted EPS,
-operating margin — straight from XBRL `companyfacts`, confidence 1.0.
+**Deterministic (no key):** total revenue, operating income, net income, diluted EPS, operating margin —
+from XBRL `companyfacts`, confidence 1.0.
 
-**What needs the LLM step (`ANTHROPIC_API_KEY`):** the AM-specific KPIs with no standard XBRL
-concept — **AuM (total/average), net flows, management-fee revenue, performance fees, headcount** —
-read from the 10-K MD&A. The 10-Ks are already discovered and cached; setting the key and re-running
-fills these and unlocks `effective_fee_rate` + `organic_growth_rate`.
+**AM-specific KPIs (no standard XBRL concept):** AuM (total/average), net flows, headcount — these were
+**hand-read from the 10-Ks** into [`manual_overlay.py`](../../spike/competitor_ingest/manual_overlay.py)
+with verbatim source quotes + confidence (a stopgap until the keyed LLM extractor runs). Net flows are
+populated only where the firmwide annual figure is unambiguous (BlackRock +$698B → organic growth 5.2%).
+**Management-fee revenue / performance fees / effective fee rate stay pending** — they live in the
+income-statement tables, which need either the keyed LLM extractor (layout-aware) or XBRL dimensions
+(the firms stopped tagging the flat fee concepts after ~2017).
 
-**Known nuances / refinements**
-- **AllianceBernstein Holding (AB)** is a pass-through holding LP → only net income is tagged on its
-  CIK. Point it at the operating partnership **AllianceBernstein L.P. (CIK 0001109448)** for full financials.
-- Group filers (MS/GS/JPM/PGIM/State Street) need parent-CIK routing + segment-note extraction for the AM segment.
+**Web integration (shipped):**
+- **Financials tab** on the Competitor Data Room detail page — grouped MetricObservations with the
+  status-dot model (green = filed/reported, amber = derived, grey = pending).
+- **Radar → Financials view** — a Monitoring | Financials toggle that ranks the peer set on AuM / net
+  flows / organic growth / revenue / op-margin / headcount (sortable). Both read a committed snapshot
+  `web/src/data/competitor_financials.json` (re-snapshot after each agent run).
+
+**Known nuances**
+- **AllianceBernstein** ticker → holding LP (pass-through); routed to the operating partnership
+  (CIK 0001109448) for real financials.
+- **Definition drift (real):** Janus Henderson / AMG show high op-margins (56% / 53%) because revenue is
+  reported net of distribution (and AMG consolidates only some affiliates). The schema stores `basis` so
+  this is visible, not silently mis-compared — but cross-firm margin needs the net-vs-gross caveat.
+- **Group filers** (MS/GS/JPM/PGIM/State Street) deliberately excluded — group financials ≠ AM-segment;
+  they need parent-CIK routing + segment-note extraction.
 
 ---
 
 ## Next steps
-- Run the LLM extractor (set `ANTHROPIC_API_KEY`) to populate AuM/flows/fee metrics.
-- **Web integration:** a **Financials tab** on the Competitor Data Room detail page (mirrors the fund
-  **Measures** tab), reading `spike/out/competitor_ingest/competitor_financials.json`, with the status-dot
-  availability model (green = high-confidence, amber = derived/low-confidence, grey = pending).
-- Phase 2 (European URD) once Phase 1 is wired into the UI.
+- Set `ANTHROPIC_API_KEY` → the LLM extractor fills fee revenue / performance fees for all 9 and unlocks
+  `effective_fee_rate` automatically.
+- **Phase 2 — European-listed:** a proper URD harvester (IR-URL registry + layout-aware PDF extraction;
+  EUR → USD via the fx table). Heavier than EDGAR — its own build.
+- **Phase 3 — German KVG / Form ADV;  Phase 4 — N-PORT holdings + ops-stack (service providers).**

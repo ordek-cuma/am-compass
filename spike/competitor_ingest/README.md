@@ -17,13 +17,16 @@ Requires network (SEC EDGAR). Writes to `spike/out/competitor_ingest/` (gitignor
 - `summary.md` — human-readable peer snapshot
 - `cache/` — cached EDGAR responses + 10-Ks (re-runs are fast / offline)
 
+Covers **9 US-listed pure-play AMs** (BlackRock, T. Rowe, Invesco, Franklin, AllianceBernstein,
+Federated Hermes, WisdomTree, Janus Henderson, AMG) — see `registry.py`.
+
 ## What you get
 
 - **No key:** GAAP financials from XBRL `companyfacts` — total revenue, operating income,
-  net income, diluted EPS, operating margin (confidence 1.0, full provenance).
-- **With `ANTHROPIC_API_KEY`:** the AM-specific KPIs (AuM, net flows, management-fee revenue,
-  performance fees, headcount) read from the 10-K, which unlock `effective_fee_rate` and
-  `organic_growth_rate`.
+  net income, diluted EPS, operating margin (confidence 1.0, full provenance) — plus AuM +
+  headcount + select net-flows from `manual_overlay.py` (hand-read from the 10-Ks, cited).
+- **With `ANTHROPIC_API_KEY`:** the remaining AM KPIs (management-fee revenue, performance fees,
+  per-class flows) read from the 10-K tables, which unlock `effective_fee_rate`.
 
 ```bash
 export ANTHROPIC_API_KEY=sk-...           # optional — enables the AM-KPI extractor
