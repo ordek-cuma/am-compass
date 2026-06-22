@@ -19,6 +19,7 @@ OVERLAY: dict[str, list[tuple]] = {
     ],
     "TROW": [  # T. Rowe Price
         ("aum_total", 1_775.6e9, "USD", "2025-12-31", "“assets under management ended 2025 at $1,775.6 billion”", 0.95),
+        ("net_flows", -56.9e9, "USD", "2025-12-31", "“net cash outflows of $56.9 billion” (FY2025 10-K)", 0.75),
         ("headcount", 7_773, "count", "2025-12-31", "“employed 7,773 associates”", 0.9),
     ],
     "IVZ": [  # Invesco — ending total is split across categories; the average is stated cleanly
@@ -39,6 +40,7 @@ OVERLAY: dict[str, list[tuple]] = {
     ],
     "WisdomTree": [  # WisdomTree
         ("aum_total", 144.5e9, "USD", "2025-12-31", "“AUM of $144.5 billion at December 31, 2025”", 0.95),
+        ("net_flows", 8.5e9, "USD", "2025-12-31", "“net inflows of $8.5 billion” (FY2025 10-K)", 0.8),
         ("headcount", 360, "count", "2025-12-31", "“had 360 full-time employees”", 0.9),
     ],
     "JH": [  # Janus Henderson
