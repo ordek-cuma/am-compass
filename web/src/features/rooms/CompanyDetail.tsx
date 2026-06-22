@@ -5,7 +5,7 @@ import { BackIcon } from '../../components/icons'
 import { AttachList, PlainRow, StatCard, type Attachment } from '../../components/facts'
 import { Panel } from '../../components/Panel'
 import { COMPANIES } from '../../data/companies'
-import { financialsFor } from '../../data/financials'
+import { documentsFor, financialsFor, fmtBytes } from '../../data/financials'
 import { fdate } from '../../lib/format'
 import { FinancialsPanel } from './FinancialsPanel'
 
@@ -20,11 +20,18 @@ export function CompanyDetail() {
   const docs = [...c.docs].sort((a, b) => b.date.localeCompare(a.date))
   const last = docs.length ? docs[0].date : ''
   const cats = [...new Set(c.docs.map((d) => d.cat))]
-  const attachments: Attachment[] = docs.map((d) => ({
-    name: d.doc,
+  // Real crawled filings (from the ingestion agent) lead the list; placeholder doc types follow.
+  const crawled: Attachment[] = documentsFor(c.tick).map((d) => ({
+    name: d.name,
     fmt: d.fmt,
-    meta: `${d.cat} · ${fdate(d.date)} · ${d.sz}`,
+    meta: `${d.form} · ${fdate(d.date)} · ${fmtBytes(d.sizeBytes)} · SEC EDGAR`,
+    file: d.file,
+    edgarUrl: d.edgarUrl,
   }))
+  const attachments: Attachment[] = [
+    ...crawled,
+    ...docs.map((d) => ({ name: d.doc, fmt: d.fmt, meta: `${d.cat} · ${fdate(d.date)} · ${d.sz}` })),
+  ]
   const facts: [string, import('react').ReactNode][] = [
     ['Focus', c.seg],
     ['Region', c.region ?? '—'],
@@ -79,7 +86,7 @@ export function CompanyDetail() {
 
       {tab === 'docs' ? (
         <div className="cols-21">
-          <Panel title={`Documents · ${docs.length}`}>
+          <Panel title={`Documents · ${attachments.length}`}>
             <AttachList items={attachments} />
           </Panel>
           <Panel title="Competitor Details">

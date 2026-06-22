@@ -12,12 +12,22 @@ export interface FinMetric {
   source: string
   section: string
 }
+export interface FinDoc {
+  name: string
+  form: string
+  date: string
+  fmt: string
+  sizeBytes: number
+  edgarUrl: string
+  file: string // public path, e.g. "filings/BL/blk-20251231.htm"
+}
 export interface FinBlock {
   name: string
   ticker: string
   regime: string
   cik: string
   period_end: string | null
+  documents?: FinDoc[]
   metrics: Record<string, FinMetric>
 }
 interface FinData {
@@ -33,6 +43,18 @@ export const FINANCIALS_GENERATED = FIN.generated_at
 
 export function financialsFor(code: string): FinBlock | null {
   return FIN.competitors[code] ?? null
+}
+
+/** Real crawled filings for a competitor (from the ingestion agent). */
+export function documentsFor(code: string): FinDoc[] {
+  return FIN.competitors[code]?.documents ?? []
+}
+
+export function fmtBytes(n: number): string {
+  if (n >= 1e9) return `${(n / 1e9).toFixed(1)} GB`
+  if (n >= 1e6) return `${(n / 1e6).toFixed(1)} MB`
+  if (n >= 1e3) return `${(n / 1e3).toFixed(0)} KB`
+  return `${n} B`
 }
 
 // Catalogue: groups → metrics (mirrors the agent's metric_catalog).

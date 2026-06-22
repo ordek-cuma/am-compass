@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:27:31+00:00",
+  "generated_at": "2026-06-22T09:35:14+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -8,6 +8,17 @@
       "regime": "US-listed",
       "cik": "0002012383",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-25",
+          "fmt": "HTM",
+          "sizeBytes": 12551314,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+          "file": "filings/BL/blk-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 24216000000.0,
@@ -89,6 +100,17 @@
       "regime": "US-listed",
       "cik": "0001113169",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-13",
+          "fmt": "HTM",
+          "sizeBytes": 2783131,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026008002/trow-20251231.htm",
+          "file": "filings/TROW/trow-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 7314800000.0,
@@ -154,6 +176,17 @@
       "regime": "US-listed",
       "cik": "0000914208",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-24",
+          "fmt": "HTM",
+          "sizeBytes": 3151037,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000079/ivz-20251231.htm",
+          "file": "filings/IVZ/ivz-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 6377100000.0,
@@ -219,6 +252,17 @@
       "regime": "US-listed",
       "cik": "0000038777",
       "period_end": "2025-09-30",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2025-11-10",
+          "fmt": "HTM",
+          "sizeBytes": 2802766,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000238/ben-20250930.htm",
+          "file": "filings/FT/ben-20250930.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 8770700000.0,
@@ -284,6 +328,17 @@
       "regime": "US-listed",
       "cik": "0001109448",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-12",
+          "fmt": "HTM",
+          "sizeBytes": 4703989,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1109448/000110944826000017/ablp-20251231.htm",
+          "file": "filings/AB/ablp-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 4593648000.0,
@@ -341,6 +396,17 @@
       "regime": "US-listed",
       "cik": "0001056288",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-27",
+          "fmt": "HTM",
+          "sizeBytes": 2358258,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000007/fhi-20251231.htm",
+          "file": "filings/FED/fhi-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 1800663000.0,
@@ -406,6 +472,17 @@
       "regime": "US-listed",
       "cik": "0000880631",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-25",
+          "fmt": "HTM",
+          "sizeBytes": 2372266,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926002458/wti-20251231.htm",
+          "file": "filings/WisdomTree/wti-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 493753000.0,
@@ -471,6 +548,17 @@
       "regime": "US-listed",
       "cik": "0001274173",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-25",
+          "fmt": "HTM",
+          "sizeBytes": 3901024,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926005628/jhg20251231_10k.htm",
+          "file": "filings/JH/jhg20251231_10k.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 1743700000.0,
@@ -536,6 +624,17 @@
       "regime": "US-listed",
       "cik": "0001004434",
       "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-17",
+          "fmt": "HTM",
+          "sizeBytes": 5284716,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026008665/amg-20251231.htm",
+          "file": "filings/AMG/amg-20251231.htm"
+        }
+      ],
       "metrics": {
         "total_revenue": {
           "value": 2074400000.0,

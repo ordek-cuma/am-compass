@@ -3,15 +3,29 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
 import { DlIcon, FileMiniIcon } from './icons'
 
-interface PreviewState {
+interface DocRef {
+  file?: string // same-origin public path → real iframe preview + real download
+  edgarUrl?: string // source URL → "Open at SEC"
+}
+interface PreviewState extends DocRef {
   name: string
   fmt: string
   meta?: string
 }
 
 interface UiApi {
-  openPreview: (name: string, fmt: string, meta?: string) => void
-  downloadDoc: (name: string, fmt?: string) => void
+  openPreview: (name: string, fmt: string, meta?: string, ref?: DocRef) => void
+  downloadDoc: (name: string, fmt?: string, href?: string) => void
+}
+
+function triggerDownload(href: string, name: string) {
+  const a = document.createElement('a')
+  a.href = href
+  a.download = name
+  a.rel = 'noopener'
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
 }
 
 const UiContext = createContext<UiApi | null>(null)
@@ -78,13 +92,14 @@ export function UiProvider({ children }: { children: ReactNode }) {
     setTimeout(() => setPreview(null), 180)
   }, [])
 
-  const openPreview = useCallback((name: string, fmt: string, meta?: string) => {
-    setPreview({ name, fmt, meta })
+  const openPreview = useCallback((name: string, fmt: string, meta?: string, ref?: DocRef) => {
+    setPreview({ name, fmt, meta, file: ref?.file, edgarUrl: ref?.edgarUrl })
     requestAnimationFrame(() => setShown(true))
   }, [])
 
-  const downloadDoc = useCallback((name: string, fmt?: string) => {
-    setToastMsg('Downloading ' + name + (fmt ? ' · ' + fmt : '') + '…')
+  const downloadDoc = useCallback((name: string, fmt?: string, href?: string) => {
+    if (href) triggerDownload(href, name) // real file → real download
+    setToastMsg((href ? 'Downloading ' : 'Downloading ') + name + (fmt ? ' · ' + fmt : '') + '…')
     setToastShow(true)
     clearTimeout(toastTimer.current)
     toastTimer.current = setTimeout(() => setToastShow(false), 2600)
@@ -123,16 +138,33 @@ export function UiProvider({ children }: { children: ReactNode }) {
                 </svg>
               </button>
             </div>
-            <div className="modal-b">
-              <PreviewBody fmt={preview.fmt} />
+            <div className="modal-b" style={preview.file ? { padding: 0, background: 'var(--surface)' } : undefined}>
+              {preview.file ? (
+                <iframe
+                  title={preview.name}
+                  src={`/${preview.file}`}
+                  sandbox="allow-same-origin allow-popups"
+                  style={{ width: '100%', height: '64vh', border: 0, background: '#fff', borderRadius: 'var(--r-lg)' }}
+                />
+              ) : (
+                <PreviewBody fmt={preview.fmt} />
+              )}
             </div>
             <div className="modal-f">
-              <span className="badge instance">Preview</span>
+              <span className="badge instance">{preview.file ? 'Crawled file' : 'Preview'}</span>
               <span className="sp" />
+              {preview.edgarUrl ? (
+                <a className="btn" href={preview.edgarUrl} target="_blank" rel="noreferrer">
+                  Open at SEC ↗
+                </a>
+              ) : null}
               <button className="btn" onClick={closePreview}>
                 Close
               </button>
-              <button className="btn pri" onClick={() => downloadDoc(preview.name, preview.fmt)}>
+              <button
+                className="btn pri"
+                onClick={() => downloadDoc(preview.name, preview.fmt, preview.file ? `/${preview.file}` : undefined)}
+              >
                 <DlIcon />
                 Download
               </button>

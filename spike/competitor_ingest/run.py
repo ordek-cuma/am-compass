@@ -54,14 +54,26 @@ def run() -> None:
         obs = extract_xbrl.extract(comp.competitor_id, facts, now)
         print(f"  xbrl: {len(obs)} financial metrics")
 
+        # Harvest the actual filing → save the crawled file + record it as a document.
         filing = edgar.latest_annual_filing(cik)
-        if filing and C.ANTHROPIC_API_KEY:
+        documents = []
+        if filing:
             html = edgar.get_text(filing["url"])
-            kpis = extract_llm.extract(comp.competitor_id, html, filing["url"], now)
-            print(f"  llm:  {len(kpis)} AM KPIs from {filing['form']} {filing['filingDate']}")
-            obs += kpis
-        elif filing:
-            print(f"  llm:  skipped (no ANTHROPIC_API_KEY) — {filing['form']} {filing['filingDate']} ready to read")
+            rel = f"filings/{comp.competitor_id}/{filing['primaryDocument']}"
+            fpath = C.OUT_DIR / rel
+            fpath.parent.mkdir(parents=True, exist_ok=True)
+            fpath.write_text(html, encoding="utf-8")
+            documents.append({
+                "name": f"Annual Report ({filing['form']})",
+                "form": filing["form"], "date": filing["filingDate"], "fmt": "HTM",
+                "sizeBytes": len(html.encode("utf-8")),
+                "edgarUrl": filing["url"], "file": rel,
+            })
+            print(f"  crawled: {filing['form']} {filing['filingDate']} → {rel} ({len(html)//1024} KB)")
+            if C.ANTHROPIC_API_KEY:
+                kpis = extract_llm.extract(comp.competitor_id, html, filing["url"], now)
+                print(f"  llm:  {len(kpis)} AM KPIs")
+                obs += kpis
 
         ov = manual_overlay.overlay(comp.competitor_id, now, filing["url"] if filing else "")
         if ov:
@@ -81,6 +93,7 @@ def run() -> None:
             "regime": comp.regime,
             "cik": cik,
             "period_end": max((o.period_end for o in obs), default=None),
+            "documents": documents,
             "metrics": {
                 k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
                     "source": o.source_doc, "section": o.source_section}
