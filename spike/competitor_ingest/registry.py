@@ -27,6 +27,11 @@ BELLWETHERS: list[Competitor] = [
     # AB: the ticker resolves to the holding LP (pass-through, ~1 tagged metric); the
     # operating partnership AllianceBernstein L.P. carries the real financials.
     Competitor("AB", "AllianceBernstein", "AB", "US-listed", "0000825313", cik_override="0001109448"),
+    # Other US-listed pure-play AMs (group financials ≈ AM financials → clean to ingest).
+    Competitor("FED", "Federated Hermes", "FHI", "US-listed", "0001056288"),
+    Competitor("WisdomTree", "WisdomTree", "WT", "US-listed", "0000880631"),
+    Competitor("JH", "Janus Henderson", "JHG", "US-listed", "0001633917"),
+    Competitor("AMG", "Affiliated Managers Group", "AMG", "US-listed", "0001004434"),
 ]
 
 

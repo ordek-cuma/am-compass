@@ -33,6 +33,22 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_total", 866.9e9, "USD", "2025-12-31", "“AUM as of December 31, 2025 were $866.9 billion”", 0.95),
         ("headcount", 4_468, "count", "2025-12-31", "“had 4,468 full-time employees”", 0.9),
     ],
+    "FED": [  # Federated Hermes
+        ("aum_total", 902.6e9, "USD", "2025-12-31", "“$902.6 billion in assets under management”", 0.92),
+        ("headcount", 2_091, "count", "2025-12-31", "“had 2,091 employees”", 0.85),
+    ],
+    "WisdomTree": [  # WisdomTree
+        ("aum_total", 144.5e9, "USD", "2025-12-31", "“AUM of $144.5 billion at December 31, 2025”", 0.95),
+        ("headcount", 360, "count", "2025-12-31", "“had 360 full-time employees”", 0.9),
+    ],
+    "JH": [  # Janus Henderson
+        ("aum_total", 493.2e9, "USD", "2025-12-31", "“assets under management (“AUM”) of $493.2 billion”", 0.95),
+        ("headcount", 2_300, "count", "2025-12-31", "“2,300 employees”", 0.85),
+    ],
+    "AMG": [  # Affiliated Managers Group
+        ("aum_total", 813e9, "USD", "2025-12-31", "“assets under management were approximately $813 billion”", 0.85),
+        ("headcount", 5_600, "count", "2025-12-31", "“approximately 5,600 employees”", 0.85),
+    ],
 }
 
 
