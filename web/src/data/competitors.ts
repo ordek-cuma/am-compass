@@ -1,8 +1,9 @@
 // Radar — the watchlist of asset-management competitors to monitor (not deep-dives;
 // deep-dives live in the Company Data Room). Taxonomy researched per firm:
-//   region (HQ), owner (who controls it), focus (what they're known for), website.
-// Operational fields (data source to crawl, last-fetched, status) are wired later — the
-// page renders them as placeholders for now.
+//   region (HQ), owner (who controls it), focus (what they're known for),
+//   category (DISCLOSURE REGIME → where to fetch their data), website.
+// Operational fields (last-fetched, status) are wired later — placeholders for now;
+// the Data Source column is derived from `category` (see CATEGORY_SOURCE).
 
 export type Region = 'North America' | 'Europe'
 export type Owner = 'Independent' | 'Bank' | 'Insurer' | 'Public / Cooperative'
@@ -14,6 +15,17 @@ export type Focus =
   | 'Real Estate'
   | 'Platform / Master-KVG'
 
+/** Disclosure regime = the primary place to fetch corporate/product intel. */
+export type Category = 'US-listed' | 'Private / Mutual' | 'European-listed' | 'German KVG'
+
+/** Per-category primary source (drives the Data Source column). */
+export const CATEGORY_SOURCE: Record<Category, string> = {
+  'US-listed': 'SEC EDGAR — 10-K (group filers via parent)',
+  'Private / Mutual': 'Form ADV + fund filings',
+  'European-listed': 'Universal Registration Document (URD)',
+  'German KVG': 'Bundesanzeiger + fund Jahresberichte',
+}
+
 export interface Competitor {
   /** Accurate legal/brand name (may differ from the as-listed shorthand). */
   name: string
@@ -23,48 +35,50 @@ export interface Competitor {
   region: Region
   owner: Owner
   focus: Focus
+  category: Category
   /** Bare domain; the UI builds the https:// link. */
   website: string
-  /** Disambiguation / duplicate flags surfaced in the table. */
+  /** Disambiguation / ownership notes surfaced in the table. */
   note?: string
 }
 
 export const COMPETITORS: Competitor[] = [
-  { name: 'AllianceBernstein', code: 'AB', hq: 'Nashville, US', region: 'North America', owner: 'Independent', focus: 'Diversified', website: 'alliancebernstein.com', note: 'Listed; majority-controlled by Equitable Holdings' },
-  { name: 'Allianz Global Investors', code: 'AGI', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Insurer', focus: 'Diversified', website: 'allianzgi.com', note: 'Allianz-owned; sister manager to PIMCO (under the Allianz AM holding)' },
-  { name: 'PIMCO', code: 'PIMCO', hq: 'Newport Beach, US', region: 'North America', owner: 'Insurer', focus: 'Fixed Income', website: 'pimco.com', note: 'Allianz subsidiary' },
-  { name: 'Affiliated Managers Group', code: 'AMG', hq: 'West Palm Beach, US', region: 'North America', owner: 'Independent', focus: 'Diversified', website: 'amg.com', note: 'Listed multi-boutique holding' },
-  { name: 'Amundi', code: 'AMU', hq: 'Paris, FR', region: 'Europe', owner: 'Bank', focus: 'ETF / Index', website: 'amundi.com', note: 'Crédit Agricole majority; largest European AM' },
-  { name: 'BlackRock', code: 'BL', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', website: 'blackrock.com', note: 'iShares; world’s largest AM (ticker BLK)' },
-  { name: 'BNP Paribas Asset Management', code: 'BNP', hq: 'Paris, FR', region: 'Europe', owner: 'Bank', focus: 'Diversified', website: 'bnpparibas-am.com' },
-  { name: 'Federated Hermes', code: 'FED', hq: 'Pittsburgh, US', region: 'North America', owner: 'Independent', focus: 'Fixed Income', website: 'federatedhermes.com', note: 'Money-market heavy + Hermes ESG/stewardship' },
-  { name: 'Franklin Templeton', code: 'FT', hq: 'San Mateo, US', region: 'North America', owner: 'Independent', focus: 'Diversified', website: 'franklintempleton.com', note: 'Multi-affiliate (Western Asset, ClearBridge, Martin Currie…)' },
-  { name: 'Invesco', code: 'IVZ', hq: 'Atlanta, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', website: 'invesco.com', note: 'QQQ + PowerShares ETF franchise' },
-  { name: 'Janus Henderson', code: 'JH', hq: 'London, UK / Denver, US', region: 'Europe', owner: 'Independent', focus: 'Diversified', website: 'janushenderson.com', note: 'Dual UK/US; NYSE: JHG' },
-  { name: 'J.P. Morgan Asset Management', code: 'JPM', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', website: 'am.jpmorgan.com', note: 'Fast-growing active-ETF franchise' },
-  { name: 'Morgan Stanley Investment Management', code: 'MS', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', website: 'morganstanley.com/im', note: 'Incl. Eaton Vance, Calvert, Parametric' },
-  { name: 'Natixis Investment Managers', code: 'NAT', hq: 'Paris, FR / Boston, US', region: 'Europe', owner: 'Bank', focus: 'Diversified', website: 'im.natixis.com', note: 'Groupe BPCE; multi-affiliate (Loomis Sayles, Mirova…)' },
-  { name: 'PGIM (Prudential Financial)', code: 'PGIM', hq: 'Newark, US', region: 'North America', owner: 'Insurer', focus: 'Diversified', website: 'pgim.com', note: 'AM arm of Prudential Financial (US)' },
-  { name: 'State Street Global Advisors', code: 'SSgA', hq: 'Boston, US', region: 'North America', owner: 'Bank', focus: 'ETF / Index', website: 'ssga.com', note: 'SPDR; launched the first US ETF' },
-  { name: 'T. Rowe Price', code: 'TROW', hq: 'Baltimore, US', region: 'North America', owner: 'Independent', focus: 'Diversified', website: 'troweprice.com', note: 'Active equity & target-date specialist' },
-  { name: 'UBS Asset Management', code: 'UBS', hq: 'Zurich, CH', region: 'Europe', owner: 'Bank', focus: 'Diversified', website: 'ubs.com/am', note: 'Absorbed Credit Suisse AM (2023)' },
-  { name: 'Union Investment', code: 'Union', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Diversified', website: 'union-investment.de', note: 'DZ Bank cooperative group (~72%); strong UniImmo real estate' },
-  { name: 'DekaBank (Deka Investment)', code: 'DEKA', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Diversified', website: 'deka.de', note: 'AM of the Sparkassen savings-bank group; Deka ETFs; parent of Deka Immobilien' },
-  { name: 'MEAG', code: 'MEAG', hq: 'Munich, DE', region: 'Europe', owner: 'Insurer', focus: 'Fixed Income', website: 'meag.com', note: 'AM of Munich Re & ERGO' },
-  { name: 'HSBC INKA (Trinkaus & Burkhardt)', code: 'HSBC T&B', hq: 'Düsseldorf, DE', region: 'Europe', owner: 'Bank', focus: 'Platform / Master-KVG', website: 'inka-kag.de', note: 'HSBC’s German Master-KVG (ex Trinkaus & Burkhardt); pending sale to BlackFin Capital' },
-  { name: 'Universal Investment', code: 'Universal Invest.', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Independent', focus: 'Platform / Master-KVG', website: 'universal-investment.com', note: 'PE-owned (Montagu, CPP); ~€1.4tn third-party ManCo platform' },
-  { name: 'BayernInvest', code: 'Bayern Invest', hq: 'Munich, DE', region: 'Europe', owner: 'Bank', focus: 'Platform / Master-KVG', website: 'bayerninvest.de', note: '100% BayernLB subsidiary; institutional AM + Master-KVG' },
-  { name: 'Vanguard', code: 'Vanguard', hq: 'Malvern, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', website: 'vanguard.com', note: 'Client-owned mutual structure; 2nd-largest AM' },
-  { name: 'Fidelity Investments', code: 'Fidelity', hq: 'Boston, US', region: 'North America', owner: 'Independent', focus: 'Diversified', website: 'fidelity.com', note: 'Private (FMR); intl arm is FIL — fidelityinternational.com' },
-  { name: 'WisdomTree', code: 'WisdomTree', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', website: 'wisdomtree.com', note: 'ETP specialist (smart beta, commodities)' },
-  { name: 'Goldman Sachs Asset Management', code: 'Goldman Sachs', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', website: 'am.gs.com' },
-  { name: 'Blackstone', code: 'Blackstone', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'Alternatives', website: 'blackstone.com', note: 'Listed alternatives giant (PE, real estate, credit)' },
-  { name: 'Swiss Life Asset Managers', code: 'Swiss Life AM', hq: 'Zurich, CH', region: 'Europe', owner: 'Insurer', focus: 'Real Estate', website: 'swisslife-am.com', note: 'Large European real-estate & fixed-income manager' },
-  { name: 'AXA IM Alts', code: 'AXA IM Alts.', hq: 'Paris, FR', region: 'Europe', owner: 'Insurer', focus: 'Alternatives', website: 'axa-im.com', note: 'Alternatives/real-assets arm of AXA IM' },
-  { name: 'Deka Immobilien', code: 'Deka Immobilien', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Real Estate', website: 'deka-immobilien.de', note: 'Real-estate arm of DekaBank' },
+  { name: 'AllianceBernstein', code: 'AB', hq: 'Nashville, US', region: 'North America', owner: 'Independent', focus: 'Diversified', category: 'US-listed', website: 'alliancebernstein.com', note: 'Listed (NYSE: AB); majority-controlled by Equitable Holdings' },
+  { name: 'Allianz Global Investors', code: 'AGI', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Insurer', focus: 'Diversified', category: 'European-listed', website: 'allianzgi.com', note: 'Allianz-owned; sister manager to PIMCO. Allianz group URD' },
+  { name: 'PIMCO', code: 'PIMCO', hq: 'Newport Beach, US', region: 'North America', owner: 'Insurer', focus: 'Fixed Income', category: 'Private / Mutual', website: 'pimco.com', note: 'Private Allianz subsidiary — no 10-K; Form ADV + fund filings' },
+  { name: 'Affiliated Managers Group', code: 'AMG', hq: 'West Palm Beach, US', region: 'North America', owner: 'Independent', focus: 'Diversified', category: 'US-listed', website: 'amg.com', note: 'Listed multi-boutique holding (NYSE: AMG)' },
+  { name: 'Amundi', code: 'AMU', hq: 'Paris, FR', region: 'Europe', owner: 'Bank', focus: 'ETF / Index', category: 'European-listed', website: 'amundi.com', note: 'Crédit Agricole majority; largest European AM. Files a URD' },
+  { name: 'BlackRock', code: 'BL', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', category: 'US-listed', website: 'blackrock.com', note: 'iShares; world’s largest AM (NYSE: BLK)' },
+  { name: 'BNP Paribas Asset Management', code: 'BNP', hq: 'Paris, FR', region: 'Europe', owner: 'Bank', focus: 'Diversified', category: 'European-listed', website: 'bnpparibas-am.com', note: 'BNP Paribas group URD' },
+  { name: 'Federated Hermes', code: 'FED', hq: 'Pittsburgh, US', region: 'North America', owner: 'Independent', focus: 'Fixed Income', category: 'US-listed', website: 'federatedhermes.com', note: 'Listed (NYSE: FHI). Money-market heavy + Hermes stewardship' },
+  { name: 'Franklin Templeton', code: 'FT', hq: 'San Mateo, US', region: 'North America', owner: 'Independent', focus: 'Diversified', category: 'US-listed', website: 'franklintempleton.com', note: 'Listed (NYSE: BEN). Multi-affiliate (Western Asset, ClearBridge…)' },
+  { name: 'Invesco', code: 'IVZ', hq: 'Atlanta, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', category: 'US-listed', website: 'invesco.com', note: 'Listed (NYSE: IVZ). QQQ + PowerShares ETF franchise' },
+  { name: 'Janus Henderson', code: 'JH', hq: 'London, UK / Denver, US', region: 'Europe', owner: 'Independent', focus: 'Diversified', category: 'US-listed', website: 'janushenderson.com', note: 'Dual UK/US but SEC-registered & NYSE-listed (JHG) → 10-K' },
+  { name: 'J.P. Morgan Asset Management', code: 'JPM', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', category: 'US-listed', website: 'am.jpmorgan.com', note: 'Group filer — disclosure via JPMorgan Chase 10-K' },
+  { name: 'Morgan Stanley Investment Management', code: 'MS', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', category: 'US-listed', website: 'morganstanley.com/im', note: 'Group filer — Morgan Stanley 10-K. Incl. Eaton Vance, Parametric' },
+  { name: 'Natixis Investment Managers', code: 'NAT', hq: 'Paris, FR / Boston, US', region: 'Europe', owner: 'Bank', focus: 'Diversified', category: 'European-listed', website: 'im.natixis.com', note: 'Groupe BPCE URD; multi-affiliate (Loomis Sayles, Mirova…)' },
+  { name: 'PGIM (Prudential Financial)', code: 'PGIM', hq: 'Newark, US', region: 'North America', owner: 'Insurer', focus: 'Diversified', category: 'US-listed', website: 'pgim.com', note: 'Group filer — Prudential Financial 10-K' },
+  { name: 'State Street Global Advisors', code: 'SSgA', hq: 'Boston, US', region: 'North America', owner: 'Bank', focus: 'ETF / Index', category: 'US-listed', website: 'ssga.com', note: 'Group filer — State Street 10-K. SPDR; first US ETF' },
+  { name: 'T. Rowe Price', code: 'TROW', hq: 'Baltimore, US', region: 'North America', owner: 'Independent', focus: 'Diversified', category: 'US-listed', website: 'troweprice.com', note: 'Listed (NASDAQ: TROW). Active equity & target-date' },
+  { name: 'UBS Asset Management', code: 'UBS', hq: 'Zurich, CH', region: 'Europe', owner: 'Bank', focus: 'Diversified', category: 'European-listed', website: 'ubs.com/am', note: 'UBS Group annual report; absorbed Credit Suisse AM (2023)' },
+  { name: 'Union Investment', code: 'Union', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Diversified', category: 'German KVG', website: 'union-investment.de', note: 'DZ Bank cooperative group (~72%); intel in Jahresberichte' },
+  { name: 'DekaBank (Deka Investment)', code: 'DEKA', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Diversified', category: 'German KVG', website: 'deka.de', note: 'AM of the Sparkassen savings-bank group; parent of Deka Immobilien' },
+  { name: 'MEAG', code: 'MEAG', hq: 'Munich, DE', region: 'Europe', owner: 'Insurer', focus: 'Fixed Income', category: 'German KVG', website: 'meag.com', note: 'AM of Munich Re & ERGO; Bundesanzeiger + Jahresberichte' },
+  { name: 'HSBC INKA (Trinkaus & Burkhardt)', code: 'HSBC T&B', hq: 'Düsseldorf, DE', region: 'Europe', owner: 'Bank', focus: 'Platform / Master-KVG', category: 'German KVG', website: 'inka-kag.de', note: 'HSBC’s German Master-KVG (ex Trinkaus & Burkhardt); pending sale to BlackFin' },
+  { name: 'Universal Investment', code: 'Universal Invest.', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Independent', focus: 'Platform / Master-KVG', category: 'German KVG', website: 'universal-investment.com', note: 'PE-owned (Montagu, CPP); ~€1.4tn third-party ManCo / Service-KVG' },
+  { name: 'BayernInvest', code: 'Bayern Invest', hq: 'Munich, DE', region: 'Europe', owner: 'Bank', focus: 'Platform / Master-KVG', category: 'German KVG', website: 'bayerninvest.de', note: '100% BayernLB subsidiary; institutional AM + Master-KVG' },
+  { name: 'Vanguard', code: 'Vanguard', hq: 'Malvern, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', category: 'Private / Mutual', website: 'vanguard.com', note: 'Client-owned mutual structure — thin corp disclosure; fund filings' },
+  { name: 'Fidelity Investments', code: 'Fidelity', hq: 'Boston, US', region: 'North America', owner: 'Independent', focus: 'Diversified', category: 'Private / Mutual', website: 'fidelity.com', note: 'Private (FMR) — Form ADV + fund filings. Intl arm FIL is separate' },
+  { name: 'WisdomTree', code: 'WisdomTree', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'ETF / Index', category: 'US-listed', website: 'wisdomtree.com', note: 'Listed (NYSE: WT). ETP specialist (smart beta, commodities)' },
+  { name: 'Goldman Sachs Asset Management', code: 'Goldman Sachs', hq: 'New York, US', region: 'North America', owner: 'Bank', focus: 'Diversified', category: 'US-listed', website: 'am.gs.com', note: 'Group filer — Goldman Sachs 10-K' },
+  { name: 'Blackstone', code: 'Blackstone', hq: 'New York, US', region: 'North America', owner: 'Independent', focus: 'Alternatives', category: 'US-listed', website: 'blackstone.com', note: 'Listed alternatives giant (NYSE: BX) — 10-K' },
+  { name: 'Swiss Life Asset Managers', code: 'Swiss Life AM', hq: 'Zurich, CH', region: 'Europe', owner: 'Insurer', focus: 'Real Estate', category: 'European-listed', website: 'swisslife-am.com', note: 'Swiss Life group (SIX-listed) annual report; large European RE' },
+  { name: 'AXA IM Alts', code: 'AXA IM Alts.', hq: 'Paris, FR', region: 'Europe', owner: 'Insurer', focus: 'Alternatives', category: 'European-listed', website: 'axa-im.com', note: 'AXA group URD; alternatives/real-assets arm of AXA IM' },
+  { name: 'Deka Immobilien', code: 'Deka Immobilien', hq: 'Frankfurt, DE', region: 'Europe', owner: 'Public / Cooperative', focus: 'Real Estate', category: 'German KVG', website: 'deka-immobilien.de', note: 'Real-estate KVG of DekaBank; fund Jahresberichte' },
 ]
 
 export const CR_FACETS: Record<string, string[]> = {
+  category: ['Category', 'US-listed', 'Private / Mutual', 'European-listed', 'German KVG'],
   region: ['Region', 'North America', 'Europe'],
   owner: ['Owner', 'Independent', 'Bank', 'Insurer', 'Public / Cooperative'],
   focus: ['Focus', 'Diversified', 'ETF / Index', 'Fixed Income', 'Alternatives', 'Real Estate', 'Platform / Master-KVG'],

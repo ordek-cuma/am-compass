@@ -48,6 +48,15 @@ export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }
         </div>
 
         <div className="dr-grp">
+          <div className="dr-ttl">Radar</div>
+          <a className={`dr-item${pathname.startsWith('/rooms/radar') ? ' on' : ''}`} onClick={() => go('/rooms/radar/competitors')}>
+            <Icon name="target" size={17} />
+            Competitor Radar
+            <span className="tag">{COMPETITORS.length}</span>
+          </a>
+        </div>
+
+        <div className="dr-grp">
           <div className="dr-ttl">Data Rooms</div>
           <a className={`dr-item${pathname.startsWith('/rooms/company') ? ' on' : ''}`} onClick={() => go('/rooms/company')}>
             <Icon name="building" size={17} />
@@ -58,15 +67,6 @@ export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }
             <Icon name="box" size={17} />
             Product Data Room
             <span className="tag">{FUNDS.length}</span>
-          </a>
-        </div>
-
-        <div className="dr-grp">
-          <div className="dr-ttl">Radar</div>
-          <a className={`dr-item${pathname.startsWith('/rooms/radar') ? ' on' : ''}`} onClick={() => go('/rooms/radar/competitors')}>
-            <Icon name="target" size={17} />
-            Competitor Radar
-            <span className="tag">{COMPETITORS.length}</span>
           </a>
         </div>
 
