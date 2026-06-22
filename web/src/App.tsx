@@ -7,6 +7,7 @@ import { ProductScreener } from './features/rooms/ProductScreener'
 import { FundDetail } from './features/rooms/FundDetail'
 import { CompanyScreener } from './features/rooms/CompanyScreener'
 import { CompanyDetail } from './features/rooms/CompanyDetail'
+import { CompetitorRadar } from './features/radar/CompetitorRadar'
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
               <Route path="product/:fundId" element={<FundDetail />} />
               <Route path="company" element={<CompanyScreener />} />
               <Route path="company/:companyId" element={<CompanyDetail />} />
+              <Route path="radar" element={<Navigate to="/rooms/radar/competitors" replace />} />
+              <Route path="radar/competitors" element={<CompetitorRadar />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>
