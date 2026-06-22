@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:35:14+00:00",
+  "generated_at": "2026-06-22T09:47:22+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -691,6 +691,112 @@
           "confidence": 1.0,
           "source": "derived",
           "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "AMU": {
+      "name": "Amundi",
+      "ticker": "AMU",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 2570400000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u20ac2,380bn AUM at 31 Dec 2025 (all-time high)"
+        },
+        "net_flows": {
+          "value": 94608000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "+\u20ac87.6bn net inflows FY2025"
+        },
+        "organic_growth_rate": {
+          "value": 3.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows"
+        }
+      }
+    },
+    "AGI": {
+      "name": "Allianz Global Investors",
+      "ticker": "AGI",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 638280000000.0001,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u20ac591bn AllianzGI AUM at Dec 2025 (Allianz disclosure)"
+        }
+      }
+    },
+    "NAT": {
+      "name": "Natixis Investment Managers",
+      "ticker": "NAT",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 1553000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "$1,553bn (\u20ac1,322bn) affiliated AUM at 31 Dec 2025"
+        }
+      }
+    },
+    "BNP": {
+      "name": "BNP Paribas Asset Management",
+      "ticker": "BNP",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 1728000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": ">\u20ac1.6tn AUM end-2025 (post-AXA IM merger, 31 Dec 2025)"
+        }
+      }
+    },
+    "Swiss Life AM": {
+      "name": "Swiss Life Asset Managers",
+      "ticker": "Swiss Life AM",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 160270000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "CHF 145.7bn third-party AuM at 31 Dec 2025"
         }
       }
     }

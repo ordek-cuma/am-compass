@@ -73,7 +73,11 @@ Computed from base observations with `confidence = min(inputs)` and the input ke
 ## Phasing
 
 1. **Phase 1 — US-listed via SEC EDGAR** ✅ *(built — see below)*
-2. **Phase 2 — European-listed (URD via IR sites)** — heavier layout-aware PDF extraction
+2. **Phase 2 — European-listed (URD via IR sites)** — heavier layout-aware PDF extraction.
+   *Interim:* [`europe_overlay.py`](../../spike/competitor_ingest/europe_overlay.py) carries primary-sourced
+   **total AuM** (the AM headline) for Amundi, Allianz GI, Natixis, BNP Paribas AM, Swiss Life AM — native
+   EUR/CHF converted to USD at a stated period-end rate (group financials stay pending; they're not AM-specific).
+   Surfaced two strategy signals: AXA IM → BNP Paribas (merged 31 Dec 2025); Natixis IM ↔ Generali.
 3. **Phase 3 — German KVG (Bundesanzeiger + Jahresberichte) + Form ADV for private firms**
 4. **Phase 4 — Holdings (N-PORT) + ops-stack intel (service providers)** → feeds the signals engine
 
