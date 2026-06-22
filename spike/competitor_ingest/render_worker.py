@@ -1,18 +1,26 @@
 """Headless-render worker — discovers document links on JS-rendered IR sites that a plain
-HTTP GET can't see (the docs are injected client-side, often via a DMS like Amundi's Nuxeo).
+HTTP GET can't see (the docs are injected client-side, often via a DMS or a q4cdn widget).
 
 Runs under spike/.venv (Playwright + headless Chromium), invoked as a SUBPROCESS by the
 stdlib crawler so the core stays dependency-free:
 
     .venv/bin/python -m competitor_ingest.render_worker   # spec JSON on stdin
 
-Reads {"pages": [{url, selector, label_attr, group, scroll}]} from stdin and prints a JSON
-list of {label, url, group} on stdout. Download stays in web.py (stdlib urllib) — only
-discovery needs the browser. Setup: see requirements-render.txt.
+Reads {"pages": [PageSpec…]} from stdin and prints a JSON list of {label, url, group} on
+stdout. Per page it supports: a fallback selector+attr harvest, a custom `extract` JS (for
+rich per-row labels), iterating a `<select>` (e.g. a year filter) and harvesting after each
+option, an `exclude` regex, lazy-load scrolling, and a settle wait. A realistic browser
+profile (real UA / viewport / launch arg) lets managed bot-challenges clear on their own —
+we never solve a challenge. Download stays in web.py (stdlib). Setup: requirements-render.txt.
 """
 import json
 import re
 import sys
+
+_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+_COOKIE_LABELS = ("Accept all", "Accept All Cookies", "Accept", "I agree", "Agree",
+                  "Tout accepter", "Allow all", "Got it", "OK")
 
 
 def main() -> None:
@@ -30,47 +38,82 @@ def main() -> None:
     out: list[dict] = []
     seen: set[str] = set()
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        for spec_page in spec.get("pages", []):
-            url = spec_page["url"]
-            selector = spec_page.get("selector", "a[href]")
-            group = spec_page.get("group", "Reports")
-            attr = spec_page.get("label_attr", "aria-label")
-            scroll = int(spec_page.get("scroll", 8))
+        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(user_agent=_UA, locale="en-US", viewport={"width": 1366, "height": 900})
+        page = ctx.new_page()
+        for sp in spec.get("pages", []):
+            url = sp["url"]
+            group = sp.get("group", "Reports")
+            settle = int(sp.get("settle", 4000))
+            selector = sp.get("selector", "a[href]")
+            attr = sp.get("label_attr", "aria-label")
+            scroll = int(sp.get("scroll", 8))
+            iterate = sp.get("iterate_select")
+            iterate_limit = sp.get("iterate_limit")
+            extract = sp.get("extract")
+            exclude = re.compile(sp["exclude"]) if sp.get("exclude") else None
             try:
-                page.goto(url, wait_until="networkidle", timeout=45000)
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
             except Exception as e:
                 print(f"goto {url}: {e}", file=sys.stderr)
                 continue
-            page.wait_for_timeout(1200)
-            for label in ("Accept all", "Accept All Cookies", "Accept", "I agree", "Agree",
-                          "Tout accepter", "Allow all", "Got it", "OK"):  # dismiss consent gates
+            page.wait_for_timeout(settle)  # let JS render / managed challenge clear
+            for label in _COOKIE_LABELS:
                 try:
-                    page.click(f"button:has-text('{label}')", timeout=1200)
-                    page.wait_for_timeout(700)
+                    page.click(f"button:has-text('{label}')", timeout=1000)
+                    page.wait_for_timeout(600)
                     break
                 except Exception:
                     pass
-            for _ in range(scroll):  # trigger lazy-loaded document lists
-                page.mouse.wheel(0, 5000)
-                page.wait_for_timeout(600)
-            page.wait_for_timeout(1000)
-            js = ("els => els.map(e => ({url: e.href, label: (e.getAttribute('%s') || "
-                  "e.getAttribute('title') || e.innerText || '').trim()}))") % attr
-            try:
-                items = page.eval_on_selector_all(selector, js)
-            except Exception as e:
-                print(f"select {url}: {e}", file=sys.stderr)
-                continue
-            for it in items:
-                u = it.get("url")
-                if not u or u in seen:
-                    continue
-                seen.add(u)
-                label = re.sub(r"\s+", " ", it.get("label", "")).strip()
-                label = re.sub(r"^(t[ée]l[ée]charger|download)\s*", "", label, flags=re.I).strip(" -·")
-                out.append({"label": label[:110] or "Document", "url": u, "group": group})
+
+            def harvest() -> list[dict]:
+                if extract:
+                    try:
+                        return page.evaluate(extract)
+                    except Exception as e:
+                        print(f"extract {url}: {e}", file=sys.stderr)
+                        return []
+                for _ in range(scroll):
+                    page.mouse.wheel(0, 5000)
+                    page.wait_for_timeout(500)
+                js = ("els => els.map(e => ({url: e.href, label: (e.getAttribute('%s') || "
+                      "e.getAttribute('title') || e.innerText || '').trim()}))") % attr
+                try:
+                    return page.eval_on_selector_all(selector, js)
+                except Exception as e:
+                    print(f"select {url}: {e}", file=sys.stderr)
+                    return []
+
+            def collect(items: list[dict]) -> None:
+                for it in items or []:
+                    u = it.get("url")
+                    if not u or u in seen:
+                        continue
+                    label = re.sub(r"\s+", " ", it.get("label", "")).strip()
+                    label = re.sub(r"^(t[ée]l[ée]charger|download)\s*", "", label, flags=re.I).strip(" -·")
+                    if exclude and exclude.search(label):
+                        continue
+                    seen.add(u)
+                    out.append({"label": label[:110] or "Document", "url": u, "group": group})
+
+            if iterate:
+                try:
+                    values = page.eval_on_selector_all(f"{iterate} option", "els => els.map(o => o.value).filter(Boolean)")
+                except Exception:
+                    values = []
+                if iterate_limit:
+                    values = values[:iterate_limit]  # options are newest-first → last N years
+                for v in (values or [None]):
+                    if v is not None:
+                        try:
+                            page.select_option(iterate, v)
+                            page.wait_for_timeout(settle)
+                        except Exception as e:
+                            print(f"select_option {iterate}={v}: {e}", file=sys.stderr)
+                            continue
+                    collect(harvest())
+            else:
+                collect(harvest())
         browser.close()
     print(json.dumps(out))
 

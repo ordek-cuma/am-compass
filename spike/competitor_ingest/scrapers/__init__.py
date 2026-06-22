@@ -12,17 +12,17 @@ import re
 import subprocess
 from pathlib import Path
 
-from .base import PageSpec, Scraper
-from . import amundi
+from .base import CompetitorDataScraper, PageSpec
+from . import amundi, blackrock
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
-REGISTRY: dict[str, Scraper] = {s.code: s for s in (amundi.SCRAPER,)}
+REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (amundi.SCRAPER, blackrock.SCRAPER)}
 
 
-def get(code: str) -> Scraper | None:
+def get(code: str) -> CompetitorDataScraper | None:
     return REGISTRY.get(code)
 
 
