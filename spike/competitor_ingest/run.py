@@ -13,7 +13,7 @@ import datetime as dt
 import json
 
 from . import config as C
-from . import derive, edgar, extract_llm, extract_xbrl, manual_overlay, registry
+from . import derive, edgar, europe_overlay, extract_llm, extract_xbrl, manual_overlay, registry
 from .schema import METRIC_CATALOG
 
 HEADLINE = ["aum_total", "net_flows", "total_revenue", "mgmt_fee_revenue", "operating_income",
@@ -94,6 +94,27 @@ def run() -> None:
             "cik": cik,
             "period_end": max((o.period_end for o in obs), default=None),
             "documents": documents,
+            "metrics": {
+                k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
+                    "source": o.source_doc, "section": o.source_section}
+                for k, o in latest.items()
+            },
+        }
+
+    # Phase 2 (interim): European AMs — primary-sourced AuM only, no EDGAR.
+    for cid, spec in europe_overlay.EUROPE.items():
+        print(f"• {spec['name']} (EU) — primary-sourced AuM")
+        obs = europe_overlay.build(cid, now)
+        obs += derive.derive(cid, obs, now)
+        all_obs += obs
+        latest = {}
+        for o in obs:
+            cur = latest.get(o.metric_key)
+            if cur is None or o.period_end > cur.period_end:
+                latest[o.metric_key] = o
+        export["competitors"][cid] = {
+            "name": spec["name"], "ticker": cid, "regime": "European-listed", "cik": None,
+            "period_end": "2025-12-31", "documents": [],
             "metrics": {
                 k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
                     "source": o.source_doc, "section": o.source_section}
