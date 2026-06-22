@@ -5,7 +5,7 @@ import { BackIcon } from '../../components/icons'
 import { AttachList, PlainRow, StatCard, type Attachment } from '../../components/facts'
 import { Empty, Panel } from '../../components/Panel'
 import { COMPANIES } from '../../data/companies'
-import { documentsFor, financialsFor, fmtBytes } from '../../data/financials'
+import { documentsFor, documentsGroupedFor, financialsFor, fmtBytes, type FinDoc } from '../../data/financials'
 import { fdate } from '../../lib/format'
 import { FinancialsPanel } from './FinancialsPanel'
 
@@ -20,7 +20,7 @@ export function CompanyDetail() {
   // ONLY real documents — crawled local files or primary-source links. No placeholders.
   const realDocs = [...documentsFor(c.tick)].sort((a, b) => b.date.localeCompare(a.date))
   const last = realDocs.length ? realDocs[0].date : ''
-  const attachments: Attachment[] = realDocs.map((d) => ({
+  const toAttachment = (d: FinDoc): Attachment => ({
     name: d.name,
     fmt: d.fmt,
     meta: d.file
@@ -28,6 +28,10 @@ export function CompanyDetail() {
       : `${d.form} · ${fdate(d.date)} · primary source`,
     file: d.file || undefined,
     edgarUrl: d.edgarUrl || undefined,
+  })
+  const groups = documentsGroupedFor(c.tick).map((g) => ({
+    group: g.group,
+    items: [...g.docs].sort((a, b) => b.date.localeCompare(a.date)).map(toAttachment),
   }))
   const facts: [string, import('react').ReactNode][] = [
     ['Focus', c.seg],
@@ -82,9 +86,19 @@ export function CompanyDetail() {
 
       {tab === 'docs' ? (
         <div className="cols-21">
-          <Panel title={`Documents · ${attachments.length}`}>
-            {attachments.length ? (
-              <AttachList items={attachments} />
+          <Panel title={`Documents · ${realDocs.length}`}>
+            {groups.length ? (
+              <div className="docgroups">
+                {groups.map((g) => (
+                  <section key={g.group} className="docgroup">
+                    <div className="docgroup-h">
+                      <span>{g.group}</span>
+                      <span className="docgroup-n">{g.items.length}</span>
+                    </div>
+                    <AttachList items={g.items} />
+                  </section>
+                ))}
+              </div>
             ) : (
               <Empty title="No documents yet" desc="This competitor’s filings haven’t been crawled yet (e.g. acquired or pending a harvester)." icon="docs" />
             )}

@@ -362,6 +362,9 @@ button{font-family:inherit; cursor:pointer}
 .statc .v.pos{color:var(--pos)} .statc .v.neg{color:var(--neg)}
 /* documents + facts */
 .rdoc-lab{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 11px}
+.docgroups{display:flex;flex-direction:column;gap:18px}
+.docgroup-h{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 9px}
+.docgroup-n{font-size:10px;font-weight:600;color:var(--ink-2);background:var(--surface-3);border-radius:20px;padding:1px 7px;letter-spacing:0}
 .attach{display:flex;align-items:center;gap:11px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;cursor:pointer;margin-bottom:8px;background:var(--surface)}
 .attach:hover{border-color:var(--teal-tint-2);background:var(--surface-2)}
 .attach.on{border-color:var(--teal);background:var(--teal-tint)}
