@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:47:22+00:00",
+  "generated_at": "2026-06-22T09:52:46+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -742,7 +742,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "\u20ac591bn AllianzGI AUM at Dec 2025 (Allianz disclosure)"
+          "section": "\u20ac591bn AllianzGI AUM at Dec 2025"
         }
       }
     },
@@ -778,7 +778,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
-          "section": ">\u20ac1.6tn AUM end-2025 (post-AXA IM merger, 31 Dec 2025)"
+          "section": ">\u20ac1.6tn AUM end-2025 (post-AXA IM merger)"
         }
       }
     },
@@ -797,6 +797,132 @@
           "confidence": 0.85,
           "source": "results",
           "section": "CHF 145.7bn third-party AuM at 31 Dec 2025"
+        }
+      }
+    },
+    "Union": {
+      "name": "Union Investment",
+      "ticker": "Union",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 577368000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u20ac534.6bn AUM at 31 Dec 2025"
+        }
+      }
+    },
+    "DEKA": {
+      "name": "DekaBank (Deka)",
+      "ticker": "DEKA",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-06-30",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 461160000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "results",
+          "section": "\u20ac427bn total customer assets (30 Jun 2025; latest clean)"
+        }
+      }
+    },
+    "MEAG": {
+      "name": "MEAG",
+      "ticker": "MEAG",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 397440000000.00006,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u20ac368bn total AuM at 31 Dec 2025 (~\u20ac63bn third-party; rest captive Munich Re/ERGO)"
+        }
+      }
+    },
+    "Bayern Invest": {
+      "name": "BayernInvest",
+      "ticker": "Bayern Invest",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 106920000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u20ac99bn AUM at 30 Dec 2025"
+        }
+      }
+    },
+    "Deka Immobilien": {
+      "name": "Deka Immobilien",
+      "ticker": "Deka Immobilien",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 59616000000.00001,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u20ac55.2bn real-estate AuM at end-2025"
+        }
+      }
+    },
+    "Universal Invest.": {
+      "name": "Universal Investment",
+      "ticker": "Universal Invest.",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aua": {
+          "value": 1512000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "~\u20ac1.4tn assets under administration (third-party ManCo platform)"
+        }
+      }
+    },
+    "HSBC T&B": {
+      "name": "HSBC INKA",
+      "ticker": "HSBC T&B",
+      "regime": "German KVG",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aua": {
+          "value": 464400000000.00006,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u20ac430bn+ assets under administration (Master-KVG)"
         }
       }
     }

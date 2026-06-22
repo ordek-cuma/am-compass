@@ -49,6 +49,8 @@ METRIC_CATALOG: dict[str, dict] = {
                       definition="Total assets under management at period end.", xbrl=[]),
     "aum_average": dict(label="Average AuM", unit="USD", group="Scale",
                         definition="Average AuM over the period (the base fees are earned on).", xbrl=[]),
+    "aua": dict(label="Assets under administration (AuA)", unit="USD", group="Scale",
+                definition="Assets serviced/administered (Master-/Service-KVG) — NOT managed; not comparable to AuM.", xbrl=[]),
     "net_flows": dict(label="Net new money / net flows", unit="USD", group="Flows",
                       definition="Net new client money for the period (inflows minus outflows).", xbrl=[]),
     "mgmt_fee_revenue": dict(label="Investment management fee revenue", unit="USD", group="Revenue",

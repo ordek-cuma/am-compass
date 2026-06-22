@@ -62,6 +62,7 @@ export const FIN_GROUPS: { group: string; grain: string; items: { key: string; l
   { group: 'Scale', grain: 'AuM', items: [
     { key: 'aum_total', label: 'Total AuM (end of period)' },
     { key: 'aum_average', label: 'Average AuM' },
+    { key: 'aua', label: 'Assets under administration (AuA)' },
   ] },
   { group: 'Flows', grain: 'net new money', items: [
     { key: 'net_flows', label: 'Net new money / net flows' },
