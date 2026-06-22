@@ -1,41 +1,70 @@
-// Company Data Room sample data — issuers + their documents.
-// Grain in the list view is one row per (company, document).
+// Competitor Data Room — the deep-dive home for the players the Radar watches.
+// Entities ARE the 32 competitors (from competitors.ts); each carries a category-appropriate
+// document set that mirrors the first agent's document taxonomy (10-K/URD/ADV/Jahresbericht…).
+// These docs are representative placeholders until the ingestion agent fetches the real files.
+import { COMPETITORS } from './competitors'
+import type { Category } from './competitors'
 import type { Company, CompanyDoc, CompanyRow, FacetMap } from './types'
 
-const COMPANY_META: [string, string, string, string][] = [
-  ['Apple Inc.', 'Technology', 'United States', 'AAPL'],
-  ['Microsoft Corporation', 'Technology', 'United States', 'MSFT'],
-  ['NVIDIA Corporation', 'Technology', 'United States', 'NVDA'],
-  ['JPMorgan Chase & Co.', 'Financials', 'United States', 'JPM'],
-  ['HSBC Holdings plc', 'Financials', 'United Kingdom', 'HSBA'],
-  ['Nestlé S.A.', 'Consumer Staples', 'Switzerland', 'NESN'],
-  ['Shell plc', 'Energy', 'United Kingdom', 'SHEL'],
-  ['Siemens AG', 'Industrials', 'Germany', 'SIE'],
-  ['Novo Nordisk A/S', 'Health Care', 'Denmark', 'NOVO B'],
-  ['Toyota Motor Corporation', 'Consumer Discretionary', 'Japan', '7203'],
-]
-
-const DOCT: [string, string, string, string][] = [
-  ['Financials', 'Annual Report', 'PDF', '6.4 MB'],
-  ['Research', 'Equity Research Note', 'PDF', '820 KB'],
-  ['ESG', 'Sustainability Report', 'PDF', '3.1 MB'],
-  ['Engagement', 'Engagement Summary', 'DOCX', '240 KB'],
-  ['Governance', 'Proxy Voting Record', 'CSV', '64 KB'],
-  ['Financials', 'Quarterly Results', 'XLSX', '1.1 MB'],
-  ['Onboarding', 'KYC / Onboarding Pack', 'ZIP', '12 MB'],
-  ['Legal', 'Master Services Agreement', 'PDF', '1.4 MB'],
-]
+// Per disclosure-regime document templates: [category, doc, fmt, size]
+const DOCS_BY_REGIME: Record<Category, [string, string, string, string][]> = {
+  'US-listed': [
+    ['Financials', 'Annual Report (10-K)', 'PDF', '5.8 MB'],
+    ['Financials', 'Q4 Earnings Release', 'PDF', '680 KB'],
+    ['Financials', 'Earnings Presentation', 'PDF', '2.2 MB'],
+    ['Regulatory', 'Form ADV (Part 1 + 2A)', 'PDF', '1.1 MB'],
+    ['ESG', 'Sustainability Report', 'PDF', '3.4 MB'],
+  ],
+  'European-listed': [
+    ['Financials', 'Universal Registration Document', 'PDF', '7.9 MB'],
+    ['Financials', 'Half-Year Report', 'PDF', '2.6 MB'],
+    ['Financials', 'Earnings Presentation', 'PDF', '2.1 MB'],
+    ['ESG', 'SFDR / Sustainability Report', 'PDF', '3.0 MB'],
+    ['Press', 'Press Release', 'PDF', '180 KB'],
+  ],
+  'Private / Mutual': [
+    ['Regulatory', 'Form ADV (Part 1 + 2A)', 'PDF', '1.3 MB'],
+    ['Fund', 'Fund Annual Report', 'PDF', '4.2 MB'],
+    ['Fund', 'Prospectus', 'PDF', '2.8 MB'],
+    ['Fund', 'Factsheet', 'PDF', '420 KB'],
+    ['Press', 'Press Release', 'PDF', '160 KB'],
+  ],
+  'German KVG': [
+    ['Fund', 'Jahresbericht (Fund Annual Report)', 'PDF', '4.6 MB'],
+    ['Regulatory', 'Bundesanzeiger Filing', 'PDF', '900 KB'],
+    ['Platform', 'Master-/Service-KVG Brochure', 'PDF', '1.2 MB'],
+    ['Fund', 'Factsheet / KID', 'PDF', '380 KB'],
+    ['Press', 'Press Release', 'PDF', '170 KB'],
+  ],
+}
 
 const DATES = ['2026-06-04', '2026-05-21', '2026-04-30', '2026-03-17', '2026-02-12', '2026-01-28', '2025-12-09', '2025-11-15']
 
-export const COMPANIES: Company[] = COMPANY_META.map((m, ci) => {
-  const count = 4 + (ci % 3)
-  const docs: CompanyDoc[] = []
-  for (let j = 0; j < count; j++) {
-    const tpl = DOCT[(ci + j) % DOCT.length]
-    docs.push({ cat: tpl[0], doc: tpl[1], fmt: tpl[2], sz: tpl[3], date: DATES[(ci * 2 + j) % DATES.length] })
+const COUNTRY: Record<string, string> = { US: 'United States', DE: 'Germany', FR: 'France', CH: 'Switzerland', UK: 'United Kingdom' }
+function countryOf(hq: string): string {
+  const code = hq.split(' / ')[0].split(', ').pop()?.trim() ?? ''
+  return COUNTRY[code] ?? code
+}
+
+export const COMPANIES: Company[] = COMPETITORS.map((c, ci) => {
+  const docs: CompanyDoc[] = DOCS_BY_REGIME[c.category].map((t, j) => ({
+    cat: t[0],
+    doc: t[1],
+    fmt: t[2],
+    sz: t[3],
+    date: DATES[(ci + j) % DATES.length],
+  }))
+  return {
+    co: c.name,
+    seg: c.focus,
+    country: countryOf(c.hq),
+    tick: c.code,
+    docs,
+    region: c.region,
+    owner: c.owner,
+    regime: c.category,
+    website: c.website,
   }
-  return { co: m[0], seg: m[1], country: m[2], tick: m[3], docs }
 })
 
 export function companyRows(): CompanyRow[] {
@@ -46,10 +75,12 @@ export function companyRows(): CompanyRow[] {
   return r
 }
 
+const uniq = (xs: string[]) => [...new Set(xs)]
+
 export const CFACETS: FacetMap = {
-  co: ['Company', ...COMPANY_META.map((m) => m[0])],
-  seg: ['Segment', 'Technology', 'Financials', 'Consumer Staples', 'Energy', 'Industrials', 'Health Care', 'Consumer Discretionary'],
-  cat: ['Category', 'Financials', 'Research', 'ESG', 'Engagement', 'Governance', 'Onboarding', 'Legal'],
+  co: ['Competitor', ...COMPANIES.map((c) => c.co)],
+  seg: ['Focus', ...uniq(COMPANIES.map((c) => c.seg))],
+  cat: ['Category', 'Financials', 'Regulatory', 'ESG', 'Fund', 'Platform', 'Press'],
   fmt: ['Format', 'PDF', 'DOCX', 'XLSX', 'CSV', 'ZIP'],
   yr: ['Year', '2026', '2025'],
 }

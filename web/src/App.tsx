@@ -20,8 +20,11 @@ export default function App() {
               <Route index element={<Navigate to="/rooms/product" replace />} />
               <Route path="product" element={<ProductScreener />} />
               <Route path="product/:fundId" element={<FundDetail />} />
-              <Route path="company" element={<CompanyScreener />} />
-              <Route path="company/:companyId" element={<CompanyDetail />} />
+              <Route path="competitor" element={<CompanyScreener />} />
+              <Route path="competitor/:companyId" element={<CompanyDetail />} />
+              {/* legacy redirects */}
+              <Route path="company" element={<Navigate to="/rooms/competitor" replace />} />
+              <Route path="company/:companyId" element={<Navigate to="/rooms/competitor" replace />} />
               <Route path="radar" element={<Navigate to="/rooms/radar/competitors" replace />} />
               <Route path="radar/competitors" element={<CompetitorRadar />} />
             </Route>

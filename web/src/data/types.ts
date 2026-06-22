@@ -59,13 +59,18 @@ export interface CompanyDoc {
   date: string
 }
 
-/** One issuer in the Company Data Room; the document grain is one row per (company, doc). */
+/** One competitor in the Competitor Data Room; document grain is one row per (competitor, doc). */
 export interface Company {
   co: string
   seg: string
   country: string
   tick: string
   docs: CompanyDoc[]
+  // Enriched from the competitor record (Radar) when the room is competitor-backed.
+  region?: string
+  owner?: string
+  regime?: string
+  website?: string
 }
 
 export interface CompanyRow {
