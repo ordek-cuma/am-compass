@@ -1,89 +1,99 @@
-// Company Data Room — screener (spec §8.1). One row per document across all companies.
-// The row is NOT clickable: company-name → detail, document-name → preview, dl-icon → download.
+// Document Data Room — one row per REAL document across every competitor (crawled local
+// files + primary-source links from the ingestion agent). No placeholders. Three click
+// targets: competitor → detail, document → preview/open, ⬇ → download/open-at-source.
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ModuleHeader } from '../../components/ModuleHeader'
 import { Panel } from '../../components/Panel'
 import { useUi } from '../../components/ui-context'
 import { DlIcon, ExportIcon, Icon, MagIcon } from '../../components/icons'
-import { CFACETS, COMPANIES, companyRows } from '../../data/companies'
-import { fdate, szKB } from '../../lib/format'
+import { allDocuments, fmtBytes, type DocRow } from '../../data/financials'
+import { fdate } from '../../lib/format'
 
 type SortState = { k: string; d: number }
 const COLS: [string, string][] = [
-  ['co', 'Competitor'],
-  ['seg', 'Focus'],
-  ['cat', 'Category'],
-  ['doc', 'Document'],
-  ['fmt', 'Format'],
+  ['competitor', 'Competitor'],
+  ['regime', 'Regime'],
+  ['name', 'Document'],
+  ['type', 'Type'],
+  ['form', 'Form'],
   ['date', 'Date'],
-  ['sz', 'Size'],
+  ['size', 'Size'],
 ]
-const FACET_KEYS = Object.keys(CFACETS)
-const ALL_ALL = Object.fromEntries(FACET_KEYS.map((k) => [k, 'All'])) as Record<string, string>
+const uniq = (xs: string[]) => [...new Set(xs)].sort()
 
 export function CompanyScreener() {
   const navigate = useNavigate()
   const { openPreview, downloadDoc } = useUi()
+  const rows = useMemo(() => allDocuments(), [])
+  const facets = useMemo(
+    () => ({
+      competitor: ['Competitor', ...uniq(rows.map((r) => r.competitor))],
+      regime: ['Regime', ...uniq(rows.map((r) => r.regime))],
+      type: ['Type', 'Crawled', 'Source'],
+    }),
+    [rows],
+  )
+  const FACET_KEYS = Object.keys(facets) as (keyof typeof facets)[]
+  const ALL_ALL = Object.fromEntries(FACET_KEYS.map((k) => [k, 'All'])) as Record<string, string>
+
   const [q, setQ] = useState('')
   const [sel, setSel] = useState<Record<string, string>>(ALL_ALL)
-  const [sort, setSort] = useState<SortState>({ k: 'co', d: 1 })
+  const [sort, setSort] = useState<SortState>({ k: 'competitor', d: 1 })
+
+  const val = (r: DocRow, k: string): string | number => {
+    if (k === 'competitor') return r.competitor
+    if (k === 'regime') return r.regime
+    if (k === 'type') return r.type
+    if (k === 'size') return r.doc.sizeBytes
+    if (k === 'name') return r.doc.name
+    if (k === 'form') return r.doc.form
+    if (k === 'date') return r.doc.date
+    return ''
+  }
 
   const list = useMemo(() => {
     const qq = q.toLowerCase().trim()
-    let out = companyRows().filter(
+    const out = rows.filter(
       (r) =>
-        FACET_KEYS.every((k) => {
-          const v = sel[k]
-          if (v === 'All') return true
-          if (k === 'yr') return r.date.slice(0, 4) === v
-          return String((r as unknown as Record<string, unknown>)[k]) === v
-        }) && (!qq || `${r.co} ${r.doc} ${r.cat} ${r.seg}`.toLowerCase().includes(qq)),
+        (sel.competitor === 'All' || r.competitor === sel.competitor) &&
+        (sel.regime === 'All' || r.regime === sel.regime) &&
+        (sel.type === 'All' || r.type === sel.type) &&
+        (!qq || `${r.competitor} ${r.doc.name} ${r.doc.form}`.toLowerCase().includes(qq)),
     )
     const { k, d } = sort
-    out = [...out].sort((a, b) => {
-      let va: string | number = (a as unknown as Record<string, string>)[k]
-      let vb: string | number = (b as unknown as Record<string, string>)[k]
-      if (k === 'sz') {
-        va = szKB(a.sz)
-        vb = szKB(b.sz)
-      }
+    return [...out].sort((a, b) => {
+      const va = val(a, k)
+      const vb = val(b, k)
       if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * d
       return String(va).localeCompare(String(vb)) * d
     })
-    return out
-  }, [q, sel, sort])
+  }, [q, sel, sort, rows])
 
-  const onSort = (k: string) => setSort((s) => (s.k === k ? { k, d: s.d * -1 } : { k, d: k === 'date' || k === 'sz' ? -1 : 1 }))
+  const onSort = (k: string) => setSort((s) => (s.k === k ? { k, d: s.d * -1 } : { k, d: k === 'date' || k === 'size' ? -1 : 1 }))
   const reset = () => {
     setQ('')
     setSel(ALL_ALL)
   }
-  const openCompany = (co: string) => {
-    const c = COMPANIES.find((x) => x.co === co)
-    if (c) navigate(`/rooms/competitor/${encodeURIComponent(c.tick)}`)
+  const openDoc = (r: DocRow) =>
+    openPreview(r.doc.name, r.doc.fmt, `${r.competitor} · ${r.doc.form} · ${fdate(r.doc.date)}`, {
+      file: r.doc.file || undefined,
+      edgarUrl: r.doc.edgarUrl || undefined,
+    })
+  const dl = (r: DocRow) => {
+    if (r.doc.file) downloadDoc(r.doc.name, r.doc.fmt, `/${r.doc.file}`)
+    else if (r.doc.edgarUrl) window.open(r.doc.edgarUrl, '_blank', 'noopener')
   }
 
   return (
     <>
       <ModuleHeader
-        crumb={
-          <>
-            Compass <b>›</b> Rooms <b>›</b> Document Data Room
-          </>
-        }
-        title={
-          <>
-            Document <span className="em">Data Room</span>
-          </>
-        }
-        sub="Every document across every competitor — one flat feed. Filter and sort, click a document to preview/download, or click a competitor to open its full profile in the Competitor Data Room."
+        crumb={<>Compass <b>›</b> Rooms <b>›</b> Document Data Room</>}
+        title={<>Document <span className="em">Data Room</span></>}
+        sub="Every crawled & sourced document across every competitor — one flat feed. Click a document to preview/open, or a competitor to open its full profile."
         actions={
           <>
-            <button className="btn">
-              <ExportIcon />
-              Upload Document
-            </button>
+            <button className="btn"><ExportIcon />Upload Document</button>
             <button className="btn pri">Request Access</button>
           </>
         }
@@ -93,30 +103,19 @@ export function CompanyScreener() {
           <div className="frow">
             <div className="room-inp">
               <MagIcon />
-              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search company, document, category…" />
+              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search competitor or document…" />
             </div>
             {FACET_KEYS.map((k) => (
-              <select
-                key={k}
-                className={`room-sel${sel[k] !== 'All' ? ' act' : ''}`}
-                value={sel[k]}
-                onChange={(e) => setSel((s) => ({ ...s, [k]: e.target.value }))}
-              >
-                {CFACETS[k].map((o, i) => (
-                  <option key={o} value={i === 0 ? 'All' : o}>
-                    {o}
-                  </option>
+              <select key={k} className={`room-sel${sel[k] !== 'All' ? ' act' : ''}`} value={sel[k]} onChange={(e) => setSel((s) => ({ ...s, [k]: e.target.value }))}>
+                {facets[k].map((o, i) => (
+                  <option key={o} value={i === 0 ? 'All' : o}>{o}</option>
                 ))}
               </select>
             ))}
           </div>
           <div className="ffoot">
-            <span className="cnt">
-              <b>{list.length}</b> documents
-            </span>
-            <button className="f-reset" onClick={reset}>
-              Reset filters
-            </button>
+            <span className="cnt"><b>{list.length}</b> documents · {rows.filter((r) => r.type === 'Crawled').length} crawled</span>
+            <button className="f-reset" onClick={reset}>Reset filters</button>
           </div>
         </div>
 
@@ -129,9 +128,8 @@ export function CompanyScreener() {
                     const act = sort.k === k
                     const si = act ? (sort.d > 0 ? '▲' : '▼') : '⇅'
                     return (
-                      <th key={k} className={`srt${act ? ' act' : ''}`} onClick={() => onSort(k)}>
-                        {label}
-                        <span className="si">{si}</span>
+                      <th key={k} className={`${k === 'size' ? 'num ' : ''}srt${act ? ' act' : ''}`} onClick={() => onSort(k)}>
+                        {label}<span className="si">{si}</span>
                       </th>
                     )
                   })}
@@ -139,42 +137,29 @@ export function CompanyScreener() {
               </thead>
               <tbody>
                 {list.length === 0 ? (
-                  <tr>
-                    <td colSpan={7}>
-                      <div className="room-empty">No matches — try clearing a filter.</div>
-                    </td>
-                  </tr>
+                  <tr><td colSpan={COLS.length}><div className="room-empty">No matches — try clearing a filter.</div></td></tr>
                 ) : (
                   list.map((r, i) => (
                     <tr key={i}>
                       <td>
-                        <span className="co-link" onClick={() => openCompany(r.co)}>
+                        <span className="co-link" onClick={() => navigate(`/rooms/competitor/${encodeURIComponent(r.code)}`)}>
                           <Icon name="building" size={14} />
-                          {r.co}
+                          {r.competitor}
                         </span>
                       </td>
-                      <td>
-                        <span className="ac-chip">{r.seg}</span>
-                      </td>
-                      <td>{r.cat}</td>
+                      <td><span className="ac-chip">{r.regime}</span></td>
                       <td>
                         <span className="doc-cell">
-                          <span
-                            className="doc-link"
-                            onClick={() => openPreview(r.doc, r.fmt, `${r.co} · ${r.cat} · ${fdate(r.date)} · ${r.sz}`)}
-                          >
-                            {r.doc}
-                          </span>
-                          <span className="dlm" title="Download" onClick={() => downloadDoc(r.doc, r.fmt)}>
+                          <span className="doc-link" onClick={() => openDoc(r)}>{r.doc.name}</span>
+                          <span className="dlm" title={r.doc.file ? 'Download' : 'Open at source'} onClick={() => dl(r)}>
                             <DlIcon />
                           </span>
                         </span>
                       </td>
-                      <td>
-                        <span className={`fmt ${r.fmt.toLowerCase()}`}>{r.fmt}</span>
-                      </td>
-                      <td>{fdate(r.date)}</td>
-                      <td>{r.sz}</td>
+                      <td><span className={`badge ${r.type === 'Crawled' ? 'live' : 'system'}`}>{r.type}</span></td>
+                      <td>{r.doc.form}</td>
+                      <td>{fdate(r.doc.date)}</td>
+                      <td className="num">{r.doc.sizeBytes ? fmtBytes(r.doc.sizeBytes) : '—'}</td>
                     </tr>
                   ))
                 )}

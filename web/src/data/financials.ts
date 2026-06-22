@@ -50,6 +50,25 @@ export function documentsFor(code: string): FinDoc[] {
   return FIN.competitors[code]?.documents ?? []
 }
 
+export interface DocRow {
+  code: string
+  competitor: string
+  regime: string
+  type: 'Crawled' | 'Source'
+  doc: FinDoc
+}
+
+/** Every real document across all competitors (the Document Data Room feed). */
+export function allDocuments(): DocRow[] {
+  const rows: DocRow[] = []
+  for (const [code, b] of Object.entries(FIN.competitors)) {
+    for (const d of b.documents ?? []) {
+      rows.push({ code, competitor: b.name, regime: b.regime, type: d.file ? 'Crawled' : 'Source', doc: d })
+    }
+  }
+  return rows
+}
+
 export function fmtBytes(n: number): string {
   if (n >= 1e9) return `${(n / 1e9).toFixed(1)} GB`
   if (n >= 1e6) return `${(n / 1e6).toFixed(1)} MB`

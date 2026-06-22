@@ -2,8 +2,8 @@
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Icon, MagIcon, type IconName } from '../../components/icons'
-import { companyRows } from '../../data/companies'
 import { COMPETITORS } from '../../data/competitors'
+import { allDocuments } from '../../data/financials'
 import { FUNDS } from '../../data/funds'
 
 function RoomNav({ to, label, icon, count, active }: { to: string; label: string; icon: IconName; count: number; active: boolean }) {
@@ -38,7 +38,7 @@ export function RoomsSubnav() {
       <div className="sp-treehead">Data Rooms</div>
       <div className="sp-grp-b">
         <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPETITORS.length} active={onCompetitor} />
-        <RoomNav to="/rooms/documents" label="Document Data Room" icon="docs" count={companyRows().length} active={onDocuments} />
+        <RoomNav to="/rooms/documents" label="Document Data Room" icon="docs" count={allDocuments().length} active={onDocuments} />
         <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={FUNDS.length} active={onProduct} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>
