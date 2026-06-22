@@ -49,6 +49,9 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_total", 813e9, "USD", "2025-12-31", "“assets under management were approximately $813 billion”", 0.85),
         ("headcount", 5_600, "count", "2025-12-31", "“approximately 5,600 employees”", 0.85),
     ],
+    "Blackstone": [  # AUM isn't in XBRL; from the FY2025 8-K
+        ("aum_total", 1_241.7e9, "USD", "2025-12-31", "Total AUM $1,241.7bn at 31 Dec 2025 (fee-earning $906.2bn) — FY2025 8-K", 0.9),
+    ],
 }
 
 

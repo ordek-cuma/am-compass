@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:52:46+00:00",
+  "generated_at": "2026-06-22T10:07:22+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -694,6 +694,58 @@
         }
       }
     },
+    "Blackstone": {
+      "name": "Blackstone",
+      "ticker": "BX",
+      "regime": "US-listed",
+      "cik": "0001393818",
+      "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Annual Report (10-K)",
+          "form": "10-K",
+          "date": "2026-02-27",
+          "fmt": "HTM",
+          "sizeBytes": 9097644,
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+          "file": "filings/Blackstone/d48618d10k.htm"
+        }
+      ],
+      "metrics": {
+        "total_revenue": {
+          "value": 14450265000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:Revenues (FY2025)"
+        },
+        "net_income": {
+          "value": 3019214000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 3.87,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 1241700000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "Total AUM $1,241.7bn at 31 Dec 2025 (fee-earning $906.2bn) \u2014 FY2025 8-K"
+        }
+      }
+    },
     "AMU": {
       "name": "Amundi",
       "ticker": "AMU",
@@ -923,6 +975,68 @@
           "confidence": 0.8,
           "source": "results",
           "section": "\u20ac430bn+ assets under administration (Master-KVG)"
+        }
+      }
+    },
+    "Vanguard": {
+      "name": "Vanguard",
+      "ticker": "Vanguard",
+      "regime": "Private / Mutual",
+      "cik": null,
+      "period_end": "2025-09-30",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 11600000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "$11.6tn AUM at 30 Sep 2025 (~$12tn 2025)"
+        }
+      }
+    },
+    "Fidelity": {
+      "name": "Fidelity Investments",
+      "ticker": "Fidelity",
+      "regime": "Private / Mutual",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 7100000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$7.1tn discretionary/managed assets 2025"
+        },
+        "aua": {
+          "value": 18000000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$18tn managed + administered 2025"
+        }
+      }
+    },
+    "PIMCO": {
+      "name": "PIMCO",
+      "ticker": "PIMCO",
+      "regime": "Private / Mutual",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 2260000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025"
         }
       }
     }
