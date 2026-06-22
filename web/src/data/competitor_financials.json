@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:09:25+00:00",
+  "generated_at": "2026-06-22T09:27:31+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -327,6 +327,266 @@
         },
         "operating_margin": {
           "value": 22.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "FED": {
+      "name": "Federated Hermes",
+      "ticker": "FHI",
+      "regime": "US-listed",
+      "cik": "0001056288",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 1800663000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": 513882000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 403299000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 5.13,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 902600000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "\u201c$902.6 billion in assets under management\u201d"
+        },
+        "headcount": {
+          "value": 2091.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201chad 2,091 employees\u201d"
+        },
+        "operating_margin": {
+          "value": 28.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "WisdomTree": {
+      "name": "WisdomTree",
+      "ticker": "WT",
+      "regime": "US-listed",
+      "cik": "0000880631",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 493753000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:Revenues (FY2025)"
+        },
+        "operating_income": {
+          "value": 174195000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 109133000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 0.75,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 144500000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201cAUM of $144.5 billion at December 31, 2025\u201d"
+        },
+        "headcount": {
+          "value": 360.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201chad 360 full-time employees\u201d"
+        },
+        "operating_margin": {
+          "value": 35.3,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "JH": {
+      "name": "Janus Henderson",
+      "ticker": "JHG",
+      "regime": "US-listed",
+      "cik": "0001274173",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 1743700000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:Revenues (FY2017)"
+        },
+        "operating_income": {
+          "value": 976800000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 815900000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 5.23,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 493200000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201cassets under management (\u201cAUM\u201d) of $493.2 billion\u201d"
+        },
+        "headcount": {
+          "value": 2300.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201c2,300 employees\u201d"
+        },
+        "operating_margin": {
+          "value": 56.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "AMG": {
+      "name": "Affiliated Managers Group",
+      "ticker": "AMG",
+      "regime": "US-listed",
+      "cik": "0001004434",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 2074400000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": 1107900000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2017)"
+        },
+        "net_income": {
+          "value": 716600000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 22.74,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 813000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201cassets under management were approximately $813 billion\u201d"
+        },
+        "headcount": {
+          "value": 5600.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201capproximately 5,600 employees\u201d"
+        },
+        "operating_margin": {
+          "value": 53.4,
           "unit": "pct",
           "basis": "derived",
           "confidence": 1.0,
