@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T13:04:55+00:00",
+  "generated_at": "2026-06-22T14:12:42+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -9,6 +9,96 @@
       "cik": "0002012383",
       "period_end": "2025-12-31",
       "documents": [
+        {
+          "name": "Proxy Statement (4/10/2026) of 2026",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 18454237,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/ar/BlackRock-Proxy-Statement-2026.pdf",
+          "file": "filings/BL/docs/wbc72e628132a5c92.pdf"
+        },
+        {
+          "name": "Annual Meeting Transcript of 2026",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 253808,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q1/2026-BLK-Annual-Shareholder-Meeting-Transcript.pdf",
+          "file": "filings/BL/docs/w5fed2067f15ddfec.pdf"
+        },
+        {
+          "name": "Annual Report (12/31/2025) of 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2896597,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/ar/BLK_AR25.pdf",
+          "file": "filings/BL/docs/w7bfa47597d515a17.pdf"
+        },
+        {
+          "name": "Annual Meeting Transcript of 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 262117,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2025/ar/v2/2025-BLK-Annual-Shareholder-Meeting-Transcript.pdf",
+          "file": "filings/BL/docs/w8fe47361de54cf8d.pdf"
+        },
+        {
+          "name": "Proxy Statement (4/4/2024) of 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10561705,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/2024-Proxy-Statement_vF.pdf",
+          "file": "filings/BL/docs/w302a86b08e97aec9.pdf"
+        },
+        {
+          "name": "Annual Meeting Transcript of 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 292889,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/2024-blk-annual-shareholder-meeting-transcript.pdf",
+          "file": "filings/BL/docs/wef5706aa1cd61103.pdf"
+        },
+        {
+          "name": "Annual Report (12/31/2023) of 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2975263,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/BLK_AR23.pdf",
+          "file": "filings/BL/docs/w6780a4cab754a8e1.pdf"
+        },
+        {
+          "name": "Proxy Statement (4/14/2023) of 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8573904,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2023/ar/blackrock-2023-proxy-statement_vf.pdf",
+          "file": "filings/BL/docs/wf11e0644555e6fc6.pdf"
+        },
+        {
+          "name": "Annual Meeting Transcript of 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 274286,
+          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_downloads/2023/05/2023-blk-annual-shareholder-meeting-transcript.pdf",
+          "file": "filings/BL/docs/w100dbf84f4ea13b0.pdf"
+        },
         {
           "name": "Quarterly Report (10-Q)",
           "form": "10-Q",
@@ -4614,6 +4704,116 @@
       "period_end": "2025-12-31",
       "documents": [
         {
+          "name": "Download full Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4928865,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf",
+          "file": "filings/JPM/docs/wde387d792eff3147.pdf"
+        },
+        {
+          "name": "Download full Proxy Statement",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9150853,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2026.pdf",
+          "file": "filings/JPM/docs/w4c0f990f7aee5a62.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 540178,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2025.pdf",
+          "file": "filings/JPM/docs/wa01fe39f35b79925.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1789160,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2025.pdf",
+          "file": "filings/JPM/docs/w6afc442293a606bb.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 45352,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/financial-highlights-2025.pdf",
+          "file": "filings/JPM/docs/w1e353ea09de99d50.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1923082,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/managements-discussion-analysis-2025.pdf",
+          "file": "filings/JPM/docs/wf6f987d8a711f0ee.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1145396,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/audited-financial-statements-2025.pdf",
+          "file": "filings/JPM/docs/w780819bb07b31197.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 257646,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/corporate-data-and-shareholder-information-2025.pdf",
+          "file": "filings/JPM/docs/w9e296c38f8fedb5e.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 430279,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2026-proxy-supplement.pdf",
+          "file": "filings/JPM/docs/wc22bc30850b0b4e1.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 207896,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/gl-response-letter2026.pdf",
+          "file": "filings/JPM/docs/w4fd769532a8b1d15.pdf"
+        },
+        {
+          "name": "View Document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 183865,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/iss-response-letter-2026.pdf",
+          "file": "filings/JPM/docs/wab1b3ba248b8abeb.pdf"
+        },
+        {
           "name": "Quarterly Report (10-Q)",
           "form": "10-Q",
           "group": "Quarterly",
@@ -5302,6 +5502,106 @@
       "period_end": "2025-12-31",
       "documents": [
         {
+          "name": "2026 Proxy Statement of 2025 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 42280716,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/ar/FINAL-State-Street-Corporation_2026-Proxy-Statement.pdf",
+          "file": "filings/SSgA/docs/wa9280ae128ee0ded.pdf"
+        },
+        {
+          "name": "2025 Annual Report of 2025 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4740454,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/ar/SSC_AR_2025_RGB_FINAL.pdf",
+          "file": "filings/SSgA/docs/wdbc2d6c4a3cbd891.pdf"
+        },
+        {
+          "name": "2025 Proxy Statement of 2024 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4881431,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/ar/FINAL-State-Street-Corporation_2025-Proxy-Statement.pdf",
+          "file": "filings/SSgA/docs/wf03669418e259ea1.pdf"
+        },
+        {
+          "name": "2024 Annual Report of 2024 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 19948549,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/ar/SSC_AR_2024_RGB_Web_Final_Secured-1.pdf",
+          "file": "filings/SSgA/docs/w36b569d09ca50ec4.pdf"
+        },
+        {
+          "name": "2024 Proxy Statement of 2023 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1108291,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/ar/state-street-corporation_2024-proxy-statement.pdf",
+          "file": "filings/SSgA/docs/w2e34f298b107f542.pdf"
+        },
+        {
+          "name": "2023 Annual Report of 2023 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8055231,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/ar/SSC_AR_2023_RGB_FINAL.pdf",
+          "file": "filings/SSgA/docs/wa176ea3b40164777.pdf"
+        },
+        {
+          "name": "2023 Proxy Statement of 2022 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2160198,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/ar/Final-2023-Proxy-Statement.pdf",
+          "file": "filings/SSgA/docs/wfe517084a18aaa1f.pdf"
+        },
+        {
+          "name": "2022 Annual Report of 2022 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4174096,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/ar/SSC_AR_2022_Final_Web.pdf",
+          "file": "filings/SSgA/docs/w0603146e657d3f94.pdf"
+        },
+        {
+          "name": "2022 ESG Report of 2022 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6045414,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/ar/StateStreet_ESG_Report_2022.pdf",
+          "file": "filings/SSgA/docs/we4c6edefb9a8f496.pdf"
+        },
+        {
+          "name": "2022 Proxy Statement of 2021 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 920480,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/ar/ny20002049x1_Proxy_StateStreet_.pdf",
+          "file": "filings/SSgA/docs/w86c2176ff2c81d58.pdf"
+        },
+        {
           "name": "Quarterly Report (10-Q)",
           "form": "10-Q",
           "group": "Quarterly",
@@ -5840,6 +6140,16 @@
           "file": "filings/AMU/docs/wa1fcb86a52cd3f5c.html"
         },
         {
+          "name": "Financial results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 183864,
+          "edgarUrl": "https://about.amundi.com/financial-results",
+          "file": "filings/AMU/docs/w0e41e5f42e747734.html"
+        },
+        {
           "name": "Universal Registration Document / Results",
           "form": "IR",
           "group": "Annual",
@@ -5885,84 +6195,114 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Crawled document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 135771,
-          "edgarUrl": "",
-          "file": "filings/AGI/docs/w0492e0b2eb7483a6.html"
-        },
-        {
-          "name": "Crawled document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 233375,
-          "edgarUrl": "",
-          "file": "filings/AGI/docs/w240c5bf4965af3c5.html"
-        },
-        {
-          "name": "Crawled document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 159367,
-          "edgarUrl": "",
-          "file": "filings/AGI/docs/w27ac4a4c3b443632.html"
-        },
-        {
-          "name": "Crawled document",
+          "name": "Results &amp; reports",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
           "sizeBytes": 142236,
-          "edgarUrl": "",
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports.html",
           "file": "filings/AGI/docs/w6e89f8cbaa55556a.html"
         },
         {
-          "name": "Crawled document",
+          "name": "Results",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
           "sizeBytes": 481353,
-          "edgarUrl": "",
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/results.html",
           "file": "filings/AGI/docs/w6f90e3575b917897.html"
         },
         {
-          "name": "Crawled document",
+          "name": "Annual Report",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
-          "sizeBytes": 190293,
-          "edgarUrl": "",
-          "file": "filings/AGI/docs/w7b65cd93c1015b24.html"
+          "sizeBytes": 159367,
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/annual-reports.html",
+          "file": "filings/AGI/docs/w27ac4a4c3b443632.html"
         },
         {
-          "name": "Crawled document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 177247,
-          "edgarUrl": "",
-          "file": "filings/AGI/docs/we208cf5546b979aa.html"
-        },
-        {
-          "name": "Crawled document",
+          "name": "Half-year Report",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
           "sizeBytes": 161812,
-          "edgarUrl": "",
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/interim-reports.html",
           "file": "filings/AGI/docs/we58cc44ed6e50e1b.html"
+        },
+        {
+          "name": "Own Funds Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 135771,
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/own-funds-report.html",
+          "file": "filings/AGI/docs/w0492e0b2eb7483a6.html"
+        },
+        {
+          "name": "Annual General Meeting",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 188075,
+          "edgarUrl": "https://www.allianz.com/en/investor_relations/shareholders/annual-general-meeting.html",
+          "file": "filings/AGI/docs/w7b65cd93c1015b24.html"
+        },
+        {
+          "name": "Reports &amp; studies",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 177247,
+          "edgarUrl": "https://www.allianz.com/en/mediacenter/news/reports.html",
+          "file": "filings/AGI/docs/we208cf5546b979aa.html"
+        },
+        {
+          "name": "3am report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 233375,
+          "edgarUrl": "https://www.allianz.com/en/mediacenter/topics/3am-report.html",
+          "file": "filings/AGI/docs/w240c5bf4965af3c5.html"
+        },
+        {
+          "name": "Sustainability reporting &amp; publications",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 335293,
+          "edgarUrl": "https://www.allianz.com/en/sustainability/sustainability-hub/sustainability-report-and-other-publications.html",
+          "file": "filings/AGI/docs/w150729e75017b9e3.html"
+        },
+        {
+          "name": "Allianz Global Insurance Report 2026: The Future of Insurance in a Fragmenting W",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 149731,
+          "edgarUrl": "https://www.allianz.com/en/economic_research/insights/publications/specials_fmo/260528-global-insurance-report.html",
+          "file": "filings/AGI/docs/w2ab5cf2f813c5cd6.html"
+        },
+        {
+          "name": "Allianz Fact Sheet",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 218076,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/about-us/who-we-are/at-a-glance/en-Allianz-fact-sheet.pdf",
+          "file": "filings/AGI/docs/wa8eaaeefeab65ea0.pdf"
         },
         {
           "name": "Universal Registration Document / Results",
@@ -6070,18 +6410,7 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [
-        {
-          "name": "Universal Registration Document / Results",
-          "form": "IR",
-          "group": "Annual",
-          "date": "2025-12-31",
-          "fmt": "WEB",
-          "sizeBytes": 0,
-          "edgarUrl": "https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
-          "file": ""
-        }
-      ],
+      "documents": [],
       "metrics": {
         "aum_total": {
           "value": 160270000000.0,
@@ -6444,12 +6773,122 @@
       "period_end": "2025-12-31",
       "documents": [
         {
+          "name": "Quarterly Engagement Report (July 1, 2025\u2013September 30, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 155916,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/quarterly_engagement_report_for_vanguard_advised_funds_q3_2025.pdf",
+          "file": "filings/Vanguard/docs/we30d677aaf72dc57.pdf"
+        },
+        {
+          "name": "2025 Proxy Year Voting Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 135481,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/2025-proxy-year-voting-report.pdf",
+          "file": "filings/Vanguard/docs/wc1c50731c7a780b6.pdf"
+        },
+        {
+          "name": "2025 Japan Regional Brief",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 622392,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/2025_japan_regional_brief.pdf",
+          "file": "filings/Vanguard/docs/wb5ed139b0713f408.pdf"
+        },
+        {
+          "name": "2025 Europe Regional Brief",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 694341,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/2025_europe_regional_brief.pdf",
+          "file": "filings/Vanguard/docs/we1a06f65284f655a.pdf"
+        },
+        {
+          "name": "2025 U.K. Regional Brief",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 629400,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/2025_uk_regional_brief.pdf",
+          "file": "filings/Vanguard/docs/w4b4234d03cf869b5.pdf"
+        },
+        {
+          "name": "2025 U.S. Regional Brief",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 629713,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/us_regional_brief_2025.pdf",
+          "file": "filings/Vanguard/docs/w9d4575368504df15.pdf"
+        },
+        {
+          "name": "Quarterly Key Votes Report (April 1, 2025\u2013June 30, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 136280,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/quarterly_key_votes_report_for_vanguard_advised_funds_q2_2025.pdf",
+          "file": "filings/Vanguard/docs/w84e63d5c16524082.pdf"
+        },
+        {
+          "name": "Quarterly Engagement Report (April 1, 2025\u2013June 30, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 176733,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/quarterly_engagement_report_for_vanguard_advised_funds_q2_2025.pdf",
+          "file": "filings/Vanguard/docs/wf1ec2f0833422d85.pdf"
+        },
+        {
+          "name": "2024 Australia Regional Brief",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 608289,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/aus_2024_regional_brief.pdf",
+          "file": "filings/Vanguard/docs/w03ef5330fff13c1c.pdf"
+        },
+        {
+          "name": "Quarterly Key Votes Report (January 1, 2025\u2013March 31, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 83282,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/q1_2025_quarterly_key_votes_report.pdf",
+          "file": "filings/Vanguard/docs/w3ae13da8af5f5851.pdf"
+        },
+        {
+          "name": "Quarterly Engagement Report (January 1, 2025\u2013March 31, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 193504,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/q1_2025_quarterly_engagement_report.pdf",
+          "file": "filings/Vanguard/docs/w6dbe2c7b713c5cb3.pdf"
+        },
+        {
           "name": "Annual Results & AuM Disclosure",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
           "fmt": "HTML",
-          "sizeBytes": 48038,
+          "sizeBytes": 48034,
           "edgarUrl": "https://www.advratings.com/company/vanguard-group",
           "file": "filings/Vanguard/docs/wa6bf68ab9f53358f.html"
         }
@@ -6491,6 +6930,126 @@
           "sizeBytes": 2454044,
           "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_2177743963394090bd5779e05ce478e9.pdf",
           "file": "filings/Fidelity/docs/w89050485171ec6bc.pdf"
+        },
+        {
+          "name": "2025 Annual report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 1324179,
+          "edgarUrl": "https://about.fidelity.com/data-and-insights/2025-annual-report",
+          "file": "filings/Fidelity/docs/wd15bc032b8d635a1.html"
+        },
+        {
+          "name": "2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3644985,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_c7b66c1050014c669396cc436f353013.pdf",
+          "file": "filings/Fidelity/docs/wd2b00715c83632b3.pdf"
+        },
+        {
+          "name": "Q1 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 655824,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_ad4f1b3f58f64c6c8004e0297d2de846.pdf",
+          "file": "filings/Fidelity/docs/we00e627b707ff26e.pdf"
+        },
+        {
+          "name": "Q2 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 528935,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_3e1f8f644d8f4f859b8384412a512fde.pdf",
+          "file": "filings/Fidelity/docs/w39a367376dbf06de.pdf"
+        },
+        {
+          "name": "Q3 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 470483,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_0a8dea146dd24c589f7433841afb6556.pdf",
+          "file": "filings/Fidelity/docs/w8d6673581bccab2a.pdf"
+        },
+        {
+          "name": "Q1 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 341329,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_86581243e9bd491ca40dae4994f69844.pdf",
+          "file": "filings/Fidelity/docs/wf3b1bb2c90b84c6c.pdf"
+        },
+        {
+          "name": "Q2 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 340259,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_2436c417f3f74a22807f104df7561cf7.pdf",
+          "file": "filings/Fidelity/docs/w630fc8aa23dbdeab.pdf"
+        },
+        {
+          "name": "Q3 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 376939,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_9a573eb0f2db445ca1be5fd3d0f01583.pdf",
+          "file": "filings/Fidelity/docs/wa4ac378a5713df43.pdf"
+        },
+        {
+          "name": "Q1 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3180701,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_d02d8f408f5140029e43f2f29d365f2e.pdf",
+          "file": "filings/Fidelity/docs/wfc6185eacf772af7.pdf"
+        },
+        {
+          "name": "Q2 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4943321,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_468c414ecb564667a3f3faf28355b1fe.pdf",
+          "file": "filings/Fidelity/docs/w32b4f6912197bc45.pdf"
+        },
+        {
+          "name": "Q3 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 712608,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_85fd2673cd64455a931d2b2713236dac.pdf",
+          "file": "filings/Fidelity/docs/wfbc681c7d550f3b5.pdf"
+        },
+        {
+          "name": "Q4 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 447651,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_207dd780ee554ed9a02cd03113aa13c8.pdf",
+          "file": "filings/Fidelity/docs/w3d6992b30c0ebf33.pdf"
         },
         {
           "name": "Annual Results & AuM Disclosure",

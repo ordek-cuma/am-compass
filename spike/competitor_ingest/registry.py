@@ -49,6 +49,23 @@ GROUP_FILERS: list[Competitor] = [
 ]
 
 
+# Authoritative IR/results pages (user-supplied, probe-verified reachable). For EDGAR firms
+# these SUPPLEMENT the as-filed filings with glossy annual-report/proxy/transcript PDFs; for
+# non-EDGAR firms they augment the overlay source. Harvested via web.find_doc_links (PDFs).
+# Deferred (fund-level or 0-yield): JPM fund AR PDF, PIMCO N-CSR, JPM Form ADV, PIMCO tax centre.
+IR_SOURCES: dict[str, list[str]] = {
+    # EDGAR firms — supplemental glossy PDFs on top of EDGAR filings.
+    "BL": ["https://ir.blackrock.com/financials/annual-reports-and-proxy/default.aspx"],
+    "SSgA": ["https://investors.statestreet.com/filings-and-reports/annual-reports/default.aspx"],
+    "JPM": ["https://www.jpmorganchase.com/ir/annual-report"],
+    "Goldman Sachs": ["https://www.goldmansachs.com/investor-relations/financials/annual-reports"],
+    # Non-EDGAR firms — authoritative landing pages augmenting the overlay source.
+    "AMU": ["https://about.amundi.com/financial-results"],
+    "Vanguard": ["https://corporate.vanguard.com/content/corporatesite/us/en/corp/about-our-funds/proxy-voting-across-funds/archived-reports.html"],
+    "Fidelity": ["https://about.fidelity.com/data-and-insights"],
+}
+
+
 def resolve(c: Competitor) -> str:
     """CIK: explicit override > live ticker lookup > pinned fallback."""
     if c.cik_override:
