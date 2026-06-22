@@ -22,7 +22,7 @@ function RoomNav({ to, label, icon, count, active }: { to: string; label: string
 export function RoomsSubnav() {
   const { pathname } = useLocation()
   const [recentClosed, setRecentClosed] = useState(false)
-  const onCompany = pathname.startsWith('/rooms/company')
+  const onCompany = pathname.startsWith('/rooms/competitor')
   const onProduct = pathname.startsWith('/rooms/product')
   const onRadar = pathname.startsWith('/rooms/radar')
 
@@ -41,7 +41,7 @@ export function RoomsSubnav() {
       </div>
       <div className="sp-treehead">Data Rooms</div>
       <div className="sp-grp-b">
-        <RoomNav to="/rooms/company" label="Company Data Room" icon="building" count={COMPANIES.length} active={onCompany} />
+        <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPANIES.length} active={onCompany} />
         <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={FUNDS.length} active={onProduct} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>

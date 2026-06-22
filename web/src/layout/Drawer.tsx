@@ -58,9 +58,9 @@ export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }
 
         <div className="dr-grp">
           <div className="dr-ttl">Data Rooms</div>
-          <a className={`dr-item${pathname.startsWith('/rooms/company') ? ' on' : ''}`} onClick={() => go('/rooms/company')}>
+          <a className={`dr-item${pathname.startsWith('/rooms/competitor') ? ' on' : ''}`} onClick={() => go('/rooms/competitor')}>
             <Icon name="building" size={17} />
-            Company Data Room
+            Competitor Data Room
             <span className="tag">{COMPANIES.length}</span>
           </a>
           <a className={`dr-item${pathname.startsWith('/rooms/product') ? ' on' : ''}`} onClick={() => go('/rooms/product')}>

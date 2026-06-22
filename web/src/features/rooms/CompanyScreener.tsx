@@ -11,8 +11,8 @@ import { fdate, szKB } from '../../lib/format'
 
 type SortState = { k: string; d: number }
 const COLS: [string, string][] = [
-  ['co', 'Company'],
-  ['seg', 'Segment'],
+  ['co', 'Competitor'],
+  ['seg', 'Focus'],
   ['cat', 'Category'],
   ['doc', 'Document'],
   ['fmt', 'Format'],
@@ -61,7 +61,7 @@ export function CompanyScreener() {
   }
   const openCompany = (co: string) => {
     const c = COMPANIES.find((x) => x.co === co)
-    if (c) navigate(`/rooms/company/${encodeURIComponent(c.tick)}`)
+    if (c) navigate(`/rooms/competitor/${encodeURIComponent(c.tick)}`)
   }
 
   return (
@@ -69,15 +69,15 @@ export function CompanyScreener() {
       <ModuleHeader
         crumb={
           <>
-            Compass <b>›</b> Rooms <b>›</b> Company Data Room
+            Compass <b>›</b> Rooms <b>›</b> Competitor Data Room
           </>
         }
         title={
           <>
-            Company <span className="em">Data Room</span>
+            Competitor <span className="em">Data Room</span>
           </>
         }
-        sub="Documents across every company you cover. Filter, sort, and click a company name to open its profile and full document set."
+        sub="Documents across every competitor you track — the deep-dive home for the Radar watchlist. Filter, sort, and click a competitor to open its profile and full document set."
         actions={
           <>
             <button className="btn">
