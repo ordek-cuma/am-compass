@@ -1,4 +1,5 @@
-"""Phase 2/3 (interim) — European + German AMs that aren't on SEC EDGAR.
+"""Primary-sourced overlay for AMs not ingestable via EDGAR financials — European,
+German, private US (Vanguard/Fidelity/PIMCO), and US group-filer AM segments.
 
 These firms publish AuM in their own results (EUR/CHF), not via a clean API, so until a
 proper URD / Bundesanzeiger harvester exists this module carries hand-verified, primary-
@@ -52,6 +53,19 @@ EUROPE: dict[str, dict] = {
                ("aua", 18000.0, "USD", "$18tn managed + administered 2025", 0.85)]),
     "PIMCO": dict(name="PIMCO", regime="Private / Mutual", src="https://www.pimco.com/us/en/about-us",
         items=[("aum_total", 2260.0, "USD", "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025", 0.85)]),
+    # ---- US group filers: AM-SEGMENT AuM only (parent group financials are not AM-specific) ----
+    "SSgA": dict(name="State Street Global Advisors", regime="US-listed", src="https://www.ssga.com/",
+        items=[("aum_total", 5700.0, "USD", "$5.7tn AUM at 31 Dec 2025 (State Street AM segment)", 0.85)]),
+    "JPM": dict(name="J.P. Morgan Asset Management", regime="US-listed", period="2025-09-30", src="https://am.jpmorgan.com/",
+        items=[("aum_total", 4000.0, "USD", "$4tn AUM at 30 Sep 2025 (JPMorgan AM segment)", 0.8)]),
+    "Goldman Sachs": dict(name="Goldman Sachs Asset Management", regime="US-listed", src="https://am.gs.com/",
+        items=[("aum_total", 3600.0, "USD", "~$3.6tn assets under supervision at 31 Dec 2025 (GSAM)", 0.8)]),
+    "UBS": dict(name="UBS Asset Management", regime="European-listed", src="https://www.ubs.com/global/en/assetmanagement.html",
+        items=[("aum_total", 2000.0, "USD", "AM division surpassed $2tn invested assets in 2025", 0.8)]),
+    "MS": dict(name="Morgan Stanley Investment Management", regime="US-listed", src="https://www.morganstanley.com/im",
+        items=[("aum_total", 1895.0, "USD", "$1.895tn AUM at 31 Dec 2025 (MSIM segment)", 0.85)]),
+    "PGIM": dict(name="PGIM (Prudential)", regime="US-listed", src="https://www.pgim.com/",
+        items=[("aum_total", 1466.0, "USD", "$1.466tn AUM at 31 Dec 2025 (PGIM segment)", 0.85)]),
 }
 
 

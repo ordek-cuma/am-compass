@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:07:22+00:00",
+  "generated_at": "2026-06-22T10:12:40+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -1037,6 +1037,114 @@
           "confidence": 0.85,
           "source": "results",
           "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025"
+        }
+      }
+    },
+    "SSgA": {
+      "name": "State Street Global Advisors",
+      "ticker": "SSgA",
+      "regime": "US-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 5700000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$5.7tn AUM at 31 Dec 2025 (State Street AM segment)"
+        }
+      }
+    },
+    "JPM": {
+      "name": "J.P. Morgan Asset Management",
+      "ticker": "JPM",
+      "regime": "US-listed",
+      "cik": null,
+      "period_end": "2025-09-30",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 4000000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "$4tn AUM at 30 Sep 2025 (JPMorgan AM segment)"
+        }
+      }
+    },
+    "Goldman Sachs": {
+      "name": "Goldman Sachs Asset Management",
+      "ticker": "Goldman Sachs",
+      "regime": "US-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 3600000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "~$3.6tn assets under supervision at 31 Dec 2025 (GSAM)"
+        }
+      }
+    },
+    "UBS": {
+      "name": "UBS Asset Management",
+      "ticker": "UBS",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 2000000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "AM division surpassed $2tn invested assets in 2025"
+        }
+      }
+    },
+    "MS": {
+      "name": "Morgan Stanley Investment Management",
+      "ticker": "MS",
+      "regime": "US-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 1895000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$1.895tn AUM at 31 Dec 2025 (MSIM segment)"
+        }
+      }
+    },
+    "PGIM": {
+      "name": "PGIM (Prudential)",
+      "ticker": "PGIM",
+      "regime": "US-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [],
+      "metrics": {
+        "aum_total": {
+          "value": 1466000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "$1.466tn AUM at 31 Dec 2025 (PGIM segment)"
         }
       }
     }
