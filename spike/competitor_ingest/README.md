@@ -18,6 +18,43 @@ Requires network (SEC EDGAR). Writes to `spike/out/competitor_ingest/` (gitignor
 - `filings/<id>/<file>` — the actual crawled 10-Ks (real files)
 - `cache/` — cached EDGAR responses (re-runs are fast / offline)
 
+## Triggerable, delta-aware crawl + scrape buttons
+
+`crawl.py` is the document crawler: for each competitor it discovers company filings (SEC
+EDGAR), IR report PDFs, and JS-rendered libraries (per-player scrapers), downloads only the
+delta, re-derives the numbers, and **auto-syncs** the snapshot into the web app.
+
+```bash
+cd spike
+python3 -m competitor_ingest.crawl            # all competitors, delta ('new') mode
+python3 -m competitor_ingest.crawl AMU         # one competitor
+python3 -m competitor_ingest.crawl AMU --full  # re-fetch every document (full refresh)
+```
+
+- **New** = fetch only documents not already in the archive (fast).
+- **Full** (`--full`) = re-fetch everything (catches changed/updated files).
+
+### Per-player scrapers (JS document libraries)
+
+Some IR sites (e.g. Amundi) render their document library client-side — a plain GET sees
+nothing. `scrapers/` holds one module per player (`amundi.py`, …) describing the page(s) +
+the document-link CSS selector; discovery runs in `.venv` via `render_worker.py` (headless
+Chromium), download stays stdlib. **Add a player = one module + registry entry.** Setup:
+
+```bash
+python3 -m venv .venv && ./.venv/bin/pip install -r requirements-render.txt
+./.venv/bin/python -m playwright install chromium
+```
+
+### Scrape buttons (control server)
+
+The Competitor Data Room has **Scrape Full Documents** / **Scrape New Documents** buttons.
+They call a tiny local server that runs the crawl and re-syncs the web snapshot:
+
+```bash
+cd spike && python3 -m competitor_ingest.server      # :8765 (Vite dev proxies /api → here)
+```
+
 ### Sync into the web app
 
 ```bash

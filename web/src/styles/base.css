@@ -362,6 +362,21 @@ button{font-family:inherit; cursor:pointer}
 .statc .v.pos{color:var(--pos)} .statc .v.neg{color:var(--neg)}
 /* documents + facts */
 .rdoc-lab{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 11px}
+/* scrape controls (Competitor Data Room) */
+.scrape-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 16px;padding:11px 13px;border:1px solid var(--line);border-radius:11px;background:var(--surface-2)}
+.scrape-bar.off{background:var(--surface);border-style:dashed}
+.scrape-btn{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;padding:8px 13px;border-radius:8px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-1);cursor:pointer;transition:background .12s,border-color .12s}
+.scrape-btn:hover:not(:disabled){border-color:var(--teal-tint-2);background:var(--surface-2)}
+.scrape-btn.primary{background:var(--teal);border-color:var(--teal);color:#fff}
+.scrape-btn.primary:hover:not(:disabled){background:var(--teal-ink);border-color:var(--teal-ink)}
+.scrape-btn:disabled{opacity:.6;cursor:default}
+.scrape-meta{font-size:11px;color:var(--ink-3);font-weight:500}
+.scrape-msg{font-size:11px;font-weight:600;color:var(--teal-ink);margin-left:auto}
+.scrape-msg.err{color:var(--neg)}
+.scrape-hint{font-size:11px;color:var(--ink-3)}
+.scrape-hint code{font-family:var(--mono,ui-monospace,monospace);font-size:10.5px;background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--ink-2)}
+.scrape-spin{width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;display:inline-block;animation:scrape-rot .6s linear infinite}
+@keyframes scrape-rot{to{transform:rotate(360deg)}}
 .docgroups{display:flex;flex-direction:column;gap:18px}
 .docgroup-h{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 9px}
 .docgroup-n{font-size:10px;font-weight:600;color:var(--ink-2);background:var(--surface-3);border-radius:20px;padding:1px 7px;letter-spacing:0}
