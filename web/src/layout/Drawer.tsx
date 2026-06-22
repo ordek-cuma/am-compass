@@ -2,7 +2,6 @@
 // two data-room destinations so rooms stay switchable without the subpanel.
 import { useLocation, useNavigate } from 'react-router-dom'
 import { BrandTile, Icon } from '../components/icons'
-import { COMPANIES } from '../data/companies'
 import { COMPETITORS } from '../data/competitors'
 import { FUNDS } from '../data/funds'
 import { FOOT, MODULES } from './modules'
@@ -48,20 +47,15 @@ export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }
         </div>
 
         <div className="dr-grp">
-          <div className="dr-ttl">Radar</div>
-          <a className={`dr-item${pathname.startsWith('/rooms/radar') ? ' on' : ''}`} onClick={() => go('/rooms/radar/competitors')}>
-            <Icon name="target" size={17} />
-            Competitor Radar
-            <span className="tag">{COMPETITORS.length}</span>
-          </a>
-        </div>
-
-        <div className="dr-grp">
           <div className="dr-ttl">Data Rooms</div>
           <a className={`dr-item${pathname.startsWith('/rooms/competitor') ? ' on' : ''}`} onClick={() => go('/rooms/competitor')}>
             <Icon name="building" size={17} />
             Competitor Data Room
-            <span className="tag">{COMPANIES.length}</span>
+            <span className="tag">{COMPETITORS.length}</span>
+          </a>
+          <a className={`dr-item${pathname.startsWith('/rooms/documents') ? ' on' : ''}`} onClick={() => go('/rooms/documents')}>
+            <Icon name="docs" size={17} />
+            Document Data Room
           </a>
           <a className={`dr-item${pathname.startsWith('/rooms/product') ? ' on' : ''}`} onClick={() => go('/rooms/product')}>
             <Icon name="box" size={17} />

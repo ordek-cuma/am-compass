@@ -20,13 +20,16 @@ export default function App() {
               <Route index element={<Navigate to="/rooms/product" replace />} />
               <Route path="product" element={<ProductScreener />} />
               <Route path="product/:fundId" element={<FundDetail />} />
-              <Route path="competitor" element={<CompanyScreener />} />
+              {/* Competitor Data Room = the competitor hub (table → company detail) */}
+              <Route path="competitor" element={<CompetitorRadar />} />
               <Route path="competitor/:companyId" element={<CompanyDetail />} />
+              {/* Document Data Room = the flat document feed */}
+              <Route path="documents" element={<CompanyScreener />} />
               {/* legacy redirects */}
-              <Route path="company" element={<Navigate to="/rooms/competitor" replace />} />
+              <Route path="company" element={<Navigate to="/rooms/documents" replace />} />
               <Route path="company/:companyId" element={<Navigate to="/rooms/competitor" replace />} />
-              <Route path="radar" element={<Navigate to="/rooms/radar/competitors" replace />} />
-              <Route path="radar/competitors" element={<CompetitorRadar />} />
+              <Route path="radar" element={<Navigate to="/rooms/competitor" replace />} />
+              <Route path="radar/competitors" element={<Navigate to="/rooms/competitor" replace />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>

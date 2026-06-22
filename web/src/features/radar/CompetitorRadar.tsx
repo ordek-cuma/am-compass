@@ -3,6 +3,7 @@
 //   · Financials — the ingestion agent's metrics, ranked across the peer set (decision-useful)
 // Deep-dives live in the Competitor Data Room.
 import { useMemo, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { ModuleHeader } from '../../components/ModuleHeader'
 import { Panel } from '../../components/Panel'
 import { Icon, MagIcon } from '../../components/icons'
@@ -43,10 +44,12 @@ function colMetric(code: string, key: string): FinMetric | undefined {
 }
 
 export function CompetitorRadar() {
-  const [view, setView] = useState<View>('monitoring')
+  const navigate = useNavigate()
+  const open = (code: string) => navigate(`/rooms/competitor/${encodeURIComponent(code)}`)
+  const [view, setView] = useState<View>('financials')
   const [q, setQ] = useState('')
   const [sel, setSel] = useState<Record<string, string>>(ALL_ALL)
-  const [sort, setSort] = useState<SortState>({ k: 'name', d: 1 })
+  const [sort, setSort] = useState<SortState>({ k: 'aum_total', d: -1 })
 
   const list = useMemo(() => {
     const qq = q.toLowerCase().trim()
@@ -90,9 +93,9 @@ export function CompetitorRadar() {
   return (
     <>
       <ModuleHeader
-        crumb={<>Compass <b>›</b> Rooms <b>›</b> Radar <b>›</b> Competitor Radar</>}
-        title={<>Competitor <span className="em">Radar</span></>}
-        sub="The watchlist of asset managers to monitor. Switch to Financials to rank the peer set on the ingestion agent's metrics. Open a competitor in the Competitor Data Room for the deep-dive."
+        crumb={<>Compass <b>›</b> Rooms <b>›</b> Competitor Data Room</>}
+        title={<>Competitor <span className="em">Data Room</span></>}
+        sub="Every competitor you track. Switch between Monitoring and Financials, sort to rank the peer set, and click a competitor to open its full document set and financials."
         actions={
           <>
             <button className="btn"><Icon name="dl" size={15} />Import List</button>
@@ -155,7 +158,10 @@ export function CompetitorRadar() {
                   list.map((c) => (
                     <tr key={c.code + c.name}>
                       <td>
-                        <div style={{ fontWeight: 600 }} title={c.note}>{c.name}</div>
+                        <span className="co-link" onClick={() => open(c.code)} title={c.note}>
+                          <Icon name="building" size={14} />
+                          {c.name}
+                        </span>
                         <div className="tk-tick">{c.code}</div>
                       </td>
                       <td><span className="chip teal">{c.category}</span></td>
@@ -180,7 +186,10 @@ export function CompetitorRadar() {
                   list.map((c) => (
                     <tr key={c.code + c.name}>
                       <td>
-                        <div style={{ fontWeight: 600 }} title={c.note}>{c.name}</div>
+                        <span className="co-link" onClick={() => open(c.code)} title={c.note}>
+                          <Icon name="building" size={14} />
+                          {c.name}
+                        </span>
                         <div className="tk-tick">{c.code}</div>
                       </td>
                       <td><span className="ac-chip">{c.region}</span></td>
