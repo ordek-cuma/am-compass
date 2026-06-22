@@ -37,6 +37,8 @@ def find_doc_links(html: str, base_url: str, limit: int = 8) -> list[tuple[str, 
     for m in re.finditer(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', html, re.I | re.S):
         href, text = m.group(1), re.sub(r"<[^>]+>", " ", m.group(2))
         text = re.sub(r"\s+", " ", text).strip()
+        text = re.sub(r"\s*,?\s*PDF file.*$", "", text, flags=re.I)      # strip ", PDF file, (opens…)" cruft
+        text = re.sub(r"\s*\(opens?\b[^)]*\)\s*$", "", text, flags=re.I).strip(" ,·-")
         is_pdf = href.lower().split("?")[0].endswith(".pdf")
         if not is_pdf and not _DOC_HINT.search(href):
             continue
