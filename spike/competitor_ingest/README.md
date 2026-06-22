@@ -13,9 +13,20 @@ python3 -m competitor_ingest.run
 Requires network (SEC EDGAR). Writes to `spike/out/competitor_ingest/` (gitignored):
 
 - `observations.json` — every `MetricObservation` (audit-grade, source-cited)
-- `competitor_financials.json` — compact, web-app-ready export (one block per competitor)
+- `competitor_financials.json` — compact, web-app-ready export (metrics + crawled `documents`)
 - `summary.md` — human-readable peer snapshot
-- `cache/` — cached EDGAR responses + 10-Ks (re-runs are fast / offline)
+- `filings/<id>/<file>` — the actual crawled 10-Ks (real files)
+- `cache/` — cached EDGAR responses (re-runs are fast / offline)
+
+### Sync into the web app
+
+```bash
+cp out/competitor_ingest/competitor_financials.json ../web/src/data/   # metrics + doc metadata (committed)
+rm -rf ../web/public/filings && cp -r out/competitor_ingest/filings ../web/public/   # the crawled files (gitignored)
+```
+
+The Competitor Data Room then shows each firm's real 10-K with working **download** + **iframe
+preview** (and an Open-at-SEC link). The metadata is committed; the large filings are regenerated.
 
 Covers **9 US-listed pure-play AMs** (BlackRock, T. Rowe, Invesco, Franklin, AllianceBernstein,
 Federated Hermes, WisdomTree, Janus Henderson, AMG) — see `registry.py`.

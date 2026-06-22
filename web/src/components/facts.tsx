@@ -41,9 +41,12 @@ export interface Attachment {
   name: string
   fmt: string
   meta: string
+  file?: string // public path → real preview + download (crawled file)
+  edgarUrl?: string
 }
 
-// Document attachment rows: click row → preview, click download icon → toast (stops propagation).
+// Document attachment rows: click row → preview, click download icon → download (stops propagation).
+// When `file` is set, preview/download act on the real crawled file.
 export function AttachList({ items }: { items: Attachment[] }) {
   const { openPreview, downloadDoc } = useUi()
   return (
@@ -52,18 +55,21 @@ export function AttachList({ items }: { items: Attachment[] }) {
         <div
           key={`${d.name}-${i}`}
           className={`attach${i === 0 ? ' on' : ''}`}
-          onClick={() => openPreview(d.name, d.fmt, d.meta)}
+          onClick={() => openPreview(d.name, d.fmt, d.meta, { file: d.file, edgarUrl: d.edgarUrl })}
         >
           <span className={`fmt ${d.fmt.toLowerCase()}`}>{d.fmt}</span>
           <div className="ad">
-            <div className="an">{d.name}</div>
+            <div className="an">
+              {d.name}
+              {d.file ? <span className="badge live" style={{ marginLeft: 8 }}>crawled</span> : null}
+            </div>
             <div className="am">{d.meta}</div>
           </div>
           <span
             className="dlb"
             onClick={(e) => {
               e.stopPropagation()
-              downloadDoc(d.name, d.fmt)
+              downloadDoc(d.name, d.fmt, d.file ? `/${d.file}` : undefined)
             }}
           >
             <DlIcon />
