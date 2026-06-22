@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T14:12:42+00:00",
+  "generated_at": "2026-06-22T15:43:56+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -6130,6 +6130,106 @@
       "period_end": "2025-12-31",
       "documents": [
         {
+          "name": "29.04.2026 - PR - 2026 Amundi Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 644738,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/408954de-3e9b-4486-b9b3-72fb9959a771?inline=",
+          "file": "filings/AMU/docs/w8c195836585712c8.pdf"
+        },
+        {
+          "name": "29.04.2026 - Slides - 2026 Amundi Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 2199505,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7748aee1-60e7-4329-bfa8-5bb708304014?inline=",
+          "file": "filings/AMU/docs/wa82f9ab0ea03ea79.pdf"
+        },
+        {
+          "name": "29.04.2026 - Financial Supplement - 2026 Amundi Q1 Results (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 1023713,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/743ccdfe-1778-4cff-8c17-b8fa13773353?inline=",
+          "file": "filings/AMU/docs/w1097da21710e5bda.pdf"
+        },
+        {
+          "name": "29.04.2026 - Financial Supplement - 2026 Amundi Q1 Results (XLS) XLSX 508 KB",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-29",
+          "fmt": "HTML",
+          "sizeBytes": 519485,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/08e89138-1ddf-4e09-8552-0eb06a4952d4?inline=",
+          "file": "filings/AMU/docs/w2795d490a6d1a20a.html"
+        },
+        {
+          "name": "29.04.2026 - Transcript - 2026 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 221683,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0d475472-66aa-41db-8957-1923274e0399?inline=",
+          "file": "filings/AMU/docs/w440146101a7f808f.pdf"
+        },
+        {
+          "name": "02.03.2026 - PR - 2025 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-02",
+          "fmt": "PDF",
+          "sizeBytes": 860182,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/99d1f48b-332d-4d70-ab4b-745cd251e2d1?inline=",
+          "file": "filings/AMU/docs/w1970a964af88e686.pdf"
+        },
+        {
+          "name": "02.03.2026 - Slides - 2025 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-02",
+          "fmt": "PDF",
+          "sizeBytes": 2499554,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/52c11eeb-535b-404e-a0bb-a04f004bd9db?inline=",
+          "file": "filings/AMU/docs/w2ab2dc2d18e27a4c.pdf"
+        },
+        {
+          "name": "02.03.2026 - Financial Supplement - 2025 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-02",
+          "fmt": "PDF",
+          "sizeBytes": 1089115,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/f250410a-60ee-4aaa-a7d5-5fe35ba67cd1?inline=",
+          "file": "filings/AMU/docs/w2a32e7cdf9b5381b.pdf"
+        },
+        {
+          "name": "02.03.2026 - Financial Supplement - 2025 Amundi's Q4 results.xlsx XLSX 484 KB",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-02",
+          "fmt": "HTML",
+          "sizeBytes": 494754,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fdc326b2-5500-4a29-8421-38d121010dba?inline=",
+          "file": "filings/AMU/docs/w870a3d36840d9e33.html"
+        },
+        {
+          "name": "02.03.2026 - Transcript - 2025 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-02",
+          "fmt": "PDF",
+          "sizeBytes": 233263,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1e112e3b-bf34-4e97-a36b-ec982c7c3712?inline=",
+          "file": "filings/AMU/docs/w861b39685bbbbc82.pdf"
+        },
+        {
           "name": "Amundi Annual General Meeting",
           "form": "IR",
           "group": "Reports",
@@ -6150,6 +6250,1476 @@
           "file": "filings/AMU/docs/w0e41e5f42e747734.html"
         },
         {
+          "name": "Amundi - Slides - 2016 Amundi Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 997067,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3204987a-6696-450d-9d51-1f9afe4b1943?inline=",
+          "file": "filings/AMU/docs/wbd0ac21242e2d672.pdf"
+        },
+        {
+          "name": "Script Amundi - Half Year and Q2 2019 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 298031,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b88e09de-26bd-4986-bad2-7f2a82ea0f44?inline=",
+          "file": "filings/AMU/docs/w166821c4e4042a4a.pdf"
+        },
+        {
+          "name": "Amundi - Third Quarter 2019 Earnings transscript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 233488,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/84fcb69b-fb27-455d-a27b-4082916e76bb?inline=",
+          "file": "filings/AMU/docs/wa27b27c07d240c21.pdf"
+        },
+        {
+          "name": "Script Amundi - Q4 and annual 2019 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 255022,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ec863c0e-98a9-4a1e-b9ba-874b1e835488?inline=",
+          "file": "filings/AMU/docs/wa55c0c19e91da449.pdf"
+        },
+        {
+          "name": "Script Amundi - Full Year and Q4 2018 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 270342,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/da82e112-0a45-4b88-8c26-b891156503bf?inline=",
+          "file": "filings/AMU/docs/wbe50da09018834af.pdf"
+        },
+        {
+          "name": "Transcript - Amundi Q1 2017",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 356481,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/6d07c7a2-9452-4437-982d-10d56c58a2b3?inline=",
+          "file": "filings/AMU/docs/w0f02ccf024da29de.pdf"
+        },
+        {
+          "name": "Script H1 results presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 355477,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1818a715-cf6e-4545-badf-8c80a7ab01bb?inline=",
+          "file": "filings/AMU/docs/w64fc32db4e0a9aa3.pdf"
+        },
+        {
+          "name": "Amundi - 17Q3 - Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 353495,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5e137398-ec75-4fc8-ab72-a5e2dd53a1ed?inline=",
+          "file": "filings/AMU/docs/weafefa97445093fd.pdf"
+        },
+        {
+          "name": "Conference Call Transcript - Results Q1 2016",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 376729,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/4f4aea2a-4df0-444a-b034-0803edb07eee?inline=",
+          "file": "filings/AMU/docs/w017ff5e2f884e82d.pdf"
+        },
+        {
+          "name": "Conference Call Transcript ENG - Results H1 Q2 2016",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 169611,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/cba2551f-6a8d-475c-a904-c880bc3eb0e0?inline=",
+          "file": "filings/AMU/docs/w84e5f3bec0fc0131.pdf"
+        },
+        {
+          "name": "Conference call Transcript-Results Q3 2016",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 157097,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3ed97eb7-3f2e-4a3c-a067-6f5f1bb9e195?inline=",
+          "file": "filings/AMU/docs/w450e4f31c2026e0b.pdf"
+        },
+        {
+          "name": "Amundi Full Year and Q4 2016 results - Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 453316,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9e15d033-fc56-464b-9346-6bdddf2c6bd7?inline=",
+          "file": "filings/AMU/docs/we51b778de1811aba.pdf"
+        },
+        {
+          "name": "Conference Call Transcript - Results Q4 and annual 2015",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 167909,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ed362d52-3b94-4c67-91f3-003629676fad?inline=",
+          "file": "filings/AMU/docs/w2eff867f40f34734.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3389528,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/68677df9-d039-4de2-b96d-242c1a15e268?inline=",
+          "file": "filings/AMU/docs/we956a453bc17e7e7.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3472799,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a5629198-dd79-4b68-861b-0ce4e2d15576?inline=",
+          "file": "filings/AMU/docs/wed902feddde8a608.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2020",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6331999,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2a95edb3-ca62-4dfe-bd2a-8365dc3c9f6f?inline=",
+          "file": "filings/AMU/docs/w772bab1df73dfd0b.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2019",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4055746,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/dafa3d5e-bc44-4311-aa56-7374dc8e0e89?inline=",
+          "file": "filings/AMU/docs/wb9ec3f0112b6b402.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2018",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 638986,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a79e4967-ca41-408a-852a-97a1261ff006?inline=",
+          "file": "filings/AMU/docs/w8dbc00a03d19aa1d.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2017",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4336213,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a2456916-96b8-49b2-a5d1-f65c05ce7c5f?inline=",
+          "file": "filings/AMU/docs/w220a757f96248822.pdf"
+        },
+        {
+          "name": "Amundi - Financial Report - H1 2016",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1377352,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/26314d93-1538-411e-abb5-0aeaebafd2c6?inline=",
+          "file": "filings/AMU/docs/wef58ccd459eaa8b1.pdf"
+        },
+        {
+          "name": "Universal Registration Document | 2025 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12773791,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/36449c85-334b-48e9-a349-b7283941758a?inline=",
+          "file": "filings/AMU/docs/wf0b34a17966dde22.pdf"
+        },
+        {
+          "name": "Universal Registration Document | 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10425316,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9df590a9-0a0f-4e95-b960-f43dae3189fa?inline=",
+          "file": "filings/AMU/docs/wb3e3747dc3633f0e.pdf"
+        },
+        {
+          "name": "2023 - Universal Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 15537842,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3ff6cce1-f7e3-40a6-b352-91ddad442007?inline=",
+          "file": "filings/AMU/docs/w42591cfe6a8dc71f.pdf"
+        },
+        {
+          "name": "2022 - Universal Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17648350,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/32f8114a-0edb-49f8-adb8-7d9c85d03f39?inline=",
+          "file": "filings/AMU/docs/we0a89d6a90a9d529.pdf"
+        },
+        {
+          "name": "2021 - Universal Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8898727,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/42888130-56ba-4310-884a-4541fdd8d6a6?inline=",
+          "file": "filings/AMU/docs/wc99bb63f844dcc4e.pdf"
+        },
+        {
+          "name": "2020 - Universal Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7876376,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9cc7b088-77b7-40e8-a00f-1275f1da9e5f?inline=",
+          "file": "filings/AMU/docs/w15a0b47fd1727a51.pdf"
+        },
+        {
+          "name": "2019 - Universal Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 16744695,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ac67d1d3-80d0-40af-95a8-c6c642870096?inline=",
+          "file": "filings/AMU/docs/w38d648502d005a6a.pdf"
+        },
+        {
+          "name": "2018 - Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6773286,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1401ba00-47f7-45c7-9336-e940bbbb24c0?inline=",
+          "file": "filings/AMU/docs/wb3525a945ded60d0.pdf"
+        },
+        {
+          "name": "2017 - Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3633719,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0cd084cb-fc8a-4da9-b82d-4315d5dbfacb?inline=",
+          "file": "filings/AMU/docs/w8bf33de56728d569.pdf"
+        },
+        {
+          "name": "2016 - Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 14637591,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0db644d3-0442-4324-a516-ac85ac8582eb?inline=",
+          "file": "filings/AMU/docs/w98c68a80013c5984.pdf"
+        },
+        {
+          "name": "2015 - Registration Document - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3868984,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5bbda348-4ce0-473d-8661-f3266dc96ae2?inline=",
+          "file": "filings/AMU/docs/w2e13376339504d5e.pdf"
+        },
+        {
+          "name": "10.29.2025 - Transcript - Financial Results Q3 2025 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-29",
+          "fmt": "PDF",
+          "sizeBytes": 220054,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/36f0f430-80b0-4ec8-906c-c1e2c5c7794e?inline=",
+          "file": "filings/AMU/docs/w01f741de231a6c6f.pdf"
+        },
+        {
+          "name": "10.28.2025 - PR - 2025 Amundi Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 768197,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/4634967c-d91c-44ac-b9b5-8a2f06b8a595?inline=",
+          "file": "filings/AMU/docs/wd0a90056ba090603.pdf"
+        },
+        {
+          "name": "10.28.2025 - Slides - 2025 Amundi's Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 1862736,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/95484fd7-814d-4a13-8950-33a7e3c93673?inline=",
+          "file": "filings/AMU/docs/wfd8129f116f5fbca.pdf"
+        },
+        {
+          "name": "10.28.2025 - Amundi Financial Supplement Q3 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 992226,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5dcd7ce5-e1c2-41aa-bae4-6ce873135435?inline=",
+          "file": "filings/AMU/docs/w71c8c4b8ec435803.pdf"
+        },
+        {
+          "name": "10.28.2025 - Amundi Financial Supplement Q3 2025.xls XLSX 474 KB",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "HTML",
+          "sizeBytes": 484462,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ca4aa6a3-cf5c-4e64-8982-109640c8b9fe?inline=",
+          "file": "filings/AMU/docs/w499bff47b2dd5b33.html"
+        },
+        {
+          "name": "07.29.2025 - PR - 2025 Amundi Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 680659,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/4cc6c81a-abb6-4c2b-a6fb-cddf0b01960b?inline=",
+          "file": "filings/AMU/docs/w25bd04fc201b3c8f.pdf"
+        },
+        {
+          "name": "07.29.2025 - Slides - 2025 Amundi's Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 1697437,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c3cfb951-d47c-4e6f-89af-aed7fa466067?inline=",
+          "file": "filings/AMU/docs/w044b7fd1d9b503c4.pdf"
+        },
+        {
+          "name": "07.29.2025 - Amundi Financial Supplement Q2 2025.pdf",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 871260,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/8db3b89a-33bd-4e4c-aa5a-3f0cae468e84?inline=",
+          "file": "filings/AMU/docs/wbac104a3b7573de7.pdf"
+        },
+        {
+          "name": "07.29.2025 - Amundi Financial Supplement Q2 2025.xlsx XLSX 422 KB",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-29",
+          "fmt": "HTML",
+          "sizeBytes": 431823,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/24acf7ea-b59a-4fdf-bc64-a6da324a402f?inline=",
+          "file": "filings/AMU/docs/w8ce1dbebe0bb7e95.html"
+        },
+        {
+          "name": "04.29.2025 - PR - 2025 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 459295,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fb420443-9aa5-4aa0-b559-24b4dcc034e6?inline=",
+          "file": "filings/AMU/docs/wec7b7420463b9cc6.pdf"
+        },
+        {
+          "name": "04.29.2025 - Slides - 2025 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 1221543,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9772fbe1-bbe7-434f-ac69-5b1de678c8a0?inline=",
+          "file": "filings/AMU/docs/wa909eea09e340744.pdf"
+        },
+        {
+          "name": "04.29.2025 - Financial Supplement - 2025 03 - Amundi.pdf",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 717533,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2fc45ee8-80f4-4a6c-a59f-4402d97d346e?inline=",
+          "file": "filings/AMU/docs/w27f6b73f525d95ab.pdf"
+        },
+        {
+          "name": "04.29.2025 - Financial Supplement - 2025 03 - Amundi.xlsx XLSX 394 KB",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-29",
+          "fmt": "HTML",
+          "sizeBytes": 402533,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9a45cedd-aeb4-44c7-893c-bef59a8d4aef?inline=",
+          "file": "filings/AMU/docs/wac3394d8e8417382.html"
+        },
+        {
+          "name": "02.04.2025 - PR - 2024 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-02",
+          "fmt": "PDF",
+          "sizeBytes": 520070,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/dd5cc069-f6cf-40e4-be14-10ba825977c8?inline=",
+          "file": "filings/AMU/docs/w4525762d687b500d.pdf"
+        },
+        {
+          "name": "02.04.2025 - Slides - 2024 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-02",
+          "fmt": "PDF",
+          "sizeBytes": 1122741,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/e77042b3-e368-4fb5-a38f-212de5babbf5?inline=",
+          "file": "filings/AMU/docs/w090a720efbad5515.pdf"
+        },
+        {
+          "name": "05.02.2025 - Transcript - Financial Results Q1 2025 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-05",
+          "fmt": "PDF",
+          "sizeBytes": 228203,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/43b0dde9-3066-44d9-8caa-b75ef0780c09?inline=",
+          "file": "filings/AMU/docs/wb891dd0f1d889fa7.pdf"
+        },
+        {
+          "name": "08.01.2025 - Transcript - Financial Results H1 & Q2 2025 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-08",
+          "fmt": "PDF",
+          "sizeBytes": 263796,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9d2bed8c-1f21-49ca-b47b-fe34850afdd8?inline=",
+          "file": "filings/AMU/docs/wb6990bd24bfd0e39.pdf"
+        },
+        {
+          "name": "08.01.2025 - Financial Report - H1 2025 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-08",
+          "fmt": "PDF",
+          "sizeBytes": 2716649,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1c507ee9-cfa8-4dbb-a440-e6df75c9d7bb?inline=",
+          "file": "filings/AMU/docs/w49ff3f191424a4c1.pdf"
+        },
+        {
+          "name": "10.30.2024 - PR - 2024 Amundi's Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-30",
+          "fmt": "PDF",
+          "sizeBytes": 484061,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a69cc34d-345d-42d1-9bb7-ae4c76066132?inline=",
+          "file": "filings/AMU/docs/w2e707d0a50287df6.pdf"
+        },
+        {
+          "name": "10.30.2024 - Slides - 2024 Amundi's Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-30",
+          "fmt": "PDF",
+          "sizeBytes": 1197004,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2fee1947-3fb1-43d7-b73b-33c7af808c4b?inline=",
+          "file": "filings/AMU/docs/w0c81197bc180ab0f.pdf"
+        },
+        {
+          "name": "30.10.2024 - Transcript - Financial Results Q3 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-30",
+          "fmt": "PDF",
+          "sizeBytes": 211322,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/568c6534-31b5-46a8-abfb-2280b1a2192f?inline=",
+          "file": "filings/AMU/docs/wc3518e38bc11b018.pdf"
+        },
+        {
+          "name": "09.20.2024 - Financial Report - H1 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-09-20",
+          "fmt": "PDF",
+          "sizeBytes": 6703579,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1455261f-8faf-47e1-980b-bab70f8f34c2?inline=",
+          "file": "filings/AMU/docs/we064654062f24e11.pdf"
+        },
+        {
+          "name": "07.31.2024 - Transcript - Financial Results Q2&H1 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 166935,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/daca88c6-90ad-4cf5-ac33-4cb9ac90ccf4?inline=",
+          "file": "filings/AMU/docs/w4f25699ac0fe735e.pdf"
+        },
+        {
+          "name": "07.26.2024 - PR - 2024 Amundi's Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-26",
+          "fmt": "PDF",
+          "sizeBytes": 498716,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/92248afa-4aa9-4fc6-bc57-f11a1ed26b9d?inline=",
+          "file": "filings/AMU/docs/wc4a4920266541d2f.pdf"
+        },
+        {
+          "name": "07.26.2024 - Slides - 2024 Amundi's Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-26",
+          "fmt": "PDF",
+          "sizeBytes": 1328526,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/99868379-0ed2-457a-9ecb-dc4e05171ba7?inline=",
+          "file": "filings/AMU/docs/wf0da477413bbd7ad.pdf"
+        },
+        {
+          "name": "02.07.2024 - PR - 2023 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-02",
+          "fmt": "PDF",
+          "sizeBytes": 589853,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2610ec5e-9271-4a50-adc7-f8e860a555f3?inline=",
+          "file": "filings/AMU/docs/w979a577a0a19eae5.pdf"
+        },
+        {
+          "name": "02.07.2024 - Slides - 2023 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-02",
+          "fmt": "PDF",
+          "sizeBytes": 1540247,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/967c48ce-7bb2-46f4-b7cc-1a9b082360d1?inline=",
+          "file": "filings/AMU/docs/w107e75da9fd4e9fa.pdf"
+        },
+        {
+          "name": "04.26.2024 - PR - 2024 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-26",
+          "fmt": "PDF",
+          "sizeBytes": 541279,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/920c7790-b1b9-4a93-a18b-1a2ce3981f24?inline=",
+          "file": "filings/AMU/docs/w2e9874065346f470.pdf"
+        },
+        {
+          "name": "04.26.2024 - Slides - 2024 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-26",
+          "fmt": "PDF",
+          "sizeBytes": 1267405,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b9cb8171-abd4-4fd0-9f81-bb611838b0e0?inline=",
+          "file": "filings/AMU/docs/w95acecc52a030947.pdf"
+        },
+        {
+          "name": "02.13.2024 - Transcript - Financial Results Q4 2023 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-13",
+          "fmt": "PDF",
+          "sizeBytes": 320022,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/cbb4551f-aeaa-4399-934d-c8402d928e83?inline=",
+          "file": "filings/AMU/docs/w4841596f94c13b5c.pdf"
+        },
+        {
+          "name": "10.02.2024 - Transcript - Financial Results Q4 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-10",
+          "fmt": "PDF",
+          "sizeBytes": 276395,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d730263d-7ac4-434c-8fa4-15b0ed60518c?inline=",
+          "file": "filings/AMU/docs/wf21269eceaf598e8.pdf"
+        },
+        {
+          "name": "05.02.2024 - Transcript - Financial Results Q1 2024 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-05",
+          "fmt": "PDF",
+          "sizeBytes": 307197,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/bebbff70-4974-45f0-addf-0ff46d538ac1?inline=",
+          "file": "filings/AMU/docs/w816bc1fa2fc6fbb3.pdf"
+        },
+        {
+          "name": "10.27.2023 - PR - 2023 Amundi's Q3 results.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-10-27",
+          "fmt": "PDF",
+          "sizeBytes": 502495,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0bd5e47f-a45e-44c3-bb2d-dc8e911c71b5?inline=",
+          "file": "filings/AMU/docs/wb11b56a26aeecd4d.pdf"
+        },
+        {
+          "name": "10.27.2023 - Slides - 2023 Amundi's Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-10-27",
+          "fmt": "PDF",
+          "sizeBytes": 996844,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/4fe854aa-642d-40cf-89ac-4089725dd2aa?inline=",
+          "file": "filings/AMU/docs/w6910793587dc41f5.pdf"
+        },
+        {
+          "name": "09.18.2023 - Financial Report - H1 2023 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-09-18",
+          "fmt": "PDF",
+          "sizeBytes": 24599523,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/6010219c-4e16-4714-90ef-d5ecda7e31ab?inline=",
+          "file": "filings/AMU/docs/wd17cacecc2e2cf34.pdf"
+        },
+        {
+          "name": "02.08.2023 - PR - 2022 Amundi's Q4 and annual results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-08-02",
+          "fmt": "PDF",
+          "sizeBytes": 1098667,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d4e1cb0e-7803-4bd9-8c20-ae0313753997?inline=",
+          "file": "filings/AMU/docs/wc8d87826b0ff6b4e.pdf"
+        },
+        {
+          "name": "02.08.2023 - Slides - 2022 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-08-02",
+          "fmt": "PDF",
+          "sizeBytes": 2524050,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/04c67f39-94a5-40b1-868c-9a16f7368f17?inline=",
+          "file": "filings/AMU/docs/w7200f5ebf49cc8d1.pdf"
+        },
+        {
+          "name": "07.28.2023 - PR - 2023 Amundi's Q2 results.pdf",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-28",
+          "fmt": "PDF",
+          "sizeBytes": 996465,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/de8e76c0-bf60-4518-995c-8bd03e04e9fc?inline=",
+          "file": "filings/AMU/docs/w278fd716c5b4f01c.pdf"
+        },
+        {
+          "name": "07.28.2023 - Slides - 2023 Amundi's Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-28",
+          "fmt": "PDF",
+          "sizeBytes": 1785765,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/f0e8313e-6a42-4c66-a035-d32b372dac71?inline=",
+          "file": "filings/AMU/docs/wc575bc2b7d40ce34.pdf"
+        },
+        {
+          "name": "05.05.2023 - Transcript - Financial Results Q1 2023 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-05",
+          "fmt": "PDF",
+          "sizeBytes": 722458,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/03d5ea90-6f49-48d3-80d6-05716054ea60?inline=",
+          "file": "filings/AMU/docs/w1ff1e8def38e7848.pdf"
+        },
+        {
+          "name": "04.28.2023 - PR - 2023 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-28",
+          "fmt": "PDF",
+          "sizeBytes": 1407123,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b515d0e2-64a4-4321-983b-134224265372?inline=",
+          "file": "filings/AMU/docs/w1238ad429dd64ad7.pdf"
+        },
+        {
+          "name": "04.28.2023 - Slides - 2023 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-28",
+          "fmt": "PDF",
+          "sizeBytes": 1596730,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7ae0ac69-3a35-4b2f-896f-5359433175f2?inline=",
+          "file": "filings/AMU/docs/w024412b3272bef5b.pdf"
+        },
+        {
+          "name": "02.16.2023 - Transcript - Financial Results Q4 2022 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-16",
+          "fmt": "PDF",
+          "sizeBytes": 784839,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/bf4b9140-9d2c-43d2-96d4-bbb31d5f3117?inline=",
+          "file": "filings/AMU/docs/w0892a376cd6aad55.pdf"
+        },
+        {
+          "name": "11.02.2023 - Transcript - Financial Results Q3 2023 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-11",
+          "fmt": "PDF",
+          "sizeBytes": 301906,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/955c8505-8de2-471a-a249-b613ca3fdbd8?inline=",
+          "file": "filings/AMU/docs/w5bd694d14200a5e4.pdf"
+        },
+        {
+          "name": "10.28.2022 - PR - 2022 Amundi's 9M and Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 785308,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/800e73da-9f88-41c6-a50c-4b5d2b5baf96?inline=",
+          "file": "filings/AMU/docs/w4f9dbaa3168aa622.pdf"
+        },
+        {
+          "name": "10.28.2022 - Slides - 2022 Amundi's Q3 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 1946447,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0fcf3406-4132-4942-9062-bc8655951dcf?inline=",
+          "file": "filings/AMU/docs/wcfc6abdcd1be304c.pdf"
+        },
+        {
+          "name": "11.09.2022 - Transcript - Financial Results Q3 2022 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-09-11",
+          "fmt": "PDF",
+          "sizeBytes": 660141,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/092a1a60-f447-45cb-af78-9d47484aca23?inline=",
+          "file": "filings/AMU/docs/wc5bd1d36cd9254ef.pdf"
+        },
+        {
+          "name": "02.09.2022 - PR - 2021 Amundi's Q4 and annual results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-09-02",
+          "fmt": "PDF",
+          "sizeBytes": 1438162,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ba28fee3-a8da-46de-a0df-c64e46bb9eb6?inline=",
+          "file": "filings/AMU/docs/wfb142894f20b97f1.pdf"
+        },
+        {
+          "name": "02.09.2022 - Slides - 2021 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-09-02",
+          "fmt": "PDF",
+          "sizeBytes": 1452672,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3fec0b9b-cbb3-413c-980e-c242d3ca35cd?inline=",
+          "file": "filings/AMU/docs/w106d704ce6e35837.pdf"
+        },
+        {
+          "name": "07.29.2022 - PR - 2022 Amundi's H1 and Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 158542,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/80322d48-5908-4080-9be3-cb70d7df4a88?inline=",
+          "file": "filings/AMU/docs/w5a94a6357a48b024.pdf"
+        },
+        {
+          "name": "07.29.2022 - Slides - 2022 Amundi's Q2 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 1946019,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/df5881de-1196-44a5-88e5-b895f40985e8?inline=",
+          "file": "filings/AMU/docs/we403f51e3dde4a61.pdf"
+        },
+        {
+          "name": "05.13.2022 - Transcript - Financial Results Q1 2022 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-05-13",
+          "fmt": "PDF",
+          "sizeBytes": 255506,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9ce4ce35-726b-49a4-b5fb-e6d913e1a438?inline=",
+          "file": "filings/AMU/docs/w1a5aaac55ba2f8f8.pdf"
+        },
+        {
+          "name": "04.29.2022 - PR - 2022 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 851543,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1593956c-9e66-4f67-9fc0-c3df9920f425?inline=",
+          "file": "filings/AMU/docs/w8654fabd85ce1c00.pdf"
+        },
+        {
+          "name": "04.29.2022 - Slides - 2022 Amundi's Q1 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 1624194,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/02b76674-cd38-49a2-8edb-91866b80e59d?inline=",
+          "file": "filings/AMU/docs/wb5c2b4637c0811e8.pdf"
+        },
+        {
+          "name": "02.16.2022 - Transcript - Financial Results Q4 2021 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-16",
+          "fmt": "PDF",
+          "sizeBytes": 289349,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/833cbb50-a47f-4a4d-8469-2410ac04ccca?inline=",
+          "file": "filings/AMU/docs/w3860bb939383cb63.pdf"
+        },
+        {
+          "name": "09.02.2022 - Transcript - Financial Results Q2 2022 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-09",
+          "fmt": "PDF",
+          "sizeBytes": 204317,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/61f43990-7b28-46be-8d0f-f8ee10f80b47?inline=",
+          "file": "filings/AMU/docs/w95c9df5a26104e15.pdf"
+        },
+        {
+          "name": "11.12.2021 - Transcript - Financial Results Q3 2021 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-11",
+          "fmt": "PDF",
+          "sizeBytes": 261963,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2fa729e7-ac32-47ed-9568-9f80248f0248?inline=",
+          "file": "filings/AMU/docs/wefd7b201e4956f0b.pdf"
+        },
+        {
+          "name": "08.12.2021 - Transcript - Financial Results Q2 2021 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-08",
+          "fmt": "PDF",
+          "sizeBytes": 262974,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/65750760-5568-4f20-9793-918e2fd0deeb?inline=",
+          "file": "filings/AMU/docs/w62ce9544f8312bbf.pdf"
+        },
+        {
+          "name": "06.11.2021 - PR - Signing Lyxor",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-11-06",
+          "fmt": "PDF",
+          "sizeBytes": 530839,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/cc5440f3-e75e-4168-9c1b-68797b7c3610?inline=",
+          "file": "filings/AMU/docs/wa6473367f0b9fe9c.pdf"
+        },
+        {
+          "name": "02.10.2021 - PR - Amundi's Q4 and Annual 2020 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-10-02",
+          "fmt": "PDF",
+          "sizeBytes": 1469223,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/979e358e-7670-4eb2-942f-c2fb6e6e1577?inline=",
+          "file": "filings/AMU/docs/wda5a47cc0713226c.pdf"
+        },
+        {
+          "name": "02.10.2021 - Slides - 2020 Amundi's Q4 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-10-02",
+          "fmt": "PDF",
+          "sizeBytes": 1760930,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9bb8c1e1-4c43-4254-b542-be9f94090a85?inline=",
+          "file": "filings/AMU/docs/wa5eefc1177462eeb.pdf"
+        },
+        {
+          "name": "07.30.2021 - Slides - 2021 Amundi's Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-07-30",
+          "fmt": "PDF",
+          "sizeBytes": 1714848,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/627ed398-adfd-46ab-9bb5-45171bee6aa8?inline=",
+          "file": "filings/AMU/docs/we6d18f02d089dec5.pdf"
+        },
+        {
+          "name": "07.27.2021 - PR - Amundi's Q2 2021 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-07-27",
+          "fmt": "PDF",
+          "sizeBytes": 998849,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/27933498-5df5-4953-b4ac-32a90c34ffa2?inline=",
+          "file": "filings/AMU/docs/w6705cdceb18a7703.pdf"
+        },
+        {
+          "name": "05.05.2021 - Transcript - Finacial Results Q1 2021 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-05-05",
+          "fmt": "PDF",
+          "sizeBytes": 219344,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/35c0023b-2596-4b47-ba99-cbce40073c4d?inline=",
+          "file": "filings/AMU/docs/we91bbadcfd17969b.pdf"
+        },
+        {
+          "name": "04.29.2021 - PR - Amundi's Q1 2021 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 1016766,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b5c2b75c-5903-4761-936e-60580de36000?inline=",
+          "file": "filings/AMU/docs/wa0c1f235dd2eff2c.pdf"
+        },
+        {
+          "name": "04.29.2021 - Slides - Amundi's Q1 2021 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 1389367,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/90bf7351-b29f-40a8-9081-02fb6d2f7283?inline=",
+          "file": "filings/AMU/docs/wfef51e1066803199.pdf"
+        },
+        {
+          "name": "11.04.2021 - PR - Amundi's Q3 2021 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-04-11",
+          "fmt": "PDF",
+          "sizeBytes": 910118,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/15cdaf57-f2ed-4600-a742-1dbf0d40c206?inline=",
+          "file": "filings/AMU/docs/w1d93152de9c50303.pdf"
+        },
+        {
+          "name": "11.04.2021 - Slides - 2021 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-04-11",
+          "fmt": "PDF",
+          "sizeBytes": 1523515,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/33d680a1-f67e-4a6a-b3dc-d89e7a9b834e?inline=",
+          "file": "filings/AMU/docs/w1542387b215afaf2.pdf"
+        },
+        {
+          "name": "10.02.2021 - Transcript - R\u00e9sultats Amundi Q4 2020",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-02-10",
+          "fmt": "PDF",
+          "sizeBytes": 286531,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/286dcc82-583c-4cfa-ad5e-a806c06641a0?inline=",
+          "file": "filings/AMU/docs/w4564f841cfd9ba5a.pdf"
+        },
+        {
+          "name": "02.12.2020 - PR - Amundi's 2019 annual and Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 1358089,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/faf1c769-997c-47f8-854d-f43d8add88ed?inline=",
+          "file": "filings/AMU/docs/wd8c3b239ae9d1385.pdf"
+        },
+        {
+          "name": "02.12.2020 - Slides - 2019 Amundi's Q4 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 1498246,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/263baab0-b975-4f0f-822b-0a02949dce1a?inline=",
+          "file": "filings/AMU/docs/w91437f011a21833f.pdf"
+        },
+        {
+          "name": "10.30.2020 - Transcript Conf Call - Q3 2020",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-10-30",
+          "fmt": "PDF",
+          "sizeBytes": 232099,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/70eda263-d19a-41bb-b332-5fc6881d5c12?inline=",
+          "file": "filings/AMU/docs/w68157942b9c05a39.pdf"
+        },
+        {
+          "name": "09.30.2020 - PR - Amundi's Q3 2020 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-09-30",
+          "fmt": "PDF",
+          "sizeBytes": 962370,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/e1814196-1866-4e11-8298-47ed314fca86?inline=",
+          "file": "filings/AMU/docs/wa4cf9b41d2912725.pdf"
+        },
+        {
+          "name": "09.30.2020 - Slides - 2020 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-09-30",
+          "fmt": "PDF",
+          "sizeBytes": 2485139,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fa1866b2-d852-480b-ba99-332bcef9c2f8?inline=",
+          "file": "filings/AMU/docs/w86e835e5b7b03f39.pdf"
+        },
+        {
+          "name": "07.31.2020 - PR - Amundi's Q2 2020 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 1140078,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/aa1ac6b7-4bd1-4f0b-a63d-71b9fa53b77a?inline=",
+          "file": "filings/AMU/docs/wef751c2bdce4e2c0.pdf"
+        },
+        {
+          "name": "07.31.2020 - Slides - 2020 Amundi's Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 1151098,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/8ef02b52-b12f-4c42-af11-694c0d0f9194?inline=",
+          "file": "filings/AMU/docs/w2f6d55d38e070d3e.pdf"
+        },
+        {
+          "name": "31.07.2020 - Script - Amundi - Q2 2020 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 242166,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/650dc47e-d264-4fcc-beab-f1a7908e71a2?inline=",
+          "file": "filings/AMU/docs/w9a0321cc39693a41.pdf"
+        },
+        {
+          "name": "04.30.2020 - PR - Amundi's Q1 2020 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-04-30",
+          "fmt": "PDF",
+          "sizeBytes": 792909,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1541dce6-aa19-40b5-86aa-cd975c813b83?inline=",
+          "file": "filings/AMU/docs/w31cc188dac3b2a68.pdf"
+        },
+        {
+          "name": "04.30.2020 - Slides - 2020 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-04-30",
+          "fmt": "PDF",
+          "sizeBytes": 1076081,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/4b9ea88e-b5ca-4241-aed6-3561138d3819?inline=",
+          "file": "filings/AMU/docs/we3c0d9a7425ed76e.pdf"
+        },
+        {
+          "name": "30.04.2020 - Script - Amundi - Q1 2020 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-04-30",
+          "fmt": "PDF",
+          "sizeBytes": 234432,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c0642e24-aec3-4eb6-9cca-ab57a43d3c62?inline=",
+          "file": "filings/AMU/docs/wa3320a8bede293c9.pdf"
+        },
+        {
+          "name": "10.31.2019 - PR - Amundi's results 2019 first nine months and Q3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-10-31",
+          "fmt": "PDF",
+          "sizeBytes": 367797,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0955baca-31c7-4ede-9fed-92476160863c?inline=",
+          "file": "filings/AMU/docs/wfb8f0bf58477ffdf.pdf"
+        },
+        {
+          "name": "10.31.2019 - Slides - 2019 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-10-31",
+          "fmt": "PDF",
+          "sizeBytes": 775653,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/bf5e262a-c3d4-4038-b7ff-6a1674d10d21?inline=",
+          "file": "filings/AMU/docs/w42e0d0747ef2d105.pdf"
+        },
+        {
+          "name": "07.31.2019 - PR - Amundi Results S1 Q2 2019",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 346537,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d5379f4e-d808-4e49-9418-53bb615767c2?inline=",
+          "file": "filings/AMU/docs/w1399703716b8033c.pdf"
+        },
+        {
+          "name": "07.31.2019 - Slides - 2019 Amundi's Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-07-31",
+          "fmt": "PDF",
+          "sizeBytes": 1395946,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7ca610b7-4a9a-4c59-bbe0-d17240081fb8?inline=",
+          "file": "filings/AMU/docs/w2c7ee69fc8797cdb.pdf"
+        },
+        {
+          "name": "04.26.2019 - PR - Amundi Results Q1 2019",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-04-26",
+          "fmt": "PDF",
+          "sizeBytes": 999036,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5a4888c2-9c05-416f-80aa-cf3c1d4eebda?inline=",
+          "file": "filings/AMU/docs/w725fd463728e7541.pdf"
+        },
+        {
+          "name": "04.26.2019 - Slides - 2019 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-04-26",
+          "fmt": "PDF",
+          "sizeBytes": 907820,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fa1809a6-a89a-410c-b84f-0ce41520d5b1?inline=",
+          "file": "filings/AMU/docs/w1ecaba70f9a24819.pdf"
+        },
+        {
+          "name": "04.26.2019 - Q1 2019 Results - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-04-26",
+          "fmt": "PDF",
+          "sizeBytes": 216667,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b655bf66-945a-4953-8717-971878c48033?inline=",
+          "file": "filings/AMU/docs/wbbca493a0b2d784b.pdf"
+        },
+        {
+          "name": "02.13.2019 - PR - Amundi 2018 annual and Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-02-13",
+          "fmt": "PDF",
+          "sizeBytes": 922277,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ec6d831c-73a5-4219-adb2-38f215f48e97?inline=",
+          "file": "filings/AMU/docs/we09dd718dbe9f1d5.pdf"
+        },
+        {
+          "name": "02.13.2019 - Slides - 2018 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2019-02-13",
+          "fmt": "PDF",
+          "sizeBytes": 1017385,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d0e6066f-57b4-4f64-8cf7-b30d7ae87ccb?inline=",
+          "file": "filings/AMU/docs/wb19fd4d54d790ee6.pdf"
+        },
+        {
+          "name": "10.26.2018 - PR - Q3 Amundi Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-10-26",
+          "fmt": "PDF",
+          "sizeBytes": 750678,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/f83914d6-56e0-42e1-818d-ae6372b18acf?inline=",
+          "file": "filings/AMU/docs/w1bc33d75dafddc0e.pdf"
+        },
+        {
+          "name": "10.26.2018 - Slides - 2018 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-10-26",
+          "fmt": "PDF",
+          "sizeBytes": 792443,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/8ff202a8-f54e-4142-8439-e7b3edc9c17b?inline=",
+          "file": "filings/AMU/docs/wb6da9f5a2d032929.pdf"
+        },
+        {
+          "name": "10.26.2018 - Amundi H3 Nine-Month 2018 results - Conf Call Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-10-26",
+          "fmt": "PDF",
+          "sizeBytes": 242884,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b2222af2-99d7-4e63-abed-31143f0d5e11?inline=",
+          "file": "filings/AMU/docs/w0dbfeae1bee8556b.pdf"
+        },
+        {
+          "name": "02.09.2018 - PR - Results Amundi Q4 2017",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-09-02",
+          "fmt": "PDF",
+          "sizeBytes": 729220,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7704c614-774f-43fd-a98c-758ed712846e?inline=",
+          "file": "filings/AMU/docs/wf3a1c2d875d91d06.pdf"
+        },
+        {
+          "name": "02.09.2018 - Slides - 2017 Amundi's Q4 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-09-02",
+          "fmt": "PDF",
+          "sizeBytes": 1065942,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b5e7c152-292d-44c0-928d-3d3fd769f909?inline=",
+          "file": "filings/AMU/docs/wecd9ff73ac3d40de.pdf"
+        },
+        {
+          "name": "02.09.2018 - CP - Transcript Q4 and annual results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-09-02",
+          "fmt": "PDF",
+          "sizeBytes": 377702,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/df0231c8-d10e-490d-a341-d4ba4c6dc6fa?inline=",
+          "file": "filings/AMU/docs/w8d254a619abcfd22.pdf"
+        },
+        {
+          "name": "02.08.2018 - Amundi H1 and Q2 Conf Call Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-08-02",
+          "fmt": "PDF",
+          "sizeBytes": 340237,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/aeeae19b-4cd0-4076-8de9-84bdef41b8a6?inline=",
+          "file": "filings/AMU/docs/wb8844b03215457fc.pdf"
+        },
+        {
+          "name": "04.27.2018 - PR - Results Amundi Q1 2018",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-04-27",
+          "fmt": "PDF",
+          "sizeBytes": 640156,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ee2d8096-35a3-40aa-993d-a983b105786b?inline=",
+          "file": "filings/AMU/docs/wc2430efb9e264374.pdf"
+        },
+        {
+          "name": "04.27.2018 - Slides - 2018 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-04-27",
+          "fmt": "PDF",
+          "sizeBytes": 718807,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/8cc63e3d-f3f8-4fa4-9694-b3a0105df5d5?inline=",
+          "file": "filings/AMU/docs/wdae9072121366618.pdf"
+        },
+        {
+          "name": "04.27.2018 - Amundi Q1 2018 Conf Call Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-04-27",
+          "fmt": "PDF",
+          "sizeBytes": 272506,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d24bf0f8-306c-4df0-bf6e-cdcd6edb540d?inline=",
+          "file": "filings/AMU/docs/w40c1016fc637cc0b.pdf"
+        },
+        {
+          "name": "08.02.2018 - PR - Amundi Results H1 and Q2 2018",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-02-08",
+          "fmt": "PDF",
+          "sizeBytes": 762591,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c74d0981-6916-4c4a-ba85-8f6c5338fb8e?inline=",
+          "file": "filings/AMU/docs/wb8273cd45049a4af.pdf"
+        },
+        {
+          "name": "08.02.2018 - Slides - 2018 Amundi's Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2018-02-08",
+          "fmt": "PDF",
+          "sizeBytes": 925765,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2718ea6a-d6e3-46c8-b69e-373aac192fd2?inline=",
+          "file": "filings/AMU/docs/w4dcb9fc30252fe75.pdf"
+        },
+        {
+          "name": "10.27.2017 - PR - Results Q3 2017",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-10-27",
+          "fmt": "PDF",
+          "sizeBytes": 709389,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3639810e-6355-4506-841d-c5d3f267702a?inline=",
+          "file": "filings/AMU/docs/w86cec74ddc93e831.pdf"
+        },
+        {
+          "name": "10.27.2017 - Slides - 2017 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-10-27",
+          "fmt": "PDF",
+          "sizeBytes": 603364,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0f49885e-c9e3-436f-9995-cd521059ad94?inline=",
+          "file": "filings/AMU/docs/w4a1d5ff3dcadad85.pdf"
+        },
+        {
+          "name": "02.10.2017 - PR - Q4 and annual 2016 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-10-02",
+          "fmt": "PDF",
+          "sizeBytes": 644810,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c3bdd744-bc6f-4696-baff-9402fa76e872?inline=",
+          "file": "filings/AMU/docs/w73c20b1080e635cc.pdf"
+        },
+        {
+          "name": "02.10.2017 - Slides - 2016 Amundi's Q4 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-10-02",
+          "fmt": "PDF",
+          "sizeBytes": 1030910,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/498f261d-92bb-4e49-abcb-ba2a007ff494?inline=",
+          "file": "filings/AMU/docs/w544ed23bba8be7f3.pdf"
+        },
+        {
+          "name": "07.28.2017 - PR - Amundi H1 2017 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-07-28",
+          "fmt": "PDF",
+          "sizeBytes": 740909,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3c4959e7-37af-4240-852d-10fed8d9bac3?inline=",
+          "file": "filings/AMU/docs/w4b62c2313904c9d7.pdf"
+        },
+        {
+          "name": "07.28.2017 - Slides - 2017 Amundi's Q2 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-07-28",
+          "fmt": "PDF",
+          "sizeBytes": 1056970,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5644f38e-da4c-451b-8dc6-d4a647017bb1?inline=",
+          "file": "filings/AMU/docs/w6e2c8b2acd84a823.pdf"
+        },
+        {
+          "name": "04.28.2017 - PR - Amundi's Q1 2017 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-04-28",
+          "fmt": "PDF",
+          "sizeBytes": 194433,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a0692404-75e1-4ed7-b784-bb8247777388?inline=",
+          "file": "filings/AMU/docs/w546b9937145ee0d6.pdf"
+        },
+        {
+          "name": "04.28.2017 - Slides - 2017 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2017-04-28",
+          "fmt": "PDF",
+          "sizeBytes": 563975,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3e525776-641b-4b7f-b79f-c07ecd493f43?inline=",
+          "file": "filings/AMU/docs/w54bf865c9cb77a1e.pdf"
+        },
+        {
+          "name": "02.12.2016 - PR - Annual and Q4 results 2015",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 787941,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3097f484-b11a-4cb2-8c1f-49dad8b205bd?inline=",
+          "file": "filings/AMU/docs/w5c15b80f44773961.pdf"
+        },
+        {
+          "name": "02.12.2016 - Slides - 2015 Amundi's Q4 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 763209,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3fe19dd1-1182-4787-a9aa-ee46bd1c9b4d?inline=",
+          "file": "filings/AMU/docs/wd59e410ed0ef5166.pdf"
+        },
+        {
+          "name": "10.28.2016 - Results -Q3 2016 - Amundi",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 704941,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7c38d509-2a5d-48c8-a893-f1f0d7ac3902?inline=",
+          "file": "filings/AMU/docs/w491176c0b1d36e3b.pdf"
+        },
+        {
+          "name": "10.28.2016 - Slides - 2016 Amundi's Q3 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 916219,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/447daf88-efba-4745-8470-18884d2fa239?inline=",
+          "file": "filings/AMU/docs/w6455a5921a71250c.pdf"
+        },
+        {
+          "name": "07.29.2016 - PR - Amundi - H1 and Q2 Results 2016",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-07-29",
+          "fmt": "PDF",
+          "sizeBytes": 825411,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ddca1556-0e00-4b51-8228-3c34cb034e06?inline=",
+          "file": "filings/AMU/docs/w43ea3a0fdfa4e321.pdf"
+        },
+        {
+          "name": "04.29.2016 - PR - Amundi - Q1 2016 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 761841,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/add3e5e3-476c-437f-ad1d-ae32d3d600c8?inline=",
+          "file": "filings/AMU/docs/w2e7a5b0654a11772.pdf"
+        },
+        {
+          "name": "04.29.2016 - Slides - 2016 Amundi's Q1 Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2016-04-29",
+          "fmt": "PDF",
+          "sizeBytes": 720261,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3884978b-e14d-4d6e-be9a-eb3092ac818d?inline=",
+          "file": "filings/AMU/docs/w300ea658dcc07996.pdf"
+        },
+        {
           "name": "Universal Registration Document / Results",
           "form": "IR",
           "group": "Annual",
@@ -6158,6 +7728,326 @@
           "sizeBytes": 103178,
           "edgarUrl": "https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
           "file": "filings/AMU/docs/w51d5e554f08e3c08.html"
+        },
+        {
+          "name": "Complaints Handling Policy | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 675114,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/660d4b1b-3c52-4a42-83ef-28bccc85ef13?inline=",
+          "file": "filings/AMU/docs/wb60d27275bdabc52.pdf"
+        },
+        {
+          "name": "Customers qualification | 2010 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 45730,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c3dfb6b3-10d8-4792-a897-d4aa89466628?inline=",
+          "file": "filings/AMU/docs/w10821188fea30c77.pdf"
+        },
+        {
+          "name": "Conflict of interest prevention and management policy | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 606446,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/d97650d1-ded2-43ab-b53b-005209729121?inline=",
+          "file": "filings/AMU/docs/wac7be765cf89dae4.pdf"
+        },
+        {
+          "name": "Best Selection and Execution Policy | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 590964,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/769fec06-af29-47ec-9bdb-31d79505af5d?inline=",
+          "file": "filings/AMU/docs/w06fdc23601115668.pdf"
+        },
+        {
+          "name": "Rapport RTS28 | 2024 - Amundi Interm\u00e9diation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 709957,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/804487e6-1c80-4f8d-a927-ca89cfd55140?inline=",
+          "file": "filings/AMU/docs/w0e6425bc0b933c18.pdf"
+        },
+        {
+          "name": "Financial instruments and their risks | 2020 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 53199,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ba6a7fe5-64b5-4276-b655-e90af4a3979a?inline=",
+          "file": "filings/AMU/docs/w962005b0f1af90db.pdf"
+        },
+        {
+          "name": "Conflict of interest prevention and management policy | 2026 - Amundi Intermediation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 502564,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/8b1a16b9-fb6e-470e-9087-0944e1655e35?inline=",
+          "file": "filings/AMU/docs/w84f9145a3a7a4099.pdf"
+        },
+        {
+          "name": "Selection and execution policy | 2025 - Amundi Interm\u00e9diation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 815122,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a9755a19-c7fe-4cc6-9756-c115cf21fa4a?inline=",
+          "file": "filings/AMU/docs/w870cba42ccc860bb.pdf"
+        },
+        {
+          "name": "Engagement Report | 2024 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10009127,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/404c3243-d936-43b7-8188-e4098bf2cfb2?inline=",
+          "file": "filings/AMU/docs/wc10a8e1dfaf92154.pdf"
+        },
+        {
+          "name": "Global Responsible Investment Policy | 2026 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5404335,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3b46aee5-2ad8-4bb5-b7da-f01efb13966f?inline=",
+          "file": "filings/AMU/docs/w5c92a14c7795a822.pdf"
+        },
+        {
+          "name": "SRD 2 Article 3 - Generic report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 53763,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/82b5e83e-983e-4bfc-921a-dfa38fa933ee?inline=",
+          "file": "filings/AMU/docs/w20f2f02430bec2a4.pdf"
+        },
+        {
+          "name": "Voting Report | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 994621,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a3cca092-bc9c-4103-8a87-cdb5e99a3ee3?inline=",
+          "file": "filings/AMU/docs/w27fe8c76f22ed842.pdf"
+        },
+        {
+          "name": "Stewardship Report | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6357826,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/764af169-0937-4b06-9993-34a39d9483bd?inline=",
+          "file": "filings/AMU/docs/w2551dd67c7499416.pdf"
+        },
+        {
+          "name": "Voting Report Appendix | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1350825,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fd0ca648-9432-4aca-81d5-ba218ef94948?inline=",
+          "file": "filings/AMU/docs/wb8ea658f12238c43.pdf"
+        },
+        {
+          "name": "Voting Policy | 2026 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1448790,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/5966c13e-9b37-4c1b-aaad-cca610ca1d26?inline=",
+          "file": "filings/AMU/docs/w808c86d763604ebe.pdf"
+        },
+        {
+          "name": "Counterparty risk - Collateral Risk Management Framework | 2020 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 334242,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/c840d286-2058-452e-97bb-c9ebb7392fe3?inline=",
+          "file": "filings/AMU/docs/w031c87467aa0b7b3.pdf"
+        },
+        {
+          "name": "Remuneration Policy | 2026 - Amundi Group",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 841360,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/7dabf269-5ca8-46ca-8e1b-3306b82810e7?inline=",
+          "file": "filings/AMU/docs/w14f8d0fe7007180a.pdf"
+        },
+        {
+          "name": "Remuneration Policy - Addendum IFR IFD | 2026 - Amundi Group",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 364713,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/59870e12-599e-4c61-ba5e-16fa4e0ab26d?inline=",
+          "file": "filings/AMU/docs/wa5a95bb65dbf9dd4.pdf"
+        },
+        {
+          "name": "Remuneration Policy - Addendum CRD V | 2026 - Amundi Group",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 568492,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/eebde741-ba30-4501-9669-9cc0fb0e5339?inline=",
+          "file": "filings/AMU/docs/w47017973a823e7ef.pdf"
+        },
+        {
+          "name": "Anti-corruption policy | 2025 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 940453,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/cc243952-5584-4dc0-baea-931fd0ec8fe5?inline=",
+          "file": "filings/AMU/docs/w808a4afc39f5ae1a.pdf"
+        },
+        {
+          "name": "Sustainable Finance Disclosure Statement | Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1160400,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ec275be0-ad14-41f3-a439-6df2744c68ca?inline=",
+          "file": "filings/AMU/docs/wffdd4f6671e9f38b.pdf"
+        },
+        {
+          "name": "Rapport Climat - Article 173 | 2020 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3172863,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/0027642a-bb71-4f4e-b0ba-638bf1d10b06?inline=",
+          "file": "filings/AMU/docs/w36b5d0ed030b8380.pdf"
+        },
+        {
+          "name": "Application de l'article 173 de la loi sur la Transition Energ\u00e9tique | 2017 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 122177,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/dd4494b6-c064-4829-9512-54e41caba4c8?inline=",
+          "file": "filings/AMU/docs/wf24d083f98057b4a.pdf"
+        },
+        {
+          "name": "Responsible Investment Report Article 29 TCFD | 2024 \u2013 Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2563468,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/83c1b81d-5425-4841-a36e-9e6b2c42352f?inline=",
+          "file": "filings/AMU/docs/wa589f16036d0fe1c.pdf"
+        },
+        {
+          "name": "Modern Slavery Act | 2026 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 377469,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9be922b9-1dd2-4fbf-a610-989e50bb1a41?inline=",
+          "file": "filings/AMU/docs/w793c23896f79a986.pdf"
+        },
+        {
+          "name": "Summary of Investors rights | 2021 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 426283,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/e0540c0b-6e19-4f06-95d8-e9731cef1535?inline=",
+          "file": "filings/AMU/docs/w7079d67ebb8074f1.pdf"
+        },
+        {
+          "name": "Market soundings | 2024 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 263316,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fb00239c-4921-4d86-8ab4-1a8badbf86b9?inline=",
+          "file": "filings/AMU/docs/wba1b806fa47a2c27.pdf"
+        },
+        {
+          "name": "Amundi Public Class Action Policy",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 158380,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/a6492544-56b2-43cf-83e6-f9b04653ac4a?inline=",
+          "file": "filings/AMU/docs/w86ceccb27d35bf45.pdf"
+        },
+        {
+          "name": "Wolfsberg Questionnaire FCCQ | 2026 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 601739,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/b17de729-7452-4170-ae7f-d14df86c8602?inline=",
+          "file": "filings/AMU/docs/wfcc4fe9638f4410f.pdf"
+        },
+        {
+          "name": "AML CFT International Sanctions Policies | 2026 - Corporate",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1023585,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/28709f85-d5f7-45d9-8e68-d69579c7921e?inline=",
+          "file": "filings/AMU/docs/w81b0577d64da8273.pdf"
+        },
+        {
+          "name": "Gifts invitations and benefits policy | 2026 - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 799170,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/98fd2f9b-795d-46df-86e9-d54e4abc297d?inline=",
+          "file": "filings/AMU/docs/wf15a727110aacedd.pdf"
+        },
+        {
+          "name": "2025 - AI Policy - Amundi",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 277769,
+          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2af6140a-c9cd-43b4-91dd-a720cdd89e9f?inline=",
+          "file": "filings/AMU/docs/w816e183ed5e73127.pdf"
         }
       ],
       "metrics": {
