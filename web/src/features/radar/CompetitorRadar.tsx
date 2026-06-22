@@ -200,9 +200,10 @@ export function CompetitorRadar() {
           </div>
           <div className="sub-note">
             {view === 'financials' ? (
-              <>Financials come from the competitor-ingestion agent (SEC EDGAR — US-listed bellwethers in Phase 1). Sort
-              any column to rank the peer set; <b>organic growth</b> and <b>op margin</b> normalise away size. Blank rows are
-              pending (European/German players land in Phases 2–3). Hover a value for its basis + source.</>
+              <>Financials come from the competitor-ingestion agent (SEC EDGAR — 9 US-listed pure-play AMs in Phase 1). Sort
+              any column to rank the peer set; <b>organic growth</b> normalises away size. <b>Op margin</b> reflects each firm's
+              revenue recognition (some report net of distribution; AMG consolidates only part of its affiliates), so compare
+              with that caveat. Blank rows are pending (European/German players land in Phases 2–3). Hover a value for its basis + source.</>
             ) : (
               <><b>Category = disclosure regime</b>, which sets where to fetch each player (Data Source):
               <b> US-listed</b> → SEC EDGAR 10-K; <b>Private / Mutual</b> → Form ADV + fund filings;
