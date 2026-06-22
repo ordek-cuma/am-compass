@@ -82,6 +82,48 @@ def companyfacts(cik: str) -> dict:
     return get_json(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json")
 
 
+def recent_filings(cik: str, forms: set[str], since: str = "2023-01-01", cap_per_form: dict | None = None) -> list[dict]:
+    """All recent filings of the given forms since `since`, newest first.
+
+    Returns {form, accession, primaryDocument, filingDate, url}. cap_per_form bounds noisy
+    forms (e.g. {'8-K': 12}). Drives the delta crawl off EDGAR's submissions index.
+    """
+    cap_per_form = cap_per_form or {}
+    recent = submissions(cik)["filings"]["recent"]
+    out: list[dict] = []
+    counts: dict[str, int] = {}
+    n = len(recent["form"])
+    for i in range(n):  # submissions are newest-first
+        form = recent["form"][i]
+        if form not in forms:
+            continue
+        date = recent["filingDate"][i]
+        if date < since:
+            continue
+        cap = cap_per_form.get(form)
+        counts[form] = counts.get(form, 0) + 1
+        if cap and counts[form] > cap:
+            continue
+        acc = recent["accessionNumber"][i]
+        accn = acc.replace("-", "")
+        doc = recent["primaryDocument"][i]
+        if not doc:
+            continue
+        out.append({
+            "form": form, "accession": acc, "primaryDocument": doc, "filingDate": date,
+            "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accn}/{doc}",
+        })
+    return out
+
+
+def download(url: str) -> bytes:
+    """Binary fetch with the SEC User-Agent + throttle (for archiving filing documents)."""
+    _throttle()
+    req = urllib.request.Request(url, headers={"User-Agent": C.SEC_UA})
+    with urllib.request.urlopen(req, timeout=90) as resp:
+        return resp.read()
+
+
 def latest_annual_filing(cik: str) -> dict | None:
     """Return {form, accession, primaryDocument, filingDate, url} for the most recent 10-K/20-F."""
     recent = submissions(cik)["filings"]["recent"]

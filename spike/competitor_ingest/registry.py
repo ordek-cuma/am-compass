@@ -36,6 +36,18 @@ BELLWETHERS: list[Competitor] = [
     Competitor("Blackstone", "Blackstone", "BX", "US-listed", "0001393818"),
 ]
 
+# Group filers — the AM is a SEGMENT of a listed parent (bank/insurer). We crawl their
+# corporate DOCUMENTS from EDGAR, but NOT their XBRL financials (group ≠ AM; AM-segment
+# AuM comes from europe_overlay). cik_fallback = the parent's CIK; ticker = parent.
+GROUP_FILERS: list[Competitor] = [
+    Competitor("MS", "Morgan Stanley", "MS", "US-listed", "0000895421"),
+    Competitor("Goldman Sachs", "Goldman Sachs", "GS", "US-listed", "0000886982"),
+    Competitor("JPM", "JPMorgan Chase", "JPM", "US-listed", "0000019617"),
+    Competitor("PGIM", "Prudential Financial", "PRU", "US-listed", "0001137774"),
+    Competitor("SSgA", "State Street", "STT", "US-listed", "0000093751"),
+    Competitor("UBS", "UBS Group", "UBS", "European-listed", "0001610520"),  # files 20-F/6-K
+]
+
 
 def resolve(c: Competitor) -> str:
     """CIK: explicit override > live ticker lookup > pinned fallback."""

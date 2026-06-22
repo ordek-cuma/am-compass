@@ -1,0 +1,250 @@
+"""Triggerable, delta-aware company-document crawler for the Competitor Data Room.
+
+    cd spike && python3 -m competitor_ingest.crawl [CODE]
+
+For each competitor: discover its COMPANY filings (SEC EDGAR for listed firms; IR pages for
+the rest), download only what's NEW or CHANGED since the last run (the per-competitor
+manifest is the state), re-derive the firm-level numbers, update competitor_financials.json,
+and print a delta report. The archive is ours: gitignored + regenerable.
+
+Archive: spike/out/competitor_ingest/archive/<slug>/  (manifest.json + docs/…)
+"""
+from __future__ import annotations
+import datetime as dt
+import json
+import sys
+
+from . import config as C
+from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, web
+
+ARCHIVE = C.OUT_DIR / "archive"
+EDGAR_FORMS = {"10-K", "10-Q", "8-K", "DEF 14A", "DEFA14A", "20-F", "6-K", "40-F", "ARS"}
+CAPS = {"8-K": 16, "6-K": 16, "DEFA14A": 4}
+SINCE = "2023-01-01"
+
+GROUP = {"10-K": "Annual", "20-F": "Annual", "40-F": "Annual", "ARS": "Annual",
+         "10-Q": "Quarterly", "8-K": "Earnings / Events", "6-K": "Earnings / Events",
+         "DEF 14A": "Proxy", "DEFA14A": "Proxy"}
+NAME = {"10-K": "Annual Report (10-K)", "20-F": "Annual Report (20-F)", "40-F": "Annual Report (40-F)",
+        "ARS": "Annual Report to Shareholders", "10-Q": "Quarterly Report (10-Q)",
+        "8-K": "Current Report (8-K)", "6-K": "Report (6-K)", "DEF 14A": "Proxy Statement (DEF 14A)",
+        "DEFA14A": "Proxy (DEFA14A)"}
+
+GROUP_FILER_CODES = {c.competitor_id for c in registry.GROUP_FILERS}
+
+
+def _now() -> str:
+    return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+
+
+# ---------------------------------------------------------------- EDGAR crawl
+def crawl_edgar(code: str, name: str, cik: str, now: str) -> tuple[list[dict], tuple[int, int, int]]:
+    slug = web.slug(code)
+    base = ARCHIVE / slug
+    prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
+    try:
+        filings = edgar.recent_filings(cik, EDGAR_FORMS, SINCE, CAPS)
+    except Exception as e:
+        print(f"  ! filings list failed: {e}")
+        filings = []
+    docs: list[dict] = []
+    new = changed = unchanged = 0
+    for f in filings:
+        doc_id = f["accession"]
+        rel = f"docs/{web.slug(f['form'])}/{doc_id.replace('-', '')}__{f['primaryDocument']}"
+        dest = base / rel
+        old = prev.get(doc_id)
+        if dest.exists() and old and old.get("sha256"):
+            sha, status = old["sha256"], "unchanged"
+            unchanged += 1
+        else:
+            try:
+                data = edgar.download(f["url"])
+            except Exception as e:
+                print(f"  ! download {doc_id} failed: {e}")
+                continue
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(data)
+            sha = manifest.sha256(data)
+            if old:
+                changed += 1; status = "changed"
+            else:
+                new += 1; status = "new"
+        docs.append({
+            "doc_id": doc_id, "name": NAME.get(f["form"], f["form"]), "form": f["form"],
+            "group": GROUP.get(f["form"], "Other"), "date": f["filingDate"], "fmt": "HTM",
+            "sizeBytes": dest.stat().st_size if dest.exists() else 0,
+            "edgarUrl": f["url"], "file": f"filings/{slug}/{rel}", "sha256": sha,
+            "fetched_at": now, "status": status,
+        })
+    manifest.save(base / "manifest.json",
+                  {"code": code, "name": name, "cik": cik, "last_crawl": now, "documents": docs})
+    return docs, (new, changed, unchanged)
+
+
+# ---------------------------------------------------------------- IR/web crawl
+def crawl_web(code: str, name: str, regime: str, src: str, now: str) -> tuple[list[dict], tuple[int, int, int]]:
+    slug = web.slug(code)
+    base = ARCHIVE / slug
+    prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
+    primary_name = {"European-listed": "Universal Registration Document / Results",
+                    "German KVG": "Geschäftsbericht / Results",
+                    "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
+    targets: list[tuple[str, str, str]] = [(primary_name, src, "Annual")]
+    try:
+        body, ct = web.fetch(src)
+        if "html" in ct.lower():
+            for label, url in web.find_doc_links(body.decode("utf-8", "ignore"), src):
+                targets.append((label, url, "Reports"))
+    except Exception as e:
+        print(f"  ! fetch {src} failed: {e}")
+    docs: list[dict] = []
+    new = changed = unchanged = 0
+    for label, url, group in targets:
+        doc_id = "w" + manifest.sha256(url.encode())[:16]
+        old = prev.get(doc_id)
+        try:
+            data, ct = web.fetch(url)
+        except Exception:
+            if not old:  # keep the primary as a live source link
+                docs.append({"doc_id": doc_id, "name": label, "form": "IR", "group": group,
+                             "date": "2025-12-31", "fmt": "WEB", "sizeBytes": 0,
+                             "edgarUrl": url, "file": "", "sha256": "", "fetched_at": now, "status": "source"})
+            continue
+        ext = "pdf" if ("pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf")) else "html"
+        rel = f"docs/{doc_id}.{ext}"
+        dest = base / rel
+        sha = manifest.sha256(data)
+        if old and dest.exists() and old.get("sha256") == sha:
+            status = "unchanged"; unchanged += 1
+        else:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(data)
+            if old:
+                changed += 1; status = "changed"
+            else:
+                new += 1; status = "new"
+        docs.append({"doc_id": doc_id, "name": label, "form": "IR", "group": group,
+                     "date": "2025-12-31", "fmt": ext.upper(), "sizeBytes": len(data),
+                     "edgarUrl": url, "file": f"filings/{slug}/{rel}", "sha256": sha,
+                     "fetched_at": now, "status": status})
+    manifest.save(base / "manifest.json",
+                  {"code": code, "name": name, "cik": None, "last_crawl": now, "documents": docs})
+    return docs, (new, changed, unchanged)
+
+
+# ---------------------------------------------------------------- numbers
+def _metrics_block(obs: list) -> dict:
+    latest = {}
+    for o in obs:
+        cur = latest.get(o.metric_key)
+        if cur is None or o.period_end > cur.period_end:
+            latest[o.metric_key] = o
+    return {k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
+                "source": o.source_doc, "section": o.source_section} for k, o in latest.items()}
+
+
+def _doc_export(docs: list[dict]) -> list[dict]:
+    keys = ("name", "form", "group", "date", "fmt", "sizeBytes", "edgarUrl", "file")
+    return [{k: d.get(k) for k in keys} for d in sorted(docs, key=lambda d: (d.get("group", ""), d.get("date", "")), reverse=True)]
+
+
+def run(only: str | None = None) -> None:
+    now = _now()
+    prev_fin = {}
+    fp = C.OUT_DIR / "competitor_financials.json"
+    if fp.exists():
+        prev_fin = json.loads(fp.read_text()).get("competitors", {})
+    export = {"generated_at": now, "source": "SEC EDGAR + IR (delta crawl)", "competitors": {}}
+    all_obs = []
+    delta_rows = []
+
+    def want(code: str) -> bool:
+        return only is None or only == code
+
+    # 1) Pure-play EDGAR bellwethers: docs + XBRL financials + AM overlay
+    for comp in registry.BELLWETHERS:
+        if not want(comp.competitor_id):
+            continue
+        cik = registry.resolve(comp)
+        print(f"• {comp.name} ({comp.competitor_id}) EDGAR {cik}")
+        docs, counts = crawl_edgar(comp.competitor_id, comp.name, cik, now)
+        try:
+            obs = extract_xbrl.extract(comp.competitor_id, edgar.companyfacts(cik), now)
+        except Exception as e:
+            print(f"  ! xbrl failed: {e}"); obs = []
+        obs += manual_overlay.overlay(comp.competitor_id, now)
+        obs += derive.derive(comp.competitor_id, obs, now)
+        all_obs += obs
+        export["competitors"][comp.competitor_id] = {
+            "name": comp.name, "ticker": comp.ticker, "regime": comp.regime, "cik": cik,
+            "period_end": max((o.period_end for o in obs), default=None),
+            "documents": _doc_export(docs), "metrics": _metrics_block(obs)}
+        delta_rows.append((comp.competitor_id, len(docs), counts))
+
+    # 2) Group filers: company docs from EDGAR, AM-segment numbers from europe_overlay
+    for comp in registry.GROUP_FILERS:
+        if not want(comp.competitor_id):
+            continue
+        cik = registry.resolve(comp)
+        print(f"• {comp.name} ({comp.competitor_id}) EDGAR {cik} [group filer · docs only]")
+        docs, counts = crawl_edgar(comp.competitor_id, comp.name, cik, now)
+        obs = europe_overlay.build(comp.competitor_id, now)
+        obs += derive.derive(comp.competitor_id, obs, now)
+        all_obs += obs
+        spec = europe_overlay.EUROPE.get(comp.competitor_id, {})
+        export["competitors"][comp.competitor_id] = {
+            "name": spec.get("name", comp.name), "ticker": comp.ticker,
+            "regime": spec.get("regime", comp.regime), "cik": cik, "period_end": "2025-12-31",
+            "documents": _doc_export(docs), "metrics": _metrics_block(obs)}
+        delta_rows.append((comp.competitor_id, len(docs), counts))
+
+    # 3) Remaining non-EDGAR firms (European/German/private): IR document crawl
+    for cid, spec in europe_overlay.EUROPE.items():
+        if cid in GROUP_FILER_CODES or not want(cid):
+            continue
+        print(f"• {spec['name']} ({cid}) IR crawl")
+        docs, counts = crawl_web(cid, spec["name"], spec["regime"], spec["src"], now)
+        obs = europe_overlay.build(cid, now)
+        obs += derive.derive(cid, obs, now)
+        all_obs += obs
+        export["competitors"][cid] = {
+            "name": spec["name"], "ticker": cid, "regime": spec["regime"], "cik": None,
+            "period_end": "2025-12-31", "documents": _doc_export(docs), "metrics": _metrics_block(obs)}
+        delta_rows.append((cid, len(docs), counts))
+
+    if only is None:
+        fp.write_text(json.dumps(export, indent=2), encoding="utf-8")
+    else:  # merge a single-competitor crawl into the existing snapshot
+        merged = json.loads(fp.read_text()) if fp.exists() else {"competitors": {}}
+        merged["generated_at"] = now
+        merged.setdefault("competitors", {}).update(export["competitors"])
+        fp.write_text(json.dumps(merged, indent=2), encoding="utf-8")
+
+    _report(delta_rows, prev_fin, export["competitors"])
+
+
+def _report(delta_rows, prev_fin, cur_fin) -> None:
+    print("\n=== DELTA REPORT ===")
+    tot_new = tot_chg = tot_docs = 0
+    for code, ndocs, (new, chg, unch) in delta_rows:
+        tot_new += new; tot_chg += chg; tot_docs += ndocs
+        flag = f"  (+{new} new, {chg} changed)" if (new or chg) else ""
+        print(f"  {code:16} {ndocs:3} docs{flag}")
+    print(f"  ── total {tot_docs} documents · {tot_new} new · {tot_chg} changed")
+    # metric changes
+    changes = []
+    for code, blk in cur_fin.items():
+        pm = prev_fin.get(code, {}).get("metrics", {})
+        for k, m in blk["metrics"].items():
+            pv = pm.get(k, {}).get("value")
+            if pv != m["value"]:
+                changes.append(f"  {code}.{k}: {pv} → {m['value']}")
+    if changes:
+        print("\n=== NUMBERS CHANGED ===")
+        print("\n".join(changes[:40]))
+    print()
+
+
+if __name__ == "__main__":
+    run(sys.argv[1] if len(sys.argv) > 1 else None)

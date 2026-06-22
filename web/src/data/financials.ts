@@ -15,11 +15,12 @@ export interface FinMetric {
 export interface FinDoc {
   name: string
   form: string
+  group?: string // Annual | Quarterly | Earnings / Events | Proxy | Reports …
   date: string
   fmt: string
   sizeBytes: number
   edgarUrl: string
-  file: string // public path, e.g. "filings/BL/blk-20251231.htm"
+  file: string // public path, e.g. "filings/BL/docs/10_K/…__blk-20251231.htm"
 }
 export interface FinBlock {
   name: string
@@ -48,6 +49,24 @@ export function financialsFor(code: string): FinBlock | null {
 /** Real crawled filings for a competitor (from the ingestion agent). */
 export function documentsFor(code: string): FinDoc[] {
   return FIN.competitors[code]?.documents ?? []
+}
+
+// Display order for the document groups in the competitor detail.
+const GROUP_ORDER = ['Annual', 'Quarterly', 'Earnings / Events', 'Proxy', 'Reports', 'Other']
+
+/** Crawled documents bucketed by form group, in a stable display order. */
+export function documentsGroupedFor(code: string): { group: string; docs: FinDoc[] }[] {
+  const buckets = new Map<string, FinDoc[]>()
+  for (const d of documentsFor(code)) {
+    const g = d.group || 'Other'
+    ;(buckets.get(g) ?? buckets.set(g, []).get(g)!).push(d)
+  }
+  return [...buckets.entries()]
+    .sort((a, b) => {
+      const ia = GROUP_ORDER.indexOf(a[0]), ib = GROUP_ORDER.indexOf(b[0])
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib)
+    })
+    .map(([group, docs]) => ({ group, docs }))
 }
 
 export interface DocRow {
