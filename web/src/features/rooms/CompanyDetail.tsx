@@ -8,6 +8,7 @@ import { COMPANIES } from '../../data/companies'
 import { documentsFor, documentsGroupedFor, financialsFor, fmtBytes, type FinDoc } from '../../data/financials'
 import { fdate } from '../../lib/format'
 import { FinancialsPanel } from './FinancialsPanel'
+import { ScrapeControls } from './ScrapeControls'
 
 export function CompanyDetail() {
   const { companyId } = useParams()
@@ -24,7 +25,7 @@ export function CompanyDetail() {
     name: d.name,
     fmt: d.fmt,
     meta: d.file
-      ? `${d.form} · ${fdate(d.date)} · ${fmtBytes(d.sizeBytes)} · crawled (SEC EDGAR)`
+      ? `${d.form} · ${fdate(d.date)} · ${fmtBytes(d.sizeBytes)} · crawled (${d.form === 'IR' ? 'IR' : 'SEC EDGAR'})`
       : `${d.form} · ${fdate(d.date)} · primary source`,
     file: d.file || undefined,
     edgarUrl: d.edgarUrl || undefined,
@@ -85,6 +86,8 @@ export function CompanyDetail() {
       </div>
 
       {tab === 'docs' ? (
+        <>
+        <ScrapeControls code={c.tick} />
         <div className="cols-21">
           <Panel title={`Documents · ${realDocs.length}`}>
             {groups.length ? (
@@ -109,6 +112,7 @@ export function CompanyDetail() {
             ))}
           </Panel>
         </div>
+        </>
       ) : (
         <FinancialsPanel code={c.tick} />
       )}

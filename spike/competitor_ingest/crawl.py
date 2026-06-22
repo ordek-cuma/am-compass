@@ -16,9 +16,10 @@ import re
 import sys
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, site_scrapers, web
+from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, scrapers, web
 
 ARCHIVE = C.OUT_DIR / "archive"
+WEB_DATA = C.OUT_DIR.parents[2] / "web" / "src" / "data" / "competitor_financials.json"
 EDGAR_FORMS = {"10-K", "10-Q", "8-K", "DEF 14A", "DEFA14A", "20-F", "6-K", "40-F", "ARS"}
 CAPS = {"8-K": 16, "6-K": 16, "DEFA14A": 4}
 SINCE = "2023-01-01"
@@ -39,7 +40,7 @@ def _now() -> str:
 
 
 # ---------------------------------------------------------------- EDGAR crawl
-def crawl_edgar(code: str, name: str, cik: str, now: str) -> tuple[list[dict], tuple[int, int, int]]:
+def crawl_edgar(code: str, name: str, cik: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
@@ -55,7 +56,7 @@ def crawl_edgar(code: str, name: str, cik: str, now: str) -> tuple[list[dict], t
         rel = f"docs/{web.slug(f['form'])}/{doc_id.replace('-', '')}__{f['primaryDocument']}"
         dest = base / rel
         old = prev.get(doc_id)
-        if dest.exists() and old and old.get("sha256"):
+        if dest.exists() and old and old.get("sha256") and not force:  # 'new' mode: keep known
             sha, status = old["sha256"], "unchanged"
             unchanged += 1
         else:
@@ -121,10 +122,12 @@ def _discover(sources: list[str], pdf_only: bool) -> list[tuple[str, str, str]]:
 
 
 def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now: str,
-          skip_ids: set) -> tuple[list[dict], int, int, int]:
+          skip_ids: set, force: bool = False) -> tuple[list[dict], int, int, int]:
     """Download each (label, url, group) target into the archive, deduped by url-hash doc_id
     and against skip_ids. A primary-disclosure ('Annual') target that won't fetch is kept as a
-    live source link. Returns (docs, new, changed, unchanged)."""
+    live source link. In 'new' mode (force=False) docs already on disk are kept without
+    re-downloading — only genuinely new ones are fetched; 'full' (force=True) re-fetches every
+    target. Returns (docs, new, changed, unchanged)."""
     docs: list[dict] = []
     new = changed = unchanged = 0
     local: set[str] = set()
@@ -134,6 +137,10 @@ def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now:
             continue
         local.add(doc_id)
         old = prev.get(doc_id)
+        if not force and old and old.get("file") and (ARCHIVE / old["file"].split("/", 1)[1]).exists():
+            kept = dict(old); kept["status"] = "unchanged"  # 'new' mode: don't re-fetch known docs
+            docs.append(kept); unchanged += 1
+            continue
         try:
             data, ct = web.fetch(url)
         except Exception:
@@ -190,27 +197,27 @@ def _finalize(code: str, name: str, cik: str | None, slug: str, prev: dict,
     return docs
 
 
-def harvest_ir(code: str, now: str, prev: dict, skip_ids: set, pdf_only: bool) -> tuple[list[dict], tuple[int, int, int]]:
+def harvest_ir(code: str, now: str, prev: dict, skip_ids: set, pdf_only: bool, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
     """Download report PDFs from a competitor's registered IR_SOURCES (supplements EDGAR)."""
     sources = registry.IR_SOURCES.get(code, [])
     if not sources:
         return [], (0, 0, 0)
     slug = web.slug(code)
-    docs, n, c, u = _pull(ARCHIVE / slug, slug, prev, _discover(sources, pdf_only), now, skip_ids)
+    docs, n, c, u = _pull(ARCHIVE / slug, slug, prev, _discover(sources, pdf_only), now, skip_ids, force)
     return docs, (n, c, u)
 
 
-def crawl_edgar_full(code: str, name: str, cik: str, now: str) -> tuple[list[dict], tuple[int, int, int]]:
+def crawl_edgar_full(code: str, name: str, cik: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
     """EDGAR filings + supplemental glossy IR report PDFs, merged into one manifest."""
     slug = web.slug(code)
     prev = manifest.index_by_id(manifest.load(ARCHIVE / slug / "manifest.json"))
-    edocs, (en, ec, eu) = crawl_edgar(code, name, cik, now)
-    idocs, (jn, jc, ju) = harvest_ir(code, now, prev, {d["doc_id"] for d in edocs}, pdf_only=True)
+    edocs, (en, ec, eu) = crawl_edgar(code, name, cik, now, force)
+    idocs, (jn, jc, ju) = harvest_ir(code, now, prev, {d["doc_id"] for d in edocs}, pdf_only=True, force=force)
     docs = _finalize(code, name, cik, slug, prev, edocs + idocs, now)
     return docs, (en + jn, ec + jc, eu + ju)
 
 
-def crawl_web(code: str, name: str, regime: str, src: str, now: str) -> tuple[list[dict], tuple[int, int, int]]:
+def crawl_web(code: str, name: str, regime: str, src: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
@@ -219,8 +226,8 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str) -> tuple[li
                     "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
     sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
     targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
-    targets += site_scrapers.discover(code)  # JS-rendered libraries (Amundi-style)
-    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set())
+    targets += scrapers.discover(code)  # JS-rendered libraries (Amundi-style)
+    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
     _finalize(code, name, None, slug, prev, docs, now)
     return docs, (n, c, u)
 
@@ -241,7 +248,7 @@ def _doc_export(docs: list[dict]) -> list[dict]:
     return [{k: d.get(k) for k in keys} for d in sorted(docs, key=lambda d: (d.get("group", ""), d.get("date", "")), reverse=True)]
 
 
-def run(only: str | None = None) -> None:
+def run(only: str | None = None, force: bool = False) -> dict:
     now = _now()
     prev_fin = {}
     fp = C.OUT_DIR / "competitor_financials.json"
@@ -260,7 +267,7 @@ def run(only: str | None = None) -> None:
             continue
         cik = registry.resolve(comp)
         print(f"• {comp.name} ({comp.competitor_id}) EDGAR {cik}")
-        docs, counts = crawl_edgar_full(comp.competitor_id, comp.name, cik, now)
+        docs, counts = crawl_edgar_full(comp.competitor_id, comp.name, cik, now, force)
         try:
             obs = extract_xbrl.extract(comp.competitor_id, edgar.companyfacts(cik), now)
         except Exception as e:
@@ -280,7 +287,7 @@ def run(only: str | None = None) -> None:
             continue
         cik = registry.resolve(comp)
         print(f"• {comp.name} ({comp.competitor_id}) EDGAR {cik} [group filer · docs only]")
-        docs, counts = crawl_edgar_full(comp.competitor_id, comp.name, cik, now)
+        docs, counts = crawl_edgar_full(comp.competitor_id, comp.name, cik, now, force)
         obs = europe_overlay.build(comp.competitor_id, now)
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
@@ -296,7 +303,7 @@ def run(only: str | None = None) -> None:
         if cid in GROUP_FILER_CODES or not want(cid):
             continue
         print(f"• {spec['name']} ({cid}) IR crawl")
-        docs, counts = crawl_web(cid, spec["name"], spec["regime"], spec["src"], now)
+        docs, counts = crawl_web(cid, spec["name"], spec["regime"], spec["src"], now, force)
         obs = europe_overlay.build(cid, now)
         obs += derive.derive(cid, obs, now)
         all_obs += obs
@@ -313,7 +320,27 @@ def run(only: str | None = None) -> None:
         merged.setdefault("competitors", {}).update(export["competitors"])
         fp.write_text(json.dumps(merged, indent=2), encoding="utf-8")
 
+    synced = sync_web(fp)
     _report(delta_rows, prev_fin, export["competitors"])
+    return {
+        "mode": "full" if force else "new", "only": only, "generated_at": now, "webSynced": synced,
+        "competitors": [{"code": c, "docs": n, "new": nn, "changed": cc}
+                        for c, n, (nn, cc, _u) in delta_rows],
+        "totalDocs": sum(n for _c, n, _t in delta_rows),
+        "new": sum(t[0] for _c, _n, t in delta_rows),
+        "changed": sum(t[1] for _c, _n, t in delta_rows),
+    }
+
+
+def sync_web(fp) -> bool:
+    """Copy the committed snapshot into the web app so the UI updates (HMR picks it up)."""
+    try:
+        if WEB_DATA.parent.exists():
+            WEB_DATA.write_text(fp.read_text(encoding="utf-8"), encoding="utf-8")
+            return True
+    except Exception as e:
+        print(f"  ! web sync failed: {e}")
+    return False
 
 
 def _report(delta_rows, prev_fin, cur_fin) -> None:
@@ -339,4 +366,7 @@ def _report(delta_rows, prev_fin, cur_fin) -> None:
 
 
 if __name__ == "__main__":
-    run(sys.argv[1] if len(sys.argv) > 1 else None)
+    args = [a for a in sys.argv[1:] if a]
+    force = "--full" in args
+    only = next((a for a in args if not a.startswith("-")), None)
+    run(only, force=force)
