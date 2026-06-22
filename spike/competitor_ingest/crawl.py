@@ -122,12 +122,13 @@ def _discover(sources: list[str], pdf_only: bool) -> list[tuple[str, str, str]]:
 
 
 def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now: str,
-          skip_ids: set, force: bool = False) -> tuple[list[dict], int, int, int]:
+          skip_ids: set, force: bool = False, keep_only_pdf: bool = False) -> tuple[list[dict], int, int, int]:
     """Download each (label, url, group) target into the archive, deduped by url-hash doc_id
     and against skip_ids. A primary-disclosure ('Annual') target that won't fetch is kept as a
-    live source link. In 'new' mode (force=False) docs already on disk are kept without
-    re-downloading — only genuinely new ones are fetched; 'full' (force=True) re-fetches every
-    target. Returns (docs, new, changed, unchanged)."""
+    live source link. keep_only_pdf drops non-PDF responses (scraper-backed players harvest
+    real documents, not HTML landing pages). In 'new' mode (force=False) docs already on disk
+    are kept without re-downloading — only genuinely new ones are fetched; 'full' (force=True)
+    re-fetches every target. Returns (docs, new, changed, unchanged)."""
     docs: list[dict] = []
     new = changed = unchanged = 0
     local: set[str] = set()
@@ -150,6 +151,8 @@ def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now:
                              "file": "", "sha256": "", "fetched_at": now, "status": "source"})
             continue
         ext = "pdf" if ("pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf")) else "html"
+        if keep_only_pdf and ext != "pdf":  # scraper players: real documents only, no HTML pages
+            continue
         rel = f"docs/{doc_id}.{ext}"
         dest = base / rel
         sha = manifest.sha256(data)
@@ -221,13 +224,18 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str, force: bool
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
-    primary_name = {"European-listed": "Universal Registration Document / Results",
-                    "German KVG": "Geschäftsbericht / Results",
-                    "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
-    sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
-    targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
-    targets += scrapers.discover(code)  # JS-rendered libraries (Amundi-style)
-    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
+    scraped = scrapers.discover(code)
+    if scraped:
+        # Dedicated per-player scraper is authoritative: the real document library (PDFs),
+        # not the HTML landing/source pages.
+        docs, n, c, u = _pull(base, slug, prev, scraped, now, skip_ids=set(), force=force, keep_only_pdf=True)
+    else:
+        primary_name = {"European-listed": "Universal Registration Document / Results",
+                        "German KVG": "Geschäftsbericht / Results",
+                        "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
+        sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
+        targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
+        docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
     _finalize(code, name, None, slug, prev, docs, now)
     return docs, (n, c, u)
 

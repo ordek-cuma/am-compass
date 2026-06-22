@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T16:11:07+00:00",
+  "generated_at": "2026-06-22T16:22:30+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -6160,16 +6160,6 @@
           "file": "filings/AMU/docs/w1097da21710e5bda.pdf"
         },
         {
-          "name": "29.04.2026 - Financial Supplement - 2026 Amundi Q1 Results (XLS) XLSX 508 KB",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2026-04-29",
-          "fmt": "HTML",
-          "sizeBytes": 519485,
-          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/08e89138-1ddf-4e09-8552-0eb06a4952d4?inline=",
-          "file": "filings/AMU/docs/w2795d490a6d1a20a.html"
-        },
-        {
           "name": "29.04.2026 - Transcript - 2026 Amundi's Q1 Results",
           "form": "IR",
           "group": "Reports",
@@ -6210,16 +6200,6 @@
           "file": "filings/AMU/docs/w2a32e7cdf9b5381b.pdf"
         },
         {
-          "name": "02.03.2026 - Financial Supplement - 2025 Amundi's Q4 results.xlsx XLSX 484 KB",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2026-03-02",
-          "fmt": "HTML",
-          "sizeBytes": 494754,
-          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/fdc326b2-5500-4a29-8421-38d121010dba?inline=",
-          "file": "filings/AMU/docs/w870a3d36840d9e33.html"
-        },
-        {
           "name": "02.03.2026 - Transcript - 2025 Amundi's Q4 results",
           "form": "IR",
           "group": "Reports",
@@ -6228,26 +6208,6 @@
           "sizeBytes": 233263,
           "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/1e112e3b-bf34-4e97-a36b-ec982c7c3712?inline=",
           "file": "filings/AMU/docs/w861b39685bbbbc82.pdf"
-        },
-        {
-          "name": "Amundi Annual General Meeting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 64294,
-          "edgarUrl": "https://int.media.amundi.com/article/amundi-annual-general-meeting-0",
-          "file": "filings/AMU/docs/wa1fcb86a52cd3f5c.html"
-        },
-        {
-          "name": "Financial results",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 183864,
-          "edgarUrl": "https://about.amundi.com/financial-results",
-          "file": "filings/AMU/docs/w0e41e5f42e747734.html"
         },
         {
           "name": "Amundi - Slides - 2016 Amundi Q2 Results",
@@ -6600,16 +6560,6 @@
           "file": "filings/AMU/docs/w71c8c4b8ec435803.pdf"
         },
         {
-          "name": "10.28.2025 - Amundi Financial Supplement Q3 2025.xls XLSX 474 KB",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-10-28",
-          "fmt": "HTML",
-          "sizeBytes": 484462,
-          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/ca4aa6a3-cf5c-4e64-8982-109640c8b9fe?inline=",
-          "file": "filings/AMU/docs/w499bff47b2dd5b33.html"
-        },
-        {
           "name": "07.29.2025 - PR - 2025 Amundi Q2 results",
           "form": "IR",
           "group": "Reports",
@@ -6640,16 +6590,6 @@
           "file": "filings/AMU/docs/wbac104a3b7573de7.pdf"
         },
         {
-          "name": "07.29.2025 - Amundi Financial Supplement Q2 2025.xlsx XLSX 422 KB",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-07-29",
-          "fmt": "HTML",
-          "sizeBytes": 431823,
-          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/24acf7ea-b59a-4fdf-bc64-a6da324a402f?inline=",
-          "file": "filings/AMU/docs/w8ce1dbebe0bb7e95.html"
-        },
-        {
           "name": "04.29.2025 - PR - 2025 Amundi's Q1 results",
           "form": "IR",
           "group": "Reports",
@@ -6678,16 +6618,6 @@
           "sizeBytes": 717533,
           "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/2fc45ee8-80f4-4a6c-a59f-4402d97d346e?inline=",
           "file": "filings/AMU/docs/w27f6b73f525d95ab.pdf"
-        },
-        {
-          "name": "04.29.2025 - Financial Supplement - 2025 03 - Amundi.xlsx XLSX 394 KB",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-04-29",
-          "fmt": "HTML",
-          "sizeBytes": 402533,
-          "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/9a45cedd-aeb4-44c7-893c-bef59a8d4aef?inline=",
-          "file": "filings/AMU/docs/wac3394d8e8417382.html"
         },
         {
           "name": "02.04.2025 - PR - 2024 Amundi's Q4 results",
@@ -7718,16 +7648,6 @@
           "sizeBytes": 720261,
           "edgarUrl": "https://about.amundi.com/files/nuxeo/dl/3884978b-e14d-4d6e-be9a-eb3092ac818d?inline=",
           "file": "filings/AMU/docs/w300ea658dcc07996.pdf"
-        },
-        {
-          "name": "Universal Registration Document / Results",
-          "form": "IR",
-          "group": "Annual",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 103178,
-          "edgarUrl": "https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
-          "file": "filings/AMU/docs/w51d5e554f08e3c08.html"
         },
         {
           "name": "Complaints Handling Policy | 2025 - Amundi",
