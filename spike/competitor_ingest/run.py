@@ -13,7 +13,7 @@ import datetime as dt
 import json
 
 from . import config as C
-from . import derive, edgar, extract_llm, extract_xbrl, registry
+from . import derive, edgar, extract_llm, extract_xbrl, manual_overlay, registry
 from .schema import METRIC_CATALOG
 
 HEADLINE = ["aum_total", "net_flows", "total_revenue", "mgmt_fee_revenue", "operating_income",
@@ -63,6 +63,10 @@ def run() -> None:
         elif filing:
             print(f"  llm:  skipped (no ANTHROPIC_API_KEY) — {filing['form']} {filing['filingDate']} ready to read")
 
+        ov = manual_overlay.overlay(comp.competitor_id, now, filing["url"] if filing else "")
+        if ov:
+            print(f"  overlay: {len(ov)} hand-verified AM KPIs")
+        obs += ov
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
 
@@ -111,7 +115,12 @@ def _write_summary(export: dict, now: str) -> None:
 def _fmt_val(m: dict) -> str:
     v, u = m["value"], m["unit"]
     if u == "USD":
-        return f"${v / 1e9:,.1f}B"
+        a = abs(v)
+        if a >= 1e12:
+            return f"${v / 1e12:,.1f}T"
+        if a >= 1e9:
+            return f"${v / 1e9:,.1f}B"
+        return f"${v / 1e6:,.0f}M"
     if u == "pct":
         return f"{v:.1f}%"
     if u == "bps":

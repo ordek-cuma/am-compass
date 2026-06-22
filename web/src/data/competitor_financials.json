@@ -1,0 +1,275 @@
+{
+  "generated_at": "2026-06-22T08:56:26+00:00",
+  "source": "SEC EDGAR (companyfacts + 10-K)",
+  "competitors": {
+    "BL": {
+      "name": "BlackRock",
+      "ticker": "BLK",
+      "regime": "US-listed",
+      "cik": "0002012383",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 24216000000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": 7045000000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 5553000000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 35.31,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 14000000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201ctotal AUM was $14.0 trillion\u201d (FY2025 10-K)"
+        },
+        "net_flows": {
+          "value": 698000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201crecord $698 billion of net inflows in 2025\u201d (FY2025 10-K)"
+        },
+        "operating_margin": {
+          "value": 29.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        },
+        "organic_growth_rate": {
+          "value": 5.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.95,
+          "source": "derived",
+          "section": "aum_total + net_flows"
+        }
+      }
+    },
+    "TROW": {
+      "name": "T. Rowe Price",
+      "ticker": "TROW",
+      "regime": "US-listed",
+      "cik": "0001113169",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 7314800000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": 2188800000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 2087100000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 9.24,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "operating_margin": {
+          "value": 29.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "IVZ": {
+      "name": "Invesco",
+      "ticker": "IVZ",
+      "regime": "US-listed",
+      "cik": "0000914208",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 6377100000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": -695700000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 538000000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2024)"
+        },
+        "eps_diluted": {
+          "value": -1.6,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "operating_margin": {
+          "value": -10.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "FT": {
+      "name": "Franklin Resources",
+      "ticker": "BEN",
+      "regime": "US-listed",
+      "cik": "0000038777",
+      "period_end": "2025-09-30",
+      "metrics": {
+        "total_revenue": {
+          "value": 8770700000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)"
+        },
+        "operating_income": {
+          "value": 604100000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 524900000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "eps_diluted": {
+          "value": 0.91,
+          "unit": "USD/shares",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_total": {
+          "value": 1661200000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201ctotal AUM was $1,661.2 billion\u201d (FY2025 10-K, y/e Sep 30)"
+        },
+        "operating_margin": {
+          "value": 6.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    },
+    "AB": {
+      "name": "AllianceBernstein",
+      "ticker": "AB",
+      "regime": "US-listed",
+      "cik": "0001109448",
+      "period_end": "2025-12-31",
+      "metrics": {
+        "total_revenue": {
+          "value": 4593648000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:Revenues (FY2025)"
+        },
+        "operating_income": {
+          "value": 1050475000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:OperatingIncomeLoss (FY2025)"
+        },
+        "net_income": {
+          "value": 982489000.0,
+          "unit": "USD",
+          "basis": "GAAP",
+          "confidence": 1.0,
+          "source": "10-K",
+          "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "operating_margin": {
+          "value": 22.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue"
+        }
+      }
+    }
+  }
+}
