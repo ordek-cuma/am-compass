@@ -69,15 +69,15 @@ export function CompanyScreener() {
       <ModuleHeader
         crumb={
           <>
-            Compass <b>›</b> Rooms <b>›</b> Competitor Data Room
+            Compass <b>›</b> Rooms <b>›</b> Document Data Room
           </>
         }
         title={
           <>
-            Competitor <span className="em">Data Room</span>
+            Document <span className="em">Data Room</span>
           </>
         }
-        sub="Documents across every competitor you track — the deep-dive home for the Radar watchlist. Filter, sort, and click a competitor to open its profile and full document set."
+        sub="Every document across every competitor — one flat feed. Filter and sort, click a document to preview/download, or click a competitor to open its full profile in the Competitor Data Room."
         actions={
           <>
             <button className="btn">
