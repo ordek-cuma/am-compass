@@ -13,7 +13,7 @@ import datetime as dt
 import json
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_llm, extract_xbrl, manual_overlay, registry
+from . import derive, edgar, europe_overlay, extract_llm, extract_xbrl, manual_overlay, registry, web
 from .schema import METRIC_CATALOG
 
 HEADLINE = ["aum_total", "net_flows", "total_revenue", "mgmt_fee_revenue", "operating_income",
@@ -119,10 +119,25 @@ def run() -> None:
             cur = latest.get(o.metric_key)
             if cur is None or o.period_end > cur.period_end:
                 latest[o.metric_key] = o
+        # Download the source for offline archiving (browser UA; corporate sites allow it).
+        doc_url = spec["src"]
+        rel, size, fmt = "", 0, "WEB"
+        try:
+            data, ct = web.fetch(doc_url)
+            ext = "pdf" if "pdf" in ct.lower() else "html"
+            fmt = "PDF" if ext == "pdf" else "HTML"
+            rel = f"filings/{web.slug(cid)}/source.{ext}"
+            fp = C.OUT_DIR / rel
+            fp.parent.mkdir(parents=True, exist_ok=True)
+            fp.write_bytes(data)
+            size = len(data)
+            print(f"  downloaded {size // 1024}KB → {rel}")
+        except Exception as e:
+            print(f"  download failed ({type(e).__name__}); source link kept")
         documents = [{
             "name": DOC_BY_REGIME.get(spec["regime"], "FY2025 Results"),
-            "form": "IR", "date": "2025-12-31", "fmt": "WEB", "sizeBytes": 0,
-            "edgarUrl": spec["src"], "file": "",
+            "form": "IR", "date": "2025-12-31", "fmt": fmt, "sizeBytes": size,
+            "edgarUrl": doc_url, "file": rel,
         }]
         export["competitors"][cid] = {
             "name": spec["name"], "ticker": cid, "regime": spec["regime"], "cik": None,
