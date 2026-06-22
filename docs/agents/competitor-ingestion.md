@@ -127,4 +127,7 @@ income-statement tables, which need either the keyed LLM extractor (layout-aware
   `effective_fee_rate` automatically.
 - **Phase 2 — European-listed:** a proper URD harvester (IR-URL registry + layout-aware PDF extraction;
   EUR → USD via the fx table). Heavier than EDGAR — its own build.
-- **Phase 3 — German KVG / Form ADV;  Phase 4 — N-PORT holdings + ops-stack (service providers).**
+- **Phase 3 — German KVG (interim done):** `europe_overlay.py` carries primary-sourced German AuM (Union,
+  Deka, MEAG, BayernInvest, Deka Immobilien); platforms (Universal, HSBC INKA) recorded as **AuA** (distinct
+  metric, kept out of the AuM ranking). A real Bundesanzeiger/Jahresbericht harvester is the full build.
+- **Phase 4 — N-PORT holdings + ops-stack (service providers).** Open: UBS AM division figure; effective fee rate (keyed LLM).

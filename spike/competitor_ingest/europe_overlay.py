@@ -1,47 +1,64 @@
-"""Phase 2 (interim) — European AMs that aren't on SEC EDGAR.
+"""Phase 2/3 (interim) — European + German AMs that aren't on SEC EDGAR.
 
 These firms publish AuM in their own results (EUR/CHF), not via a clean API, so until a
-proper URD/IR harvester exists this module carries hand-verified, primary-sourced **total
-AuM** (the AM-specific headline; group financials here are bank/insurer-wide, not AM, so
-they stay pending). Native figures are converted to USD at a stated rate for the peer view;
-the native figure + source URL are kept on every observation.
+proper URD / Bundesanzeiger harvester exists this module carries hand-verified, primary-
+sourced **total AuM** (the AM headline). Group financials are bank/insurer-wide (not AM)
+so they stay pending. Master-/Service-KVG platforms report **AuA** (administration), recorded
+as a distinct `aua` metric so the peer AuM ranking stays apples-to-apples. Native figures are
+converted to USD at a stated period-end rate; the native figure + source URL stay on each row.
 """
 from __future__ import annotations
 
 from .schema import MetricObservation
 
-# Period-end FX (≈ 31 Dec 2025) — stated so the conversion is auditable, not hidden.
+# Period-end FX (≈ 31 Dec 2025) — stated so the conversion is auditable.
 FX = {"EUR": 1.08, "CHF": 1.10, "USD": 1.0}
 
-# competitor_id -> firm; items: (metric_key, native_bn, native_ccy, source_quote, confidence)
+# code -> firm. items: (metric_key, native_bn, native_ccy, source_quote, confidence)
 EUROPE: dict[str, dict] = {
-    "AMU": dict(name="Amundi", src="https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
-        items=[
-            ("aum_total", 2380.0, "EUR", "€2,380bn AUM at 31 Dec 2025 (all-time high)", 0.85),
-            ("net_flows", 87.6, "EUR", "+€87.6bn net inflows FY2025", 0.85),
-        ]),
-    "AGI": dict(name="Allianz Global Investors", src="https://www.allianz.com/en/investor_relations.html",
-        items=[("aum_total", 591.0, "EUR", "€591bn AllianzGI AUM at Dec 2025 (Allianz disclosure)", 0.85)]),
-    "NAT": dict(name="Natixis Investment Managers", src="https://www.im.natixis.com/en-intl/about",
+    # ---- European-listed ----
+    "AMU": dict(name="Amundi", regime="European-listed", src="https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
+        items=[("aum_total", 2380.0, "EUR", "€2,380bn AUM at 31 Dec 2025 (all-time high)", 0.85),
+               ("net_flows", 87.6, "EUR", "+€87.6bn net inflows FY2025", 0.85)]),
+    "AGI": dict(name="Allianz Global Investors", regime="European-listed", src="https://www.allianz.com/en/investor_relations.html",
+        items=[("aum_total", 591.0, "EUR", "€591bn AllianzGI AUM at Dec 2025", 0.85)]),
+    "NAT": dict(name="Natixis Investment Managers", regime="European-listed", src="https://www.im.natixis.com/en-intl/about",
         items=[("aum_total", 1553.0, "USD", "$1,553bn (€1,322bn) affiliated AUM at 31 Dec 2025", 0.8)]),
-    "BNP": dict(name="BNP Paribas Asset Management", src="https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
-        items=[("aum_total", 1600.0, "EUR", ">€1.6tn AUM end-2025 (post-AXA IM merger, 31 Dec 2025)", 0.8)]),
-    "Swiss Life AM": dict(name="Swiss Life Asset Managers", src="https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
+    "BNP": dict(name="BNP Paribas Asset Management", regime="European-listed", src="https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
+        items=[("aum_total", 1600.0, "EUR", ">€1.6tn AUM end-2025 (post-AXA IM merger)", 0.8)]),
+    "Swiss Life AM": dict(name="Swiss Life Asset Managers", regime="European-listed", src="https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
         items=[("aum_total", 145.7, "CHF", "CHF 145.7bn third-party AuM at 31 Dec 2025", 0.85)]),
+    # ---- German KVG (managers) ----
+    "Union": dict(name="Union Investment", regime="German KVG", src="https://www.union-investment.com/",
+        items=[("aum_total", 534.6, "EUR", "€534.6bn AUM at 31 Dec 2025", 0.85)]),
+    "DEKA": dict(name="DekaBank (Deka)", regime="German KVG", period="2025-06-30", src="https://www.deka.de/deka-group/who-we-are/at-a-glance-",
+        items=[("aum_total", 427.0, "EUR", "€427bn total customer assets (30 Jun 2025; latest clean)", 0.75)]),
+    "MEAG": dict(name="MEAG", regime="German KVG", src="https://www.meag.com/en/inform/portraet.html",
+        items=[("aum_total", 368.0, "EUR", "€368bn total AuM at 31 Dec 2025 (~€63bn third-party; rest captive Munich Re/ERGO)", 0.8)]),
+    "Bayern Invest": dict(name="BayernInvest", regime="German KVG", src="https://www.bayerninvest.de/",
+        items=[("aum_total", 99.0, "EUR", "€99bn AUM at 30 Dec 2025", 0.85)]),
+    "Deka Immobilien": dict(name="Deka Immobilien", regime="German KVG", src="https://www.deka-immobilien.de/en/about-us/",
+        items=[("aum_total", 55.2, "EUR", "€55.2bn real-estate AuM at end-2025", 0.85)]),
+    # ---- German Master-/Service-KVG platforms (AuA, not AuM) ----
+    "Universal Invest.": dict(name="Universal Investment", regime="German KVG", src="https://www.universal-investment.com/en/",
+        items=[("aua", 1400.0, "EUR", "~€1.4tn assets under administration (third-party ManCo platform)", 0.8)]),
+    "HSBC T&B": dict(name="HSBC INKA", regime="German KVG", src="https://www.inka-kag.de/",
+        items=[("aua", 430.0, "EUR", "€430bn+ assets under administration (Master-KVG)", 0.8)]),
 }
 
 
-def build(competitor_id: str, now_iso: str) -> list[MetricObservation]:
-    spec = EUROPE.get(competitor_id)
+def build(code: str, now_iso: str) -> list[MetricObservation]:
+    spec = EUROPE.get(code)
     if not spec:
         return []
+    period = spec.get("period", "2025-12-31")
     out: list[MetricObservation] = []
     for key, native_bn, ccy, quote, conf in spec["items"]:
         usd = native_bn * FX[ccy] * 1e9
-        note = f"Native {ccy} {native_bn:,.1f}bn → USD at {FX[ccy]} (period-end ≈ 31 Dec 2025)."
         out.append(MetricObservation(
-            competitor_id=competitor_id, metric_key=key, value=usd, unit="USD", currency="USD",
-            period_type="FY", period_end="2025-12-31", basis="reported", definition_note=note,
+            competitor_id=code, metric_key=key, value=usd, unit="USD", currency="USD",
+            period_type="FY", period_end=period, basis="reported",
+            definition_note=f"Native {ccy} {native_bn:,.1f}bn → USD at {FX[ccy]} (period-end {period}).",
             source_doc="results", source_url=spec["src"], source_section=quote,
             confidence=conf, extracted_by="analyst-eu", extracted_at=now_iso,
         ))

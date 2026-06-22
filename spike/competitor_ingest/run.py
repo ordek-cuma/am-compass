@@ -101,9 +101,9 @@ def run() -> None:
             },
         }
 
-    # Phase 2 (interim): European AMs — primary-sourced AuM only, no EDGAR.
+    # Phase 2/3 (interim): European + German AMs — primary-sourced AuM/AuA, no EDGAR.
     for cid, spec in europe_overlay.EUROPE.items():
-        print(f"• {spec['name']} (EU) — primary-sourced AuM")
+        print(f"• {spec['name']} ({spec['regime']}) — primary-sourced")
         obs = europe_overlay.build(cid, now)
         obs += derive.derive(cid, obs, now)
         all_obs += obs
@@ -113,8 +113,8 @@ def run() -> None:
             if cur is None or o.period_end > cur.period_end:
                 latest[o.metric_key] = o
         export["competitors"][cid] = {
-            "name": spec["name"], "ticker": cid, "regime": "European-listed", "cik": None,
-            "period_end": "2025-12-31", "documents": [],
+            "name": spec["name"], "ticker": cid, "regime": spec["regime"], "cik": None,
+            "period_end": max((o.period_end for o in obs), default=None), "documents": [],
             "metrics": {
                 k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
                     "source": o.source_doc, "section": o.source_section}
