@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:56:26+00:00",
+  "generated_at": "2026-06-22T09:09:25+00:00",
   "source": "SEC EDGAR (companyfacts + 10-K)",
   "competitors": {
     "BL": {
@@ -47,7 +47,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
-          "section": "\u201ctotal AUM was $14.0 trillion\u201d (FY2025 10-K)"
+          "section": "\u201ctotal AUM was $14.0 trillion\u201d"
         },
         "net_flows": {
           "value": 698000000000.0,
@@ -55,7 +55,15 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
-          "section": "\u201crecord $698 billion of net inflows in 2025\u201d (FY2025 10-K)"
+          "section": "\u201crecord $698 billion of net inflows in 2025\u201d"
+        },
+        "headcount": {
+          "value": 24900.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201capproximately 24,900 employees\u201d"
         },
         "operating_margin": {
           "value": 29.1,
@@ -114,6 +122,22 @@
           "source": "10-K",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
         },
+        "aum_total": {
+          "value": 1775600000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201cassets under management ended 2025 at $1,775.6 billion\u201d"
+        },
+        "headcount": {
+          "value": 7773.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201cemployed 7,773 associates\u201d"
+        },
         "operating_margin": {
           "value": 29.9,
           "unit": "pct",
@@ -162,6 +186,22 @@
           "confidence": 1.0,
           "source": "10-K",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)"
+        },
+        "aum_average": {
+          "value": 2000100000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201cAverage AUM was $2,000.1 billion\u201d"
+        },
+        "headcount": {
+          "value": 7500.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201capproximately 7,500 employees\u201d"
         },
         "operating_margin": {
           "value": -10.9,
@@ -218,7 +258,15 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
-          "section": "\u201ctotal AUM was $1,661.2 billion\u201d (FY2025 10-K, y/e Sep 30)"
+          "section": "\u201ctotal AUM was $1,661.2 billion\u201d"
+        },
+        "headcount": {
+          "value": 9800.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "\u201capproximately 9,800 employees\u201d"
         },
         "operating_margin": {
           "value": 6.9,
@@ -260,6 +308,22 @@
           "confidence": 1.0,
           "source": "10-K",
           "section": "us-gaap:NetIncomeLoss (FY2025)"
+        },
+        "aum_total": {
+          "value": 866900000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "\u201cAUM as of December 31, 2025 were $866.9 billion\u201d"
+        },
+        "headcount": {
+          "value": 4468.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201chad 4,468 full-time employees\u201d"
         },
         "operating_margin": {
           "value": 22.9,
