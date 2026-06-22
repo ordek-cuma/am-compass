@@ -44,6 +44,14 @@ EUROPE: dict[str, dict] = {
         items=[("aua", 1400.0, "EUR", "~€1.4tn assets under administration (third-party ManCo platform)", 0.8)]),
     "HSBC T&B": dict(name="HSBC INKA", regime="German KVG", src="https://www.inka-kag.de/",
         items=[("aua", 430.0, "EUR", "€430bn+ assets under administration (Master-KVG)", 0.8)]),
+    # ---- Private / Mutual (US, not on EDGAR as an AM) ----
+    "Vanguard": dict(name="Vanguard", regime="Private / Mutual", period="2025-09-30", src="https://www.advratings.com/company/vanguard-group",
+        items=[("aum_total", 11600.0, "USD", "$11.6tn AUM at 30 Sep 2025 (~$12tn 2025)", 0.8)]),
+    "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/",
+        items=[("aum_total", 7100.0, "USD", "$7.1tn discretionary/managed assets 2025", 0.85),
+               ("aua", 18000.0, "USD", "$18tn managed + administered 2025", 0.85)]),
+    "PIMCO": dict(name="PIMCO", regime="Private / Mutual", src="https://www.pimco.com/us/en/about-us",
+        items=[("aum_total", 2260.0, "USD", "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025", 0.85)]),
 }
 
 
