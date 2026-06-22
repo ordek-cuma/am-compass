@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react'
 import { ModuleHeader } from '../../components/ModuleHeader'
 import { Panel } from '../../components/Panel'
 import { Icon, MagIcon } from '../../components/icons'
-import { COMPETITORS, CR_FACETS } from '../../data/competitors'
+import { CATEGORY_SOURCE, COMPETITORS, CR_FACETS } from '../../data/competitors'
 
 type SortState = { k: string; d: number }
 const COLS: [string, string][] = [
@@ -14,6 +14,7 @@ const COLS: [string, string][] = [
   ['hq', 'HQ'],
   ['owner', 'Owner'],
   ['focus', 'Focus'],
+  ['category', 'Category'],
   ['website', 'Website'],
   ['source', 'Data Source'],
   ['fetched', 'Last Fetched'],
@@ -44,7 +45,7 @@ export function CompetitorRadar() {
     return out
   }, [q, sel, sort])
 
-  const sortable = new Set(['name', 'region', 'hq', 'owner', 'focus'])
+  const sortable = new Set(['name', 'region', 'hq', 'owner', 'focus', 'category'])
   const onSort = (k: string) => {
     if (!sortable.has(k)) return
     setSort((s) => (s.k === k ? { k, d: s.d * -1 } : { k, d: 1 }))
@@ -163,6 +164,11 @@ export function CompetitorRadar() {
                         <span className="ac-chip">{c.focus}</span>
                       </td>
                       <td>
+                        <span className="chip teal" title={CATEGORY_SOURCE[c.category]}>
+                          {c.category}
+                        </span>
+                      </td>
+                      <td>
                         <a
                           className="doc-link"
                           href={`https://${c.website}`}
@@ -173,9 +179,7 @@ export function CompetitorRadar() {
                           {c.website}
                         </a>
                       </td>
-                      <td>
-                        <span className="ph">To configure</span>
-                      </td>
+                      <td style={{ color: 'var(--ink-2)', whiteSpace: 'nowrap' }}>{CATEGORY_SOURCE[c.category]}</td>
                       <td>
                         <span className="ph">Never</span>
                       </td>
@@ -189,10 +193,12 @@ export function CompetitorRadar() {
             </table>
           </div>
           <div className="sub-note">
-            Region · Owner · Focus are the monitoring taxonomy. Data Source, Last Fetched and Status are operational
-            fields to be wired when crawling is connected. Deduplicated to distinct managers (folded AGI/Allianz GI/Allianz
-            AM → one Allianz GI; UBS AM/UBS → one; dropped Sparkassen as it overlaps DekaBank). Platform/Master-KVG players
-            (HSBC INKA, Universal, BayernInvest) are administrators rather than classic issuers — hover a name for notes.
+            <b>Category = disclosure regime</b>, which sets where to fetch each player (shown in Data Source):
+            <b> US-listed</b> → SEC EDGAR 10-K (group filers like MS/GS/JPM/PGIM/State Street via the parent);
+            <b> Private / Mutual</b> (Vanguard, Fidelity, PIMCO) → thin corporate disclosure, lean on Form ADV + fund filings;
+            <b> European-listed</b> (Amundi, UBS, BNP, Allianz, Natixis, AXA, Swiss Life) → Universal Registration Document;
+            <b> German KVG</b> (Union, Deka, MEAG, Universal, BayernInvest, HSBC INKA) → Bundesanzeiger + fund Jahresberichte + Master-/Service-KVG brochures.
+            Last Fetched and Status are operational fields wired when crawling is connected. Hover a name for ownership notes.
           </div>
         </Panel>
       </div>

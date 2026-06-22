@@ -35,14 +35,14 @@ export function RoomsSubnav() {
         <MagIcon />
         Filter rooms…
       </div>
+      <div className="sp-treehead">Radar</div>
+      <div className="sp-grp-b">
+        <RoomNav to="/rooms/radar/competitors" label="Competitor Radar" icon="target" count={COMPETITORS.length} active={onRadar} />
+      </div>
       <div className="sp-treehead">Data Rooms</div>
       <div className="sp-grp-b">
         <RoomNav to="/rooms/company" label="Company Data Room" icon="building" count={COMPANIES.length} active={onCompany} />
         <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={FUNDS.length} active={onProduct} />
-      </div>
-      <div className="sp-treehead">Radar</div>
-      <div className="sp-grp-b">
-        <RoomNav to="/rooms/radar/competitors" label="Competitor Radar" icon="target" count={COMPETITORS.length} active={onRadar} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>
         <button className="sp-grp-h" onClick={() => setRecentClosed((v) => !v)}>
