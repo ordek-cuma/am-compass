@@ -85,9 +85,17 @@ def crawl_edgar(code: str, name: str, cik: str, now: str, force: bool = False) -
 
 
 # ---------------------------------------------------------------- IR/web crawl
+_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
 def _label_date(label: str) -> str:
-    """Parse a leading date from an IR label → YYYY-MM-DD. Handles both dd.mm.yyyy and
-    mm.dd.yyyy (Amundi's English page mixes them); falls back to a period-end sentinel."""
+    """Parse a leading date from an IR label → YYYY-MM-DD. Handles 'Mon DD, YYYY' (BlackRock)
+    and both dd.mm.yyyy and mm.dd.yyyy (Amundi's English page mixes them); falls back to a
+    period-end sentinel."""
+    mn = re.match(r"\s*([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})", label)
+    if mn and mn.group(1).lower() in _MONTHS:
+        return f"{mn.group(3)}-{_MONTHS[mn.group(1).lower()]:02d}-{int(mn.group(2)):02d}"
     m = re.match(r"\s*(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})", label)
     if not m:
         return "2025-12-31"
@@ -121,14 +129,30 @@ def _discover(sources: list[str], pdf_only: bool) -> list[tuple[str, str, str]]:
     return out
 
 
+_DOC_EXTS = ("pdf", "xlsx", "xls", "csv")
+
+
+def _doc_ext(ct: str, url: str) -> str:
+    ctl, low = ct.lower(), url.lower().split("?")[0]
+    if "pdf" in ctl or low.endswith(".pdf"):
+        return "pdf"
+    if "spreadsheetml" in ctl or low.endswith(".xlsx"):
+        return "xlsx"
+    if "ms-excel" in ctl or low.endswith(".xls"):
+        return "xls"
+    if "csv" in ctl or low.endswith(".csv"):
+        return "csv"
+    return "html"
+
+
 def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now: str,
-          skip_ids: set, force: bool = False, keep_only_pdf: bool = False) -> tuple[list[dict], int, int, int]:
+          skip_ids: set, force: bool = False, keep_only_docs: bool = False) -> tuple[list[dict], int, int, int]:
     """Download each (label, url, group) target into the archive, deduped by url-hash doc_id
     and against skip_ids. A primary-disclosure ('Annual') target that won't fetch is kept as a
-    live source link. keep_only_pdf drops non-PDF responses (scraper-backed players harvest
-    real documents, not HTML landing pages). In 'new' mode (force=False) docs already on disk
-    are kept without re-downloading — only genuinely new ones are fetched; 'full' (force=True)
-    re-fetches every target. Returns (docs, new, changed, unchanged)."""
+    live source link. keep_only_docs keeps only real documents (PDF / Excel / CSV) and drops
+    HTML pages — scraper-backed players harvest documents, not landing pages. In 'new' mode
+    (force=False) docs already on disk are kept without re-downloading — only genuinely new
+    ones are fetched; 'full' (force=True) re-fetches every target. Returns (docs, n, c, u)."""
     docs: list[dict] = []
     new = changed = unchanged = 0
     local: set[str] = set()
@@ -150,8 +174,8 @@ def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now:
                              "date": "2025-12-31", "fmt": "WEB", "sizeBytes": 0, "edgarUrl": url,
                              "file": "", "sha256": "", "fetched_at": now, "status": "source"})
             continue
-        ext = "pdf" if ("pdf" in ct.lower() or url.lower().split("?")[0].endswith(".pdf")) else "html"
-        if keep_only_pdf and ext != "pdf":  # scraper players: real documents only, no HTML pages
+        ext = _doc_ext(ct, url)
+        if keep_only_docs and ext not in _DOC_EXTS:  # scraper players: PDF/Excel only, no HTML
             continue
         rel = f"docs/{doc_id}.{ext}"
         dest = base / rel
@@ -210,8 +234,25 @@ def harvest_ir(code: str, now: str, prev: dict, skip_ids: set, pdf_only: bool, f
     return docs, (n, c, u)
 
 
+def _scrape_player(code: str, name: str, cik: str | None, now: str, force: bool) -> tuple[list[dict], tuple[int, int, int]] | None:
+    """If the player has a dedicated Competitor Data Scraper, harvest its document library
+    (PDFs only, authoritative) and finalize the manifest. Returns (docs, counts) or None."""
+    scraped = scrapers.discover(code)
+    if not scraped:
+        return None
+    slug = web.slug(code)
+    base = ARCHIVE / slug
+    prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
+    docs, n, c, u = _pull(base, slug, prev, scraped, now, skip_ids=set(), force=force, keep_only_docs=True)
+    _finalize(code, name, cik, slug, prev, docs, now)
+    return docs, (n, c, u)
+
+
 def crawl_edgar_full(code: str, name: str, cik: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
-    """EDGAR filings + supplemental glossy IR report PDFs, merged into one manifest."""
+    """Dedicated scraper if the player has one; else EDGAR filings + supplemental IR PDFs."""
+    scraped = _scrape_player(code, name, cik, now, force)
+    if scraped is not None:
+        return scraped
     slug = web.slug(code)
     prev = manifest.index_by_id(manifest.load(ARCHIVE / slug / "manifest.json"))
     edocs, (en, ec, eu) = crawl_edgar(code, name, cik, now, force)
@@ -221,21 +262,18 @@ def crawl_edgar_full(code: str, name: str, cik: str, now: str, force: bool = Fal
 
 
 def crawl_web(code: str, name: str, regime: str, src: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
+    scraped = _scrape_player(code, name, None, now, force)  # dedicated scraper is authoritative
+    if scraped is not None:
+        return scraped
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
-    scraped = scrapers.discover(code)
-    if scraped:
-        # Dedicated per-player scraper is authoritative: the real document library (PDFs),
-        # not the HTML landing/source pages.
-        docs, n, c, u = _pull(base, slug, prev, scraped, now, skip_ids=set(), force=force, keep_only_pdf=True)
-    else:
-        primary_name = {"European-listed": "Universal Registration Document / Results",
-                        "German KVG": "Geschäftsbericht / Results",
-                        "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
-        sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
-        targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
-        docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
+    primary_name = {"European-listed": "Universal Registration Document / Results",
+                    "German KVG": "Geschäftsbericht / Results",
+                    "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
+    sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
+    targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
+    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
     _finalize(code, name, None, slug, prev, docs, now)
     return docs, (n, c, u)
 

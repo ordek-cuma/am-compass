@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T16:22:30+00:00",
+  "generated_at": "2026-06-22T16:45:13+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -10,274 +10,2634 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Proxy Statement (4/10/2026) of 2026",
+          "name": "May 22, 2026 - Form 8-K",
           "form": "IR",
           "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 18454237,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/ar/BlackRock-Proxy-Statement-2026.pdf",
-          "file": "filings/BL/docs/wbc72e628132a5c92.pdf"
-        },
-        {
-          "name": "Annual Meeting Transcript of 2026",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 253808,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q1/2026-BLK-Annual-Shareholder-Meeting-Transcript.pdf",
-          "file": "filings/BL/docs/w5fed2067f15ddfec.pdf"
-        },
-        {
-          "name": "Annual Report (12/31/2025) of 2025",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 2896597,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/ar/BLK_AR25.pdf",
-          "file": "filings/BL/docs/w7bfa47597d515a17.pdf"
-        },
-        {
-          "name": "Annual Meeting Transcript of 2025",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 262117,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2025/ar/v2/2025-BLK-Annual-Shareholder-Meeting-Transcript.pdf",
-          "file": "filings/BL/docs/w8fe47361de54cf8d.pdf"
-        },
-        {
-          "name": "Proxy Statement (4/4/2024) of 2024",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 10561705,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/2024-Proxy-Statement_vF.pdf",
-          "file": "filings/BL/docs/w302a86b08e97aec9.pdf"
-        },
-        {
-          "name": "Annual Meeting Transcript of 2024",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 292889,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/2024-blk-annual-shareholder-meeting-transcript.pdf",
-          "file": "filings/BL/docs/wef5706aa1cd61103.pdf"
-        },
-        {
-          "name": "Annual Report (12/31/2023) of 2023",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 2975263,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2024/ar/BLK_AR23.pdf",
-          "file": "filings/BL/docs/w6780a4cab754a8e1.pdf"
-        },
-        {
-          "name": "Proxy Statement (4/14/2023) of 2023",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 8573904,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_financials/2023/ar/blackrock-2023-proxy-statement_vf.pdf",
-          "file": "filings/BL/docs/wf11e0644555e6fc6.pdf"
-        },
-        {
-          "name": "Annual Meeting Transcript of 2023",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 274286,
-          "edgarUrl": "https://s24.q4cdn.com/856567660/files/doc_downloads/2023/05/2023-blk-annual-shareholder-meeting-transcript.pdf",
-          "file": "filings/BL/docs/w100dbf84f4ea13b0.pdf"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-06",
-          "fmt": "HTM",
-          "sizeBytes": 7556138,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526208766/blk-20260331.htm",
-          "file": "filings/BL/docs/10_Q/000119312526208766__blk-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-05",
-          "fmt": "HTM",
-          "sizeBytes": 10899683,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525267043/blk-20250930.htm",
-          "file": "filings/BL/docs/10_Q/000119312525267043__blk-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-06",
-          "fmt": "HTM",
-          "sizeBytes": 10208319,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025103780/blk-20250630.htm",
-          "file": "filings/BL/docs/10_Q/000095017025103780__blk-20250630.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-15",
-          "fmt": "HTM",
-          "sizeBytes": 9599,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526157116/d89622ddefa14a.htm",
-          "file": "filings/BL/docs/DEFA14A/000119312526157116__d89622ddefa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-10",
-          "fmt": "HTM",
-          "sizeBytes": 8074,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000263/a2026blackrockna.htm",
-          "file": "filings/BL/docs/DEFA14A/000130817926000263__a2026blackrockna.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-10",
-          "fmt": "HTM",
-          "sizeBytes": 2808875,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm",
-          "file": "filings/BL/docs/DEF_14A/000130817926000262__ny-20260410.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-03-23",
-          "fmt": "HTM",
-          "sizeBytes": 153936,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526119938/d76123ddefa14a.htm",
-          "file": "filings/BL/docs/DEFA14A/000119312526119938__d76123ddefa14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
           "date": "2026-05-22",
-          "fmt": "HTM",
-          "sizeBytes": 61903,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526237027/d30456d8k.htm",
-          "file": "filings/BL/docs/8_K/000119312526237027__d30456d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103795,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/41c48514-3bfd-47a8-b015-b8001264db58.pdf",
+          "file": "filings/BL/docs/w532e3de57417c2f9.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
+          "name": "May 22, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-05-22",
+          "fmt": "XLS",
+          "sizeBytes": 12528,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/c94bf7c2-8a5e-4617-b3df-d17713a20637.xls",
+          "file": "filings/BL/docs/w08eb105b7c993591.xls"
+        },
+        {
+          "name": "May 06, 2026 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-05-06",
+          "fmt": "PDF",
+          "sizeBytes": 863387,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/c6cd6099-56d9-4342-83ed-bfe34430b526.pdf",
+          "file": "filings/BL/docs/wde2af7dccddd7d5c.pdf"
+        },
+        {
+          "name": "May 06, 2026 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-05-06",
+          "fmt": "XLS",
+          "sizeBytes": 281921,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/d83f4f12-3cf0-42b5-a5fe-5d7097f79925.xls",
+          "file": "filings/BL/docs/we410bc834129d631.xls"
+        },
+        {
+          "name": "Apr 15, 2026 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-15",
+          "fmt": "PDF",
+          "sizeBytes": 82145,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/88e14b3b-7131-46fe-b90d-3035d73f5e1a.pdf",
+          "file": "filings/BL/docs/w5677733e9dea97d9.pdf"
+        },
+        {
+          "name": "Apr 14, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
           "date": "2026-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 57198,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526153768/blk-20260414.htm",
-          "file": "filings/BL/docs/8_K/000119312526153768__blk-20260414.htm"
+          "fmt": "PDF",
+          "sizeBytes": 5832797,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/63350ea3-1e09-4d69-9739-e970467e29ae.pdf",
+          "file": "filings/BL/docs/w0e9e286236321f8b.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-03",
-          "fmt": "HTM",
-          "sizeBytes": 30197,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526142112/d101747d8k.htm",
-          "file": "filings/BL/docs/8_K/000119312526142112__d101747d8k.htm"
+          "name": "Apr 14, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 113597,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/b23740d0-6e27-488d-9064-79f74f3093a6.xls",
+          "file": "filings/BL/docs/wbb29ac13dc4f9b94.xls"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-27",
-          "fmt": "HTM",
-          "sizeBytes": 28392,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526024549/d281445d8k.htm",
-          "file": "filings/BL/docs/8_K/000119312526024549__d281445d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-16",
-          "fmt": "HTM",
-          "sizeBytes": 38887,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526015405/d25677d8k.htm",
-          "file": "filings/BL/docs/8_K/000119312526015405__d25677d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-15",
-          "fmt": "HTM",
-          "sizeBytes": 56993,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526013503/blk-20260115.htm",
-          "file": "filings/BL/docs/8_K/000119312526013503__blk-20260115.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-14",
-          "fmt": "HTM",
-          "sizeBytes": 56994,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525237960/blk-20251014.htm",
-          "file": "filings/BL/docs/8_K/000119312525237960__blk-20251014.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-15",
-          "fmt": "HTM",
-          "sizeBytes": 56968,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025095711/blk-20250715.htm",
-          "file": "filings/BL/docs/8_K/000095017025095711__blk-20250715.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-01",
-          "fmt": "HTM",
-          "sizeBytes": 30742,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525153573/d78785d8k.htm",
-          "file": "filings/BL/docs/8_K/000119312525153573__d78785d8k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
+          "name": "Apr 10, 2026 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
           "date": "2026-04-10",
           "fmt": "PDF",
-          "sizeBytes": 2720140,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000264/blk015204-arsa.pdf",
-          "file": "filings/BL/docs/ARS/000130817926000264__blk015204-arsa.pdf"
+          "sizeBytes": 26751981,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/a1d9ebc5-185a-42ca-8066-eaed996b0488.pdf",
+          "file": "filings/BL/docs/w0b1ebdea0a109fb5.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
+          "name": "Apr 10, 2026 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-10",
+          "fmt": "XLS",
+          "sizeBytes": 660321,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/bfde3b35-9720-4c13-a53e-3082561bf0c6.xls",
+          "file": "filings/BL/docs/wb537ba26d615071b.xls"
+        },
+        {
+          "name": "Apr 10, 2026 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-10",
+          "fmt": "PDF",
+          "sizeBytes": 8776897,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/bd7895e6-dcc4-47f8-9c27-5d621a60322e.pdf",
+          "file": "filings/BL/docs/w4a3cc5a0a4f58217.pdf"
+        },
+        {
+          "name": "Apr 03, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-03",
+          "fmt": "PDF",
+          "sizeBytes": 1278152,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/936c657a-c225-4d59-88c9-429a2590244e.pdf",
+          "file": "filings/BL/docs/wba00169abee3f745.pdf"
+        },
+        {
+          "name": "Apr 03, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-04-03",
+          "fmt": "XLS",
+          "sizeBytes": 48139,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/f5a471ed-d9d2-45c3-bcfe-f1542811f5e3.xls",
+          "file": "filings/BL/docs/w7a6d0fb467ff1a0e.xls"
+        },
+        {
+          "name": "Mar 27, 2026 - Form PRE 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-27",
+          "fmt": "PDF",
+          "sizeBytes": 26735004,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/5a93cb46-1eda-4c80-a9fb-ed32a34c345c.pdf",
+          "file": "filings/BL/docs/w39b3e343642574dc.pdf"
+        },
+        {
+          "name": "Mar 27, 2026 - Form PRE 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-27",
+          "fmt": "XLS",
+          "sizeBytes": 662661,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/5ea6ffc2-8945-435f-a553-a6a424b7a8dc.xls",
+          "file": "filings/BL/docs/wbd63ee2f64514dba.xls"
+        },
+        {
+          "name": "Mar 23, 2026 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-23",
+          "fmt": "PDF",
+          "sizeBytes": 348794,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/de16f3ae-7ec3-4ce8-87e6-e15be8cb5726.pdf",
+          "file": "filings/BL/docs/w259dbc2f84c033e1.pdf"
+        },
+        {
+          "name": "Mar 23, 2026 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-03-23",
+          "fmt": "XLS",
+          "sizeBytes": 110401,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/fe775a20-5bbb-4b68-8113-36938708f707.xls",
+          "file": "filings/BL/docs/wbf5870214d2d4eb0.xls"
+        },
+        {
+          "name": "Feb 25, 2026 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
           "date": "2026-02-25",
-          "fmt": "HTM",
-          "sizeBytes": 12551314,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
-          "file": "filings/BL/docs/10_K/000119312526071966__blk-20251231.htm"
+          "fmt": "PDF",
+          "sizeBytes": 3821866,
+          "edgarUrl": "https://ir.blackrock.com/files/doc_downloads/2026/Q4-25-10-K-Final.pdf",
+          "file": "filings/BL/docs/wc2cde25dfd243d3d.pdf"
+        },
+        {
+          "name": "Feb 25, 2026 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-02-25",
+          "fmt": "XLS",
+          "sizeBytes": 488630,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/a819ec9e-9c95-4448-80e2-2b05873f6dc6.xls",
+          "file": "filings/BL/docs/wde8ca1ca0c9cbfc9.xls"
+        },
+        {
+          "name": "Jan 27, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-27",
+          "fmt": "PDF",
+          "sizeBytes": 101161,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/6180ab7d-f3f5-484f-b704-0a5d5304dc6a.pdf",
+          "file": "filings/BL/docs/w77aabd947e9575f5.pdf"
+        },
+        {
+          "name": "Jan 27, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-27",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/4741f089-ef23-4b63-a3ec-89a9540e2c29.xls",
+          "file": "filings/BL/docs/w8cf9cf374e4e3cd5.xls"
+        },
+        {
+          "name": "Jan 16, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-16",
+          "fmt": "PDF",
+          "sizeBytes": 267578,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/a4ac7837-0823-4b05-a16e-1f8bb6ea3af6.pdf",
+          "file": "filings/BL/docs/wdafd70e172cfd87b.pdf"
+        },
+        {
+          "name": "Jan 16, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-16",
+          "fmt": "XLS",
+          "sizeBytes": 33262,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/02420dcb-7f6d-4e12-96d2-d899f03ebbce.xls",
+          "file": "filings/BL/docs/w31a558ad979a7002.xls"
+        },
+        {
+          "name": "Jan 15, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-15",
+          "fmt": "PDF",
+          "sizeBytes": 6919459,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/d9e7c04b-96f3-4e5b-8ab5-fb0164bc2b81.pdf",
+          "file": "filings/BL/docs/w974413fb95d1db43.pdf"
+        },
+        {
+          "name": "Jan 15, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-01-15",
+          "fmt": "XLS",
+          "sizeBytes": 132526,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/7e3e1cce-f436-44a5-9b03-3ccbb5a2019b.xls",
+          "file": "filings/BL/docs/w54640028ba29aa2a.xls"
+        },
+        {
+          "name": "Nov 05, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-11-05",
+          "fmt": "PDF",
+          "sizeBytes": 967552,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/ee909254-7750-42eb-95a3-2f76cb2bdb1a.pdf",
+          "file": "filings/BL/docs/w80b235e74bc1468f.pdf"
+        },
+        {
+          "name": "Nov 05, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-11-05",
+          "fmt": "XLS",
+          "sizeBytes": 360654,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/8d788889-9c00-499f-84f4-1806864a6a14.xls",
+          "file": "filings/BL/docs/w1c05ea2d12d006ed.xls"
+        },
+        {
+          "name": "Oct 14, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-14",
+          "fmt": "PDF",
+          "sizeBytes": 6212864,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/98065c6c-6b24-4cf7-aae9-351822d26774.pdf",
+          "file": "filings/BL/docs/wc9685de2106b3dac.pdf"
+        },
+        {
+          "name": "Oct 14, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-14",
+          "fmt": "XLS",
+          "sizeBytes": 150859,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/84a1bc0c-00fc-44d4-a6c1-48f5b8ba9aab.xls",
+          "file": "filings/BL/docs/w4f250bcdb3f8d777.xls"
+        },
+        {
+          "name": "Aug 06, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-08-06",
+          "fmt": "PDF",
+          "sizeBytes": 1111742,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/dac7327d-ad97-46e5-86f5-02857bdc989d.pdf",
+          "file": "filings/BL/docs/w818a265da654acf7.pdf"
+        },
+        {
+          "name": "Aug 06, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-08-06",
+          "fmt": "XLS",
+          "sizeBytes": 347696,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/3375b57e-55b3-42cc-a4c0-d1fed1dd46b1.xls",
+          "file": "filings/BL/docs/wb71d0f6d4cae14e6.xls"
+        },
+        {
+          "name": "Jul 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-15",
+          "fmt": "PDF",
+          "sizeBytes": 5857712,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/666b15f5-ea3f-43df-bff9-bbbc9a45f7ff.pdf",
+          "file": "filings/BL/docs/wd2a2fc3f2aebc9ff.pdf"
+        },
+        {
+          "name": "Jul 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-15",
+          "fmt": "XLS",
+          "sizeBytes": 146564,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/afb95ffd-72aa-47a4-bc50-080e4227d354.xls",
+          "file": "filings/BL/docs/w7b6c8e420e36599b.xls"
+        },
+        {
+          "name": "Jul 01, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-01",
+          "fmt": "PDF",
+          "sizeBytes": 116600,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/0a8bf353-36b1-44a4-b4fb-817dfcff983b.pdf",
+          "file": "filings/BL/docs/w8dc525103271f86b.pdf"
+        },
+        {
+          "name": "Jul 01, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-07-01",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/8bb8e675-def6-4934-92dc-0c4aed80148c.xls",
+          "file": "filings/BL/docs/w538d5a5cdfddafd3.xls"
+        },
+        {
+          "name": "May 16, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-05-16",
+          "fmt": "PDF",
+          "sizeBytes": 100960,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/937d7fae-f11e-4178-92cb-e10b40472b14.pdf",
+          "file": "filings/BL/docs/wf8b9e016acaef55f.pdf"
+        },
+        {
+          "name": "May 16, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-05-16",
+          "fmt": "XLS",
+          "sizeBytes": 12415,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/5ffc3f74-8bc1-436c-ac35-14b5904bdeb7.xls",
+          "file": "filings/BL/docs/wb1f3a03ae686ef97.xls"
+        },
+        {
+          "name": "May 07, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-05-07",
+          "fmt": "PDF",
+          "sizeBytes": 781298,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/bb9db708-9f67-4dae-bdc2-1a37193b58bc.pdf",
+          "file": "filings/BL/docs/wc1a7789de0043fe8.pdf"
+        },
+        {
+          "name": "May 07, 2025 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-05-07",
+          "fmt": "XLS",
+          "sizeBytes": 279050,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/0f18e978-8897-4546-9bea-f63983f2da08.xls",
+          "file": "filings/BL/docs/w0f0b6c96164b9451.xls"
+        },
+        {
+          "name": "Apr 11, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-11",
+          "fmt": "PDF",
+          "sizeBytes": 6514574,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/01e31f58-2ca7-412d-8158-db9233b7d0b4.pdf",
+          "file": "filings/BL/docs/wc8dcb66c41deb0f7.pdf"
+        },
+        {
+          "name": "Apr 11, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-11",
+          "fmt": "XLS",
+          "sizeBytes": 112606,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/6221fe7a-41c5-437c-a9e0-eef6acbf3d57.xls",
+          "file": "filings/BL/docs/w165018541de76740.xls"
+        },
+        {
+          "name": "Apr 07, 2025 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-07",
+          "fmt": "PDF",
+          "sizeBytes": 80330,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/3494d560-2fd5-4aa5-9d24-d9f3d2c7277d.pdf",
+          "file": "filings/BL/docs/w46ba9d94de70e832.pdf"
+        },
+        {
+          "name": "Apr 07, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-07",
+          "fmt": "PDF",
+          "sizeBytes": 1184016,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/967bd755-f2d1-4559-a1e9-e55931d51f29.pdf",
+          "file": "filings/BL/docs/w941d8b8c4b99d266.pdf"
+        },
+        {
+          "name": "Apr 07, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-07",
+          "fmt": "XLS",
+          "sizeBytes": 46911,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/1ad7e246-be02-4ac2-a29b-1859728e2ebc.xls",
+          "file": "filings/BL/docs/w9e2279058c4028fc.xls"
+        },
+        {
+          "name": "Apr 04, 2025 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-04",
+          "fmt": "PDF",
+          "sizeBytes": 1951023,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/d1071452-c624-4045-b171-edfb82e8f553.pdf",
+          "file": "filings/BL/docs/wbbfe56838c97c089.pdf"
+        },
+        {
+          "name": "Apr 04, 2025 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-04",
+          "fmt": "PDF",
+          "sizeBytes": 26405542,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/4a3bee2b-ca24-4474-b225-4ef4d3a65d49.pdf",
+          "file": "filings/BL/docs/w00129ecceb7c31c7.pdf"
+        },
+        {
+          "name": "Apr 04, 2025 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-04",
+          "fmt": "XLS",
+          "sizeBytes": 598288,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/822deef3-3e16-492b-8a0e-418bfd6bed88.xls",
+          "file": "filings/BL/docs/wea70632ccb94e405.xls"
+        },
+        {
+          "name": "Apr 03, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-03",
+          "fmt": "PDF",
+          "sizeBytes": 712721,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/ca2e68f1-515e-4df5-ba00-05b47be8d866.pdf",
+          "file": "filings/BL/docs/w65db0ee57e36e8f0.pdf"
+        },
+        {
+          "name": "Apr 03, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-04-03",
+          "fmt": "XLS",
+          "sizeBytes": 30003,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/397aa351-7ad3-4fb3-af63-1543eaa53253.xls",
+          "file": "filings/BL/docs/wc1ec4ebf01510eea.xls"
+        },
+        {
+          "name": "Mar 31, 2025 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-31",
+          "fmt": "PDF",
+          "sizeBytes": 667640,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/24d52439-d30f-4836-bac0-71dbfb654c77.pdf",
+          "file": "filings/BL/docs/w3d47358f67bf075b.pdf"
+        },
+        {
+          "name": "Mar 31, 2025 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-31",
+          "fmt": "XLS",
+          "sizeBytes": 107267,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/4b245bed-7ecc-4278-9c61-9f72357a8dbc.xls",
+          "file": "filings/BL/docs/wb635e595c828451a.xls"
+        },
+        {
+          "name": "Mar 27, 2025 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-27",
+          "fmt": "PDF",
+          "sizeBytes": 866897,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/32b57086-9855-460f-bcd5-fb5afbaded4e.pdf",
+          "file": "filings/BL/docs/w67f134be1dd3f769.pdf"
+        },
+        {
+          "name": "Mar 27, 2025 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-27",
+          "fmt": "XLS",
+          "sizeBytes": 57994,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/4b8e53a7-b975-433f-bf40-fea48e53bcf1.xls",
+          "file": "filings/BL/docs/wd596a71ecf63ad47.xls"
+        },
+        {
+          "name": "Mar 27, 2025 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-27",
+          "fmt": "PDF",
+          "sizeBytes": 99916,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/de152a82-6798-4804-a103-0b94f4fa2165.pdf",
+          "file": "filings/BL/docs/w81c04afaf8f4849f.pdf"
+        },
+        {
+          "name": "Mar 27, 2025 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-27",
+          "fmt": "PDF",
+          "sizeBytes": 866897,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/672150a1-b1f5-4af4-b6fb-a2b7f0604073.pdf",
+          "file": "filings/BL/docs/w3e981837fd61082a.pdf"
+        },
+        {
+          "name": "Mar 27, 2025 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-27",
+          "fmt": "XLS",
+          "sizeBytes": 57994,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/992bea04-b204-455e-924a-cb1912e038a6.xls",
+          "file": "filings/BL/docs/wc3674c21173c9294.xls"
+        },
+        {
+          "name": "Mar 26, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-26",
+          "fmt": "PDF",
+          "sizeBytes": 313722,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/b437ed93-6590-4ef4-8099-9929c95be870.pdf",
+          "file": "filings/BL/docs/w8dea1552b48ca825.pdf"
+        },
+        {
+          "name": "Mar 26, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-26",
+          "fmt": "XLS",
+          "sizeBytes": 22439,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/fdf1a656-f21e-498a-a24c-98ccc79c67cc.xls",
+          "file": "filings/BL/docs/w065d63bcf63d2f81.xls"
+        },
+        {
+          "name": "Mar 24, 2025 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 872542,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/ec60204e-4636-44c5-bd27-ce9fe442ff6e.pdf",
+          "file": "filings/BL/docs/w015ebe9f650623ac.pdf"
+        },
+        {
+          "name": "Mar 24, 2025 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-24",
+          "fmt": "XLS",
+          "sizeBytes": 50371,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/870c5724-5b51-49dd-9ea4-79b35271bbe2.xls",
+          "file": "filings/BL/docs/w6c2aa7a96e189e08.xls"
+        },
+        {
+          "name": "Mar 24, 2025 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 872542,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/3f9f3ad0-706e-465d-b340-fbd6422f5cfa.pdf",
+          "file": "filings/BL/docs/w3244a8081cba17e6.pdf"
+        },
+        {
+          "name": "Mar 24, 2025 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-24",
+          "fmt": "XLS",
+          "sizeBytes": 50371,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d644aac1-6667-448d-bbd7-2122d0290097.xls",
+          "file": "filings/BL/docs/wf49c68f320575d1c.xls"
+        },
+        {
+          "name": "Mar 21, 2025 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-21",
+          "fmt": "PDF",
+          "sizeBytes": 901866,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/57048557-3342-4091-afd5-38672b4b1c75.pdf",
+          "file": "filings/BL/docs/wfa046b4498afcceb.pdf"
+        },
+        {
+          "name": "Mar 21, 2025 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-21",
+          "fmt": "XLS",
+          "sizeBytes": 70783,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/38797739-e947-4939-b021-831483b3c584.xls",
+          "file": "filings/BL/docs/wd7494c94e6a6fc51.xls"
+        },
+        {
+          "name": "Mar 21, 2025 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-21",
+          "fmt": "PDF",
+          "sizeBytes": 901866,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/721905d7-8e58-46c5-ab95-9e6c0d36aeba.pdf",
+          "file": "filings/BL/docs/w8e46308a75ac5889.pdf"
+        },
+        {
+          "name": "Mar 21, 2025 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-21",
+          "fmt": "XLS",
+          "sizeBytes": 70783,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/dc8b37f1-1b19-4b72-b30d-f54b6e1c420e.xls",
+          "file": "filings/BL/docs/w461dd7494eb3520b.xls"
+        },
+        {
+          "name": "Mar 03, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-03",
+          "fmt": "PDF",
+          "sizeBytes": 108290,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/83cd6991-592a-4c1e-b9d3-ed47fe8e30de.pdf",
+          "file": "filings/BL/docs/wf656bd2c8a31a994.pdf"
+        },
+        {
+          "name": "Mar 03, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-03-03",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/e8ef66f4-2204-449d-9f82-172fede991e0.xls",
+          "file": "filings/BL/docs/w07568e0f96dfcfc2.xls"
+        },
+        {
+          "name": "Feb 25, 2025 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-25",
+          "fmt": "PDF",
+          "sizeBytes": 1924005,
+          "edgarUrl": "https://ir.blackrock.com/files/doc_downloads/2025/02/Q4-24-10-K-Final.pdf",
+          "file": "filings/BL/docs/wb3647bbf463fe4d8.pdf"
+        },
+        {
+          "name": "Feb 25, 2025 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-25",
+          "fmt": "XLS",
+          "sizeBytes": 452715,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/477b7c49-3357-44fa-907d-1610140376eb.xls",
+          "file": "filings/BL/docs/w91765081554b32ce.xls"
+        },
+        {
+          "name": "Feb 14, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-14",
+          "fmt": "PDF",
+          "sizeBytes": 100268,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/ca1cb211-2fc8-439d-9467-f7fc50fa6d0b.pdf",
+          "file": "filings/BL/docs/wbbbf4413b3cb2f14.pdf"
+        },
+        {
+          "name": "Feb 14, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-14",
+          "fmt": "XLS",
+          "sizeBytes": 15031,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/a43bd241-f5d1-46b7-a4e2-f428bf8b0c29.xls",
+          "file": "filings/BL/docs/w775c8e7e96c3a759.xls"
+        },
+        {
+          "name": "Jan 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-15",
+          "fmt": "PDF",
+          "sizeBytes": 89798,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/75384ddb-cee3-41f8-9cd8-e1ca1ddad37b.pdf",
+          "file": "filings/BL/docs/w8b80852e54057cba.pdf"
+        },
+        {
+          "name": "Jan 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-15",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/5b3b1431-da0b-450d-aa05-a66f0ad2f31f.xls",
+          "file": "filings/BL/docs/wfdc3ed896e9a9715.xls"
+        },
+        {
+          "name": "Jan 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-15",
+          "fmt": "PDF",
+          "sizeBytes": 7183788,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/7847d6af-9fff-4eff-b277-913e81e009f8.pdf",
+          "file": "filings/BL/docs/w8f80bdb3144c4263.pdf"
+        },
+        {
+          "name": "Jan 15, 2025 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-01-15",
+          "fmt": "XLS",
+          "sizeBytes": 126861,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/c78d754a-d339-4e9a-b71f-67f5e016542c.xls",
+          "file": "filings/BL/docs/w9e9dd0f8a5ac88d6.xls"
+        },
+        {
+          "name": "Dec 03, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-03",
+          "fmt": "PDF",
+          "sizeBytes": 1912871,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/3d095f7e-7325-4c94-99fb-51da653cc0aa.pdf",
+          "file": "filings/BL/docs/wa2b2ed7ea4f17459.pdf"
+        },
+        {
+          "name": "Dec 03, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-03",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/faef022f-eddd-438d-a898-9bfb19f14df5.xls",
+          "file": "filings/BL/docs/wc322441f95af2d7c.xls"
+        },
+        {
+          "name": "Nov 19, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-19",
+          "fmt": "PDF",
+          "sizeBytes": 127298,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/bc2657c7-66f2-4644-ba7e-5fdd29639212.pdf",
+          "file": "filings/BL/docs/wdc9e74d8717d380f.pdf"
+        },
+        {
+          "name": "Nov 19, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-19",
+          "fmt": "XLS",
+          "sizeBytes": 10379,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/9a089c4a-7732-4842-8a5c-68176cbd8165.xls",
+          "file": "filings/BL/docs/w3fdd8fd44e9cb730.xls"
+        },
+        {
+          "name": "Nov 08, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-08",
+          "fmt": "PDF",
+          "sizeBytes": 285153,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/423662c0-f139-4d91-bde8-c6e1dde91f61.pdf",
+          "file": "filings/BL/docs/w8f4343d26edaae71.pdf"
+        },
+        {
+          "name": "Nov 08, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-08",
+          "fmt": "XLS",
+          "sizeBytes": 12938,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/9108db51-c63f-446f-b73a-68bc5cab2115.xls",
+          "file": "filings/BL/docs/w7add137d691edaef.xls"
+        },
+        {
+          "name": "Nov 06, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-06",
+          "fmt": "PDF",
+          "sizeBytes": 869696,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/71d8859f-df0d-4f6a-b670-37fd2666689c.pdf",
+          "file": "filings/BL/docs/w1b4e67ec74c94de1.pdf"
+        },
+        {
+          "name": "Nov 06, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-11-06",
+          "fmt": "XLS",
+          "sizeBytes": 313755,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/50b9e792-47a3-4fc9-ae3f-1da6feb368a1.xls",
+          "file": "filings/BL/docs/w9d14e69758226e48.xls"
+        },
+        {
+          "name": "Oct 15, 2024 - Form 15-12G",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-15",
+          "fmt": "PDF",
+          "sizeBytes": 85817,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/471ef7cc-c520-4314-8f92-5bc6b2c17479.pdf",
+          "file": "filings/BL/docs/wf4626e6b9ce51b96.pdf"
+        },
+        {
+          "name": "Oct 15, 2024 - Form 15-12G",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-15",
+          "fmt": "XLS",
+          "sizeBytes": 5120,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/58ce4a7a-31fd-4890-ba93-1948cb09e1a3.xls",
+          "file": "filings/BL/docs/w128536437a15be75.xls"
+        },
+        {
+          "name": "Oct 11, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-11",
+          "fmt": "PDF",
+          "sizeBytes": 6239499,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/b6bbdf29-b31c-4bb0-8fb7-e8624c2e3dfb.pdf",
+          "file": "filings/BL/docs/wc30a7f1d7f4e2d34.pdf"
+        },
+        {
+          "name": "Oct 11, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-11",
+          "fmt": "XLS",
+          "sizeBytes": 137283,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/742cd4ab-fee1-4c3a-9635-6399ac477b38.xls",
+          "file": "filings/BL/docs/w4cccd74d688f0e01.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 239734,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/d8255e05-809b-4212-abc5-57548bc7964c.pdf",
+          "file": "filings/BL/docs/wed16131a2d8b37e5.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 30644,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/f89041a3-cfec-4f79-bad5-bb0ad4fd2ccf.xls",
+          "file": "filings/BL/docs/w4cd05837cbc3eebc.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/d08c8411-5bd1-4aaa-aa45-9f07d10ebc0c.pdf",
+          "file": "filings/BL/docs/w3115c9835cbcd070.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/77b32eab-ae33-4117-bb7f-71150ac5668d.xls",
+          "file": "filings/BL/docs/w56404a3ab4201a77.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/7e2b31fb-6be3-4496-9f6e-53f4f47f3a3c.pdf",
+          "file": "filings/BL/docs/w6dab647b46e626d6.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/6cf52e14-00bf-42a7-8ddf-9d3aa7bdb312.xls",
+          "file": "filings/BL/docs/w98712db1c8872367.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/008d0d64-3b11-47b6-bae5-2e3d9096ea57.pdf",
+          "file": "filings/BL/docs/w91bc4c411e916a86.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/29f98bf2-a38d-4270-96c9-665780598e3f.xls",
+          "file": "filings/BL/docs/w01734684f87a2b17.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/4a4109c4-d7ab-49ac-b4d3-1e7b2a5f321e.pdf",
+          "file": "filings/BL/docs/wc8c16c17e784e14b.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/25cf9f52-f4aa-476b-ae3b-44d62705556a.xls",
+          "file": "filings/BL/docs/w05f8ce3be2655eca.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/98e17f5a-3ea2-4cd1-af53-906c3311f58b.pdf",
+          "file": "filings/BL/docs/w6752bb209d9914bd.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/93a1c32f-92b7-40d3-b01a-39f863eabeb1.xls",
+          "file": "filings/BL/docs/w92b8bde8d61e3fb8.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c789e199-c043-4305-bba5-1b86715a90d1.pdf",
+          "file": "filings/BL/docs/w937fd962941acf14.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ae701826-6d9a-483b-af6e-dde9a804c5d9.xls",
+          "file": "filings/BL/docs/we1ca32d0b0609184.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8399cc14-1075-4546-94e7-f7ce4f0a8cbb.pdf",
+          "file": "filings/BL/docs/wdad10356f4ddc76c.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/eaef4f29-d2cc-4593-8a9f-6c8f2b0edbaf.xls",
+          "file": "filings/BL/docs/w26e8c56ab51acdbc.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/6700ad69-bade-42c7-a330-ef0ae8f42aff.pdf",
+          "file": "filings/BL/docs/we4b7cf6f48246997.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c70339cc-7725-4d59-96c4-dfd67966b80d.xls",
+          "file": "filings/BL/docs/w3ffde29b0ec7c5f5.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a014dd50-f6af-4db2-acd4-db83895a1bf7.pdf",
+          "file": "filings/BL/docs/wf7aa797429a28841.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/508fe324-029c-400f-a541-a0b6cde76303.xls",
+          "file": "filings/BL/docs/w81499482cb6d86bd.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 263249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/f41feb91-e46c-4210-8e4d-7dbb78a7fa11.pdf",
+          "file": "filings/BL/docs/wb32e78a9a56a9d9f.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form S-8 POS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 15522,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/412ba4d8-12a4-4ad1-973c-732601b1be01.xls",
+          "file": "filings/BL/docs/w90b9beff414492c5.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 239734,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b6bb625e-2288-45a2-91e4-03159fc76770.pdf",
+          "file": "filings/BL/docs/w7906ab2abbc64a8d.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 30644,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/da00412d-c19d-43b1-bb3c-6499616cd98e.xls",
+          "file": "filings/BL/docs/wdecf4bfb3843cd1c.xls"
+        },
+        {
+          "name": "Oct 01, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "PDF",
+          "sizeBytes": 313908,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/61241563-0bb5-4c3d-9f56-397ef8a92d33.pdf",
+          "file": "filings/BL/docs/wde6fbd32d2bf17a3.pdf"
+        },
+        {
+          "name": "Oct 01, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-10-01",
+          "fmt": "XLS",
+          "sizeBytes": 13451,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/6e9c5725-ef3a-4f2c-8b2f-d0ce2175360e.xls",
+          "file": "filings/BL/docs/w3fe1effb3215532c.xls"
+        },
+        {
+          "name": "Sep 13, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-09-13",
+          "fmt": "PDF",
+          "sizeBytes": 113142,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/135b785d-80c5-4c09-bd98-94fd8c793033.pdf",
+          "file": "filings/BL/docs/w4c9faef7c665257b.pdf"
+        },
+        {
+          "name": "Sep 13, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-09-13",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ef26dc81-b983-4eca-a87c-b06a25a175cc.xls",
+          "file": "filings/BL/docs/w1ac988368323150a.xls"
+        },
+        {
+          "name": "Aug 06, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-08-06",
+          "fmt": "PDF",
+          "sizeBytes": 844503,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e63ab0d1-4f7d-47c7-9b71-3bd43e849a63.pdf",
+          "file": "filings/BL/docs/w13c51ab9b4bda252.pdf"
+        },
+        {
+          "name": "Aug 06, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-08-06",
+          "fmt": "XLS",
+          "sizeBytes": 312311,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d3786566-d241-4b31-9139-5c79ebb0cc27.xls",
+          "file": "filings/BL/docs/weaad5994cccc1991.xls"
+        },
+        {
+          "name": "Jul 26, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-26",
+          "fmt": "PDF",
+          "sizeBytes": 335441,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/40bce0ef-155e-4d80-b373-64d7a031e7cf.pdf",
+          "file": "filings/BL/docs/w75a910d41df40199.pdf"
+        },
+        {
+          "name": "Jul 26, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-26",
+          "fmt": "XLS",
+          "sizeBytes": 40785,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/58a54581-c8f2-4ac1-a4bc-b8897e778c4d.xls",
+          "file": "filings/BL/docs/wc30fab828b188f48.xls"
+        },
+        {
+          "name": "Jul 19, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-19",
+          "fmt": "PDF",
+          "sizeBytes": 976067,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/41e9abcb-29d0-44f5-8f79-711c0a5e7c9d.pdf",
+          "file": "filings/BL/docs/w02d4406430150f1c.pdf"
+        },
+        {
+          "name": "Jul 19, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-19",
+          "fmt": "XLS",
+          "sizeBytes": 60785,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/a15599b2-49c2-40dd-8e04-0ada4590c882.xls",
+          "file": "filings/BL/docs/w3c7394351668721b.xls"
+        },
+        {
+          "name": "Jul 19, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-19",
+          "fmt": "PDF",
+          "sizeBytes": 976067,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/6e699657-4c5a-44be-a5d4-2f292016c78d.pdf",
+          "file": "filings/BL/docs/w63d9e7f60b5e424c.pdf"
+        },
+        {
+          "name": "Jul 19, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-19",
+          "fmt": "XLS",
+          "sizeBytes": 60785,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/87c15908-692b-4903-8685-0eb10f1ed6b3.xls",
+          "file": "filings/BL/docs/w30fddaebc46ea3f8.xls"
+        },
+        {
+          "name": "Jul 18, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-18",
+          "fmt": "PDF",
+          "sizeBytes": 285007,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/4f946603-bcb4-4caa-9337-09f28e801305.pdf",
+          "file": "filings/BL/docs/w61df7b53fbf4382e.pdf"
+        },
+        {
+          "name": "Jul 18, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-18",
+          "fmt": "XLS",
+          "sizeBytes": 30481,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/4093e248-0b4d-4fa2-9f40-0bd9827c1a49.xls",
+          "file": "filings/BL/docs/w6f3a5ad277f3d3e6.xls"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "PDF",
+          "sizeBytes": 977988,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/89ec202d-c041-4001-aae1-43be4d64b771.pdf",
+          "file": "filings/BL/docs/wc1187d197591220f.pdf"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "XLS",
+          "sizeBytes": 43933,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/14fa4de7-46cf-4d2e-a7cd-7f457aa8cd53.xls",
+          "file": "filings/BL/docs/wef8d4342f96e7a59.xls"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "PDF",
+          "sizeBytes": 977988,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/4ff4e803-1ac0-4a38-bd83-23bb43f6eaf1.pdf",
+          "file": "filings/BL/docs/w466fa4335fde5278.pdf"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "XLS",
+          "sizeBytes": 43933,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/9765cd6d-536c-438b-882b-6f7afb7783ec.xls",
+          "file": "filings/BL/docs/w750f0606aa28ed35.xls"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "PDF",
+          "sizeBytes": 337818,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/531c0574-09b6-452a-bf28-83cfa4652836.pdf",
+          "file": "filings/BL/docs/w53a16946ecc2ecfb.pdf"
+        },
+        {
+          "name": "Jul 17, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-17",
+          "fmt": "XLS",
+          "sizeBytes": 130641,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/7755fa5a-04f9-4c01-a86f-3787e01e904b.xls",
+          "file": "filings/BL/docs/wd6e51cd4f8297c06.xls"
+        },
+        {
+          "name": "Jul 15, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-15",
+          "fmt": "PDF",
+          "sizeBytes": 6206301,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/92299738-3185-49c1-b555-cd621bb184a4.pdf",
+          "file": "filings/BL/docs/w019fd90ddd34b952.pdf"
+        },
+        {
+          "name": "Jul 15, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-15",
+          "fmt": "XLS",
+          "sizeBytes": 137506,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/66b3b518-6420-4ae5-8e5e-6d8c02730f10.xls",
+          "file": "filings/BL/docs/web95a18aa209f9f1.xls"
+        },
+        {
+          "name": "Jul 01, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-01",
+          "fmt": "PDF",
+          "sizeBytes": 1458623,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/29ba2b8c-cc0e-4d06-8844-a559cc01c74e.pdf",
+          "file": "filings/BL/docs/w971c1ebadb9313d2.pdf"
+        },
+        {
+          "name": "Jul 01, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-07-01",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/63c89fab-36cc-44ff-bea9-5be9627aa7a0.xls",
+          "file": "filings/BL/docs/wc4af0b4e1e328b70.xls"
+        },
+        {
+          "name": "May 31, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-31",
+          "fmt": "PDF",
+          "sizeBytes": 227983,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/cfbd0bc5-e7d0-447c-a2ec-e26e0d3c3d31.pdf",
+          "file": "filings/BL/docs/wd5ce505ef8523d32.pdf"
+        },
+        {
+          "name": "May 31, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-31",
+          "fmt": "XLS",
+          "sizeBytes": 25244,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/88bce435-9479-4071-8819-0178bd81bdd6.xls",
+          "file": "filings/BL/docs/wf2cde5d8657ab416.xls"
+        },
+        {
+          "name": "May 21, 2024 - Form S-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-21",
+          "fmt": "PDF",
+          "sizeBytes": 182109,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/09f12f0e-c2d9-4f31-bc61-0165c9fdad70.pdf",
+          "file": "filings/BL/docs/w8fde7d474151e972.pdf"
+        },
+        {
+          "name": "May 21, 2024 - Form S-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-21",
+          "fmt": "XLS",
+          "sizeBytes": 19437,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/6c119c1a-1449-49fc-8fb0-360a46be2e42.xls",
+          "file": "filings/BL/docs/wb968195a427d8dc8.xls"
+        },
+        {
+          "name": "May 17, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-17",
+          "fmt": "PDF",
+          "sizeBytes": 101937,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/5351ff3d-d70f-46ee-a587-7b572ae7c9b7.pdf",
+          "file": "filings/BL/docs/w28b7395ed509f359.pdf"
+        },
+        {
+          "name": "May 17, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-17",
+          "fmt": "XLS",
+          "sizeBytes": 12135,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/08ba45f2-5281-425c-a94b-37a60d29ccfe.xls",
+          "file": "filings/BL/docs/w14e8e505840d8ebf.xls"
+        },
+        {
+          "name": "May 07, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-07",
+          "fmt": "PDF",
+          "sizeBytes": 725255,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d1b2f4ad-7ef0-4fa7-b470-468d2e4768d0.pdf",
+          "file": "filings/BL/docs/w7facc877e55bf59f.pdf"
+        },
+        {
+          "name": "May 07, 2024 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-07",
+          "fmt": "XLS",
+          "sizeBytes": 257898,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b8f33ff9-c05d-4462-aaec-cc5423c89af5.xls",
+          "file": "filings/BL/docs/w8a794642d11262bb.xls"
+        },
+        {
+          "name": "May 03, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-05-03",
+          "fmt": "PDF",
+          "sizeBytes": 1286867,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/768eba25-a35c-4cbc-8299-533f7ee9857e.pdf",
+          "file": "filings/BL/docs/wa5d2f43894e82103.pdf"
+        },
+        {
+          "name": "Apr 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-12",
+          "fmt": "PDF",
+          "sizeBytes": 6090506,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e75c8d21-20dd-4a32-9581-e6d1914f2bb9.pdf",
+          "file": "filings/BL/docs/wa13ba1ce8f759bbf.pdf"
+        },
+        {
+          "name": "Apr 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-12",
+          "fmt": "XLS",
+          "sizeBytes": 115108,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/72ec4fd4-f267-479b-ad09-5c648ae49ce5.xls",
+          "file": "filings/BL/docs/w18bc8093de5504b1.xls"
+        },
+        {
+          "name": "Apr 09, 2024 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-09",
+          "fmt": "PDF",
+          "sizeBytes": 663094,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/92de2d32-d77f-43a3-b3d6-4cf05f6b4ba6.pdf",
+          "file": "filings/BL/docs/wef51f1bcd937be3a.pdf"
+        },
+        {
+          "name": "Apr 09, 2024 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-09",
+          "fmt": "XLS",
+          "sizeBytes": 86116,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/acff17b1-596c-451b-bb73-c5dee49813f9.xls",
+          "file": "filings/BL/docs/w8c7ca99d1f9656e0.xls"
+        },
+        {
+          "name": "Apr 09, 2024 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-09",
+          "fmt": "PDF",
+          "sizeBytes": 663094,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/1ce9d18d-42e0-4f37-bfac-accd79570c4e.pdf",
+          "file": "filings/BL/docs/w3abc6d2c92ad9940.pdf"
+        },
+        {
+          "name": "Apr 09, 2024 - Form S-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-09",
+          "fmt": "XLS",
+          "sizeBytes": 86116,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a5e40899-4842-4270-be0e-64324a965425.xls",
+          "file": "filings/BL/docs/w475f9a769c473420.xls"
+        },
+        {
+          "name": "Apr 05, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-05",
+          "fmt": "PDF",
+          "sizeBytes": 111718,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/fc0a974a-b0bf-4af9-9d67-d95bac5c51ce.pdf",
+          "file": "filings/BL/docs/w0affbb18cef67962.pdf"
+        },
+        {
+          "name": "Apr 04, 2024 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-04",
+          "fmt": "PDF",
+          "sizeBytes": 8822317,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/17730f27-e073-4855-bc26-94f312f794a7.pdf",
+          "file": "filings/BL/docs/wb89a09891d7665b4.pdf"
+        },
+        {
+          "name": "Apr 04, 2024 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-04",
+          "fmt": "XLS",
+          "sizeBytes": 580483,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/9442541c-127e-4240-9450-52546e515cce.xls",
+          "file": "filings/BL/docs/w2fd4bce1a1244994.xls"
+        },
+        {
+          "name": "Apr 04, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-04-04",
+          "fmt": "PDF",
+          "sizeBytes": 670950,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/57d5f4f2-027e-4599-b01f-09e12be6fe17.pdf",
+          "file": "filings/BL/docs/w2c7d61b82dc8a619.pdf"
+        },
+        {
+          "name": "Mar 28, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-28",
+          "fmt": "PDF",
+          "sizeBytes": 108434,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/9067704a-60a1-4fa8-8e7b-6956eb017b17.pdf",
+          "file": "filings/BL/docs/wf7e2d4150de4ec4d.pdf"
+        },
+        {
+          "name": "Mar 28, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-28",
+          "fmt": "XLS",
+          "sizeBytes": 11965,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/381b8fdc-2670-4dc6-b21d-ff6dfe2eaa19.xls",
+          "file": "filings/BL/docs/w3dfeb2260cecf926.xls"
+        },
+        {
+          "name": "Mar 28, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-28",
+          "fmt": "PDF",
+          "sizeBytes": 108804,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/25b78773-8e3c-42db-84a1-9f4b7fd5c07b.pdf",
+          "file": "filings/BL/docs/wd44f6cae7bd1d68c.pdf"
+        },
+        {
+          "name": "Mar 28, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-28",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/9579d21b-fed4-4359-9805-8562e2903dee.xls",
+          "file": "filings/BL/docs/wb7b105699404581c.xls"
+        },
+        {
+          "name": "Mar 26, 2024 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-26",
+          "fmt": "PDF",
+          "sizeBytes": 704086,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/51cd828c-7389-4cf8-bce6-51c44b72a189.pdf",
+          "file": "filings/BL/docs/w8447b1ce666a3bea.pdf"
+        },
+        {
+          "name": "Mar 15, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-15",
+          "fmt": "PDF",
+          "sizeBytes": 1325960,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/bee264dc-0086-4d35-a923-5e39d358f344.pdf",
+          "file": "filings/BL/docs/w10b820b07eaa51a2.pdf"
+        },
+        {
+          "name": "Mar 15, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-15",
+          "fmt": "XLS",
+          "sizeBytes": 45115,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/f77250bf-aec4-43b4-b542-48b380f2e53e.xls",
+          "file": "filings/BL/docs/w21fe1fa927368667.xls"
+        },
+        {
+          "name": "Mar 14, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-14",
+          "fmt": "PDF",
+          "sizeBytes": 756818,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/48e1d960-829a-4ede-ab05-60f08ee3910b.pdf",
+          "file": "filings/BL/docs/w9ade553a39fdbc4e.pdf"
+        },
+        {
+          "name": "Mar 14, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-14",
+          "fmt": "XLS",
+          "sizeBytes": 54197,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8a2e227b-79c5-4e63-b831-f56afe43298a.xls",
+          "file": "filings/BL/docs/w9f2d97ee00e274e5.xls"
+        },
+        {
+          "name": "Mar 07, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-07",
+          "fmt": "PDF",
+          "sizeBytes": 840741,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/350eb5b3-1a06-4048-bc7b-9273a2372c2f.pdf",
+          "file": "filings/BL/docs/w023cb08f1d351055.pdf"
+        },
+        {
+          "name": "Mar 07, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-07",
+          "fmt": "XLS",
+          "sizeBytes": 56991,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/613dcf14-d455-4bd2-9923-6797ab45c9eb.xls",
+          "file": "filings/BL/docs/wa9fd43db84e10f7c.xls"
+        },
+        {
+          "name": "Mar 07, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-07",
+          "fmt": "PDF",
+          "sizeBytes": 840741,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/51b2b383-97ab-4b23-900a-9b9c0df67057.pdf",
+          "file": "filings/BL/docs/wf1f65b11637213e4.pdf"
+        },
+        {
+          "name": "Mar 07, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-07",
+          "fmt": "XLS",
+          "sizeBytes": 56991,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/1484fa18-d935-4400-a731-d34a4d4a3292.xls",
+          "file": "filings/BL/docs/w39bcd24794fc851e.xls"
+        },
+        {
+          "name": "Mar 06, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-06",
+          "fmt": "PDF",
+          "sizeBytes": 279947,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/539b44a3-49b7-48b8-b066-ee112a732a97.pdf",
+          "file": "filings/BL/docs/waee660071d680e9f.pdf"
+        },
+        {
+          "name": "Mar 06, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-06",
+          "fmt": "XLS",
+          "sizeBytes": 26994,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ad60ca7f-4cb5-4600-9065-1b63e37a738d.xls",
+          "file": "filings/BL/docs/w1cb87370bcc52177.xls"
+        },
+        {
+          "name": "Mar 05, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-05",
+          "fmt": "PDF",
+          "sizeBytes": 852934,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/c643db38-aae0-4432-a275-eb80de150d03.pdf",
+          "file": "filings/BL/docs/w10a1b9cfb062a4c2.pdf"
+        },
+        {
+          "name": "Mar 05, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-05",
+          "fmt": "XLS",
+          "sizeBytes": 47678,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/068c7917-f2d8-4d52-9d5b-5b0a361e3489.xls",
+          "file": "filings/BL/docs/w8da616d11a225653.xls"
+        },
+        {
+          "name": "Mar 05, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-05",
+          "fmt": "PDF",
+          "sizeBytes": 852934,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/708959c8-74a8-41e7-a092-9a6448b173df.pdf",
+          "file": "filings/BL/docs/wd4af3ac784df3ab8.pdf"
+        },
+        {
+          "name": "Mar 05, 2024 - Form 424B3",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-03-05",
+          "fmt": "XLS",
+          "sizeBytes": 47678,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/79efa081-a4bb-4a35-b7f0-969cb470bdb0.xls",
+          "file": "filings/BL/docs/w196a562da676dd25.xls"
+        },
+        {
+          "name": "Feb 23, 2024 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-23",
+          "fmt": "PDF",
+          "sizeBytes": 1475807,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c2c250f4-22de-4bea-9e87-ad8816ebe178.pdf",
+          "file": "filings/BL/docs/wfe10fefeab34e3fe.pdf"
+        },
+        {
+          "name": "Feb 23, 2024 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-23",
+          "fmt": "XLS",
+          "sizeBytes": 419222,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/73e859a3-fe53-4b7d-b14c-f2aa016344dd.xls",
+          "file": "filings/BL/docs/w122b6d48c69ff6f5.xls"
+        },
+        {
+          "name": "Feb 20, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-20",
+          "fmt": "PDF",
+          "sizeBytes": 1163169,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/48542685-8afe-4b5d-8847-d91d241333bb.pdf",
+          "file": "filings/BL/docs/wa65c942e1eb4f0f3.pdf"
+        },
+        {
+          "name": "Feb 20, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-20",
+          "fmt": "XLS",
+          "sizeBytes": 64324,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002012383/9f7afa2f-604d-45ca-9161-412efa1b47d6.xls",
+          "file": "filings/BL/docs/wf43b72f13ee176a0.xls"
+        },
+        {
+          "name": "Feb 20, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-20",
+          "fmt": "PDF",
+          "sizeBytes": 1163169,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a2071b81-2339-4b84-ab8e-a38cbd1bc5d8.pdf",
+          "file": "filings/BL/docs/w0fa0bd9c56fdbea3.pdf"
+        },
+        {
+          "name": "Feb 20, 2024 - Form POSASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-20",
+          "fmt": "XLS",
+          "sizeBytes": 64324,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/35ea0079-2fda-4a21-8516-699b9f4953ef.xls",
+          "file": "filings/BL/docs/w511e3d53f7acabd7.xls"
+        },
+        {
+          "name": "Jan 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-01-12",
+          "fmt": "PDF",
+          "sizeBytes": 101038,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/5a60263f-89c9-4955-96c8-e0dd8266aeea.pdf",
+          "file": "filings/BL/docs/w7c42a849524d29b5.pdf"
+        },
+        {
+          "name": "Jan 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-01-12",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/dfdf32a2-4545-44b6-8b62-ec93cd36b7ec.xls",
+          "file": "filings/BL/docs/w2985a1654bdbc1f9.xls"
+        },
+        {
+          "name": "Jan 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-01-12",
+          "fmt": "PDF",
+          "sizeBytes": 15341637,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/eea05dc7-fa7b-4b27-a8c7-e82122b68954.pdf",
+          "file": "filings/BL/docs/w91347706d233cf8f.pdf"
+        },
+        {
+          "name": "Jan 12, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-01-12",
+          "fmt": "XLS",
+          "sizeBytes": 125586,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b3e60d2b-7e90-4413-9793-f5e9f60fb107.xls",
+          "file": "filings/BL/docs/w6078813b02a270a3.xls"
+        },
+        {
+          "name": "Nov 07, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-11-07",
+          "fmt": "PDF",
+          "sizeBytes": 117184,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/0fb202c6-54c1-4dfb-abde-c2b34829985b.pdf",
+          "file": "filings/BL/docs/w94569a7e6779c51b.pdf"
+        },
+        {
+          "name": "Nov 07, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-11-07",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8c7bf64a-d614-4b13-b3a2-688eb6b3dc6a.xls",
+          "file": "filings/BL/docs/w5a472c30ff3c7db5.xls"
+        },
+        {
+          "name": "Nov 06, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-11-06",
+          "fmt": "PDF",
+          "sizeBytes": 827354,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c3690290-ed18-4f9f-b96d-55f371cdd849.pdf",
+          "file": "filings/BL/docs/w473cf5c85d1b17c0.pdf"
+        },
+        {
+          "name": "Nov 06, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-11-06",
+          "fmt": "XLS",
+          "sizeBytes": 318056,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/4cbee2f9-3f1c-4b22-979a-b188143b9440.xls",
+          "file": "filings/BL/docs/w5501d849a498c555.xls"
+        },
+        {
+          "name": "Oct 13, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-10-13",
+          "fmt": "PDF",
+          "sizeBytes": 6199290,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/f86d50af-e319-4be7-bd36-36f7f554a3c7.pdf",
+          "file": "filings/BL/docs/wec848c5d8efd7d5b.pdf"
+        },
+        {
+          "name": "Oct 13, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-10-13",
+          "fmt": "XLS",
+          "sizeBytes": 137396,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/57a01ddf-b916-469e-a51a-c9b8743588c1.xls",
+          "file": "filings/BL/docs/wbb8661ec90ffb772.xls"
+        },
+        {
+          "name": "Sep 15, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-09-15",
+          "fmt": "PDF",
+          "sizeBytes": 266077,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/1704ce55-bbf8-4584-b41e-2a626818ebab.pdf",
+          "file": "filings/BL/docs/w71625790725c9bbe.pdf"
+        },
+        {
+          "name": "Sep 15, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-09-15",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b6f59096-051b-40ed-aad3-2ab31e880827.xls",
+          "file": "filings/BL/docs/we10e07141f1fae40.xls"
+        },
+        {
+          "name": "Aug 04, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-08-04",
+          "fmt": "PDF",
+          "sizeBytes": 929334,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a8548be7-8707-4980-bd71-3a3d73f0ffb6.pdf",
+          "file": "filings/BL/docs/w703ba6f8484fe1af.pdf"
+        },
+        {
+          "name": "Aug 04, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-08-04",
+          "fmt": "XLS",
+          "sizeBytes": 314903,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/3ddb6985-02fe-46ce-a311-fc8401a87b37.xls",
+          "file": "filings/BL/docs/w0f1ae260bebae520.xls"
+        },
+        {
+          "name": "Jul 17, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-17",
+          "fmt": "PDF",
+          "sizeBytes": 104523,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/157e8ccc-8be4-46c5-bb3f-ca09f9e75b02.pdf",
+          "file": "filings/BL/docs/wcb52bc3b4754d14d.pdf"
+        },
+        {
+          "name": "Jul 17, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-17",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/33cd8908-85af-47d1-8aef-a112acb2e754.xls",
+          "file": "filings/BL/docs/wce8899e0ecd7353e.xls"
+        },
+        {
+          "name": "Jul 14, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-14",
+          "fmt": "PDF",
+          "sizeBytes": 6155368,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d5716f01-3487-49e0-93b2-f8beba00a6e8.pdf",
+          "file": "filings/BL/docs/we2793b09fac9e963.pdf"
+        },
+        {
+          "name": "Jul 14, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-07-14",
+          "fmt": "XLS",
+          "sizeBytes": 133466,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a61c50e2-bb21-470c-93ce-ec09223b8473.xls",
+          "file": "filings/BL/docs/wa3c6ea436676ab21.xls"
+        },
+        {
+          "name": "May 26, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-26",
+          "fmt": "PDF",
+          "sizeBytes": 98874,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c77752c5-a383-49c8-abbb-dd993e6ee47c.pdf",
+          "file": "filings/BL/docs/wf6ae94e0f8b71885.pdf"
+        },
+        {
+          "name": "May 26, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-26",
+          "fmt": "XLS",
+          "sizeBytes": 12137,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/72e62ba0-90de-4c30-bd6d-2436aaf51001.xls",
+          "file": "filings/BL/docs/w87defecd5d1a5ce0.xls"
+        },
+        {
+          "name": "May 25, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-25",
+          "fmt": "PDF",
+          "sizeBytes": 165089,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c12920c9-d1e9-4b33-99f1-7d6a434613d7.pdf",
+          "file": "filings/BL/docs/w6d91cfb2d2cfb5d2.pdf"
+        },
+        {
+          "name": "May 25, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-25",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e304ddb0-168c-46a8-af42-9b7f1e37bf06.xls",
+          "file": "filings/BL/docs/w26077b32fbdcabfe.xls"
+        },
+        {
+          "name": "May 18, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-18",
+          "fmt": "PDF",
+          "sizeBytes": 241555,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/44a99406-7725-4b08-8b91-60b5d1ec8d4b.pdf",
+          "file": "filings/BL/docs/wce2118f8c62e85e1.pdf"
+        },
+        {
+          "name": "May 18, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-18",
+          "fmt": "XLS",
+          "sizeBytes": 19784,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c80be06b-fd94-4fa5-8545-9eac4d10fda9.xls",
+          "file": "filings/BL/docs/w6a505788de35809b.xls"
+        },
+        {
+          "name": "May 18, 2023 - Form 424B2",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-18",
+          "fmt": "PDF",
+          "sizeBytes": 531425,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8580c428-284d-4c36-827c-681cc8888634.pdf",
+          "file": "filings/BL/docs/w9dbd108c615ae036.pdf"
+        },
+        {
+          "name": "May 18, 2023 - Form 424B2",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-18",
+          "fmt": "XLS",
+          "sizeBytes": 46246,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/247b2674-8610-47f8-9270-76ab5e1e8988.xls",
+          "file": "filings/BL/docs/w571d3efa4be8154e.xls"
+        },
+        {
+          "name": "May 17, 2023 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-17",
+          "fmt": "PDF",
+          "sizeBytes": 538545,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ea857298-f27f-4b90-9671-d529bf537b2c.pdf",
+          "file": "filings/BL/docs/w0ee4ffe92df682e3.pdf"
+        },
+        {
+          "name": "May 17, 2023 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-17",
+          "fmt": "XLS",
+          "sizeBytes": 35675,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/41713b31-8fb4-4912-b916-84fd061b6654.xls",
+          "file": "filings/BL/docs/w38e8377c4641cd63.xls"
+        },
+        {
+          "name": "May 05, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-05",
+          "fmt": "PDF",
+          "sizeBytes": 681177,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e3b32fb2-35ca-4d57-be97-a745195f9af2.pdf",
+          "file": "filings/BL/docs/wc5d117498b872018.pdf"
+        },
+        {
+          "name": "May 05, 2023 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-05-05",
+          "fmt": "XLS",
+          "sizeBytes": 254047,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ef049e85-3175-4d09-8900-fbb0ddd75463.xls",
+          "file": "filings/BL/docs/w24551ea76bc3aeef.xls"
+        },
+        {
+          "name": "Apr 14, 2023 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 154491,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/942705d5-c969-4a40-a722-7ca6dcfe9d58.pdf",
+          "file": "filings/BL/docs/w4cdf9f5793a5e58a.pdf"
+        },
+        {
+          "name": "Apr 14, 2023 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 10975,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/00ede012-8867-4492-bf26-d60529a11a08.xls",
+          "file": "filings/BL/docs/w0b158546bae459fa.xls"
+        },
+        {
+          "name": "Apr 14, 2023 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 107842,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e5b9d24a-6755-4033-b03f-ce25c432ca3e.pdf",
+          "file": "filings/BL/docs/wb461b081ced65c0b.pdf"
+        },
+        {
+          "name": "Apr 14, 2023 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 7681206,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a946d613-b6dd-4a0b-ac54-5c3ccc1d25a8.pdf",
+          "file": "filings/BL/docs/wbfd73f85469bbd6f.pdf"
+        },
+        {
+          "name": "Apr 14, 2023 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 542125,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/7dc504ee-7492-46eb-abe3-e99104155404.xls",
+          "file": "filings/BL/docs/w8301ccbb114d75bd.xls"
+        },
+        {
+          "name": "Apr 14, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 2170541,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/5931d6c8-4d9c-4e44-94ff-2333ebdb3996.pdf",
+          "file": "filings/BL/docs/w067bc1d25312e331.pdf"
+        },
+        {
+          "name": "Apr 14, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 106103,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/08aa0916-98b9-44cb-9ab5-baf11b0407e5.xls",
+          "file": "filings/BL/docs/w6ea64f14b65d331e.xls"
+        },
+        {
+          "name": "Apr 03, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-03",
+          "fmt": "PDF",
+          "sizeBytes": 1162555,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d02ff066-7b44-4a66-85d3-a6f0072642c6.pdf",
+          "file": "filings/BL/docs/w18f47bee86023eb1.pdf"
+        },
+        {
+          "name": "Apr 03, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-04-03",
+          "fmt": "XLS",
+          "sizeBytes": 41848,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/580584a8-5fd5-43e9-8d10-118e266fc3ed.xls",
+          "file": "filings/BL/docs/w423c7d1c54abda28.xls"
+        },
+        {
+          "name": "Mar 15, 2023 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-03-15",
+          "fmt": "PDF",
+          "sizeBytes": 150073,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ed7e4cbf-d3f1-4ddb-b5e3-ba99784f96ab.pdf",
+          "file": "filings/BL/docs/wb2f53c8dcbbbea1d.pdf"
+        },
+        {
+          "name": "Mar 15, 2023 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-03-15",
+          "fmt": "PDF",
+          "sizeBytes": 281718,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/24344bb9-6242-446a-816e-3c1618b28592.pdf",
+          "file": "filings/BL/docs/w6ca7dba00450747b.pdf"
+        },
+        {
+          "name": "Feb 24, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "PDF",
+          "sizeBytes": 87478,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/9da92ff4-fb4d-4e89-886e-568666a31d34.pdf",
+          "file": "filings/BL/docs/w61bc842bee998ce0.pdf"
+        },
+        {
+          "name": "Feb 24, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/71cf6ab3-47c5-4d89-bc98-d41ccaf68a7e.xls",
+          "file": "filings/BL/docs/wf0d78e98d7dd9989.xls"
+        },
+        {
+          "name": "Feb 24, 2023 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "PDF",
+          "sizeBytes": 1267542,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/24d3fb11-2c9c-432f-8301-843234c14f1b.pdf",
+          "file": "filings/BL/docs/w6f947232eac17283.pdf"
+        },
+        {
+          "name": "Feb 24, 2023 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "XLS",
+          "sizeBytes": 404306,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b520b4b2-8e36-44c7-b350-07b1e789f538.xls",
+          "file": "filings/BL/docs/wfabefafa2baa8d24.xls"
+        },
+        {
+          "name": "Jan 13, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-01-13",
+          "fmt": "PDF",
+          "sizeBytes": 2511647,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/11aeda00-a3da-4df8-a991-a7449653ca17.pdf",
+          "file": "filings/BL/docs/waf700b2a75595325.pdf"
+        },
+        {
+          "name": "Jan 13, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-01-13",
+          "fmt": "XLS",
+          "sizeBytes": 117063,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/2eaba5e3-28d1-49de-b8fd-c0725132c3b7.xls",
+          "file": "filings/BL/docs/wf15dcfd4b24409cb.xls"
+        },
+        {
+          "name": "Nov 04, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-11-04",
+          "fmt": "PDF",
+          "sizeBytes": 790857,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/cb5d4400-f032-45f9-a009-b09896f314f8.pdf",
+          "file": "filings/BL/docs/w2a4236a08e376d4f.pdf"
+        },
+        {
+          "name": "Nov 04, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-11-04",
+          "fmt": "XLS",
+          "sizeBytes": 303688,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a4f7fccc-5aaa-4314-a11e-f23a38ef7041.xls",
+          "file": "filings/BL/docs/w35c7948dfad5b371.xls"
+        },
+        {
+          "name": "Oct 13, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-13",
+          "fmt": "PDF",
+          "sizeBytes": 2241381,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/5ddc5511-3f14-45d9-9041-9e7aada2daf6.pdf",
+          "file": "filings/BL/docs/wfc02f751b18d2c1f.pdf"
+        },
+        {
+          "name": "Oct 13, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-13",
+          "fmt": "XLS",
+          "sizeBytes": 127677,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8946cf26-e89a-473c-ac09-68efb881ffee.xls",
+          "file": "filings/BL/docs/w6fce269b19391215.xls"
+        },
+        {
+          "name": "Oct 04, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-04",
+          "fmt": "PDF",
+          "sizeBytes": 86445,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/417c6407-a750-4211-b2b3-51e7b2575a5d.pdf",
+          "file": "filings/BL/docs/w4554c27cd316df64.pdf"
+        },
+        {
+          "name": "Oct 04, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-04",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/b0db2b43-cf15-4170-ad02-8b1c9793b6ef.xls",
+          "file": "filings/BL/docs/w8dac5cc00d122988.xls"
+        },
+        {
+          "name": "Oct 03, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-03",
+          "fmt": "PDF",
+          "sizeBytes": 102779,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/10f093be-94d8-449a-987a-cec2a202d5eb.pdf",
+          "file": "filings/BL/docs/w1e72e8c3e3998eb9.pdf"
+        },
+        {
+          "name": "Oct 03, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-10-03",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/068210b8-2b20-4b60-bdcf-31a9cbd88d0c.xls",
+          "file": "filings/BL/docs/w7d0707116300d25c.xls"
+        },
+        {
+          "name": "Aug 05, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-08-05",
+          "fmt": "PDF",
+          "sizeBytes": 763212,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/624b9eeb-3cae-4833-b4e0-21d997731121.pdf",
+          "file": "filings/BL/docs/w8447e94f038c9e1c.pdf"
+        },
+        {
+          "name": "Aug 05, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-08-05",
+          "fmt": "XLS",
+          "sizeBytes": 299942,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/bb2e9eea-0518-48dd-96e2-8ba854f59aea.xls",
+          "file": "filings/BL/docs/wd10acc7e4d83e34e.xls"
+        },
+        {
+          "name": "Jul 15, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-07-15",
+          "fmt": "PDF",
+          "sizeBytes": 2221194,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/8c5b011c-b7c3-47bb-882e-9acc586562a3.pdf",
+          "file": "filings/BL/docs/wbff7754563439cb6.pdf"
+        },
+        {
+          "name": "Jul 15, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-07-15",
+          "fmt": "XLS",
+          "sizeBytes": 127578,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/113f37a1-740e-4b45-8c27-4ed4aa07d0a0.xls",
+          "file": "filings/BL/docs/wa527027c193aafca.xls"
+        },
+        {
+          "name": "May 27, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-05-27",
+          "fmt": "PDF",
+          "sizeBytes": 94126,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/455659ac-bfe9-4cda-bcea-7f948e46e0cf.pdf",
+          "file": "filings/BL/docs/w1eeb4abf12112032.pdf"
+        },
+        {
+          "name": "May 27, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-05-27",
+          "fmt": "XLS",
+          "sizeBytes": 12262,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/4b1de44f-b3d0-4402-8388-2d7485d6ca8f.xls",
+          "file": "filings/BL/docs/wd7ff22b770eca169.xls"
+        },
+        {
+          "name": "May 06, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-05-06",
+          "fmt": "PDF",
+          "sizeBytes": 717040,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/2903c155-25aa-47ff-a5ee-5a09b7a8e485.pdf",
+          "file": "filings/BL/docs/w6fe73adc8ca972a6.pdf"
+        },
+        {
+          "name": "May 06, 2022 - Form 10-Q",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-05-06",
+          "fmt": "XLS",
+          "sizeBytes": 243855,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/19f166c8-69ec-49b7-bd4d-60d9a13445d4.xls",
+          "file": "filings/BL/docs/wbd9f6a6d3e55532f.xls"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 107627,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/819551f1-bae9-41a2-8420-4d4aa9b4a478.pdf",
+          "file": "filings/BL/docs/we71bd522b68d16ce.pdf"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 133732,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/1c2aaa80-7153-4f63-b752-58707dfdadf7.pdf",
+          "file": "filings/BL/docs/wf661cd9ccf20b9df.pdf"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 10702119,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/ccbd53bb-9f71-44b5-b046-2d160ab7b552.pdf",
+          "file": "filings/BL/docs/w7ec9df74a04dcdea.pdf"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/458bf4eb-5c83-4c80-874f-2bca8b98a3fa.xls",
+          "file": "filings/BL/docs/wed787294ca9ee6f9.xls"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 750863,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/6455844d-2185-4b1f-ac6b-c3934e7d9c42.pdf",
+          "file": "filings/BL/docs/wf3aa04ab7cc6d079.pdf"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/e430cc0a-79ec-43e1-8e63-20b77a26ada6.xls",
+          "file": "filings/BL/docs/wf8695e29725783e6.xls"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "PDF",
+          "sizeBytes": 6257431,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/c937ab4a-9afa-421b-a1f7-ce922ecd3650.pdf",
+          "file": "filings/BL/docs/w3ad520ec2a2ae42d.pdf"
+        },
+        {
+          "name": "Apr 14, 2022 - Form DEF 14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-14",
+          "fmt": "XLS",
+          "sizeBytes": 498584,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/da287bbb-1b8b-4630-beaf-38030c623db0.xls",
+          "file": "filings/BL/docs/wc964fd435fcb022b.xls"
+        },
+        {
+          "name": "Apr 13, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-13",
+          "fmt": "PDF",
+          "sizeBytes": 2224818,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/5c355dda-86e6-4bd4-8419-addb2e77545a.pdf",
+          "file": "filings/BL/docs/w7f36499b510c5ab6.pdf"
+        },
+        {
+          "name": "Apr 13, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-13",
+          "fmt": "XLS",
+          "sizeBytes": 123153,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/883caf5e-ddc6-4dca-be38-f774925bc6eb.xls",
+          "file": "filings/BL/docs/wa718fdabfb0d3e1f.xls"
+        },
+        {
+          "name": "Apr 01, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-01",
+          "fmt": "PDF",
+          "sizeBytes": 1572042,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/59735178-4953-4344-9c04-3ae9ce84bd84.pdf",
+          "file": "filings/BL/docs/wdd420b014133129c.pdf"
+        },
+        {
+          "name": "Apr 01, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-04-01",
+          "fmt": "XLS",
+          "sizeBytes": 44780,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/d32cfe0c-0813-4a70-b65e-08fe72fad9e6.xls",
+          "file": "filings/BL/docs/w8168ae217c11bc4a.xls"
+        },
+        {
+          "name": "Mar 24, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 806858,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/375e22d3-99e5-4a8d-9ff4-7c60c462753e.pdf",
+          "file": "filings/BL/docs/w36fd4cb591063d63.pdf"
+        },
+        {
+          "name": "Mar 24, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 585249,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/f05e1314-990e-4c2c-a2c6-4249771a880a.pdf",
+          "file": "filings/BL/docs/waa579daa3d85392f.pdf"
+        },
+        {
+          "name": "Mar 24, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 583834,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/469d4051-ebe1-44f0-9c3c-187a61ff725c.pdf",
+          "file": "filings/BL/docs/w44c3090d5e3d208f.pdf"
+        },
+        {
+          "name": "Mar 24, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 798254,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/51e5d50d-c00f-460f-8b9d-09fbcf893be4.pdf",
+          "file": "filings/BL/docs/w12bfad080745a9db.pdf"
+        },
+        {
+          "name": "Mar 24, 2022 - Form DEFA14A",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-03-24",
+          "fmt": "PDF",
+          "sizeBytes": 4458381,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/abf3ef4a-9e64-4f79-a130-61fede801c52.pdf",
+          "file": "filings/BL/docs/w131be6740c0fe1bc.pdf"
+        },
+        {
+          "name": "Feb 25, 2022 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-25",
+          "fmt": "PDF",
+          "sizeBytes": 1124659,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/3173f90f-150e-43a3-941a-fba9a7e35773.pdf",
+          "file": "filings/BL/docs/w3729ef26880b569e.pdf"
+        },
+        {
+          "name": "Feb 25, 2022 - Form 10-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-25",
+          "fmt": "XLS",
+          "sizeBytes": 399618,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/16c39864-be08-4046-b4ae-5dce3fc48380.xls",
+          "file": "filings/BL/docs/wee7c9e44ff762672.xls"
+        },
+        {
+          "name": "Jan 14, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-01-14",
+          "fmt": "PDF",
+          "sizeBytes": 1519888,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/1cbddb43-cbb0-46cb-b7c2-1b9c67410cbb.pdf",
+          "file": "filings/BL/docs/wb3a815d37b8d0103.pdf"
+        },
+        {
+          "name": "Jan 14, 2022 - Form 8-K",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-01-14",
+          "fmt": "XLS",
+          "sizeBytes": 116779,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001364742/a770ef31-6dc5-4a69-8b9f-fb37410f0271.xls",
+          "file": "filings/BL/docs/w99574c6c512197d3.xls"
         }
       ],
       "metrics": {
