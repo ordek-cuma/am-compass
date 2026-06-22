@@ -102,8 +102,15 @@ def run() -> None:
         }
 
     # Phase 2/3 (interim): European + German AMs — primary-sourced AuM/AuA, no EDGAR.
+    # Each gets a real source-document reference (its IR/results page) → "Open at source".
+    DOC_BY_REGIME = {
+        "European-listed": "Universal Registration Document / FY2025 Results",
+        "German KVG": "Geschäftsbericht / FY2025 Results",
+        "Private / Mutual": "Annual Results & AuM Disclosure",
+        "US-listed": "AM-Segment Results & AuM Disclosure",
+    }
     for cid, spec in europe_overlay.EUROPE.items():
-        print(f"• {spec['name']} ({spec['regime']}) — primary-sourced")
+        print(f"• {spec['name']} ({spec['regime']}) — primary-sourced + source doc")
         obs = europe_overlay.build(cid, now)
         obs += derive.derive(cid, obs, now)
         all_obs += obs
@@ -112,9 +119,14 @@ def run() -> None:
             cur = latest.get(o.metric_key)
             if cur is None or o.period_end > cur.period_end:
                 latest[o.metric_key] = o
+        documents = [{
+            "name": DOC_BY_REGIME.get(spec["regime"], "FY2025 Results"),
+            "form": "IR", "date": "2025-12-31", "fmt": "WEB", "sizeBytes": 0,
+            "edgarUrl": spec["src"], "file": "",
+        }]
         export["competitors"][cid] = {
             "name": spec["name"], "ticker": cid, "regime": spec["regime"], "cik": None,
-            "period_end": max((o.period_end for o in obs), default=None), "documents": [],
+            "period_end": max((o.period_end for o in obs), default=None), "documents": documents,
             "metrics": {
                 k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
                     "source": o.source_doc, "section": o.source_section}

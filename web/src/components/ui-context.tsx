@@ -1,7 +1,7 @@
 // App-wide UI services: format-aware document preview modal + download toast.
 // Mirrors openPreview / downloadDoc / closePreview from the reference build.
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { DlIcon, FileMiniIcon } from './icons'
+import { DlIcon, FileMiniIcon, Icon } from './icons'
 
 interface DocRef {
   file?: string // same-origin public path → real iframe preview + real download
@@ -146,6 +146,20 @@ export function UiProvider({ children }: { children: ReactNode }) {
                   sandbox="allow-same-origin allow-popups"
                   style={{ width: '100%', height: '64vh', border: 0, background: '#fff', borderRadius: 'var(--r-lg)' }}
                 />
+              ) : preview.edgarUrl ? (
+                <div className="empty">
+                  <div className="ico">
+                    <Icon name="catalog" size={21} />
+                  </div>
+                  <div className="et">Hosted at the source</div>
+                  <div className="ed">
+                    This disclosure isn’t archived locally yet — open it at the issuer/regulator. Local archiving of
+                    non-EDGAR filings is on the roadmap.
+                  </div>
+                  <a className="btn pri" href={preview.edgarUrl} target="_blank" rel="noreferrer" style={{ marginTop: 14 }}>
+                    Open at source ↗
+                  </a>
+                </div>
               ) : (
                 <PreviewBody fmt={preview.fmt} />
               )}
@@ -155,19 +169,21 @@ export function UiProvider({ children }: { children: ReactNode }) {
               <span className="sp" />
               {preview.edgarUrl ? (
                 <a className="btn" href={preview.edgarUrl} target="_blank" rel="noreferrer">
-                  Open at SEC ↗
+                  {preview.file ? 'Open at SEC ↗' : 'Open at source ↗'}
                 </a>
               ) : null}
               <button className="btn" onClick={closePreview}>
                 Close
               </button>
-              <button
-                className="btn pri"
-                onClick={() => downloadDoc(preview.name, preview.fmt, preview.file ? `/${preview.file}` : undefined)}
-              >
-                <DlIcon />
-                Download
-              </button>
+              {preview.file || !preview.edgarUrl ? (
+                <button
+                  className="btn pri"
+                  onClick={() => downloadDoc(preview.name, preview.fmt, preview.file ? `/${preview.file}` : undefined)}
+                >
+                  <DlIcon />
+                  Download
+                </button>
+              ) : null}
             </div>
           </div>
         </div>
