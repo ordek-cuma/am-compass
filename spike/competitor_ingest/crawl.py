@@ -70,9 +70,11 @@ def crawl_edgar(code: str, name: str, cik: str, now: str) -> tuple[list[dict], t
                 changed += 1; status = "changed"
             else:
                 new += 1; status = "new"
+        ext = f["primaryDocument"].rsplit(".", 1)[-1].lower()
+        fmt = {"htm": "HTM", "html": "HTM", "pdf": "PDF", "txt": "TXT"}.get(ext, ext.upper() or "HTM")
         docs.append({
             "doc_id": doc_id, "name": NAME.get(f["form"], f["form"]), "form": f["form"],
-            "group": GROUP.get(f["form"], "Other"), "date": f["filingDate"], "fmt": "HTM",
+            "group": GROUP.get(f["form"], "Other"), "date": f["filingDate"], "fmt": fmt,
             "sizeBytes": dest.stat().st_size if dest.exists() else 0,
             "edgarUrl": f["url"], "file": f"filings/{slug}/{rel}", "sha256": sha,
             "fetched_at": now, "status": status,
@@ -128,6 +130,25 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str) -> tuple[li
                      "date": "2025-12-31", "fmt": ext.upper(), "sizeBytes": len(data),
                      "edgarUrl": url, "file": f"filings/{slug}/{rel}", "sha256": sha,
                      "fetched_at": now, "status": status})
+    # Carry forward every doc already on disk that wasn't re-discovered this run (e.g. the IR
+    # page transiently 403'd) — a delta crawl must never lose an archived doc. The archive is
+    # the source of truth: scan it, reuse prior manifest metadata when we have it.
+    seen = {d["doc_id"] for d in docs}
+    docdir = base / "docs"
+    for fp in sorted(docdir.glob("w*")) if docdir.exists() else []:
+        did = fp.stem  # files are named <doc_id>.<ext>
+        if did in seen or not fp.is_file():
+            continue
+        old = prev.get(did)
+        if old:
+            old["status"] = "carried"
+            docs.append(old)
+        else:  # orphaned file — synthesize a minimal honest entry
+            docs.append({"doc_id": did, "name": "Crawled document", "form": "IR",
+                         "group": "Reports", "date": "2025-12-31", "fmt": fp.suffix.lstrip(".").upper(),
+                         "sizeBytes": fp.stat().st_size, "edgarUrl": "",
+                         "file": f"filings/{slug}/docs/{fp.name}", "sha256": manifest.sha256(fp.read_bytes()),
+                         "fetched_at": now, "status": "carried"})
     manifest.save(base / "manifest.json",
                   {"code": code, "name": name, "cik": None, "last_crawl": now, "documents": docs})
     return docs, (new, changed, unchanged)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T12:46:08+00:00",
+  "generated_at": "2026-06-22T13:04:55+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -174,7 +174,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-10",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 2720140,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000264/blk015204-arsa.pdf",
           "file": "filings/BL/docs/ARS/000130817926000264__blk015204-arsa.pdf"
@@ -1080,7 +1080,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-02",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 890725,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140046/d931557dars.pdf",
           "file": "filings/IVZ/docs/ARS/000119312526140046__d931557dars.pdf"
@@ -1100,7 +1100,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-03-28",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 6733801,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312525066777/d888923dars.pdf",
           "file": "filings/IVZ/docs/ARS/000119312525066777__d888923dars.pdf"
@@ -1120,7 +1120,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2024-03-28",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 786333,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312524080509/d808288dars.pdf",
           "file": "filings/IVZ/docs/ARS/000119312524080509__d808288dars.pdf"
@@ -1140,7 +1140,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-03-31",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 2700134,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312523088099/d479225dars.pdf",
           "file": "filings/IVZ/docs/ARS/000119312523088099__d479225dars.pdf"
@@ -1557,7 +1557,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-12-27",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 7783713,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000130817923001094/lben2023_ars.pdf",
           "file": "filings/FT/docs/ARS/000130817923001094__lben2023_ars.pdf"
@@ -2690,7 +2690,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-29",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 526414,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005248/wt424263ars.pdf",
           "file": "filings/WisdomTree/docs/ARS/000121465926005248__wt424263ars.pdf"
@@ -2710,7 +2710,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-04-29",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 1129142,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925006570/wt411250ars10k.pdf",
           "file": "filings/WisdomTree/docs/ARS/000121465925006570__wt411250ars10k.pdf"
@@ -2730,7 +2730,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2024-04-29",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 507915,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924007721/wt422241ars10k.pdf",
           "file": "filings/WisdomTree/docs/ARS/000121465924007721__wt422241ars10k.pdf"
@@ -2750,7 +2750,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-05-01",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 724920,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000119312523130409/d426509dars.pdf",
           "file": "filings/WisdomTree/docs/ARS/000119312523130409__d426509dars.pdf"
@@ -3193,7 +3193,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-17",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 3842210,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926012629/jhg20260415_ars.pdf",
           "file": "filings/JH/docs/ARS/000143774926012629__jhg20260415_ars.pdf"
@@ -3213,7 +3213,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-03-21",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 7844063,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925008669/ars_janushenderson.pdf",
           "file": "filings/JH/docs/ARS/000143774925008669__ars_janushenderson.pdf"
@@ -3233,7 +3233,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2024-03-22",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 7754889,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924008934/jhg_ars.pdf",
           "file": "filings/JH/docs/ARS/000143774924008934__jhg_ars.pdf"
@@ -3253,7 +3253,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-03-24",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 40409044,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774923007698/formars02.pdf",
           "file": "filings/JH/docs/ARS/000143774923007698__formars02.pdf"
@@ -3680,7 +3680,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-17",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 9093513,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026025810/amgars.pdf",
           "file": "filings/AMG/docs/ARS/000162828026025810__amgars.pdf"
@@ -3700,7 +3700,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-04-11",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 64955894,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000026/amgars.pdf",
           "file": "filings/AMG/docs/ARS/000100443425000026__amgars.pdf"
@@ -3720,7 +3720,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2024-04-12",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 9910488,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000021/amgars.pdf",
           "file": "filings/AMG/docs/ARS/000100443424000021__amgars.pdf"
@@ -3740,7 +3740,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-04-14",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 5101570,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312523102297/d424318dars.pdf",
           "file": "filings/AMG/docs/ARS/000119312523102297__d424318dars.pdf"
@@ -4320,7 +4320,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-02",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 3418846,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012991/ny20058185x3_ars.pdf",
           "file": "filings/MS/docs/ARS/000114036126012991__ny20058185x3_ars.pdf"
@@ -4579,7 +4579,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-03-20",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 2937572,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526116310/d106738dars.pdf",
           "file": "filings/Goldman_Sachs/docs/ARS/000119312526116310__d106738dars.pdf"
@@ -4858,7 +4858,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-06",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 18022059,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026023927/annualreport-2025.pdf",
           "file": "filings/JPM/docs/ARS/000162828026023927__annualreport-2025.pdf"
@@ -5207,7 +5207,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-03-26",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 1486295,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465926035169/tm2524222d2_ars.pdf",
           "file": "filings/PGIM/docs/ARS/000110465926035169__tm2524222d2_ars.pdf"
@@ -5227,7 +5227,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-03-27",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 1584128,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465925028763/tm2429652d4_ars.pdf",
           "file": "filings/PGIM/docs/ARS/000110465925028763__tm2429652d4_ars.pdf"
@@ -5247,7 +5247,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2024-03-28",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 1809266,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312524080552/d534871dars.pdf",
           "file": "filings/PGIM/docs/ARS/000119312524080552__d534871dars.pdf"
@@ -5267,7 +5267,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2023-03-23",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 15465243,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312523077871/d386706dars.pdf",
           "file": "filings/PGIM/docs/ARS/000119312523077871__d386706dars.pdf"
@@ -5556,7 +5556,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2026-04-08",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 48100339,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013821/ny20058931x3_ars.pdf",
           "file": "filings/SSgA/docs/ARS/000114036126013821__ny20058931x3_ars.pdf"
@@ -5576,7 +5576,7 @@
           "form": "ARS",
           "group": "Annual",
           "date": "2025-04-03",
-          "fmt": "HTM",
+          "fmt": "PDF",
           "sizeBytes": 41239438,
           "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036125012037/ny20039865x4_ars.pdf",
           "file": "filings/SSgA/docs/ARS/000114036125012037__ny20039865x4_ars.pdf"
@@ -5885,84 +5885,84 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Results &amp; reports",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 142236,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports.html",
-          "file": "filings/AGI/docs/w6e89f8cbaa55556a.html"
-        },
-        {
-          "name": "Results",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 481353,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/results.html",
-          "file": "filings/AGI/docs/w6f90e3575b917897.html"
-        },
-        {
-          "name": "Annual Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 159367,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/annual-reports.html",
-          "file": "filings/AGI/docs/w27ac4a4c3b443632.html"
-        },
-        {
-          "name": "Half-year Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 161812,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/interim-reports.html",
-          "file": "filings/AGI/docs/we58cc44ed6e50e1b.html"
-        },
-        {
-          "name": "Own Funds Report",
+          "name": "Crawled document",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
           "sizeBytes": 135771,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/own-funds-report.html",
+          "edgarUrl": "",
           "file": "filings/AGI/docs/w0492e0b2eb7483a6.html"
         },
         {
-          "name": "Annual General Meeting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 190293,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/shareholders/annual-general-meeting.html",
-          "file": "filings/AGI/docs/w7b65cd93c1015b24.html"
-        },
-        {
-          "name": "Reports &amp; studies",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 177247,
-          "edgarUrl": "https://www.allianz.com/en/mediacenter/news/reports.html",
-          "file": "filings/AGI/docs/we208cf5546b979aa.html"
-        },
-        {
-          "name": "3am report",
+          "name": "Crawled document",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "HTML",
           "sizeBytes": 233375,
-          "edgarUrl": "https://www.allianz.com/en/mediacenter/topics/3am-report.html",
+          "edgarUrl": "",
           "file": "filings/AGI/docs/w240c5bf4965af3c5.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 159367,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/w27ac4a4c3b443632.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 142236,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/w6e89f8cbaa55556a.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 481353,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/w6f90e3575b917897.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 190293,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/w7b65cd93c1015b24.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 177247,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/we208cf5546b979aa.html"
+        },
+        {
+          "name": "Crawled document",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "HTML",
+          "sizeBytes": 161812,
+          "edgarUrl": "",
+          "file": "filings/AGI/docs/we58cc44ed6e50e1b.html"
         },
         {
           "name": "Universal Registration Document / Results",
@@ -6449,7 +6449,7 @@
           "group": "Annual",
           "date": "2025-12-31",
           "fmt": "HTML",
-          "sizeBytes": 48030,
+          "sizeBytes": 48038,
           "edgarUrl": "https://www.advratings.com/company/vanguard-group",
           "file": "filings/Vanguard/docs/wa6bf68ab9f53358f.html"
         }
