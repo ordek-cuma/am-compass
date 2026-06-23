@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T16:45:13+00:00",
+  "generated_at": "2026-06-23T12:01:01+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -10943,6 +10943,36 @@
       "period_end": "2025-12-31",
       "documents": [
         {
+          "name": "Quarterly Engagement Report (October 1, 2025\u2013December 31, 2025)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 216347,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/quarterly_engagement_report_for_vanguard_advised_funds_q4_2025.pdf",
+          "file": "filings/Vanguard/docs/w4a435eae1239de4e.pdf"
+        },
+        {
+          "name": "Vanguard Investment Stewardship 2025 Annual Report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 271193,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/2025_investment_stewardship_annual_report.pdf",
+          "file": "filings/Vanguard/docs/w794ee46b0d005a9f.pdf"
+        },
+        {
+          "name": "Executive pay at Tesla, Inc.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 93910,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/executive_pay_at_tesla_inc.pdf",
+          "file": "filings/Vanguard/docs/wf377a3d993f5d832.pdf"
+        },
+        {
           "name": "Quarterly Engagement Report (July 1, 2025\u2013September 30, 2025)",
           "form": "IR",
           "group": "Reports",
@@ -10961,6 +10991,26 @@
           "sizeBytes": 135481,
           "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/2025-proxy-year-voting-report.pdf",
           "file": "filings/Vanguard/docs/wc1c50731c7a780b6.pdf"
+        },
+        {
+          "name": "Contested director elections at Tejon Ranch Co.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 69813,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/contested_director_elections_at_tejon_ranch_co.pdf",
+          "file": "filings/Vanguard/docs/w7f830337433fb132.pdf"
+        },
+        {
+          "name": "Shareholder proposal regarding company bylaws at ServiceNow, Inc.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 68796,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/shareholder_proposal_regarding_company_bylaws_at_servicenow_inc.pdf",
+          "file": "filings/Vanguard/docs/w3e5c34d8e0f48374.pdf"
         },
         {
           "name": "2025 Japan Regional Brief",
@@ -10993,6 +11043,36 @@
           "file": "filings/Vanguard/docs/w4b4234d03cf869b5.pdf"
         },
         {
+          "name": "Shareholder proposal regarding supermajority voting requirements at Albemarle Corporation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 67195,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/shareholder_proposal_regarding_supermajority_voting_requirements_at_albemarle_corporation.pdf",
+          "file": "filings/Vanguard/docs/w11577445bf4053a9.pdf"
+        },
+        {
+          "name": "Shareholder proposal to disclose workforce demographics at Planet Fitness, Inc.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 67837,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/shareholder_proposal_to_disclose_workforce_demographics_at_planet_fitness_inc.pdf",
+          "file": "filings/Vanguard/docs/w4d8cb816a9f98792.pdf"
+        },
+        {
+          "name": "Say on Climate proposal at Aviva plc",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 69615,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/say_on_climate_proposal_at_aviva_plc.pdf",
+          "file": "filings/Vanguard/docs/wd817dc3cb74134b5.pdf"
+        },
+        {
           "name": "2025 U.S. Regional Brief",
           "form": "IR",
           "group": "Reports",
@@ -11023,6 +11103,56 @@
           "file": "filings/Vanguard/docs/wf1ec2f0833422d85.pdf"
         },
         {
+          "name": "Updated executive pay plans at Barclays PLC",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 70146,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/updated_executive_pay_plans_at_barclays_plc.pdf",
+          "file": "filings/Vanguard/docs/w18828c91ae36cc0e.pdf"
+        },
+        {
+          "name": "Corporate restructuring at JBS S.A.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 71013,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/corporate_restructuring_at_jbs_sa.pdf",
+          "file": "filings/Vanguard/docs/wd4920763ff1374e8.pdf"
+        },
+        {
+          "name": "Shareholder proposal on severance agreements at Vertex Pharmaceuticals Incorporated",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 77196,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/shareholder_proposal_on_severance_agreements_at_vertex_pharmaceuticals_incorporated.pdf",
+          "file": "filings/Vanguard/docs/w47b7fdd2acdc7220.pdf"
+        },
+        {
+          "name": "Executive compensation and one-time grants at The Hackett Group, Inc.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 86934,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/executive_compensation_and_one_time_grants_at_the_hackett_group_inc.pdf",
+          "file": "filings/Vanguard/docs/wd03be9f2c787bef8.pdf"
+        },
+        {
+          "name": "Board skills evolution and independent board leadership at SK hynix Inc.",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 66818,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/board_skills_evolution_and_independent_board_leadership_at_sk_hynix_inc.pdf",
+          "file": "filings/Vanguard/docs/w9cecf19a6292a2c2.pdf"
+        },
+        {
           "name": "2024 Australia Regional Brief",
           "form": "IR",
           "group": "Reports",
@@ -11031,6 +11161,26 @@
           "sizeBytes": 608289,
           "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/aus_2024_regional_brief.pdf",
           "file": "filings/Vanguard/docs/w03ef5330fff13c1c.pdf"
+        },
+        {
+          "name": "Executive remuneration at EssilorLuxottica SA",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 69048,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/executive_remuneration_at_essilorluxottica_sa.pdf",
+          "file": "filings/Vanguard/docs/w79002c1332a6eb3d.pdf"
+        },
+        {
+          "name": "Contested director elections at Kao Corporation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 72431,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/contested_director_elections_at_kao_corporation.pdf",
+          "file": "filings/Vanguard/docs/w2843b0c34dae62d7.pdf"
         },
         {
           "name": "Quarterly Key Votes Report (January 1, 2025\u2013March 31, 2025)",
@@ -11053,14 +11203,64 @@
           "file": "filings/Vanguard/docs/w6dbe2c7b713c5cb3.pdf"
         },
         {
-          "name": "Annual Results & AuM Disclosure",
+          "name": "Quarterly Key Votes Report (October 1, 2024\u2013December 31, 2024)",
           "form": "IR",
-          "group": "Annual",
+          "group": "Reports",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 48034,
-          "edgarUrl": "https://www.advratings.com/company/vanguard-group",
-          "file": "filings/Vanguard/docs/wa6bf68ab9f53358f.html"
+          "fmt": "PDF",
+          "sizeBytes": 76613,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/q4_2024_quarterly_key_votes_report_vanguard_advised_funds.pdf",
+          "file": "filings/Vanguard/docs/w89a5eb18bd21427e.pdf"
+        },
+        {
+          "name": "Quarterly Engagement Report (October 1, 2024\u2013December 31, 2024)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 206438,
+          "edgarUrl": "https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/policies-and-reports/quarterly_engagement_report_vanguard_advised_funds_q4_2024.pdf",
+          "file": "filings/Vanguard/docs/w0b2d2615a2ab1799.pdf"
+        },
+        {
+          "name": "Audited",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 203739,
+          "edgarUrl": "https://personal.vanguard.com/pdf/sofcdec.pdf",
+          "file": "filings/Vanguard/docs/wff0f954f5b290960.pdf"
+        },
+        {
+          "name": "Unaudited",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 68267,
+          "edgarUrl": "https://personal.vanguard.com/pdf/vmc_sofc.pdf",
+          "file": "filings/Vanguard/docs/w50cb29060c54bb48.pdf"
+        },
+        {
+          "name": "Broker-Dealer Form Client Relationship Summary (Form CRS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 137601,
+          "edgarUrl": "https://www.vanguard.com/pdf/vmccrs.pdf",
+          "file": "filings/Vanguard/docs/wb7f7758b0757eb8e.pdf"
+        },
+        {
+          "name": "Investment Advisor Form Client Relationship Summary (Form CRS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 88139,
+          "edgarUrl": "https://www.vanguard.com/pdf/vaicrs.pdf",
+          "file": "filings/Vanguard/docs/wdb5cb257795382d5.pdf"
         }
       ],
       "metrics": {

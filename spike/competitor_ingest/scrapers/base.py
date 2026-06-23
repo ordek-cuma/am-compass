@@ -20,6 +20,7 @@ class PageSpec:
     settle: int = 4000                 # ms to wait after load / each dropdown change
     iterate_select: str | None = None  # CSS for a <select> whose options to iterate (e.g. a year filter)
     iterate_limit: int | None = None   # cap on how many options to iterate (e.g. 5 = last 5 years)
+    load_more: str | None = None       # CSS for a "load more" button to click until exhausted
     extract: str | None = None         # custom JS `() => [{url,label}]` for rich per-row labels
     exclude: str | None = None         # regex; drop docs whose label matches (e.g. ownership forms)
 

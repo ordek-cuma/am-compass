@@ -50,6 +50,7 @@ def main() -> None:
             scroll = int(sp.get("scroll", 8))
             iterate = sp.get("iterate_select")
             iterate_limit = sp.get("iterate_limit")
+            load_more = sp.get("load_more")
             extract = sp.get("extract")
             exclude = re.compile(sp["exclude"]) if sp.get("exclude") else None
             try:
@@ -65,6 +66,31 @@ def main() -> None:
                     break
                 except Exception:
                     pass
+
+            def expand() -> None:  # click a "load more" button until it's gone / stops growing
+                count_sel = selector if not extract else "a[href]"
+                stable = last = -1
+                for _ in range(80):
+                    try:
+                        btn = page.query_selector(load_more)
+                    except Exception:
+                        btn = None
+                    if not btn or not btn.is_visible():
+                        break
+                    try:
+                        btn.scroll_into_view_if_needed()
+                        btn.click(timeout=4000)
+                    except Exception:
+                        break
+                    page.wait_for_timeout(settle)
+                    n = len(page.eval_on_selector_all(count_sel, "els => els.map(e => e.href)"))
+                    if n <= last:
+                        stable += 1
+                        if stable >= 1:
+                            break
+                    else:
+                        stable = 0
+                    last = n
 
             def harvest() -> list[dict]:
                 if extract:
@@ -113,6 +139,8 @@ def main() -> None:
                             continue
                     collect(harvest())
             else:
+                if load_more:
+                    expand()
                 collect(harvest())
         browser.close()
     print(json.dumps(out))
