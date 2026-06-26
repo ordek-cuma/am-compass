@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:48:21+00:00",
+  "generated_at": "2026-06-26T12:03:15+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -7064,47 +7064,7 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Download full Annual Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 4928865,
-          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf",
-          "file": "filings/JPM/docs/wde387d792eff3147.pdf"
-        },
-        {
-          "name": "Download full Proxy Statement",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 9150853,
-          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2026.pdf",
-          "file": "filings/JPM/docs/w4c0f990f7aee5a62.pdf"
-        },
-        {
-          "name": "View Document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 540178,
-          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2025.pdf",
-          "file": "filings/JPM/docs/wa01fe39f35b79925.pdf"
-        },
-        {
-          "name": "View Document",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 1789160,
-          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2025.pdf",
-          "file": "filings/JPM/docs/w6afc442293a606bb.pdf"
-        },
-        {
-          "name": "View Document",
+          "name": "Financial Highlights 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
@@ -7114,7 +7074,7 @@
           "file": "filings/JPM/docs/w1e353ea09de99d50.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Managements Discussion Analysis 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
@@ -7124,7 +7084,7 @@
           "file": "filings/JPM/docs/wf6f987d8a711f0ee.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Audited Financial Statements 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
@@ -7134,7 +7094,7 @@
           "file": "filings/JPM/docs/w780819bb07b31197.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Corporate Data And Shareholder Information 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
@@ -7144,9 +7104,229 @@
           "file": "filings/JPM/docs/w9e296c38f8fedb5e.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Financial Highlights 2024",
           "form": "IR",
           "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 36756,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/financial-highlights-2024.pdf",
+          "file": "filings/JPM/docs/wba4eea34dec32245.pdf"
+        },
+        {
+          "name": "Managements Discussion Analysis 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6107315,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/managements-discussion-analysis-2024.pdf",
+          "file": "filings/JPM/docs/w2324600caa1a5848.pdf"
+        },
+        {
+          "name": "Audited Financial Statements 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1324794,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/audited-financial-statements-2024.pdf",
+          "file": "filings/JPM/docs/w5481f6b386cabf81.pdf"
+        },
+        {
+          "name": "Corporate Data And Shareholder Information 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 88508,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/corporate-data-and-shareholder-information-2024.pdf",
+          "file": "filings/JPM/docs/w37d894152f64299f.pdf"
+        },
+        {
+          "name": "Response Glass Lewis Report 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 204325,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/response-glass-lewis-report-2025.pdf",
+          "file": "filings/JPM/docs/w4ce496145e1f5dc5.pdf"
+        },
+        {
+          "name": "Response Iss Report 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 179393,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/response-iss-report-2025.pdf",
+          "file": "filings/JPM/docs/w1270e86c8522a888.pdf"
+        },
+        {
+          "name": "Financial Highlights 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 112959,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/financial-highlights-2023.pdf",
+          "file": "filings/JPM/docs/w55ca14cc0a092c3d.pdf"
+        },
+        {
+          "name": "Managements Discussion Analysis 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2331675,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/managements-discussion-analysis-2023.pdf",
+          "file": "filings/JPM/docs/wb9894dd4982bbbc3.pdf"
+        },
+        {
+          "name": "Audited Financial Statements 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1448574,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/audited-financial-statements-2023.pdf",
+          "file": "filings/JPM/docs/wf4bf34bf9f4b25a5.pdf"
+        },
+        {
+          "name": "Corporate Data And Shareholder Information 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 162584,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/corporate-data-and-shareholder-information-2023.pdf",
+          "file": "filings/JPM/docs/w6036fa382ed304dc.pdf"
+        },
+        {
+          "name": "Response Glass Lewis Report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 274821,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/response-glass-lewis-report-2024.pdf",
+          "file": "filings/JPM/docs/w22bf9c3b63f2a4a3.pdf"
+        },
+        {
+          "name": "Response Iss Report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 241457,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/response-iss-report-2024.pdf",
+          "file": "filings/JPM/docs/wc63871baec741a89.pdf"
+        },
+        {
+          "name": "Financial Highlights 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 41286,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/financial-highlights-2022.pdf",
+          "file": "filings/JPM/docs/w9791546dd22af08d.pdf"
+        },
+        {
+          "name": "Managements Discussion Analysis 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3747904,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/managements-discussion-analysis-2022.pdf",
+          "file": "filings/JPM/docs/wcc86ab14491105e8.pdf"
+        },
+        {
+          "name": "Audited Financial Statements 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1411007,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/audited-financial-statements-2022.pdf",
+          "file": "filings/JPM/docs/wffa9859e0dec75f7.pdf"
+        },
+        {
+          "name": "Corporate Data And Shareholder Information 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 120453,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/corporate-data-and-shareholder-information-2022.pdf",
+          "file": "filings/JPM/docs/w9b30ee15374a682d.pdf"
+        },
+        {
+          "name": "Gl Response%20 May 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 277302,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/gl-response%20-may-2023.pdf",
+          "file": "filings/JPM/docs/w545fe64f1048ecc1.pdf"
+        },
+        {
+          "name": "Financial Highlights 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 39801,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/financial-highlights-2021.pdf",
+          "file": "filings/JPM/docs/w165ded05ae6fc4a7.pdf"
+        },
+        {
+          "name": "Managements Discussion Analysis 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2539231,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/managements-discussion-analysis-2021.pdf",
+          "file": "filings/JPM/docs/w667655cba902ea47.pdf"
+        },
+        {
+          "name": "Audited Financial Statements 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1407752,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/audited-financial-statements-2021.pdf",
+          "file": "filings/JPM/docs/w16b7a557f581ce41.pdf"
+        },
+        {
+          "name": "Corporate Data And Shareholder Information 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 125138,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/corporate-data-and-shareholder-information-2021.pdf",
+          "file": "filings/JPM/docs/wb687cc8f4d588437.pdf"
+        },
+        {
+          "name": "Proxy Statement 2026",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9150853,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2026.pdf",
+          "file": "filings/JPM/docs/w4c0f990f7aee5a62.pdf"
+        },
+        {
+          "name": "2026 Proxy Supplement",
+          "form": "IR",
+          "group": "Proxy",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 430279,
@@ -7154,9 +7334,139 @@
           "file": "filings/JPM/docs/wc22bc30850b0b4e1.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Proxy Statement 2025",
           "form": "IR",
-          "group": "Reports",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6705718,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2025.pdf",
+          "file": "filings/JPM/docs/w9ebe5cea530544bc.pdf"
+        },
+        {
+          "name": "2025 Proxy Supplement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 561973,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2025-proxy-supplement.pdf",
+          "file": "filings/JPM/docs/wbda105dbcfe879d0.pdf"
+        },
+        {
+          "name": "Proxy Statement 2024",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 14953631,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2024.pdf",
+          "file": "filings/JPM/docs/w600ee7820928b4a5.pdf"
+        },
+        {
+          "name": "2024proxy Supplement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 533802,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2024proxy-supplement.pdf",
+          "file": "filings/JPM/docs/w9db240fa31075aac.pdf"
+        },
+        {
+          "name": "Proxy Statement 2023",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 30115944,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2023.pdf",
+          "file": "filings/JPM/docs/wba248c4125be9f7f.pdf"
+        },
+        {
+          "name": "2023 Proxy Supplemental Presentation",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 486746,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2023-proxy-supplemental-presentation.pdf",
+          "file": "filings/JPM/docs/wb9d9e93cd6ee3962.pdf"
+        },
+        {
+          "name": "Proxy Statement 2022",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17968909,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2022.pdf",
+          "file": "filings/JPM/docs/wfcba566e6e88555e.pdf"
+        },
+        {
+          "name": "2022 Proxy Supplemental Materials",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2691739,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2022-proxy-supplemental-materials.pdf",
+          "file": "filings/JPM/docs/w580819ae5e555883.pdf"
+        },
+        {
+          "name": "Proxy Supplemental Presentation 2022",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1085960,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-supplemental-presentation-2022.pdf",
+          "file": "filings/JPM/docs/wc69fac2246eabffd.pdf"
+        },
+        {
+          "name": "Proxy Statement 2021",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7463468,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2021.pdf",
+          "file": "filings/JPM/docs/w0a09ff3d698c189c.pdf"
+        },
+        {
+          "name": "2021 Proxy Supplemental Materials",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1744536,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2021-proxy-supplemental-materials.pdf",
+          "file": "filings/JPM/docs/wdce38afafa52e7fb.pdf"
+        },
+        {
+          "name": "CEO Letter To Shareholders 2025",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 540178,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2025.pdf",
+          "file": "filings/JPM/docs/wa01fe39f35b79925.pdf"
+        },
+        {
+          "name": "Line Of Business CEO Letters To Shareholders 2025",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1789160,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2025.pdf",
+          "file": "filings/JPM/docs/w6afc442293a606bb.pdf"
+        },
+        {
+          "name": "Gl Response Letter 2026",
+          "form": "IR",
+          "group": "Letters",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 207896,
@@ -7164,9 +7474,9 @@
           "file": "filings/JPM/docs/w4fd769532a8b1d15.pdf"
         },
         {
-          "name": "View Document",
+          "name": "Iss Response Letter 2026",
           "form": "IR",
-          "group": "Reports",
+          "group": "Letters",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 183865,
@@ -7174,264 +7484,144 @@
           "file": "filings/JPM/docs/wab1b3ba248b8abeb.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 9164610,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm",
-          "file": "filings/JPM/docs/10_Q/000162828026029344__jpm-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-04",
-          "fmt": "HTM",
-          "sizeBytes": 11495265,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
-          "file": "filings/JPM/docs/10_Q/000162828025048859__jpm-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-05",
-          "fmt": "HTM",
-          "sizeBytes": 11426735,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630.htm",
-          "file": "filings/JPM/docs/10_Q/000001961725000615__jpm-20250630.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-05-12",
-          "fmt": "HTM",
-          "sizeBytes": 29160,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026034151/proxysupplementalmaterials.htm",
-          "file": "filings/JPM/docs/DEFA14A/000162828026034151__proxysupplementalmaterials.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-05-07",
-          "fmt": "HTM",
-          "sizeBytes": 29675,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026032233/proxysupplementalmaterials.htm",
-          "file": "filings/JPM/docs/DEFA14A/000162828026032233__proxysupplementalmaterials.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 34999,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026030631/proxysupplementalmaterials.htm",
-          "file": "filings/JPM/docs/DEFA14A/000162828026030631__proxysupplementalmaterials.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 17828,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026025079/proxysupplementalmaterials.htm",
-          "file": "filings/JPM/docs/DEFA14A/000162828026025079__proxysupplementalmaterials.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-06",
-          "fmt": "HTM",
-          "sizeBytes": 2932247,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
-          "file": "filings/JPM/docs/DEF_14A/000001961726000096__jpm-20260402.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-02",
-          "fmt": "HTM",
-          "sizeBytes": 45789,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526253533/d113536d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526253533__d113536d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-27",
-          "fmt": "HTM",
-          "sizeBytes": 45059,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526242018/d51433d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526242018__d51433d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-21",
-          "fmt": "HTM",
-          "sizeBytes": 78360,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000228/jpm-20260519.htm",
-          "file": "filings/JPM/docs/8_K/000001961726000228__jpm-20260519.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-07",
-          "fmt": "HTM",
-          "sizeBytes": 52939,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526211978/d903351d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526211978__d903351d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-24",
-          "fmt": "HTM",
-          "sizeBytes": 42654,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000119/jpm-20260421.htm",
-          "file": "filings/JPM/docs/8_K/000001961726000119__jpm-20260421.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-23",
-          "fmt": "HTM",
-          "sizeBytes": 45846,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526173739/d235028d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526173739__d235028d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 45053,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026025013/jpm-20260414.htm",
-          "file": "filings/JPM/docs/8_K/000162828026025013__jpm-20260414.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 45921,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/jpm-20260414.htm",
-          "file": "filings/JPM/docs/8_K/000162828026024990__jpm-20260414.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 49409,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026010693/jpm-20260223.htm",
-          "file": "filings/JPM/docs/8_K/000162828026010693__jpm-20260223.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-05",
-          "fmt": "HTM",
-          "sizeBytes": 44617,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526039427/d23804d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526039427__d23804d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-22",
-          "fmt": "HTM",
-          "sizeBytes": 52043,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000052/jpm-20260120.htm",
-          "file": "filings/JPM/docs/8_K/000001961726000052__jpm-20260120.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-22",
-          "fmt": "HTM",
-          "sizeBytes": 44688,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526019450/d18152d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312526019450__d18152d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-13",
-          "fmt": "HTM",
-          "sizeBytes": 44988,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001915/jpm-20260113.htm",
-          "file": "filings/JPM/docs/8_K/000162828026001915__jpm-20260113.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-13",
-          "fmt": "HTM",
-          "sizeBytes": 46282,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/jpm-20260113.htm",
-          "file": "filings/JPM/docs/8_K/000162828026001902__jpm-20260113.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-08",
-          "fmt": "HTM",
-          "sizeBytes": 41068,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961725001100/jpm-20251207.htm",
-          "file": "filings/JPM/docs/8_K/000001961725001100__jpm-20251207.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-22",
-          "fmt": "HTM",
-          "sizeBytes": 44682,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312525246803/d33741d8k.htm",
-          "file": "filings/JPM/docs/8_K/000119312525246803__d33741d8k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-04-06",
+          "name": "CEO Letter To Shareholders 2024",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 18022059,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026023927/annualreport-2025.pdf",
-          "file": "filings/JPM/docs/ARS/000162828026023927__annualreport-2025.pdf"
+          "sizeBytes": 900121,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2024.pdf",
+          "file": "filings/JPM/docs/we611f67a30ad1ee7.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Line Of Business CEO Letters To Shareholders 2024",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2408796,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2024.pdf",
+          "file": "filings/JPM/docs/w4cb797a4a20c4cb3.pdf"
+        },
+        {
+          "name": "CEO Letter To Shareholders 2023",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2598421,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2023.pdf",
+          "file": "filings/JPM/docs/wc5187c54679dafd4.pdf"
+        },
+        {
+          "name": "Line Of Business CEO Letters To Shareholders 2023",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1001398,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2023.pdf",
+          "file": "filings/JPM/docs/wbc33dc479e7bb570.pdf"
+        },
+        {
+          "name": "CEO Letter To Shareholders 2022",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1141851,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2022.pdf",
+          "file": "filings/JPM/docs/w84edd635f6609116.pdf"
+        },
+        {
+          "name": "Line Of Business CEO Letters To Shareholders 2022",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10503040,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2022.pdf",
+          "file": "filings/JPM/docs/w720c3dc999fa864f.pdf"
+        },
+        {
+          "name": "Iss Letter May 2023",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 256643,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/iss-letter-may-2023.pdf",
+          "file": "filings/JPM/docs/w9fe984eedf0f1a2c.pdf"
+        },
+        {
+          "name": "CEO Letter To Shareholders 2021",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1821507,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/ceo-letter-to-shareholders-2021.pdf",
+          "file": "filings/JPM/docs/w96e55b7641a3d430.pdf"
+        },
+        {
+          "name": "Line Of Business CEO Letters To Shareholders 2021",
+          "form": "IR",
+          "group": "Letters",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3190422,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/line-of-business-ceo-letters-to-shareholders-2021.pdf",
+          "file": "filings/JPM/docs/w2b262160e0b2f0d7.pdf"
+        },
+        {
+          "name": "Annual Report 2025",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-13",
-          "fmt": "HTM",
-          "sizeBytes": 12927325,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
-          "file": "filings/JPM/docs/10_K/000162828026008131__jpm-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4928865,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf",
+          "file": "filings/JPM/docs/wde387d792eff3147.pdf"
+        },
+        {
+          "name": "Annual Report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17104906,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2024.pdf",
+          "file": "filings/JPM/docs/wf17fd714e9db6d0f.pdf"
+        },
+        {
+          "name": "Annual Report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6814192,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2023.pdf",
+          "file": "filings/JPM/docs/w3d5e57e4b4304588.pdf"
+        },
+        {
+          "name": "Annual Report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 16797166,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2022.pdf",
+          "file": "filings/JPM/docs/w05d928230b15f1a3.pdf"
+        },
+        {
+          "name": "Annual Report 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8488946,
+          "edgarUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2021.pdf",
+          "file": "filings/JPM/docs/w9bd736e0dc6b0218.pdf"
         }
       ],
       "metrics": {
