@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:03:15+00:00",
+  "generated_at": "2026-06-26T12:21:20+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -8052,9 +8052,2179 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "2026 Proxy Statement of 2025 Annual Report",
+          "name": "P3 Capital March 31 2026",
           "form": "IR",
-          "group": "Reports",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 420435,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2026/05/P3-Capital-March-31-2026_vF.pdf",
+          "file": "filings/SSgA/docs/w9ee0ebbb57ab3bdc.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2025",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 433188,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/12/P3-Capital-December-31-2025-FINAL.pdf",
+          "file": "filings/SSgA/docs/w284833a660c2063a.pdf"
+        },
+        {
+          "name": "P3 Capital September 30 2025",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 428334,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/11/P3-Capital-September-30-2025_vF.pdf",
+          "file": "filings/SSgA/docs/wad384b4e86d45400.pdf"
+        },
+        {
+          "name": "P3 Capital June 30 2025",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 457257,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/08/P3-Capital-June-30-2025_vF.pdf",
+          "file": "filings/SSgA/docs/w6ce5f2039d0e7cc3.pdf"
+        },
+        {
+          "name": "P3 Capital March 31 2025",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 346826,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-March-31-2025.pdf",
+          "file": "filings/SSgA/docs/w6d9914e41d16f8df.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2024 2 14 25",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 491058,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/02/P3-Capital-December-31-2024_vFinal_2-14-25.pdf",
+          "file": "filings/SSgA/docs/w6b05083cfbd1bf20.pdf"
+        },
+        {
+          "name": "P3 Capital September 30 2024",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 249849,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/11/P3-Capital-September-30-2024-Final.pdf",
+          "file": "filings/SSgA/docs/w747fcc47f1890951.pdf"
+        },
+        {
+          "name": "P3 Capital June 30 2024",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 273514,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/08/P3-Capital-June-30-2024-FINAL.pdf",
+          "file": "filings/SSgA/docs/w9c01edd576bb2ded.pdf"
+        },
+        {
+          "name": "P3 Capital March 31 2024",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 430219,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/05/p3-capital-march-31-2024.pdf",
+          "file": "filings/SSgA/docs/w0843b358dd38c619.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 509388,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/12/p3-capital-december-31-2023_vf.pdf",
+          "file": "filings/SSgA/docs/w62abc7f478f2c91a.pdf"
+        },
+        {
+          "name": "P3 Capital September 30 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 317048,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/11/p3-capital-september-30-2023.pdf",
+          "file": "filings/SSgA/docs/w35e95b5e94b0cabf.pdf"
+        },
+        {
+          "name": "P3 Capital June 30 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 502210,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/08/P3-Capital-June-30-2023_vF.pdf",
+          "file": "filings/SSgA/docs/wbeb6e86ec6f91a64.pdf"
+        },
+        {
+          "name": "P3 Capital March 31 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 453518,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/05/P3-Capital-March-31-2023-Final.pdf",
+          "file": "filings/SSgA/docs/w3def0c9b9fd5c73d.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2022",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 433484,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/02/P3-Capital-December-31-2022.pdf",
+          "file": "filings/SSgA/docs/wc3b883cccc0fa732.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Basel III Regulatory Capital (September 30 2022)",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 338348,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplemental-Public-Disclosure_Basel-III-Regulatory-Capital-(September-30-2022).pdf",
+          "file": "filings/SSgA/docs/w17adab3d6c5cf0cd.pdf"
+        },
+        {
+          "name": "P3 Capital June 30 2022",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 312211,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/P3-Capital-June-30-2022.pdf",
+          "file": "filings/SSgA/docs/w8a90480e3cea64bf.pdf"
+        },
+        {
+          "name": "P3 Capital March 31 2022",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 437729,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-March-31-2022.pdf",
+          "file": "filings/SSgA/docs/wef69a1ce75774ebf.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2021",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 446334,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-December-31-2021.pdf",
+          "file": "filings/SSgA/docs/wa9c9b97fb0bc9ab0.pdf"
+        },
+        {
+          "name": "P3 Capital September 30 2021",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 419486,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-September-30-2021.pdf",
+          "file": "filings/SSgA/docs/we4fe2572ae75f64b.pdf"
+        },
+        {
+          "name": "P3 Capital June 30 2021",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 419699,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-June-30-2021.pdf",
+          "file": "filings/SSgA/docs/w0e3308f02ce67e8b.pdf"
+        },
+        {
+          "name": "P3 Capital March 31 2021",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 421427,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-March-31-2021.pdf",
+          "file": "filings/SSgA/docs/w1b9c17444c82ce77.pdf"
+        },
+        {
+          "name": "P3 Capital December 31 2020",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 422223,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/P3-Capital-December-31-2020.pdf",
+          "file": "filings/SSgA/docs/w6696fc773462bede.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2020 09 11",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 438721,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2020-09-11.pdf",
+          "file": "filings/SSgA/docs/we8035926ef0f222f.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2020 08 10",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1412448,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2020-08-10.pdf",
+          "file": "filings/SSgA/docs/wc03dedac0ae0aa50.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2020 05 11",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1316512,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2020-05-11.pdf",
+          "file": "filings/SSgA/docs/wacf71010293bdb68.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2020 02 20",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1702662,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2020-02-20.pdf",
+          "file": "filings/SSgA/docs/wa9e5a1b61a419381.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2019 11 12",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1278403,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2019-11-12.pdf",
+          "file": "filings/SSgA/docs/w97bf2ccc6997d1b6.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2019 08 09",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1239119,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2019-08-09.pdf",
+          "file": "filings/SSgA/docs/w6dc434c0a87028f9.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2019 05 10",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1246612,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2019-05-10.pdf",
+          "file": "filings/SSgA/docs/w5437e0b55db09739.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2019 02 21",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1666073,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2019-02-21.pdf",
+          "file": "filings/SSgA/docs/w708b5589c5efc0ac.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2018 11 09",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1218464,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2018-11-09.pdf",
+          "file": "filings/SSgA/docs/w6314e7453f4daf03.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2018 07 25",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 685193,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2018-07-25.pdf",
+          "file": "filings/SSgA/docs/we67726a3e0143037.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2018 05 10",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 675818,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2018-05-10.pdf",
+          "file": "filings/SSgA/docs/w55f456c51ce798e4.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2018 02 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 785346,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2018-02-15.pdf",
+          "file": "filings/SSgA/docs/w0117e620a25056a8.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2017 11 03",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 675813,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2017-11-03.pdf",
+          "file": "filings/SSgA/docs/wff1d6dcc9340464b.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2017 08 04",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 684285,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2017-08-04.pdf",
+          "file": "filings/SSgA/docs/wb0365e62be2c71c8.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2017 05 05",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 677353,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2017-05-05.pdf",
+          "file": "filings/SSgA/docs/w44bd84a7feeb6599.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2017 02 16",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1671618,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2017-02-16.pdf",
+          "file": "filings/SSgA/docs/w32a3e078d2f89743.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2016 11 04",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 684691,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2016-11-04.pdf",
+          "file": "filings/SSgA/docs/w7090650de1fd1feb.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2016 08 05",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1187377,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2016-08-05.pdf",
+          "file": "filings/SSgA/docs/w72df50992531518c.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2016 05 06",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 683740,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2016-05-06.pdf",
+          "file": "filings/SSgA/docs/wbe7d46bff89e2a31.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2016 02 19",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1704788,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2016-02-19.pdf",
+          "file": "filings/SSgA/docs/wf7fd2476e8c42174.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2015 11 06",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1643698,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2015-11-06.pdf",
+          "file": "filings/SSgA/docs/w9685ab126a749bd2.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2015 08 07",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 803550,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2015-08-07.pdf",
+          "file": "filings/SSgA/docs/w1e9eea47fbaaf296.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2015 05 08",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 800148,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2015-05-08.pdf",
+          "file": "filings/SSgA/docs/wd56382dde22f4f75.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2015 02 20",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1583121,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2015-02-20.pdf",
+          "file": "filings/SSgA/docs/w5020d75c7909ac6b.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2014 11 10",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1592277,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2014-11-10.pdf",
+          "file": "filings/SSgA/docs/w52ae4d6378b308d1.pdf"
+        },
+        {
+          "name": "Supplemental Public Disclosure Of Basel III Regulatory Capital 2014 08 29",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 780330,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Supplemental-Public-Disclosure-of-Basel-III-Regulatory-Capital_2014-08-29.pdf",
+          "file": "filings/SSgA/docs/w8508ef066094676e.pdf"
+        },
+        {
+          "name": "Market Risk Capital Rule Supplemental Public Disclosure 2014 05 09",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 604432,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Market-Risk-Capital-Rule-Supplemental-Public-Disclosure_2014-05-09.pdf",
+          "file": "filings/SSgA/docs/wf0d26f9707d72b8d.pdf"
+        },
+        {
+          "name": "Market Risk Capital Rule Supplemental Public Disclosure 2014 02 21",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 488611,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Supplement/Market-Risk-Capital-Rule-Supplemental-Public-Disclosure_2014-02-21.pdf",
+          "file": "filings/SSgA/docs/w37de70b5859de6e2.pdf"
+        },
+        {
+          "name": "1Q26 STT LCR Disclosure V F",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 319487,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2026/1Q26-STT-LCR-Disclosure-v-F.pdf",
+          "file": "filings/SSgA/docs/w04e05b3529d96511.pdf"
+        },
+        {
+          "name": "4Q25 STT LCR Disclosure V F",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 289845,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2026/4Q25-STT-LCR-Disclosure-v-F.pdf",
+          "file": "filings/SSgA/docs/w47531339692ebaaf.pdf"
+        },
+        {
+          "name": "3Q25 4Q25 STT NSFR Disclosure V F",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 345998,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2026/3Q25-4Q25-STT-NSFR-Disclosure-v-F.pdf",
+          "file": "filings/SSgA/docs/w3f837f9d4e393c63.pdf"
+        },
+        {
+          "name": "3Q25 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 224240,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2025/3Q25-LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w70769daccc68693c.pdf"
+        },
+        {
+          "name": "2Q25 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 172573,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2025/2Q25-LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w274ddcd8f3a91cff.pdf"
+        },
+        {
+          "name": "1Q25 And 2Q25 NSFR Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 180079,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2025/1Q25-and-2Q25_NSFR-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wf5a28f54cb8b437f.pdf"
+        },
+        {
+          "name": "1Q25 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 172012,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/05/14/1Q25_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w48a897ab52f82268.pdf"
+        },
+        {
+          "name": "3Q24 And 4Q24 NSFR Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 182140,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/02/3Q24-and-4Q24_NSFR-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w200ea8dfdab7a0b0.pdf"
+        },
+        {
+          "name": "4Q24 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 200509,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/02/4Q24_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wb4219780505ade61.pdf"
+        },
+        {
+          "name": "3Q24 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 200184,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/3Q24_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wb146ce8377351609.pdf"
+        },
+        {
+          "name": "1q24 And 2q24 Nsfr Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 187828,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/08/1q24-and-2q24_nsfr-disclosure.pdf",
+          "file": "filings/SSgA/docs/wf6770ea45555c3dd.pdf"
+        },
+        {
+          "name": "2q24 Lcr Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 210878,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/08/2q24_lcr-public-disclosure.pdf",
+          "file": "filings/SSgA/docs/wae0ffbd5ed9c7d38.pdf"
+        },
+        {
+          "name": "1q24 Lcr Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 213699,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/05/1q24_lcr-public-disclosure.pdf",
+          "file": "filings/SSgA/docs/wc2e7c32ae8967c63.pdf"
+        },
+        {
+          "name": "3q23 And 4q23 Nsfr Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 193300,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/02/28/3q23-and-4q23_nsfr-disclosure.pdf",
+          "file": "filings/SSgA/docs/w296b5158ab33ae0e.pdf"
+        },
+        {
+          "name": "4q Lcr Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 212609,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2024/02/28/4q_lcr-public-disclosure.pdf",
+          "file": "filings/SSgA/docs/we0efd6e2b33d31ec.pdf"
+        },
+        {
+          "name": "3q23 Lcr Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 210309,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/3q23_lcr-public-disclosure.pdf",
+          "file": "filings/SSgA/docs/wd9aa68a6dd7361de.pdf"
+        },
+        {
+          "name": "2Q23 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 216546,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2Q23_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w8691ed13b37435ad.pdf"
+        },
+        {
+          "name": "1Q23 And 2Q23 NSFR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 195716,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/08/1Q23-and-2Q23_NSFR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w327af7678bab68f1.pdf"
+        },
+        {
+          "name": "1Q23 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 213831,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/1Q23_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w2fd119f44f7bdedd.pdf"
+        },
+        {
+          "name": "4Q22 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 890235,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/4Q22_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w8f2d772631670948.pdf"
+        },
+        {
+          "name": "3Q22 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 229706,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/3Q22_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wc27a6555239fc579.pdf"
+        },
+        {
+          "name": "2Q22 LCR Public Disclosure (1)",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 227812,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2Q22_LCR-Public-Disclosure-(1).pdf",
+          "file": "filings/SSgA/docs/wfb45c796a17eb4f6.pdf"
+        },
+        {
+          "name": "1Q22 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 224081,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/1Q22_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wff995d053858b8fb.pdf"
+        },
+        {
+          "name": "4Q21 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 205703,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/4Q21_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w979c9685a891b8b3.pdf"
+        },
+        {
+          "name": "3Q21 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 165541,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/3Q21_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w880c1d3c4dc77d49.pdf"
+        },
+        {
+          "name": "2Q21 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 297279,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/2Q21_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w7b628531365935b7.pdf"
+        },
+        {
+          "name": "1Q21 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 126498,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/1Q21_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wbd0efbe32f802325.pdf"
+        },
+        {
+          "name": "4Q20 LCR Public Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 142146,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/4Q20_LCR-Public-Disclosure.pdf",
+          "file": "filings/SSgA/docs/wba81c3637d25855a.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2020 11 11",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 173447,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2020-11-11.pdf",
+          "file": "filings/SSgA/docs/wc83f6923322c3a57.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2020 08 14",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 169554,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2020-08-14.pdf",
+          "file": "filings/SSgA/docs/w8dd9681ceb68b2c3.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2020 05 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 165915,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2020-05-15.pdf",
+          "file": "filings/SSgA/docs/wa93cc3e34c7921a6.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2020 03 10",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 131132,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2020-03-10.pdf",
+          "file": "filings/SSgA/docs/wa441e09426901606.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2019 11 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 131419,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2019-11-15.pdf",
+          "file": "filings/SSgA/docs/wc0f5509880c9ec53.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2019 08 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 133534,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2019-08-15.pdf",
+          "file": "filings/SSgA/docs/wd02443dc823f5c00.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2019 05 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 290447,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2019-05-15.pdf",
+          "file": "filings/SSgA/docs/w4a0935820db394f9.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2019 02 22",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 287982,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2019-02-22.pdf",
+          "file": "filings/SSgA/docs/w76ec33d786cf8169.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2018 11 14",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 290015,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2018-11-14.pdf",
+          "file": "filings/SSgA/docs/w7e6046d658fd1860.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2018 08 13",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 287692,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2018-08-13.pdf",
+          "file": "filings/SSgA/docs/w4743d622615b42ee.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2018 05 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 288407,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2018-05-15.pdf",
+          "file": "filings/SSgA/docs/wdc0a2372ee14f78f.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2018 02 14",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 286377,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2018-02-14.pdf",
+          "file": "filings/SSgA/docs/wc2d2becab7ef8c9a.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2017 11 14",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 285047,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2017-11-14.pdf",
+          "file": "filings/SSgA/docs/w51332d438a9c213f.pdf"
+        },
+        {
+          "name": "Liquidity Coverage Ratio Public Disclosure 2017 08 29",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 282911,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Liqudity_Coverage/Liquidity-Coverage-Ratio-Public-Disclosure_2017-08-29.pdf",
+          "file": "filings/SSgA/docs/w1570fa83ddc89bb8.pdf"
+        },
+        {
+          "name": "2026 Federal Reserve Stress Test Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1949852,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2026/2026-Federal-Reserve-Stress-Test-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w64178f173db792ae.pdf"
+        },
+        {
+          "name": "2025 Federal Reserve Stress Test Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1944331,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2025/2025-Federal-Reserve-Stress-Test-Disclosure-vfinal.pdf",
+          "file": "filings/SSgA/docs/w5e0388199bed3157.pdf"
+        },
+        {
+          "name": "2024 Federal Reserve Stress Test Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3359765,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2024/2024-Federal-Reserve-Stress-Test-Disclosure-vF.pdf",
+          "file": "filings/SSgA/docs/wd4d04bd4759d694e.pdf"
+        },
+        {
+          "name": "CCAR 2023 Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 351632,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2023/CCAR-2023-Disclosure-vF.pdf",
+          "file": "filings/SSgA/docs/w3ec7e51b142145f9.pdf"
+        },
+        {
+          "name": "CCAR 2022 Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 236635,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/CCAR-2022-Disclosure-Final.pdf",
+          "file": "filings/SSgA/docs/w49cb09983ead5fd3.pdf"
+        },
+        {
+          "name": "2021 Annual Stress Test Disclosure",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 269612,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/STT-2021-Annual-Stress-Test-Disclosure.pdf",
+          "file": "filings/SSgA/docs/w0ff11d320abb03a6.pdf"
+        },
+        {
+          "name": "2020 Annual Stress Test Disclosure 2020 06 29",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 184364,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2020-Annual-Stress-Test-Disclosure_2020-06-29.pdf",
+          "file": "filings/SSgA/docs/w3ac5f9701bda6a90.pdf"
+        },
+        {
+          "name": "2019 Mid Cycle Stress Test Disclosure 2019 11 04",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 215699,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2019-Mid-Cycle-Stress-Test-Disclosure_2019-11-04.pdf",
+          "file": "filings/SSgA/docs/wafee7b7c687e8753.pdf"
+        },
+        {
+          "name": "2019 Annual Stress Test Disclosure 2019 06 21",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 214994,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2019-Annual-Stress-Test-Disclosure_2019-06-21.pdf",
+          "file": "filings/SSgA/docs/wa2786fff5c1c9c23.pdf"
+        },
+        {
+          "name": "2018 Mid Cycle Stress Test Disclosure 2018 11 01",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 155453,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2018-Mid-Cycle-Stress-Test-Disclosure_2018-11-01.pdf",
+          "file": "filings/SSgA/docs/w2ec307e56707e128.pdf"
+        },
+        {
+          "name": "2018 Annual Stress Test Disclosure 2018 06 21",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 87355,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2018-Annual-Stress-Test-Disclosure_2018-06-21.pdf",
+          "file": "filings/SSgA/docs/w42965dbf2b5297f2.pdf"
+        },
+        {
+          "name": "2017 Mid Cycle Stress Test Disclosure 2017 10 26",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 577675,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2017-Mid-Cycle-Stress-Test-Disclosure_2017-10-26.pdf",
+          "file": "filings/SSgA/docs/w280b7674103cc1d2.pdf"
+        },
+        {
+          "name": "2017 Annual Stress Test Disclosure 2017 06 22",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 360035,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2017-Annual-Stress-Test-Disclosure_2017-06-22.pdf",
+          "file": "filings/SSgA/docs/w94f8197206fc4a71.pdf"
+        },
+        {
+          "name": "2016 Mid Cycle Stress Test Disclosure 2016 10 21",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 564896,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2016-Mid-Cycle-Stress-Test-Disclosure_2016-10-21.pdf",
+          "file": "filings/SSgA/docs/wa2145c5130f09e8e.pdf"
+        },
+        {
+          "name": "2016 Annual Stress Test Disclosure 2016 06 23",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 300267,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2016-Annual-Stress-Test-Disclosure_2016-06-23.pdf",
+          "file": "filings/SSgA/docs/w56d15ce596036f8f.pdf"
+        },
+        {
+          "name": "2015 Mid Cycle Stress Test Disclosure 2015 07 27",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 396505,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2015-Mid-Cycle-Stress-Test-Disclosure_2015-07-27.pdf",
+          "file": "filings/SSgA/docs/w007f438be5b3ec65.pdf"
+        },
+        {
+          "name": "2015 Annual Stress Test Disclosure 2015 03 06",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 378937,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2015-Annual-Stress-Test-Disclosure_2015-03-06.pdf",
+          "file": "filings/SSgA/docs/w5471f9b96ebfee9e.pdf"
+        },
+        {
+          "name": "2014 Mid Cycle Stress Test Disclosure 2014 09 15",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 102235,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2014-Mid-Cycle-Stress-Test-Disclosure_2014-09-15.pdf",
+          "file": "filings/SSgA/docs/w1557d9706a6591e1.pdf"
+        },
+        {
+          "name": "2014 Annual Stress Test Disclosure 2014 03 26",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 80844,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2014-Annual-Stress-Test-Disclosure_2014-03-26.pdf",
+          "file": "filings/SSgA/docs/w066fc8db7d4e6973.pdf"
+        },
+        {
+          "name": "2013 Mid Cycle Stress Test Disclosure 2013 09 17",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 79204,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2013-Mid-Cycle-Stress-Test-Disclosure_2013-09-17.pdf",
+          "file": "filings/SSgA/docs/w77cfd78e720363a9.pdf"
+        },
+        {
+          "name": "2013 Annual Stress Test Disclosure 2013 03 14",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 63716,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/Dodd_Frank/2013-Annual-Stress-Test-Disclosure_2013-03-14.pdf",
+          "file": "filings/SSgA/docs/wccb530bd50d28a8e.pdf"
+        },
+        {
+          "name": "2025 165 D Resolution Plan Public Section",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1598701,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/STT-2025-165-d-Resolution-Plan-Public-Section.pdf",
+          "file": "filings/SSgA/docs/w9f0960bf1a58ad12.pdf"
+        },
+        {
+          "name": "2023 Idi Public Public Section",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 749846,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/stt-2023-idi-public-public-section.pdf",
+          "file": "filings/SSgA/docs/w7081bc26c482996c.pdf"
+        },
+        {
+          "name": "2023 STT Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2506515,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2023_STT-Resolution-Plan-FINAL.pdf",
+          "file": "filings/SSgA/docs/w72750076e46a3189.pdf"
+        },
+        {
+          "name": "2021 STT ResoPlan Public Section",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6859480,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2021_STT_ResoPlan_Public-Section.pdf",
+          "file": "filings/SSgA/docs/wf8b4b8999607a4aa.pdf"
+        },
+        {
+          "name": "2019 Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4340565,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2019-Resolution-Plan.pdf",
+          "file": "filings/SSgA/docs/wfbb1c9218462342e.pdf"
+        },
+        {
+          "name": "2018 CIDI Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3582447,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2018-CIDI-Resolution-Plan.pdf",
+          "file": "filings/SSgA/docs/wf28c308d609655c9.pdf"
+        },
+        {
+          "name": "2017 Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4691310,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2017-Resolution-Plan.pdf",
+          "file": "filings/SSgA/docs/wda18a3a74e45d45f.pdf"
+        },
+        {
+          "name": "2016 Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 396391,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2016-Resolution-Plan.pdf",
+          "file": "filings/SSgA/docs/wf70c236268972536.pdf"
+        },
+        {
+          "name": "2015 IDI Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 939891,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2015-IDI-Plan.pdf",
+          "file": "filings/SSgA/docs/wa9bf3c5af14d01c6.pdf"
+        },
+        {
+          "name": "2015 Resolution Plan",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 940121,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/ResolutionPlans/2015-Resolution-Plan.pdf",
+          "file": "filings/SSgA/docs/w5969f05b792b4045.pdf"
+        },
+        {
+          "name": "State Street Global Markets LLC 12 31 2025 Audited Statement Of Financial Condition",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1374471,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/2025/12/State-Street-Global-Markets-LLC-12-31-2025-Audited-Statement-of-Financial-Condition.pdf",
+          "file": "filings/SSgA/docs/w60374518fd16af96.pdf"
+        },
+        {
+          "name": "SSGM LLC 06 30 2025 Statement Of Financial Condition",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 667762,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/SSGM_LLC/2025/SSGM-LLC-06-30-2025-Statement-of-Financial-Condition.pdf",
+          "file": "filings/SSgA/docs/w2da407ff29d82f25.pdf"
+        },
+        {
+          "name": "SSGM LLC Audited Statement Of Financial Condition 12 31 2024",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1373445,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/SSGM_LLC/2025/03/SSGM-LLC-Audited-Statement-of-Financial-Condition-12-31-2024.pdf",
+          "file": "filings/SSgA/docs/wf1ce73db0992f2e2.pdf"
+        },
+        {
+          "name": "Ssgm Statement Of Financial Condition 06 30 2024",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 108874,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/SSGM_LLC/2024/08/ssgm-statement-of-financial-condition-06-30-2024.pdf",
+          "file": "filings/SSgA/docs/wea8b1fc296b79173.pdf"
+        },
+        {
+          "name": "Ssgm Llc Audited Statement Of Financial Condition 12 31 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1192386,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/SSGM_LLC/2024/03/ssgm-llc-audited-statement-of-financial-condition-12-31-2023.pdf",
+          "file": "filings/SSgA/docs/w2ee721e004d176fe.pdf"
+        },
+        {
+          "name": "Ssgm Llc Statement Of Financial Condition As Of June 2023",
+          "form": "IR",
+          "group": "Regulatory",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 250431,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_downloads/SSGM_LLC/ssgm-llc-statement-of-financial-condition-as-of-june-2023.pdf",
+          "file": "filings/SSgA/docs/w0dc87ffbdc9cf5a4.pdf"
+        },
+        {
+          "name": "1Q26 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 139949,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2026/q1/STT-1Q26-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/wd23d1c243001b828.pdf"
+        },
+        {
+          "name": "1Q26 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 578525,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2026/q1/STT-1Q26-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/wba221b9cc1ccf5dd.pdf"
+        },
+        {
+          "name": "2026 03 31 10 Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1041911,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2026/q1/STT-2026-03-31-10-Q.pdf",
+          "file": "filings/SSgA/docs/w982c50f7f4cb0d08.pdf"
+        },
+        {
+          "name": "1Q26 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 477004,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2026/q1/STT-1Q26-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/wfda4332df077eb53.pdf"
+        },
+        {
+          "name": "1Q26 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 167163,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2026/q1/STT-1Q26-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/wee50d808ffc09f76.xlsx"
+        },
+        {
+          "name": "4Q25 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 137160,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q4/STT-4Q25-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/w412e063ccb7a28ca.pdf"
+        },
+        {
+          "name": "4Q25 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 614450,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q4/STT-4Q25-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/w9145aee21b9c99ea.pdf"
+        },
+        {
+          "name": "2025 12 31 10 K With Exhibits",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1882210,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q4/STT-2025-12-31-10-K-final-with-exhibits.pdf",
+          "file": "filings/SSgA/docs/w73f0c7b8c3cff1e7.pdf"
+        },
+        {
+          "name": "4Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 641686,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q4/STT-4Q25-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w94091d74d167053c.pdf"
+        },
+        {
+          "name": "4Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 207942,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q4/STT-4Q25-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/we4143d5a5daf6d9e.xlsx"
+        },
+        {
+          "name": "3Q25 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 133147,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-3Q25-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/wcaf5db8a15f19387.pdf"
+        },
+        {
+          "name": "3Q25 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 516466,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-3Q25-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/w19ff8c0895129510.pdf"
+        },
+        {
+          "name": "2025 09 30 10 Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2075948,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-2025-09-30-10-Q.pdf",
+          "file": "filings/SSgA/docs/wd15dad0365b35a73.pdf"
+        },
+        {
+          "name": "3Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 616442,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-3Q25-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/w08e6ecb1f7a33c6e.pdf"
+        },
+        {
+          "name": "3Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 205495,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q3/STT-3Q25-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/wc5e0bd0d450483bc.xlsx"
+        },
+        {
+          "name": "2Q25 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 137051,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q2/STT-2Q25-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w028c4b86b0fc3429.pdf"
+        },
+        {
+          "name": "2Q25 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 630553,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q2/STT-2Q25-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/wa9796377cd84a3a7.pdf"
+        },
+        {
+          "name": "2025 06 30 10 Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1721123,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2025/q2/STT-2025-06-30-10-Q.pdf",
+          "file": "filings/SSgA/docs/wb572b1e5c4008af7.pdf"
+        },
+        {
+          "name": "2Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 585000,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q2/STT-2Q25-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/w9b44bb838261d605.pdf"
+        },
+        {
+          "name": "2Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 217793,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q2/STT-2Q25-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/wa15eeb0db02f3134.xlsx"
+        },
+        {
+          "name": "2026 03 31 10 Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1041911,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2026/q1/STT-2026-03-31-10-Q.pdf",
+          "file": "filings/SSgA/docs/w10ad0d81691625a5.pdf"
+        },
+        {
+          "name": "2025 09 30 10 Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2075948,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2025/q3/STT-2025-09-30-10-Q.pdf",
+          "file": "filings/SSgA/docs/w96c7a28cec585f2c.pdf"
+        },
+        {
+          "name": "1Q25 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 123139,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q1/STT-1Q25-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w978cc2dfdcedd707.pdf"
+        },
+        {
+          "name": "1Q25 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 567716,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q1/STT-1Q25-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/wd349672d8cb9e767.pdf"
+        },
+        {
+          "name": "1Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 465887,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q1/STT-1Q25-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/waf9588fdba0af0d9.pdf"
+        },
+        {
+          "name": "1Q25 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 169852,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2025/q1/STT-1Q25-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/w339c48e929bb8606.xlsx"
+        },
+        {
+          "name": "4Q24 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 134636,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q4/STT-4Q24-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w494d360a6dbf0240.pdf"
+        },
+        {
+          "name": "4Q24 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 651192,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q4/STT-4Q24-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/w95cc3a1d7c7eff7a.pdf"
+        },
+        {
+          "name": "4Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 202721,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q4/STT-4Q24-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/w9c2434a0c6cf95bd.pdf"
+        },
+        {
+          "name": "4Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 208515,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q4/STT-4Q24-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/wa33533e75183626c.xlsx"
+        },
+        {
+          "name": "3Q24 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 106996,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q3/STT-3Q24-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w75c6467e6d86a6dd.pdf"
+        },
+        {
+          "name": "3Q24 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 499776,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q3/STT-3Q24-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/w58fff601ffbc67f2.pdf"
+        },
+        {
+          "name": "3Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 610416,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q3/STT-3Q24-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w1454fc6cd97a44dd.pdf"
+        },
+        {
+          "name": "3Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 194799,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q3/STT-3Q24-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/wb4f4496b3a7dfd3b.xlsx"
+        },
+        {
+          "name": "2Q24 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 113578,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q2/STT-2Q24-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w9d949a2c68bbb8e5.pdf"
+        },
+        {
+          "name": "2Q24 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 956949,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q2/STT-2Q24-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/w366be345b989d08b.pdf"
+        },
+        {
+          "name": "2Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 604230,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q2/2Q24-Earnings-Release-Addendum-vFinal.pdf",
+          "file": "filings/SSgA/docs/w085eaf1f9687e5d7.pdf"
+        },
+        {
+          "name": "2Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 212610,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q2/2Q24-Earnings-Release-Addendum-vFinal.xlsx",
+          "file": "filings/SSgA/docs/w5630f8c10df0b29e.xlsx"
+        },
+        {
+          "name": "1Q24 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 118879,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2024/q1/STT-1Q24-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/w420c376561556c9f.pdf"
+        },
+        {
+          "name": "1Q24 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1053006,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q1/STT-1Q24-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/w0fbd0ff0c6613a61.pdf"
+        },
+        {
+          "name": "1Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 488489,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q1/STT-1Q24-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w50b816aef8c508a3.pdf"
+        },
+        {
+          "name": "1Q24 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 176381,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2024/q1/STT-1Q24-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/wadc680af881f49d4.xlsx"
+        },
+        {
+          "name": "4Q23 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 114584,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q4/STT-4Q23-Earnings-Press-Release-vFinal.pdf",
+          "file": "filings/SSgA/docs/w3824d01031fbcb5e.pdf"
+        },
+        {
+          "name": "4Q23 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 977351,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q4/STT-4Q23-Earnings-Presentation-vFinal.pdf",
+          "file": "filings/SSgA/docs/wff9f6687e8e87b07.pdf"
+        },
+        {
+          "name": "4Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 693154,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q4/STT-4Q23-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w12e46c67a3473a08.pdf"
+        },
+        {
+          "name": "4Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 190789,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q4/STT-4Q23-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/wc9b151fadfba7fcf.xlsx"
+        },
+        {
+          "name": "3Q23 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 101016,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2023/q3/STT-3Q23-Earnings-Press-Release-vF.pdf",
+          "file": "filings/SSgA/docs/w9f64d5e166f67a13.pdf"
+        },
+        {
+          "name": "3Q23 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 789288,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q3/STT-3Q23-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/w2e8e7a4e31ad8c8e.pdf"
+        },
+        {
+          "name": "3Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 644801,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q3/STT-3Q23-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w147b8f88fd77c4ca.pdf"
+        },
+        {
+          "name": "3Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 171256,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q3/STT-3Q23-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/wbad1e043abcb1f80.xlsx"
+        },
+        {
+          "name": "2Q23 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 101113,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q2/STT-2Q23-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/we388ab9e95b3d857.pdf"
+        },
+        {
+          "name": "2Q23 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 688667,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q2/STT-2Q23-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/wff238e31ff65506f.pdf"
+        },
+        {
+          "name": "2Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 632990,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q2/STT-2Q23-Earnings-Release-Addendum_.pdf",
+          "file": "filings/SSgA/docs/w2ad8cf6b0b10fb58.pdf"
+        },
+        {
+          "name": "2Q23 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 182834,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q2/STT-2Q23-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/w15feb2e5a7570a7f.xlsx"
+        },
+        {
+          "name": "1Q23 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 114679,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q1/STT-1Q23-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/w0eb381c66e68daba.pdf"
+        },
+        {
+          "name": "1Q23 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 676804,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q1/STT-_-1Q23-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/wbe61fd3240a0a399.pdf"
+        },
+        {
+          "name": "1Q23 Earnings Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 167377,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q1/STT-1Q23-Earnings-Addendum.pdf",
+          "file": "filings/SSgA/docs/w464f1e2f30d1a07e.pdf"
+        },
+        {
+          "name": "1Q23 Earnings Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 160416,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2023/q1/STT-1Q23-Earnings-Addendum.xlsx",
+          "file": "filings/SSgA/docs/wd40a7b07d4f9d0bb.xlsx"
+        },
+        {
+          "name": "4Q22 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 104852,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q4/STT-4Q22-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/w3365abd25ea08fc0.pdf"
+        },
+        {
+          "name": "4Q22 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 635153,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q4/STT-4Q22-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/w9048642fea0aae8a.pdf"
+        },
+        {
+          "name": "4Q22 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 787455,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q4/STT-4Q22-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w1782b8fca4ac0744.pdf"
+        },
+        {
+          "name": "4Q22 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 172310,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q4/STT-4Q22-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/w58a183b87e6bf442.xlsx"
+        },
+        {
+          "name": "3Q22 Earnings Press Release (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 108528,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_news/2022/11/STT-3Q22-Earnings-Press-Release-(1).pdf",
+          "file": "filings/SSgA/docs/w385e5c092a2282f0.pdf"
+        },
+        {
+          "name": "3Q22 Earnings Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 657643,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q3/STT-3Q22-Earnings-Presentation.pdf",
+          "file": "filings/SSgA/docs/w2bdff0b6fa7afdbf.pdf"
+        },
+        {
+          "name": "3Q22 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 691263,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q3/STT-3Q22-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w159fba311760ceed.pdf"
+        },
+        {
+          "name": "3Q22 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 188567,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q3/STT-3Q22-Earnings-Release-Addendum.xlsx",
+          "file": "filings/SSgA/docs/w13c5a295c81978af.xlsx"
+        },
+        {
+          "name": "2Q22 Earnings Press Release (2)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 104970,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_news/2022/07/STT-2Q22-Earnings-Press-Release-vF-(2).pdf",
+          "file": "filings/SSgA/docs/w398396463b08f60f.pdf"
+        },
+        {
+          "name": "2Q22 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 671906,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q2/STT-2Q22-Earnings-Presentation-vF-(1).pdf",
+          "file": "filings/SSgA/docs/wfee51040dd93e60e.pdf"
+        },
+        {
+          "name": "2Q22 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 686338,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q2/STT-2Q22-Earnings-Release-Addendum-(1).pdf",
+          "file": "filings/SSgA/docs/w55b9f23e4ea0c127.pdf"
+        },
+        {
+          "name": "2Q22 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 176469,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q2/STT-2Q22-Earnings-Release-Addendum-(1).xlsx",
+          "file": "filings/SSgA/docs/w8f2a62b1ec6eb291.xlsx"
+        },
+        {
+          "name": "1Q22 Earnings Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 546374,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_news/2022/04/14/STT-1Q22-Earnings-Press-Release.pdf",
+          "file": "filings/SSgA/docs/w8df413f6f906d0e2.pdf"
+        },
+        {
+          "name": "1Q22 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 716734,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q1/STT-1Q22-Earnings-Presentation-(1).pdf",
+          "file": "filings/SSgA/docs/w9620fa7284e2ad1a.pdf"
+        },
+        {
+          "name": "Exhibit 99.2 STT 1Q22 Earnings Release Addendum",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 471854,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q1/Exhibit-99.2-STT-1Q22-Earnings-Release-Addendum.pdf",
+          "file": "filings/SSgA/docs/w88a904fd4f75f755.pdf"
+        },
+        {
+          "name": "Exhibit 99.2 STT 1Q22 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 150843,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2022/q1/Exhibit_99.2-STT-1Q22-Earnings-Release-Addendum-(1).xlsx",
+          "file": "filings/SSgA/docs/wf738f6abe879b735.xlsx"
+        },
+        {
+          "name": "4Q21 Earnings Press Release (2)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 546803,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_news/2022/01/STT-4Q21-Earnings-Press-Release-(2).pdf",
+          "file": "filings/SSgA/docs/we011e1602dd87670.pdf"
+        },
+        {
+          "name": "4Q21 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 335543,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q4/STT-4Q21-Earnings-Presentation-(1).pdf",
+          "file": "filings/SSgA/docs/wbd7149cb0c463af6.pdf"
+        },
+        {
+          "name": "4Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 703192,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q4/STT-4Q21-Earnings-Release-Addendum-(1).pdf",
+          "file": "filings/SSgA/docs/wffd7a7bfa1fc33b6.pdf"
+        },
+        {
+          "name": "4Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 185043,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q4/STT-4Q21-Earnings-Release-Addendum-(1).xlsx",
+          "file": "filings/SSgA/docs/wa90320e9971d5f64.xlsx"
+        },
+        {
+          "name": "3Q21 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 496370,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q3/STT-3Q21-Earnings-Presentation-(1).pdf",
+          "file": "filings/SSgA/docs/wfdc59ae6bf3e3153.pdf"
+        },
+        {
+          "name": "Exhibit 99.2 3Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 566037,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q3/Exhibit-99.2-3Q21-Earnings-Release-Addendum-(1).pdf",
+          "file": "filings/SSgA/docs/wbf13da6e6c8f7c21.pdf"
+        },
+        {
+          "name": "2Q21 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 572730,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q2/STT-2Q21-Earnings-Presentation-(1).pdf",
+          "file": "filings/SSgA/docs/w13d34b31f43ccb1c.pdf"
+        },
+        {
+          "name": "2Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 183672,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q2/STT-2Q21-Earnings-Release-Addendum-(1).pdf",
+          "file": "filings/SSgA/docs/w9cd801c4365c4005.pdf"
+        },
+        {
+          "name": "2Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 232795,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q2/STT-2Q21-Earnings-Release-Addendum-(1).xlsx",
+          "file": "filings/SSgA/docs/wb5e9cf3272063b05.xlsx"
+        },
+        {
+          "name": "1Q21 Earnings Press Release (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 545350,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q1/STT-1Q21-Earnings-Press-Release-(1).pdf",
+          "file": "filings/SSgA/docs/wf793cab635842faa.pdf"
+        },
+        {
+          "name": "1Q21 Earnings Presentation (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 259559,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q1/STT-1Q21-Earnings-Presentation-(1).pdf",
+          "file": "filings/SSgA/docs/wa92b9017980aa2f0.pdf"
+        },
+        {
+          "name": "1Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 159954,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q1/STT-1Q21-Earnings-Release-Addendum-(1).pdf",
+          "file": "filings/SSgA/docs/wae0f50356b3b110a.pdf"
+        },
+        {
+          "name": "1Q21 Earnings Release Addendum (1)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 218960,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/q1/STT-1Q21-Earnings-Release-Addendum-(1).xlsx",
+          "file": "filings/SSgA/docs/wc243052fb6dd56d8.xlsx"
+        },
+        {
+          "name": "4Q23 FY2023 Earnings Fact Sheet",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 85331,
+          "edgarUrl": "https://investors.statestreet.com/files/doc_financials/2023/q4/4Q23-FY2023-Earnings-Fact-Sheet-vF.pdf",
+          "file": "filings/SSgA/docs/w67f860773eaf9041.pdf"
+        },
+        {
+          "name": "State Street Corporation 2026 Proxy Statement",
+          "form": "IR",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 42280716,
@@ -8062,9 +10232,9 @@
           "file": "filings/SSgA/docs/wa9280ae128ee0ded.pdf"
         },
         {
-          "name": "2025 Annual Report of 2025 Annual Report",
+          "name": "AR 2025",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 4740454,
@@ -8072,9 +10242,9 @@
           "file": "filings/SSgA/docs/wdbc2d6c4a3cbd891.pdf"
         },
         {
-          "name": "2025 Proxy Statement of 2024 Annual Report",
+          "name": "State Street Corporation 2025 Proxy Statement",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 4881431,
@@ -8082,9 +10252,9 @@
           "file": "filings/SSgA/docs/wf03669418e259ea1.pdf"
         },
         {
-          "name": "2024 Annual Report of 2024 Annual Report",
+          "name": "AR 2024 1",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 19948549,
@@ -8092,9 +10262,9 @@
           "file": "filings/SSgA/docs/w36b569d09ca50ec4.pdf"
         },
         {
-          "name": "2024 Proxy Statement of 2023 Annual Report",
+          "name": "State Street Corporation 2024 Proxy Statement",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 1108291,
@@ -8102,9 +10272,9 @@
           "file": "filings/SSgA/docs/w2e34f298b107f542.pdf"
         },
         {
-          "name": "2023 Annual Report of 2023 Annual Report",
+          "name": "AR 2023",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 8055231,
@@ -8112,9 +10282,9 @@
           "file": "filings/SSgA/docs/wa176ea3b40164777.pdf"
         },
         {
-          "name": "2023 Proxy Statement of 2022 Annual Report",
+          "name": "2023 Proxy Statement",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 2160198,
@@ -8122,9 +10292,9 @@
           "file": "filings/SSgA/docs/wfe517084a18aaa1f.pdf"
         },
         {
-          "name": "2022 Annual Report of 2022 Annual Report",
+          "name": "AR 2022",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 4174096,
@@ -8132,9 +10302,9 @@
           "file": "filings/SSgA/docs/w0603146e657d3f94.pdf"
         },
         {
-          "name": "2022 ESG Report of 2022 Annual Report",
+          "name": "StateStreet ESG Report 2022",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 6045414,
@@ -8142,304 +10312,34 @@
           "file": "filings/SSgA/docs/we4c6edefb9a8f496.pdf"
         },
         {
-          "name": "2022 Proxy Statement of 2021 Annual Report",
+          "name": "AR 2021 Full",
           "form": "IR",
-          "group": "Reports",
+          "group": "Annual",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 920480,
-          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/ar/ny20002049x1_Proxy_StateStreet_.pdf",
-          "file": "filings/SSgA/docs/w86c2176ff2c81d58.pdf"
+          "sizeBytes": 13833542,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/ar/SSC_AR_2021_Final_Web_Full.pdf",
+          "file": "filings/SSgA/docs/w7105d91a47bec70e.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 5369935,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000196/stt-20260331.htm",
-          "file": "filings/SSgA/docs/10_Q/000009375126000196__stt-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-30",
-          "fmt": "HTM",
-          "sizeBytes": 6653631,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000575/stt-20250930.htm",
-          "file": "filings/SSgA/docs/10_Q/000009375125000575__stt-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 6593459,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000425/stt-20250630.htm",
-          "file": "filings/SSgA/docs/10_Q/000009375125000425__stt-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 5702642,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000226/stt-20250331.htm",
-          "file": "filings/SSgA/docs/10_Q/000009375125000226__stt-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 6524811,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375124000909/stt-20240930.htm",
-          "file": "filings/SSgA/docs/10_Q/000009375124000909__stt-20240930.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-08",
-          "fmt": "HTM",
-          "sizeBytes": 8506,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013819/ny20058931x2_defa14a.htm",
-          "file": "filings/SSgA/docs/DEFA14A/000114036126013819__ny20058931x2_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-08",
-          "fmt": "HTM",
-          "sizeBytes": 3204677,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013817/ny20058931x1_def14a.htm",
-          "file": "filings/SSgA/docs/DEF_14A/000114036126013817__ny20058931x1_def14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2025-04-03",
-          "fmt": "HTM",
-          "sizeBytes": 8532,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036125012035/ny20039865x2_defa14a.htm",
-          "file": "filings/SSgA/docs/DEFA14A/000114036125012035__ny20039865x2_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-04-03",
-          "fmt": "HTM",
-          "sizeBytes": 3043344,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036125012033/ny20039865x1_def14a.htm",
-          "file": "filings/SSgA/docs/DEF_14A/000114036125012033__ny20039865x1_def14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-26",
-          "fmt": "HTM",
-          "sizeBytes": 61318,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000365/stt-20260520.htm",
-          "file": "filings/SSgA/docs/8_K/000009375126000365__stt-20260520.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-24",
-          "fmt": "HTM",
-          "sizeBytes": 34162,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000119312526177253/d339097d8k.htm",
-          "file": "filings/SSgA/docs/8_K/000119312526177253__d339097d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 35809,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000184/stt-20260417.htm",
-          "file": "filings/SSgA/docs/8_K/000009375126000184__stt-20260417.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-31",
-          "fmt": "HTM",
-          "sizeBytes": 33845,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000173/stt-20260327.htm",
-          "file": "filings/SSgA/docs/8_K/000009375126000173__stt-20260327.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-23",
-          "fmt": "HTM",
-          "sizeBytes": 32316,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000166/stt-20260319.htm",
-          "file": "filings/SSgA/docs/8_K/000009375126000166__stt-20260319.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-16",
-          "fmt": "HTM",
-          "sizeBytes": 36043,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000008/stt-20260116.htm",
-          "file": "filings/SSgA/docs/8_K/000009375126000008__stt-20260116.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-29",
-          "fmt": "HTM",
-          "sizeBytes": 28515,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000568/stt-20251029.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000568__stt-20251029.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-23",
-          "fmt": "HTM",
-          "sizeBytes": 31293,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000119312525248752/d64245d8k.htm",
-          "file": "filings/SSgA/docs/8_K/000119312525248752__d64245d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-17",
-          "fmt": "HTM",
-          "sizeBytes": 35828,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000560/stt-20251017.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000560__stt-20251017.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-17",
-          "fmt": "HTM",
-          "sizeBytes": 32089,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000552/stt-20250915.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000552__stt-20250915.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-15",
-          "fmt": "HTM",
-          "sizeBytes": 37324,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000403/stt-20250715.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000403__stt-20250715.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-19",
-          "fmt": "HTM",
-          "sizeBytes": 63021,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000379/stt-20250514.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000379__stt-20250514.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 40117,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000222/stt-20250424.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000222__stt-20250424.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-04-24",
-          "fmt": "HTM",
-          "sizeBytes": 35019,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000119312525093566/d790492d8k.htm",
-          "file": "filings/SSgA/docs/8_K/000119312525093566__d790492d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 39244,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000220/stt-20250417.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000220__stt-20250417.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-03-05",
-          "fmt": "HTM",
-          "sizeBytes": 33070,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000193/stt-20250305.htm",
-          "file": "filings/SSgA/docs/8_K/000009375125000193__stt-20250305.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "ESG 2021 Full",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-04-08",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 48100339,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036126013821/ny20058931x3_ars.pdf",
-          "file": "filings/SSgA/docs/ARS/000114036126013821__ny20058931x3_ars.pdf"
+          "sizeBytes": 17202867,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2021/ar/SSC-ESG-2021-Final-Full.pdf",
+          "file": "filings/SSgA/docs/wbb877fbfdc83fc78.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2021 Proxy Statement",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-19",
-          "fmt": "HTM",
-          "sizeBytes": 7694408,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
-          "file": "filings/SSgA/docs/10_K/000009375126000124__stt-20251231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2025-04-03",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 41239438,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000114036125012037/ny20039865x4_ars.pdf",
-          "file": "filings/SSgA/docs/ARS/000114036125012037__ny20039865x4_ars.pdf"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-02-13",
-          "fmt": "HTM",
-          "sizeBytes": 7985617,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000111/stt-20241231.htm",
-          "file": "filings/SSgA/docs/10_K/000009375125000111__stt-20241231.htm"
+          "sizeBytes": 2216092,
+          "edgarUrl": "https://s203.q4cdn.com/888565246/files/doc_financials/2020/ar/STT-2021-Proxy-Statement.pdf",
+          "file": "filings/SSgA/docs/wabd4a60cb7629637.pdf"
         }
       ],
       "metrics": {
