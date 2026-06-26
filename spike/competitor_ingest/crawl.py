@@ -157,8 +157,11 @@ def _pull(base, slug: str, prev: dict, targets: list[tuple[str, str, str]], now:
     docs: list[dict] = []
     new = changed = unchanged = 0
     local: set[str] = set()
-    for label, url, group in targets:
-        doc_id = "w" + manifest.sha256(url.encode())[:16]
+    for label, url, group, *rest in targets:
+        # Stable id from the scraper (e.g. a form+date label) keeps the doc_id constant when the
+        # URL is volatile (Federated's per-session tokens); else fall back to the url hash.
+        stable = rest[0] if (rest and rest[0]) else url
+        doc_id = "w" + manifest.sha256(stable.encode())[:16]
         if doc_id in skip_ids or doc_id in local:
             continue
         local.add(doc_id)
