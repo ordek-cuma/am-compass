@@ -231,11 +231,13 @@ def main() -> None:
                     values = values[:iterate_limit]  # options are newest-first → last N years
                 for v in (values or [None]):
                     if v is not None:
-                        try:
-                            page.select_option(iterate, v)
+                        try:  # set value + dispatch change via JS — robust for hidden/custom selects
+                            page.eval_on_selector(
+                                iterate, "(el, val) => { el.value = val; "
+                                "el.dispatchEvent(new Event('change', {bubbles: true})); }", v)
                             page.wait_for_timeout(settle)
                         except Exception as e:
-                            print(f"select_option {iterate}={v}: {e}", file=sys.stderr)
+                            print(f"select {iterate}={v}: {e}", file=sys.stderr)
                             continue
                     collect(harvest())
             elif click_each:  # click each distinct visible filter button (e.g. year tabs)
