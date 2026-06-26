@@ -47,6 +47,10 @@ class CompetitorDataScraper:
                                        # bundled Chromium is HTTP/2-blocked)
     download_extract: str = ""         # JS `() => [{url,label,group}]` run on the warmed page to
                                        # discover the download targets in-session (no feed)
+    download_via_browser: bool = False # discover targets normally (multi-page `pages`/`extract`)
+                                       # but fetch each PDF through the browser, not stdlib — for
+                                       # sites that render the listing fine yet 403 the PDF URLs
+                                       # (Akamai on the asset CDN, e.g. allianz.com)
 
     def spec(self) -> dict:
         """JSON spec handed to render_worker (the Playwright subprocess)."""

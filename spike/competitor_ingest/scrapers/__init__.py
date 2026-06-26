@@ -15,16 +15,16 @@ from pathlib import Path
 import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
-from . import (alliancebernstein, amundi, amg, blackrock, blackstone, federated, fidelity, franklin, goldman,
-               invesco, janus, jpmorgan, morganstanley, pgim, statestreet, swisslife, troweprice, ubs, vanguard,
-               wisdomtree)
+from . import (alliancebernstein, allianz, amundi, amg, blackrock, blackstone, deka, federated, fidelity,
+               franklin, goldman, invesco, janus, jpmorgan, morganstanley, pgim, statestreet, swisslife,
+               troweprice, ubs, vanguard, wisdomtree)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    alliancebernstein.SCRAPER, amundi.SCRAPER, amg.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, federated.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
+    alliancebernstein.SCRAPER, allianz.SCRAPER, amundi.SCRAPER, amg.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, deka.SCRAPER, federated.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
     goldman.SCRAPER, invesco.SCRAPER, janus.SCRAPER, jpmorgan.SCRAPER, morganstanley.SCRAPER, pgim.SCRAPER,
     statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, ubs.SCRAPER, vanguard.SCRAPER, wisdomtree.SCRAPER)}
 
@@ -47,11 +47,16 @@ def available() -> bool:
     return VENV_PY.exists()
 
 
-def download(code: str, out_dir, skip_ids: set | None = None) -> list[dict]:
-    """For a browser_download scraper: resolve the catalog, download (in-session, via the
-    worker) the docs not already present, and return [{url, label, group, file}]."""
+def download(code: str, out_dir, skip_ids: set | None = None,
+             targets: list[dict] | None = None) -> list[dict]:
+    """In-session (browser) download of a player's PDFs, returning [{url, label, group, file}].
+    Targets come from one of three sources: an explicit `targets` list (pre-discovered via the
+    normal multi-page discover — the download_via_browser flow), the scraper's `resolve()` feed,
+    or an in-session `download_extract` on the warmed page."""
     scraper = REGISTRY.get(code)
-    if not scraper or not scraper.browser_download or not (scraper.resolve or scraper.download_extract):
+    if not scraper:
+        return []
+    if targets is None and not (scraper.browser_download and (scraper.resolve or scraper.download_extract)):
         return []
     if not available():
         print("  ! site-scraper venv missing (spike/.venv) — see requirements-render.txt")
@@ -59,7 +64,13 @@ def download(code: str, out_dir, skip_ids: set | None = None) -> list[dict]:
     spec = {"mode": "download", "warmup": scraper.warmup, "out_dir": str(out_dir)}
     if scraper.channel:
         spec["channel"] = scraper.channel
-    if scraper.resolve:  # catalog from a feed (Python) → explicit target list
+    if targets is not None:  # pre-discovered (download_via_browser): browser-fetch these URLs
+        if skip_ids:
+            targets = [t for t in targets if doc_id_for(t["url"]) not in skip_ids]
+        if not targets:
+            return []
+        spec["targets"] = targets
+    elif scraper.resolve:  # catalog from a feed (Python) → explicit target list
         targets = scraper.resolve()
         if skip_ids:
             targets = [t for t in targets if doc_id_for(t["url"]) not in skip_ids]
