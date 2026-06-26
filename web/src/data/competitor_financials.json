@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:33:15+00:00",
+  "generated_at": "2026-06-26T17:45:10+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -13243,34 +13243,384 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Press release BNP Paribas Group: Results as of 31 March 2026",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 114680,
-          "edgarUrl": "https://group.bnpparibas/en/press-release/bnp-paribas-group-results-as-of-31-march-2026",
-          "file": "filings/BNP/docs/w0c0f9f70b6943048.html"
-        },
-        {
-          "name": "BNPP_PR_BNPPAM_20260105.pdf pdf 304.51 KB",
+          "name": "2025 Integrated Report 2026",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 308280,
-          "edgarUrl": "https://cdn-group.bnpparibas.com/uploads/file/BNPP_PR_BNPPAM_20260105_1.pdf",
-          "file": "filings/BNP/docs/wab9ebd854abcdfc7.pdf"
+          "sizeBytes": 4738336,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2025-integrated-report",
+          "file": "filings/BNP/docs/w26835d02cc72e3f2.pdf"
         },
         {
-          "name": "Universal Registration Document / Results",
+          "name": "2024 Integrated report 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7089124,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2024-integrated-report",
+          "file": "filings/BNP/docs/wc66def63202e2385.pdf"
+        },
+        {
+          "name": "2023 Integrated report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6901649,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2023-integrated-report",
+          "file": "filings/BNP/docs/wfebe2f124ba9df8b.pdf"
+        },
+        {
+          "name": "2022 Integrated report 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6328808,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2022-integrated-report",
+          "file": "filings/BNP/docs/w5d401e755c7020c1.pdf"
+        },
+        {
+          "name": "2021 Integrated report 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5388542,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2021-integrated-report",
+          "file": "filings/BNP/docs/w4dbb372636dc79d9.pdf"
+        },
+        {
+          "name": "Release of the first amendment to the Universal registration document and annual financial",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 112128,
-          "edgarUrl": "https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
-          "file": "filings/BNP/docs/w02663684a926876d.html"
+          "fmt": "PDF",
+          "sizeBytes": 309454,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-first-amendment-to-the-universal-registration-document-and-annual-financial-report-2025",
+          "file": "filings/BNP/docs/wf8eba605e052db8a.pdf"
+        },
+        {
+          "name": "1st amendment to the 2025 Universal registration document and annual financial report 2026",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5996275,
+          "edgarUrl": "https://invest.bnpparibas/en/document/1st-amendment-to-the-2025-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/w16511977d2db21ee.pdf"
+        },
+        {
+          "name": "Universal registration document & annual financial report 2025 (PDF) 2026",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12235510,
+          "edgarUrl": "https://invest.bnpparibas/en/document/universal-registration-document-annual-financial-report-2025-pdf",
+          "file": "filings/BNP/docs/w0b686e39d995cdc5.pdf"
+        },
+        {
+          "name": "Release of the English version of the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 310557,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-english-version-of-the-universal-registration-document-and-annual-financial-report-2025",
+          "file": "filings/BNP/docs/we18ba42be389ab08.pdf"
+        },
+        {
+          "name": "Release of the third amendment to the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 314058,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-third-amendment-to-the-universal-registration-document-and-annual-financial-report-2024",
+          "file": "filings/BNP/docs/w0990ac4356792ca1.pdf"
+        },
+        {
+          "name": "Release of the second amendment to the Universal registration document and annual financia",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 303024,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-second-amendment-to-the-universal-registration-document-and-annual-financial-report-2024",
+          "file": "filings/BNP/docs/w05b6fb48b45f3096.pdf"
+        },
+        {
+          "name": "Release of the first amendment to the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 616039,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-first-amendment-to-the-universal-registration-document-and-annual-financial-report-2024",
+          "file": "filings/BNP/docs/w2979ad4244bee270.pdf"
+        },
+        {
+          "name": "Release of the English version of the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 315899,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-english-version-of-the-universal-registration-document-and-annual-financial-report-2024",
+          "file": "filings/BNP/docs/wf4d27b6c765ccd18.pdf"
+        },
+        {
+          "name": "Release of the 3rd amendment to the Universal registration document and annual financial r",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 282694,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-3rd-amendment-to-the-universal-registration-document-and-annual-financial-report-2023",
+          "file": "filings/BNP/docs/wec11bbd25001aed5.pdf"
+        },
+        {
+          "name": "Release of the second amendment to the Universal registration document and annual financia",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 312329,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-second-amendment-to-the-universal-registration-document-and-annual-financial-report-2023",
+          "file": "filings/BNP/docs/w788e9d77fc1acaa9.pdf"
+        },
+        {
+          "name": "Release of the first amendment to the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 208126,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-first-amendment-to-the-universal-registration-document-and-annual-financial-report-2023",
+          "file": "filings/BNP/docs/wd448fc46268d4026.pdf"
+        },
+        {
+          "name": "Release of the English version of the Universal registration document and annual financial",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 369785,
+          "edgarUrl": "https://invest.bnpparibas/en/document/release-of-the-english-version-of-the-universal-registration-document-and-annual-financial-report-2023",
+          "file": "filings/BNP/docs/w68c4658d2de8ca43.pdf"
+        },
+        {
+          "name": "3rd amendment to the 2024 Universal registration document and annual financial report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7796743,
+          "edgarUrl": "https://invest.bnpparibas/en/document/3rd-amendment-to-the-2024-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/w6c4b460bf7da7e6a.pdf"
+        },
+        {
+          "name": "2nd amendment to the 2024 Universal registration document and annual financial report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12399951,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2nd-amendment-to-the-2024-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/wdbda542637a36933.pdf"
+        },
+        {
+          "name": "1st amendment to the 2024 Universal registration document and annual financial report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3846424,
+          "edgarUrl": "https://invest.bnpparibas/en/document/1st-amendment-to-the-2024-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/wb987fd9388d97060.pdf"
+        },
+        {
+          "name": "Universal registration document & annual financial report 2024 (PDF) 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17225487,
+          "edgarUrl": "https://invest.bnpparibas/en/document/universal-registration-document-annual-financial-report-2024-pdf",
+          "file": "filings/BNP/docs/w5def75a9ad068f6c.pdf"
+        },
+        {
+          "name": "3rd amendment to the 2023 Universal registration document and annual financial report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5737604,
+          "edgarUrl": "https://invest.bnpparibas/en/document/3rd-amendment-to-the-2023-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/w2864046619a503eb.pdf"
+        },
+        {
+          "name": "2nd amendment to the 2023 Universal registration document and annual financial report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10455089,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2nd-amendment-to-the-2023-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/w69a43fec92e7a6fa.pdf"
+        },
+        {
+          "name": "1st amendment to the 2023 Universal registration document and annual financial report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3172168,
+          "edgarUrl": "https://invest.bnpparibas/en/document/1st-amendment-to-the-2023-universal-registration-document-and-annual-financial-report",
+          "file": "filings/BNP/docs/w38f6964649a3a981.pdf"
+        },
+        {
+          "name": "Universal registration document & annual financial report 2023 (PDF) 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5439541,
+          "edgarUrl": "https://invest.bnpparibas/en/document/universal-registration-document-annual-financial-report-2023-pdf",
+          "file": "filings/BNP/docs/w029c7a1f152ccb43.pdf"
+        },
+        {
+          "name": "4th amendment to the 2022 Universal Registration Document 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4839284,
+          "edgarUrl": "https://invest.bnpparibas/en/document/4th-amendment-to-the-2022-universal-registration-document",
+          "file": "filings/BNP/docs/w8f3555e9a55fcc38.pdf"
+        },
+        {
+          "name": "3rd amendment to the 2022 Universal Registration Document 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4713409,
+          "edgarUrl": "https://invest.bnpparibas/en/document/3rd-amendment-to-the-2022-universal-registration-document",
+          "file": "filings/BNP/docs/wb67b8f9331dcc8ea.pdf"
+        },
+        {
+          "name": "2nd amendment to the 2022 Universal Registration Document 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9648211,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2nd-amendment-to-the-2022-universal-registration-document",
+          "file": "filings/BNP/docs/wc65f0f7bf27404db.pdf"
+        },
+        {
+          "name": "1st amendment to the 2022 Universal Registration Document 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17158996,
+          "edgarUrl": "https://invest.bnpparibas/en/document/1st-amendment-to-the-2022-universal-registration-document",
+          "file": "filings/BNP/docs/we6ac8487af1cfa29.pdf"
+        },
+        {
+          "name": "Universal registration document and annual financial report 2022 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6174471,
+          "edgarUrl": "https://invest.bnpparibas/en/document/universal-registration-document-2022",
+          "file": "filings/BNP/docs/wd72cdba40081ccba.pdf"
+        },
+        {
+          "name": "7th amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1771215,
+          "edgarUrl": "https://invest.bnpparibas/en/document/7th-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/wa8e91976eb5b9723.pdf"
+        },
+        {
+          "name": "6th amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12306405,
+          "edgarUrl": "https://invest.bnpparibas/en/document/6th-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/w729d624d9dfa07d5.pdf"
+        },
+        {
+          "name": "5th amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1415142,
+          "edgarUrl": "https://invest.bnpparibas/en/document/5th-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/w8b054533561dfe9f.pdf"
+        },
+        {
+          "name": "4th amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5123710,
+          "edgarUrl": "https://invest.bnpparibas/en/document/4th-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/wdd1be9b975d5e00f.pdf"
+        },
+        {
+          "name": "3rd amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 13815940,
+          "edgarUrl": "https://invest.bnpparibas/en/document/3rd-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/wc9df4fe7c2d13e7b.pdf"
+        },
+        {
+          "name": "2nd amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 757905,
+          "edgarUrl": "https://invest.bnpparibas/en/document/2nd-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/w23eec63c77cad192.pdf"
+        },
+        {
+          "name": "1st amendment to the 2021 Universal Registration Document 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12618862,
+          "edgarUrl": "https://invest.bnpparibas/en/document/1st-amendment-to-the-2021-universal-registration-document",
+          "file": "filings/BNP/docs/wfbc60132348162a0.pdf"
+        },
+        {
+          "name": "Universal registration document and annual financial report 2021 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7652752,
+          "edgarUrl": "https://invest.bnpparibas/en/document/universal-registration-document-and-annual-financial-report-2021",
+          "file": "filings/BNP/docs/w842a8d575fbe5f83.pdf"
         }
       ],
       "metrics": {
