@@ -52,6 +52,8 @@ def main() -> None:
             iterate_limit = sp.get("iterate_limit")
             load_more = sp.get("load_more")
             extract = sp.get("extract")
+            follow = re.compile(sp["follow"]) if sp.get("follow") else None
+            follow_selector = sp.get("follow_selector", "a[href$='.pdf']")
             exclude = re.compile(sp["exclude"]) if sp.get("exclude") else None
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=45000)
@@ -120,7 +122,26 @@ def main() -> None:
                     if exclude and exclude.search(label):
                         continue
                     seen.add(u)
-                    out.append({"label": label[:110] or "Document", "url": u, "group": group})
+                    out.append({"label": label[:110] or "Document", "url": u, "group": it.get("group") or group})
+
+            def follow_subpages(raw: list[dict]) -> None:
+                """Direct-PDF items are kept; sub-page items matching `follow` are visited and
+                their first matching PDF is harvested (carrying the sub-page's label/group)."""
+                for it in raw or []:
+                    u = it.get("url", "")
+                    if u.lower().split("?")[0].endswith(".pdf"):
+                        collect([it])
+                    elif follow.search(u):
+                        try:
+                            page.goto(u, wait_until="domcontentloaded", timeout=40000)
+                            page.wait_for_timeout(settle)
+                            purls = page.eval_on_selector_all(follow_selector, "els => els.map(e => e.href)")
+                        except Exception as e:
+                            print(f"follow {u}: {e}", file=sys.stderr)
+                            purls = []
+                        if purls:
+                            collect([{"url": purls[0], "label": it.get("label", ""), "group": it.get("group")}])
+                    # else: a sub-page with no document (e.g. HTML-only) → skipped
 
             if iterate:
                 try:
@@ -141,7 +162,10 @@ def main() -> None:
             else:
                 if load_more:
                     expand()
-                collect(harvest())
+                if follow:
+                    follow_subpages(harvest())
+                else:
+                    collect(harvest())
         browser.close()
     print(json.dumps(out))
 

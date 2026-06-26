@@ -21,8 +21,10 @@ class PageSpec:
     iterate_select: str | None = None  # CSS for a <select> whose options to iterate (e.g. a year filter)
     iterate_limit: int | None = None   # cap on how many options to iterate (e.g. 5 = last 5 years)
     load_more: str | None = None       # CSS for a "load more" button to click until exhausted
-    extract: str | None = None         # custom JS `() => [{url,label}]` for rich per-row labels
+    extract: str | None = None         # custom JS `() => [{url,label,group?}]` for rich labels
     exclude: str | None = None         # regex; drop docs whose label matches (e.g. ownership forms)
+    follow: str | None = None          # regex; harvested links matching it are sub-pages to visit,
+    follow_selector: str = "a[href$='.pdf']"  # …and harvest this selector's first PDF on each
 
 
 @dataclass

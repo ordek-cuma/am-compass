@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:01:01+00:00",
+  "generated_at": "2026-06-26T11:48:21+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -11282,49 +11282,19 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Explore our full history timeline",
+          "name": "Q1 2026 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 2532392,
-          "edgarUrl": "https://about.fidelity.com/_files/ugd/75313e_565d97592b754e6394b31655dd72e751.pdf",
-          "file": "filings/Fidelity/docs/w73fd081ee2bbc9a4.pdf"
+          "sizeBytes": 370216,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_5805e20e23a84db792602a20d924f47b.pdf",
+          "file": "filings/Fidelity/docs/w9c3566b2cc3ef2d4.pdf"
         },
         {
-          "name": "explore the PDF map",
+          "name": "Q1 2021 Business Update",
           "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 2454044,
-          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_2177743963394090bd5779e05ce478e9.pdf",
-          "file": "filings/Fidelity/docs/w89050485171ec6bc.pdf"
-        },
-        {
-          "name": "2025 Annual report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 1324179,
-          "edgarUrl": "https://about.fidelity.com/data-and-insights/2025-annual-report",
-          "file": "filings/Fidelity/docs/wd15bc032b8d635a1.html"
-        },
-        {
-          "name": "2022",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 3644985,
-          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_c7b66c1050014c669396cc436f353013.pdf",
-          "file": "filings/Fidelity/docs/wd2b00715c83632b3.pdf"
-        },
-        {
-          "name": "Q1 2021",
-          "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 655824,
@@ -11332,9 +11302,9 @@
           "file": "filings/Fidelity/docs/we00e627b707ff26e.pdf"
         },
         {
-          "name": "Q2 2021",
+          "name": "Q2 2021 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 528935,
@@ -11342,9 +11312,9 @@
           "file": "filings/Fidelity/docs/w39a367376dbf06de.pdf"
         },
         {
-          "name": "Q3 2021",
+          "name": "Q3 2021 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 470483,
@@ -11352,9 +11322,9 @@
           "file": "filings/Fidelity/docs/w8d6673581bccab2a.pdf"
         },
         {
-          "name": "Q1 2022",
+          "name": "Q1 2022 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 341329,
@@ -11362,9 +11332,9 @@
           "file": "filings/Fidelity/docs/wf3b1bb2c90b84c6c.pdf"
         },
         {
-          "name": "Q2 2022",
+          "name": "Q2 2022 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 340259,
@@ -11372,9 +11342,9 @@
           "file": "filings/Fidelity/docs/w630fc8aa23dbdeab.pdf"
         },
         {
-          "name": "Q3 2022",
+          "name": "Q3 2022 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 376939,
@@ -11382,9 +11352,9 @@
           "file": "filings/Fidelity/docs/wa4ac378a5713df43.pdf"
         },
         {
-          "name": "Q1 2023",
+          "name": "Q1 2023 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 3180701,
@@ -11392,9 +11362,9 @@
           "file": "filings/Fidelity/docs/wfc6185eacf772af7.pdf"
         },
         {
-          "name": "Q2 2023",
+          "name": "Q2 2023 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 4943321,
@@ -11402,9 +11372,9 @@
           "file": "filings/Fidelity/docs/w32b4f6912197bc45.pdf"
         },
         {
-          "name": "Q3 2023",
+          "name": "Q3 2023 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 712608,
@@ -11412,9 +11382,39 @@
           "file": "filings/Fidelity/docs/wfbc681c7d550f3b5.pdf"
         },
         {
-          "name": "Q4 2025",
+          "name": "Q1 2024 Business Update",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 312981,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_7df77f60b9a9482d9a12660d718680e9.pdf",
+          "file": "filings/Fidelity/docs/wf1bad60184e26716.pdf"
+        },
+        {
+          "name": "Q2 2024 Business Update",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 546995,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_d119719d76af4bce9494e8512148a8a5.pdf",
+          "file": "filings/Fidelity/docs/w9f02df066c5bef48.pdf"
+        },
+        {
+          "name": "Q3 2024 Business Update",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1354600,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/75313e_21cc07e2ae964002bdf8d3062bec54a9.pdf",
+          "file": "filings/Fidelity/docs/w8ca4e56d2098054a.pdf"
+        },
+        {
+          "name": "Q1 2025 Business Update",
+          "form": "IR",
+          "group": "Quarterly",
           "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 447651,
@@ -11422,14 +11422,44 @@
           "file": "filings/Fidelity/docs/w3d6992b30c0ebf33.pdf"
         },
         {
-          "name": "Annual Results & AuM Disclosure",
+          "name": "2025 Annual report",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 1232648,
-          "edgarUrl": "https://about.fidelity.com/",
-          "file": "filings/Fidelity/docs/w529ced2272c152e7.html"
+          "fmt": "PDF",
+          "sizeBytes": 4959352,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_dfca73d35f224b419c0463d3226f347c.pdf",
+          "file": "filings/Fidelity/docs/w759a55188ce394a7.pdf"
+        },
+        {
+          "name": "2022 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3644985,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_c7b66c1050014c669396cc436f353013.pdf",
+          "file": "filings/Fidelity/docs/wd2b00715c83632b3.pdf"
+        },
+        {
+          "name": "2023 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3338968,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/163ca5_ab36a87cb48343cf88e592e109be59b1.pdf",
+          "file": "filings/Fidelity/docs/w63161e6bf226ed07.pdf"
+        },
+        {
+          "name": "2024 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2714916,
+          "edgarUrl": "https://about.fidelity.com/_files/ugd/75313e_be1bc9a796da4ac681934c5eafb3a335.pdf",
+          "file": "filings/Fidelity/docs/wab36d60bf5373766.pdf"
         }
       ],
       "metrics": {
