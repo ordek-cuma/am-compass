@@ -16,7 +16,7 @@ import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
 from . import (amundi, blackrock, fidelity, franklin, goldman, jpmorgan, statestreet,
-               swisslife, troweprice, vanguard)
+               morganstanley, swisslife, troweprice, vanguard)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
@@ -24,7 +24,7 @@ _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
     amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER, goldman.SCRAPER,
-    jpmorgan.SCRAPER, statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, vanguard.SCRAPER)}
+    jpmorgan.SCRAPER, morganstanley.SCRAPER, statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, vanguard.SCRAPER)}
 
 
 def doc_id_for(url: str) -> str:
@@ -99,11 +99,14 @@ def discover(code: str) -> list[tuple[str, str, str]]:
         print("  ! site-scraper venv missing (spike/.venv) — see requirements-render.txt")
         return []
     env = {**os.environ, "PLAYWRIGHT_BROWSERS_PATH": str(_BROWSERS)}
+    spec = scraper.spec()
+    if scraper.channel:  # e.g. real Chrome when bundled Chromium is HTTP/2-blocked
+        spec["channel"] = scraper.channel
     try:
         proc = subprocess.run(
             [str(VENV_PY), "-m", "competitor_ingest.render_worker"],
-            input=json.dumps(scraper.spec()), capture_output=True, text=True,
-            timeout=300, env=env, cwd=str(_ROOT))
+            input=json.dumps(spec), capture_output=True, text=True,
+            timeout=600, env=env, cwd=str(_ROOT))
     except Exception as e:
         print(f"  ! render worker error: {e}")
         return []
