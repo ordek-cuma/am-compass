@@ -13,12 +13,55 @@ option, an `exclude` regex, lazy-load scrolling, and a settle wait. A realistic 
 profile (real UA / viewport / launch arg) lets managed bot-challenges clear on their own —
 we never solve a challenge. Download stays in web.py (stdlib). Setup: requirements-render.txt.
 """
+import hashlib
 import json
+import os
 import re
 import sys
 
 _UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+
+
+def _download_mode(spec: dict) -> None:
+    """Download bot-protected PDFs (e.g. Akamai) via a real in-session browser navigation:
+    warm up a page to establish the session, then goto each PDF URL and capture the download.
+    spec: {warmup, out_dir, targets:[{url,label,group}]}. Prints [{url,label,group,file}]."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception as e:
+        print(json.dumps({"error": f"playwright unavailable: {e}"}))
+        return
+    out_dir = spec["out_dir"]
+    os.makedirs(out_dir, exist_ok=True)
+    results: list[dict] = []
+    with sync_playwright() as p:
+        b = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        ctx = b.new_context(user_agent=_UA, locale="en-US", viewport={"width": 1366, "height": 900}, accept_downloads=True)
+        pg = ctx.new_page()
+        if spec.get("warmup"):
+            try:
+                pg.goto(spec["warmup"], wait_until="domcontentloaded", timeout=40000)
+                pg.wait_for_timeout(6000)
+            except Exception as e:
+                print(f"warmup: {e}", file=sys.stderr)
+        for t in spec.get("targets", []):
+            url = t["url"]
+            doc_id = "w" + hashlib.sha256(url.encode()).hexdigest()[:16]
+            ext = "pdf" if ".pdf" in url.lower() else (url.rsplit(".", 1)[-1].split("?")[0].lower() if "." in url.rsplit("/", 1)[-1] else "pdf")
+            dest = os.path.join(out_dir, f"{doc_id}.{ext}")
+            try:
+                with pg.expect_download(timeout=35000) as dl:
+                    try:
+                        pg.goto(url, timeout=30000)
+                    except Exception:
+                        pass  # navigation aborts when the download starts — expected
+                dl.value.save_as(dest)
+                results.append({"url": url, "label": t.get("label", ""), "group": t.get("group", "Reports"), "file": dest})
+            except Exception as e:
+                print(f"download {url}: {str(e)[:60]}", file=sys.stderr)
+        b.close()
+    print(json.dumps(results))
 _COOKIE_LABELS = ("Accept all", "Accept All Cookies", "Accept", "I agree", "Agree",
                   "Tout accepter", "Allow all", "Got it", "OK")
 
@@ -29,6 +72,8 @@ def main() -> None:
     except Exception as e:
         print(json.dumps({"error": f"bad spec: {e}"}))
         return
+    if spec.get("mode") == "download":
+        return _download_mode(spec)
     try:
         from playwright.sync_api import sync_playwright
     except Exception as e:
