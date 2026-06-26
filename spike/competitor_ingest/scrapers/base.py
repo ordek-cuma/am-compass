@@ -8,6 +8,7 @@ to be added later; this class is explicitly the company/"competitor data" one.)
 """
 from __future__ import annotations
 from dataclasses import asdict, dataclass, field
+from typing import Callable
 
 
 @dataclass
@@ -33,6 +34,13 @@ class CompetitorDataScraper:
     name: str
     pages: list[PageSpec] = field(default_factory=list)
     notes: str = ""                    # site quirks (cookie banner, DMS, bot-wall, …) for maintainers
+    # Browser-download mode: for sites whose PDFs are bot-protected (e.g. Akamai) and only
+    # reachable by a real in-session navigation. `resolve()` returns [{url,label,group}] (the
+    # final PDF URLs), `warmup` is a page to load first to establish the session; the worker
+    # downloads each via the browser instead of stdlib urllib.
+    browser_download: bool = False
+    warmup: str = ""
+    resolve: Callable[[], list[dict]] | None = None
 
     def spec(self) -> dict:
         """JSON spec handed to render_worker (the Playwright subprocess)."""

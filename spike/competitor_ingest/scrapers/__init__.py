@@ -12,16 +12,23 @@ import re
 import subprocess
 from pathlib import Path
 
+import hashlib
+
 from .base import CompetitorDataScraper, PageSpec
-from . import amundi, blackrock, fidelity, jpmorgan, statestreet, vanguard
+from . import amundi, blackrock, fidelity, goldman, jpmorgan, statestreet, vanguard
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, jpmorgan.SCRAPER,
+    amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, goldman.SCRAPER, jpmorgan.SCRAPER,
     statestreet.SCRAPER, vanguard.SCRAPER)}
+
+
+def doc_id_for(url: str) -> str:
+    """The url-hash doc_id used for browser-downloaded files (matches render_worker)."""
+    return "w" + hashlib.sha256(url.encode()).hexdigest()[:16]
 
 
 def get(code: str) -> CompetitorDataScraper | None:
@@ -35,6 +42,42 @@ def codes() -> list[str]:
 def available() -> bool:
     """True when the Playwright venv is present (render worker can run)."""
     return VENV_PY.exists()
+
+
+def download(code: str, out_dir, skip_ids: set | None = None) -> list[dict]:
+    """For a browser_download scraper: resolve the catalog, download (in-session, via the
+    worker) the docs not already present, and return [{url, label, group, file}]."""
+    scraper = REGISTRY.get(code)
+    if not scraper or not scraper.browser_download or not scraper.resolve:
+        return []
+    if not available():
+        print("  ! site-scraper venv missing (spike/.venv) — see requirements-render.txt")
+        return []
+    targets = scraper.resolve()
+    if skip_ids:
+        targets = [t for t in targets if doc_id_for(t["url"]) not in skip_ids]
+    if not targets:
+        return []
+    spec = {"mode": "download", "warmup": scraper.warmup, "out_dir": str(out_dir), "targets": targets}
+    env = {**os.environ, "PLAYWRIGHT_BROWSERS_PATH": str(_BROWSERS)}
+    try:
+        proc = subprocess.run(
+            [str(VENV_PY), "-m", "competitor_ingest.render_worker"],
+            input=json.dumps(spec), capture_output=True, text=True,
+            timeout=900, env=env, cwd=str(_ROOT))
+    except Exception as e:
+        print(f"  ! download worker error: {e}")
+        return []
+    lines = (proc.stdout or "").strip().splitlines()
+    if not lines:
+        print(f"  ! download worker no output (stderr: {(proc.stderr or '').strip()[:160]})")
+        return []
+    try:
+        data = json.loads(lines[-1])
+    except Exception:
+        print(f"  ! download worker bad output: {lines[-1][:120]}")
+        return []
+    return data if isinstance(data, list) else []
 
 
 def discover(code: str) -> list[tuple[str, str, str]]:

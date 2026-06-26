@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:21:20+00:00",
+  "generated_at": "2026-06-26T13:09:05+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -6805,244 +6805,184 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 7682247,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000118/gs-20260331.htm",
-          "file": "filings/Goldman_Sachs/docs/10_Q/000088698226000118__gs-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 9289614,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm",
-          "file": "filings/Goldman_Sachs/docs/10_Q/000088698225001411__gs-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 9315218,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000022/gs-20250630.htm",
-          "file": "filings/Goldman_Sachs/docs/10_Q/000088698225000022__gs-20250630.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
+          "name": "2026 Proxy Statement for our Annual Meeting of Shareholders",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2026-04-03",
-          "fmt": "HTM",
-          "sizeBytes": 25624,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526141997/gs-20260401.htm",
-          "file": "filings/Goldman_Sachs/docs/DEFA14A/000119312526141997__gs-20260401.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-03-20",
-          "fmt": "HTM",
-          "sizeBytes": 22826,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117442/gs_defa14a-notice_2026.htm",
-          "file": "filings/Goldman_Sachs/docs/DEFA14A/000119312526117442__gs_defa14a-notice_2026.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-03-20",
-          "fmt": "HTM",
-          "sizeBytes": 4430438,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm",
-          "file": "filings/Goldman_Sachs/docs/DEF_14A/000119312526117433__gs-20260319.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-03",
-          "fmt": "HTM",
-          "sizeBytes": 41766,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526255626/d107600d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526255626__d107600d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-12",
-          "fmt": "HTM",
-          "sizeBytes": 38767,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526219511/d142159d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526219511__d142159d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 120523,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526199988/gs-20260429.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526199988__gs-20260429.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-20",
-          "fmt": "HTM",
-          "sizeBytes": 42391,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526164058/d122102d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526164058__d122102d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-13",
-          "fmt": "HTM",
-          "sizeBytes": 44507,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000096/gs-20260413.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000088698226000096__gs-20260413.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-13",
-          "fmt": "HTM",
-          "sizeBytes": 62649,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526105328/gs-20260309.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526105328__gs-20260309.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-05",
-          "fmt": "HTM",
-          "sizeBytes": 42430,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526094047/d926033d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526094047__d926033d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-13",
-          "fmt": "HTM",
-          "sizeBytes": 61674,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526051527/gs-20260212.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526051527__gs-20260212.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-02",
-          "fmt": "HTM",
-          "sizeBytes": 41027,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526033730/d36353d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526033730__d36353d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-23",
-          "fmt": "HTM",
-          "sizeBytes": 81232,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526020895/gs-20260123.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526020895__gs-20260123.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-21",
-          "fmt": "HTM",
-          "sizeBytes": 44591,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526018009/d24150d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312526018009__d24150d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-15",
-          "fmt": "HTM",
-          "sizeBytes": 42636,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000008/gs-20260115.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000088698226000008__gs-20260115.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-08",
-          "fmt": "HTM",
-          "sizeBytes": 692055,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000004/gs-20260107.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000088698226000004__gs-20260107.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-21",
-          "fmt": "HTM",
-          "sizeBytes": 43102,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312525245194/d42434d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312525245194__d42434d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-14",
-          "fmt": "HTM",
-          "sizeBytes": 44538,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312525238058/d899312d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312525238058__d899312d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-16",
-          "fmt": "HTM",
-          "sizeBytes": 43930,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312525159560/d41877d8k.htm",
-          "file": "filings/Goldman_Sachs/docs/8_K/000119312525159560__d41877d8k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-03-20",
+          "date": "2026-12-31",
           "fmt": "PDF",
-          "sizeBytes": 2937572,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312526116310/d106738dars.pdf",
-          "file": "filings/Goldman_Sachs/docs/ARS/000119312526116310__d106738dars.pdf"
+          "sizeBytes": 15121090,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/proxy-statements/2026/proxy-statement.pdf",
+          "file": "filings/Goldman_Sachs/docs/wff06a8d7c0f5dd82.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Proxy Statement 2025 Annual Meeting of Shareholders",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6664235,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/proxy-statements/2025/proxy-statement.pdf",
+          "file": "filings/Goldman_Sachs/docs/wa97c797193424722.pdf"
+        },
+        {
+          "name": "Proxy Statement 2024 Annual Meeting of Shareholders",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3181197,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/proxy-statements/2024/2024-proxy-statement-pdf.pdf",
+          "file": "filings/Goldman_Sachs/docs/wc719316cfa1d99df.pdf"
+        },
+        {
+          "name": "Proxy Statement 2023 Annual Meeting of Shareholders",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2829223,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/proxy-statements/2023/2023-proxy-statement-pdf.pdf",
+          "file": "filings/Goldman_Sachs/docs/wf1d422fab17cf0fc.pdf"
+        },
+        {
+          "name": "Proxy Statement for 2022 Annual Meeting of Shareholders",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3130528,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/proxy-statements/2022/2022-proxy-statement-pdf.pdf",
+          "file": "filings/Goldman_Sachs/docs/w3e3d8f7314ddf640.pdf"
+        },
+        {
+          "name": "Goldman Sachs Bank USA and Subsidiaries - 2025 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-25",
-          "fmt": "HTM",
-          "sizeBytes": 9611165,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
-          "file": "filings/Goldman_Sachs/docs/10_K/000088698226000091__gs-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 996919,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/subsidiary-financial-info/gsbank-usa/2025/gsbank-usa-annual-report-2025.pdf",
+          "file": "filings/Goldman_Sachs/docs/w17fbdeb4c3181cef.pdf"
+        },
+        {
+          "name": "2024 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6203647,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/current/annual-reports/2024-annual-report/multimedia/2024-annual-report.pdf",
+          "file": "filings/Goldman_Sachs/docs/w13a0519c34843432.pdf"
+        },
+        {
+          "name": "Goldman Sachs Bank USA and Subsidiaries - 2024 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1134519,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/subsidiary-financial-info/gsbank-usa/2024/gsbank-usa-annual-report-2024.pdf",
+          "file": "filings/Goldman_Sachs/docs/we3dff1b3a433418e.pdf"
+        },
+        {
+          "name": "2023 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6541364,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/current/annual-reports/2023-annual-report/multimedia/2023-annual-report.pdf",
+          "file": "filings/Goldman_Sachs/docs/wb3993fca8512cde4.pdf"
+        },
+        {
+          "name": "Goldman Sachs Bank USA and Subsidiaries - 2023 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1140206,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/subsidiary-financial-info/gsbank-usa/2023/gsbank-usa-annual-report-2023.pdf",
+          "file": "filings/Goldman_Sachs/docs/wdfadd2e97fd9e2a7.pdf"
+        },
+        {
+          "name": "Goldman Sachs Bank USA and Subsidiaries - 2022 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1105248,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/subsidiary-financial-info/gsbank-usa/2022/gsbusa-annual-report-12-31-2022.pdf",
+          "file": "filings/Goldman_Sachs/docs/w58cfdfbb525a5e84.pdf"
+        },
+        {
+          "name": "Goldman Sachs Bank USA and Subsidiaries - 2021 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3262945,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/subsidiary-financial-info/gsbank-usa/2021/gsbusa-annual-report-12-31-2021.pdf",
+          "file": "filings/Goldman_Sachs/docs/w31ebce3e768a61ff.pdf"
+        },
+        {
+          "name": "2025 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4408397,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2025/2025-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/w123e53c0fc5fcc26.pdf"
+        },
+        {
+          "name": "2024 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3684392,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2024/2024-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/wcba4972d46fccb17.pdf"
+        },
+        {
+          "name": "2023 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3649540,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2023/2023-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/w5347290c61bc5b33.pdf"
+        },
+        {
+          "name": "2023 Form 10-K/A",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 240615,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2023/2023-10-k-a.pdf",
+          "file": "filings/Goldman_Sachs/docs/wa234eb29c5401705.pdf"
+        },
+        {
+          "name": "2022 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3620911,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2022/2022-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/w3bc24d2443b86808.pdf"
+        },
+        {
+          "name": "2021 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2184257,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2021/2021-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/w4c8614b53bbb3ab4.pdf"
         }
       ],
       "metrics": {

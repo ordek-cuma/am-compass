@@ -14,6 +14,7 @@ import datetime as dt
 import json
 import re
 import sys
+from pathlib import Path
 
 from . import config as C
 from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, scrapers, web
@@ -237,6 +238,11 @@ def harvest_ir(code: str, now: str, prev: dict, skip_ids: set, pdf_only: bool, f
 def _scrape_player(code: str, name: str, cik: str | None, now: str, force: bool) -> tuple[list[dict], tuple[int, int, int]] | None:
     """If the player has a dedicated Competitor Data Scraper, harvest its document library
     (PDFs only, authoritative) and finalize the manifest. Returns (docs, counts) or None."""
+    sc = scrapers.get(code)
+    if sc is None:
+        return None
+    if getattr(sc, "browser_download", False):
+        return _scrape_download(code, name, cik, now, force)
     scraped = scrapers.discover(code)
     if not scraped:
         return None
@@ -246,6 +252,34 @@ def _scrape_player(code: str, name: str, cik: str | None, now: str, force: bool)
     docs, n, c, u = _pull(base, slug, prev, scraped, now, skip_ids=set(), force=force, keep_only_docs=True)
     _finalize(code, name, cik, slug, prev, docs, now)
     return docs, (n, c, u)
+
+
+def _scrape_download(code: str, name: str, cik: str | None, now: str, force: bool) -> tuple[list[dict], tuple[int, int, int]]:
+    """Browser-download scraper (bot-protected PDFs, e.g. Goldman/Akamai): the worker fetches
+    the files in-session; we build manifest entries from them. 'new' mode skips known docs."""
+    slug = web.slug(code)
+    base = ARCHIVE / slug
+    prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
+    skip = set() if force else set(prev)
+    got = scrapers.download(code, base / "docs", skip_ids=skip)
+    docs: list[dict] = []
+    new = 0
+    for g in got:
+        fp = Path(g["file"])
+        if not fp.exists():
+            continue
+        data = fp.read_bytes()
+        label = g.get("label") or "Document"
+        my = re.search(r"20\d\d", label)
+        docs.append({
+            "doc_id": scrapers.doc_id_for(g["url"]), "name": label, "form": "IR",
+            "group": g.get("group", "Reports"), "date": f"{my.group(0)}-12-31" if my else "2025-12-31",
+            "fmt": (fp.suffix.lstrip(".").upper() or "PDF"), "sizeBytes": len(data),
+            "edgarUrl": g["url"], "file": f"filings/{slug}/{fp.relative_to(base).as_posix()}",
+            "sha256": manifest.sha256(data), "fetched_at": now, "status": "new"})
+        new += 1
+    docs = _finalize(code, name, cik, slug, prev, docs, now)
+    return docs, (new, 0, 0)
 
 
 def crawl_edgar_full(code: str, name: str, cik: str, now: str, force: bool = False) -> tuple[list[dict], tuple[int, int, int]]:
