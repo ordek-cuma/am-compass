@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:41:47+00:00",
+  "generated_at": "2026-06-26T14:55:14+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -6063,304 +6063,1514 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Feb 27, 2026 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-02-27",
+          "fmt": "PDF",
+          "sizeBytes": 216562,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/fa3900f1-06c7-4da2-9693-ec44203aa026.pdf",
+          "file": "filings/Blackstone/docs/wb8652ab99747d04e.pdf"
+        },
+        {
+          "name": "Feb 27, 2026 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2026-02-27",
+          "fmt": "XLS",
+          "sizeBytes": 22031,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f7da0f88-af5b-426b-8d21-2930adcb21de.xls",
+          "file": "filings/Blackstone/docs/w1f09b642a233e1f8.xls"
+        },
+        {
+          "name": "Oct 30, 2025 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-30",
+          "fmt": "PDF",
+          "sizeBytes": 762051,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/2c9bb68c-8cf3-401e-8a7e-000b9b55c9ef.pdf",
+          "file": "filings/Blackstone/docs/w8253ff235572c39f.pdf"
+        },
+        {
+          "name": "Oct 30, 2025 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-30",
+          "fmt": "XLS",
+          "sizeBytes": 59294,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/63311d91-4705-4dbf-9aac-f57f0aa8aa81.xls",
+          "file": "filings/Blackstone/docs/we640fbbbec557f4d.xls"
+        },
+        {
+          "name": "Oct 28, 2025 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 728228,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ffdc735f-0f5a-487c-888d-0ed863b79622.pdf",
+          "file": "filings/Blackstone/docs/wa27d0880545ce9df.pdf"
+        },
+        {
+          "name": "Oct 28, 2025 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-10-28",
+          "fmt": "XLS",
+          "sizeBytes": 27940,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/bf744948-0182-4bf3-936d-93f47b616ee6.xls",
+          "file": "filings/Blackstone/docs/wf92ba7e669897246.xls"
+        },
+        {
+          "name": "Feb 28, 2025 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-28",
+          "fmt": "PDF",
+          "sizeBytes": 152003,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/c616b928-9db3-4d9a-adf1-0ee7b75be65d.pdf",
+          "file": "filings/Blackstone/docs/w115699a7c2516027.pdf"
+        },
+        {
+          "name": "Feb 28, 2025 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-02-28",
+          "fmt": "XLS",
+          "sizeBytes": 18132,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/adee3aab-aaef-4a77-a4f5-f1c36d152ff6.xls",
+          "file": "filings/Blackstone/docs/wcf80285a7c905e69.xls"
+        },
+        {
+          "name": "Dec 04, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-04",
+          "fmt": "PDF",
+          "sizeBytes": 695457,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/7be06b40-43a5-4ee9-9b3b-d20499fdf481.pdf",
+          "file": "filings/Blackstone/docs/wba315a1250ce5ecc.pdf"
+        },
+        {
+          "name": "Dec 04, 2024 - Form 424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-04",
+          "fmt": "XLS",
+          "sizeBytes": 46697,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/7115f85e-9fd2-4d6f-a37f-a312aa65396e.xls",
+          "file": "filings/Blackstone/docs/wdfe01545a9854fbd.xls"
+        },
+        {
+          "name": "Dec 02, 2024 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 716517,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f53067a7-e042-4db8-ad05-3531077ef16e.pdf",
+          "file": "filings/Blackstone/docs/w01041764bd7a8748.pdf"
+        },
+        {
+          "name": "Dec 02, 2024 - Form424B5",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-02",
+          "fmt": "XLS",
+          "sizeBytes": 25318,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/49d74a7e-372d-408e-bea4-ba268d56c3bc.xls",
+          "file": "filings/Blackstone/docs/wd9d65e80a5419dfa.xls"
+        },
+        {
+          "name": "Dec 02, 2024 - FormS-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 1362307,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/88808b44-d085-4133-8bb4-4529a658f405.pdf",
+          "file": "filings/Blackstone/docs/wa6a884784512f276.pdf"
+        },
+        {
+          "name": "Dec 02, 2024 - FormS-3ASR",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-02",
+          "fmt": "XLS",
+          "sizeBytes": 124341,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/9223ef17-6fec-418d-a828-344380f66466.xls",
+          "file": "filings/Blackstone/docs/w1270c9fc3f89e155.xls"
+        },
+        {
+          "name": "Feb 23, 2024 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-23",
+          "fmt": "PDF",
+          "sizeBytes": 151222,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/2c185951-baa5-43d5-ba7d-1f85f6e6b3af.pdf",
+          "file": "filings/Blackstone/docs/wdaa56f601c8f9072.pdf"
+        },
+        {
+          "name": "Feb 23, 2024 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-02-23",
+          "fmt": "XLS",
+          "sizeBytes": 18356,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/350e5e1c-265d-439e-b064-f5071fc8d43a.xls",
+          "file": "filings/Blackstone/docs/w049dde5051a45884.xls"
+        },
+        {
+          "name": "Feb 24, 2023 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "PDF",
+          "sizeBytes": 145985,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/287640a0-da66-4042-84da-69276a033ceb.pdf",
+          "file": "filings/Blackstone/docs/w8d95dfa605283de7.pdf"
+        },
+        {
+          "name": "Feb 24, 2023 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-02-24",
+          "fmt": "XLS",
+          "sizeBytes": 18354,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3ce6333b-aa1f-4eaf-a209-8ab5d94cc537.xls",
+          "file": "filings/Blackstone/docs/w453cc6cfdec7c952.xls"
+        },
+        {
+          "name": "Feb 25, 2022 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-25",
+          "fmt": "PDF",
+          "sizeBytes": 173712,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/67b4eafe-e38c-4883-8c9b-8358ac172542.pdf",
+          "file": "filings/Blackstone/docs/w536586a8c22bcb59.pdf"
+        },
+        {
+          "name": "Feb 25, 2022 - FormS-8",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-02-25",
+          "fmt": "XLS",
+          "sizeBytes": 18344,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3834421c-2257-44ff-ba77-210c0d2060d4.xls",
+          "file": "filings/Blackstone/docs/w4fd1ebc06f99b4df.xls"
+        },
+        {
+          "name": "May 08, 2026 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2026-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 5868402,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526214609/d60424d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312526214609__d60424d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 1446533,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/2bb0df8c-b5f1-4a6e-b708-7f1a29b17bc5.pdf",
+          "file": "filings/Blackstone/docs/w2d22ae83a16f127b.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "May 08, 2026 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2026-05-08",
+          "fmt": "XLS",
+          "sizeBytes": 406837,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/75881c1d-56c9-4fd2-add8-61776094157f.xls",
+          "file": "filings/Blackstone/docs/wa913f85e1e71e66b.xls"
+        },
+        {
+          "name": "Nov 07, 2025 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2025-11-07",
-          "fmt": "HTM",
-          "sizeBytes": 7041098,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525272343/d48696d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312525272343__d48696d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 2448073,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/136f07f6-2b8c-49ea-be77-8eb8b67915a8.pdf",
+          "file": "filings/Blackstone/docs/wd9e8c255fcd3f0d0.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Aug 08, 2025 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2025-08-08",
-          "fmt": "HTM",
-          "sizeBytes": 7197446,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525176984/d83467d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312525176984__d83467d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 2128530,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ea50abff-6773-49bb-b854-16de033902ff.pdf",
+          "file": "filings/Blackstone/docs/w3badbc445d0e2ddc.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Aug 08, 2025 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-08-08",
+          "fmt": "XLS",
+          "sizeBytes": 478118,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/a901ed79-80c2-4c30-b1f1-3c0f5d4ad92d.xls",
+          "file": "filings/Blackstone/docs/wac20be14984355cf.xls"
+        },
+        {
+          "name": "May 02, 2025 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 5452739,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525111595/d894615d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312525111595__d894615d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 1688819,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3c2fe355-396b-4230-8123-bcfc687e6d22.pdf",
+          "file": "filings/Blackstone/docs/w3440dc9ecaddd7c9.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "May 02, 2025 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-05-02",
+          "fmt": "XLS",
+          "sizeBytes": 384696,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/b2aa7ca5-88a0-46d3-bef1-4f0260034f2f.xls",
+          "file": "filings/Blackstone/docs/wd0232754f62b90ab.xls"
+        },
+        {
+          "name": "Nov 01, 2024 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2024-11-01",
-          "fmt": "HTM",
-          "sizeBytes": 8118681,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524249809/d896208d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312524249809__d896208d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 7559681,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/26cfd598-ba5e-4178-88c9-0677ac99ca77.pdf",
+          "file": "filings/Blackstone/docs/w79f66c0c0112f0bc.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Nov 01, 2024 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-11-01",
+          "fmt": "XLS",
+          "sizeBytes": 464011,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/b2f8920c-7f56-4c0c-9021-fb49676ff9e5.xls",
+          "file": "filings/Blackstone/docs/wf0bb462bf994b211.xls"
+        },
+        {
+          "name": "Aug 02, 2024 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2024-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 8328761,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524192846/d844230d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312524192846__d844230d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 2137456,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/29cd6ddc-6243-4097-9147-fe96ecedd3e6.pdf",
+          "file": "filings/Blackstone/docs/wd3e6573f6f40fa40.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Aug 02, 2024 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-08-02",
+          "fmt": "XLS",
+          "sizeBytes": 454287,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f4d8ae85-f182-46dd-b1ee-ba3355417a56.xls",
+          "file": "filings/Blackstone/docs/wf447aa8f57b94e7e.xls"
+        },
+        {
+          "name": "May 03, 2024 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2024-05-03",
-          "fmt": "HTM",
-          "sizeBytes": 6466226,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524130670/d806510d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312524130670__d806510d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 2660563,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/7a4610db-46fa-4cba-9790-ca6473484d22.pdf",
+          "file": "filings/Blackstone/docs/w1b1a6459dc53b33f.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "May 03, 2024 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-05-03",
+          "fmt": "XLS",
+          "sizeBytes": 380494,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3a4f63c0-c70d-49b0-8e8c-7f21555dd7a4.xls",
+          "file": "filings/Blackstone/docs/w51ca59c97c670f35.xls"
+        },
+        {
+          "name": "Nov 03, 2023 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2023-11-03",
-          "fmt": "HTM",
-          "sizeBytes": 8098012,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523270358/d547912d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312523270358__d547912d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 4737380,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/50fef3b8-c235-4cde-92e3-9d5efd0c4a4a.pdf",
+          "file": "filings/Blackstone/docs/w5afa331b9edb78e1.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Nov 03, 2023 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2023-11-03",
+          "fmt": "XLS",
+          "sizeBytes": 454651,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/26ff0a1b-c8c1-4bb6-a344-b95db1594347.xls",
+          "file": "filings/Blackstone/docs/wbbedb4da442f963a.xls"
+        },
+        {
+          "name": "Aug 04, 2023 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2023-08-04",
-          "fmt": "HTM",
-          "sizeBytes": 8288300,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523203835/d868231d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312523203835__d868231d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 2373579,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f06fa08c-36fa-42a9-bea9-8b0ab809ca2d.pdf",
+          "file": "filings/Blackstone/docs/w7dceef3378d7fd13.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Aug 04, 2023 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2023-08-04",
+          "fmt": "XLS",
+          "sizeBytes": 453407,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/284adfbc-ee3f-44e6-b913-87d733497d1b.xls",
+          "file": "filings/Blackstone/docs/wa1c422123a13821d.xls"
+        },
+        {
+          "name": "May 05, 2023 - Form10-Q",
+          "form": "IR",
           "group": "Quarterly",
           "date": "2023-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 5901510,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523137073/d480850d10q.htm",
-          "file": "filings/Blackstone/docs/10_Q/000119312523137073__d480850d10q.htm"
+          "fmt": "PDF",
+          "sizeBytes": 1619470,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e14898ad-306b-4ba9-80d4-9bf3ac35e062.pdf",
+          "file": "filings/Blackstone/docs/wb26d252a74771a78.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "May 05, 2023 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2023-05-05",
+          "fmt": "XLS",
+          "sizeBytes": 381113,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f6b48136-c533-4894-9612-ee08c2a98d7e.xls",
+          "file": "filings/Blackstone/docs/wd518d4a3d351c3d7.xls"
+        },
+        {
+          "name": "Nov 04, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-11-04",
+          "fmt": "PDF",
+          "sizeBytes": 2041180,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e792af1f-160b-4ecd-9197-93009a8bc1ba.pdf",
+          "file": "filings/Blackstone/docs/w3c67731b80a162ea.pdf"
+        },
+        {
+          "name": "Nov 04, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-11-04",
+          "fmt": "XLS",
+          "sizeBytes": 449621,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/9a61de09-849d-42c9-a3e7-a39ab03671e8.xls",
+          "file": "filings/Blackstone/docs/w2cd2951c10c3dcd0.xls"
+        },
+        {
+          "name": "Aug 05, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-08-05",
+          "fmt": "PDF",
+          "sizeBytes": 1993717,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/58a1cfa0-18da-4ac0-b645-222bc97bfe2f.pdf",
+          "file": "filings/Blackstone/docs/wb84490e0f91baa2c.pdf"
+        },
+        {
+          "name": "Aug 05, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-08-05",
+          "fmt": "XLS",
+          "sizeBytes": 453742,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/203d493a-1d87-4f45-a58b-ca61f443ef36.xls",
+          "file": "filings/Blackstone/docs/w77e5b0694b573b09.xls"
+        },
+        {
+          "name": "May 05, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-05-05",
+          "fmt": "PDF",
+          "sizeBytes": 1779472,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/314b762c-7b14-4b7d-b7ab-4f5838ecf088.pdf",
+          "file": "filings/Blackstone/docs/wd61ff021ed1c309f.pdf"
+        },
+        {
+          "name": "May 05, 2022 - Form10-Q",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-05-05",
+          "fmt": "XLS",
+          "sizeBytes": 375163,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/99d56196-0e01-4584-a0e3-486a08253392.xls",
+          "file": "filings/Blackstone/docs/w1847849080fde739.xls"
+        },
+        {
+          "name": "Jun 23, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2026-06-23",
+          "fmt": "PDF",
+          "sizeBytes": 103656,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/31a81e37-f1c4-4212-86aa-afaa71f06e65.pdf",
+          "file": "filings/Blackstone/docs/wd623076a37665633.pdf"
+        },
+        {
+          "name": "Jun 23, 2026 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2026-06-23",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4a4ef1ac-beff-403d-9744-7c714e5eebc8.xls",
+          "file": "filings/Blackstone/docs/we0b870a4804b1f3d.xls"
+        },
+        {
+          "name": "Apr 23, 2026 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2026-04-23",
-          "fmt": "HTM",
-          "sizeBytes": 24423,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526171788/d60443d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312526171788__d60443d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 958315,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/209d9516-3e5e-4712-802b-44f7c1a2ba93.pdf",
+          "file": "filings/Blackstone/docs/wb862ddbca52cedf0.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Apr 23, 2026 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2026-04-23",
+          "fmt": "XLS",
+          "sizeBytes": 182812,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/b1655338-15c2-48b6-abe7-da07b7a1deb0.xls",
+          "file": "filings/Blackstone/docs/w91c949a92b34d85c.xls"
+        },
+        {
+          "name": "Mar 24, 2026 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2026-03-24",
-          "fmt": "HTM",
-          "sizeBytes": 24835,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526121857/d320450d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312526121857__d320450d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103625,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e836ca68-7af8-4a98-a644-9bf2787e28aa.pdf",
+          "file": "filings/Blackstone/docs/w8ff8358e3d006d7a.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Mar 24, 2026 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2026-03-24",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f73f12b7-d738-4d70-b12c-23a8f91652ad.xls",
+          "file": "filings/Blackstone/docs/wa6f0702951ce4df4.xls"
+        },
+        {
+          "name": "Jan 29, 2026 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2026-01-29",
-          "fmt": "HTM",
-          "sizeBytes": 24425,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526028145/d92648d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312526028145__d92648d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 885264,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f66e9656-0920-403b-83ab-475676f9aa99.pdf",
+          "file": "filings/Blackstone/docs/w955074064672a75c.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Jan 29, 2026 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2026-01-29",
+          "fmt": "XLS",
+          "sizeBytes": 181296,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/30ca448c-f9e8-48dc-bb01-34ff72a86e82.xls",
+          "file": "filings/Blackstone/docs/w131f7085045a0eca.xls"
+        },
+        {
+          "name": "Nov 03, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-11-03",
-          "fmt": "HTM",
-          "sizeBytes": 41227,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525262626/d202459d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525262626__d202459d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 647834,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/0f4d7f3f-af00-430d-b3c6-9071e758499f.pdf",
+          "file": "filings/Blackstone/docs/w9de621093d820f54.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Nov 03, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-11-03",
+          "fmt": "XLS",
+          "sizeBytes": 48985,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/098ab21b-aee1-4443-ab7b-9675391f4383.xls",
+          "file": "filings/Blackstone/docs/w92c76550bffa7d83.xls"
+        },
+        {
+          "name": "Oct 28, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-10-28",
-          "fmt": "HTM",
-          "sizeBytes": 26226,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525253885/d99329d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525253885__d99329d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103462,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/913a12cf-f30c-4c37-af96-b8b04aae5a57.pdf",
+          "file": "filings/Blackstone/docs/wcda51f354ca5ef08.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Oct 28, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-10-28",
-          "fmt": "HTM",
-          "sizeBytes": 25189,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525252448/d45280d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525252448__d45280d8k.htm"
+          "fmt": "XLS",
+          "sizeBytes": 12405,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f93b8d59-edea-4d04-9ce1-4bba3747ec5d.xls",
+          "file": "filings/Blackstone/docs/wb1f3a98e2abf8c59.xls"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Oct 28, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-28",
+          "fmt": "PDF",
+          "sizeBytes": 101399,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/145a6a77-a56d-4f2e-8afa-360da99c2635.pdf",
+          "file": "filings/Blackstone/docs/w34911a4a60d5783b.pdf"
+        },
+        {
+          "name": "Oct 28, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-28",
+          "fmt": "XLS",
+          "sizeBytes": 12496,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/627914b9-bb53-4494-b693-24faf699bd5e.xls",
+          "file": "filings/Blackstone/docs/w3c2f7834d2f251f6.xls"
+        },
+        {
+          "name": "Oct 23, 2025 - Form8-K/A",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-10-23",
-          "fmt": "HTM",
-          "sizeBytes": 24291,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525247643/d48505d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525247643__d48505d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 1053281,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4daf4a45-e989-4e52-b325-62dc88181142.pdf",
+          "file": "filings/Blackstone/docs/w6cd99f0cbb83d984.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Oct 23, 2025 - Form8-K/A",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-23",
+          "fmt": "XLS",
+          "sizeBytes": 190746,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/07ce99d7-2782-4134-b9dc-9f953fd682d1.xls",
+          "file": "filings/Blackstone/docs/w79d83ff193c8fac1.xls"
+        },
+        {
+          "name": "Oct 23, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-23",
+          "fmt": "PDF",
+          "sizeBytes": 1049914,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e91a5ff1-555f-45f8-814e-5043bb6653d6.pdf",
+          "file": "filings/Blackstone/docs/wad2360430b6a7325.pdf"
+        },
+        {
+          "name": "Oct 23, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-23",
+          "fmt": "XLS",
+          "sizeBytes": 190485,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4b539cf9-036e-4fff-972d-919b9f1b793f.xls",
+          "file": "filings/Blackstone/docs/w43f81e0eadc1b982.xls"
+        },
+        {
+          "name": "Oct 17, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-10-17",
-          "fmt": "HTM",
-          "sizeBytes": 29434,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525242655/d57584d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525242655__d57584d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 816858,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/afb7b3ea-0afa-43df-b97a-82e2ddc7dc55.pdf",
+          "file": "filings/Blackstone/docs/w38f7475e87f8f2f4.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Oct 17, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-10-17",
+          "fmt": "XLS",
+          "sizeBytes": 13822,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ad5efc60-2f5d-4bcc-bc32-6c6d64f6b706.xls",
+          "file": "filings/Blackstone/docs/w241d7a18302001f9.xls"
+        },
+        {
+          "name": "Sep 24, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-09-24",
-          "fmt": "HTM",
-          "sizeBytes": 24634,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525215457/d27065d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525215457__d27065d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 153127,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/c20357e8-4094-440e-bbda-f54eea5ec672.pdf",
+          "file": "filings/Blackstone/docs/w80cb81e208fafa31.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Sep 24, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-09-24",
+          "fmt": "XLS",
+          "sizeBytes": 11622,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/9c3e566f-00ed-4479-ab78-252ffbfd50c1.xls",
+          "file": "filings/Blackstone/docs/w8f8f5d7ff50ae87a.xls"
+        },
+        {
+          "name": "Jul 24, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-07-24",
-          "fmt": "HTM",
-          "sizeBytes": 24341,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525163805/d83435d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525163805__d83435d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 998718,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/71fbfdb9-333c-491b-b5be-827f25fba3d0.pdf",
+          "file": "filings/Blackstone/docs/wa53898e79cde3b1c.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Jul 24, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-07-24",
+          "fmt": "XLS",
+          "sizeBytes": 187536,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/b0b3a094-0764-4766-84eb-f2a31708ff70.xls",
+          "file": "filings/Blackstone/docs/w19f082831c530940.xls"
+        },
+        {
+          "name": "Jun 24, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-06-24",
-          "fmt": "HTM",
-          "sizeBytes": 25245,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525145785/d70366d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525145785__d70366d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103378,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ebe31c5e-7062-4a94-bcd9-fac434747985.pdf",
+          "file": "filings/Blackstone/docs/w23fac9b129e4e392.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Jun 24, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-06-24",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/a2e646f7-b466-487b-9c7f-21e9333d2e12.xls",
+          "file": "filings/Blackstone/docs/w058a1aaa1b9157b2.xls"
+        },
+        {
+          "name": "Apr 17, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 24106,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525083472/d894616d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525083472__d894616d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 960106,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f203852e-9ce5-4d22-8386-0e124b605cb8.pdf",
+          "file": "filings/Blackstone/docs/w762f55840272336c.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Apr 17, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-04-17",
+          "fmt": "XLS",
+          "sizeBytes": 181187,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/2a22b8b5-dbcb-4a93-b391-bef7ac9ef69a.xls",
+          "file": "filings/Blackstone/docs/w362fc3b735c38db5.xls"
+        },
+        {
+          "name": "Mar 25, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-03-25",
-          "fmt": "HTM",
-          "sizeBytes": 25402,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525062559/d942397d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525062559__d942397d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103653,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e3c78c71-3d14-4a3b-89fa-b3f0047011c7.pdf",
+          "file": "filings/Blackstone/docs/wdfef9fbb6e05475e.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Mar 25, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-03-25",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/8d8e4be7-4f42-4dd5-abd7-d362e89bb9b3.xls",
+          "file": "filings/Blackstone/docs/wa9c5cfc73c851ffe.xls"
+        },
+        {
+          "name": "Jan 30, 2025 - Form8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2025-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 23811,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525016236/d876858d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312525016236__d876858d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 1010866,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/17f522bf-f7ee-42df-80e7-afb9b10d31cc.pdf",
+          "file": "filings/Blackstone/docs/w10dbfd11704c7f9b.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Jan 30, 2025 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-01-30",
+          "fmt": "XLS",
+          "sizeBytes": 175832,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4e1e3b03-31ae-4bb1-8321-3dc170e6c225.xls",
+          "file": "filings/Blackstone/docs/w20c51d0c365fbd79.xls"
+        },
+        {
+          "name": "Dec 23, 2024 - Form 8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2024-12-23",
-          "fmt": "HTM",
-          "sizeBytes": 25590,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524284196/d888684d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312524284196__d888684d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 103571,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/6e43da8f-30ea-4514-be9b-ccb2ad463db0.pdf",
+          "file": "filings/Blackstone/docs/w5139111739043e9c.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "Dec 23, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-23",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/614c4bc4-d772-49b8-8133-9c21306326bb.xls",
+          "file": "filings/Blackstone/docs/wb5439af4e7a6f65c.xls"
+        },
+        {
+          "name": "Dec 06, 2024 - Form 8-K",
+          "form": "IR",
           "group": "Earnings / Events",
           "date": "2024-12-06",
-          "fmt": "HTM",
-          "sizeBytes": 37460,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524272512/d635130d8k.htm",
-          "file": "filings/Blackstone/docs/8_K/000119312524272512__d635130d8k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 955745,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/c69bd670-6f6e-4467-92b7-4718948a8363.pdf",
+          "file": "filings/Blackstone/docs/wec8eefd13b2a28e6.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Dec 06, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-06",
+          "fmt": "XLS",
+          "sizeBytes": 45096,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/62004fcf-6e12-4ae7-aa62-f12d9ec0478e.xls",
+          "file": "filings/Blackstone/docs/w7eb8c5aabe4d18e9.xls"
+        },
+        {
+          "name": "Dec 03, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-03",
+          "fmt": "PDF",
+          "sizeBytes": 123280,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f3d5a722-f0f5-4894-9283-9c84e9a06cda.pdf",
+          "file": "filings/Blackstone/docs/w05cfb9233b035550.pdf"
+        },
+        {
+          "name": "Dec 03, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-03",
+          "fmt": "XLS",
+          "sizeBytes": 12405,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/a5d458d0-9243-45c6-afd6-461e908fc8b6.xls",
+          "file": "filings/Blackstone/docs/w89b544d9ea9db196.xls"
+        },
+        {
+          "name": "Dec 02, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-02",
+          "fmt": "PDF",
+          "sizeBytes": 121455,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/61bac15f-4e38-4840-853c-d442eda98b20.pdf",
+          "file": "filings/Blackstone/docs/wdc56368a3263dc69.pdf"
+        },
+        {
+          "name": "Dec 02, 2024 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-12-02",
+          "fmt": "XLS",
+          "sizeBytes": 12496,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/59978c7e-723e-44fa-9b2c-639d09014472.xls",
+          "file": "filings/Blackstone/docs/w0c2d327855be83a5.xls"
+        },
+        {
+          "name": "Nov 25, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-11-25",
+          "fmt": "PDF",
+          "sizeBytes": 3715112,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f368c5de-e30f-4408-85b9-b5699d996968.pdf",
+          "file": "filings/Blackstone/docs/w88ae37b053f3b3cb.pdf"
+        },
+        {
+          "name": "Nov 25, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-11-25",
+          "fmt": "XLS",
+          "sizeBytes": 785790,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/d55a4da3-e8f9-4018-a65a-198c65bf40d3.xls",
+          "file": "filings/Blackstone/docs/wb3bee3a97d25cafa.xls"
+        },
+        {
+          "name": "Nov 13, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-11-13",
+          "fmt": "PDF",
+          "sizeBytes": 90183,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/fe9dd817-8a17-4ce0-86a1-276183eab056.pdf",
+          "file": "filings/Blackstone/docs/w0638cf8d33384760.pdf"
+        },
+        {
+          "name": "Nov 13, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-11-13",
+          "fmt": "XLS",
+          "sizeBytes": 10240,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e8f048fb-c8e5-4635-920b-a9e4840e5b06.xls",
+          "file": "filings/Blackstone/docs/w952586ad5a89a032.xls"
+        },
+        {
+          "name": "Oct 17, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-10-17",
+          "fmt": "PDF",
+          "sizeBytes": 1016149,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/6c2776fd-71d7-4bcb-8d70-7ad8d7f9cbc0.pdf",
+          "file": "filings/Blackstone/docs/w1d0337c9ec16293e.pdf"
+        },
+        {
+          "name": "Oct 17, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-10-17",
+          "fmt": "XLS",
+          "sizeBytes": 183552,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/5810ead1-9e22-4d3d-bf03-53ef3921f7ed.xls",
+          "file": "filings/Blackstone/docs/w178208b41e832e2e.xls"
+        },
+        {
+          "name": "Sep 24, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-09-24",
+          "fmt": "PDF",
+          "sizeBytes": 103709,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/37f11b53-16d8-4a2b-be30-f6e2f6ff1fab.pdf",
+          "file": "filings/Blackstone/docs/w91852ab231874e41.pdf"
+        },
+        {
+          "name": "Sep 24, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-09-24",
+          "fmt": "XLS",
+          "sizeBytes": 10752,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ccc3fa29-c016-47e3-be2d-4351380a792e.xls",
+          "file": "filings/Blackstone/docs/w4bbf1bd3b598668b.xls"
+        },
+        {
+          "name": "Jul 18, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-07-18",
+          "fmt": "PDF",
+          "sizeBytes": 1008705,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/56cfe2da-338b-41dd-a2a4-0a15abf5ee28.pdf",
+          "file": "filings/Blackstone/docs/w5fc27b1c0c331aeb.pdf"
+        },
+        {
+          "name": "Jul 18, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-07-18",
+          "fmt": "XLS",
+          "sizeBytes": 183215,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/c2037232-b6e6-4365-a1ab-3735202b1ee7.xls",
+          "file": "filings/Blackstone/docs/w356801a6a50668e4.xls"
+        },
+        {
+          "name": "Jul 03, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-07-03",
+          "fmt": "PDF",
+          "sizeBytes": 107945,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/666b3193-74d8-4c79-b0cd-1bb70551f9e7.pdf",
+          "file": "filings/Blackstone/docs/wc0313ee710f1c523.pdf"
+        },
+        {
+          "name": "Jul 03, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-07-03",
+          "fmt": "XLS",
+          "sizeBytes": 10240,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/88e5e0d3-65be-43b2-af36-67a6a30141e5.xls",
+          "file": "filings/Blackstone/docs/w3477c309a41bc407.xls"
+        },
+        {
+          "name": "Apr 18, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-04-18",
+          "fmt": "PDF",
+          "sizeBytes": 986950,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/e274ec56-a343-4c22-b6ba-10909db4b192.pdf",
+          "file": "filings/Blackstone/docs/w55680f2522e6da94.pdf"
+        },
+        {
+          "name": "Apr 18, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-04-18",
+          "fmt": "XLS",
+          "sizeBytes": 182568,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/f7a6ee82-a012-436a-9702-9fe40d354a18.xls",
+          "file": "filings/Blackstone/docs/w02cd28890d6297e3.xls"
+        },
+        {
+          "name": "Jan 25, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-01-25",
+          "fmt": "PDF",
+          "sizeBytes": 763993,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/082fdd24-2742-4f3e-b56c-3bdf7ae3d806.pdf",
+          "file": "filings/Blackstone/docs/wdb8c2c0060dc8f85.pdf"
+        },
+        {
+          "name": "Jan 25, 2024 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2024-01-25",
+          "fmt": "XLS",
+          "sizeBytes": 184058,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ccc71026-d67c-4364-9a51-d611377e5e64.xls",
+          "file": "filings/Blackstone/docs/w1a70382f647b56e7.xls"
+        },
+        {
+          "name": "Dec 20, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-12-20",
+          "fmt": "PDF",
+          "sizeBytes": 885768,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/c827bd02-6243-44f2-a6d6-5127d86c76d4.pdf",
+          "file": "filings/Blackstone/docs/w282433502087bbff.pdf"
+        },
+        {
+          "name": "Dec 20, 2023 - Form 8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-12-20",
+          "fmt": "XLS",
+          "sizeBytes": 14848,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/b985af60-8359-4fdb-91ee-f353ba53c66e.xls",
+          "file": "filings/Blackstone/docs/wc20c3b5658988e58.xls"
+        },
+        {
+          "name": "Oct 19, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-10-19",
+          "fmt": "PDF",
+          "sizeBytes": 982819,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/690590ee-13c4-4430-8426-6d9b45c8f02c.pdf",
+          "file": "filings/Blackstone/docs/w1df5adf7c2f882d9.pdf"
+        },
+        {
+          "name": "Oct 19, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-10-19",
+          "fmt": "XLS",
+          "sizeBytes": 185431,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/1313e0df-6b5a-4e82-8329-c9111d8b65e2.xls",
+          "file": "filings/Blackstone/docs/waf8160821be3f62b.xls"
+        },
+        {
+          "name": "Aug 25, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-08-25",
+          "fmt": "PDF",
+          "sizeBytes": 86241,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/de7704bb-36ab-4779-9b07-369dde6e993a.pdf",
+          "file": "filings/Blackstone/docs/wa924c6b56f2bb605.pdf"
+        },
+        {
+          "name": "Aug 25, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-08-25",
+          "fmt": "XLS",
+          "sizeBytes": 10240,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/9734d369-8caa-40ab-888c-3413a12fc2a9.xls",
+          "file": "filings/Blackstone/docs/w8e156c66d3f1e972.xls"
+        },
+        {
+          "name": "Jul 20, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-07-20",
+          "fmt": "PDF",
+          "sizeBytes": 997770,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ea357062-e22d-498b-a270-355a81eaa330.pdf",
+          "file": "filings/Blackstone/docs/w31f3809e127518a9.pdf"
+        },
+        {
+          "name": "Jul 20, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-07-20",
+          "fmt": "XLS",
+          "sizeBytes": 196067,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/23a5d62c-d4c2-4127-a27e-f21c674fa44d.xls",
+          "file": "filings/Blackstone/docs/w601082908f9d6c7a.xls"
+        },
+        {
+          "name": "Apr 20, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-04-20",
+          "fmt": "PDF",
+          "sizeBytes": 803151,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3e09f84b-5de6-4efa-8a4f-53d7f4a83008.pdf",
+          "file": "filings/Blackstone/docs/w3b8d6e2da9a7abc2.pdf"
+        },
+        {
+          "name": "Apr 20, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-04-20",
+          "fmt": "XLS",
+          "sizeBytes": 178229,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/72e2b380-5f07-45fe-b667-a6e46c44335a.xls",
+          "file": "filings/Blackstone/docs/we1ec969324b3318a.xls"
+        },
+        {
+          "name": "Jan 26, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-01-26",
+          "fmt": "PDF",
+          "sizeBytes": 1055470,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4cad8886-93cb-4f6c-ba22-27f8f66c8596.pdf",
+          "file": "filings/Blackstone/docs/w2a18be2a12dbb6da.pdf"
+        },
+        {
+          "name": "Jan 26, 2023 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2023-01-26",
+          "fmt": "XLS",
+          "sizeBytes": 178727,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/04ef95a9-d989-493a-94c7-501751e9d4ca.xls",
+          "file": "filings/Blackstone/docs/w1b9e2fbe0156b4d6.xls"
+        },
+        {
+          "name": "Nov 03, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-11-03",
+          "fmt": "PDF",
+          "sizeBytes": 452512,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/0ef89d59-5bfc-4a4d-bfed-20d4078532b4.pdf",
+          "file": "filings/Blackstone/docs/w030dbce72c0b51fd.pdf"
+        },
+        {
+          "name": "Nov 03, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-11-03",
+          "fmt": "XLS",
+          "sizeBytes": 24241,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/fee00e0d-79fa-43ab-a6aa-aefb8abc727f.xls",
+          "file": "filings/Blackstone/docs/w95d18bc4cc2ffde1.xls"
+        },
+        {
+          "name": "Nov 01, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-11-01",
+          "fmt": "PDF",
+          "sizeBytes": 117924,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/a50c8326-ea81-42c2-9300-336988e05bcd.pdf",
+          "file": "filings/Blackstone/docs/w9340f87a4982f805.pdf"
+        },
+        {
+          "name": "Nov 01, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-11-01",
+          "fmt": "XLS",
+          "sizeBytes": 12405,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3f44984e-8717-4a27-bd31-8ba3cbdf85fd.xls",
+          "file": "filings/Blackstone/docs/wc42e103f17d2e2e8.xls"
+        },
+        {
+          "name": "Oct 31, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-10-31",
+          "fmt": "PDF",
+          "sizeBytes": 114560,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/0a80b4d8-89ae-4526-afcd-8d60151cb6bb.pdf",
+          "file": "filings/Blackstone/docs/w55a345c788790357.pdf"
+        },
+        {
+          "name": "Oct 31, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-10-31",
+          "fmt": "XLS",
+          "sizeBytes": 12527,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/86e42a1e-208c-4c7b-8cea-8623afaaa10f.xls",
+          "file": "filings/Blackstone/docs/wb8cd6cae6d350190.xls"
+        },
+        {
+          "name": "Oct 20, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-10-20",
+          "fmt": "PDF",
+          "sizeBytes": 1006634,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/96da104a-0b31-4a56-8499-03303cd4ebcf.pdf",
+          "file": "filings/Blackstone/docs/wd57d594485aba4ba.pdf"
+        },
+        {
+          "name": "Oct 20, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-10-20",
+          "fmt": "XLS",
+          "sizeBytes": 183813,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/994efdaf-7f06-4ce5-9988-4ca88f6f29bf.xls",
+          "file": "filings/Blackstone/docs/we7ba5bb5bd117531.xls"
+        },
+        {
+          "name": "Jul 21, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-07-21",
+          "fmt": "PDF",
+          "sizeBytes": 968882,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/080fdccd-ab8e-4cf8-8959-8894770a3088.pdf",
+          "file": "filings/Blackstone/docs/w4e337689557a8d01.pdf"
+        },
+        {
+          "name": "Jul 21, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-07-21",
+          "fmt": "XLS",
+          "sizeBytes": 180507,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/192cc74f-53d2-495f-aba6-a24604d29288.xls",
+          "file": "filings/Blackstone/docs/w91f3a0f4eb80df87.xls"
+        },
+        {
+          "name": "Jun 08, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-06-08",
+          "fmt": "PDF",
+          "sizeBytes": 807210,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/0e45677f-1536-42fa-9116-0acb1f2c3764.pdf",
+          "file": "filings/Blackstone/docs/w972f1c5adb559559.pdf"
+        },
+        {
+          "name": "Jun 08, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-06-08",
+          "fmt": "XLS",
+          "sizeBytes": 13790,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/75d209d2-1ca7-4eab-880a-c101d2512ac4.xls",
+          "file": "filings/Blackstone/docs/wb4f16bd15bf7e33c.xls"
+        },
+        {
+          "name": "Jun 01, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-06-01",
+          "fmt": "PDF",
+          "sizeBytes": 357224,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/102963c7-7284-4e28-bde1-973eb7e914dc.pdf",
+          "file": "filings/Blackstone/docs/w262ef794c67d2052.pdf"
+        },
+        {
+          "name": "Jun 01, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-06-01",
+          "fmt": "XLS",
+          "sizeBytes": 17492,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/7396fcaf-0207-4163-9dc2-2e13e93c18bb.xls",
+          "file": "filings/Blackstone/docs/w16ab6bee4c410175.xls"
+        },
+        {
+          "name": "May 25, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-05-25",
+          "fmt": "PDF",
+          "sizeBytes": 124151,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/207230e6-9af8-4580-bcbb-4016090d4b7a.pdf",
+          "file": "filings/Blackstone/docs/w7b9baed3c2657008.pdf"
+        },
+        {
+          "name": "May 25, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-05-25",
+          "fmt": "XLS",
+          "sizeBytes": 12397,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/744ce574-edb4-444b-b6e3-a1830fa1ef77.xls",
+          "file": "filings/Blackstone/docs/w6a7a0117a5bd62f5.xls"
+        },
+        {
+          "name": "May 25, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-05-25",
+          "fmt": "PDF",
+          "sizeBytes": 122398,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/49c2d3ab-d3cf-40d0-80cb-47c9f3d43b0c.pdf",
+          "file": "filings/Blackstone/docs/w3225a7c9f02d6903.pdf"
+        },
+        {
+          "name": "May 25, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-05-25",
+          "fmt": "XLS",
+          "sizeBytes": 12553,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/399b5157-bf24-4012-8e6f-6927ce3e0aab.xls",
+          "file": "filings/Blackstone/docs/we3446e804783394e.xls"
+        },
+        {
+          "name": "Apr 21, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-04-21",
+          "fmt": "PDF",
+          "sizeBytes": 731909,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/35d28e77-1639-4b08-97de-5b75dbc891a5.pdf",
+          "file": "filings/Blackstone/docs/w3c92115d3c75ac63.pdf"
+        },
+        {
+          "name": "Apr 21, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-04-21",
+          "fmt": "XLS",
+          "sizeBytes": 177970,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/81a8c18f-750b-489c-ad96-596e0b667e75.xls",
+          "file": "filings/Blackstone/docs/we952e0a10ec42428.xls"
+        },
+        {
+          "name": "Jan 27, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-27",
+          "fmt": "PDF",
+          "sizeBytes": 645807,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/1a37c934-da8f-4893-a301-d9b1a47a89df.pdf",
+          "file": "filings/Blackstone/docs/w913fa32232f80f20.pdf"
+        },
+        {
+          "name": "Jan 27, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-27",
+          "fmt": "XLS",
+          "sizeBytes": 179411,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4bf5e593-acdf-46cd-a1d7-11d768fe8a1f.xls",
+          "file": "filings/Blackstone/docs/w81414e7ce26a785a.xls"
+        },
+        {
+          "name": "Jan 10, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-10",
+          "fmt": "PDF",
+          "sizeBytes": 366821,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/418cfa1c-b32f-4bcf-9a0a-787003e3ec24.pdf",
+          "file": "filings/Blackstone/docs/wfb793f241409c5c1.pdf"
+        },
+        {
+          "name": "Jan 10, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-10",
+          "fmt": "XLS",
+          "sizeBytes": 24019,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/d1f83e31-8b30-41dd-9017-cd2784973129.xls",
+          "file": "filings/Blackstone/docs/w0afa62b380ed4b62.xls"
+        },
+        {
+          "name": "Jan 04, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-04",
+          "fmt": "PDF",
+          "sizeBytes": 153041,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/64414c85-ae9a-461a-bba9-feafdbcecac8.pdf",
+          "file": "filings/Blackstone/docs/w3e6d4dafdbcf1fb6.pdf"
+        },
+        {
+          "name": "Jan 04, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-04",
+          "fmt": "XLS",
+          "sizeBytes": 11926,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/477ca520-964d-400f-888a-c4e56b825377.xls",
+          "file": "filings/Blackstone/docs/w65920d21a9b6e30a.xls"
+        },
+        {
+          "name": "Jan 03, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-03",
+          "fmt": "PDF",
+          "sizeBytes": 150518,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/42e4a42a-f3f5-4670-ad14-78a4ec5b3aad.pdf",
+          "file": "filings/Blackstone/docs/w63c09cfc3826ff45.pdf"
+        },
+        {
+          "name": "Jan 03, 2022 - Form8-K",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2022-01-03",
+          "fmt": "XLS",
+          "sizeBytes": 12048,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/a3c569b2-aa93-48be-b095-49b6d45790fc.xls",
+          "file": "filings/Blackstone/docs/wce9d68e260f17990.xls"
+        },
+        {
+          "name": "Feb 27, 2026 - Form10-K",
+          "form": "IR",
           "group": "Annual",
           "date": "2026-02-27",
-          "fmt": "HTM",
-          "sizeBytes": 9097644,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
-          "file": "filings/Blackstone/docs/10_K/000119312526082531__d48618d10k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 4229367,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/27f18d99-46da-4f86-b75e-bedf555c7951.pdf",
+          "file": "filings/Blackstone/docs/w14d0108502d13129.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Feb 27, 2026 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2026-02-27",
+          "fmt": "XLS",
+          "sizeBytes": 961059,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/fd397497-0d92-4d93-b6a6-ea5ba8628b6f.xls",
+          "file": "filings/Blackstone/docs/wd03fef7b8464eddd.xls"
+        },
+        {
+          "name": "Feb 28, 2025 - Form10-K",
+          "form": "IR",
           "group": "Annual",
           "date": "2025-02-28",
-          "fmt": "HTM",
-          "sizeBytes": 10125394,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-          "file": "filings/Blackstone/docs/10_K/000119312525042469__d912273d10k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 3966634,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ca0c8716-0e46-4d24-83cd-ed9aba696a36.pdf",
+          "file": "filings/Blackstone/docs/w9afe35a1d284c077.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Feb 28, 2025 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-02-28",
+          "fmt": "XLS",
+          "sizeBytes": 933759,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ff7d8629-17ae-46da-95c0-357683ca8447.xls",
+          "file": "filings/Blackstone/docs/w98807d3a22cb1e90.xls"
+        },
+        {
+          "name": "Feb 23, 2024 - Form10-K",
+          "form": "IR",
           "group": "Annual",
           "date": "2024-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 10109561,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524044485/d734131d10k.htm",
-          "file": "filings/Blackstone/docs/10_K/000119312524044485__d734131d10k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 3951453,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/3f8e2c51-d4b9-4cdb-bfb8-cddf0ae17e68.pdf",
+          "file": "filings/Blackstone/docs/w7544857bd6f6c541.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Feb 23, 2024 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-02-23",
+          "fmt": "XLS",
+          "sizeBytes": 919206,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/477f6f0f-a778-4d3d-87ae-9418e0f1fb69.xls",
+          "file": "filings/Blackstone/docs/w5bf731a523f83e85.xls"
+        },
+        {
+          "name": "Feb 24, 2023 - Form10-K",
+          "form": "IR",
           "group": "Annual",
           "date": "2023-02-24",
-          "fmt": "HTM",
-          "sizeBytes": 9928551,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523048733/d459795d10k.htm",
-          "file": "filings/Blackstone/docs/10_K/000119312523048733__d459795d10k.htm"
+          "fmt": "PDF",
+          "sizeBytes": 3698161,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/7b33b744-f123-48ba-9dd6-0cdbaaa488ff.pdf",
+          "file": "filings/Blackstone/docs/w057c082c15d5775a.pdf"
+        },
+        {
+          "name": "Feb 24, 2023 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-02-24",
+          "fmt": "XLS",
+          "sizeBytes": 878744,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/76df8840-4cae-46ea-9791-81bd71918546.xls",
+          "file": "filings/Blackstone/docs/w0d8a16c3caf9f953.xls"
+        },
+        {
+          "name": "Feb 25, 2022 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-02-25",
+          "fmt": "PDF",
+          "sizeBytes": 2366822,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/ed34990e-3126-4083-8a1f-2a69de8991e5.pdf",
+          "file": "filings/Blackstone/docs/w9dc2402ba208f8c8.pdf"
+        },
+        {
+          "name": "Feb 25, 2022 - Form10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-02-25",
+          "fmt": "XLS",
+          "sizeBytes": 860856,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001393818/4033827c-10a6-4c31-988a-d921fe68e862.xls",
+          "file": "filings/Blackstone/docs/w00793aa70f7c66db.xls"
         }
       ],
       "metrics": {

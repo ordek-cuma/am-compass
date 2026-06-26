@@ -15,7 +15,7 @@ from pathlib import Path
 import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
-from . import (amundi, blackrock, fidelity, franklin, goldman, jpmorgan, statestreet,
+from . import (amundi, blackrock, blackstone, fidelity, franklin, goldman, jpmorgan, statestreet,
                morganstanley, swisslife, troweprice, ubs, vanguard)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
@@ -23,7 +23,7 @@ VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER, goldman.SCRAPER,
+    amundi.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER, goldman.SCRAPER,
     jpmorgan.SCRAPER, morganstanley.SCRAPER, statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, ubs.SCRAPER, vanguard.SCRAPER)}
 
 
