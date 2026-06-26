@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:48:22+00:00",
+  "generated_at": "2026-06-26T14:16:57+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3393,354 +3393,424 @@
       "period_end": "2025-09-30",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "Earnings Press Release Q1 2026",
+          "form": "IR",
           "group": "Quarterly",
-          "date": "2026-04-28",
-          "fmt": "HTM",
-          "sizeBytes": 2084870,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000101/ben-20260331.htm",
-          "file": "filings/FT/docs/10_Q/000003877726000101__ben-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 1601155,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000033/ben-20251231.htm",
-          "file": "filings/FT/docs/10_Q/000003877726000033__ben-20251231.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 2127885,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000135/ben-20250630.htm",
-          "file": "filings/FT/docs/10_Q/000003877725000135__ben-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 2115436,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000075/ben-20250331.htm",
-          "file": "filings/FT/docs/10_Q/000003877725000075__ben-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-01-31",
-          "fmt": "HTM",
-          "sizeBytes": 1577074,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000017/ben-20241231.htm",
-          "file": "filings/FT/docs/10_Q/000003877725000017__ben-20241231.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-07-26",
-          "fmt": "HTM",
-          "sizeBytes": 2295548,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000115/ben-20240630.htm",
-          "file": "filings/FT/docs/10_Q/000003877724000115__ben-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 2207986,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000069/ben-20240331.htm",
-          "file": "filings/FT/docs/10_Q/000003877724000069__ben-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-01-29",
-          "fmt": "HTM",
-          "sizeBytes": 1576515,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000006/ben-20231231.htm",
-          "file": "filings/FT/docs/10_Q/000003877724000006__ben-20231231.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-07-28",
-          "fmt": "HTM",
-          "sizeBytes": 2282216,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000106/ben-20230630.htm",
-          "file": "filings/FT/docs/10_Q/000003877723000106__ben-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 2735052,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000072/ben-20230331.htm",
-          "file": "filings/FT/docs/10_Q/000003877723000072__ben-20230331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 2028075,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000009/ben-20221231.htm",
-          "file": "filings/FT/docs/10_Q/000003877723000009__ben-20221231.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-12-22",
-          "fmt": "HTM",
-          "sizeBytes": 2494250,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000114036125046314/ny20055304x771_def14a.htm",
-          "file": "filings/FT/docs/DEF_14A/000114036125046314__ny20055304x771_def14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-12-20",
-          "fmt": "HTM",
-          "sizeBytes": 1776486,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000114036124050019/ny20036387x1_def14a.htm",
-          "file": "filings/FT/docs/DEF_14A/000114036124050019__ny20036387x1_def14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2023-12-27",
-          "fmt": "HTM",
-          "sizeBytes": 39193,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000130817923001093/lben2024_defa14a.htm",
-          "file": "filings/FT/docs/DEFA14A/000130817923001093__lben2024_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-12-27",
-          "fmt": "HTM",
-          "sizeBytes": 1229381,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000130817923001092/lben2024_def14a.htm",
-          "file": "filings/FT/docs/DEF_14A/000130817923001092__lben2024_def14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-05",
-          "fmt": "HTM",
-          "sizeBytes": 24492,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000171/ben-20260604.htm",
-          "file": "filings/FT/docs/8_K/000003877726000171__ben-20260604.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-28",
-          "fmt": "HTM",
-          "sizeBytes": 26302,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000100/ben-20260428.htm",
-          "file": "filings/FT/docs/8_K/000003877726000100__ben-20260428.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-05",
-          "fmt": "HTM",
-          "sizeBytes": 67796,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000051/ben-20260203.htm",
-          "file": "filings/FT/docs/8_K/000003877726000051__ben-20260203.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 26312,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000032/ben-20260130.htm",
-          "file": "filings/FT/docs/8_K/000003877726000032__ben-20260130.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-17",
-          "fmt": "HTM",
-          "sizeBytes": 29129,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000279/ben-20251211.htm",
-          "file": "filings/FT/docs/8_K/000003877725000279__ben-20251211.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-15",
-          "fmt": "HTM",
-          "sizeBytes": 20320,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000273/ben-20251213.htm",
-          "file": "filings/FT/docs/8_K/000003877725000273__ben-20251213.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-11-07",
-          "fmt": "HTM",
-          "sizeBytes": 26368,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000234/ben-20251107.htm",
-          "file": "filings/FT/docs/8_K/000003877725000234__ben-20251107.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-08",
-          "fmt": "HTM",
-          "sizeBytes": 27669,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000189/ben-20250908.htm",
-          "file": "filings/FT/docs/8_K/000003877725000189__ben-20250908.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 26310,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000133/ben-20250801.htm",
-          "file": "filings/FT/docs/8_K/000003877725000133__ben-20250801.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-09",
-          "fmt": "HTM",
-          "sizeBytes": 24289,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000127/ben-20250708.htm",
-          "file": "filings/FT/docs/8_K/000003877725000127__ben-20250708.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 27411,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000074/ben-20250502.htm",
-          "file": "filings/FT/docs/8_K/000003877725000074__ben-20250502.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-02-07",
-          "fmt": "HTM",
-          "sizeBytes": 51510,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000022/ben-20250204.htm",
-          "file": "filings/FT/docs/8_K/000003877725000022__ben-20250204.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-01-31",
-          "fmt": "HTM",
-          "sizeBytes": 26664,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000016/ben-20250131.htm",
-          "file": "filings/FT/docs/8_K/000003877725000016__ben-20250131.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-11-04",
-          "fmt": "HTM",
-          "sizeBytes": 26740,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000177/ben-20241104.htm",
-          "file": "filings/FT/docs/8_K/000003877724000177__ben-20241104.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-08-21",
-          "fmt": "HTM",
-          "sizeBytes": 23899,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000140/ben-20240821.htm",
-          "file": "filings/FT/docs/8_K/000003877724000140__ben-20240821.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-07-26",
-          "fmt": "HTM",
-          "sizeBytes": 26645,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000112/ben-20240726.htm",
-          "file": "filings/FT/docs/8_K/000003877724000112__ben-20240726.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-11-10",
-          "fmt": "HTM",
-          "sizeBytes": 2802766,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000238/ben-20250930.htm",
-          "file": "filings/FT/docs/10_K/000003877725000238__ben-20250930.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2024-11-12",
-          "fmt": "HTM",
-          "sizeBytes": 2986156,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000206/ben-20240930.htm",
-          "file": "filings/FT/docs/10_K/000003877724000206__ben-20240930.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2023-12-27",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 7783713,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000130817923001094/lben2023_ars.pdf",
-          "file": "filings/FT/docs/ARS/000130817923001094__lben2023_ars.pdf"
+          "sizeBytes": 269513,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2026/q1/Earnings-Press-Release-Q1-2026.pdf",
+          "file": "filings/FT/docs/w3871fa2ab2a57d76.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Investor Presentation Q1 2026",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 505828,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2026/q1/Investor-Presentation-Q1-2026.pdf",
+          "file": "filings/FT/docs/we1290c089d8e6c84.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q2 2026",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 270981,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2026/q2/Earnings-Press-Release-Q2-2026.pdf",
+          "file": "filings/FT/docs/w5c5eae7a904344ac.pdf"
+        },
+        {
+          "name": "Investor Presentation Q2 26",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 483184,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2026/q2/Investor-Presentation_Q2-26_Final.pdf",
+          "file": "filings/FT/docs/w26452f63fe01378c.pdf"
+        },
+        {
+          "name": "2021 Proxy Supplement",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 184719,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_downloads/docs/2021/2021-Proxy-Supplement.pdf",
+          "file": "filings/FT/docs/w415e984b8c1c8e82.pdf"
+        },
+        {
+          "name": "Earnings Press Release 12 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 267865,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q1/Earnings-Press-Release-12_2024-FINAL.pdf",
+          "file": "filings/FT/docs/w4a0f87ffac5f4cb1.pdf"
+        },
+        {
+          "name": "Investor Presentation Q1 2025 1 31 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 417967,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q1/Investor-Presentation-Q1-2025_1-31-2025_Final.pdf",
+          "file": "filings/FT/docs/w690b683d69fee952.pdf"
+        },
+        {
+          "name": "Earnings Press Release 03 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 274286,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q2/Earnings-Press-Release-03_2025-FINAL.pdf",
+          "file": "filings/FT/docs/w3a18e07e3758b592.pdf"
+        },
+        {
+          "name": "Investor Presentation Q2 2025 5 2 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 421150,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q2/Investor-Presentation-Q2-2025_5-2-2025_Final.pdf",
+          "file": "filings/FT/docs/w2c5e6664ef319e80.pdf"
+        },
+        {
+          "name": "Earnings Press Release 06 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 274782,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q3/Earnings-Press-Release-06_2025.pdf",
+          "file": "filings/FT/docs/w865bc99ea5fdd5b7.pdf"
+        },
+        {
+          "name": "Investor Presentation Q3 2025 8 1 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 436419,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q3/Investor-Presentation-Q3-2025_8-1-2025_Final.pdf",
+          "file": "filings/FT/docs/w610ab71efbe52cff.pdf"
+        },
+        {
+          "name": "Earnings press release 09 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 277971,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q4/Earnings-press-release-09_2025.pdf",
+          "file": "filings/FT/docs/w5f9217c59770dd8a.pdf"
+        },
+        {
+          "name": "Investor Presentation Q4 2025 11 7 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 617995,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/q4/Investor-Presentation-Q4-2025_11-7-2025-Final.pdf",
+          "file": "filings/FT/docs/w317c5b5306d68a3d.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q1 2024 1 29 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 343325,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2024/q1/Earnings-Press-Release-Q1-2024_1-29-2024_Final.pdf",
+          "file": "filings/FT/docs/w2dc2f8ee15486f22.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q2 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 257664,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2024/q2/Earnings-Press-Release-Q2-2024-Final.pdf",
+          "file": "filings/FT/docs/w1d1f62c831b35f90.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q3 2024 7 26 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 361292,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2024/q3/Earnings-Press-Release-Q3-2024_7-26-2024_Final.pdf",
+          "file": "filings/FT/docs/w5ab339ddd504d834.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q4 2024 11 4 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 277775,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2024/q4/Earnings-Press-Release-Q4-2024_11-4-2024_Final.pdf",
+          "file": "filings/FT/docs/w6ffe189ff8444325.pdf"
+        },
+        {
+          "name": "Investor Presentation Q4 2024 11 4 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 613388,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2024/q4/Investor-Presentation-Q4-2024_11-4-2024_Final.pdf",
+          "file": "filings/FT/docs/w2a7734261dc53bbc.pdf"
+        },
+        {
+          "name": "Earnings Press Release 12 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 342284,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2023/q1/Earnings-Press-Release-12_2022-FINAL.pdf",
+          "file": "filings/FT/docs/w1b62a03a336a0b08.pdf"
+        },
+        {
+          "name": "Earnings press release 03 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 356024,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2023/q2/Earnings-press-release-03_2023.pdf",
+          "file": "filings/FT/docs/w6b22b71392220442.pdf"
+        },
+        {
+          "name": "Earnings press release Q3 2023 6 30 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 360994,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2023/q3/Earnings-press-release-Q3-2023-6-30-2023_Final.pdf",
+          "file": "filings/FT/docs/wf5d7f8554fcf4fd0.pdf"
+        },
+        {
+          "name": "Earnings Press Release Q4 2023 09 30 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 364023,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2023/q4/Earnings-Press-Release-Q4-2023-09-30-2023_Final.pdf",
+          "file": "filings/FT/docs/w1b8293c0ad85860d.pdf"
+        },
+        {
+          "name": "Earnings press release 12 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 346970,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2022/q1/Earnings-press-release-12_2021.pdf",
+          "file": "filings/FT/docs/w8cbee35d8880bc9d.pdf"
+        },
+        {
+          "name": "Earnings press release 03 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 358313,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2022/q2/Earnings-press-release-03_2022.pdf",
+          "file": "filings/FT/docs/w48a7d4f236d62717.pdf"
+        },
+        {
+          "name": "Earnings press release 06 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 358387,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2022/q3/Earnings-press-release-06_2022.pdf",
+          "file": "filings/FT/docs/w79c9728cba9ac834.pdf"
+        },
+        {
+          "name": "Earnings press release 09 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 362276,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2022/q4/Earnings-press-release-09_2022.pdf",
+          "file": "filings/FT/docs/wadce18d966b871b0.pdf"
+        },
+        {
+          "name": "12/22/25 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6912530,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/4d4c945d-d418-46f6-99c6-814be17940cf.pdf",
+          "file": "filings/FT/docs/wa230de448311593b.pdf"
+        },
+        {
+          "name": "12/22/25 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 345495,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/6b77b391-d07e-4147-93a6-fb35f188f76e.xls",
+          "file": "filings/FT/docs/wda98ebf51ca27772.xls"
+        },
+        {
+          "name": "12/20/24 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 920063,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/983ebf97-624f-433a-8259-a3f0de8c9d9a.pdf",
+          "file": "filings/FT/docs/w49a847ae07d75c5b.pdf"
+        },
+        {
+          "name": "12/20/24 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5173143,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/0ebd0dce-7ee1-4c37-83d7-add74f200ef5.pdf",
+          "file": "filings/FT/docs/wc1951bd3835fe3b4.pdf"
+        },
+        {
+          "name": "12/20/24 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 235051,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/06ff80b5-827c-4b6e-8edb-fbe839a52f52.xls",
+          "file": "filings/FT/docs/w1ad7b56b059af640.xls"
+        },
+        {
+          "name": "12/27/23 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2663154,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/79c26e52-a531-4a8d-89cc-2d14b5f135a3.pdf",
+          "file": "filings/FT/docs/w56647d6d556dbc46.pdf"
+        },
+        {
+          "name": "12/27/23 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2109377,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/953495a4-4e85-4678-9a33-40f517ed1d2a.pdf",
+          "file": "filings/FT/docs/w70719a3bbeed529a.pdf"
+        },
+        {
+          "name": "12/27/23 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 182379,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/a90f6f3d-a1ad-4570-9abb-61704b7f48ab.xls",
+          "file": "filings/FT/docs/w9e68729baeef1c9f.xls"
+        },
+        {
+          "name": "12/27/23 - Form DEFA14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 175833,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/fce72386-3b69-4f5d-9b8e-d5c6aa8a080f.pdf",
+          "file": "filings/FT/docs/we1560a6a0e41224a.pdf"
+        },
+        {
+          "name": "12/27/23 - Form DEFA14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 12911,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/8ec2935e-0551-4350-8c13-8d3c2bb679b6.xls",
+          "file": "filings/FT/docs/wc96de804fb5ba482.xls"
+        },
+        {
+          "name": "12/28/22 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2872630,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/3b0826ce-9b09-45b5-bafb-ad0b3b361781.pdf",
+          "file": "filings/FT/docs/wc718267b7792e5aa.pdf"
+        },
+        {
+          "name": "12/28/22 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2400241,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/cc107f21-ad3d-45e9-97dc-90e47709304a.pdf",
+          "file": "filings/FT/docs/wc252970895294315.pdf"
+        },
+        {
+          "name": "12/28/22 - Form DEF 14A",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 169892,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/cf87c339-9ab2-4a81-8120-ee054195a409.xls",
+          "file": "filings/FT/docs/w2123ce30929c19ab.xls"
+        },
+        {
+          "name": "11/14/22 - Form 10-K",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-11-14",
-          "fmt": "HTM",
-          "sizeBytes": 2935571,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000169/ben-20230930.htm",
-          "file": "filings/FT/docs/10_K/000003877723000169__ben-20230930.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7845195,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/5afe42e7-2d96-4aca-876d-90569a80e528.pdf",
+          "file": "filings/FT/docs/wb55f2163a68f79fa.pdf"
+        },
+        {
+          "name": "11/14/22 - Form 10-K",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 306810,
+          "edgarUrl": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000038777%20/31ab0903-ee9c-4823-bbf6-44ea47ae20e6.xls",
+          "file": "filings/FT/docs/w12fda5fa6ff23933.xls"
+        },
+        {
+          "name": "Franklin Resources 2025 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9583825,
+          "edgarUrl": "https://s201.q4cdn.com/562074409/files/doc_financials/2025/ar/Franklin-Resources-2025-Annual-Report.pdf",
+          "file": "filings/FT/docs/w09e705d3d9b3ea12.pdf"
         }
       ],
       "metrics": {
@@ -12330,7 +12400,958 @@
       "regime": "European-listed",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [],
+      "documents": [
+        {
+          "name": "Full-year results 2025 Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 956474,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_12_march/Swiss_Life_Full-year_results_2025_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w177e8f45545956cc.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Media Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 483817,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_12_march/Swiss_Life_Full-year_results_2025_Media_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wa64b603278613526.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 851523,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_14_march/Swiss_Life_Full-year_results_2024_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w13bd94618198f8ac.pdf"
+        },
+        {
+          "name": "Full-year results 2023 Investor Presentation 20240314",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1084258,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss_Life_Full-year_results_2023_Investor_Presentation_20240314.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w2c77736d4525336f.pdf"
+        },
+        {
+          "name": "HY23 Media presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 347169,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss_Life_HY23_Media_presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w3bf17e03a5641391.pdf"
+        },
+        {
+          "name": "IFRS 17 and IFRS 9 at Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 440520,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/IFRS_17_and_IFRS_9_at_Swiss_Life_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w8fcb5a96e4721b32.pdf"
+        },
+        {
+          "name": "IFRS 17 Investor Presentation 28 June 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 422436,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/ifrs17_publish-28-june/IFRS_17_Swiss_Life_Investor_Presentation_28%20June%202023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w920403b6535eee08.pdf"
+        },
+        {
+          "name": "Full-year results 2022 Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1208067,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/Swiss_Life_Full-year_results_2022_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcc2f0bfa77998fd0.pdf"
+        },
+        {
+          "name": "Full-year results 2022 - Extract from investor presentation for media representa",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 354704,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/Full-year%20results%202022%20-%20Extract%20from%20investor%20presentation%20for%20media%20representatives.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w932c6f4ea10d87e5.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Media Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 305592,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Media_Release_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w919b798c73710573.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Investor Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 933958,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Investor_Presentation_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0f893e7107239088.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Extract for media representatives",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 444217,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Extract_for_media_representatives.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wb5f97da79d18294b.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Financial Report",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 621031,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Financial_Report_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w3f43bed874f4f45f.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Alternative Performance Measures",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 131665,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Alternative_Performance_Measures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w1901af88a1544e95.pdf"
+        },
+        {
+          "name": "Half-year results 2025 Key Figures",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 53043,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2025/Swiss_Life_Half-year_results_2025_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/weec34b574a7c39ab.pdf"
+        },
+        {
+          "name": "Half-year results 2024 Investor Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1091041,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss_Life_Half-year_results_2024_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/waced839737c65bfe.pdf"
+        },
+        {
+          "name": "Half-year results 2024 Media Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 308424,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss_Life_Half-year_results_2024_Media_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w1185e2201f16222e.pdf"
+        },
+        {
+          "name": "Half-year results 2024 Financial Report",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 579261,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss_Life_Half-year_results_2024_Financial_Report_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w1bee6eb90c1ef16b.pdf"
+        },
+        {
+          "name": "Half-year results 2024 Alternative Performance Measures",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 135125,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss_Life_Half-year_results_2024_Alternative_Performance_Measures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wae8432908e8a03f4.pdf"
+        },
+        {
+          "name": "Half-year results 2024 Key figures",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 52645,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss_Life_Half-year_results_2024_Key_figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w6a09a293da834ef9.pdf"
+        },
+        {
+          "name": "Half-year results 2023 Investor Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1150994,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss_Life_Half-year_results_2023_Investor_Presentation_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w677aa549b8f21b45.pdf"
+        },
+        {
+          "name": "Media Release HY22",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 191221,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/Swiss%20Life_Media%20Release%20HY22.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wc39c8e6895872e3b.pdf"
+        },
+        {
+          "name": "HY22 Investor Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1418045,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/HY22_Investor_Presentation.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wbef303b7cb34569b.pdf"
+        },
+        {
+          "name": "HY22 Extract from Investor Presentation for Media",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 433711,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/HY22_Extract%20from%20Investor%20Presentation%20for%20Media.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcb7bc23b79bf4793.pdf"
+        },
+        {
+          "name": "HY22 Financial Report",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 457058,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/HY22_Financial_Report.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w03894656982fb530.pdf"
+        },
+        {
+          "name": "HY22 APM",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 144821,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/HY22_APM.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0b002d3409e197f1.pdf"
+        },
+        {
+          "name": "HY22 Key Figures",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 48454,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/HY22_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/we3195fcfc2bee95d.pdf"
+        },
+        {
+          "name": "Media Release 3M26",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 303651,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q1/q1_2026/Swiss%20Life%20Group_Media%20Release_3M26_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w9f544f161e453d2f.pdf"
+        },
+        {
+          "name": "Media Release 3M25",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 191753,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q1/q1_2025/Swiss%20Life%20Group_Media%20Release_3M25_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w202f62b105950d18.pdf"
+        },
+        {
+          "name": "Media Release 9M25",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 229081,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q3/q3_2025/Swiss%20Life%20Group_Media%20Release_9M25_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wb7256124a79e1bfa.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Media Release FY25",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 258249,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_12_march/Swiss_Life_Full-year_results_2025_Media%20Release_FY25_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w5a560bd0b716f495.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Sustainability Report",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2553846,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_15_april/Swiss_Life_Full-year_results_2025_Sustainability_Report_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w8dec9a1a6c553ee2.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Report on non-financial matters",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2339164,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_15_april/Swiss_Life_Full-year_results_2025_Report_on_non-financial%20matters_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wf35c83da2a9a5818.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Alternative Performance Measures 2025",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 130871,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_12_march/Swiss_Life_Full-year_results_2025_Alternative_Performance_Measures_2025_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wfe78a7045c19c53e.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Key Figures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 62271,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_12_march/Swiss_Life_Full-year_results_2025_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w3ab05df79c38079c.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Letter to Shareholders",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 201252,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_15_april/Swiss_Life_Full-year_results_2025_Letter_to_Shareholders_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w98a339fa2c0a6b75.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Financial Condition Report Summary Solvency Chapter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1376693,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_24_april/Swiss_Life_Full-year_results_2025_Financial_Condition_Report_Summary_Solvency_Chapter_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w2a8ffeec633b9038.pdf"
+        },
+        {
+          "name": "Media Release 3M24",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 152396,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q1/q1-2024/Swiss%20Life%20Group_Media%20Release_3M24_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w81417bd5918db067.pdf"
+        },
+        {
+          "name": "Media Release HY24",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 262335,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2024/Swiss%20Life%20Group_Media%20Release_HY24_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w9efc927ecda4d469.pdf"
+        },
+        {
+          "name": "Media Release 9M24",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 220230,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q3/q3_2024/Swiss%20Life_Media%20Release_9M24_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w872a8df6eb60053e.pdf"
+        },
+        {
+          "name": "Media Release FY24",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 210110,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_14_march/Swiss%20Life_Media%20Release_FY24_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w687621ff1e3cc5b6.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Extract for media",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 296676,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_14_march/Swiss_Life_Full-year_results_2024_Extract%20for%20media.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w86de1378661a123f.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Sustainability Report 2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1549295,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_16_april/Swiss_Life_Full-year_results_2024_Sustainability_Report_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wdc011a98944c912c.pdf"
+        },
+        {
+          "name": "Full-year results 2024 TCFD Report 2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 625291,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_16_april/Swiss_Life_Full-year_results_2024_TCFD_Report_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w99382a3357840232.pdf"
+        },
+        {
+          "name": "Report nonfinancial matters FY2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 91094,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_16_april/Swiss_Life_Report_nonfinancial_matters_FY2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wbc6e8bcea4462122.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Alternative Performance Measures 2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 132370,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_14_march/Swiss_Life_Full-year_results_2024_Alternative_Performance_Measures_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wd67dfb5cd84a1c33.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Key Figures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 63441,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_14_march/Swiss_Life_Full-year_results_2024_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w41d058a74220e684.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Letter to Shareholder 2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 209967,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_16_april/Swiss_Life_Full-year_results_2024_Letter_to_Shareholder_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w89015a68f944f89e.pdf"
+        },
+        {
+          "name": "SST Summary in English FY 2024",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 214897,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_25_april/Swiss_Life_SST_Summary_in_English_FY_2024.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wa69ab21469fbd77c.pdf"
+        },
+        {
+          "name": "Media Release Q123",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 163074,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q1/q1-2023/Swiss%20Life_Media%20Release_Q123_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wb0f1d9ea982925a0.pdf"
+        },
+        {
+          "name": "Media Release HY23",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 223433,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss%20Life_Media%20Release_HY23_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w4f1081dc9a9c6a3c.pdf"
+        },
+        {
+          "name": "Media Release 9M23",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 160581,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q3/q3_2023/Swiss%20Life_Media%20Release_9M23_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w940ddf2321306e88.pdf"
+        },
+        {
+          "name": "MediaRelease FY23 d",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 273276,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss%20Life_MediaRelease_FY23_d.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0127d11996b1cef6.pdf"
+        },
+        {
+          "name": "MediaRelease FY23 e",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 277359,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss%20Life_MediaRelease_FY23_e.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wf5cffdc7fa1e5ebb.pdf"
+        },
+        {
+          "name": "MediaRelease FY23 f",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 282407,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss%20Life_MediaRelease_FY23_f.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w5769ee10adad5c98.pdf"
+        },
+        {
+          "name": "MediaRelease FY23 i",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 273866,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss%20Life_MediaRelease_FY23_i.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wd47351af3dae38c7.pdf"
+        },
+        {
+          "name": "Full-year results 2023 Extract for media",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 307849,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss_Life_Full-year_results_2023_Extract%20for%20media.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wc01b48f306b6975b.pdf"
+        },
+        {
+          "name": "Gesch\u00e4ftsbericht 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4188902,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Gesch%C3%A4ftsbericht_2023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w2fcef2b1c726bc72.pdf"
+        },
+        {
+          "name": "Nachhaltigkeitsbericht 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1285759,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Nachhaltigkeitsbericht_2023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/we787a8266fa5d811.pdf"
+        },
+        {
+          "name": "Sustainability Report 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1225027,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Sustainability_Report_2023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wae19dee56ef41bc7.pdf"
+        },
+        {
+          "name": "TCFD Report 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 550028,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_TCFD_Report_2023_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w71bc2c2d4173531e.pdf"
+        },
+        {
+          "name": "Report nonfinancial matters FY2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 93686,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Report_nonfinancial_matters_FY2023_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w83e74a6c1466dc0c.pdf"
+        },
+        {
+          "name": "HY23 Financial Report",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 721166,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss_Life_HY23_Financial_Report_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w4c961de63f3c6960.pdf"
+        },
+        {
+          "name": "HY23 Alternative Performance Measures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 138314,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss_Life_HY23_Alternative_Performance_Measures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w5802e558e2154e60.pdf"
+        },
+        {
+          "name": "Full-year results 2023 Alternative Performance Measures 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 138891,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss_Life_Full-year_results_2023_Alternative_Performance_Measures_2023_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcecb22aa832e0337.pdf"
+        },
+        {
+          "name": "HY23 Key Figures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 66738,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2023/Swiss_Life_HY23_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0d996823be3e40f3.pdf"
+        },
+        {
+          "name": "Full-year results 2023 Key figures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 72576,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_14_march/Swiss_Life_Full-year_results_2023_Key_figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w7611e41f7d54046a.pdf"
+        },
+        {
+          "name": "Letter to Shareholders FY2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 128517,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Letter_to_Shareholders_FY2023_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w98f0f81ca17e10a7.pdf"
+        },
+        {
+          "name": "SST Summary in English FY 2023",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1489074,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_25_april/Swiss_Life_SST_Summary_in_English_FY_2023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w2d0f0a221ad38028.pdf"
+        },
+        {
+          "name": "Media Release IFRS 17",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 144986,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/ifrs17_publish-28-june/Swiss%20Life_Media%20Release_IFRS%2017_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w276e408c98528fda.pdf"
+        },
+        {
+          "name": "Media Release Q122",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 158764,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q1/q1_2022/Swiss%20Life_Media%20Release_Q122_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wf01c451384877263.pdf"
+        },
+        {
+          "name": "Comunicato stampa HY22",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 199014,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/hy_results/hy_2022/Swiss%20Life_Comunicato%20stampa_HY22.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcd5ea02e8616c26b.pdf"
+        },
+        {
+          "name": "Media Release Q322",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 159933,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/interim_statement_q3/q3_2022/Swiss%20Life_Media%20Release_Q322_en.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wd755766d4641f3ee.pdf"
+        },
+        {
+          "name": "Media Release FY 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 222989,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/Swiss%20Life_Media%20Release_FY_2022_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w702f4b15743cf7aa.pdf"
+        },
+        {
+          "name": "Gesch\u00e4ftsbericht 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3521208,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Gesch%C3%A4ftsbericht%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w54b626cd37e9794c.pdf"
+        },
+        {
+          "name": "Nachhaltigkeitsbericht 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1066967,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Nachhaltigkeitsbericht%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/we257b7fe47dea3be.pdf"
+        },
+        {
+          "name": "Sustainabilty Report 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1048994,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Sustainabilty%20Report%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w2f30367761390fef.pdf"
+        },
+        {
+          "name": "TCFD Report 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 456839,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-TCFD%20Report%202022_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w7ed762daab441bef.pdf"
+        },
+        {
+          "name": "FY 2022 Alternative Performance Measures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 150905,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/Swiss_Life_FY_2022_Alternative_Performance_Measures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w08f2c81933345dec.pdf"
+        },
+        {
+          "name": "FY 2022 Key Figures",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 68765,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022/Swiss_Life_FY_2022_Key_Figures_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wf9b8ca70706d1c2c.pdf"
+        },
+        {
+          "name": "Aktion\u00e4rsbrief-Gesch\u00e4ftsjahr 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 127106,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Aktion%C3%A4rsbrief-Gesch%C3%A4ftsjahr%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0883adf73cf0c256.pdf"
+        },
+        {
+          "name": "Letter to Shareholders-Financial Year 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 119047,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Letter%20to%20Shareholders-Financial%20Year%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wb1585eac07fd0d9b.pdf"
+        },
+        {
+          "name": "Lettre aux actionnaires-Exercice 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 125538,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Lettre%20aux%20actionnaires-Exercice%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcd8bcb8260ca25ab.pdf"
+        },
+        {
+          "name": "Lettera agli azionisti-Esercizio 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 122957,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Lettera%20agli%20azionisti-Esercizio%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w9f04d9df4e1eb1ea.pdf"
+        },
+        {
+          "name": "Bericht \u00fcber die Finanzlage 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 722138,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2022_publish-28-april/Bericht%20%C3%BCber%20die%20Finanzlage%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w0ea85c0c575da471.pdf"
+        },
+        {
+          "name": "SST Mgmt Summary 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1250827,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2022_publish-28-april/Swiss%20Life_SST_Mgmt_Summary_2022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w3cafcc25b62eb428.pdf"
+        },
+        {
+          "name": "AG Gesch\u00e4ftsbericht 2022",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 385562,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2022_publish-28-april/Swiss%20Life%20AG_Gesch%C3%A4ftsbericht%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w83271258e39b3076.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5900229,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_15_april/Swiss_Life_Full-year_results_2025_Annual_Report_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wccd857775a88d1a5.pdf"
+        },
+        {
+          "name": "Full-year results 2025 Annual Report Swiss Life Ltd",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 428135,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2025_publish_24_april/Swiss_Life_Full-year_results_2025_Annual_Report_Swiss_Life_Ltd_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wcbe462940fe9c863.pdf"
+        },
+        {
+          "name": "Full-year results 2024 Annual Report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5264729,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_16_april/Swiss_Life_Full-year_results_2024_Annual_Report_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/wda6fc3ae75bb3987.pdf"
+        },
+        {
+          "name": "AG Annual Report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 438693,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2024_publish_25_april/Swiss_Life_AG_Annual_Report_2024_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w8642859b4580ed90.pdf"
+        },
+        {
+          "name": "Annual Report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4049036,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_19_april/Swiss_Life_Annual_Report_2023.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w922aff06f384ad9a.pdf"
+        },
+        {
+          "name": "AG Annual Report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 439288,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2023_publish_25_april/Swiss_Life_AG_Annual_Report_2023_EN.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w91ef2c09fb90bd4c.pdf"
+        },
+        {
+          "name": "Annual Report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3301609,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/FY_2022_publish-24-march/Swiss%20Life-Annual%20Report%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w773b90e7cfb2fc41.pdf"
+        },
+        {
+          "name": "LTD Annual Report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 358313,
+          "edgarUrl": "https://www.swisslife.com/content/dam/com_rel/dokumente/fy_results/fy_2022_publish-28-april/Swiss%20Life%20LTD_Annual%20Report%202022.pdf",
+          "file": "filings/Swiss_Life_AM/docs/w9577174ad910d5fc.pdf"
+        }
+      ],
       "metrics": {
         "aum_total": {
           "value": 160270000000.0,

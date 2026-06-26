@@ -127,6 +127,7 @@ def main() -> None:
             scroll = int(sp.get("scroll", 8))
             iterate = sp.get("iterate_select")
             iterate_limit = sp.get("iterate_limit")
+            click_each = sp.get("click_each")
             load_more = sp.get("load_more")
             extract = sp.get("extract")
             follow = re.compile(sp["follow"]) if sp.get("follow") else None
@@ -235,6 +236,23 @@ def main() -> None:
                         except Exception as e:
                             print(f"select_option {iterate}={v}: {e}", file=sys.stderr)
                             continue
+                    collect(harvest())
+            elif click_each:  # click each distinct visible filter button (e.g. year tabs)
+                try:
+                    texts = page.eval_on_selector_all(
+                        click_each, "els => [...new Set(els.filter(e => e.offsetParent !== null)"
+                        ".map(e => (e.innerText || '').trim()))].filter(Boolean)")
+                except Exception:
+                    texts = []
+                if iterate_limit:
+                    texts = texts[:iterate_limit]
+                for txt in (texts or []):
+                    try:
+                        page.locator(f"{click_each}:visible", has_text=txt).first.click(timeout=4000)
+                        page.wait_for_timeout(settle)
+                    except Exception as e:
+                        print(f"click {txt}: {str(e)[:40]}", file=sys.stderr)
+                        continue
                     collect(harvest())
             else:
                 if load_more:
