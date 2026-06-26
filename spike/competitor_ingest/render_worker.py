@@ -115,7 +115,8 @@ def main() -> None:
     out: list[dict] = []
     seen: set[str] = set()
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        browser = p.chromium.launch(headless=True, channel=(spec.get("channel") or None),
+                                    args=["--disable-blink-features=AutomationControlled"])
         ctx = browser.new_context(user_agent=_UA, locale="en-US", viewport={"width": 1366, "height": 900})
         page = ctx.new_page()
         for sp in spec.get("pages", []):

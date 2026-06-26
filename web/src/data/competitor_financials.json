@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:16:57+00:00",
+  "generated_at": "2026-06-26T14:34:52+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -6406,174 +6406,704 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 6670570,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000121/ms-20260331.htm",
-          "file": "filings/MS/docs/10_Q/000089542126000121__ms-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-03",
-          "fmt": "HTM",
-          "sizeBytes": 8039125,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542125000539/ms-20250930.htm",
-          "file": "filings/MS/docs/10_Q/000089542125000539__ms-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-04",
-          "fmt": "HTM",
-          "sizeBytes": 7978725,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542125000440/ms-20250630.htm",
-          "file": "filings/MS/docs/10_Q/000089542125000440__ms-20250630.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-02",
-          "fmt": "HTM",
-          "sizeBytes": 15524,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012988/ny20058185x2_defa14a.htm",
-          "file": "filings/MS/docs/DEFA14A/000114036126012988__ny20058185x2_defa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-02",
-          "fmt": "HTM",
-          "sizeBytes": 71859,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012987/ny20058185x4_defa14a.htm",
-          "file": "filings/MS/docs/DEFA14A/000114036126012987__ny20058185x4_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-02",
-          "fmt": "HTM",
-          "sizeBytes": 2697192,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012975/ny20058185x1_def14a.htm",
-          "file": "filings/MS/docs/DEF_14A/000114036126012975__ny20058185x1_def14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-15",
-          "fmt": "HTM",
-          "sizeBytes": 62662,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000095010326007291/dp246746_8k.htm",
-          "file": "filings/MS/docs/8_K/000095010326007291__dp246746_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-15",
-          "fmt": "HTM",
-          "sizeBytes": 55387,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000111/ms-20260415.htm",
-          "file": "filings/MS/docs/8_K/000089542126000111__ms-20260415.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-11",
-          "fmt": "HTM",
-          "sizeBytes": 58045,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000095010326001967/dp240377_8k.htm",
-          "file": "filings/MS/docs/8_K/000095010326001967__dp240377_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-15",
-          "fmt": "HTM",
-          "sizeBytes": 62320,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000007/ms-20260115.htm",
-          "file": "filings/MS/docs/8_K/000089542126000007__ms-20260115.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-15",
-          "fmt": "HTM",
-          "sizeBytes": 56497,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542125000535/ms-20251015.htm",
-          "file": "filings/MS/docs/8_K/000089542125000535__ms-20251015.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-30",
-          "fmt": "HTM",
-          "sizeBytes": 51579,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000095010325012581/dp235215_8k.htm",
-          "file": "filings/MS/docs/8_K/000095010325012581__dp235215_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-23",
-          "fmt": "HTM",
-          "sizeBytes": 59934,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000095010325012045/dp234752_8k.htm",
-          "file": "filings/MS/docs/8_K/000095010325012045__dp234752_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-16",
-          "fmt": "HTM",
-          "sizeBytes": 56465,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542125000419/ms-20250716.htm",
-          "file": "filings/MS/docs/8_K/000089542125000419__ms-20250716.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-01",
-          "fmt": "HTM",
-          "sizeBytes": 51279,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000095010325008285/dp230991_8k.htm",
-          "file": "filings/MS/docs/8_K/000095010325008285__dp230991_8k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-04-02",
+          "name": "Morgan Stanley 4Q25 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 3418846,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012991/ny20058185x3_ars.pdf",
-          "file": "filings/MS/docs/ARS/000114036126012991__ny20058185x3_ars.pdf"
+          "sizeBytes": 1725486,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_4Q25_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w0c7d550e2c101408.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Morgan Stanley 4Q25 Strategic Update",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 581674,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2025-strategic-update.pdf",
+          "file": "filings/MS/docs/wd8015484d0cd29b7.pdf"
+        },
+        {
+          "name": "Morgan Stanley 3Q25 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 220989,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_3Q25_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w809fdbf2a338694a.pdf"
+        },
+        {
+          "name": "Morgan Stanley 2Q25 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 212902,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_2Q25_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w873fe8a485ba779c.pdf"
+        },
+        {
+          "name": "Morgan Stanley 1Q25 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 216812,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_1Q25_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w35c6566aaacd7962.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q24 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 214809,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_4Q24_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w9f731796d12c516e.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q24 Strategic Update",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 269706,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2024-strategic-update.pdf",
+          "file": "filings/MS/docs/wb7daa9bb70b10887.pdf"
+        },
+        {
+          "name": "Morgan Stanley 3Q24 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 218830,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_3Q24_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/wc84a47d9830042f4.pdf"
+        },
+        {
+          "name": "Morgan Stanley 2Q24 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 215711,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_2Q24_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w858e24ce7c899d82.pdf"
+        },
+        {
+          "name": "Morgan Stanley 1Q24 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 217377,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_1Q24_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/wd2d0bb88ae597357.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q23 Strategic Update",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 221587,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2023-strategic-update.pdf",
+          "file": "filings/MS/docs/w1d2951a162aece48.pdf"
+        },
+        {
+          "name": "Morgan Stanley 3Q23 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 219322,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_3Q23_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w9b3fb964ad02558b.pdf"
+        },
+        {
+          "name": "Morgan Stanley 2Q23 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 203559,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_2Q23_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/wcffcd47e0dba1c80.pdf"
+        },
+        {
+          "name": "Andy Saperstein to Speak at the Bernstein 39th Annual Strategic Decisions Confer",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 225585,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/presentations/2023.05.31_Bernstein_Conference.pdf",
+          "file": "filings/MS/docs/wb477e5c17efc1763.pdf"
+        },
+        {
+          "name": "Morgan Stanley 1Q23 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 224064,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_1Q23_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w6b6406f3af37ef0f.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q22 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 346029,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_4Q22_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w941eb40c52ffa6b5.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q22 Strategic Update",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 339628,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2022-strategic-update.pdf",
+          "file": "filings/MS/docs/w63780415b03ee2ee.pdf"
+        },
+        {
+          "name": "Morgan Stanley 3Q22 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 227926,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_3Q22_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w9c945bc49ac3a7f6.pdf"
+        },
+        {
+          "name": "Morgan Stanley 2Q22 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 241654,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_2Q22_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/wca291685c4b4af06.pdf"
+        },
+        {
+          "name": "Morgan Stanley 1Q22 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 240672,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_1Q22_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w8cd35aac1a45803a.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q21 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 247529,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_4Q21_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w608cf763bb799514.pdf"
+        },
+        {
+          "name": "Morgan Stanley 4Q21 Strategic Update",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 321993,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2021-strategic-update.pdf",
+          "file": "filings/MS/docs/w6bb681069b85b78f.pdf"
+        },
+        {
+          "name": "Daniel Simkowitz to Speak at the BofA Securities 2021 Banking and Financials Con",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 380120,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/11.10.21.BAC_Conference_DS_Presentation.pdf",
+          "file": "filings/MS/docs/w698abbf6ec576ee1.pdf"
+        },
+        {
+          "name": "Morgan Stanley 2Q21 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 251801,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_2Q21_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/wed19c652a2cf8133.pdf"
+        },
+        {
+          "name": "Morgan Stanley 1Q21 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 241239,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/pdf/Morgan_Stanley_1Q21_Fixed_Income_Investor_Presentation.pdf",
+          "file": "filings/MS/docs/w5cf45cb7141bfddd.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/26",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1308644,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0326.pdf",
+          "file": "filings/MS/docs/waf89a1fd70ce760e.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/25",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1307742,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0325.pdf",
+          "file": "filings/MS/docs/w4ba522372ff87c6a.pdf"
+        },
+        {
+          "name": "MS 10-Q 06/30/25",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1402127,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0625.pdf",
+          "file": "filings/MS/docs/w24f1344be960b694.pdf"
+        },
+        {
+          "name": "MS 10-Q 09/30/25",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1412454,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0925.pdf",
+          "file": "filings/MS/docs/wee17ff15fe3e351a.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/24",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1292463,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0324.pdf",
+          "file": "filings/MS/docs/w1be6179bbe55b766.pdf"
+        },
+        {
+          "name": "MS 10-Q 06/30/24",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1371757,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0624.pdf",
+          "file": "filings/MS/docs/wb12d52c41b7e50c1.pdf"
+        },
+        {
+          "name": "MS 10-Q 09/30/24",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1417585,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0924.pdf",
+          "file": "filings/MS/docs/w79e8bf0e3a5c498d.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/23",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1466483,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0523.pdf",
+          "file": "filings/MS/docs/wb693ab0a0b4c6df2.pdf"
+        },
+        {
+          "name": "MS 10-Q 06/30/23",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1841586,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0623.pdf",
+          "file": "filings/MS/docs/w2551dfc195834f72.pdf"
+        },
+        {
+          "name": "MS 10-Q 09/30/23",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1347519,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0923.pdf",
+          "file": "filings/MS/docs/w083a1b0a042806c0.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/22",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1446541,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0322.pdf",
+          "file": "filings/MS/docs/w5160c5d1e96058de.pdf"
+        },
+        {
+          "name": "MS 10-Q 06/30/22",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1690725,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0622.pdf",
+          "file": "filings/MS/docs/w2437c4e1bad4a07d.pdf"
+        },
+        {
+          "name": "MS 10-Q 09/30/22",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1854118,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0922.pdf",
+          "file": "filings/MS/docs/wff02f53bae9a7105.pdf"
+        },
+        {
+          "name": "MS 10-Q 03/31/21",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3212638,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0321.pdf",
+          "file": "filings/MS/docs/w7786a57e84261dfd.pdf"
+        },
+        {
+          "name": "MS 10-Q 06/30/21",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1134803,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0621.pdf",
+          "file": "filings/MS/docs/w1ec3df2fb9438d4e.pdf"
+        },
+        {
+          "name": "MS 10-Q 09/30/21",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1546531,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0921.pdf",
+          "file": "filings/MS/docs/wcac9ea4c00828fcc.pdf"
+        },
+        {
+          "name": "MS 10-Q 2/28/99",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 135419,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q1q99.pdf",
+          "file": "filings/MS/docs/w48f6c5558943ad7e.pdf"
+        },
+        {
+          "name": "MS 10-Q 5/31/99",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 116506,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0799.pdf",
+          "file": "filings/MS/docs/w5d86aa58b715169f.pdf"
+        },
+        {
+          "name": "MS 10-Q 8/31/99",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 160057,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10q0899.pdf",
+          "file": "filings/MS/docs/we46c2049ed8a8074.pdf"
+        },
+        {
+          "name": "MS 10-Q 2/28/98",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 122284,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/1q98.pdf",
+          "file": "filings/MS/docs/w2e8acbcc375e9707.pdf"
+        },
+        {
+          "name": "MS 10-Q 5/31/98",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 135373,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/2q98.pdf",
+          "file": "filings/MS/docs/wdfb2865cc5208a8f.pdf"
+        },
+        {
+          "name": "MS 10-Q 8/31/98",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 147307,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/3q98.pdf",
+          "file": "filings/MS/docs/w9a06d70d29c4fcf2.pdf"
+        },
+        {
+          "name": "MS 10-Q 5/31/97",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 146364,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/66778k.pdf",
+          "file": "filings/MS/docs/w0fd2a7a80d4818b4.pdf"
+        },
+        {
+          "name": "MS 10-Q 8/31/97",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 145977,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/33420k.pdf",
+          "file": "filings/MS/docs/w7c4cda50b249a3ab.pdf"
+        },
+        {
+          "name": "2026 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2083500,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2026ams/2026_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/w07dbd8ecf7c62f1b.pdf"
+        },
+        {
+          "name": "2025 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2413104,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2025ams/2025_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/w84bae95a1507c1a9.pdf"
+        },
+        {
+          "name": "2024 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2949021,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2024ams/2024_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/wa42eb2886673971e.pdf"
+        },
+        {
+          "name": "2023 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2723324,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2022ams/2023_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/w549dc9f9b7022479.pdf"
+        },
+        {
+          "name": "2022 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2021544,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2022ams/2022_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/wf83b92c1a6d59ac1.pdf"
+        },
+        {
+          "name": "2021 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2691600,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2021ams/2021_Proxy_Statement.pdf",
+          "file": "filings/MS/docs/w00e9fe625c1e7797.pdf"
+        },
+        {
+          "name": "2026 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 332079,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2026ams/2026_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/w0dff0728ced0538f.pdf"
+        },
+        {
+          "name": "2025 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 567916,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2025ams/2025_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/wdf053370490ba54a.pdf"
+        },
+        {
+          "name": "2024 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 982899,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2024ams/2024_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/wcf8fbe84cf3e32cf.pdf"
+        },
+        {
+          "name": "2023 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 635722,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2022ams/2023_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/w0a7028597064879b.pdf"
+        },
+        {
+          "name": "2022 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1158679,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2022ams/2022_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/w2c473133418b6ba5.pdf"
+        },
+        {
+          "name": "2021 Shareholder Letter",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 154645,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-2021ams/2021_Shareholder_Letter.pdf",
+          "file": "filings/MS/docs/wd9e2d6626b335d16.pdf"
+        },
+        {
+          "name": "MS 10-K 12/31/25",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-19",
-          "fmt": "HTM",
-          "sizeBytes": 9714712,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
-          "file": "filings/MS/docs/10_K/000089542126000086__ms-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2183738,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2025/10k1225.pdf",
+          "file": "filings/MS/docs/wa68c1abd45f679b6.pdf"
+        },
+        {
+          "name": "MS 10-K 12/31/24",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2183994,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2024/10k1224.pdf",
+          "file": "filings/MS/docs/w4921331edd802f73.pdf"
+        },
+        {
+          "name": "MS 10-K 12/31/23",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2237636,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2023/10k1223.pdf",
+          "file": "filings/MS/docs/wf2ce28ed43af485b.pdf"
+        },
+        {
+          "name": "MS 10-K 12/31/22",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2395618,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2022/10k1222.pdf",
+          "file": "filings/MS/docs/w4817ca4e3318ef58.pdf"
+        },
+        {
+          "name": "MS 10-K 12/31/21",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2485901,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2021/10k1221.pdf",
+          "file": "filings/MS/docs/wf1814e1515d6e383.pdf"
+        },
+        {
+          "name": "MS 10-K 11/30/064",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3603222,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k2006/10k11302006.pdf",
+          "file": "filings/MS/docs/waa130d57163699e7.pdf"
+        },
+        {
+          "name": "MS 10-K 11/30/99",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 112829,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k1199.pdf",
+          "file": "filings/MS/docs/w8abfc67559688932.pdf"
+        },
+        {
+          "name": "MS 10-K 11/30/98",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 111345,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/119810q.pdf",
+          "file": "filings/MS/docs/wdba3eff14ce90968.pdf"
+        },
+        {
+          "name": "MS 10-K 11/30/97",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 134492,
+          "edgarUrl": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/10k1997.pdf",
+          "file": "filings/MS/docs/wbcc19c13fa3327d7.pdf"
         }
       ],
       "metrics": {
