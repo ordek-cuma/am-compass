@@ -174,15 +174,15 @@ def main() -> None:
                     last = n
 
             def harvest() -> list[dict]:
+                for _ in range(scroll):  # scroll first so lazy-loaded lists are present
+                    page.mouse.wheel(0, 5000)
+                    page.wait_for_timeout(400)
                 if extract:
                     try:
                         return page.evaluate(extract)
                     except Exception as e:
                         print(f"extract {url}: {e}", file=sys.stderr)
                         return []
-                for _ in range(scroll):
-                    page.mouse.wheel(0, 5000)
-                    page.wait_for_timeout(500)
                 js = ("els => els.map(e => ({url: e.href, label: (e.getAttribute('%s') || "
                       "e.getAttribute('title') || e.innerText || '').trim()}))") % attr
                 try:

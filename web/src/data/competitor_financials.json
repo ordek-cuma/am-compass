@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:55:14+00:00",
+  "generated_at": "2026-06-26T15:17:40+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -2906,424 +2906,124 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 1632512,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000106/ivz-20260331.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420826000106__ivz-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-04",
-          "fmt": "HTM",
-          "sizeBytes": 2724627,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000366/ivz-20250930.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420825000366__ivz-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 2718483,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000262/ivz-20250630.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420825000262__ivz-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-04-28",
-          "fmt": "HTM",
-          "sizeBytes": 1869917,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000144/ivz-20250331.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420825000144__ivz-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-10-29",
-          "fmt": "HTM",
-          "sizeBytes": 2803915,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420824000427/ivz-20240930.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420824000427__ivz-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 2760288,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420824000335/ivz-20240630.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420824000335__ivz-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 1884978,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420824000276/ivz-20240331.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420824000276__ivz-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 3212692,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420823000479/ivz-20230930.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420823000479__ivz-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 2971219,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420823000416/ivz-20230630.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420823000416__ivz-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-03",
-          "fmt": "HTM",
-          "sizeBytes": 2298495,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420823000338/ivz-20230331.htm",
-          "file": "filings/IVZ/docs/10_Q/000091420823000338__ivz-20230331.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
+          "name": "2026 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2026-04-02",
-          "fmt": "HTM",
-          "sizeBytes": 11125,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140036/d931609ddefa14a.htm",
-          "file": "filings/IVZ/docs/DEFA14A/000119312526140036__d931609ddefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-02",
-          "fmt": "HTM",
-          "sizeBytes": 1806209,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm",
-          "file": "filings/IVZ/docs/DEF_14A/000119312526140019__d931607ddef14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2025-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 25973,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312525066761/d896414ddefa14a.htm",
-          "file": "filings/IVZ/docs/DEFA14A/000119312525066761__d896414ddefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 1824994,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312525066755/d896414ddef14a.htm",
-          "file": "filings/IVZ/docs/DEF_14A/000119312525066755__d896414ddef14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2024-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 26830,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312524080500/d798548ddefa14a.htm",
-          "file": "filings/IVZ/docs/DEFA14A/000119312524080500__d798548ddefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 2347331,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312524080494/d798548ddef14a.htm",
-          "file": "filings/IVZ/docs/DEF_14A/000119312524080494__d798548ddef14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2023-03-31",
-          "fmt": "HTM",
-          "sizeBytes": 24756,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312523088092/d454008ddefa14a.htm",
-          "file": "filings/IVZ/docs/DEFA14A/000119312523088092__d454008ddefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-03-31",
-          "fmt": "HTM",
-          "sizeBytes": 2036901,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312523088075/d454008ddef14a.htm",
-          "file": "filings/IVZ/docs/DEF_14A/000119312523088075__d454008ddef14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-09",
-          "fmt": "HTM",
-          "sizeBytes": 31933,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000202/ivz-20260609.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000202__ivz-20260609.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-22",
-          "fmt": "HTM",
-          "sizeBytes": 52246,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000196/ivz-20260521.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000196__ivz-20260521.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-11",
-          "fmt": "HTM",
-          "sizeBytes": 32316,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000191/ivz-20260511.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000191__ivz-20260511.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-28",
-          "fmt": "HTM",
-          "sizeBytes": 32911,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000102/ivz-20260428.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000102__ivz-20260428.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-10",
-          "fmt": "HTM",
-          "sizeBytes": 32324,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000097/ivz-20260410.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000097__ivz-20260410.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-10",
-          "fmt": "HTM",
-          "sizeBytes": 32327,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000088/ivz-20260310.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000088__ivz-20260310.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 29769,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000076/ivz-20260218.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000076__ivz-20260218.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-10",
-          "fmt": "HTM",
-          "sizeBytes": 32230,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000025/ivz-20260210.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000025__ivz-20260210.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-27",
-          "fmt": "HTM",
-          "sizeBytes": 32122,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000017/ivz-20260127.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000017__ivz-20260127.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-12",
-          "fmt": "HTM",
-          "sizeBytes": 32227,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000010/ivz-20260112.htm",
-          "file": "filings/IVZ/docs/8_K/000091420826000010__ivz-20260112.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-09",
-          "fmt": "HTM",
-          "sizeBytes": 32227,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000437/ivz-20251209.htm",
-          "file": "filings/IVZ/docs/8_K/000091420825000437__ivz-20251209.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-09",
-          "fmt": "HTM",
-          "sizeBytes": 81995,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000162828025055946/ivz-20251208.htm",
-          "file": "filings/IVZ/docs/8_K/000162828025055946__ivz-20251208.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-11-12",
-          "fmt": "HTM",
-          "sizeBytes": 32230,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000427/ivz-20251111.htm",
-          "file": "filings/IVZ/docs/8_K/000091420825000427__ivz-20251111.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-28",
-          "fmt": "HTM",
-          "sizeBytes": 32597,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000360/ivz-20251028.htm",
-          "file": "filings/IVZ/docs/8_K/000091420825000360__ivz-20251028.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-09",
-          "fmt": "HTM",
-          "sizeBytes": 32224,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000355/ivz-20251009.htm",
-          "file": "filings/IVZ/docs/8_K/000091420825000355__ivz-20251009.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-09",
-          "fmt": "HTM",
-          "sizeBytes": 32229,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000347/ivz-20250909.htm",
-          "file": "filings/IVZ/docs/8_K/000091420825000347__ivz-20250909.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-04-02",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 890725,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140046/d931557dars.pdf",
-          "file": "filings/IVZ/docs/ARS/000119312526140046__d931557dars.pdf"
+          "sizeBytes": 34723832,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2026-proxy.pdf",
+          "file": "filings/IVZ/docs/wa0ae563e18c68e92.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2026-02-24",
-          "fmt": "HTM",
-          "sizeBytes": 3151037,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000079/ivz-20251231.htm",
-          "file": "filings/IVZ/docs/10_K/000091420826000079__ivz-20251231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2025-03-28",
+          "name": "2025 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 6733801,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312525066777/d888923dars.pdf",
-          "file": "filings/IVZ/docs/ARS/000119312525066777__d888923dars.pdf"
+          "sizeBytes": 3718040,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2025-Proxy.pdf",
+          "file": "filings/IVZ/docs/w0a172c708b278e2c.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-02-25",
-          "fmt": "HTM",
-          "sizeBytes": 3601721,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420825000114/ivz-20241231.htm",
-          "file": "filings/IVZ/docs/10_K/000091420825000114__ivz-20241231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2024-03-28",
+          "name": "2024 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 786333,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312524080509/d808288dars.pdf",
-          "file": "filings/IVZ/docs/ARS/000119312524080509__d808288dars.pdf"
+          "sizeBytes": 4449353,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2024-Proxy.pdf",
+          "file": "filings/IVZ/docs/we3a088afb3af540f.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2024-02-21",
-          "fmt": "HTM",
-          "sizeBytes": 3972055,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420824000219/ivz-20231231.htm",
-          "file": "filings/IVZ/docs/10_K/000091420824000219__ivz-20231231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2023-03-31",
+          "name": "2023 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 2700134,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000119312523088099/d479225dars.pdf",
-          "file": "filings/IVZ/docs/ARS/000119312523088099__d479225dars.pdf"
+          "sizeBytes": 2176686,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2023_Proxy.pdf",
+          "file": "filings/IVZ/docs/w9a0d6217151f0fa6.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2022 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1792731,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2022-Proxy.pdf",
+          "file": "filings/IVZ/docs/w03066dcbf3220c93.pdf"
+        },
+        {
+          "name": "2021 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2028420,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2021-Proxy.pdf",
+          "file": "filings/IVZ/docs/wea6ba5e45c84be5f.pdf"
+        },
+        {
+          "name": "2021 Additional Proxy Soliciting Materials",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 334314,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/regulatory/2021-Additional-Proxy.pdf",
+          "file": "filings/IVZ/docs/w81221db7a61513f3.pdf"
+        },
+        {
+          "name": "2025 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 4153409,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420823000297/ivz-20221231.htm",
-          "file": "filings/IVZ/docs/10_K/000091420823000297__ivz-20221231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 902924,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2025-annual-report.pdf",
+          "file": "filings/IVZ/docs/w521ebb914314dcb0.pdf"
+        },
+        {
+          "name": "2024 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 711444,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2024-Annual-Report.pdf",
+          "file": "filings/IVZ/docs/w93215f43e520252d.pdf"
+        },
+        {
+          "name": "2023 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 758354,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2023-Annual-Report.pdf",
+          "file": "filings/IVZ/docs/wcc292bd60fdb1bbe.pdf"
+        },
+        {
+          "name": "2022 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 993431,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2022_Annual_Report_10_K.pdf",
+          "file": "filings/IVZ/docs/w13589334acbfeacc.pdf"
+        },
+        {
+          "name": "2021 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1731558,
+          "edgarUrl": "https://www.invesco.com/content/dam/invesco/corporate/en/pdfs/reports/2021_10-K.pdf",
+          "file": "filings/IVZ/docs/wf0b245a1f1b5b0cb.pdf"
         }
       ],
       "metrics": {
@@ -4606,404 +4306,144 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-06",
-          "fmt": "HTM",
-          "sizeBytes": 1539031,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005680/wti-20260331.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465926005680__wti-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-06",
-          "fmt": "HTM",
-          "sizeBytes": 1293380,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925016023/i102725010q.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465925016023__i102725010q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-06",
-          "fmt": "HTM",
-          "sizeBytes": 1326517,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925011582/y73025310q.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465925011582__y73025310q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-09",
-          "fmt": "HTM",
-          "sizeBytes": 983950,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925007249/p42825410q.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465925007249__p42825410q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-11-07",
-          "fmt": "HTM",
-          "sizeBytes": 3492236,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924018545/wt-20240930.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465924018545__wt-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 3037011,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924013626/wt-20240630.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465924013626__wt-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-05-07",
-          "fmt": "HTM",
-          "sizeBytes": 1152333,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924008488/wt-20240331.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465924008488__wt-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-11-08",
-          "fmt": "HTM",
-          "sizeBytes": 1650468,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465923014681/wt-20230930.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000121465923014681__wt-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-04",
-          "fmt": "HTM",
-          "sizeBytes": 2945914,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000119312523204008/d494248d10q.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000119312523204008__d494248d10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-09",
-          "fmt": "HTM",
-          "sizeBytes": 1761832,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000119312523139497/d452823d10q.htm",
-          "file": "filings/WisdomTree/docs/10_Q/000119312523139497__d452823d10q.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 2391754,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005251/wti-20251231.htm",
-          "file": "filings/WisdomTree/docs/DEF_14A/000121465926005251__wti-20251231.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 11058,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005252/p417268defa14a.htm",
-          "file": "filings/WisdomTree/docs/DEFA14A/000121465926005252__p417268defa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2025-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 11134,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925006600/wt429250defa14a.htm",
-          "file": "filings/WisdomTree/docs/DEFA14A/000121465925006600__wt429250defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 2333117,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925006571/wt-20250429.htm",
-          "file": "filings/WisdomTree/docs/DEF_14A/000121465925006571__wt-20250429.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2024-06-06",
-          "fmt": "HTM",
-          "sizeBytes": 32559,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924010686/j66242defa14a.htm",
-          "file": "filings/WisdomTree/docs/DEFA14A/000121465924010686__j66242defa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2024-06-06",
-          "fmt": "HTM",
-          "sizeBytes": 35899,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924010681/d66244defa14a.htm",
-          "file": "filings/WisdomTree/docs/DEFA14A/000121465924010681__d66244defa14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-18",
-          "fmt": "HTM",
-          "sizeBytes": 40918,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926007575/b6182648k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926007575__b6182648k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-29",
-          "fmt": "HTM",
-          "sizeBytes": 25493,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926006842/b5282648k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926006842__b5282648k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 27065,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005379/d4292638k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926005379__d4292638k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-30",
-          "fmt": "HTM",
-          "sizeBytes": 35758,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926003985/o3272608k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926003985__o3272608k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-24",
-          "fmt": "HTM",
-          "sizeBytes": 31941,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926003676/p3232608k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926003676__p3232608k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-23",
-          "fmt": "HTM",
-          "sizeBytes": 30597,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926003657/y3232618k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926003657__y3232618k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-16",
-          "fmt": "HTM",
-          "sizeBytes": 34801,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926003292/b3132638k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926003292__b3132638k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 23728,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926000967/y1282628k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465926000967__y1282628k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 24749,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925015638/i10292508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925015638__i10292508k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-02",
-          "fmt": "HTM",
-          "sizeBytes": 23525,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925014468/w1012508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925014468__w1012508k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-14",
-          "fmt": "HTM",
-          "sizeBytes": 38723,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925012285/r8132508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925012285__r8132508k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-12",
-          "fmt": "HTM",
-          "sizeBytes": 26656,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925011813/r8112508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925011813__r8112508k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-11",
-          "fmt": "HTM",
-          "sizeBytes": 32485,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925011803/i8112508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925011803__i8112508k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 34051,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925011230/g7302518k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925011230__g7302518k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-06-20",
-          "fmt": "HTM",
-          "sizeBytes": 35345,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925009393/z6182548k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925009393__z6182548k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 23749,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925006811/p4302508k.htm",
-          "file": "filings/WisdomTree/docs/8_K/000121465925006811__p4302508k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "Annual Report (ARS)",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-04-29",
+          "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 526414,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926005248/wt424263ars.pdf",
-          "file": "filings/WisdomTree/docs/ARS/000121465926005248__wt424263ars.pdf"
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/all-sec-filings/content/0001214659-26-005248/wt424263ars.pdf",
+          "file": "filings/WisdomTree/docs/w46d11ce260d3acfc.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "PDF of ARS filing published on Apr 29, 2026 2026",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-25",
-          "fmt": "HTM",
-          "sizeBytes": 2372266,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465926002458/wti-20251231.htm",
-          "file": "filings/WisdomTree/docs/10_K/000121465926002458__wti-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 526414,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-26-005248/0001214659-26-005248.pdf",
+          "file": "filings/WisdomTree/docs/w728e0acd4a96efbe.pdf"
         },
         {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "PDF of 10-K filing published on Feb 25, 2026 2026",
+          "form": "IR",
           "group": "Annual",
-          "date": "2025-04-29",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10342204,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-26-002458/0001214659-26-002458.pdf",
+          "file": "filings/WisdomTree/docs/w566f96c89c6af301.pdf"
+        },
+        {
+          "name": "Annual Report (ARS)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 1129142,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925006570/wt411250ars10k.pdf",
-          "file": "filings/WisdomTree/docs/ARS/000121465925006570__wt411250ars10k.pdf"
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/all-sec-filings/content/0001214659-25-006570/wt411250ars10k.pdf",
+          "file": "filings/WisdomTree/docs/w61239b923a331e90.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "PDF of ARS filing published on Apr 29, 2025 2025",
+          "form": "IR",
           "group": "Annual",
-          "date": "2025-02-26",
-          "fmt": "HTM",
-          "sizeBytes": 2251709,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465925003503/wt-20241231.htm",
-          "file": "filings/WisdomTree/docs/10_K/000121465925003503__wt-20241231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1129142,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-25-006570/0001214659-25-006570.pdf",
+          "file": "filings/WisdomTree/docs/wfe88a4dbc81883e3.pdf"
         },
         {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "PDF of 10-K filing published on Feb 26, 2025 2025",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-04-29",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10034390,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-25-003503/0001214659-25-003503.pdf",
+          "file": "filings/WisdomTree/docs/w2eb4d45d56d1360c.pdf"
+        },
+        {
+          "name": "Annual Report (ARS)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 507915,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924007721/wt422241ars10k.pdf",
-          "file": "filings/WisdomTree/docs/ARS/000121465924007721__wt422241ars10k.pdf"
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/all-sec-filings/content/0001214659-24-007721/wt422241ars10k.pdf",
+          "file": "filings/WisdomTree/docs/w4dfb252493f6fdc5.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "PDF of ARS filing published on Apr 29, 2024 2024",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 7830813,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000121465924003435/wt-20231231.htm",
-          "file": "filings/WisdomTree/docs/10_K/000121465924003435__wt-20231231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 507915,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-24-007721/0001214659-24-007721.pdf",
+          "file": "filings/WisdomTree/docs/w664dfef292574544.pdf"
         },
         {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "PDF of 10-K filing published on Feb 23, 2024 2024",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-05-01",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 13272192,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001214659-24-003435/0001214659-24-003435.pdf",
+          "file": "filings/WisdomTree/docs/w5e5305800f341326.pdf"
+        },
+        {
+          "name": "Annual Report (ARS)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
           "fmt": "PDF",
           "sizeBytes": 724920,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000119312523130409/d426509dars.pdf",
-          "file": "filings/WisdomTree/docs/ARS/000119312523130409__d426509dars.pdf"
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/all-sec-filings/content/0001193125-23-130409/d426509dars.pdf",
+          "file": "filings/WisdomTree/docs/w4e86f08bd1dc0eff.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "PDF of ARS filing published on May 1, 2023 2023",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-02-28",
-          "fmt": "HTM",
-          "sizeBytes": 3974085,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/880631/000119312523054126/d426509d10k.htm",
-          "file": "filings/WisdomTree/docs/10_K/000119312523054126__d426509d10k.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 724920,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001193125-23-130409/0001193125-23-130409.pdf",
+          "file": "filings/WisdomTree/docs/w1e54499df39f253a.pdf"
+        },
+        {
+          "name": "PDF of 10-K filing published on Feb 28, 2023 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1322536,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001193125-23-054126/0001193125-23-054126.pdf",
+          "file": "filings/WisdomTree/docs/w160b0e89ad6f4d49.pdf"
+        },
+        {
+          "name": "PDF of 10-K/A filing published on Apr 29, 2022 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 462650,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001193125-22-133883/0001193125-22-133883.pdf",
+          "file": "filings/WisdomTree/docs/wc791518f5442c389.pdf"
+        },
+        {
+          "name": "PDF of 10-K filing published on Feb 25, 2022 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1048513,
+          "edgarUrl": "https://ir.wisdomtree.com/sec-filings/annual-reports/content/0001193125-22-053552/0001193125-22-053552.pdf",
+          "file": "filings/WisdomTree/docs/w358697c0da5309e1.pdf"
         }
       ],
       "metrics": {
@@ -5089,424 +4529,114 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 1816856,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926015926/jhg20260331_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774926015926__jhg20260331_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-30",
-          "fmt": "HTM",
-          "sizeBytes": 2666310,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925032286/jhg20250930_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774925032286__jhg20250930_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 2612591,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925024033/jhg20250630_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774925024033__jhg20250630_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 1848163,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925013972/jhg20250331_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774925013972__jhg20250331_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 2468125,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924032700/jhg20240930_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774924032700__jhg20240930_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 2435898,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924024192/jhg20240630_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774924024192__jhg20240630_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 1626716,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924014250/jhg20240331_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774924014250__jhg20240331_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-11-01",
-          "fmt": "HTM",
-          "sizeBytes": 2371827,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774923029643/jhg20230930_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774923029643__jhg20230930_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 2441520,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774923021516/jhg20230531_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774923021516__jhg20230531_10q.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-03",
-          "fmt": "HTM",
-          "sizeBytes": 1731881,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774923012186/jhg20230331_10q.htm",
-          "file": "filings/JH/docs/10_Q/000143774923012186__jhg20230331_10q.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 13521,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000130817926000294/jhg014939-defa14a.htm",
-          "file": "filings/JH/docs/DEFA14A/000130817926000294__jhg014939-defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 1420896,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000130817926000293/jhg014939-def14a.htm",
-          "file": "filings/JH/docs/DEF_14A/000130817926000293__jhg014939-def14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-09",
-          "fmt": "HTM",
-          "sizeBytes": 14209,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926041494/tm269831d9_defa14a.htm",
-          "file": "filings/JH/docs/DEFA14A/000110465926041494__tm269831d9_defa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-09",
-          "fmt": "HTM",
-          "sizeBytes": 19516,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926041061/tm269831d10_defa14a.htm",
-          "file": "filings/JH/docs/DEFA14A/000110465926041061__tm269831d10_defa14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-07",
-          "fmt": "HTM",
-          "sizeBytes": 99739,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926040056/tm269831d8_defa14a.htm",
-          "file": "filings/JH/docs/DEFA14A/000110465926040056__tm269831d8_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-03-21",
-          "fmt": "HTM",
-          "sizeBytes": 1299024,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000130817925000183/jhg013443-def14a.htm",
-          "file": "filings/JH/docs/DEF_14A/000130817925000183__jhg013443-def14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-03-22",
-          "fmt": "HTM",
-          "sizeBytes": 1197556,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000130817924000237/ljhg2024_def14a.htm",
-          "file": "filings/JH/docs/DEF_14A/000130817924000237__ljhg2024_def14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-03-24",
-          "fmt": "HTM",
-          "sizeBytes": 1283812,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000130817923000342/jhg-20221231.htm",
-          "file": "filings/JH/docs/DEF_14A/000130817923000342__jhg-20221231.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-18",
-          "fmt": "HTM",
-          "sizeBytes": 42166,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926075457/tm2618260d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465926075457__tm2618260d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-02",
-          "fmt": "HTM",
-          "sizeBytes": 67858,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926069168/tm2616586d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465926069168__tm2616586d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 26994,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926015922/jhg20260227_8k.htm",
-          "file": "filings/JH/docs/8_K/000143774926015922__jhg20260227_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 38001,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926044632/tm2612053d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465926044632__tm2612053d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-25",
-          "fmt": "HTM",
-          "sizeBytes": 37384,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926034515/tm269831d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465926034515__tm269831d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-24",
-          "fmt": "HTM",
-          "sizeBytes": 44561,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465926033933/tm269102d9_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465926033933__tm269102d9_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 27044,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926002469/jhg20251113_8k.htm",
-          "file": "filings/JH/docs/8_K/000143774926002469__jhg20251113_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-22",
-          "fmt": "HTM",
-          "sizeBytes": 59340,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925123536/tm2534023d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925123536__tm2534023d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-30",
-          "fmt": "HTM",
-          "sizeBytes": 27016,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925032285/jhg20250731_8k.htm",
-          "file": "filings/JH/docs/8_K/000143774925032285__jhg20250731_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-27",
-          "fmt": "HTM",
-          "sizeBytes": 30471,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925102585/tm2529521d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925102585__tm2529521d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-18",
-          "fmt": "HTM",
-          "sizeBytes": 31935,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925079525/tm2523577d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925079525__tm2523577d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 26998,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925024032/jhg20250506_8k.htm",
-          "file": "filings/JH/docs/8_K/000143774925024032__jhg20250506_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-16",
-          "fmt": "HTM",
-          "sizeBytes": 24577,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925050071/tm2515257d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925050071__tm2515257d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-09",
-          "fmt": "HTM",
-          "sizeBytes": 32199,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925046818/tm2514523d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925046818__tm2514523d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 61058,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000110465925044147/tm2513929d1_8k.htm",
-          "file": "filings/JH/docs/8_K/000110465925044147__tm2513929d1_8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 26990,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925013971/jhg20250305_8k.htm",
-          "file": "filings/JH/docs/8_K/000143774925013971__jhg20250305_8k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-04-17",
+          "name": "2021 Notice of Annual General Meeting",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 3842210,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926012629/jhg20260415_ars.pdf",
-          "file": "filings/JH/docs/ARS/000143774926012629__jhg20260415_ars.pdf"
+          "sizeBytes": 309850,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2020/ar/21-NAGM.pdf",
+          "file": "filings/JH/docs/w00d4f6a57f38a605.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2026-02-25",
-          "fmt": "HTM",
-          "sizeBytes": 3901024,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774926005628/jhg20251231_10k.htm",
-          "file": "filings/JH/docs/10_K/000143774926005628__jhg20251231_10k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2025-03-21",
+          "name": "2026 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 7844063,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925008669/ars_janushenderson.pdf",
-          "file": "filings/JH/docs/ARS/000143774925008669__ars_janushenderson.pdf"
+          "sizeBytes": 2476886,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2026/agm/2026-Proxy-Statement.pdf",
+          "file": "filings/JH/docs/wb37afaac19370859.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-02-27",
-          "fmt": "HTM",
-          "sizeBytes": 3851124,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774925005488/jhg20241231_10k.htm",
-          "file": "filings/JH/docs/10_K/000143774925005488__jhg20241231_10k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2024-03-22",
+          "name": "2025 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 7754889,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924008934/jhg_ars.pdf",
-          "file": "filings/JH/docs/ARS/000143774924008934__jhg_ars.pdf"
+          "sizeBytes": 4699808,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2024/ar/JHG-2025-Proxy-Statement.pdf",
+          "file": "filings/JH/docs/w23f57c58c1933188.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2024-02-27",
-          "fmt": "HTM",
-          "sizeBytes": 3821407,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774924005720/jhg20221231c_10k.htm",
-          "file": "filings/JH/docs/10_K/000143774924005720__jhg20221231c_10k.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2023-03-24",
+          "name": "2024 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 40409044,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000143774923007698/formars02.pdf",
-          "file": "filings/JH/docs/ARS/000143774923007698__formars02.pdf"
+          "sizeBytes": 2219329,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2023/ar/jhg-2024-proxy-statement.pdf",
+          "file": "filings/JH/docs/wda29b92e306293b8.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2023 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4256789,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2022/ar/23-Proxy-Statement-Final-JH.pdf",
+          "file": "filings/JH/docs/w6ac4b5811aca1503.pdf"
+        },
+        {
+          "name": "2022 Proxy Statement",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4298035,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2021/ar/2022-Proxy-FINAL.pdf",
+          "file": "filings/JH/docs/wc291a76e30a9add3.pdf"
+        },
+        {
+          "name": "2025 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-02-28",
-          "fmt": "HTM",
-          "sizeBytes": 5185543,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1274173/000155837023002417/jhg-20221231x10k.htm",
-          "file": "filings/JH/docs/10_K/000155837023002417__jhg-20221231x10k.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7431972,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2026/agm/2025-Annual-Report.pdf",
+          "file": "filings/JH/docs/w6588d01c2139f1ba.pdf"
+        },
+        {
+          "name": "2024 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6538735,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2024/ar/JHG-2024-Annual-Report.pdf",
+          "file": "filings/JH/docs/wa660cbbb1fc37f3a.pdf"
+        },
+        {
+          "name": "2023 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5375997,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2023/ar/jhg-2023-annualreport_VF.pdf",
+          "file": "filings/JH/docs/wa6ff6fef508b428a.pdf"
+        },
+        {
+          "name": "2022 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3759741,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2022/ar/Janus-Henderson-2022-Annual-Report-Final.pdf",
+          "file": "filings/JH/docs/wb38b1da40e1315d5.pdf"
+        },
+        {
+          "name": "2021 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8679657,
+          "edgarUrl": "https://s203.q4cdn.com/353037891/files/doc_financials/2021/ar/JHG-2021-Annual-Report-FINAL.pdf",
+          "file": "filings/JH/docs/w775a21f01c56d5ec.pdf"
         }
       ],
       "metrics": {
@@ -5576,424 +4706,54 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-07",
-          "fmt": "HTM",
-          "sizeBytes": 2242242,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026032153/amg-20260331.htm",
-          "file": "filings/AMG/docs/10_Q/000162828026032153__amg-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-11-06",
-          "fmt": "HTM",
-          "sizeBytes": 3472489,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828025050206/amg-20250930.htm",
-          "file": "filings/AMG/docs/10_Q/000162828025050206__amg-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-07",
-          "fmt": "HTM",
-          "sizeBytes": 3660200,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000045/amg-20250630.htm",
-          "file": "filings/AMG/docs/10_Q/000100443425000045__amg-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 2748918,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000039/amg-20250331.htm",
-          "file": "filings/AMG/docs/10_Q/000100443425000039__amg-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-11-07",
-          "fmt": "HTM",
-          "sizeBytes": 3806448,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000049/amg-20240930.htm",
-          "file": "filings/AMG/docs/10_Q/000100443424000049__amg-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 3721505,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000040/amg-20240630.htm",
-          "file": "filings/AMG/docs/10_Q/000100443424000040__amg-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-05-07",
-          "fmt": "HTM",
-          "sizeBytes": 2727241,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000030/amg-20240331.htm",
-          "file": "filings/AMG/docs/10_Q/000100443424000030__amg-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-11-06",
-          "fmt": "HTM",
-          "sizeBytes": 1965017,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443423000034/amg-20230930.htm",
-          "file": "filings/AMG/docs/10_Q/000100443423000034__amg-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-07",
-          "fmt": "HTM",
-          "sizeBytes": 1934773,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443423000025/amg-20230630.htm",
-          "file": "filings/AMG/docs/10_Q/000100443423000025__amg-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 1767331,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443423000017/amg-20230331.htm",
-          "file": "filings/AMG/docs/10_Q/000100443423000017__amg-20230331.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 15086,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026025806/a2026amgdefa14aa.htm",
-          "file": "filings/AMG/docs/DEFA14A/000162828026025806__a2026amgdefa14aa.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-04-17",
-          "fmt": "HTM",
-          "sizeBytes": 2479766,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026025798/amg-20260417.htm",
-          "file": "filings/AMG/docs/DEF_14A/000162828026025798__amg-20260417.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2025-04-11",
-          "fmt": "HTM",
-          "sizeBytes": 11854,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000024/a2025amgdefa14a.htm",
-          "file": "filings/AMG/docs/DEFA14A/000100443425000024__a2025amgdefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-04-11",
-          "fmt": "HTM",
-          "sizeBytes": 3043184,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000021/amg-20250411.htm",
-          "file": "filings/AMG/docs/DEF_14A/000100443425000021__amg-20250411.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2024-04-12",
-          "fmt": "HTM",
-          "sizeBytes": 10037,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000020/amgdefa14a.htm",
-          "file": "filings/AMG/docs/DEFA14A/000100443424000020__amgdefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-04-12",
-          "fmt": "HTM",
-          "sizeBytes": 3053912,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000019/amg-20240412.htm",
-          "file": "filings/AMG/docs/DEF_14A/000100443424000019__amg-20240412.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2023-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 15137,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000156459023005773/amg-defa14a_20230525.htm",
-          "file": "filings/AMG/docs/DEFA14A/000156459023005773__amg-defa14a_20230525.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 1286416,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000156459023005769/amg-def14a_20230525.htm",
-          "file": "filings/AMG/docs/DEF_14A/000156459023005769__amg-def14a_20230525.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-09",
-          "fmt": "HTM",
-          "sizeBytes": 37110,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312526263845/d155271d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312526263845__d155271d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-28",
-          "fmt": "HTM",
-          "sizeBytes": 47186,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312526245324/d159096d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312526245324__d159096d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 42446,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026029094/amg-20260501.htm",
-          "file": "filings/AMG/docs/8_K/000162828026029094__amg-20260501.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-26",
-          "fmt": "HTM",
-          "sizeBytes": 37646,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312526076911/d113085d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312526076911__d113085d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-12",
-          "fmt": "HTM",
-          "sizeBytes": 42350,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026007464/amg-20260212.htm",
-          "file": "filings/AMG/docs/8_K/000162828026007464__amg-20260212.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-12",
-          "fmt": "HTM",
-          "sizeBytes": 31365,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312526047590/d905353d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312526047590__d905353d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-11",
-          "fmt": "HTM",
-          "sizeBytes": 40399,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525316053/d933301d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525316053__d933301d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-08",
-          "fmt": "HTM",
-          "sizeBytes": 34256,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525311380/d93774d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525311380__d93774d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-11-03",
-          "fmt": "HTM",
-          "sizeBytes": 41792,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828025047923/amg-20251103.htm",
-          "file": "filings/AMG/docs/8_K/000162828025047923__amg-20251103.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-14",
-          "fmt": "HTM",
-          "sizeBytes": 35742,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525180826/d95092d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525180826__d95092d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 41585,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000042/amg-20250731.htm",
-          "file": "filings/AMG/docs/8_K/000100443425000042__amg-20250731.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-06-06",
-          "fmt": "HTM",
-          "sizeBytes": 34720,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525137112/d85066d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525137112__d85066d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-22",
-          "fmt": "HTM",
-          "sizeBytes": 47965,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525125095/d947167d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525125095__d947167d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-08",
-          "fmt": "HTM",
-          "sizeBytes": 42229,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000036/amg-20250508.htm",
-          "file": "filings/AMG/docs/8_K/000100443425000036__amg-20250508.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-03-07",
-          "fmt": "HTM",
-          "sizeBytes": 37032,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312525049936/d784451d8k.htm",
-          "file": "filings/AMG/docs/8_K/000119312525049936__d784451d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-02-06",
-          "fmt": "HTM",
-          "sizeBytes": 42326,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000004/amg-20250206.htm",
-          "file": "filings/AMG/docs/8_K/000100443425000004__amg-20250206.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
+          "name": "2025 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-04-17",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 9093513,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026025810/amgars.pdf",
-          "file": "filings/AMG/docs/ARS/000162828026025810__amgars.pdf"
+          "sizeBytes": 680920,
+          "edgarUrl": "https://ir.amg.com/static-files/28ddf821-b61e-4dc8-a770-68848496f4c1",
+          "file": "filings/AMG/docs/w901361cb767d9c82.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2024 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-17",
-          "fmt": "HTM",
-          "sizeBytes": 5284716,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000162828026008665/amg-20251231.htm",
-          "file": "filings/AMG/docs/10_K/000162828026008665__amg-20251231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2025-04-11",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 64955894,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000026/amgars.pdf",
-          "file": "filings/AMG/docs/ARS/000100443425000026__amgars.pdf"
+          "sizeBytes": 2054253,
+          "edgarUrl": "https://ir.amg.com/static-files/99214104-d8a7-46c8-94ba-d247315923f6",
+          "file": "filings/AMG/docs/wfa762baef876c517.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2023 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2025-02-14",
-          "fmt": "HTM",
-          "sizeBytes": 5789091,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443425000010/amg-20241231.htm",
-          "file": "filings/AMG/docs/10_K/000100443425000010__amg-20241231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2024-04-12",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 9910488,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000021/amgars.pdf",
-          "file": "filings/AMG/docs/ARS/000100443424000021__amgars.pdf"
+          "sizeBytes": 883804,
+          "edgarUrl": "https://ir.amg.com/static-files/2dab9faa-964c-4998-bb0b-6ce967ae754a",
+          "file": "filings/AMG/docs/w84b0502d8f006fd7.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2022 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-02-16",
-          "fmt": "HTM",
-          "sizeBytes": 2481301,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443424000010/amg-20231231.htm",
-          "file": "filings/AMG/docs/10_K/000100443424000010__amg-20231231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2023-04-14",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 5101570,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000119312523102297/d424318dars.pdf",
-          "file": "filings/AMG/docs/ARS/000119312523102297__d424318dars.pdf"
+          "sizeBytes": 6042068,
+          "edgarUrl": "https://ir.amg.com/static-files/44a4adb7-f7c0-4e91-b0c2-2f2fc8a65c19",
+          "file": "filings/AMG/docs/w50a03b1ceed822e9.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2021 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-02-17",
-          "fmt": "HTM",
-          "sizeBytes": 3161445,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1004434/000100443423000010/amg-20221231.htm",
-          "file": "filings/AMG/docs/10_K/000100443423000010__amg-20221231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1037894,
+          "edgarUrl": "https://ir.amg.com/static-files/1a87f30f-fe85-4315-b0f7-06b2059af238",
+          "file": "filings/AMG/docs/w96143bf0294fc061.pdf"
         }
       ],
       "metrics": {
@@ -9113,394 +7873,44 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-05-06",
-          "fmt": "HTM",
-          "sizeBytes": 9020382,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000095/pru-20260331.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777426000095__pru-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-30",
-          "fmt": "HTM",
-          "sizeBytes": 11471618,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000178/pru-20250930.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777425000178__pru-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 11231117,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000108/pru-20250630.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777425000108__pru-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 8881026,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000060/pru-20250331.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777425000060__pru-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 11197914,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000247/pru-20240930.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777424000247__pru-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 11051039,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000151/pru-20240630.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777424000151__pru-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 9041319,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000068/pru-20240331.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777424000068__pru-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-11-02",
-          "fmt": "HTM",
-          "sizeBytes": 12733505,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000117/pru-20230930.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777423000117__pru-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-03",
-          "fmt": "HTM",
-          "sizeBytes": 12557941,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000094/pru-20230630.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777423000094__pru-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-04",
-          "fmt": "HTM",
-          "sizeBytes": 13125657,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000067/pru-20230331.htm",
-          "file": "filings/PGIM/docs/10_Q/000113777423000067__pru-20230331.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2026-03-26",
-          "fmt": "HTM",
-          "sizeBytes": 2680746,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465926035162/tm2524217-6_def14a.htm",
-          "file": "filings/PGIM/docs/DEF_14A/000110465926035162__tm2524217-6_def14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2025-03-27",
-          "fmt": "HTM",
-          "sizeBytes": 2364008,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465925028759/tm2418128-4_def14a.htm",
-          "file": "filings/PGIM/docs/DEF_14A/000110465925028759__tm2418128-4_def14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2024-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 17390,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312524129020/d832992ddefa14a.htm",
-          "file": "filings/PGIM/docs/DEFA14A/000119312524129020__d832992ddefa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 2774371,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465924040492/tm2328464-d3_def14a.htm",
-          "file": "filings/PGIM/docs/DEF_14A/000110465924040492__tm2328464-d3_def14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-03-23",
-          "fmt": "HTM",
-          "sizeBytes": 2198703,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312523077836/d369076ddef14a.htm",
-          "file": "filings/PGIM/docs/DEF_14A/000119312523077836__d369076ddef14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-06-04",
-          "fmt": "HTM",
-          "sizeBytes": 33723,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526257475/d225577d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526257475__d225577d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-12",
-          "fmt": "HTM",
-          "sizeBytes": 46143,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526219846/d117087d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526219846__d117087d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 35535,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000093/pru-20260505.htm",
-          "file": "filings/PGIM/docs/8_K/000113777426000093__pru-20260505.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-21",
-          "fmt": "HTM",
-          "sizeBytes": 31412,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526166839/d143575d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526166839__d143575d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-14",
-          "fmt": "HTM",
-          "sizeBytes": 46611,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000087/pru-20260414.htm",
-          "file": "filings/PGIM/docs/8_K/000113777426000087__pru-20260414.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-13",
-          "fmt": "HTM",
-          "sizeBytes": 30380,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526152952/d197760d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526152952__d197760d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-10",
-          "fmt": "HTM",
-          "sizeBytes": 30762,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526100276/d110533d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526100276__d110533d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-06",
-          "fmt": "HTM",
-          "sizeBytes": 29231,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526095001/d29547d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526095001__d29547d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-11",
-          "fmt": "HTM",
-          "sizeBytes": 30214,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526045632/d920291d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526045632__d920291d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-10",
-          "fmt": "HTM",
-          "sizeBytes": 30046,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526043795/d33481d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526043795__d33481d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-03",
-          "fmt": "HTM",
-          "sizeBytes": 38847,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000012/pru-20260203.htm",
-          "file": "filings/PGIM/docs/8_K/000113777426000012__pru-20260203.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-20",
-          "fmt": "HTM",
-          "sizeBytes": 26720,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526015991/d97602d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312526015991__d97602d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-01-15",
-          "fmt": "HTM",
-          "sizeBytes": 35599,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000005/pru-20260115.htm",
-          "file": "filings/PGIM/docs/8_K/000113777426000005__pru-20260115.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-22",
-          "fmt": "HTM",
-          "sizeBytes": 29519,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312525327631/d942578d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312525327631__d942578d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-10",
-          "fmt": "HTM",
-          "sizeBytes": 27056,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312525314231/d27452d8k.htm",
-          "file": "filings/PGIM/docs/8_K/000119312525314231__d27452d8k.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-29",
-          "fmt": "HTM",
-          "sizeBytes": 35516,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000174/pru-20251029.htm",
-          "file": "filings/PGIM/docs/8_K/000113777425000174__pru-20251029.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2026-03-26",
+          "name": "508 2026 Voting Results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 1486295,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465926035169/tm2524222d2_ars.pdf",
-          "file": "filings/PGIM/docs/ARS/000110465926035169__tm2524222d2_ars.pdf"
+          "sizeBytes": 986471,
+          "edgarUrl": "https://s203.q4cdn.com/245412310/files/doc_financials/2026/ar/508_2026-Voting-Results.pdf",
+          "file": "filings/PGIM/docs/w1a9fa6a6b75c6580.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2026-02-12",
-          "fmt": "HTM",
-          "sizeBytes": 14934941,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000048/pru-20251231.htm",
-          "file": "filings/PGIM/docs/10_K/000113777426000048__pru-20251231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2025-03-27",
+          "name": "Statement of Financial Condition PDF",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 1584128,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000110465925028763/tm2429652d4_ars.pdf",
-          "file": "filings/PGIM/docs/ARS/000110465925028763__tm2429652d4_ars.pdf"
+          "sizeBytes": 426657,
+          "edgarUrl": "https://www.prudential.com/content/dam/us/sites/footer/December-2023-PIMS-Audited-Statement-of-Financial-Condition.pdf",
+          "file": "filings/PGIM/docs/w6f74459ff389aa82.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-02-13",
-          "fmt": "HTM",
-          "sizeBytes": 15496286,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000044/pru-20241231.htm",
-          "file": "filings/PGIM/docs/10_K/000113777425000044__pru-20241231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2024-03-28",
+          "name": "Prudential Proxy2026",
+          "form": "IR",
+          "group": "Proxy",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 1809266,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312524080552/d534871dars.pdf",
-          "file": "filings/PGIM/docs/ARS/000119312524080552__d534871dars.pdf"
+          "sizeBytes": 3682965,
+          "edgarUrl": "https://s203.q4cdn.com/245412310/files/doc_financials/2026/ar/Prudential-Proxy2026.pdf",
+          "file": "filings/PGIM/docs/w26656bebef914530.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "Prudential AR2025",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-02-21",
-          "fmt": "HTM",
-          "sizeBytes": 16755446,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000045/pru-20231231.htm",
-          "file": "filings/PGIM/docs/10_K/000113777424000045__pru-20231231.htm"
-        },
-        {
-          "name": "Annual Report to Shareholders",
-          "form": "ARS",
-          "group": "Annual",
-          "date": "2023-03-23",
+          "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 15465243,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000119312523077871/d386706dars.pdf",
-          "file": "filings/PGIM/docs/ARS/000119312523077871__d386706dars.pdf"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2023-02-16",
-          "fmt": "HTM",
-          "sizeBytes": 16483496,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000040/pru-20221231.htm",
-          "file": "filings/PGIM/docs/10_K/000113777423000040__pru-20221231.htm"
+          "sizeBytes": 3550322,
+          "edgarUrl": "https://s203.q4cdn.com/245412310/files/doc_financials/2025/ar/Prudential-AR2025.pdf",
+          "file": "filings/PGIM/docs/w480a31da8211adfd.pdf"
         }
       ],
       "metrics": {
