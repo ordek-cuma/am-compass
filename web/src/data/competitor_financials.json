@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:34:52+00:00",
+  "generated_at": "2026-06-26T14:41:47+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -10621,204 +10621,134 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-05",
-          "fmt": "HTM",
-          "sizeBytes": 217222,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000056/aoa6k20260505ubsgroup.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000056__aoa6k20260505ubsgroup.htm"
+          "name": "Presentation slides for the first-quarter 2026 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 283111,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/qr-shared/2026/1q26/_jcr_content/root/contentarea/mainpar/toplevelgrid_copy_co/col_1/linklistreimagined_c/link_1853274911.0003867526.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjYvMXEyNi8xcTI2LXJlc3VsdHMtcHJlc2VudGF0aW9uLnBkZg==/1q26-results-presentation.pdf",
+          "file": "filings/UBS/docs/w4976650008cfdbeb.pdf"
         },
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 276161,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000053/investorpresotext2026.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000053__investorpresotext2026.htm"
+          "name": "Fixed income presentation for the first-quarter 2026 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 436571,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/qr-shared/2026/1q26/_jcr_content/root/contentarea/mainpar/toplevelgrid_copy_co/col_1/linklistreimagined_c/link_copy_copy.1841496062.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjYvMXEyNi8xcTI2LWZpeGVkLWluY29tZS1wcmVzZW50YXRpb24ucGRm/1q26-fixed-income-presentation.pdf",
+          "file": "filings/UBS/docs/w9d9c94e3740a683f.pdf"
         },
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 1108474,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000048/edgar1q26ubspillar.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000048__edgar1q26ubspillar.htm"
+          "name": "Earnings call remarks and Analyst Q&A for the first-quarter 2026 results",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 264768,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/qr-shared/2026/1q26/_jcr_content/root/contentarea/mainpar/toplevelgrid_copy_co/col_1/linklistreimagined_c/link.1864446935.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjYvMXEyNi8xcTI2LWVhcm5pbmdzLWNhbGwtcmVtYXJrcy5wZGY=/1q26-earnings-call-remarks.pdf",
+          "file": "filings/UBS/docs/w8635165177478a23.pdf"
         },
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
+          "name": "Media release (Download PDF)",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 27556,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000047/edgarq1q26kubsgroupagc.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000047__edgarq1q26kubsgroupagc.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 626335,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_copy_/innergrid_copy_copy_/col_1/actionbutton_1897786_1825671581.0925895478.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjYvMXEyNi8xcTI2LW1lZGlhLXJlbGVhc2UtZW4ucGRm/1q26-media-release-en.pdf",
+          "file": "filings/UBS/docs/w9e628f5b10863968.pdf"
         },
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
+          "name": "Media release for the first-quarter 2026 results",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 377431,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000046/edgar1q26ubsgroupcap.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000046__edgar1q26ubsgroupcap.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 626335,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting/qr-shared/2026/1q26/_jcr_content/root/contentarea/mainpar/toplevelgrid_copy_co/col_1/linklistreimagined_c/link_1319571161.1784369656.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjYvMXEyNi8xcTI2LW1lZGlhLXJlbGVhc2UtZW4ucGRm/1q26-media-release-en.pdf",
+          "file": "filings/UBS/docs/w20b6c537eef8af31.pdf"
         },
         {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 29273,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000045/investorpreso20260429.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000045__investorpreso20260429.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-29",
-          "fmt": "HTM",
-          "sizeBytes": 2930311,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000044/edgar1q26ubsgroup.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000044__edgar1q26ubsgroup.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-22",
-          "fmt": "HTM",
-          "sizeBytes": 47050,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000043/newsrelease6k20260422.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000043__newsrelease6k20260422.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-31",
-          "fmt": "HTM",
-          "sizeBytes": 13354,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000119312526133448/d142580d6k.htm",
-          "file": "filings/UBS/docs/6_K/000119312526133448__d142580d6k.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-23",
-          "fmt": "HTM",
-          "sizeBytes": 13798,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000119312526119205/d70450d6k.htm",
-          "file": "filings/UBS/docs/6_K/000119312526119205__d70450d6k.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-16",
-          "fmt": "HTM",
-          "sizeBytes": 38811,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000039/agminvitation6k2026.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000039__agminvitation6k2026.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 2774568,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000037/ubsgroupsustainabilit.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000037__ubsgroupsustainabilit.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 4655895,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000035/ar25pillar3ubs.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000035__ar25pillar3ubs.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 26491,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000032/ar256kubsgroupagctr.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000032__ar256kubsgroupagctr.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 1339079,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000031/ar25ubsswitzerlandags.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000031__ar25ubsswitzerlandags.htm"
-        },
-        {
-          "name": "Report (6-K)",
-          "form": "6-K",
-          "group": "Earnings / Events",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 864612,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000028/ar25ubsgroupagstandal.htm",
-          "file": "filings/UBS/docs/6_K/000161052026000028__ar25ubsgroupagstandal.htm"
-        },
-        {
-          "name": "Annual Report (20-F)",
-          "form": "20-F",
+          "name": "2025 SEC Form 20-F \u2013 UBS Group AG",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-03-09",
-          "fmt": "HTM",
-          "sizeBytes": 24795731,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
-          "file": "filings/UBS/docs/20_F/000161052026000023__ubs-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 25572210,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__685371726.0137500452.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjUvNHEyNS8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNS5wZGY=/20f-annual-report-ubs-group-2025.pdf",
+          "file": "filings/UBS/docs/w92f9fb103e11f028.pdf"
         },
         {
-          "name": "Annual Report (20-F)",
-          "form": "20-F",
+          "name": "2025 SEC Form 20-F \u2013 UBS AG",
+          "form": "IR",
           "group": "Annual",
-          "date": "2025-03-17",
-          "fmt": "HTM",
-          "sizeBytes": 24578877,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
-          "file": "filings/UBS/docs/20_F/000161052025000023__ubs-20241231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 18272002,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__1413992958.0034884331.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjUvNHEyNS8yMGYtYW5udWFsLXJlcG9ydC11YnMtYWctMjAyNS5wZGY=/20f-annual-report-ubs-ag-2025.pdf",
+          "file": "filings/UBS/docs/w3b65acd257e1681a.pdf"
         },
         {
-          "name": "Annual Report (20-F)",
-          "form": "20-F",
+          "name": "2024 SEC Form 20-F \u2013 UBS Group AG",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-03-28",
-          "fmt": "HTM",
-          "sizeBytes": 21589393,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052024000041/ubs-20231231.htm",
-          "file": "filings/UBS/docs/20_F/000161052024000041__ubs-20231231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 13190156,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.0375623014.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+          "file": "filings/UBS/docs/w629c2958d6685d0c.pdf"
         },
         {
-          "name": "Annual Report (20-F)",
-          "form": "20-F",
+          "name": "2024 SEC Form 20-F \u2013 UBS AG",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-03-06",
-          "fmt": "HTM",
-          "sizeBytes": 35736660,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1610520/000161052023000052/dev_UBS_AR_2022.htm",
-          "file": "filings/UBS/docs/20_F/000161052023000052__dev_UBS_AR_2022.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9733220,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__24832777.1340819922.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtYWctMjAyNC5wZGY=/20f-annual-report-ubs-ag-2024.pdf",
+          "file": "filings/UBS/docs/w70409a321ce4a34c.pdf"
+        },
+        {
+          "name": "2023 SEC 20-F Form - UBS Group AG",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 15349041,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy.1527389184.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjMvNHEyMy9zZWMtZmlsaW5ncy8yMGYtZnVsbC1yZXBvcnQtdWJzLWdyb3VwLWFnLWNvbnNvbGlkYXRlZC0yMDIzLnBkZg==/20f-full-report-ubs-group-ag-consolidated-2023.pdf",
+          "file": "filings/UBS/docs/wda8e6c9630d7f702.pdf"
+        },
+        {
+          "name": "2023 SEC 20-F Form - UBS AG",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9375905,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy_.1715165510.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjMvNHEyMy9zZWMtZmlsaW5ncy8yMGYtZnVsbC1yZXBvcnQtdWJzLWFnLWNvbnNvbGlkYXRlZC0yMDIzLnBkZg==/20f-full-report-ubs-ag-consolidated-2023.pdf",
+          "file": "filings/UBS/docs/w380fceedbf3fc423.pdf"
+        },
+        {
+          "name": "2022 SEC Form 20-F",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 27726653,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045.0571293984.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL2ZpbmFuY2lhbC1pbmZvcm1hdGlvbi9zZWMvMjAyMi8yMGYtZnVsbC1yZXBvcnQtc2VjLTIwMjIucGRm/20f-full-report-sec-2022.pdf",
+          "file": "filings/UBS/docs/w270947f16e4b34e3.pdf"
+        },
+        {
+          "name": "2021 SEC Form 20-F",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12449997,
+          "edgarUrl": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_653266892.0335210851.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL2ZpbmFuY2lhbC1pbmZvcm1hdGlvbi9zZWMvMjAyMS8yMC1mLWZ1bGwtcmVwb3J0LXVicy1ncm91cC1hZy1hbmQtdWJzLWFnLWNvbnNvbGlkYXRlZC0yMDIxLWVuLnBkZg==/20-f-full-report-ubs-group-ag-and-ubs-ag-consolidated-2021-en.pdf",
+          "file": "filings/UBS/docs/wce73834254126499.pdf"
         }
       ],
       "metrics": {
