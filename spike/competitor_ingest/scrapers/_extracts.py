@@ -14,9 +14,11 @@ EU_PDF = r"""
     if (/cookie|privacy|\/terms|disclaimer|\/contact|imprint|datenschutz/.test(low)) continue;
     let t = (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '')
               .replace(/\s+/g, ' ')
-              .replace(/\(opens? in (a )?new (tab|window)\)|\(pdf\)|download( pdf)?/ig, '')
+              .replace(/\(opens? in (a )?new (tab|window)\)|\(pdf[^)]*\)|download( pdf)?|herunterladen|herunter laden|öffnet[\w ]*dokument|öffnet ein neues fenster|neues fenster/ig, '')
               .replace(/\b\d[\d.,]*\s?[KMG]B\b/ig, '')          // strip "8108 KB", "2.7 MB" size suffixes
-              .replace(/\s+/g, ' ').trim();
+              .replace(/\s+/g, ' ')
+              .replace(/([^\s]{5,})(.*)\s\1\s*$/i, '$1$2')        // drop a trailing word that repeats an earlier one (umlaut-safe)
+              .trim();
     const fn = decodeURIComponent((h.split('/').pop() || '').split('?')[0]);
     const m = (t + ' ' + fn).match(/(20[0-3]\d)/);              // year from text or filename
     const y = m ? +m[1] : null;

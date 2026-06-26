@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:01:41+00:00",
+  "generated_at": "2026-06-26T17:26:38+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -14141,14 +14141,24 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Gesch\u00e4ftsbericht / Results",
+          "name": "Nachhaltigkeitsbericht 2025 NH-Bericht",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8665656,
+          "edgarUrl": "https://www.werte-schaffen-zukunft.de/dam/jcr:c4e25081-edea-4c62-b968-c9324f0f7cab/UMH_Nachhaltigkeitsbericht_2025.pdf",
+          "file": "filings/Union/docs/wfd41b4041929f670.pdf"
+        },
+        {
+          "name": "Gesch\u00e4ftsbericht 2025",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 58206,
-          "edgarUrl": "https://www.union-investment.com/",
-          "file": "filings/Union/docs/w43f9ee36843ad83e.html"
+          "fmt": "PDF",
+          "sizeBytes": 1361589,
+          "edgarUrl": "https://www.werte-schaffen-zukunft.de/dam/jcr:7d1bb359-e7e7-443c-8c5c-44562ef43595/UMH_Geschaeftsbericht_2025.pdf",
+          "file": "filings/Union/docs/w1721d6c15d8dc2f7.pdf"
         }
       ],
       "metrics": {
