@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:26:38+00:00",
+  "generated_at": "2026-06-26T17:33:15+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -13094,14 +13094,134 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Universal Registration Document / Results",
+          "name": "Press release - 1Q21 results: laying the foundations of the upcoming 2024 strategic plan",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 800606,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2022/08/press_release_-_1q21_results.pdf",
+          "file": "filings/NAT/docs/w51631f3de4ceeca9.pdf"
+        },
+        {
+          "name": "Slideshow - 2021 First Quarter Results",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 13498242,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2022/08/natixis_1q21.pdf",
+          "file": "filings/NAT/docs/w5392942f4fe61685.pdf"
+        },
+        {
+          "name": "natixis results 4q10 english 22022011x",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 399938,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2022/08/natixis_results_4q10_english_22022011x.pdf",
+          "file": "filings/NAT/docs/w84fee6a9212b8b42.pdf"
+        },
+        {
+          "name": "2021 Universal registration document (format PDF)",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 163583,
-          "edgarUrl": "https://www.im.natixis.com/en-intl/about",
-          "file": "filings/NAT/docs/w87cc9234cc64d3d1.html"
+          "fmt": "PDF",
+          "sizeBytes": 7556513,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2023/06/Natixis-URD-2021_V2_EN.pdf",
+          "file": "filings/NAT/docs/w531e084f42f89e12.pdf"
+        },
+        {
+          "name": "Amendment of the 2021 Universal registration document and Half-Year Financial Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5030813,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2023/01/NATIXIS_First-amendment-2021_URD-05AUG22.pdf",
+          "file": "filings/NAT/docs/w8d0bb73174f6cb67.pdf"
+        },
+        {
+          "name": "2021 Universal registration document (accessible PDF)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12826416,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2022/08/nati_natixis_complet_en_w3c_2022_05_16.pdf",
+          "file": "filings/NAT/docs/w33250457f5fb9c64.pdf"
+        },
+        {
+          "name": "Natixis URD 2022 (Universal Registration Document) including Pillar III",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10340338,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2023/05/NATIXIS_URD-2022_EN_PDFi_v4.pdf",
+          "file": "filings/NAT/docs/w06b98829c395076a.pdf"
+        },
+        {
+          "name": "Amendment of the 2022 Universal registration document and Half-Year Financial Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3150926,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2023/09/NATIXIS_First-amendment-URD-2022_en.pdf",
+          "file": "filings/NAT/docs/wc906271762fb57b7.pdf"
+        },
+        {
+          "name": "Amendment of the 2023 Universal registration document and Half-Year Financial Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4753367,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2024/08/NATIXIS_First_amendment_URD_2023_-_06_08_2024.pdf",
+          "file": "filings/NAT/docs/w280bb0dfeb09c934.pdf"
+        },
+        {
+          "name": "Natixis 2023 Universal Registration Document",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7922955,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2024/03/NATI_URD2023_NATIXIS_MEL_ecobook-EN.pdf",
+          "file": "filings/NAT/docs/w8bdc944f8dd4e10b.pdf"
+        },
+        {
+          "name": "Amendment of the 2024 Universal registration document and 2025 Half-Year Financial Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2845932,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2025/08/Natixis_First_amendment_URD_2024_07_08_2025.pdf",
+          "file": "filings/NAT/docs/w1adb40ab14c05ec1.pdf"
+        },
+        {
+          "name": "Natixis 2024 Universal Registration Document",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 15229211,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2025/03/NATI2024_NATIXIS_URD_EN_MEL.pdf",
+          "file": "filings/NAT/docs/wd385627039897b2c.pdf"
+        },
+        {
+          "name": "Natixis 2025 Universal Registration Document",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7669623,
+          "edgarUrl": "https://natixis.groupebpce.com/wp-content/uploads/2026/03/NATIXIS_DEU_EN_2025_18032026.pdf",
+          "file": "filings/NAT/docs/wdeb31de41ac02c6f.pdf"
         }
       ],
       "metrics": {
