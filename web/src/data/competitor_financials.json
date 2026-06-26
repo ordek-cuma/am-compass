@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:09:05+00:00",
+  "generated_at": "2026-06-26T13:48:22+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -2723,384 +2723,104 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2026-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 1508558,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026028712/trow-20260331.htm",
-          "file": "filings/TROW/docs/10_Q/000162828026028712__trow-20260331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 2141286,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828025047751/trow-20250930.htm",
-          "file": "filings/TROW/docs/10_Q/000162828025047751__trow-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 2092144,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000023/trow-20250630.htm",
-          "file": "filings/TROW/docs/10_Q/000111316925000023__trow-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 1472592,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000015/trow-20250331.htm",
-          "file": "filings/TROW/docs/10_Q/000111316925000015__trow-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-11-01",
-          "fmt": "HTM",
-          "sizeBytes": 2100999,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000030/trow-20240930.htm",
-          "file": "filings/TROW/docs/10_Q/000111316924000030__trow-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-07-26",
-          "fmt": "HTM",
-          "sizeBytes": 2067662,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000019/trow-20240630.htm",
-          "file": "filings/TROW/docs/10_Q/000111316924000019__trow-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-04-26",
-          "fmt": "HTM",
-          "sizeBytes": 1467725,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000013/trow-20240331.htm",
-          "file": "filings/TROW/docs/10_Q/000111316924000013__trow-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-10-27",
-          "fmt": "HTM",
-          "sizeBytes": 2126461,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000044/trow-20230930.htm",
-          "file": "filings/TROW/docs/10_Q/000111316923000044__trow-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-07-28",
-          "fmt": "HTM",
-          "sizeBytes": 2203555,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000024/trow-20230630.htm",
-          "file": "filings/TROW/docs/10_Q/000111316923000024__trow-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 1905258,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000014/trow-20230331.htm",
-          "file": "filings/TROW/docs/10_Q/000111316923000014__trow-20230331.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
+          "name": "2025 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2026-03-17",
-          "fmt": "HTM",
-          "sizeBytes": 14733,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028887/tm265622d3_defa14a.htm",
-          "file": "filings/TROW/docs/DEFA14A/000110465926028887__tm265622d3_defa14a.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4631233,
+          "edgarUrl": "https://investors.troweprice.com/static-files/4399712f-a7e7-4fee-b2d9-7d3b1ef63b36",
+          "file": "filings/TROW/docs/w47df2cc28bff751e.pdf"
         },
         {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
+          "name": "2024 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2026-03-17",
-          "fmt": "HTM",
-          "sizeBytes": 2488244,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm",
-          "file": "filings/TROW/docs/DEF_14A/000110465926028876__tm268615d3_def14a.htm"
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 600159,
+          "edgarUrl": "https://investors.troweprice.com/static-files/617af734-7993-4588-8d0e-b2e164f65d18",
+          "file": "filings/TROW/docs/w613668953552bed2.pdf"
         },
         {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
+          "name": "2023 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2025-03-26",
-          "fmt": "HTM",
-          "sizeBytes": 14685,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465925028004/tm253700d2_defa14a.htm",
-          "file": "filings/TROW/docs/DEFA14A/000110465925028004__tm253700d2_defa14a.htm"
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1370320,
+          "edgarUrl": "https://investors.troweprice.com/static-files/68253f0e-0aad-4163-b4c7-7350eb8c00e7",
+          "file": "filings/TROW/docs/w409fdec7a033355a.pdf"
         },
         {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
+          "name": "2022 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2025-03-26",
-          "fmt": "HTM",
-          "sizeBytes": 1904884,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465925028002/tm253700-4_def14a.htm",
-          "file": "filings/TROW/docs/DEF_14A/000110465925028002__tm253700-4_def14a.htm"
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 882781,
+          "edgarUrl": "https://investors.troweprice.com/static-files/6a626a90-c718-4558-98a6-15d45abd71cb",
+          "file": "filings/TROW/docs/w589844110cf86c1b.pdf"
         },
         {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
+          "name": "2021 Proxy Statement",
+          "form": "IR",
           "group": "Proxy",
-          "date": "2024-03-18",
-          "fmt": "HTM",
-          "sizeBytes": 15767,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465924035431/tm244357d3_defa14a.htm",
-          "file": "filings/TROW/docs/DEFA14A/000110465924035431__tm244357d3_defa14a.htm"
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4128022,
+          "edgarUrl": "https://investors.troweprice.com/static-files/b192120b-bf69-4349-9e09-67e114ec232e",
+          "file": "filings/TROW/docs/wb4a5577097a1dd05.pdf"
         },
         {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2024-03-18",
-          "fmt": "HTM",
-          "sizeBytes": 1986125,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465924035429/tm244357-d9_def14a.htm",
-          "file": "filings/TROW/docs/DEF_14A/000110465924035429__tm244357-d9_def14a.htm"
-        },
-        {
-          "name": "Proxy (DEFA14A)",
-          "form": "DEFA14A",
-          "group": "Proxy",
-          "date": "2023-03-21",
-          "fmt": "HTM",
-          "sizeBytes": 16071,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465923034921/tm233213d3_defa14a.htm",
-          "file": "filings/TROW/docs/DEFA14A/000110465923034921__tm233213d3_defa14a.htm"
-        },
-        {
-          "name": "Proxy Statement (DEF 14A)",
-          "form": "DEF 14A",
-          "group": "Proxy",
-          "date": "2023-03-21",
-          "fmt": "HTM",
-          "sizeBytes": 1915340,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000110465923034918/tm233213d1_def14a.htm",
-          "file": "filings/TROW/docs/DEF_14A/000110465923034918__tm233213d1_def14a.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-18",
-          "fmt": "HTM",
-          "sizeBytes": 21218,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026035912/trow-20260515.htm",
-          "file": "filings/TROW/docs/8_K/000162828026035912__trow-20260515.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-05-11",
-          "fmt": "HTM",
-          "sizeBytes": 47883,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026033420/trow-20260507.htm",
-          "file": "filings/TROW/docs/8_K/000162828026033420__trow-20260507.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 21585,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026028572/trow-20260430.htm",
-          "file": "filings/TROW/docs/8_K/000162828026028572__trow-20260430.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-04-22",
-          "fmt": "HTM",
-          "sizeBytes": 29706,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026026397/trow-20260422.htm",
-          "file": "filings/TROW/docs/8_K/000162828026026397__trow-20260422.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2026-02-04",
-          "fmt": "HTM",
-          "sizeBytes": 22156,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026005273/trow-20260204.htm",
-          "file": "filings/TROW/docs/8_K/000162828026005273__trow-20260204.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-11-03",
-          "fmt": "HTM",
-          "sizeBytes": 21231,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828025047944/trow-20251103.htm",
-          "file": "filings/TROW/docs/8_K/000162828025047944__trow-20251103.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 21763,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828025047662/trow-20251031.htm",
-          "file": "filings/TROW/docs/8_K/000162828025047662__trow-20251031.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-16",
-          "fmt": "HTM",
-          "sizeBytes": 25816,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828025045161/trow-20251013.htm",
-          "file": "filings/TROW/docs/8_K/000162828025045161__trow-20251013.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-09-04",
-          "fmt": "HTM",
-          "sizeBytes": 21411,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000028/trow-20250904.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000028__trow-20250904.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 21749,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000021/trow-20250801.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000021__trow-20250801.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-12",
-          "fmt": "HTM",
-          "sizeBytes": 49556,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000018/trow-20250508.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000018__trow-20250508.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 23528,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000013/trow-20250502.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000013__trow-20250502.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-03-31",
-          "fmt": "HTM",
-          "sizeBytes": 19402,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000010/trow-20250331.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000010__trow-20250331.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-02-05",
-          "fmt": "HTM",
-          "sizeBytes": 22589,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000002/trow-20250205.htm",
-          "file": "filings/TROW/docs/8_K/000111316925000002__trow-20250205.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-12-05",
-          "fmt": "HTM",
-          "sizeBytes": 20011,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000033/trow-20241204.htm",
-          "file": "filings/TROW/docs/8_K/000111316924000033__trow-20241204.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-11-01",
-          "fmt": "HTM",
-          "sizeBytes": 23044,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000028/trow-20241101.htm",
-          "file": "filings/TROW/docs/8_K/000111316924000028__trow-20241101.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2025 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-13",
-          "fmt": "HTM",
-          "sizeBytes": 2783131,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026008002/trow-20251231.htm",
-          "file": "filings/TROW/docs/10_K/000162828026008002__trow-20251231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4735006,
+          "edgarUrl": "https://investors.troweprice.com/static-files/7c2a040a-0872-4017-b25a-52c92b489983",
+          "file": "filings/TROW/docs/w9f8a79e261c9304d.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2024 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2025-02-14",
-          "fmt": "HTM",
-          "sizeBytes": 2781377,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000007/trow-20241231.htm",
-          "file": "filings/TROW/docs/10_K/000111316925000007__trow-20241231.htm"
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1118490,
+          "edgarUrl": "https://investors.troweprice.com/static-files/49ef20a8-2607-4f27-8023-ca6ae069f5e2",
+          "file": "filings/TROW/docs/w9591a58ce9c1ef9f.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2023 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2024-02-16",
-          "fmt": "HTM",
-          "sizeBytes": 2785932,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000007/trow-20231231.htm",
-          "file": "filings/TROW/docs/10_K/000111316924000007__trow-20231231.htm"
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1579166,
+          "edgarUrl": "https://investors.troweprice.com/static-files/0cdefc07-369e-4e9e-92b2-201c53cdc0b1",
+          "file": "filings/TROW/docs/w2df0cf1e6febcf3f.pdf"
         },
         {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "2022 Annual Report",
+          "form": "IR",
           "group": "Annual",
-          "date": "2023-02-15",
-          "fmt": "HTM",
-          "sizeBytes": 3684948,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000007/trow-20221231.htm",
-          "file": "filings/TROW/docs/10_K/000111316923000007__trow-20221231.htm"
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1517205,
+          "edgarUrl": "https://investors.troweprice.com/static-files/7cfc7332-afa3-42a6-a865-0fa0f0b43880",
+          "file": "filings/TROW/docs/wc065561d32b092eb.pdf"
+        },
+        {
+          "name": "2021 Annual Report",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 11724493,
+          "edgarUrl": "https://investors.troweprice.com/static-files/192c6ac4-50c8-4048-aa84-59e21fa24912",
+          "file": "filings/TROW/docs/w4fc533981caec2c7.pdf"
         }
       ],
       "metrics": {
@@ -6945,16 +6665,6 @@
           "file": "filings/Goldman_Sachs/docs/wcba4972d46fccb17.pdf"
         },
         {
-          "name": "2023 Form 10-K",
-          "form": "IR",
-          "group": "10-K",
-          "date": "2023-12-31",
-          "fmt": "PDF",
-          "sizeBytes": 3649540,
-          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2023/2023-10-k.pdf",
-          "file": "filings/Goldman_Sachs/docs/w5347290c61bc5b33.pdf"
-        },
-        {
           "name": "2023 Form 10-K/A",
           "form": "IR",
           "group": "10-K",
@@ -6963,6 +6673,16 @@
           "sizeBytes": 240615,
           "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2023/2023-10-k-a.pdf",
           "file": "filings/Goldman_Sachs/docs/wa234eb29c5401705.pdf"
+        },
+        {
+          "name": "2023 Form 10-K",
+          "form": "IR",
+          "group": "10-K",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3649540,
+          "edgarUrl": "https://www.goldmansachs.com/investor-relations/financials/10k/2023/2023-10-k.pdf",
+          "file": "filings/Goldman_Sachs/docs/w5347290c61bc5b33.pdf"
         },
         {
           "name": "2022 Form 10-K",

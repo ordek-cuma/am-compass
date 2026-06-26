@@ -41,6 +41,10 @@ class CompetitorDataScraper:
     browser_download: bool = False
     warmup: str = ""
     resolve: Callable[[], list[dict]] | None = None
+    channel: str = ""                  # browser channel for download mode (e.g. "chrome" when
+                                       # bundled Chromium is HTTP/2-blocked)
+    download_extract: str = ""         # JS `() => [{url,label,group}]` run on the warmed page to
+                                       # discover the download targets in-session (no feed)
 
     def spec(self) -> dict:
         """JSON spec handed to render_worker (the Playwright subprocess)."""

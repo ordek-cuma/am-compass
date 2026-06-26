@@ -17,16 +17,34 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import sys
+import tempfile
 
 _UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
 
+def _grab(pg, url: str, dest: str) -> bool:
+    """Navigate to the doc and capture the download. The browser is configured to download
+    PDFs (always_open_pdf_externally) so both attachment docs (Goldman) and inline ones
+    (T. Rowe static-files) fire a download event."""
+    try:
+        with pg.expect_download(timeout=40000) as dl:
+            try:
+                pg.goto(url, wait_until="commit", timeout=30000)
+            except Exception:
+                pass  # navigation aborts when the download starts — expected
+        dl.value.save_as(dest)
+        return True
+    except Exception:
+        return False
+
+
 def _download_mode(spec: dict) -> None:
-    """Download bot-protected PDFs (e.g. Akamai) via a real in-session browser navigation:
-    warm up a page to establish the session, then goto each PDF URL and capture the download.
-    spec: {warmup, out_dir, targets:[{url,label,group}]}. Prints [{url,label,group,file}]."""
+    """Download docs whose assets are bot-protected (Akamai) or served inline, via a real
+    in-session browser that downloads PDFs instead of rendering them. spec: {warmup, out_dir,
+    channel?, targets?|extract?, skip_ids?}. Prints [{url,label,group,file}]."""
     try:
         from playwright.sync_api import sync_playwright
     except Exception as e:
@@ -34,33 +52,47 @@ def _download_mode(spec: dict) -> None:
         return
     out_dir = spec["out_dir"]
     os.makedirs(out_dir, exist_ok=True)
+    skip = set(spec.get("skip_ids") or [])
+    # A persistent profile that downloads PDFs (instead of opening Chrome's inline viewer),
+    # so the navigation fires a real download event we can capture.
+    udd = tempfile.mkdtemp(prefix="ci-dl-")
+    os.makedirs(os.path.join(udd, "Default"), exist_ok=True)
+    with open(os.path.join(udd, "Default", "Preferences"), "w") as f:
+        json.dump({"plugins": {"always_open_pdf_externally": True}}, f)
     results: list[dict] = []
     with sync_playwright() as p:
-        b = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        ctx = b.new_context(user_agent=_UA, locale="en-US", viewport={"width": 1366, "height": 900}, accept_downloads=True)
-        pg = ctx.new_page()
+        ctx = p.chromium.launch_persistent_context(
+            udd, headless=True, channel=(spec.get("channel") or None), accept_downloads=True,
+            user_agent=_UA, locale="en-US", viewport={"width": 1366, "height": 900},
+            args=["--disable-blink-features=AutomationControlled"])
+        pg = ctx.pages[0] if ctx.pages else ctx.new_page()
         if spec.get("warmup"):
             try:
-                pg.goto(spec["warmup"], wait_until="domcontentloaded", timeout=40000)
-                pg.wait_for_timeout(6000)
+                pg.goto(spec["warmup"], wait_until="commit", timeout=40000)
+                pg.wait_for_timeout(8000)
             except Exception as e:
                 print(f"warmup: {e}", file=sys.stderr)
-        for t in spec.get("targets", []):
+        targets = spec.get("targets") or []
+        if spec.get("extract"):  # discover targets in-session from the warmed page
+            try:
+                for _ in range(8):
+                    pg.mouse.wheel(0, 2500)
+                    pg.wait_for_timeout(400)
+                targets = pg.evaluate(spec["extract"]) or []
+            except Exception as e:
+                print(f"discover: {e}", file=sys.stderr)
+        for t in targets:
             url = t["url"]
             doc_id = "w" + hashlib.sha256(url.encode()).hexdigest()[:16]
-            ext = "pdf" if ".pdf" in url.lower() else (url.rsplit(".", 1)[-1].split("?")[0].lower() if "." in url.rsplit("/", 1)[-1] else "pdf")
-            dest = os.path.join(out_dir, f"{doc_id}.{ext}")
-            try:
-                with pg.expect_download(timeout=35000) as dl:
-                    try:
-                        pg.goto(url, timeout=30000)
-                    except Exception:
-                        pass  # navigation aborts when the download starts — expected
-                dl.value.save_as(dest)
+            if doc_id in skip:
+                continue
+            dest = os.path.join(out_dir, f"{doc_id}.pdf")
+            if _grab(pg, url, dest):
                 results.append({"url": url, "label": t.get("label", ""), "group": t.get("group", "Reports"), "file": dest})
-            except Exception as e:
-                print(f"download {url}: {str(e)[:60]}", file=sys.stderr)
-        b.close()
+            else:
+                print(f"grab failed: {url[-46:]}", file=sys.stderr)
+        ctx.close()
+    shutil.rmtree(udd, ignore_errors=True)
     print(json.dumps(results))
 _COOKIE_LABELS = ("Accept all", "Accept All Cookies", "Accept", "I agree", "Agree",
                   "Tout accepter", "Allow all", "Got it", "OK")
