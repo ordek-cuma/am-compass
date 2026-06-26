@@ -15,15 +15,16 @@ from pathlib import Path
 import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
-from . import amundi, blackrock, fidelity, goldman, jpmorgan, statestreet, troweprice, vanguard
+from . import (amundi, blackrock, fidelity, franklin, goldman, jpmorgan, statestreet,
+               swisslife, troweprice, vanguard)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, goldman.SCRAPER, jpmorgan.SCRAPER,
-    statestreet.SCRAPER, troweprice.SCRAPER, vanguard.SCRAPER)}
+    amundi.SCRAPER, blackrock.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER, goldman.SCRAPER,
+    jpmorgan.SCRAPER, statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, vanguard.SCRAPER)}
 
 
 def doc_id_for(url: str) -> str:
