@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T16:17:33+00:00",
+  "generated_at": "2026-06-26T17:01:41+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -12765,124 +12765,314 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Results &amp; reports",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 142236,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports.html",
-          "file": "filings/AGI/docs/w6e89f8cbaa55556a.html"
-        },
-        {
-          "name": "Results",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 481353,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/results.html",
-          "file": "filings/AGI/docs/w6f90e3575b917897.html"
-        },
-        {
-          "name": "Annual Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 159367,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/annual-reports.html",
-          "file": "filings/AGI/docs/w27ac4a4c3b443632.html"
-        },
-        {
-          "name": "Half-year Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 161812,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/interim-reports.html",
-          "file": "filings/AGI/docs/we58cc44ed6e50e1b.html"
-        },
-        {
-          "name": "Own Funds Report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 135771,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/results-reports/own-funds-report.html",
-          "file": "filings/AGI/docs/w0492e0b2eb7483a6.html"
-        },
-        {
-          "name": "Annual General Meeting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 188075,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations/shareholders/annual-general-meeting.html",
-          "file": "filings/AGI/docs/w7b65cd93c1015b24.html"
-        },
-        {
-          "name": "Reports &amp; studies",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 177247,
-          "edgarUrl": "https://www.allianz.com/en/mediacenter/news/reports.html",
-          "file": "filings/AGI/docs/we208cf5546b979aa.html"
-        },
-        {
-          "name": "3am report",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 233375,
-          "edgarUrl": "https://www.allianz.com/en/mediacenter/topics/3am-report.html",
-          "file": "filings/AGI/docs/w240c5bf4965af3c5.html"
-        },
-        {
-          "name": "Sustainability reporting &amp; publications",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 335293,
-          "edgarUrl": "https://www.allianz.com/en/sustainability/sustainability-hub/sustainability-report-and-other-publications.html",
-          "file": "filings/AGI/docs/w150729e75017b9e3.html"
-        },
-        {
-          "name": "Allianz Global Insurance Report 2026: The Future of Insurance in a Fragmenting W",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 149731,
-          "edgarUrl": "https://www.allianz.com/en/economic_research/insights/publications/specials_fmo/260528-global-insurance-report.html",
-          "file": "filings/AGI/docs/w2ab5cf2f813c5cd6.html"
-        },
-        {
-          "name": "Allianz Fact Sheet",
+          "name": "en Allianz Group SFCR 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 218076,
-          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/about-us/who-we-are/at-a-glance/en-Allianz-fact-sheet.pdf",
-          "file": "filings/AGI/docs/wa8eaaeefeab65ea0.pdf"
+          "sizeBytes": 5028399,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2026/en-Allianz-Group-SFCR-2025.pdf",
+          "file": "filings/AGI/docs/w4581f5b465c3d3b8.pdf"
         },
         {
-          "name": "Universal Registration Document / Results",
+          "name": "Executive Summary Translations Allianz Group SFCR 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1451508,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2026/Executive-Summary-Translations-Allianz-Group-SFCR-2025.pdf",
+          "file": "filings/AGI/docs/w7ded03097a5000ac.pdf"
+        },
+        {
+          "name": "Allianz SE SFCR 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3852171,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2026/Allianz-SE-SFCR-2025.pdf",
+          "file": "filings/AGI/docs/w258c6ddda0b8ff07.pdf"
+        },
+        {
+          "name": "en Allianz Group SFCR 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6514913,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2025/en-Allianz-Group-SFCR-2024.pdf",
+          "file": "filings/AGI/docs/w984c1cfb0d65d063.pdf"
+        },
+        {
+          "name": "Executive Summary Translations Allianz Group SFCR 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1449638,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2025/Executive-Summary-Translations-Allianz-Group-SFCR-2024.pdf",
+          "file": "filings/AGI/docs/w964601ef9be30082.pdf"
+        },
+        {
+          "name": "Allianz SE SFCR 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3431755,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2025/Allianz-SE-SFCR-2024.pdf",
+          "file": "filings/AGI/docs/w87945e97fdd11f00.pdf"
+        },
+        {
+          "name": "en Allianz Group SFCR 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7646361,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2024/en-Allianz-Group-SFCR-2023.pdf",
+          "file": "filings/AGI/docs/w4a9aa82b172feb49.pdf"
+        },
+        {
+          "name": "Executive Summary Translations Allianz Group SFCR 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1463347,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2024/Executive-Summary-Translations-Allianz-Group-SFCR-2023.pdf",
+          "file": "filings/AGI/docs/w424ae53dafcee303.pdf"
+        },
+        {
+          "name": "Allianz SE SFCR 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3995612,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2024/Allianz-SE-SFCR-2023.pdf",
+          "file": "filings/AGI/docs/w171833a6bd48fd15.pdf"
+        },
+        {
+          "name": "en Allianz Group SFCR 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8027990,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2023/en-Allianz-Group-SFCR-2022.pdf",
+          "file": "filings/AGI/docs/wc79f12e7e1ab2262.pdf"
+        },
+        {
+          "name": "Executive Summary Translations Allianz Group SFCR 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 880036,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2023/Executive-Summary-Translations-Allianz-Group-SFCR-2022.pdf",
+          "file": "filings/AGI/docs/wda7da68f9cffe2be.pdf"
+        },
+        {
+          "name": "Allianz SE SFCR 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3173045,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2023/Allianz-SE-SFCR-2022.pdf",
+          "file": "filings/AGI/docs/we89358577f3ae125.pdf"
+        },
+        {
+          "name": "Own Funds Report 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 926832,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2021/en-own-funds-report-2021.pdf",
+          "file": "filings/AGI/docs/wad16800a889172b6.pdf"
+        },
+        {
+          "name": "en Allianz Group SFCR 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8267666,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2022/en-Allianz-Group-SFCR-2021.pdf",
+          "file": "filings/AGI/docs/w30029ce266ae2bc2.pdf"
+        },
+        {
+          "name": "Executive Summary Translations Allianz Group SFCR 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1602626,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2022/Executive-Summary-Translations-Allianz-Group-SFCR-2021.pdf",
+          "file": "filings/AGI/docs/wb2f4716a0f038e31.pdf"
+        },
+        {
+          "name": "Allianz SE SFCR 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3658053,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/sfcr/2022/Allianz-SE-SFCR-2021.pdf",
+          "file": "filings/AGI/docs/w37dbf180ef623695.pdf"
+        },
+        {
+          "name": "Half-year Report 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1567477,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results/2025-2q/2q-2025-interim-report-allianz.pdf",
+          "file": "filings/AGI/docs/wb1483c97f01c3d69.pdf"
+        },
+        {
+          "name": "Half-year Report 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1490190,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results/2024-2q/en-interim-report-2Q-2024.pdf",
+          "file": "filings/AGI/docs/w6c1ec18022639186.pdf"
+        },
+        {
+          "name": "Half-year Report 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3096495,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results/2023-2q/en-interim-report-2q-2023.pdf",
+          "file": "filings/AGI/docs/wed00c7c43dddc3f0.pdf"
+        },
+        {
+          "name": "Half-year Report 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1668400,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results/2022-2q/en-interim-report-2q-2022.pdf",
+          "file": "filings/AGI/docs/w6e738ace1007c030.pdf"
+        },
+        {
+          "name": "Half-year Report 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1126172,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results/2021-2q/en-interim-report-2q-2021.pdf",
+          "file": "filings/AGI/docs/w0f316c6804133c8e.pdf"
+        },
+        {
+          "name": "Annual Report Allianz Group 2025",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 212741,
-          "edgarUrl": "https://www.allianz.com/en/investor_relations.html",
-          "file": "filings/AGI/docs/w6b5c4e93003c9104.html"
+          "fmt": "PDF",
+          "sizeBytes": 15336550,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2025/en-allianz-group-annual-report-2025.pdf",
+          "file": "filings/AGI/docs/w0f7084559ad35e5e.pdf"
+        },
+        {
+          "name": "Annual Report Allianz SE 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3761415,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2025/en-allianz-se-annual-report-2025.pdf",
+          "file": "filings/AGI/docs/w2c70c55ecac31347.pdf"
+        },
+        {
+          "name": "Annual Report Allianz Group 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10276534,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2024/en-allianz-group-annual-report-2024.pdf",
+          "file": "filings/AGI/docs/w95cf7872f5ee63f1.pdf"
+        },
+        {
+          "name": "Annual Report Allianz SE 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6438963,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2024/en-allianz-se-annual-report-2024.pdf",
+          "file": "filings/AGI/docs/w225fead301be3c66.pdf"
+        },
+        {
+          "name": "Annual Report Allianz Group 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 16537360,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2023/en-Allianz-Group-Annual-Report-2023.pdf",
+          "file": "filings/AGI/docs/w4e018ba19c1f99a3.pdf"
+        },
+        {
+          "name": "Annual Report Allianz SE 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7375785,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2023/en-Allianz-SE-Annual-Report-2023.pdf",
+          "file": "filings/AGI/docs/w4c35409fa28f7f8f.pdf"
+        },
+        {
+          "name": "Annual Report Allianz Group 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7593438,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2022/en-Allianz-Group-Annual-Report-2022.pdf",
+          "file": "filings/AGI/docs/w27a21fa008f5e604.pdf"
+        },
+        {
+          "name": "Annual Report Allianz SE 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5438342,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2022/en-Allianz-SE-Annual-Report-2022.pdf",
+          "file": "filings/AGI/docs/we90ab912a6b0f550.pdf"
+        },
+        {
+          "name": "Annual Report Allianz Group 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7479372,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2021/en-Allianz-Group-Annual-Report-2021.pdf",
+          "file": "filings/AGI/docs/wa2544faf22a06a4c.pdf"
+        },
+        {
+          "name": "Annual Report Allianz SE 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5942407,
+          "edgarUrl": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2021/en-Allianz-SE-Annual-Report-2021.pdf",
+          "file": "filings/AGI/docs/w198820fe6d3bdf69.pdf"
         }
       ],
       "metrics": {
@@ -13980,54 +14170,804 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Bond reports",
+          "name": "Business development of Deka Group as of December 31, 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 121671,
-          "edgarUrl": "https://www.deka.de/deka-group/investor-relations-en/own-issues/pfandbrief-reports-en",
-          "file": "filings/DEKA/docs/w05b55efaef3519c7.html"
+          "fmt": "PDF",
+          "sizeBytes": 1037878,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-739132017/10862155/DekaGroup_Presentation_Business_development_2025-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w25a78f320eb3a667.pdf"
         },
         {
-          "name": "Reporting office",
+          "name": "Business development of Deka Group as of June 30, 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 163266,
-          "edgarUrl": "https://www.deka.de/deka-group/who-we-are/our-culture-and-standards-/reporting-office",
-          "file": "filings/DEKA/docs/wb1e191a31e3b2a06.html"
+          "fmt": "PDF",
+          "sizeBytes": 2331409,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E1288174458/10862154/DekaGroup_Presentation_Business_development_2025-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w855295044dda6e12.pdf"
         },
         {
-          "name": "ESG reports and ratings",
+          "name": "Annual financial statement 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 128786,
-          "edgarUrl": "https://www.deka.de/deka-group/our-responsibility/how-we-practice-sustainability/sustainability-reports-and-ratings",
-          "file": "filings/DEKA/docs/w492fc5c3e942c358.html"
+          "fmt": "PDF",
+          "sizeBytes": 5703766,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-567733434/10862163/DekaBank_Annual_financial_statements_2025_EN.pdf",
+          "file": "filings/DEKA/docs/w1098aae46c0aef68.pdf"
         },
         {
-          "name": "Reports and presentations",
+          "name": "Disclosure report as of March 31, 2026 (in German)",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 239235,
-          "edgarUrl": "https://www.deka.de/deka-group/investor-relations-en/reports-and-presentations",
-          "file": "filings/DEKA/docs/we410a2a218fb3090.html"
+          "fmt": "PDF",
+          "sizeBytes": 449955,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-1982568109/10862164/DekaGroup_Disclosure_Report_2026-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w381d2518b1c9f63c.pdf"
         },
         {
-          "name": "Gesch\u00e4ftsbericht / Results",
+          "name": "Annex to Disclosure report (in German) 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 59772,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E1456992744/14418303/DekaGroup_Disclosure%20Report_2025-12-31_EN_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/w7f32473ff481f102.xlsx"
+        },
+        {
+          "name": "Country by Country Report 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 171588,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-1876068718/10862165/DekaGruppe_CbC_Report_2025-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w5791f8e70ce79de1.pdf"
+        },
+        {
+          "name": "Remuneration report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4188979,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E158538874/10862166/DekaGroup_Remuneration_Report_2024.pdf",
+          "file": "filings/DEKA/docs/wf0c61db9eda7128a.pdf"
+        },
+        {
+          "name": "2025 EU-wide Transparency Exercise",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2460907,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-1002666030/10862188/2025%20EU-wide%20Transparency%20Exercise.pdf",
+          "file": "filings/DEKA/docs/wc4677c9fd0e7c475.pdf"
+        },
+        {
+          "name": "Participation Contract as of November 8, 2021 in German",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1104512,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E186415685/12423730/Deka_Beteiligungsvertrag_08-11-2021.pdf",
+          "file": "filings/DEKA/docs/wfe2ad4b08b024d0b.pdf"
+        },
+        {
+          "name": "Individual financial statement 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5703766,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-567733434/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Individual%20Financial%20Statement/DekaBank_Annual_financial_statements_2025_EN.pdf",
+          "file": "filings/DEKA/docs/wfdabcae17da3af01.pdf"
+        },
+        {
+          "name": "Individual financial statement 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5966903,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1428772483/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Individual%20Financial%20Statement/DekaBank_Annual_financial_statements_2024_EN.pdf",
+          "file": "filings/DEKA/docs/w7d7fa4c0c7213993.pdf"
+        },
+        {
+          "name": "Individual financial statement 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3312974,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E2094769236/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Individual%20Financial%20Statement/DekaBank_Annual_financial_statements_2023_EN.pdf",
+          "file": "filings/DEKA/docs/w54b6576b42c02768.pdf"
+        },
+        {
+          "name": "Individual financial statement 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3358035,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-2113007018/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Individual%20Financial%20Statement/DekaBank_Annual_financial_statements_2022_EN.pdf",
+          "file": "filings/DEKA/docs/w785106ce392b3538.pdf"
+        },
+        {
+          "name": "Individual financial statement 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3463699,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1998152206/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Individual%20Financial%20Statement/DekaBank_Annual_financial_statements_2021_EN.pdf",
+          "file": "filings/DEKA/docs/w1fa3699f6dad7f65.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2026 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 449955,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1982568109/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2026-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w8ee9376790fb9f6a.pdf"
+        },
+        {
+          "name": "Disclosure report as of December 31, 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3341804,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1179568170/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2025-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/wd28a7933a32ce823.pdf"
+        },
+        {
+          "name": "Disclosure report as of September 30, 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 734369,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1685481478/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2025-09-30_DE.pdf",
+          "file": "filings/DEKA/docs/wb30e00fafee4cf0c.pdf"
+        },
+        {
+          "name": "Disclosure report as of June 30, 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1540882,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1541455365/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2025-06-30_DE.pdf",
+          "file": "filings/DEKA/docs/w3d11255fbebe2946.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4033705,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-167054020/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2025-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w1726512a2cb57db9.pdf"
+        },
+        {
+          "name": "Disclosure report as of December 31, 2024 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5574687,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1937599335/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2024-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/wef654c544c6dc73a.pdf"
+        },
+        {
+          "name": "Disclosure report as of September 30, 2024 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 513484,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1689751753/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2024-09-30_DE.pdf",
+          "file": "filings/DEKA/docs/wec4e25cb4cdc5a23.pdf"
+        },
+        {
+          "name": "Disclosure report as of June 30, 2024 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2031370,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1149087215/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2024-06-30_DE.pdf",
+          "file": "filings/DEKA/docs/wb0d32d3cdd69e5a2.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2024 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 334544,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1836560440/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2024-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w983ea50d069bbcbe.pdf"
+        },
+        {
+          "name": "Disclosure report as of December 31, 2023 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2180558,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E276907356/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2023-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/weac9761993abe17b.pdf"
+        },
+        {
+          "name": "Disclosure report as of September 30, 2023 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 237612,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1386110381/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2023-09-30_DE.pdf",
+          "file": "filings/DEKA/docs/w988998bbbdb8e058.pdf"
+        },
+        {
+          "name": "Disclosure report as of June 30, 2023 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1057731,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1977653995/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2023-06-30_DE_new%20release.pdf",
+          "file": "filings/DEKA/docs/wb0598ceec9f819f2.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2023 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 281463,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-432483903/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2023-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w6456bbddc3425b68.pdf"
+        },
+        {
+          "name": "Disclosure report as of December 31, 2022 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1948320,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-60800757/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2022-12-31_DE_new%20release.pdf",
+          "file": "filings/DEKA/docs/w56e9f84ee2b57d0d.pdf"
+        },
+        {
+          "name": "Disclosure report as of September 30, 2022 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 484070,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1482532978/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2022-09-30_DE.pdf",
+          "file": "filings/DEKA/docs/w71d281062cb93ae6.pdf"
+        },
+        {
+          "name": "Disclosure report as of June 30, 2022 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2315679,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E943229991/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2022-06-30_DE.pdf",
+          "file": "filings/DEKA/docs/w223ca585079401b8.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2022 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 479031,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E577586904/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2022-03-31_DE_new_release.pdf",
+          "file": "filings/DEKA/docs/w4d771ea9ac14aa27.pdf"
+        },
+        {
+          "name": "Disclosure report as of December 31, 2021 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3807380,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1146643405/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2021-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/wfcaf71a7f9ffbc65.pdf"
+        },
+        {
+          "name": "Disclosure report as of September 30, 2021 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 381967,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1737930542/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2021-09-30_DE.pdf",
+          "file": "filings/DEKA/docs/w0d39e5a43524a1d1.pdf"
+        },
+        {
+          "name": "Disclosure report as of June 30, 2021 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2088750,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-2014262559/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2021-06-30_DE.pdf",
+          "file": "filings/DEKA/docs/wcb0f820610cd326f.pdf"
+        },
+        {
+          "name": "Disclosure report as of March 31, 2021 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 163611,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E119224093/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2021-03-31_DE.pdf",
+          "file": "filings/DEKA/docs/w9a56287191f39d7c.pdf"
+        },
+        {
+          "name": "Annex to Disclosure Report December 31, 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 59772,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1456992744/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure%20Report_2025-12-31_EN_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/w45ed78a25ab69e2a.xlsx"
+        },
+        {
+          "name": "Annex to Disclosure Report December 31, 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 63617,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1414347808/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2024-12-31_DE_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/w2cdc5f93f7590a01.xlsx"
+        },
+        {
+          "name": "Annex to Disclosure Report December 31, 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 61060,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E2067019194/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2023-12-31_DE_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/w4c5e9ccd47a09d2c.xlsx"
+        },
+        {
+          "name": "Annex to Disclosure Report December 31, 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 54906,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1901896883/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2022-12-31_DE_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/w1ace2c5ae117be66.xlsx"
+        },
+        {
+          "name": "Annex to Disclosure Report December 31, 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 52239,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1564559114/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Disclosure%20Report/DekaGroup_Disclosure_Report_2021-12-31_DE_Annex_Capital_Instruments.xlsx",
+          "file": "filings/DEKA/docs/wa613266c6ff8af7c.xlsx"
+        },
+        {
+          "name": "Remuneration report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4188979,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E158538874/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Remuneration%20Report/DekaGroup_Remuneration_Report_2024.pdf",
+          "file": "filings/DEKA/docs/wbea45a5326672f84.pdf"
+        },
+        {
+          "name": "Remuneration report 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 505602,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1088177248/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Remuneration%20Report/DekaBank_Remuneration_Report_2023_incl_SBroker_IQAM.pdf",
+          "file": "filings/DEKA/docs/w099d2687fde37129.pdf"
+        },
+        {
+          "name": "Remuneration report 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 566397,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1014312224/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Remuneration%20Report/DekaBank_RemunerationReport_2022_inkl_SBroker_IQAM_EN.pdf",
+          "file": "filings/DEKA/docs/wab5590ebfe0388e2.pdf"
+        },
+        {
+          "name": "Remuneration report 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 506869,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1265343598/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Remuneration%20Report/DekaBank_RemunerationReport_2021_inkl.SBroker_u_IQAM_EN.pdf",
+          "file": "filings/DEKA/docs/w0ce68a2881d65aee.pdf"
+        },
+        {
+          "name": "Key figures for the financial year 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 82654,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E614779766/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Key%20figures%20at%20glance/DekaGroup_at_a_Glance_2025-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w7999836d461f8f3c.pdf"
+        },
+        {
+          "name": "Key figures for the financial year 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 70314,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1580425818/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Key%20figures%20at%20glance/DekaGroup_At_a_Glance_2024-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w05066d530a451c00.pdf"
+        },
+        {
+          "name": "Key figures for the financial year 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 621990,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E911905655/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Key%20figures%20at%20glance/DekaGroup_At_a_Glance_2023-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w62084d6514b94c50.pdf"
+        },
+        {
+          "name": "Key figures for the financial year 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 111653,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E871200924/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Key%20figures%20at%20glance/DekaGroup_At%20a%20Glance_2022-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w610ada6d99c1a2ef.pdf"
+        },
+        {
+          "name": "Key figures for the financial year 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 171241,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-17223728/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Key%20figures%20at%20glance/DekaGroup_at_a_Glance_2021-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w01bc563907e79c0d.pdf"
+        },
+        {
+          "name": "Country by Country Reporting 2025 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 171588,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1876068718/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/Finanzpublikationen/Country%20by%20Country%20Report/DekaGruppe_CbC_Report_2025-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/wd84fe90cd4dc4b0a.pdf"
+        },
+        {
+          "name": "Country by Country Reporting 2024 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3704390,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1578301035/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/Finanzpublikationen/Country%20by%20Country%20Report/DekaGruppe_CbC_Report_2024-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w468ed6729e41f1ac.pdf"
+        },
+        {
+          "name": "Country by Country Reporting 2023 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 258288,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1822892304/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/Finanzpublikationen/Country%20by%20Country%20Report/DekaGruppe_CbC_Report_2023-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/w5d8517d1d6b7d228.pdf"
+        },
+        {
+          "name": "Country by Country Reporting 2022 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 208991,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E900244161/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/Finanzpublikationen/Country%20by%20Country%20Report/DekaGruppe_CbC_Report_2022-12-31_DE.pdf",
+          "file": "filings/DEKA/docs/w29ab697a9d8fff63.pdf"
+        },
+        {
+          "name": "Country by Country Reporting 2021 (in German)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 142781,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E941374623/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/Finanzpublikationen/Country%20by%20Country%20Report/DekaGruppe_CbC_Report_2021_DE.pdf",
+          "file": "filings/DEKA/docs/w2373ff64e95f688b.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 31.12.2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1037878,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-739132017/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2025-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/we901c7d197595443.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 30.06.2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2331409,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1288174458/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2025-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w3e9f28f9e73295b7.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 31.12.2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2331409,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1767262539/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2024-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/wbb1c78cd333310a3.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 30.06.2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1150258,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E118875683/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2024-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w8842223567e84e8e.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 31.12.2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1164237,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E606846174/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2023-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/wd29a6b8400bfbae1.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 30.06.2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1144410,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1216228727/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2023-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/wdc0ece81803e047f.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 31.12.2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1492986,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1284941996/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2022-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/wec516aa764f50f55.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 30.06.2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1187966,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1888558852/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2022-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w36286ea3c1f50731.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 31.12.2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 790744,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1818055930/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/DekaGroup_Presentation_Business_development_2021-12-31_EN.pdf",
+          "file": "filings/DEKA/docs/w323fe1d019182ca7.pdf"
+        },
+        {
+          "name": "Business development of Deka Group as of 30.06.2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 775817,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1220002743/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Presentation%20Business%20development%20of%20the%20Deka%20Group_2021-06-30_EN.pdf",
+          "file": "filings/DEKA/docs/w02e379a7e2b0c97f.pdf"
+        },
+        {
+          "name": "2024 EU-wide Transparency Exercise",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2286421,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1199987558/dekade/medienpool_dekade/deka_gruppe/Bilder/Investor%20Relations/2024%20EU-wide%20Transparency%20Exercise.pdf",
+          "file": "filings/DEKA/docs/w06b68a80a5bf4b6c.pdf"
+        },
+        {
+          "name": "2023 EU-wide Transparency Exercise",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2427225,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1103219097/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/2023_EU-wide%20Transparency%20Exercise%20.pdf",
+          "file": "filings/DEKA/docs/w132b9cdbfe0c2a66.pdf"
+        },
+        {
+          "name": "2022 EU-wide Transparency Exercise",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2451646,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1237531/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/2022_Transparency_Exercise_EU_wide.pdf",
+          "file": "filings/DEKA/docs/w5c07d90505e7d9a7.pdf"
+        },
+        {
+          "name": "2021 EU-wide Transparency Exercise",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1200335,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1282760704/dekade/medienpool_dekade/deka_gruppe/de/Dokumente/Investor%20Relations/2021_Transparency_Exercise_EU%20wide.pdf",
+          "file": "filings/DEKA/docs/w1f41c96d175b9043.pdf"
+        },
+        {
+          "name": "Interim Report 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2827073,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E-528959275/10862162/DekaGroup_Interim_Report_2025_EN.pdf",
+          "file": "filings/DEKA/docs/w5f949d36fce2d698.pdf"
+        },
+        {
+          "name": "Interim report as of June 30, 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2827073,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1195283699/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Interim%20Reports/DekaGroup_Interim_Report_2025_EN.pdf",
+          "file": "filings/DEKA/docs/w82104bd480661fd2.pdf"
+        },
+        {
+          "name": "Interim report as of June 30, 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2003009,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1104433592/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Interim%20Reports/DekaGroup_Interim_Report_2024_EN.pdf",
+          "file": "filings/DEKA/docs/wf6d8f0bb21493261.pdf"
+        },
+        {
+          "name": "Interim report as of June 30, 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2472033,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-475839643/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Interim%20Reports/DekaGroup_Interim_Report_2023_EN.pdf",
+          "file": "filings/DEKA/docs/w05ab205d3dc658e7.pdf"
+        },
+        {
+          "name": "Interim report as of June 30, 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2905395,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-470021567/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Interim%20Reports/DekaGroup_Interim_Report_2022_EN.pdf",
+          "file": "filings/DEKA/docs/w63529dc545ea08ad.pdf"
+        },
+        {
+          "name": "Interim report as of June 30, 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1844313,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-860408715/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Interim%20Reports/DekaBank_Interim_Report_2021_EN.pdf",
+          "file": "filings/DEKA/docs/wdd31cddbeaed9a57.pdf"
+        },
+        {
+          "name": "Annual Report 2025",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 151950,
-          "edgarUrl": "https://www.deka.de/deka-group/who-we-are/at-a-glance-",
-          "file": "filings/DEKA/docs/w79094f401d6f441d.html"
+          "fmt": "PDF",
+          "sizeBytes": 8302123,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/params_E907287639/10862161/DekaGroup_Annual_Report_2025_EN.pdf",
+          "file": "filings/DEKA/docs/wa5bebb82863f1401.pdf"
+        },
+        {
+          "name": "Annual report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8302123,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E907287639/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Annual%20Report/DekaGroup_Annual_Report_2025_EN.pdf",
+          "file": "filings/DEKA/docs/w44045c18e18ebae8.pdf"
+        },
+        {
+          "name": "Annual report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9535552,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1033442893/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Annual%20Report/DekaGroup_Annual_Report_2024_EN.pdf",
+          "file": "filings/DEKA/docs/wf51058e7b73727a4.pdf"
+        },
+        {
+          "name": "Annual report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4614072,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1209903535/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Annual%20Report/DekaGroup_Annual_Report_2023_EN.pdf",
+          "file": "filings/DEKA/docs/wa2a5adef92abb492.pdf"
+        },
+        {
+          "name": "Annual report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4430654,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E-1821201695/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Annual%20Report/DekaGroup_Annual_Report_2022_EN.pdf",
+          "file": "filings/DEKA/docs/w9850169b46039d84.pdf"
+        },
+        {
+          "name": "Annual report 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5549403,
+          "edgarUrl": "https://www.deka.de/site/dekade_deka-gruppe_site/get/documents_E1051497810/dekade/medienpool_dekade/deka_gruppe/en/Documents/Investor%20Relations/Reports/Annual%20Report/DekaGroup_Annual_Report_2021_EN.pdf",
+          "file": "filings/DEKA/docs/w20d7f8c911afd153.pdf"
         }
       ],
       "metrics": {

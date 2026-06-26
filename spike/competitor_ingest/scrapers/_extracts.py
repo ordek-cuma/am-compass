@@ -4,6 +4,39 @@ link text or filename. Used by several EDGAR-firm scrapers (Invesco, Janus Hende
 AMG, …). Year cap and grouping are derived from the label/filename.
 """
 
+EU_PDF = r"""
+() => {
+  const YEAR_MIN = 2021;
+  const out = [], seen = new Set();
+  for (const a of document.querySelectorAll('a[href]')) {
+    const h = a.href, low = h.toLowerCase();
+    if (!/\.pdf(\?|$)|\.xlsx?(\?|$)|\/getmedia\/|\/-\/media\//.test(low)) continue;
+    if (/cookie|privacy|\/terms|disclaimer|\/contact|imprint|datenschutz/.test(low)) continue;
+    let t = (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '')
+              .replace(/\s+/g, ' ')
+              .replace(/\(opens? in (a )?new (tab|window)\)|\(pdf\)|download( pdf)?/ig, '')
+              .replace(/\b\d[\d.,]*\s?[KMG]B\b/ig, '')          // strip "8108 KB", "2.7 MB" size suffixes
+              .replace(/\s+/g, ' ').trim();
+    const fn = decodeURIComponent((h.split('/').pop() || '').split('?')[0]);
+    const m = (t + ' ' + fn).match(/(20[0-3]\d)/);              // year from text or filename
+    const y = m ? +m[1] : null;
+    if (!y || y < YEAR_MIN) continue;
+    if (seen.has(h)) continue;
+    seen.add(h);
+    const k = (t + ' ' + fn).toLowerCase();
+    const group = /interim|half.?year|quarter|\bq[1-4]\b|\b[1-4]q\b/.test(k) ? 'Quarterly'
+                : /annual.?report|annual_report|geschäftsbericht|gesch.ftsbericht|\bar20|integrated.?(annual|report)/.test(k) ? 'Annual'
+                : /presentation|roadshow|conference|investor.?day|capital.?market/.test(k) ? 'Reports'
+                : 'Reports';
+    let label = (t && t.length > 3 && !/^pdf$/i.test(t)) ? t
+              : fn.replace(/\.(pdf|xlsx?)$/i, '').replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+    if (y && !label.includes(String(y))) label = label + ' ' + y;   // disambiguate repeated titles
+    out.push({ url: h, label: (label || 'Document').slice(0, 90), group });
+  }
+  return out;
+}
+"""
+
 NAMED_PDF = r"""
 () => {
   const YEAR_MIN = 2021;

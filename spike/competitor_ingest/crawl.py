@@ -249,6 +249,9 @@ def _scrape_player(code: str, name: str, cik: str | None, now: str, force: bool)
     scraped = scrapers.discover(code)
     if not scraped:
         return None
+    if getattr(sc, "download_via_browser", False):  # listing renders, but PDF URLs 403 via stdlib
+        targets = [{"url": u, "label": l, "group": g} for (l, u, g, *_rest) in scraped]
+        return _scrape_download(code, name, cik, now, force, targets=targets)
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
@@ -257,14 +260,17 @@ def _scrape_player(code: str, name: str, cik: str | None, now: str, force: bool)
     return docs, (n, c, u)
 
 
-def _scrape_download(code: str, name: str, cik: str | None, now: str, force: bool) -> tuple[list[dict], tuple[int, int, int]]:
+def _scrape_download(code: str, name: str, cik: str | None, now: str, force: bool,
+                     targets: list[dict] | None = None) -> tuple[list[dict], tuple[int, int, int]]:
     """Browser-download scraper (bot-protected PDFs, e.g. Goldman/Akamai): the worker fetches
-    the files in-session; we build manifest entries from them. 'new' mode skips known docs."""
+    the files in-session; we build manifest entries from them. 'new' mode skips known docs.
+    `targets` (when given) are pre-discovered via the normal multi-page discover — the
+    download_via_browser flow, where the listing renders fine but the PDF URLs 403 via stdlib."""
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
     skip = set() if force else set(prev)
-    got = scrapers.download(code, base / "docs", skip_ids=skip)
+    got = scrapers.download(code, base / "docs", skip_ids=skip, targets=targets)
     docs: list[dict] = []
     new = 0
     for g in got:
