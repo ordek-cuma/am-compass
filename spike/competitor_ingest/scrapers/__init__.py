@@ -15,7 +15,7 @@ from pathlib import Path
 import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
-from . import (amundi, amg, blackrock, blackstone, fidelity, franklin, goldman, invesco, janus,
+from . import (amundi, amg, blackrock, blackstone, federated, fidelity, franklin, goldman, invesco, janus,
                jpmorgan, morganstanley, pgim, statestreet, swisslife, troweprice, ubs, vanguard, wisdomtree)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
@@ -23,7 +23,7 @@ VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    amundi.SCRAPER, amg.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
+    amundi.SCRAPER, amg.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, federated.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
     goldman.SCRAPER, invesco.SCRAPER, janus.SCRAPER, jpmorgan.SCRAPER, morganstanley.SCRAPER, pgim.SCRAPER,
     statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, ubs.SCRAPER, vanguard.SCRAPER, wisdomtree.SCRAPER)}
 
@@ -123,8 +123,8 @@ def discover(code: str) -> list[tuple[str, str, str]]:
     if isinstance(data, dict):  # {"error": ...}
         print(f"  ! render worker: {data.get('error')}")
         return []
-    out: list[tuple[str, str, str]] = []
+    out: list[tuple] = []
     for d in data:
         label = re.sub(r"\s*PDF\s*[\d.,]+\s*[KMGo]+B?\s*$", "", d.get("label", ""), flags=re.I).strip(" -·")
-        out.append((label or "Document", d["url"], d.get("group", "Reports")))
+        out.append((label or "Document", d["url"], d.get("group", "Reports"), d.get("id")))
     return out

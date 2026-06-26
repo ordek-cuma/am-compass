@@ -201,7 +201,8 @@ def main() -> None:
                     if exclude and exclude.search(label):
                         continue
                     seen.add(u)
-                    out.append({"label": label[:110] or "Document", "url": u, "group": it.get("group") or group})
+                    out.append({"label": label[:110] or "Document", "url": u,
+                                "group": it.get("group") or group, "id": it.get("id")})
 
             def follow_subpages(raw: list[dict]) -> None:
                 """Direct-PDF items are kept; sub-page items matching `follow` are visited and

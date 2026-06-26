@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:17:40+00:00",
+  "generated_at": "2026-06-26T15:29:18+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3939,304 +3939,74 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
+          "name": "S-8 - 05-04-2026",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 511185,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlxTLTggLSAyMDI2LjA1LjA0IEZJTkFMIHdpdGggZXhoaWJpdHMucGRm%7C1%7CMCwCFCigvDCQZTQ%2B54tU9Tqr2ni%2FhJiuAhQvX431xfrGKLpH4ERSBjD2rPBlnw%3D%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx4VExUZ2dMU0F5TURJMkxqQTFMakEwSUVaSlRrRk1JSGRwZEdnZ1pYaG9hV0pwZEhNdWNHUm0lN0MxJTdDTUN3Q0ZDaWd2RENRWlRRJTJCNTR0VTlUcXIybmklMkZoSml1QWhRdlg0MzF4ZnJHS0xwSDRFUlNCakQyclBCbG53JTNEJTNE%7CMCwCFAjMbln1YBBYYKP3b2a1f9DCFQYfAhRmJ%2B2z5KxT2a9GpHAYq1ATcpsoRQ%3D%3D",
+          "file": "filings/FED/docs/w9faada227d3fb48d.pdf"
+        },
+        {
+          "name": "10-Q - 05-01-2026",
+          "form": "IR",
           "group": "Quarterly",
-          "date": "2026-05-01",
-          "fmt": "HTM",
-          "sizeBytes": 1499655,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000018/fhi-20260331.htm",
-          "file": "filings/FED/docs/10_Q/000105628826000018__fhi-20260331.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1572810,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlwyMDI2IFExIDEwLVEgRklOQUwucGRm%7C1%7CMCwCFHrpEnUssLyOxCzKu6VUOi9mZoqwAhQlcaw4TJwF%2FAXv2Q0LMhhQ53S5gQ%3D%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3eU1ESTJJRkV4SURFd0xWRWdSa2xPUVV3dWNHUm0lN0MxJTdDTUN3Q0ZIcnBFblVzc0x5T3hDekt1NlZVT2k5bVpvcXdBaFFsY2F3NFRKd0YlMkZBWHYyUTBMTWhoUTUzUzVnUSUzRCUzRA%3D%3D%7CMCwCFEDrravZ4ozRh5nU1VcoYygUOaMoAhQQuDgJ%2BK3J%2FhR6C1dCnBjKCrAMow%3D%3D",
+          "file": "filings/FED/docs/wcb5825c672579c80.pdf"
         },
         {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-10-31",
-          "fmt": "HTM",
-          "sizeBytes": 2018608,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000030/fhi-20250930.htm",
-          "file": "filings/FED/docs/10_Q/000105628825000030__fhi-20250930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-08-01",
-          "fmt": "HTM",
-          "sizeBytes": 1894164,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000021/fhi-20250630.htm",
-          "file": "filings/FED/docs/10_Q/000105628825000021__fhi-20250630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2025-04-25",
-          "fmt": "HTM",
-          "sizeBytes": 1467186,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000016/fhi-20250331.htm",
-          "file": "filings/FED/docs/10_Q/000105628825000016__fhi-20250331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-10-25",
-          "fmt": "HTM",
-          "sizeBytes": 1941252,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000025/fhi-20240930.htm",
-          "file": "filings/FED/docs/10_Q/000105628824000025__fhi-20240930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-07-26",
-          "fmt": "HTM",
-          "sizeBytes": 1842929,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000018/fhi-20240630.htm",
-          "file": "filings/FED/docs/10_Q/000105628824000018__fhi-20240630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2024-04-26",
-          "fmt": "HTM",
-          "sizeBytes": 1450923,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000014/fhi-20240331.htm",
-          "file": "filings/FED/docs/10_Q/000105628824000014__fhi-20240331.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-10-27",
-          "fmt": "HTM",
-          "sizeBytes": 2117858,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628823000029/fhi-20230930.htm",
-          "file": "filings/FED/docs/10_Q/000105628823000029__fhi-20230930.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-08-02",
-          "fmt": "HTM",
-          "sizeBytes": 1986417,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628823000022/fhi-20230630.htm",
-          "file": "filings/FED/docs/10_Q/000105628823000022__fhi-20230630.htm"
-        },
-        {
-          "name": "Quarterly Report (10-Q)",
-          "form": "10-Q",
-          "group": "Quarterly",
-          "date": "2023-05-02",
-          "fmt": "HTM",
-          "sizeBytes": 1865176,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628823000016/fhi-20230331.htm",
-          "file": "filings/FED/docs/10_Q/000105628823000016__fhi-20230331.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "8-K - 04-30-2026",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-04-30",
-          "fmt": "HTM",
-          "sizeBytes": 24885,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000016/fhi-20260430.htm",
-          "file": "filings/FED/docs/8_K/000105628826000016__fhi-20260430.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1140337,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlw4LUsgMjAyNi4wNC4zMCAtIEZJTkFMLnBkZg%3D%3D%7C1%7CMC0CFQCM1AtUlkpHcCfSEYydIC%2BkFL2nZgIUV5qBbpJGMyiyIP3j%2FBSLlqbw%2FFk%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3NExVc2dNakF5Tmk0d05DNHpNQ0F0SUVaSlRrRk1MbkJrWmclM0QlM0QlN0MxJTdDTUMwQ0ZRQ00xQXRVbGtwSGNDZlNFWXlkSUMlMkJrRkwyblpnSVVWNXFCYnBKR015aXlJUDNqJTJGQlNMbHFidyUyRkZrJTNE%7CMCwCFAS8XUrvcaToXI8lqVASF072OFnWAhQsDf6efUqFKtBR5bX4SGY%2BZPafOg%3D%3D",
+          "file": "filings/FED/docs/w0924af6d0ddd4d28.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "8-K - 04-09-2026",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-04-09",
-          "fmt": "HTM",
-          "sizeBytes": 29434,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000011/fhi-20260409.htm",
-          "file": "filings/FED/docs/8_K/000105628826000011__fhi-20260409.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 338886,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlw4LUsgMjAyNi4wNC4wOSAtIEZJTkFMLnBkZg%3D%3D%7C1%7CMCwCFGjEIHcVj%2FfuI%2FQEIMCvN5i8c9MEAhQP%2Fvl%2FYZvOTvrPaEEArSMhrhKlJg%3D%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3NExVc2dNakF5Tmk0d05DNHdPU0F0SUVaSlRrRk1MbkJrWmclM0QlM0QlN0MxJTdDTUN3Q0ZHakVJSGNWaiUyRmZ1SSUyRlFFSU1Ddk41aThjOU1FQWhRUCUyRnZsJTJGWVp2T1R2clBhRUVBclNNaHJoS2xKZyUzRCUzRA%3D%3D%7CMCwCFFb5iGIBXZHoG4vlnOL7liYKodoGAhRZTHjl0V44i9OOYghRUo9NNaWlDg%3D%3D",
+          "file": "filings/FED/docs/wb0e98d2a4d3795af.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "8-K - 01-30-2026",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 27601,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000005/fhi-20260130.htm",
-          "file": "filings/FED/docs/8_K/000105628826000005__fhi-20260130.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 164313,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlw4LUsgMjAyNi4wMS4zMCAtIEZJTkFMLnBkZg%3D%3D%7C1%7CMCwCFFZU0LqfBxq%2BHNvW%2FCViSBSYd%2F92AhQDM3lNW297Jep7g9ZpOdB3kCm13w%3D%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3NExVc2dNakF5Tmk0d01TNHpNQ0F0SUVaSlRrRk1MbkJrWmclM0QlM0QlN0MxJTdDTUN3Q0ZGWlUwTHFmQnhxJTJCSE52VyUyRkNWaVNCU1lkJTJGOTJBaFFETTNsTlcyOTdKZXA3ZzlacE9kQjNrQ20xM3clM0QlM0Q%3D%7CMC0CFQCGNrthdg%2BsFT5x9b%2FFPDb%2FzYAnFgIUZR7n5n69qsYdUfukEAZdTxLXo0I%3D",
+          "file": "filings/FED/docs/web9bd6cff984857a.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
+          "name": "8-K - 01-29-2026",
+          "form": "IR",
           "group": "Earnings / Events",
-          "date": "2026-01-29",
-          "fmt": "HTM",
-          "sizeBytes": 25256,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000003/fhi-20260129.htm",
-          "file": "filings/FED/docs/8_K/000105628826000003__fhi-20260129.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 946291,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlw4LUsgMjAyNi4wMS4yOSAtIEZJTkFMLnBkZg%3D%3D%7C1%7CMCwCFB2fvXll3kpbPMDW%2FE4aew%2BCH79tAhQwXagKsj11poMIaeSsgzKNoe8TZw%3D%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3NExVc2dNakF5Tmk0d01TNHlPU0F0SUVaSlRrRk1MbkJrWmclM0QlM0QlN0MxJTdDTUN3Q0ZCMmZ2WGxsM2twYlBNRFclMkZFNGFldyUyQkNINzl0QWhRd1hhZ0tzajExcG9NSWFlU3NnektOb2U4VFp3JTNEJTNE%7CMCwCFHn0UTFkSfwV1CL78F%2FhnDzAyKmRAhRXMsSzDxbrxy1Wnep9m4n5CefCMw%3D%3D",
+          "file": "filings/FED/docs/w4ff199a1e14e5345.pdf"
         },
         {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-12-02",
-          "fmt": "HTM",
-          "sizeBytes": 27102,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000032/fhi-20251202.htm",
-          "file": "filings/FED/docs/8_K/000105628825000032__fhi-20251202.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-30",
-          "fmt": "HTM",
-          "sizeBytes": 24791,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000028/fhi-20251030.htm",
-          "file": "filings/FED/docs/8_K/000105628825000028__fhi-20251030.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-10-23",
-          "fmt": "HTM",
-          "sizeBytes": 41599,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000024/fhi-20251023.htm",
-          "file": "filings/FED/docs/8_K/000105628825000024__fhi-20251023.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-07-31",
-          "fmt": "HTM",
-          "sizeBytes": 24759,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000019/fhi-20250731.htm",
-          "file": "filings/FED/docs/8_K/000105628825000019__fhi-20250731.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-04-24",
-          "fmt": "HTM",
-          "sizeBytes": 25062,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000014/fhi-20250424.htm",
-          "file": "filings/FED/docs/8_K/000105628825000014__fhi-20250424.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-04-07",
-          "fmt": "HTM",
-          "sizeBytes": 25405,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000010/fhi-20250407.htm",
-          "file": "filings/FED/docs/8_K/000105628825000010__fhi-20250407.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2025-01-30",
-          "fmt": "HTM",
-          "sizeBytes": 25566,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000002/fhi-20250130.htm",
-          "file": "filings/FED/docs/8_K/000105628825000002__fhi-20250130.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-10-24",
-          "fmt": "HTM",
-          "sizeBytes": 25070,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000023/fhi-20241024.htm",
-          "file": "filings/FED/docs/8_K/000105628824000023__fhi-20241024.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-07-25",
-          "fmt": "HTM",
-          "sizeBytes": 25059,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000016/fhi-20240725.htm",
-          "file": "filings/FED/docs/8_K/000105628824000016__fhi-20240725.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-04-25",
-          "fmt": "HTM",
-          "sizeBytes": 25062,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000010/fhi-20240425.htm",
-          "file": "filings/FED/docs/8_K/000105628824000010__fhi-20240425.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2024-01-25",
-          "fmt": "HTM",
-          "sizeBytes": 25835,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000003/fhi-20240125.htm",
-          "file": "filings/FED/docs/8_K/000105628824000003__fhi-20240125.htm"
-        },
-        {
-          "name": "Current Report (8-K)",
-          "form": "8-K",
-          "group": "Earnings / Events",
-          "date": "2023-12-15",
-          "fmt": "HTM",
-          "sizeBytes": 25268,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628823000031/fhi-20231215.htm",
-          "file": "filings/FED/docs/8_K/000105628823000031__fhi-20231215.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
+          "name": "10-K - 02-27-2026",
+          "form": "IR",
           "group": "Annual",
-          "date": "2026-02-27",
-          "fmt": "HTM",
-          "sizeBytes": 2358258,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000007/fhi-20251231.htm",
-          "file": "filings/FED/docs/10_K/000105628826000007__fhi-20251231.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2025-02-28",
-          "fmt": "HTM",
-          "sizeBytes": 2297619,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628825000004/fhi-20241231.htm",
-          "file": "filings/FED/docs/10_K/000105628825000004__fhi-20241231.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2024-02-23",
-          "fmt": "HTM",
-          "sizeBytes": 2366636,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628824000006/fhi-20231231.htm",
-          "file": "filings/FED/docs/10_K/000105628824000006__fhi-20231231.htm"
-        },
-        {
-          "name": "Annual Report (10-K)",
-          "form": "10-K",
-          "group": "Annual",
-          "date": "2023-02-24",
-          "fmt": "HTM",
-          "sizeBytes": 2884941,
-          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/1056288/000105628823000006/fhi-20221231.htm",
-          "file": "filings/FED/docs/10_K/000105628823000006__fhi-20221231.htm"
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3414895,
+          "edgarUrl": "https://services.federatedhermes.com/teamsite-file-server/content/about-federated%2F.pdf?token=ZGFmXHBkZlxhYm91dF9mZWRlcmF0ZWRcc2VjX2ZpbGluZ3NcMjAyNlwyMDI1IDEwLUsgLSBGaW5hbC5wZGY%3D%7C1%7CMC0CFQCQWz3gnTOmDjFzCwVdczYA6FAt9QIUJwiTNqpmncFBM5to%2FYrMRWfqI9U%3D&location=aHR0cHM6Ly9zZXJ2aWNlcy5mZWRlcmF0ZWRoZXJtZXMuY29tL3RlYW1zaXRlLWZpbGUtc2VydmVyL2NvbnRlbnQvYWJvdXQtZmVkZXJhdGVkJTJGLnBkZj90b2tlbj1aR0ZtWEhCa1pseGhZbTkxZEY5bVpXUmxjbUYwWldSY2MyVmpYMlpwYkdsdVozTmNNakF5Tmx3eU1ESTFJREV3TFVzZ0xTQkdhVzVoYkM1d1pHWSUzRCU3QzElN0NNQzBDRlFDUVd6M2duVE9tRGpGekN3VmRjellBNkZBdDlRSVVKd2lUTnFwbW5jRkJNNXRvJTJGWXJNUldmcUk5VSUzRA%3D%3D%7CMCwCFHJXGnjYFEkiIB2xKPwQedbn1k86AhQEE5i3Addwut2g4TkUwz%2FhscyLvQ%3D%3D",
+          "file": "filings/FED/docs/w82d6225ebcc91994.pdf"
         }
       ],
       "metrics": {
