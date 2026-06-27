@@ -29,6 +29,10 @@ EUROPE: dict[str, dict] = {
         items=[("aum_total", 1600.0, "EUR", ">€1.6tn AUM end-2025 (post-AXA IM merger)", 0.8)]),
     "Swiss Life AM": dict(name="Swiss Life Asset Managers", regime="European-listed", src="https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
         items=[("aum_total", 145.7, "CHF", "CHF 145.7bn third-party AuM at 31 Dec 2025", 0.85)]),
+    # AXA IM Alts: alternatives arm of AXA; corporate docs from the AXA group IR. (AXA IM was
+    # sold to BNP Paribas and merged into BNP Paribas AM on 31 Dec 2025 — no own AuM disclosed.)
+    "AXA IM Alts.": dict(name="AXA IM Alts", regime="European-listed",
+        src="https://www.axa.com/en/investor/annual-and-interim-reports", items=[]),
     # ---- German KVG (managers) ----
     "Union": dict(name="Union Investment", regime="German KVG", src="https://www.union-investment.com/",
         items=[("aum_total", 534.6, "EUR", "€534.6bn AUM at 31 Dec 2025", 0.85)]),

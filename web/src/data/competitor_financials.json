@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T06:01:58+00:00",
+  "generated_at": "2026-06-27T06:40:51+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -16968,6 +16968,46 @@
           "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025"
         }
       }
+    },
+    "AXA IM Alts.": {
+      "name": "AXA IM Alts",
+      "ticker": "AXA IM Alts.",
+      "regime": "European-listed",
+      "cik": null,
+      "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "2025 HALF YEAR FINANCIAL REPORT",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2830310,
+          "edgarUrl": "https://www-axa-com.cdn.prismic.io/www-axa-com/aN0S955xUNkB1WqB_axa_half_year_2025_financial_report.pdf",
+          "file": "filings/AXA_IM_Alts/docs/w2a0f075950c09595.pdf"
+        },
+        {
+          "name": "2025 ANNUAL REPORT (UNIVERSAL REGISTRATION DOCUMENT) - COPY OF THE OFFICIAL XHTML VERSION",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12269833,
+          "edgarUrl": "https://www-axa-com.cdn.prismic.io/www-axa-com/aeigScBOoF08xM_E_axa_urd2025_accessibleb_va.pdf",
+          "file": "filings/AXA_IM_Alts/docs/w2785372598862e2a.pdf"
+        },
+        {
+          "name": "2025 INTEGRATED REPORT",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3908077,
+          "edgarUrl": "https://www-axa-com.cdn.prismic.io/www-axa-com/aikwiweQX7-eXIh__axa_ri2025c_va.pdf",
+          "file": "filings/AXA_IM_Alts/docs/wb9979913cdad4ac9.pdf"
+        }
+      ],
+      "metrics": {}
     }
   }
 }
