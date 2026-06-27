@@ -15,16 +15,16 @@ from pathlib import Path
 import hashlib
 
 from .base import CompetitorDataScraper, PageSpec
-from . import (alliancebernstein, allianz, amundi, amg, bayernlb, blackrock, blackstone, bnp, deka, federated,
-               fidelity, franklin, goldman, hsbc, invesco, janus, jpmorgan, morganstanley, natixis, pgim,
-               statestreet, swisslife, troweprice, ubs, union, vanguard, wisdomtree)
+from . import (alliancebernstein, allianz, amundi, amg, axa, bayernlb, blackrock, blackstone, bnp, deka,
+               federated, fidelity, franklin, goldman, hsbc, invesco, janus, jpmorgan, morganstanley, natixis,
+               pgim, statestreet, swisslife, troweprice, ubs, union, vanguard, wisdomtree)
 
 _ROOT = Path(__file__).resolve().parents[2]          # spike/
 VENV_PY = _ROOT / ".venv" / "bin" / "python"
 _BROWSERS = Path.home() / "Library" / "Caches" / "ms-playwright"
 
 REGISTRY: dict[str, CompetitorDataScraper] = {s.code: s for s in (
-    alliancebernstein.SCRAPER, allianz.SCRAPER, amundi.SCRAPER, amg.SCRAPER, bayernlb.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, bnp.SCRAPER, deka.SCRAPER, federated.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
+    alliancebernstein.SCRAPER, allianz.SCRAPER, amundi.SCRAPER, amg.SCRAPER, axa.SCRAPER, bayernlb.SCRAPER, blackrock.SCRAPER, blackstone.SCRAPER, bnp.SCRAPER, deka.SCRAPER, federated.SCRAPER, fidelity.SCRAPER, franklin.SCRAPER,
     goldman.SCRAPER, hsbc.SCRAPER, invesco.SCRAPER, janus.SCRAPER, jpmorgan.SCRAPER, morganstanley.SCRAPER, natixis.SCRAPER, pgim.SCRAPER,
     statestreet.SCRAPER, swisslife.SCRAPER, troweprice.SCRAPER, ubs.SCRAPER, union.SCRAPER, vanguard.SCRAPER, wisdomtree.SCRAPER)}
 

@@ -16,6 +16,7 @@ EU_PDF = r"""
               .replace(/\s+/g, ' ')
               .replace(/\(opens? in (a )?new (tab|window)\)|\(pdf[^)]*\)|download( pdf)?|herunterladen|herunter laden|öffnet[\w ]*dokument|öffnet ein neues fenster|neues fenster/ig, '')
               .replace(/\b\d[\d.,]*\s?[KMG]B\b/ig, '')          // strip "8108 KB", "2.7 MB" size suffixes
+              .replace(/\s+(accessible\s+)?pdf\s*$/i, '')       // strip a trailing "… PDF" / "… ACCESSIBLE PDF"
               .replace(/\s+/g, ' ')
               .replace(/([^\s]{5,})(.*)\s\1\s*$/i, '$1$2')        // drop a trailing word that repeats an earlier one (umlaut-safe)
               .trim();
