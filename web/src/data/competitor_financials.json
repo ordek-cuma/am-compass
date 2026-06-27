@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T16:19:02+00:00",
+  "generated_at": "2026-06-27T16:32:57+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -21869,7 +21869,269 @@
           ]
         }
       },
-      "period_end": "2026-06-26"
+      "period_end": "2026-06-26",
+      "documents": [
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2704802,
+          "edgarUrl": "https://download.dws.com/download/asset/8560611e-a5f4-4d6e-a687-455513c33ab1",
+          "file": "filings/DWS/docs/wb77db76ddd7e0b2e.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 475868,
+          "edgarUrl": "https://download.dws.com/download/asset/e4947e26-79cb-4f9f-bb58-743f301fff3c",
+          "file": "filings/DWS/docs/w23fb592622edcd98.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 550328,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=a18c15f9d3be4f42965fe21cde0af792&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w7c4087ff81b9c542.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4503120,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=0a5c5eabf8714defa4de4d184b1a1c3a&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/wd941b921eef2d01f.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 919547,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=1eb81d03fada49c59dbd2741df59428b&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/we3e6d405f8fbec04.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1045122,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=f78ba834d16e4196be1e412eab4f5557&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w89c8a9e9426dd5fd.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4676749,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=7b94678556314820b24fabbad5bbc6e6&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w4b2bfcb5044e8c51.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 850571,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=80532db653c64731bd137b1964765b11&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/wf1b8a8f439363c48.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1087978,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=4f2adf05df2b47e486d91fab2c8d59c4&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w82043df57eae9939.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4250162,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=4afe7b0b4ba947e487d274d21f66d5a7&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/wb3b5f18bd32c1082.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 747914,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=b0ce918cee15442e86716761bd3bd8a2&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w81b0fb95f90c5e73.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3338664,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=d74cf24fb8d448028ae9df126d6a6340&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w4cb87e98810150bd.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5366148,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=b4920e87237341ad9ee0bbbaaab580b3&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/wb7286dba72437bcb.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1213758,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=1c50ef0005de4b0b9c894344afc22f3a&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w264ca8a7020369b0.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2266180,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=ae3d4c11ad2e4add875c9ffdae11b380&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w0f5eda6e1aa5bdc6.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7379276,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=7617fa5ea7854de3a2a2ba9c371246ec&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/wb700e8458de5bc2b.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3283705,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=85ce03c3a3914c98ac52865cc3cec69d&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w2afb5b108991bacb.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2110028,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=47c459902b5c4ab9a138c92dfb586621&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w3fb478d6724ebd52.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3130007,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=a230c4e52519467f8aa9375b15d14572&publishLocationGuid=075836e4f99347b2a2de1939c5912cbf",
+          "file": "filings/DWS/docs/w5071b550d96ecf12.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1500435,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=f189d653849f4ce49df9373abee6358a&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w5344d489965d2e1f.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3487876,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=9395a8c9c10847fbaff3082b667b0b1a&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w68e93ec86bdeefcd.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4918920,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=a162ab4d273e47a7b16a499cebcc78f2&publishLocationGuid=075836e4f99347b2a2de1939c5912cbf",
+          "file": "filings/DWS/docs/w58360d2eb23e17bc.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2648270,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=3f77fc61f66444719a0f1849e60ea3a2&publishLocationGuid=075836e4f99347b2a2de1939c5912cbf",
+          "file": "filings/DWS/docs/w45cf809c912cf00b.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3060325,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=ee3d3c83f8a44dcab23cc036246f243d&publishLocationGuid=eacbc9cf4b8e4d2189eb69cd09e2ff4f",
+          "file": "filings/DWS/docs/w74e579293b4fff0d.pdf"
+        },
+        {
+          "name": "German GAAP",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1110671,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=87a3c76e63b746848e183ac9904a2bfa&publishLocationGuid=075836e4f99347b2a2de1939c5912cbf&wt_eid=2158288381196973143&wt_t=1584546856720",
+          "file": "filings/DWS/docs/w859c06f97cfaccfc.pdf"
+        },
+        {
+          "name": "IFRS",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 17686949,
+          "edgarUrl": "https://download.dws.com/download?elib-assetguid=3144f2f79d1b457aaae3270182383f8e&publishLocationGuid=075836e4f99347b2a2de1939c5912cbf&wt_eid=2158288381196973143&wt_t=1584546884463",
+          "file": "filings/DWS/docs/w00912900054d33ba.pdf"
+        }
+      ]
     },
     "Schroders": {
       "metrics": {

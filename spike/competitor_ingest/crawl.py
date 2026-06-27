@@ -384,6 +384,9 @@ def refresh_metrics() -> dict:
         b = dict(prev_comp.get(cid, {}))
         b["metrics"] = _metrics_block(obs)
         b["period_end"] = max((o.period_end for o in obs if not o.member), default=b.get("period_end"))
+        mpath = ARCHIVE / web.slug(cid) / "manifest.json"  # surface scraped docs (refresh doesn't re-crawl)
+        if mpath.exists():
+            b["documents"] = _doc_export((manifest.load(mpath) or {}).get("documents", []))
         return b
 
     for comp in registry.BELLWETHERS:

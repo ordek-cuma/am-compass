@@ -14,13 +14,23 @@ _DWS_PDF = r"""
     const h = a.href, low = h.toLowerCase();
     if (!/download\.dws\.com|\.pdf(\?|$)/.test(low)) continue;
     if (/cookie|privacy|disclaimer|imprint|datenschutz|\/terms/.test(low)) continue;
-    const t = (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '')
-                .replace(/\s+/g, ' ').replace(/\b\d[\d.,]*\s?[KMG]B\b/ig, '').trim();
     if (seen.has(h)) continue; seen.add(h);
-    const k = t.toLowerCase();
+    // The link text is often just "IFRS"/"German GAAP"; walk up for the report title + year.
+    const linkt = (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '').replace(/\s+/g, ' ').trim();
+    let ctx = '', el = a;
+    for (let i = 0; i < 5 && el; i++) {
+      el = el.parentElement; if (!el) break;
+      const hd = el.querySelector('h1,h2,h3,h4,h5,[class*=title i],[class*=headline i],[class*=heading i]');
+      const tt = hd && hd.innerText ? hd.innerText.replace(/\s+/g, ' ').trim() : '';
+      if (tt && tt.length > 4 && tt.length < 120 && /\d|report|annual|quarter|result|interim/i.test(tt)) { ctx = tt; break; }
+    }
+    let label = [ctx, linkt && ctx && !ctx.toLowerCase().includes(linkt.toLowerCase()) ? '(' + linkt + ')' : (ctx ? '' : linkt)]
+                  .filter(Boolean).join(' ')
+                  .replace(/\b\d[\d.,]*\s?[KMG]B\b/ig, '').replace(/\s+/g, ' ').trim();
+    const k = label.toLowerCase();
     const group = /interim|half.?year|quarter|\bq[1-4]\b/.test(k) ? 'Quarterly'
-                : /annual|geschäftsbericht|gesch.ftsbericht/.test(k) ? 'Annual' : 'Reports';
-    out.push({ url: h, label: (t || 'DWS document').slice(0, 90), group });
+                : /annual|geschäftsbericht|gesch.ftsbericht|jahresab/.test(k) ? 'Annual' : 'Reports';
+    out.push({ url: h, label: (label || 'DWS document').slice(0, 90), group });
   }
   return out;
 }
