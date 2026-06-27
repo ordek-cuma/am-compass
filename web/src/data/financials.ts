@@ -21,6 +21,7 @@ export interface FinMetric {
   basis: string
   confidence: number
   source: string
+  vendor?: string // provenance tag: xbrl | table-parse | analyst | analyst-eu | form-adv | tracker | estimate | derive
   section: string
   period_end?: string
   history?: FinPoint[] // up to 5y of the scalar, newest first
@@ -55,6 +56,10 @@ const FIN = raw as unknown as FinData
 
 export const FINANCIALS_SOURCE = FIN.source
 export const FINANCIALS_GENERATED = FIN.generated_at
+
+export function allFinancials(): { code: string; block: FinBlock }[] {
+  return Object.entries(FIN.competitors).map(([code, block]) => ({ code, block }))
+}
 
 export function financialsFor(code: string): FinBlock | null {
   return FIN.competitors[code] ?? null

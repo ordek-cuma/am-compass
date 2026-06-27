@@ -10,6 +10,7 @@ import { CompanyDetail } from './features/rooms/CompanyDetail'
 import { CompetitorRadar } from './features/radar/CompetitorRadar'
 import { SettingsLayout } from './features/settings/SettingsLayout'
 import { DocumentFetcher } from './features/settings/DocumentFetcher'
+import { FinancialFetcher } from './features/settings/FinancialFetcher'
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
               <Route index element={<Navigate to="/settings/data-fetcher/documents" replace />} />
               <Route path="data-fetcher" element={<Navigate to="/settings/data-fetcher/documents" replace />} />
               <Route path="data-fetcher/documents" element={<DocumentFetcher />} />
+              <Route path="data-fetcher/financials" element={<FinancialFetcher />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>

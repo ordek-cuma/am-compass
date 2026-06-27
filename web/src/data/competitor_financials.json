@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T15:04:42+00:00",
+  "generated_at": "2026-06-27T15:34:00+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -2647,6 +2647,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2682,6 +2683,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2717,6 +2719,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2752,6 +2755,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2787,6 +2791,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2822,6 +2827,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2857,6 +2863,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2892,6 +2899,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -2927,6 +2935,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2024)",
           "period_end": "2024-12-31",
           "history": [
@@ -2956,6 +2965,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201ctotal AUM was $14.0 trillion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -2973,6 +2983,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201crecord $698 billion of net inflows in 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -2990,6 +3001,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201capproximately 24,900 employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -3007,6 +3019,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K reconciliation: \u201cOperating margin, as adjusted 44.1%\u201d (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3030,6 +3043,7 @@
           "basis": "reported",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K cover: \u201caggregate market value of \u2026 common stock held by nonaffiliates \u2026 approximately $159 billion\u201d (float at 30 Jun 2025)",
           "period_end": "2025-06-30",
           "history": [
@@ -3047,6 +3061,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Total investment advisory, administration fees and securities lending revenue(3) 19,179.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3070,6 +3085,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Total investment advisory performance fees 1,424.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3093,6 +3109,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Distribution fees 1,355.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3116,6 +3133,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Technology services and subscription revenue 1,981.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3139,6 +3157,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K client-type rollforward: Retail $1,278,732M ending AuM (FY2025)",
           "members": [
             {
@@ -3169,6 +3188,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K: (ETFs $5,467,710M + institutional index $3,696,174M) \u00f7 total AuM",
           "period_end": "2025-12-31",
           "history": [
@@ -3186,6 +3206,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K AUM by asset class: Equity $7,793.9B (reconciled to firm AuM)",
           "members": [
             {
@@ -3221,6 +3242,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K: \u201cin more than 30 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -3238,6 +3260,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K region rollforward: Americas $9,520,643M ending AuM (FY2025)",
           "members": [
             {
@@ -3257,12 +3280,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 4282224366957.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $4,282,224,366,957 \u2014 BlackRock Fund Advisors (CRD 105247, Form ADV filed 2026-05-15). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4282224366957.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 128.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 128 (122 advisory) \u2014 BlackRock Fund Advisors (CRD 105247, Form ADV filed 2026-05-15). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 128.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 556.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 556 \u2014 BlackRock Fund Advisors (CRD 105247, Form ADV filed 2026-05-15).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 556.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 29.1,
           "unit": "pct",
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3298,6 +3376,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3333,6 +3412,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3368,6 +3448,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3391,6 +3472,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3408,6 +3490,7 @@
           "basis": "derived",
           "confidence": 0.95,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -3425,6 +3508,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2025-06-30",
           "history": [
@@ -3442,6 +3526,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -3459,6 +3544,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -3476,6 +3562,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -3604,6 +3691,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3645,6 +3733,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3686,6 +3775,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3727,6 +3817,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3768,6 +3859,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3809,6 +3901,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3850,6 +3943,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3891,6 +3985,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -3932,6 +4027,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cassets under management ended 2025 at $1,775.6 billion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -3949,6 +4045,7 @@
           "basis": "reported",
           "confidence": 0.75,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cnet cash outflows of $56.9 billion\u201d (FY2025 10-K)",
           "period_end": "2025-12-31",
           "history": [
@@ -3966,6 +4063,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cemployed 7,773 associates\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -3983,6 +4081,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $23.62bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -4000,6 +4099,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K \u201cAverage AUM (in billions): Equity 840.9\u201d (FY2025)",
           "members": [
             {
@@ -4030,6 +4130,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Investment advisory fees 6,602.3 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4059,6 +4160,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K: \u201cin 60 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -4076,6 +4178,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -4117,6 +4220,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -4158,6 +4262,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -4199,6 +4304,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -4216,6 +4322,7 @@
           "basis": "derived",
           "confidence": 0.75,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -4233,6 +4340,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -4250,6 +4358,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -4267,6 +4376,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -4284,6 +4394,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -4432,6 +4543,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4473,6 +4585,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4514,6 +4627,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "GAAP net loss \u2212$726.3m FY2025 (after $1.832bn intangible impairment); adjusted net income $922.0m",
           "period_end": "2025-12-31",
           "history": [
@@ -4555,6 +4669,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4596,6 +4711,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4637,6 +4753,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4678,6 +4795,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4719,6 +4837,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4760,6 +4879,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4801,6 +4921,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K AUM rollforward: \u201cEnding Assets (December 31) $2,169.9\u201d billion",
           "period_end": "2025-12-31",
           "history": [
@@ -4830,6 +4951,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cAverage AUM was $2,000.1 billion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -4847,6 +4969,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "AUM rollforward: \u201cNet long-term flows 81.2\u201d billion (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4864,6 +4987,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201capproximately 7,500 employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -4881,6 +5005,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cWe service our clients in 120+ countries\u201d (Invesco corporate)",
           "period_end": "2025-12-31",
           "history": [
@@ -4898,6 +5023,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $11.6bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -4915,6 +5041,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cAdjusted operating margin 33.4%\u201d FY2025 (adj. operating income $1,557.8m)",
           "period_end": "2025-12-31",
           "history": [
@@ -4932,6 +5059,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Investment management fees 4,615.3 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4961,6 +5089,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Performance fees 41.5 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -4990,6 +5119,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Service and distribution fees 1,518.1 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -5019,6 +5149,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K AUM by region: Americas $1,492.4B (reconciled to firm AuM)",
           "members": [
             {
@@ -5044,6 +5175,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5085,6 +5217,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5126,6 +5259,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5167,6 +5301,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5196,6 +5331,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_average + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5213,6 +5349,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -5230,6 +5367,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -5247,6 +5385,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -5695,6 +5834,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5736,6 +5876,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5777,6 +5918,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5818,6 +5960,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5859,6 +6002,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5900,6 +6044,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5941,6 +6086,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -5982,6 +6128,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -6023,6 +6170,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -6064,6 +6212,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201ctotal AUM was $1,661.2 billion\u201d",
           "period_end": "2025-09-30",
           "history": [
@@ -6081,6 +6230,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "AUM rollforward: \u201cLong-term net flows (97.4)\u201d billion (FY2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -6098,6 +6248,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201capproximately 9,800 employees\u201d",
           "period_end": "2025-09-30",
           "history": [
@@ -6115,6 +6266,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K: \u201cin over 30 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -6138,6 +6290,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $17.26bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -6155,6 +6308,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Investment management fees 6,981.8 (2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -6184,6 +6338,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Sales and distribution fees 1,474.7 (2025)",
           "period_end": "2025-09-30",
           "history": [
@@ -6213,6 +6368,7 @@
           "period_end": "2025-09-30",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K AUM by asset class: Equity $686.2B (reconciled to firm AuM)",
           "members": [
             {
@@ -6248,6 +6404,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-09-30",
           "history": [
@@ -6289,6 +6446,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-09-30",
           "history": [
@@ -6330,6 +6488,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-09-30",
           "history": [
@@ -6371,6 +6530,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-09-30",
           "history": [
@@ -6388,6 +6548,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-09-30",
           "history": [
@@ -6405,6 +6566,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -6422,6 +6584,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-09-30",
           "history": [
@@ -6439,6 +6602,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-09-30",
           "history": [
@@ -6456,6 +6620,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-09-30",
           "history": [
@@ -7514,6 +7679,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:Revenues (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7555,6 +7721,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7596,6 +7763,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7637,6 +7805,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7678,6 +7847,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7719,6 +7889,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CostsAndExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7760,6 +7931,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2018)",
           "period_end": "2018-12-31",
           "history": [
@@ -7801,6 +7973,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cAUM as of December 31, 2025 were $866.9 billion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -7818,6 +7991,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cnet outflows of $11.3 billion\u201d (Inst \u2212$4.6bn, Retail \u2212$9.1bn, PW +$2.4bn)",
           "period_end": "2025-12-31",
           "history": [
@@ -7835,6 +8009,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cmarket appreciation of $86.0 billion\u201d (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -7852,6 +8027,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201chad 4,468 full-time employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -7869,6 +8045,7 @@
           "basis": "reported",
           "confidence": 0.75,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201coffices in major world markets across 26 countries and jurisdictions\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -7886,6 +8063,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "AB Holding FY2025 cash distributions/unit $3.38 ($0.80+$0.76+$0.86+$0.96)",
           "period_end": "2025-12-31",
           "history": [
@@ -7903,6 +8081,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K AUM by asset class: Equity $601.6B (reconciled to firm AuM)",
           "members": [
             {
@@ -7923,6 +8102,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -7964,6 +8144,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8005,6 +8186,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8046,6 +8228,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -8063,6 +8246,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -8080,6 +8264,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8178,6 +8363,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8219,6 +8405,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8260,6 +8447,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8301,6 +8489,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8342,6 +8531,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8383,6 +8573,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8424,6 +8615,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8465,6 +8657,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8506,6 +8699,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201c$902.6 billion in assets under management\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -8523,6 +8717,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201chad 2,091 employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -8540,6 +8735,7 @@
           "basis": "estimate",
           "confidence": 0.45,
           "source": "10-K",
+          "vendor": "estimate",
           "section": "ESTIMATE: long-term \u2212$0.7bn (reported) + money-market AUM rise +$52.3bn (\u2248all flow at constant $1 NAV) \u2248 +$50bn firmwide",
           "period_end": "2025-12-31",
           "history": [
@@ -8557,6 +8753,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K revenue by obligation: \u201cInvestment Advisory $1,199,236\u201d (thousand, FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8586,6 +8783,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cperformance fees, including carried interest, of $12.5 million\u201d (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -8603,6 +8801,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $4.17bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -8620,6 +8819,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K AUM by asset class: Equity $97.9B (reconciled to firm AuM)",
           "members": [
             {
@@ -8655,6 +8855,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8696,6 +8897,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8737,6 +8939,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8778,6 +8981,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8795,6 +8999,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8812,6 +9017,7 @@
           "basis": "derived",
           "confidence": 0.45,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -8829,6 +9035,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -8846,6 +9053,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -8863,6 +9071,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -8880,6 +9089,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -9048,6 +9258,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:Revenues (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9089,6 +9300,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9130,6 +9342,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9171,6 +9384,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9212,6 +9426,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9253,6 +9468,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9288,6 +9504,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9329,6 +9546,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9370,6 +9588,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9411,6 +9630,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cAUM of $144.5 billion at December 31, 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -9428,6 +9648,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cnet inflows of $8.5 billion\u201d (FY2025 10-K)",
           "period_end": "2025-12-31",
           "history": [
@@ -9445,6 +9666,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201chad 360 full-time employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -9462,6 +9684,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $2.58bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -9479,6 +9702,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K product-category rollforward: U.S. Equity end-of-period assets $41,428M (FY2025)",
           "members": [
             {
@@ -9534,6 +9758,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Advisory fees 439,987.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9557,6 +9782,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Performance fees 7,105.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9580,6 +9806,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9621,6 +9848,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9662,6 +9890,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9703,6 +9932,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9726,6 +9956,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9743,6 +9974,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -9760,6 +9992,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -9777,6 +10010,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -9794,6 +10028,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -9811,6 +10046,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -9949,6 +10185,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -9990,6 +10227,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10031,6 +10269,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10072,6 +10311,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10113,6 +10353,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10154,6 +10395,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10195,6 +10437,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CostsAndExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10236,6 +10479,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2017)",
           "period_end": "2015-12-31",
           "history": [
@@ -10253,6 +10497,7 @@
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cassets under management (\u201cAUM\u201d) of $493.2 billion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -10270,6 +10515,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cNet inflows for the year ended December 31, 2025, were $56.5\u201d billion (10-K MD&A; matches the capability rollforward Total)",
           "period_end": "2025-12-31",
           "history": [
@@ -10287,6 +10533,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201c2,300 employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -10304,6 +10551,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $8.0bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -10321,6 +10569,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201cquarterly dividends of US$0.40 per share for each quarter in 2025\u201d ($1.60 FY)",
           "period_end": "2025-12-31",
           "history": [
@@ -10338,6 +10587,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K capability rollforward: Equities closing AUM $256.6B (31 Dec 2025)",
           "members": [
             {
@@ -10368,6 +10618,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Management fees 2,168.3 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10397,6 +10648,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "table-parse",
           "section": "10-K income statement: Performance fees 460.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10426,6 +10678,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10467,6 +10720,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10508,6 +10762,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10549,6 +10804,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10578,6 +10834,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10595,6 +10852,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -10612,6 +10870,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -10629,6 +10888,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -10646,6 +10906,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -10663,6 +10924,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -10741,6 +11003,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10782,6 +11045,7 @@
           "basis": "reported",
           "confidence": 0.75,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "FY2025 consolidated: revenue $2,074.4m \u2212 consolidated expenses $1,805.4m = $269.0m (pre-tax incl. affiliate equity earnings = $1,186.3m)",
           "period_end": "2025-12-31",
           "history": [
@@ -10823,6 +11087,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10864,6 +11129,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10905,6 +11171,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10946,6 +11213,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -10987,6 +11255,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:PaymentsForRepurchaseOfCommonStock (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -11028,6 +11297,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K \u201cChanges in AUM by strategy \u2026 $813.3\u201d billion (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -11045,6 +11315,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K \u201cNet client cash flows \u2026 28.7\u201d billion (FY2025, by-strategy Total)",
           "period_end": "2025-12-31",
           "history": [
@@ -11062,6 +11333,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "\u201capproximately 5,600 employees\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -11079,6 +11351,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $9.03bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -11096,6 +11369,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "FY2025 dividends $0.04/share (4\u00d7$0.01)",
           "period_end": "2025-12-31",
           "history": [
@@ -11113,6 +11387,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K Changes in AUM by strategy: Equities $312.1B (31 Dec 2025)",
           "members": [
             {
@@ -11143,6 +11418,7 @@
           "basis": "derived",
           "confidence": 0.75,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -11160,6 +11436,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -11201,6 +11478,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "total_opex + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -11242,6 +11520,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -11259,6 +11538,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -11276,6 +11556,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -11293,6 +11574,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -12831,6 +13113,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:Revenues (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -12872,6 +13155,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:NetIncomeLoss (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -12913,6 +13197,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:EarningsPerShareDiluted (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -12954,6 +13239,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:LaborAndRelatedExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -12995,6 +13281,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:GeneralAndAdministrativeExpense (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13036,6 +13323,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:OperatingExpenses (FY2017)",
           "period_end": "2017-12-31",
           "history": [
@@ -13065,6 +13353,7 @@
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
+          "vendor": "xbrl",
           "section": "us-gaap:CommonStockDividendsPerShareDeclared (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13106,6 +13395,7 @@
           "basis": "reported",
           "confidence": 0.92,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "Total AUM Rollforward ending balance $1,274,931M at 31 Dec 2025 (FY2025 earnings release)",
           "period_end": "2025-12-31",
           "history": [
@@ -13123,6 +13413,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "Total AUM Rollforward: Net Flows $127,120M FY2025 (gross Inflows $239.4bn)",
           "period_end": "2025-12-31",
           "history": [
@@ -13140,6 +13431,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "GAAP statements: \u201cManagement and Advisory Fees, Net $8,075,601\u201d (thousand, FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13169,6 +13461,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "GAAP statements: Performance Allocations $4,305.3m + Incentive Fees $978.2m (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13198,6 +13491,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "GAAP \u201cIncome Before Provision for Taxes $7,171,646\u201d (thousand, FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13215,6 +13509,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "10-K",
+          "vendor": "tracker",
           "section": "Market cap $141.96bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2026-06-26",
           "history": [
@@ -13232,6 +13527,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "10-K: \u201cwe employed approximately 5,285 people\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -13249,6 +13545,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "10-K",
+          "vendor": "analyst",
           "section": "Total AUM Rollforward ending: Credit & Insurance $442,952M (31 Dec 2025)",
           "members": [
             {
@@ -13279,6 +13576,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -13296,6 +13594,7 @@
           "basis": "derived",
           "confidence": 1.0,
           "source": "derived",
+          "vendor": "derive",
           "section": "comp_expense + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -13337,6 +13636,7 @@
           "basis": "derived",
           "confidence": 0.92,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -13366,6 +13666,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -13383,6 +13684,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -13400,6 +13702,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2026-06-26",
           "history": [
@@ -13417,6 +13720,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -13434,6 +13738,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -14162,6 +14467,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal Assets Under Management or Supervision $1,895\u201d ($bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -14179,6 +14485,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cLong-term net flows \u2026 $34.4\u201d ($bn FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -14196,6 +14503,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Investment Management \u201cNet Revenues $6,525\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -14213,6 +14521,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Investment Management pre-tax income $1,478m FY2025 (\u201cPre-tax income \u2026 $1.5 billion\u201d)",
           "period_end": "2025-12-31",
           "history": [
@@ -14230,6 +14539,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "MSIM AUM/AUS by asset class: Equity $314bn (31 Dec 2025)",
           "members": [
             {
@@ -14254,12 +14564,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 702248681596.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $702,248,681,596 \u2014 Morgan Stanley Investment Management Inc. (CRD 110353, Form ADV filed 2026-05-29). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 702248681596.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 670.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 670 (250 advisory) \u2014 Morgan Stanley Investment Management Inc. (CRD 110353, Form ADV filed 2026-05-29). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 670.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 22803.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 22,803 \u2014 Morgan Stanley Investment Management Inc. (CRD 110353, Form ADV filed 2026-05-29).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 22803.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 22.7,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -14277,6 +14642,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -14485,6 +14851,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal AUS $3,606\u201d ($bn assets under supervision, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -14502,6 +14869,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal long-term AUS net inflows 168\u201d ($bn FY2025; total AUS net inflows $224bn)",
           "period_end": "2025-12-31",
           "history": [
@@ -14519,6 +14887,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cTotal net revenues 16,679\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -14536,6 +14905,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cPre-tax earnings $4,127\u201d ($m FY2025; pre-tax margin 25%)",
           "period_end": "2025-12-31",
           "history": [
@@ -14553,6 +14923,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "GS AUS by asset class: Equity $951bn (31 Dec 2025)",
           "members": [
             {
@@ -14577,12 +14948,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 2648902942827.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $2,648,902,942,827 \u2014 Goldman Sachs Asset Management, L.P. (CRD 107738, Form ADV filed 2026-05-26). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2648902942827.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 2059.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 2,059 (1,379 advisory) \u2014 Goldman Sachs Asset Management, L.P. (CRD 107738, Form ADV filed 2026-05-26). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2059.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 249499.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 249,499 \u2014 Goldman Sachs Asset Management, L.P. (CRD 107738, Form ADV filed 2026-05-26).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 249499.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 24.7,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -14600,6 +15026,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -14617,6 +15044,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -15205,6 +15633,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTOTAL ASSETS UNDER MANAGEMENT 4,791\u201d ($bn, AWM, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15222,6 +15651,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM long-term AUM net flows $209bn FY2025 (total incl. liquidity $392bn)",
           "period_end": "2025-12-31",
           "history": [
@@ -15239,6 +15669,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cTOTAL NET REVENUE \u2026 24,073\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15256,6 +15687,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cNET INCOME \u2026 6,522\u201d ($m FY2025, after-tax)",
           "period_end": "2025-12-31",
           "history": [
@@ -15273,6 +15705,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cIncome before income tax expense \u2026 8,644\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15290,6 +15723,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM \u201cEmployees 29,722\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15307,6 +15741,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "J.P. Morgan AM: \u201cportfolio managers, traders \u2026 in over 70 locations across 35 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -15324,6 +15759,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "JPM AWM AUM: Equity $1,400bn (31 Dec 2025)",
           "members": [
             {
@@ -15353,12 +15789,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 3519414511755.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $3,519,414,511,755 \u2014 J.P. Morgan Investment Management Inc. (CRD 107038, Form ADV filed 2026-05-08). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3519414511755.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 3194.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 3,194 (2,260 advisory) \u2014 J.P. Morgan Investment Management Inc. (CRD 107038, Form ADV filed 2026-05-08). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3194.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 132150.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 132,150 \u2014 J.P. Morgan Investment Management Inc. (CRD 107038, Form ADV filed 2026-05-08).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 132150.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 35.9,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -15376,6 +15867,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -15393,6 +15885,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -15410,6 +15903,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -15427,6 +15921,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -15495,6 +15990,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal PGIM assets under management $1,466.1\u201d ($bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15512,6 +16008,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal third-party flows 2.1\u201d ($bn FY2025; Institutional +6.1, Retail \u22124.0)",
           "period_end": "2025-12-31",
           "history": [
@@ -15529,6 +16026,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "PGIM segment \u201cRevenues $4,231\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -15546,6 +16044,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "PGIM \u201cAdjusted operating income 878\u201d ($m FY2025; pre-tax income $1,010m)",
           "period_end": "2025-12-31",
           "history": [
@@ -15563,6 +16062,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "PGIM AUM: Public fixed income $902.7bn (31 Dec 2025)",
           "members": [
             {
@@ -15592,12 +16092,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 1131638605327.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $1,131,638,605,327 \u2014 PGIM, Inc. (CRD 105676, Form ADV filed 2026-04-28). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1131638605327.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 1990.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 1,990 (1,350 advisory) \u2014 PGIM, Inc. (CRD 105676, Form ADV filed 2026-04-28). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1990.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 938.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 938 \u2014 PGIM, Inc. (CRD 105676, Form ADV filed 2026-04-28).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 938.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 20.8,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -15615,6 +16170,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -17933,6 +18489,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal $5,665\u201d (AUM by asset class, 31 Dec 2025; 10-K Table 6)",
           "period_end": "2025-12-31",
           "history": [
@@ -17950,6 +18507,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal flows, net \u2026 180\u201d (FY2025; 10-K Table 9)",
           "period_end": "2025-12-31",
           "history": [
@@ -17967,6 +18525,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Investment Management line-of-business \u201cTotal revenue 2,634\u201d ($m FY2025; 10-K Table 14)",
           "period_end": "2025-12-31",
           "history": [
@@ -17984,6 +18543,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cManagement fees $2,398\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18001,6 +18561,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cIncome before income tax expense $859 \u2026 Pre-tax margin 33%\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18018,6 +18579,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "SSGA 10-K Table 6: Total equity $3,589bn (31 Dec 2025)",
           "members": [
             {
@@ -18053,6 +18615,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "SSGA 10-K Table 7: Americas $4,155bn",
           "members": [
             {
@@ -18072,12 +18635,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 1420653842286.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $1,420,653,842,286 \u2014 SSGA Funds Management, Inc. (CRD 111242, Form ADV filed 2026-03-31). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1420653842286.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 241.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 241 (220 advisory) \u2014 SSGA Funds Management, Inc. (CRD 111242, Form ADV filed 2026-03-31). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 241.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 287.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 287 \u2014 SSGA Funds Management, Inc. (CRD 111242, Form ADV filed 2026-03-31).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 287.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 32.6,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -18095,6 +18713,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -18112,6 +18731,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -18129,6 +18749,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
           "history": [
@@ -18287,6 +18908,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cInvested assets increased \u2026 to USD 2,098bn\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18304,6 +18926,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cTotal net new money \u2026 30.4\u201d ($bn FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18321,6 +18944,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Asset Management \u201cTotal revenues \u2026 3,156\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18338,6 +18962,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Asset Management \u201coperating profit before tax \u2026 719\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18355,6 +18980,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "UBS AM \u201cNet management fees \u2026 2,991\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18372,6 +18998,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "UBS AM \u201cPerformance fees \u2026 195\u201d ($m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -18389,6 +19016,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAsset Management \u2026 with a presence in 22 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -18406,6 +19034,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "UBS AM invested assets: Equities $904bn (31 Dec 2025)",
           "members": [
             {
@@ -18440,12 +19069,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 588219618121.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $588,219,618,121 \u2014 UBS Asset Management (Americas) LLC (CRD 106838, Form ADV filed 2026-03-31). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 588219618121.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 574.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 574 (260 advisory) \u2014 UBS Asset Management (Americas) LLC (CRD 106838, Form ADV filed 2026-03-31). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 574.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 433784.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 433,784 \u2014 UBS Asset Management (Americas) LLC (CRD 106838, Form ADV filed 2026-03-31).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 433784.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 22.8,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -18463,6 +19147,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -18480,6 +19165,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -18497,6 +19183,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -20365,6 +21052,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cRecord assets under management, at \u20ac2,380bn at end-December\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20382,6 +21070,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cNet inflows for the year reached +\u20ac87.6bn\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20399,6 +21088,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cNet revenue 3,342\u201d (\u20acm, FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -20416,6 +21106,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAccounting net income Group share amounted to \u20ac1,592m\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20433,6 +21124,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201c5,600 employees in 34 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20450,6 +21142,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201c5,600 employees in 34 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20467,6 +21160,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Amundi FY2025 P&L: \u201cNet management fees 3,052\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20484,6 +21178,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Amundi FY2025 P&L: \u201cPerformance fees 173\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20501,6 +21196,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Amundi FY2025: \u201cGross operating income - Adjusted 1,636\u201d (cost/income 52.1%)",
           "period_end": "2025-12-31",
           "history": [
@@ -20518,6 +21214,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "results",
+          "vendor": "tracker",
           "section": "Amundi market cap \u20ac16.95bn (stockanalysis.com, 26 Jun 2026)",
           "period_end": "2025-12-31",
           "history": [
@@ -20535,6 +21232,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cwe are now proposing a dividend of \u20ac4.25 per share for 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -20552,6 +21250,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Amundi FY2025 AUM: Equities \u20ac623bn",
           "members": [
             {
@@ -20597,6 +21296,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Amundi FY2025 AUM by region: France \u20ac1,051bn",
           "members": [
             {
@@ -20632,6 +21332,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -20649,6 +21350,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -20666,6 +21368,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -20683,6 +21386,7 @@
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -20700,6 +21404,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "market_cap + net_income",
           "period_end": "2025-12-31",
           "history": [
@@ -20717,6 +21422,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -20734,6 +21440,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21072,6 +21779,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u20ac591bn AllianzGI total AUM at Dec 2025 (\u20ac417bn third-party). P&L disclosed in the Allianz FY2025 analyst presentation.",
           "period_end": "2025-12-31",
           "history": [
@@ -21089,6 +21797,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201cAllianzGI (EUR mn) \u2026 2,051\u201d operating revenues",
           "period_end": "2025-12-31",
           "history": [
@@ -21106,6 +21815,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201cAllianzGI \u2013 OP at EUR 770mn, up 5%\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -21123,6 +21833,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201c3rd party net flows AllianzGI: EUR +6bn \u2026 +6.1\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -21140,6 +21851,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: AllianzGI AuM-driven & other revenues \u20ac1,940m",
           "period_end": "2025-12-31",
           "history": [
@@ -21157,6 +21869,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: AllianzGI performance fees \u20ac111m",
           "period_end": "2025-12-31",
           "history": [
@@ -21174,6 +21887,7 @@
           "basis": "external",
           "confidence": 0.5,
           "source": "results",
+          "vendor": "tracker",
           "section": "AllianzGI \u22482,900 employees (industry/aggregator; Allianz doesn't split AM headcount; its site states only 700+ investment pros)",
           "period_end": "2025-12-31",
           "history": [
@@ -21191,6 +21905,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21208,6 +21923,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21225,6 +21941,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21242,6 +21959,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -21259,6 +21977,7 @@
           "basis": "derived",
           "confidence": 0.5,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -21276,6 +21995,7 @@
           "basis": "derived",
           "confidence": 0.5,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21434,6 +22154,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cassets under management reached a historic high of \u20ac1,323 billion\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -21451,6 +22172,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cNet inflows in Asset Management \u2026 reached 40 billion euros\u201d (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -21468,6 +22190,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAsset & Wealth Management revenues \u2026 \u20ac3,540m\u201d (bundles Wealth Mgmt)",
           "period_end": "2025-12-31",
           "history": [
@@ -21485,6 +22208,7 @@
           "basis": "reported",
           "confidence": 0.75,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "AWM gross operating income \u20ac776m FY2025 (pre-tax; bundles Wealth Mgmt)",
           "period_end": "2025-12-31",
           "history": [
@@ -21502,6 +22226,7 @@
           "basis": "reported",
           "confidence": 0.7,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Natixis URD: \u201cintegrated distribution network established in over 20 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -21519,6 +22244,7 @@
           "basis": "derived",
           "confidence": 0.75,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -21536,6 +22262,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -21944,6 +22671,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201c\u20ac1,624bn at Asset Management (including AXA IM and Real Estate)\u201d at 31 Dec 2025",
           "period_end": "2025-12-31",
           "history": [
@@ -21961,6 +22689,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAsset Management had very good inflows \u2026 \u20ac35.8bn in 2025, including AXA IM and REIM\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -21978,6 +22707,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "BNP IPS 2025 Dashboard: Asset Management \u201cRevenues \u2026 1,924\u201d (\u20acm; incl. Real Estate & IPS Investments, H2 AXA IM)",
           "period_end": "2025-12-31",
           "history": [
@@ -21995,6 +22725,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "BNP IPS 2025 Dashboard: Asset Management \u201cPre-Tax Income 321\u201d (\u20acm; operating income \u20ac362m)",
           "period_end": "2025-12-31",
           "history": [
@@ -22012,6 +22743,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "URD 2025: \u201cBNP Paribas AM \u2026 employing over 2,100 employees in 32 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -22029,6 +22761,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "URD 2025: \u201cover 2,100 employees in 32 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -22046,6 +22779,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -22063,6 +22797,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -22080,6 +22815,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -22097,6 +22833,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -23075,6 +23812,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cover CHF 145.7 billion for third-party asset management\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -23092,6 +23830,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cnearly doubled net new assets in TPAM business to CHF 17.7 billion in 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -23109,6 +23848,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Swiss Life FY2025: Asset Managers \u201cCommission and other net income \u2026 1 148\u201d (CHF m; TPAM CHF 795m)",
           "period_end": "2025-12-31",
           "history": [
@@ -23126,6 +23866,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Swiss Life FY2025: Asset Managers \u201cSegment result 414\u201d (CHF m)",
           "period_end": "2025-12-31",
           "history": [
@@ -23143,6 +23884,7 @@
           "basis": "reported",
           "confidence": 0.7,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cMore than 2300 employees work for Swiss Life Asset Managers in Europe.\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -23160,6 +23902,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -23177,6 +23920,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -23194,6 +23938,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -23211,6 +23956,7 @@
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -23299,6 +24045,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAssets under Management \u2026 H\u00f6chststand von 534,6 Milliarden Euro\u201d (\u20ac534.6bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -23316,6 +24063,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cDer Nettoabsatz belief sich auf 23,3 Milliarden Euro\u201d (net sales \u20ac23.3bn FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -23333,6 +24081,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cDas Betriebsergebnis \u2026 auf 1.185 Millionen Euro\u201d (operating result \u20ac1,185m FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -23350,6 +24099,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cRund 4.400 Mitarbeitende\u201d (~4,400 employees)",
           "period_end": "2025-12-31",
           "history": [
@@ -23367,6 +24117,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201c270,8 Mrd. Euro auf das Privatkundengesch\u00e4ft\u201d (retail \u20ac270.8bn)",
           "members": [
             {
@@ -23387,6 +24138,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -23404,6 +24156,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -24232,6 +24985,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cSumme Asset Management und Deka-Zertifikate \u2026 451.971 Mio. \u20ac\u201d (\u20ac452bn customer assets, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -24249,6 +25003,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cAsset Management Nettovertriebsleistung: 24.437 Mio. \u20ac\u201d (net sales \u20ac24.4bn FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -24266,6 +25021,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cSumme Ertr\u00e4ge: 2.424,3 Mio. \u20ac\u201d (total income FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -24283,6 +25039,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cErgebnis vor Steuern: 924,6 Mio. \u20ac\u201d (pre-tax result FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -24300,6 +25057,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cMitarbeitende: 5.953\u201d (FY2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -24317,6 +25075,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -24334,6 +25093,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -24351,6 +25111,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -24368,6 +25129,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -24395,6 +25157,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u20ac368bn total AuM end-2025 (~\u20ac63bn third-party; rest captive Munich Re/ERGO)",
           "period_end": "2025-12-31",
           "history": [
@@ -24412,6 +25175,7 @@
           "basis": "reported",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cca. 850 employees\u201d (MEAG corporate portrait)",
           "period_end": "2025-12-31",
           "history": [
@@ -24429,6 +25193,7 @@
           "basis": "derived",
           "confidence": 0.6,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -24577,6 +25342,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u20ac99bn AUM at 31 Dec 2025 (\u20ac102bn at 28.02.2026 per company portrait)",
           "period_end": "2025-12-31",
           "history": [
@@ -24594,6 +25360,7 @@
           "basis": "reported",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cRund 200 Mitarbeitende arbeiten in M\u00fcnchen\u201d (~200 employees)",
           "period_end": "2025-12-31",
           "history": [
@@ -24611,6 +25378,7 @@
           "basis": "derived",
           "confidence": 0.6,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -24659,6 +25427,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201casset management volume \u2026 amounted to \u20ac55.2 billion at the end of 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -24676,6 +25445,7 @@
           "basis": "reported",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201ca total of around 640 professionals\u201d (Deka Immobilien)",
           "period_end": "2025-12-31",
           "history": [
@@ -24693,6 +25463,7 @@
           "basis": "derived",
           "confidence": 0.6,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -24720,6 +25491,7 @@
           "basis": "reported",
           "confidence": 0.75,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cadministriertes Verm\u00f6gen von \u00fcber 1 Billion Euro\u201d (>\u20ac1tn AuA; ~\u20ac1.39tn mid-2025 per industry data)",
           "period_end": "2025-12-31",
           "history": [
@@ -24737,6 +25509,7 @@
           "basis": "reported",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cRund 1.700 Mitarbeitende\u201d (~1,700 employees)",
           "period_end": "2025-12-31",
           "history": [
@@ -25465,6 +26238,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cGesamtes administriertes Volumen: EUR 625,9 MRD.\u201d (total AuA, 30 Apr 2025)",
           "period_end": "2025-04-30",
           "history": [
@@ -25482,6 +26256,7 @@
           "basis": "reported",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cnahezu 300 Spezialisten\u201d (~300 specialists)",
           "period_end": "2025-12-31",
           "history": [
@@ -25830,6 +26605,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "SEC Form ADV (CRD 105958): regulatory AUM \u201cTotal $11,092,665,107,962\u201d (discretionary; valued 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
@@ -25847,6 +26623,7 @@
           "basis": "external",
           "confidence": 0.7,
           "source": "results",
+          "vendor": "tracker",
           "section": "Morningstar US fund-flows 2025: Vanguard \u2248$240bn net inflows (2nd-largest fund family, after iShares \u2248$366bn)",
           "period_end": "2025-12-31",
           "history": [
@@ -25864,6 +26641,7 @@
           "basis": "estimate",
           "confidence": 0.4,
           "source": "results",
+          "vendor": "estimate",
           "section": "ESTIMATE (Vanguard at-cost \u2014 no income statement published): \u22480.07% asset-weighted fee \u00d7 ~$10.7tn avg 2025 AUM \u2248 $7.5bn",
           "period_end": "2025-12-31",
           "history": [
@@ -25881,6 +26659,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201c0.07% Asset-weighted average U.S. mutual fund and ETF expenses\u201d (2025) = its fee yield",
           "period_end": "2025-12-31",
           "history": [
@@ -25898,6 +26677,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cApproximate number of crew (employees) worldwide, as of December 31, 2025 \u2014 20,000\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -25909,12 +26689,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 11092665107962.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $11,092,665,107,962 \u2014 The Vanguard Group, Inc. (CRD 105958, Form ADV filed 2026-05-18). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 11092665107962.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 1702.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 1,702 (19 advisory) \u2014 The Vanguard Group, Inc. (CRD 105958, Form ADV filed 2026-05-18). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1702.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 228.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 228 \u2014 The Vanguard Group, Inc. (CRD 105958, Form ADV filed 2026-05-18).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 228.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "organic_growth_rate": {
           "value": 2.2,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.7,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -25932,6 +26767,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -25949,6 +26785,7 @@
           "basis": "derived",
           "confidence": 0.4,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26157,6 +26994,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "FY2025 annual report: \u201cMANAGED ASSETS $7.1 trillion\u201d (Up 19% YoY)",
           "period_end": "2025-12-31",
           "history": [
@@ -26174,6 +27012,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "FY2025 annual report: \u201cASSETS UNDER ADMINISTRATION $18.0 trillion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26191,6 +27030,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "FY2025 annual report: \u201cNET ASSET FLOWS $657.3 billion\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26208,6 +27048,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "FY2025 annual report: \u201cREVENUE $37.7 billion (Up 15% YoY)\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26225,6 +27066,7 @@
           "basis": "reported",
           "confidence": 0.9,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "FY2025 annual report: \u201cOPERATING INCOME $12.7 billion (Up 24% YoY)\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26242,6 +27084,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cover 80,000 associates across 11 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26259,6 +27102,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "\u201cover 80,000 associates across 11 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26270,12 +27114,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 5685041930529.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $5,685,041,930,529 \u2014 Fidelity Management & Research Company LLC (CRD 108281, Form ADV filed 2026-03-30). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5685041930529.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 1427.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 1,427 (744 advisory) \u2014 Fidelity Management & Research Company LLC (CRD 108281, Form ADV filed 2026-03-30). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1427.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 37227.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 37,227 \u2014 Fidelity Management & Research Company LLC (CRD 108281, Form ADV filed 2026-03-30).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 37227.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 33.7,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.9,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26293,6 +27192,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -26310,6 +27210,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -26327,6 +27228,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26365,6 +27267,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025 (PIMCO). Revenue/profit are PIMCO-specific, disclosed in the Allianz FY2025 analyst presentation.",
           "period_end": "2025-12-31",
           "history": [
@@ -26382,6 +27285,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201cPIMCO (EUR mn) \u2026 6,450\u201d operating revenues",
           "period_end": "2025-12-31",
           "history": [
@@ -26399,6 +27303,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201cPIMCO \u2013 OP at EUR 2,593mn, up 3%\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26416,6 +27321,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: \u201c3rd party net flows PIMCO: EUR +133bn \u2026 +133.2\u201d",
           "period_end": "2025-12-31",
           "history": [
@@ -26433,6 +27339,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: PIMCO AuM-driven & other revenues \u20ac6,159m",
           "period_end": "2025-12-31",
           "history": [
@@ -26450,6 +27357,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
+          "vendor": "analyst-eu",
           "section": "Allianz FY2025: PIMCO performance fees \u20ac290m",
           "period_end": "2025-12-31",
           "history": [
@@ -26467,6 +27375,7 @@
           "basis": "external",
           "confidence": 0.6,
           "source": "results",
+          "vendor": "tracker",
           "section": "PIMCO: \u201cover 3,100 employees working in 22 offices\u201d (pimco.com; Allianz doesn't split AM headcount)",
           "period_end": "2025-12-31",
           "history": [
@@ -26478,12 +27387,67 @@
             }
           ]
         },
+        "raum": {
+          "value": 3666935101247.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $3,666,935,101,247 \u2014 Pacific Investment Management Company LLC (CRD 104559, Form ADV filed 2026-05-18). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3666935101247.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_employees": {
+          "value": 1968.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.A employees 1,968 (628 advisory) \u2014 Pacific Investment Management Company LLC (CRD 104559, Form ADV filed 2026-05-18). Entity-scoped, not firm headcount.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1968.0,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "ria_accounts": {
+          "value": 2835.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F(2) accounts 2,835 \u2014 Pacific Investment Management Company LLC (CRD 104559, Form ADV filed 2026-05-18).",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2835.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 40.2,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "operating_income + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26501,6 +27465,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "performance_fees + total_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26518,6 +27483,7 @@
           "basis": "derived",
           "confidence": 0.8,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + mgmt_fee_revenue",
           "period_end": "2025-12-31",
           "history": [
@@ -26535,6 +27501,7 @@
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
           "history": [
@@ -26552,6 +27519,7 @@
           "basis": "derived",
           "confidence": 0.6,
           "source": "derived",
+          "vendor": "derive",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
@@ -26569,6 +27537,7 @@
           "basis": "derived",
           "confidence": 0.6,
           "source": "derived",
+          "vendor": "derive",
           "section": "headcount + total_revenue",
           "period_end": "2025-12-31",
           "history": [

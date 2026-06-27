@@ -7,6 +7,7 @@ export function SettingsSubnav() {
   const { pathname } = useLocation()
   const navigate = useNavigate()
   const onDocFetcher = pathname.startsWith('/settings/data-fetcher/documents')
+  const onFinFetcher = pathname.startsWith('/settings/data-fetcher/financials')
 
   return (
     <>
@@ -23,6 +24,15 @@ export function SettingsSubnav() {
             <Icon name="docs" size={15} />
           </span>
           <span className="sp-txt">Document Fetcher</span>
+        </div>
+        <div
+          className={`sp-row room-nav sub${onFinFetcher ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-fetcher/financials')}
+        >
+          <span className="sp-ic">
+            <Icon name="pivot" size={15} />
+          </span>
+          <span className="sp-txt">Financial Fetcher</span>
         </div>
       </div>
     </>

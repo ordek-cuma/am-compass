@@ -63,6 +63,7 @@ export const METRICS_BY_TAB: Partial<Record<Tab, MetricDef[]>> = {
     { key: 'num_countries', label: 'Countries of operation', unit: 'count', tile: true },
     { key: 'investment_professionals', label: 'Investment professionals', unit: 'count' },
     { key: 'num_funds', label: 'Funds / strategies', unit: 'count' },
+    { key: 'ria_employees', label: 'US adviser-entity staff (Form ADV)', unit: 'count' },
   ],
   Capital: [
     { key: 'market_cap', label: 'Market capitalization', unit: 'USD', tile: true },
@@ -97,4 +98,5 @@ export const OVERVIEW_TILES: MetricDef[] = [
   { key: 'net_income', label: 'Net income', unit: 'USD' },
   { key: 'pct_passive', label: '% passive', unit: 'pct' },
   { key: 'headcount', label: 'Headcount', unit: 'count' },
+  { key: 'raum', label: 'Regulatory AUM (Form ADV)', unit: 'USD' },
 ]
