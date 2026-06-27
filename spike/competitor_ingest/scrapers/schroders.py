@@ -14,7 +14,9 @@ SCRAPER = CompetitorDataScraper(
           ".pdf / /-/media/ links; EU_PDF extract; last 5y.",
     channel="chrome",
     pages=[
-        PageSpec("https://www.schroders.com/en/global/individual/corporate-transparency/reporting/",
-                 group="Annual", extract=EU_PDF, settle=8000, scroll=12),
+        # The "reporting" root is a nav landing page (no PDFs); the results-and-presentations
+        # sub-page renders the full archive — PDFs on the mybrand.schroders.com CDN (…/original/*.pdf).
+        PageSpec("https://www.schroders.com/en/global/individual/corporate-transparency/reporting/corporate-results-reports-and-presentations/",
+                 group="Annual", extract=EU_PDF, settle=9000, scroll=14),
     ],
 )

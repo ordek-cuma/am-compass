@@ -99,7 +99,8 @@ def _label_date(label: str) -> str:
         return f"{mn.group(3)}-{_MONTHS[mn.group(1).lower()]:02d}-{int(mn.group(2)):02d}"
     m = re.match(r"\s*(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})", label)
     if not m:
-        return "2025-12-31"
+        yr = re.search(r"\b(20[1-3]\d)\b", label)  # bare year anywhere (e.g. "Annual Results 2025")
+        return f"{yr.group(1)}-12-31" if yr else "2025-12-31"
     a, b, y = int(m.group(1)), int(m.group(2)), m.group(3)
     if a > 12:        # a must be the day → dd.mm
         day, mon = a, b

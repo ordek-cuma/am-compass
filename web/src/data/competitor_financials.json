@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T16:32:57+00:00",
+  "generated_at": "2026-06-27T16:51:38+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -22424,7 +22424,289 @@
           ]
         }
       },
-      "period_end": "2026-06-26"
+      "period_end": "2026-06-26",
+      "documents": [
+        {
+          "name": "Schroders plc Annual Results 2025 Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 168241,
+          "edgarUrl": "https://mybrand.schroders.com/m/63830cbb81c9b484/original/Schroders-plc-Annual-Results-2025-Transcript.pdf",
+          "file": "filings/Schroders/docs/w10a0eb68e0ac497d.pdf"
+        },
+        {
+          "name": "Schroders Annual Results 2025 presentation",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2026703,
+          "edgarUrl": "https://mybrand.schroders.com/m/478c78f06f079bd8/original/Schroders-Annual-Results-2025-presentation.pdf",
+          "file": "filings/Schroders/docs/w13a42add2819c94a.pdf"
+        },
+        {
+          "name": "Excel 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 64914,
+          "edgarUrl": "https://mybrand.schroders.com/m/8c3d861307a3d18f/original/Schroders-Data-Pack-FY2025.xlsx",
+          "file": "filings/Schroders/docs/w6034bbb305b06640.xlsx"
+        },
+        {
+          "name": "Schroders HY 2025 slides 2",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2225844,
+          "edgarUrl": "https://mybrand.schroders.com/m/7ed8d50d7f7dfeca/original/Schroders-HY-2025-slides-2.pdf",
+          "file": "filings/Schroders/docs/wb388eb105b47fac1.pdf"
+        },
+        {
+          "name": "Excel 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 46235,
+          "edgarUrl": "https://mybrand.schroders.com/m/56239077ae7f8513/original/Data-Pack-HY-2025-3.xlsx",
+          "file": "filings/Schroders/docs/w3611a789f26e17b5.xlsx"
+        },
+        {
+          "name": "Schroders Press release document HY 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 290142,
+          "edgarUrl": "https://mybrand.schroders.com/m/3f00fa817139f1bf/original/Schroders-Press-release-document-HY-2025.pdf",
+          "file": "filings/Schroders/docs/w29dc266ddb174048.pdf"
+        },
+        {
+          "name": "Annual results 2024 Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 182349,
+          "edgarUrl": "https://mybrand.schroders.com/m/68e9fe14eaa555c7/original/Annual-results-2024-Transcript.pdf",
+          "file": "filings/Schroders/docs/w717d2dc37cf5621d.pdf"
+        },
+        {
+          "name": "Strategy update 2024 Transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 287505,
+          "edgarUrl": "https://mybrand.schroders.com/m/2eabb2814684558d/original/Strategy-update-2024-Transcript.pdf",
+          "file": "filings/Schroders/docs/wbd925f50d148b0c6.pdf"
+        },
+        {
+          "name": "Annual Results 2024 Data Pack",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1163058,
+          "edgarUrl": "https://mybrand.schroders.com/m/7f443c0265a7bcbc/original/Annual-Results-2024-Data-Pack.pdf",
+          "file": "filings/Schroders/docs/w40ca5c820609c359.pdf"
+        },
+        {
+          "name": "Schroders Press release Strategy Update and Annual Results 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 337766,
+          "edgarUrl": "https://mybrand.schroders.com/m/42a1ef9db02d7e5f/original/Schroders-Press-release-Strategy-Update-and-Annual-Results-2024.pdf",
+          "file": "filings/Schroders/docs/w574dbab8214efec7.pdf"
+        },
+        {
+          "name": "SDR Annual Results 2023 transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4933117,
+          "edgarUrl": "https://mybrand.schroders.com/m/23b652e2308c99e/original/SDR-Annual-Results-2023-transcript.pdf",
+          "file": "filings/Schroders/docs/w10203ada83e56a6a.pdf"
+        },
+        {
+          "name": "Annual Results Data Pack 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2023-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 994172,
+          "edgarUrl": "https://mybrand.schroders.com/m/7d4fd10872a392fd/original/Annual-Results-Data-Pack-2023.pdf",
+          "file": "filings/Schroders/docs/wbb8ed7a768e1f5be.pdf"
+        },
+        {
+          "name": "Annual Results 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1220298,
+          "edgarUrl": "https://mybrand.schroders.com/m/4597d27d8b7e00ee/original/Annual-Results-2022.pdf",
+          "file": "filings/Schroders/docs/wf771bb9fdf12d35d.pdf"
+        },
+        {
+          "name": "Schroders plc Full year results 2022",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1926997,
+          "edgarUrl": "https://mybrand.schroders.com/m/dbb6fcfbc632178/original/Schroders-plc-Full-year-results-2022.pdf",
+          "file": "filings/Schroders/docs/w9bcdde9ecb41b8fa.pdf"
+        },
+        {
+          "name": "schroders tcfd report 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 14003351,
+          "edgarUrl": "https://mybrand.schroders.com/m/5cae75407a4e92d1/original/schroders-tcfd-report-2021.pdf",
+          "file": "filings/Schroders/docs/wfd1ba7f8dfa5203c.pdf"
+        },
+        {
+          "name": "schroders full year results data pack 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 761242,
+          "edgarUrl": "https://mybrand.schroders.com/m/2d1080df9423e85e/original/schroders-full-year-results-data-pack-2021.pdf",
+          "file": "filings/Schroders/docs/w84c1fe99cadc43a4.pdf"
+        },
+        {
+          "name": "schroders annual results 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4312302,
+          "edgarUrl": "https://mybrand.schroders.com/m/7a6cd4cb9d7b8533/original/schroders-annual-results-2021.pdf",
+          "file": "filings/Schroders/docs/wa68b8d0e758e7143.pdf"
+        },
+        {
+          "name": "schroders h1 2021 results transcript",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 180569,
+          "edgarUrl": "https://mybrand.schroders.com/m/7d625e49cb4c1eb2/original/schroders-h1-2021-results-transcript.pdf",
+          "file": "filings/Schroders/docs/wa4cfecc3e44153ea.pdf"
+        },
+        {
+          "name": "schoders 2021 data pack",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1470688,
+          "edgarUrl": "https://mybrand.schroders.com/m/41713f233ece707/original/schoders-2021-data-pack.pdf",
+          "file": "filings/Schroders/docs/wf85b34e6c20c9473.pdf"
+        },
+        {
+          "name": "Half Year Results 2025 Transcript",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 185578,
+          "edgarUrl": "https://mybrand.schroders.com/m/25f82d0d7f2db674/original/Half-Year-Results-2025-Transcript.pdf",
+          "file": "filings/Schroders/docs/w8009321356b863eb.pdf"
+        },
+        {
+          "name": "Schroders Q1 2025 update",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 144760,
+          "edgarUrl": "https://mybrand.schroders.com/m/49ba33f7502ae02a/original/Schroders-Q1-2025-update.pdf",
+          "file": "filings/Schroders/docs/wf99f072672fe1df6.pdf"
+        },
+        {
+          "name": "Half Year Results 2024 Presentation",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 902186,
+          "edgarUrl": "https://mybrand.schroders.com/m/72a4aa3ee3b5a658/original/Half-Year-Results-2024-Presentation.pdf",
+          "file": "filings/Schroders/docs/w3ee4dcf43d644864.pdf"
+        },
+        {
+          "name": "Half Year Results 2024 Data Pack",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1592113,
+          "edgarUrl": "https://mybrand.schroders.com/m/73f64d0286fdd51d/original/Half-Year-Results-2024-Data-Pack.pdf",
+          "file": "filings/Schroders/docs/w97a53a62b95ddf03.pdf"
+        },
+        {
+          "name": "Schroders Half Year Results 2024 Press Release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 543624,
+          "edgarUrl": "https://mybrand.schroders.com/m/720ab59c69b325d8/original/Schroders-Half-Year-Results-2024-Press-Release.pdf",
+          "file": "filings/Schroders/docs/we03d24cad5305069.pdf"
+        },
+        {
+          "name": "schroders half year results data pack 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2028481,
+          "edgarUrl": "https://mybrand.schroders.com/m/56c70c75ec9d3eb7/original/schroders-half-year-results-data-pack-2022.pdf",
+          "file": "filings/Schroders/docs/we23f0a815b53c2d5.pdf"
+        },
+        {
+          "name": "schroders half year results press release 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 637615,
+          "edgarUrl": "https://mybrand.schroders.com/m/3b00ef1ea97ab834/original/schroders-half-year-results-press-release-2022.pdf",
+          "file": "filings/Schroders/docs/w4878129ca779ce3a.pdf"
+        },
+        {
+          "name": "schroders half year results presentation 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1909028,
+          "edgarUrl": "https://mybrand.schroders.com/m/a90efcc16166b2e/original/schroders-half-year-results-presentation-2022.pdf",
+          "file": "filings/Schroders/docs/wd27391bd89181b24.pdf"
+        },
+        {
+          "name": "schroders half year presentation 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2021-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 763377,
+          "edgarUrl": "https://mybrand.schroders.com/m/1d4e8861af3d1c65/original/schroders-half-year-presentation-2021.pdf",
+          "file": "filings/Schroders/docs/w01c4edc9cb6fd85f.pdf"
+        }
+      ]
     },
     "abrdn": {
       "metrics": {
@@ -22663,7 +22945,449 @@
           ]
         }
       },
-      "period_end": "2026-06-26"
+      "period_end": "2026-06-26",
+      "documents": [
+        {
+          "name": "Pre-close trading statement Opens in new window",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 165850,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=AA-170124-172890-1",
+          "file": "filings/abrdn/docs/w4ae071af3432e487.pdf"
+        },
+        {
+          "name": "Press release",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 94887,
+          "edgarUrl": "https://www.aberdeeninvestments.com/docs?documentid=AA-230626-209734-2&_gl=1*t9swak*_gcl_au*MTg5ODQzODQ4OC4xNzc2Njg2NTQw",
+          "file": "filings/abrdn/docs/w3f074e5446f6567f.pdf"
+        },
+        {
+          "name": "Presentation slides",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1107139,
+          "edgarUrl": "https://www.aberdeeninvestments.com/docs?documentid=AA-250626-209815-3&_gl=1*t9swak*_gcl_au*MTg5ODQzODQ4OC4xNzc2Njg2NTQw",
+          "file": "filings/abrdn/docs/w94ed3a0ded61e3c7.pdf"
+        },
+        {
+          "name": "Transcript of the analyst call",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 278341,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=AA-231025-200071-1",
+          "file": "filings/abrdn/docs/wcc1e53c32dc65f39.pdf"
+        },
+        {
+          "name": "Data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 65497,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=GB-080223-187606-5",
+          "file": "filings/abrdn/docs/w86b715844dd12c27.xlsx"
+        },
+        {
+          "name": "Press release (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 372522,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=GB-080223-187604-4",
+          "file": "filings/abrdn/docs/we92f10bcf0c7c1fc.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 470392,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=GB-080223-187607-4",
+          "file": "filings/abrdn/docs/wd40e35300eb32306.pdf"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 255732,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-010323-188728-6",
+          "file": "filings/abrdn/docs/w5b346cbeaf85ec14.pdf"
+        },
+        {
+          "name": "Strategic report and financial highlights (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3938190,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=AA-120623-163979-9",
+          "file": "filings/abrdn/docs/w5de45aec07b06ac6.pdf"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 237707,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-051222-184792-1",
+          "file": "filings/abrdn/docs/wc4e71dccf4444d6c.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 632009,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-231122-184146-2",
+          "file": "filings/abrdn/docs/w47862ab8026848ba.pdf"
+        },
+        {
+          "name": "Announcement (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 356202,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-150323-189547-2",
+          "file": "filings/abrdn/docs/wd58dc654a9369c2e.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 718584,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-011221-162106-1",
+          "file": "filings/abrdn/docs/w7ea7ad9e572f2fd7.pdf"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 306684,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-141221-162793-1",
+          "file": "filings/abrdn/docs/wb7b51661e911f5a5.pdf"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 295965,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-250321-145769-4",
+          "file": "filings/abrdn/docs/w2e34d3586cc01b4d.pdf"
+        },
+        {
+          "name": "Strategic Report (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4108149,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-080321-144407-2",
+          "file": "filings/abrdn/docs/w9649f9029d35c2c0.pdf"
+        },
+        {
+          "name": "Restated FY19 data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLS",
+          "sizeBytes": 524044,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-010321-143824-1",
+          "file": "filings/abrdn/docs/w56dd83dfbabaf2c3.xls"
+        },
+        {
+          "name": "Transcript (DOC)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 138663,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-180820-126156-2",
+          "file": "filings/abrdn/docs/w91ea9daeaf343cc3.pdf"
+        },
+        {
+          "name": "Report (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1482116,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-070820-123477-2",
+          "file": "filings/abrdn/docs/wf7c7e237e37ffa32.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1234494,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-070820-123478-2",
+          "file": "filings/abrdn/docs/w20dac91dfb78f804.pdf"
+        },
+        {
+          "name": "Data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 515281,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-070820-123480-2",
+          "file": "filings/abrdn/docs/wae976c0b928df840.xlsx"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 79767,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-110620-119151-1",
+          "file": "filings/abrdn/docs/w9eede2571b75dc62.pdf"
+        },
+        {
+          "name": "Report (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 888390,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-110620-119149-1",
+          "file": "filings/abrdn/docs/w232e3ddf4d84fea2.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4386655,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-110620-119150-1",
+          "file": "filings/abrdn/docs/w041a7d9a54876315.pdf"
+        },
+        {
+          "name": "Data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 526723,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-110620-119152-1",
+          "file": "filings/abrdn/docs/w0d28fab8673d442f.xlsx"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 72035,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-270720-122097-1",
+          "file": "filings/abrdn/docs/we19e2808beabdb7b.pdf"
+        },
+        {
+          "name": "Announcement (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 158165,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-270720-122063-1",
+          "file": "filings/abrdn/docs/w280306094e224cfb.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1150199,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-270720-122096-1",
+          "file": "filings/abrdn/docs/w8809c697012c4f42.pdf"
+        },
+        {
+          "name": "Data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 505625,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-270720-122099-1",
+          "file": "filings/abrdn/docs/w7ced8b9268c4b98a.xlsx"
+        },
+        {
+          "name": "Transcript (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 50890,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122204-1",
+          "file": "filings/abrdn/docs/w8f38489092b93762.pdf"
+        },
+        {
+          "name": "Announcement (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 107855,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122196-1",
+          "file": "filings/abrdn/docs/w17387aa06cf7f2de.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 268759,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122203-1",
+          "file": "filings/abrdn/docs/w9cbb07ca7b627b1c.pdf"
+        },
+        {
+          "name": "Data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 48995,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122205-1",
+          "file": "filings/abrdn/docs/w4031567fff7f73cf.xlsx"
+        },
+        {
+          "name": "Report (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 63961,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122211-1",
+          "file": "filings/abrdn/docs/wace7ef162ed7c1ff.pdf"
+        },
+        {
+          "name": "Report (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 612712,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-300720-122605-1",
+          "file": "filings/abrdn/docs/w40bc8adf3afe9659.pdf"
+        },
+        {
+          "name": "Presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 872937,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-280720-122262-1",
+          "file": "filings/abrdn/docs/wc74d1d080490d5ff.pdf"
+        },
+        {
+          "name": "Announcement (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 85531,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-310720-122660-1",
+          "file": "filings/abrdn/docs/w05882e0829c1c8de.pdf"
+        },
+        {
+          "name": "Modern Slavery Statement Opens in new window",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1424260,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?editionId=c073cb0f-135c-4544-a82c-9ca20a7f29e8",
+          "file": "filings/abrdn/docs/wcddda772b82e3a42.pdf"
+        },
+        {
+          "name": "Full year results 2020 presentation (PDF)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1720686,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-080321-144442-2",
+          "file": "filings/abrdn/docs/w8a09cd27e78857c9.pdf"
+        },
+        {
+          "name": "Full year results 2020 data pack (XLS)",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2020-12-31",
+          "fmt": "XLSX",
+          "sizeBytes": 450573,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-170621-151509-3",
+          "file": "filings/abrdn/docs/w04e6cbf2fd032948.xlsx"
+        },
+        {
+          "name": "Q1 2024 trading update Opens in new window",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 171224,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=AA-190424-176926-2",
+          "file": "filings/abrdn/docs/wd6ba756d5baba6b8.pdf"
+        },
+        {
+          "name": "Q3 2024 trading update (PDF)",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 236214,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=AA-211024-184641-1",
+          "file": "filings/abrdn/docs/we78f8b81f60f2ff6.pdf"
+        },
+        {
+          "name": "Annual report and accounts 2022 (PDF)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2022-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 9223589,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentid=AA-080623-163897-18",
+          "file": "filings/abrdn/docs/wcc92ebb26aec414e.pdf"
+        },
+        {
+          "name": "Annual report and accounts 2020 (PDF)",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2020-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5472827,
+          "edgarUrl": "https://www.aberdeenplc.com/docs?documentId=GB-190321-145375-5",
+          "file": "filings/abrdn/docs/w6c71a3a49baa7d13.pdf"
+        }
+      ]
     },
     "MandG": {
       "metrics": {
@@ -22874,7 +23598,79 @@
           ]
         }
       },
-      "period_end": "2026-06-26"
+      "period_end": "2026-06-26",
+      "documents": [
+        {
+          "name": "Transcript 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 402487,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/latest-results/mgplc-full-year-2025-results-qa-transcript.pdf",
+          "file": "filings/MandG/docs/w881f78554154fc4b.pdf"
+        },
+        {
+          "name": "Transcript 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 229228,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/latest-results/30-05-2025-dai-ichi-announcement-transcript.pdf",
+          "file": "filings/MandG/docs/w3755b43d8cfc3be3.pdf"
+        },
+        {
+          "name": "here 2025",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 146107,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/financial-results-reports-and-presentations-archive/2026/mg-plc-ara-2025-glossary.pdf",
+          "file": "filings/MandG/docs/w809cccc53d624a96.pdf"
+        },
+        {
+          "name": "News release 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 347943,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/latest-results/05-11-2025-mg-q3-trading-update.pdf",
+          "file": "filings/MandG/docs/wcae6ed58070a03e9.pdf"
+        },
+        {
+          "name": "Presentations 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2165319,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/latest-results/mg-plc-half-year-2025-results-presentation.pdf",
+          "file": "filings/MandG/docs/w5c462934d77f5694.pdf"
+        },
+        {
+          "name": "Transcript 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 374360,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/latest-results/3-september-2025-mgplc-half-year-2025-results-transcript-qa.pdf",
+          "file": "filings/MandG/docs/w953a42e264584b27.pdf"
+        },
+        {
+          "name": "Annual Report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 15240426,
+          "edgarUrl": "https://group.mandg.com/~/media/Files/M/mandg-corp/corp/documents/investors/results-and-announcements/financial-results-reports-and-presentations-archive/2026/mgplc-annual-report-and-accounts-2025.pdf",
+          "file": "filings/MandG/docs/wadb344512ed8ad10.pdf"
+        }
+      ]
     },
     "AGI": {
       "name": "Allianz Global Investors",

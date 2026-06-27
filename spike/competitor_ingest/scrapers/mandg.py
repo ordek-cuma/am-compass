@@ -14,7 +14,11 @@ SCRAPER = CompetitorDataScraper(
           "PDFs; EU_PDF extract; last 5y.",
     channel="chrome",
     pages=[
-        PageSpec("https://www.mandg.com/investor/results-and-reports",
-                 group="Annual", extract=EU_PDF, settle=8000, scroll=12),
+        # IR lives on group.mandg.com; /~/media/*.pdf hrefs (EU_PDF matches the .pdf). latest-results
+        # = current FY/HY decks + transcripts; annual-report = the ARA PDF.
+        PageSpec("https://group.mandg.com/investors/results-and-announcements/latest-results",
+                 group="Quarterly", extract=EU_PDF, settle=9000, scroll=12),
+        PageSpec("https://group.mandg.com/investors/results-and-announcements/annual-report",
+                 group="Annual", extract=EU_PDF, settle=9000, scroll=12),
     ],
 )
