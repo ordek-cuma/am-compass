@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:20:51+00:00",
+  "generated_at": "2026-06-27T07:48:17+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3041,6 +3041,66 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "10-K \u201cAUM by asset class\u201d: Equity $7,793,875M (FY2025)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 7793875000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income",
+              "value": 3272021000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset",
+              "value": 1223625000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Cash management",
+              "value": 1080732000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 423614000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_region": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "10-K region rollforward: Americas $9,520,643M ending AuM (FY2025)",
+          "members": [
+            {
+              "member": "Americas",
+              "value": 9520643000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "EMEA",
+              "value": 3582614000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Asia-Pacific",
+              "value": 938261000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
         "operating_margin": {
           "value": 29.1,
           "unit": "pct",
@@ -3192,6 +3252,23 @@
             {
               "period_end": "2025-12-31",
               "value": 972530,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 3.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3.0,
               "basis": "derived",
               "confidence": 0.9
             }
