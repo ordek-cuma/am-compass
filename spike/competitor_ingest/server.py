@@ -59,6 +59,26 @@ def _fetchers() -> list:
     return sorted(out, key=lambda r: -r["docs"])
 
 
+# Tracked competitors that have NO dedicated fetcher, with why — so the dashboard reconciles to
+# the full watchlist. "covered" = documents inherited from a parent already fetched; "overlay" =
+# numbers-only (parent rollup not crawled); "none" = no public document source.
+_NON_FETCHERS = [
+    ("PIMCO", "PIMCO", "Covered by Allianz (AGI)", "covered"),
+    ("Deka Immobilien", "Deka Immobilien", "Covered by DekaBank (DEKA)", "covered"),
+    ("MEAG", "MEAG", "Overlay-only · parent Munich Re", "overlay"),
+    ("Universal Invest.", "Universal Investment", "No public source · Bundesanzeiger (captcha)", "none"),
+]
+
+
+def _others() -> list:
+    out = []
+    for code, name, note, kind in _NON_FETCHERS:
+        s = _manifest_summary(code)
+        out.append({"code": code, "name": name, "note": note, "kind": kind,
+                    "docs": s["docs"], "lastCrawl": s["lastCrawl"]})
+    return out
+
+
 class Handler(BaseHTTPRequestHandler):
     def _send(self, code: int, payload: dict) -> None:
         body = json.dumps(payload).encode()
@@ -84,7 +104,7 @@ class Handler(BaseHTTPRequestHandler):
         if u.path == "/api/scrapers":
             return self._send(200, {"scrapers": {c: scrapers.get(c).name for c in scrapers.codes()}})
         if u.path == "/api/fetchers":
-            return self._send(200, {"fetchers": _fetchers()})
+            return self._send(200, {"fetchers": _fetchers(), "others": _others()})
         if u.path == "/api/status":
             code = (parse_qs(u.query).get("code") or [""])[0]
             if not code:
