@@ -11,6 +11,17 @@ from .schema import MetricObservation
 
 ANNUAL_FORMS = {"10-K", "20-F"}
 
+# Per-firm us-gaap concept overrides — for metrics where a firm tags the figure under a
+# non-default concept, or where the catalog's default priority would resolve to a stale or
+# wrongly-scoped value. cid -> {metric_key: [concepts]} (tried in order, replacing the default).
+CONCEPT_OVERRIDES: dict[str, dict[str, list[str]]] = {
+    # Janus Henderson tags total revenue ONLY as ...IncludingAssessedTax (FY2025 $3,097.3M,
+    # matches its reported "Total revenue" line). Its legacy "Revenues" tag is stale (latest
+    # FY2017 = $592M < net income — the tell), so the default list resolved to a wrong value.
+    # NB: do NOT generalise IncludingAssessedTax — for AllianceBernstein it's a subset of total.
+    "JH": {"total_revenue": ["RevenueFromContractWithCustomerIncludingAssessedTax"]},
+}
+
 
 def _annual_facts(facts: dict, concept: str, limit: int = 5) -> list[dict]:
     """The last `limit` FY (10-K/20-F) facts for a us-gaap concept, newest first, deduped by
@@ -30,8 +41,9 @@ def _annual_facts(facts: dict, concept: str, limit: int = 5) -> list[dict]:
 
 def extract(competitor_id: str, facts: dict, now_iso: str) -> list[MetricObservation]:
     obs: list[MetricObservation] = []
+    overrides = CONCEPT_OVERRIDES.get(competitor_id, {})
     for key, spec in schema.METRIC_CATALOG.items():
-        concepts = spec.get("xbrl") or []
+        concepts = overrides.get(key) or spec.get("xbrl") or []
         if not concepts:
             continue
         rows: list[dict] = []

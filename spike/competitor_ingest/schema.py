@@ -47,6 +47,12 @@ METRIC_CATALOG: dict[str, dict] = {
                         definition="Average AuM over the period (the base fees are earned on).", xbrl=[]),
     "aua": dict(label="Assets under administration (AuA)", unit="USD", group="Scale",
                 definition="Assets serviced/administered (Master-/Service-KVG) — NOT managed; not comparable to AuM.", xbrl=[]),
+    "raum": dict(label="Regulatory AUM (Form ADV)", unit="USD", group="Scale",
+                 definition="SEC Form ADV Item 5.F regulatory AUM of the firm's PRIMARY US adviser entity — a single-entity regulatory figure, not the brand's marketed AUM.", xbrl=[]),
+    "ria_employees": dict(label="US adviser-entity staff (Form ADV)", unit="count", group="Workforce",
+                          definition="SEC Form ADV Item 5.A employees of the primary US adviser entity (entity-scoped, NOT firm headcount).", xbrl=[]),
+    "ria_accounts": dict(label="US adviser-entity accounts (Form ADV)", unit="count", group="Scale",
+                         definition="SEC Form ADV Item 5.F(2) number of accounts of the primary US adviser entity.", xbrl=[]),
     "aum_by_asset_class": dict(label="AuM by asset class", unit="USD", group="Scale", xbrl=[], cut="asset_class",
                                members=["Equity", "Fixed income", "Multi-asset", "Money market", "Alternatives", "Real assets / RE"],
                                definition="AuM split by asset class."),
@@ -88,6 +94,11 @@ METRIC_CATALOG: dict[str, dict] = {
     # ============ Revenue and fees ============
     "total_revenue": dict(label="Total revenue", unit="USD", group="Revenue",
                           definition="Total net revenue for the period.",
+                          # NB: ...IncludingAssessedTax is NOT in this default list on purpose — for some
+                          # filers (e.g. AllianceBernstein) it's only the customer-contract subset, while
+                          # "Revenues" is the true total (incl. investment gains/interest). Firms that tag
+                          # total revenue ONLY as IncludingAssessedTax (e.g. Janus Henderson) get it via a
+                          # per-firm override in extract_xbrl.CONCEPT_OVERRIDES.
                           xbrl=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"]),
     "mgmt_fee_revenue": dict(label="Investment management / advisory fees", unit="USD", group="Revenue",
                              definition="Advisory/management (base) fee revenue, excl. performance fees.", xbrl=[]),

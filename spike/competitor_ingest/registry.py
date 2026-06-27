@@ -30,7 +30,7 @@ BELLWETHERS: list[Competitor] = [
     # Other US-listed pure-play AMs (group financials ≈ AM financials → clean to ingest).
     Competitor("FED", "Federated Hermes", "FHI", "US-listed", "0001056288"),
     Competitor("WisdomTree", "WisdomTree", "WT", "US-listed", "0000880631"),
-    Competitor("JH", "Janus Henderson", "JHG", "US-listed", "0001633917"),
+    Competitor("JH", "Janus Henderson", "JHG", "US-listed", "0001274173"),  # JHG plc (0001633917 = PayPal — wrong)
     Competitor("AMG", "Affiliated Managers Group", "AMG", "US-listed", "0001004434"),
     # Blackstone: US-listed pure-play alternatives manager → clean EDGAR financials.
     Competitor("Blackstone", "Blackstone", "BX", "US-listed", "0001393818"),

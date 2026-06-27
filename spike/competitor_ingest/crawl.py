@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_tables, extract_xbrl, manifest, manual_overlay, registry, scrapers, web
+from . import derive, edgar, europe_overlay, extract_tables, extract_xbrl, form_adv, manifest, manual_overlay, market_data, registry, scrapers, web
 
 ARCHIVE = C.OUT_DIR / "archive"
 WEB_DATA = C.OUT_DIR.parents[2] / "web" / "src" / "data" / "competitor_financials.json"
@@ -99,7 +99,8 @@ def _label_date(label: str) -> str:
         return f"{mn.group(3)}-{_MONTHS[mn.group(1).lower()]:02d}-{int(mn.group(2)):02d}"
     m = re.match(r"\s*(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})", label)
     if not m:
-        return "2025-12-31"
+        yr = re.search(r"\b(20[1-3]\d)\b", label)  # bare year anywhere (e.g. "Annual Results 2025")
+        return f"{yr.group(1)}-12-31" if yr else "2025-12-31"
     a, b, y = int(m.group(1)), int(m.group(2)), m.group(3)
     if a > 12:        # a must be the day → dd.mm
         day, mon = a, b
@@ -343,22 +344,22 @@ def _metrics_block(obs: list) -> dict:
             base = next(o for o in lst if o.period_end == period)
             out[key] = {"unit": base.unit, "basis": base.basis, "period_end": period,
                         "confidence": round(min(m["confidence"] for m in members), 2),
-                        "source": base.source_doc, "section": base.source_section,
+                        "source": base.source_doc, "vendor": base.extracted_by, "section": base.source_section,
                         "members": sorted(members, key=lambda m: -(m["value"] or 0))}
             continue
         scalars = [o for o in lst if not o.member and o.value is not None]
         if not scalars:
             continue
-        latest = max(scalars, key=lambda o: o.period_end)
         per: dict[str, object] = {}
         for o in scalars:  # one (highest-confidence) obs per period
             cur = per.get(o.period_end)
             if cur is None or o.confidence > cur.confidence:
                 per[o.period_end] = o
+        latest = per[max(per)]  # flat value = highest-confidence obs of the latest period
         history = [{"period_end": p, "value": h.value, "basis": h.basis, "confidence": h.confidence}
                    for p, h in sorted(per.items(), reverse=True)][:5]
         out[key] = {"value": latest.value, "unit": latest.unit, "basis": latest.basis,
-                    "confidence": latest.confidence, "source": latest.source_doc,
+                    "confidence": latest.confidence, "source": latest.source_doc, "vendor": latest.extracted_by,
                     "section": latest.source_section, "period_end": latest.period_end,
                     "history": history}
     return out
@@ -384,6 +385,9 @@ def refresh_metrics() -> dict:
         b = dict(prev_comp.get(cid, {}))
         b["metrics"] = _metrics_block(obs)
         b["period_end"] = max((o.period_end for o in obs if not o.member), default=b.get("period_end"))
+        mpath = ARCHIVE / web.slug(cid) / "manifest.json"  # surface scraped docs (refresh doesn't re-crawl)
+        if mpath.exists():
+            b["documents"] = _doc_export((manifest.load(mpath) or {}).get("documents", []))
         return b
 
     for comp in registry.BELLWETHERS:
@@ -397,14 +401,17 @@ def refresh_metrics() -> dict:
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
         tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
                  key=lambda o: o.period_end, default=None)
+        obs += market_data.build(cid, cik, now)
         obs += extract_tables.extract(cid, cik, now, period=(tr.period_end if tr else "2025-12-31"),
                                       aum_hint=aum, rev_hint=(tr.value if tr else None))
+        obs += form_adv.build(cid, now)
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
     for comp in registry.GROUP_FILERS:
         cid = comp.competitor_id
         obs = europe_overlay.build(cid, now)
+        obs += form_adv.build(cid, now)
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
@@ -412,6 +419,7 @@ def refresh_metrics() -> dict:
         if cid in GROUP_FILER_CODES:
             continue
         obs = europe_overlay.build(cid, now)
+        obs += form_adv.build(cid, now)
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
@@ -452,8 +460,10 @@ def run(only: str | None = None, force: bool = False) -> dict:
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
         tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
                  key=lambda o: o.period_end, default=None)
+        obs += market_data.build(comp.competitor_id, cik, now)
         obs += extract_tables.extract(comp.competitor_id, cik, now, period=(tr.period_end if tr else "2025-12-31"),
                                       aum_hint=aum, rev_hint=(tr.value if tr else None))
+        obs += form_adv.build(comp.competitor_id, now)
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
         export["competitors"][comp.competitor_id] = {
@@ -470,6 +480,7 @@ def run(only: str | None = None, force: bool = False) -> dict:
         print(f"• {comp.name} ({comp.competitor_id}) EDGAR {cik} [group filer · docs only]")
         docs, counts = crawl_edgar_full(comp.competitor_id, comp.name, cik, now, force)
         obs = europe_overlay.build(comp.competitor_id, now)
+        obs += form_adv.build(comp.competitor_id, now)
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
         spec = europe_overlay.EUROPE.get(comp.competitor_id, {})
@@ -486,6 +497,7 @@ def run(only: str | None = None, force: bool = False) -> dict:
         print(f"• {spec['name']} ({cid}) IR crawl")
         docs, counts = crawl_web(cid, spec["name"], spec["regime"], spec["src"], now, force)
         obs = europe_overlay.build(cid, now)
+        obs += form_adv.build(cid, now)
         obs += derive.derive(cid, obs, now)
         all_obs += obs
         export["competitors"][cid] = {

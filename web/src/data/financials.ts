@@ -21,6 +21,7 @@ export interface FinMetric {
   basis: string
   confidence: number
   source: string
+  vendor?: string // provenance tag: xbrl | table-parse | analyst | analyst-eu | form-adv | tracker | estimate | derive
   section: string
   period_end?: string
   history?: FinPoint[] // up to 5y of the scalar, newest first
@@ -55,6 +56,10 @@ const FIN = raw as unknown as FinData
 
 export const FINANCIALS_SOURCE = FIN.source
 export const FINANCIALS_GENERATED = FIN.generated_at
+
+export function allFinancials(): { code: string; block: FinBlock }[] {
+  return Object.entries(FIN.competitors).map(([code, block]) => ({ code, block }))
+}
 
 export function financialsFor(code: string): FinBlock | null {
   return FIN.competitors[code] ?? null
@@ -179,6 +184,6 @@ export function fmtMetric(m: FinMetric): string {
 export function statusOf(m: FinMetric | undefined): FieldStatus {
   if (!m || m.value === null) return 'add'
   if (m.basis === 'GAAP') return 'have'
-  if (m.basis === 'derived') return 'partial'
+  if (m.basis === 'derived' || m.basis === 'estimate' || m.basis === 'external') return 'partial'
   return m.confidence >= 0.9 ? 'have' : 'partial'
 }
