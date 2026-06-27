@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T18:27:25+00:00",
+  "generated_at": "2026-06-27T19:10:10+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -28872,18 +28872,84 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 11092700000000.0,
+          "value": 11600000000000.0,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.9,
+          "basis": "external",
+          "confidence": 0.55,
           "source": "results",
-          "vendor": "analyst-eu",
-          "section": "SEC Form ADV (CRD 105958): regulatory AUM \u201cTotal $11,092,665,107,962\u201d (discretionary; valued 31 Dec 2025)",
+          "vendor": "tracker",
+          "section": "Vanguard global AUM \u2248$11.6tn (30 Sep 2025, ADV Ratings; ~$12tn headline)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 11092700000000.0,
+              "value": 11600000000000.0,
+              "basis": "external",
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 10400000000000.0,
+              "basis": "external",
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 8600000000000.0,
+              "basis": "external",
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 7200000000000.0,
+              "basis": "external",
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 8500000000000.0,
+              "basis": "external",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "raum": {
+          "value": 11092665107962.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "SEC Form ADV",
+          "vendor": "form-adv",
+          "section": "Item 5.F regulatory AUM $11,092,665,107,962 \u2014 The Vanguard Group, Inc. (CRD 105958, Form ADV filed 2026-05-18). NB: single-entity RAUM, not brand AUM.",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 11092665107962.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 7909800000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 6649200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 7796100000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2020-12-31",
+              "value": 6669600000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -29073,15 +29139,15 @@
           "unit": "USD",
           "basis": "external",
           "period_end": "2025-12-31",
-          "confidence": 0.55,
+          "confidence": 0.5,
           "source": "results",
           "vendor": "tracker",
-          "section": "Residual of $11.09tn RAUM \u2212 $2.8tn bond/MMF (Vanguard discloses no equity split)",
+          "section": "Residual of ~$11.6tn AUM \u2212 $2.8tn bond/MMF (Vanguard discloses no equity split)",
           "members": [
             {
               "member": "Equity & balanced",
-              "value": 8292700000000.001,
-              "confidence": 0.55
+              "value": 8800000000000.0,
+              "confidence": 0.5
             },
             {
               "member": "Fixed income & money market",
@@ -29090,21 +29156,24 @@
             }
           ]
         },
-        "raum": {
-          "value": 11092665107962.0,
+        "aum_by_region": {
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.95,
-          "source": "SEC Form ADV",
-          "vendor": "form-adv",
-          "section": "Item 5.F regulatory AUM $11,092,665,107,962 \u2014 The Vanguard Group, Inc. (CRD 105958, Form ADV filed 2026-05-18). NB: single-entity RAUM, not brand AUM.",
+          "basis": "external",
           "period_end": "2025-12-31",
-          "history": [
+          "confidence": 0.5,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "\u224891% US: of ~$11.6tn, non-US business AUM ~$1tn \u2192 US ~$10.6tn (derived from FT)",
+          "members": [
             {
-              "period_end": "2025-12-31",
-              "value": 11092665107962.0,
-              "basis": "reported",
-              "confidence": 0.95
+              "member": "United States",
+              "value": 10600000000000.0,
+              "confidence": 0.5
+            },
+            {
+              "member": "International (ex-US)",
+              "value": 1000000000000.0,
+              "confidence": 0.6
             }
           ]
         },
@@ -29163,10 +29232,10 @@
           ]
         },
         "organic_growth_rate": {
-          "value": 2.2,
+          "value": 2.1,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.7,
+          "confidence": 0.55,
           "source": "derived",
           "vendor": "derive",
           "section": "aum_total + net_flows",
@@ -29174,17 +29243,17 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2.2,
+              "value": 2.1,
               "basis": "derived",
-              "confidence": 0.7
+              "confidence": 0.55
             }
           ]
         },
         "aum_per_employee": {
-          "value": 554635000,
+          "value": 580000000,
           "unit": "USD",
           "basis": "derived",
-          "confidence": 0.85,
+          "confidence": 0.55,
           "source": "derived",
           "vendor": "derive",
           "section": "aum_total + headcount",
@@ -29192,9 +29261,9 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 554635000,
+              "value": 580000000,
               "basis": "derived",
-              "confidence": 0.85
+              "confidence": 0.55
             }
           ]
         },
