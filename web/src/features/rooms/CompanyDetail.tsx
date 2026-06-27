@@ -9,7 +9,7 @@ import { documentsFor, documentsGroupedFor, fmtBytes, type FinDoc } from '../../
 import { fdate } from '../../lib/format'
 import { ScrapeControls } from './ScrapeControls'
 import { MetricsTab } from './MetricsTab'
-import { CATEGORIES, CATEGORY_LABEL, type Category } from '../../data/metricCatalog'
+import { TOP_TABS, TAB_LABEL, type Tab } from '../../data/metricCatalog'
 
 export function CompanyDetail() {
   const { companyId } = useParams()
@@ -17,7 +17,7 @@ export function CompanyDetail() {
   const c = COMPANIES.find((x) => x.tick === decodeURIComponent(companyId || ''))
   if (!c) return <Navigate to="/rooms/competitor" replace />
 
-  const [tab, setTab] = useState<'docs' | Category>('docs')
+  const [tab, setTab] = useState<'docs' | Tab>('docs')
   // ONLY real documents — crawled local files or primary-source links. No placeholders.
   const realDocs = [...documentsFor(c.tick)].sort((a, b) => b.date.localeCompare(a.date))
   const last = realDocs.length ? realDocs[0].date : ''
@@ -80,9 +80,9 @@ export function CompanyDetail() {
         <button className={`mtab${tab === 'docs' ? ' on' : ''}`} onClick={() => setTab('docs')}>
           Documents<span className="ct">{realDocs.length}</span>
         </button>
-        {CATEGORIES.map((cat) => (
-          <button key={cat} className={`mtab${tab === cat ? ' on' : ''}`} onClick={() => setTab(cat)}>
-            {CATEGORY_LABEL[cat]}
+        {TOP_TABS.map((t) => (
+          <button key={t} className={`mtab${tab === t ? ' on' : ''}`} onClick={() => setTab(t)}>
+            {TAB_LABEL[t]}
           </button>
         ))}
       </div>
@@ -116,7 +116,7 @@ export function CompanyDetail() {
         </div>
         </>
       ) : (
-        <MetricsTab code={c.tick} category={tab} />
+        <MetricsTab code={c.tick} tab={tab} />
       )}
     </div>
   )
