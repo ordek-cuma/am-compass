@@ -173,7 +173,18 @@ EUROPE: dict[str, dict] = {
     # Form ADV; Form ADV carries no income-statement field by design). The authoritative AuM figure is
     # the SEC Form ADV regulatory AUM (RAUM); the 0.07% asset-weighted expense ratio IS its fee yield.
     "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://reports.adviserinfo.sec.gov/reports/ADV/105958/PDF/105958.pdf",
-        items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
+               # AUM has two bases (kept separate): aum_total = marketed global AUM (industry trackers,
+               # multi-year), raum = SEC Form ADV regulatory AUM (official, narrower, year-end).
+        items=[("aum_total", 8500.0, "USD", "Vanguard global AUM ≈$8.5tn end-2021 (ADV Ratings/industry; Vanguard publishes no audited total)", 0.55, "2021-12-31", "external"),
+               ("aum_total", 7200.0, "USD", "Vanguard global AUM ≈$7.2tn end-2022 (ADV Ratings)", 0.55, "2022-12-31", "external"),
+               ("aum_total", 8600.0, "USD", "Vanguard global AUM ≈$8.6tn end-2023 (ADV Ratings)", 0.55, "2023-12-31", "external"),
+               ("aum_total", 10400.0, "USD", "Vanguard global AUM ≈$10.4tn end-2024 (ADV Ratings)", 0.55, "2024-12-31", "external"),
+               ("aum_total", 11600.0, "USD", "Vanguard global AUM ≈$11.6tn (30 Sep 2025, ADV Ratings; ~$12tn headline)", 0.55, "2025-12-31", "external"),
+               # Official SEC Form ADV regulatory AUM (Item 5.F), year-end, from the SEC bulk dataset:
+               ("raum", 6669.6, "USD", "SEC Form ADV (CRD 105958) FY2020 regulatory AUM $6,669,629,346,058 (official, SEC Form ADV bulk dataset)", 0.9, "2020-12-31"),
+               ("raum", 7796.1, "USD", "SEC Form ADV FY2021 RAUM $7,796,091,304,104 (official)", 0.9, "2021-12-31"),
+               ("raum", 6649.2, "USD", "SEC Form ADV FY2022 RAUM $6,649,219,111,273 (official)", 0.9, "2022-12-31"),
+               ("raum", 7909.8, "USD", "SEC Form ADV FY2023 RAUM $7,909,760,294,676 (official)", 0.9, "2023-12-31"),
                ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
                ("total_revenue", 6.9, "USD", "≈$6.9bn (Statista/third-party trackers). Vanguard is privately fund-owned and publishes NO consolidated financial statements / annual report — no primary revenue figure exists; cross-checks ≈0.07% fee × ~$11tn ≈ $7.7bn.", 0.45, "2025-12-31", "external"),
                # Global operating margin is NOT disclosed — The Vanguard Group, Inc. (US parent) is owned
@@ -192,9 +203,11 @@ EUROPE: dict[str, dict] = {
                ("mgmt_fee_revenue", 6.9, "USD", "≈ total revenue — Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); third-party-tracked ~$6.9bn", 0.45, "2025-12-31", "external"),
                ("performance_fees", 0.0, "USD", "≈$0: Vanguard charges no separate performance fees (low-cost model; only minor net performance adjustments on some externally-subadvised active funds)", 0.5, "2025-12-31", "estimate")],
         # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &
-        # balanced is the residual to its $11.09tn RAUM. External basis (Vanguard discloses no clean split).
-        breakdowns=[("aum_by_asset_class", "Equity & balanced", 8292.7, "USD", "Residual of $11.09tn RAUM − $2.8tn bond/MMF (Vanguard discloses no equity split)", 0.55, "2025-12-31", "external"),
-                    ("aum_by_asset_class", "Fixed income & money market", 2800.0, "USD", "Vanguard: “bond funds and money market funds had $2.8 trillion” (31 Dec 2025)", 0.7, "2025-12-31", "external")]),
+        # balanced is the residual to its ~$11.6tn global AUM. External (Vanguard discloses no clean split).
+        breakdowns=[("aum_by_asset_class", "Equity & balanced", 8800.0, "USD", "Residual of ~$11.6tn AUM − $2.8tn bond/MMF (Vanguard discloses no equity split)", 0.5, "2025-12-31", "external"),
+                    ("aum_by_asset_class", "Fixed income & money market", 2800.0, "USD", "Vanguard: “bond funds and money market funds had $2.8 trillion” (31 Dec 2025)", 0.7, "2025-12-31", "external"),
+                    ("aum_by_region", "United States", 10600.0, "USD", "≈91% US: of ~$11.6tn, non-US business AUM ~$1tn → US ~$10.6tn (derived from FT)", 0.5, "2025-12-31", "external"),
+                    ("aum_by_region", "International (ex-US)", 1000.0, "USD", "Vanguard non-US/international AUM “exceeded $1 trillion” in 2025 (FT)", 0.6, "2025-12-31", "external")]),
     "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/data-and-insights/2025-annual-report",
         items=[("aum_total", 7100.0, "USD", "FY2025 annual report: “MANAGED ASSETS $7.1 trillion” (Up 19% YoY)", 0.9),
                ("aua", 18000.0, "USD", "FY2025 annual report: “ASSETS UNDER ADMINISTRATION $18.0 trillion”", 0.9),
