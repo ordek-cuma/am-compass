@@ -33,14 +33,18 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_total", 1_846.0e9, "USD", "2024-12-31", "10-K AUM rollforward: ending assets $1,846.0bn (FY2024)", 0.9),
         ("aum_total", 1_585.3e9, "USD", "2023-12-31", "10-K AUM rollforward: ending assets $1,585.3bn (FY2023)", 0.9),
         ("aum_average", 2_000.1e9, "USD", "2025-12-31", "“Average AUM was $2,000.1 billion”", 0.9),
+        ("net_flows", 81.2e9, "USD", "2025-12-31", "AUM rollforward: “Net long-term flows 81.2” billion (FY2025)", 0.9),
         ("headcount", 7_500, "count", "2025-12-31", "“approximately 7,500 employees”", 0.85),
     ],
     "FT": [  # Franklin Resources (fiscal year ends Sep 30)
         ("aum_total", 1_661.2e9, "USD", "2025-09-30", "“total AUM was $1,661.2 billion”", 0.9),
+        ("net_flows", -97.4e9, "USD", "2025-09-30", "AUM rollforward: “Long-term net flows (97.4)” billion (FY2025)", 0.85),
         ("headcount", 9_800, "count", "2025-09-30", "“approximately 9,800 employees”", 0.85),
     ],
     "AB": [  # AllianceBernstein
         ("aum_total", 866.9e9, "USD", "2025-12-31", "“AUM as of December 31, 2025 were $866.9 billion”", 0.95),
+        ("net_flows", -11.3e9, "USD", "2025-12-31", "“net outflows of $11.3 billion” (Inst −$4.6bn, Retail −$9.1bn, PW +$2.4bn)", 0.9),
+        ("market_impact", 86.0e9, "USD", "2025-12-31", "“market appreciation of $86.0 billion” (2025)", 0.9),
         ("headcount", 4_468, "count", "2025-12-31", "“had 4,468 full-time employees”", 0.9),
     ],
     "FED": [  # Federated Hermes

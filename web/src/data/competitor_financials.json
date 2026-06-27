@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:08:06+00:00",
+  "generated_at": "2026-06-27T11:14:50+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -4756,6 +4756,23 @@
             }
           ]
         },
+        "net_flows": {
+          "value": 81200000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "AUM rollforward: \u201cNet long-term flows 81.2\u201d billion (FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 81200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "headcount": {
           "value": 7500.0,
           "unit": "count",
@@ -4910,6 +4927,23 @@
               "value": 74.1,
               "basis": "derived",
               "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 3.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3.9,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         },
@@ -5764,6 +5798,23 @@
             }
           ]
         },
+        "net_flows": {
+          "value": -97400000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "AUM rollforward: \u201cLong-term net flows (97.4)\u201d billion (FY2025)",
+          "period_end": "2025-09-30",
+          "history": [
+            {
+              "period_end": "2025-09-30",
+              "value": -97400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
         "headcount": {
           "value": 9800.0,
           "unit": "count",
@@ -5953,6 +6004,23 @@
               "value": 77.7,
               "basis": "derived",
               "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": -5.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-09-30",
+          "history": [
+            {
+              "period_end": "2025-09-30",
+              "value": -5.5,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         },
@@ -7352,6 +7420,40 @@
             }
           ]
         },
+        "net_flows": {
+          "value": -11300000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201cnet outflows of $11.3 billion\u201d (Inst \u2212$4.6bn, Retail \u2212$9.1bn, PW +$2.4bn)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": -11300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "market_impact": {
+          "value": 86000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "\u201cmarket appreciation of $86.0 billion\u201d (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 86000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "headcount": {
           "value": 4468.0,
           "unit": "count",
@@ -7509,6 +7611,23 @@
               "value": 72.6,
               "basis": "derived",
               "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": -1.3,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": -1.3,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         },
