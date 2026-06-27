@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:53:15+00:00",
+  "generated_at": "2026-06-27T18:15:12+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -28890,20 +28890,38 @@
           ]
         },
         "operating_margin": {
-          "value": 0.0,
+          "value": 11.6,
           "unit": "pct",
-          "basis": "estimate",
-          "confidence": 0.4,
+          "basis": "external",
+          "confidence": 0.6,
           "source": "results",
-          "vendor": "estimate",
-          "section": "\u22480% by design: Vanguard is owned by its funds and operates at-cost \u2014 surplus is returned to investors as lower fees, not booked as operating profit (\u2248breakeven)",
-          "period_end": "2025-12-31",
+          "vendor": "tracker",
+          "section": "Vanguard UK ENTITY ONLY (CH 07243412) \u2014 FY2024: revenue \u00a3210.7m, operating profit \u00a324.4m (PBT \u00a324.3m) \u2192 11.6%. NOT global Vanguard (US parent at-cost, no consolidated P&L).",
+          "period_end": "2024-12-31",
           "history": [
             {
-              "period_end": "2025-12-31",
-              "value": 0.0,
-              "basis": "estimate",
-              "confidence": 0.4
+              "period_end": "2024-12-31",
+              "value": 11.6,
+              "basis": "external",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 11.8,
+              "basis": "external",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 9.5,
+              "basis": "external",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 8.9,
+              "basis": "external",
+              "confidence": 0.6
             }
           ]
         },
