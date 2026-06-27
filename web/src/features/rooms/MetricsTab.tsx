@@ -189,8 +189,13 @@ const REV_ROWS: [string, string, string][] = [
 ]
 
 function TrendPanel({ fin, metricKey, title, unit }: { fin: FinBlock; metricKey: string; title: string; unit: string }) {
-  const h = ((fin.metrics[metricKey] as FinMetric | undefined)?.history ?? []).filter((p) => p.value != null).slice(0, 5).reverse()
+  const m = fin.metrics[metricKey] as FinMetric | undefined
+  const h = (m?.history ?? []).filter((p) => p.value != null).slice(0, 5).reverse()
   const max = Math.max(...h.map((p) => Math.abs(p.value!)), 1)
+  // Visible scope note for non-filed data (estimate/tracker) so e.g. a UK-entity-only figure
+  // is never read as the global one. Takes the lead clause of the source quote.
+  const scope = h.length && (m?.basis === 'external' || m?.basis === 'estimate')
+    ? (m?.section || '').split(/—|\(/)[0].trim().replace(/:$/, '') : ''
   return (
     <Panel title={<>{title} {h.length > 1 ? <span className="muted2">{h.length}-year</span> : null}</>}>
       {h.length ? (
@@ -206,6 +211,7 @@ function TrendPanel({ fin, metricKey, title, unit }: { fin: FinBlock; metricKey:
       ) : (
         <div className="ph" style={{ padding: '4px 2px' }}>Not disclosed</div>
       )}
+      {scope ? <div className="muted2" style={{ fontSize: 10.5, marginTop: 7, paddingTop: 6, borderTop: '1px solid var(--surface-2)' }} title={m?.section}>{scope}</div> : null}
     </Panel>
   )
 }

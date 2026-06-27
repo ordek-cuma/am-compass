@@ -176,7 +176,15 @@ EUROPE: dict[str, dict] = {
         items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
                ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
                ("total_revenue", 7.5, "USD", "ESTIMATE (Vanguard at-cost — no income statement published): ≈0.07% asset-weighted fee × ~$10.7tn avg 2025 AUM ≈ $7.5bn", 0.4, "2025-12-31", "estimate"),
-               ("operating_margin", 0.0, "pct", "≈0% by design: Vanguard is owned by its funds and operates at-cost — surplus is returned to investors as lower fees, not booked as operating profit (≈breakeven)", 0.4, "2025-12-31", "estimate"),
+               # Global operating margin is NOT disclosed — The Vanguard Group, Inc. (US parent) is owned
+               # by its funds and publishes no consolidated income statement. The ONLY real Vanguard P&L
+               # is local subsidiary accounts: Vanguard Asset Management, Ltd. (UK, Companies House
+               # 07243412) files full audited accounts → a genuine 4-year operating-margin series.
+               # Labelled UK-ENTITY-ONLY (intercompany-fee-based; NOT representative of global Vanguard).
+               ("operating_margin", 8.9, "pct", "Vanguard UK ENTITY ONLY (Vanguard Asset Management Ltd, Companies House 07243412) — FY2021: revenue £141.4m, operating profit £12.5m → 8.9%. NOT global Vanguard.", 0.6, "2021-12-31", "external"),
+               ("operating_margin", 9.5, "pct", "Vanguard UK ENTITY ONLY (CH 07243412) — FY2022: revenue £146.0m, operating profit £13.8m → 9.5%. NOT global Vanguard.", 0.6, "2022-12-31", "external"),
+               ("operating_margin", 11.8, "pct", "Vanguard UK ENTITY ONLY (CH 07243412) — FY2023: revenue £169.1m, operating profit £19.9m → 11.8%. NOT global Vanguard.", 0.6, "2023-12-31", "external"),
+               ("operating_margin", 11.6, "pct", "Vanguard UK ENTITY ONLY (CH 07243412) — FY2024: revenue £210.7m, operating profit £24.4m (PBT £24.3m) → 11.6%. NOT global Vanguard (US parent at-cost, no consolidated P&L).", 0.6, "2024-12-31", "external"),
                ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
                ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)],
         # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &
