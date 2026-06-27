@@ -394,7 +394,8 @@ def refresh_metrics() -> dict:
         except Exception as e:
             print(f"  ! {cid} xbrl: {e}"); obs = []
         obs += manual_overlay.overlay(cid, now)
-        obs += extract_tables.extract(cid, cik, now)
+        aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
+        obs += extract_tables.extract(cid, cik, now, aum_hint=aum)
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
@@ -445,7 +446,8 @@ def run(only: str | None = None, force: bool = False) -> dict:
         except Exception as e:
             print(f"  ! xbrl failed: {e}"); obs = []
         obs += manual_overlay.overlay(comp.competitor_id, now)
-        obs += extract_tables.extract(comp.competitor_id, cik, now)
+        aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
+        obs += extract_tables.extract(comp.competitor_id, cik, now, aum_hint=aum)
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
         export["competitors"][comp.competitor_id] = {
