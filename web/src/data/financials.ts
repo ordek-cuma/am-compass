@@ -4,13 +4,27 @@
 import raw from './competitor_financials.json'
 import type { FieldStatus } from '../components/facts'
 
-export interface FinMetric {
+export interface FinPoint {
+  period_end: string
   value: number | null
+  basis: string
+  confidence: number
+}
+export interface FinMember {
+  member: string
+  value: number | null
+  confidence: number
+}
+export interface FinMetric {
+  value?: number | null
   unit: string
   basis: string
   confidence: number
   source: string
   section: string
+  period_end?: string
+  history?: FinPoint[] // up to 5y of the scalar, newest first
+  members?: FinMember[] // breakdown members (for a "by-X" metric), largest first
 }
 export interface FinDoc {
   name: string
@@ -123,9 +137,29 @@ export const FIN_GROUPS: { group: string; grain: string; items: { key: string; l
   ] },
 ]
 
+// Format a raw value for a given unit (used by both fmtMetric and breakdown members).
+export function fmtValue(v: number | null | undefined, unit: string): string {
+  if (v === null || v === undefined) return '—'
+  switch (unit) {
+    case 'USD': {
+      const a = Math.abs(v)
+      if (a >= 1e12) return `$${(v / 1e12).toFixed(1)}T`
+      if (a >= 1e9) return `$${(v / 1e9).toFixed(1)}B`
+      if (a >= 1e6) return `$${(v / 1e6).toFixed(0)}M`
+      return `$${v.toLocaleString('en-US')}`
+    }
+    case 'pct': return `${v.toFixed(1)}%`
+    case 'bps': return `${v.toFixed(1)} bps`
+    case 'USD/shares': return `$${v.toFixed(2)}`
+    case 'ratio': return `${v.toFixed(1)}×`
+    case 'count': return v.toLocaleString('en-US')
+    default: return String(v)
+  }
+}
+
 export function fmtMetric(m: FinMetric): string {
   const v = m.value
-  if (v === null) return '—'
+  if (v === null || v === undefined) return '—'
   switch (m.unit) {
     case 'USD': {
       const a = Math.abs(v)
