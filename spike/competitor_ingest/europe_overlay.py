@@ -99,8 +99,8 @@ EUROPE: dict[str, dict] = {
         items=[("aum_total", 375.9, "GBP", "M&G FY2025: “Total AUMA has increased to £375.9 billion”", 0.9),
                ("net_flows", -1.6, "GBP", "M&G FY2025: total net client flows £(1.6)bn (open business +£7.8bn)", 0.85),
                ("net_income", 0.314, "GBP", "M&G FY2025: “IFRS result after tax attributable … profit of £314 million”", 0.9),
-               ("operating_income", 0.838, "GBP", "M&G FY2025: “Adjusted operating profit before tax … £838 million”", 0.9),
-               ("operating_margin", 25.0, "pct", "M&G Asset Management FY2025 cost/income ratio 75% (recurring revenue £1,066m) → 25% operating margin", 0.8),
+               ("total_revenue", 1.066, "GBP", "M&G Asset Management FY2025: recurring revenue £1,066m (annual report; group reports AOP not a revenue line)", 0.85),
+               ("operating_income", 0.266, "GBP", "M&G Asset Management FY2025: £1,066m revenue × (1 − 75% cost/income ratio) ≈ £266m AM operating profit (group adjusted operating profit £838m)", 0.8),
                ("headcount", 8282, "count", "M&G FY2025: “Average staff headcount 8,282” (>6,000 permanent)", 0.8),
                ("dividends_per_share", 0.205, "GBP", "M&G FY2025: “total dividend of 20.5 pence per share”", 0.85),
                ("market_cap", 8.0, "GBP", "M&G market cap ≈£8.0bn (aggregator, 26 Jun 2026)", 0.65, "2026-06-26", "external")],
@@ -175,7 +175,7 @@ EUROPE: dict[str, dict] = {
     "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://reports.adviserinfo.sec.gov/reports/ADV/105958/PDF/105958.pdf",
         items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
                ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
-               ("total_revenue", 7.5, "USD", "ESTIMATE (Vanguard at-cost — no income statement published): ≈0.07% asset-weighted fee × ~$10.7tn avg 2025 AUM ≈ $7.5bn", 0.4, "2025-12-31", "estimate"),
+               ("total_revenue", 6.9, "USD", "≈$6.9bn (Statista/third-party trackers). Vanguard is privately fund-owned and publishes NO consolidated financial statements / annual report — no primary revenue figure exists; cross-checks ≈0.07% fee × ~$11tn ≈ $7.7bn.", 0.45, "2025-12-31", "external"),
                # Global operating margin is NOT disclosed — The Vanguard Group, Inc. (US parent) is owned
                # by its funds and publishes no consolidated income statement. The ONLY real Vanguard P&L
                # is local subsidiary accounts: Vanguard Asset Management, Ltd. (UK, Companies House
@@ -189,7 +189,7 @@ EUROPE: dict[str, dict] = {
                ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85),
                ("num_funds", 465, "count", "Vanguard: 465 funds offered worldwide (228 US + 237 ex-US), as of 28 Feb 2026", 0.8),
                ("pct_passive", 83.0, "pct", "≈83% index/passive: Vanguard active AUM ~$1.9tn (Morningstar — world's 3rd-largest active manager) of ~$11.1tn → rest index", 0.6, "2025-12-31", "external"),
-               ("mgmt_fee_revenue", 7.5, "USD", "≈ total revenue — Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); ESTIMATE, see total_revenue", 0.4, "2025-12-31", "estimate"),
+               ("mgmt_fee_revenue", 6.9, "USD", "≈ total revenue — Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); third-party-tracked ~$6.9bn", 0.45, "2025-12-31", "external"),
                ("performance_fees", 0.0, "USD", "≈$0: Vanguard charges no separate performance fees (low-cost model; only minor net performance adjustments on some externally-subadvised active funds)", 0.5, "2025-12-31", "estimate")],
         # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &
         # balanced is the residual to its $11.09tn RAUM. External basis (Vanguard discloses no clean split).

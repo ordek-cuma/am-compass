@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T18:21:25+00:00",
+  "generated_at": "2026-06-27T18:27:25+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -23445,37 +23445,37 @@
             }
           ]
         },
-        "operating_income": {
-          "value": 1064260000.0,
+        "total_revenue": {
+          "value": 1353820000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
+          "confidence": 0.85,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "M&G FY2025: \u201cAdjusted operating profit before tax \u2026 \u00a3838 million\u201d",
+          "section": "M&G Asset Management FY2025: recurring revenue \u00a31,066m (annual report; group reports AOP not a revenue line)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1064260000.0,
+              "value": 1353820000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.85
             }
           ]
         },
-        "operating_margin": {
-          "value": 25.0,
-          "unit": "pct",
+        "operating_income": {
+          "value": 337820000.0,
+          "unit": "USD",
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "M&G Asset Management FY2025 cost/income ratio 75% (recurring revenue \u00a31,066m) \u2192 25% operating margin",
+          "section": "M&G Asset Management FY2025: \u00a31,066m revenue \u00d7 (1 \u2212 75% cost/income ratio) \u2248 \u00a3266m AM operating profit (group adjusted operating profit \u00a3838m)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 25.0,
+              "value": 337820000.0,
               "basis": "reported",
               "confidence": 0.8
             }
@@ -23561,6 +23561,24 @@
             }
           ]
         },
+        "operating_margin": {
+          "value": 25.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 25.0,
+              "basis": "derived",
+              "confidence": 0.8
+            }
+          ]
+        },
         "organic_growth_rate": {
           "value": -0.4,
           "unit": "pct",
@@ -23610,6 +23628,24 @@
             {
               "period_end": "2025-12-31",
               "value": 57642236,
+              "basis": "derived",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 163465,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 163465,
               "basis": "derived",
               "confidence": 0.8
             }
@@ -28872,20 +28908,20 @@
           ]
         },
         "total_revenue": {
-          "value": 7500000000.0,
+          "value": 6900000000.0,
           "unit": "USD",
-          "basis": "estimate",
-          "confidence": 0.4,
+          "basis": "external",
+          "confidence": 0.45,
           "source": "results",
-          "vendor": "estimate",
-          "section": "ESTIMATE (Vanguard at-cost \u2014 no income statement published): \u22480.07% asset-weighted fee \u00d7 ~$10.7tn avg 2025 AUM \u2248 $7.5bn",
+          "vendor": "tracker",
+          "section": "\u2248$6.9bn (Statista/third-party trackers). Vanguard is privately fund-owned and publishes NO consolidated financial statements / annual report \u2014 no primary revenue figure exists; cross-checks \u22480.07% fee \u00d7 ~$11tn \u2248 $7.7bn.",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 7500000000.0,
-              "basis": "estimate",
-              "confidence": 0.4
+              "value": 6900000000.0,
+              "basis": "external",
+              "confidence": 0.45
             }
           ]
         },
@@ -28998,20 +29034,20 @@
           ]
         },
         "mgmt_fee_revenue": {
-          "value": 7500000000.0,
+          "value": 6900000000.0,
           "unit": "USD",
-          "basis": "estimate",
-          "confidence": 0.4,
+          "basis": "external",
+          "confidence": 0.45,
           "source": "results",
-          "vendor": "estimate",
-          "section": "\u2248 total revenue \u2014 Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); ESTIMATE, see total_revenue",
+          "vendor": "tracker",
+          "section": "\u2248 total revenue \u2014 Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); third-party-tracked ~$6.9bn",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 7500000000.0,
-              "basis": "estimate",
-              "confidence": 0.4
+              "value": 6900000000.0,
+              "basis": "external",
+              "confidence": 0.45
             }
           ]
         },
@@ -29112,7 +29148,7 @@
           "value": 0.0,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.4,
+          "confidence": 0.45,
           "source": "derived",
           "vendor": "derive",
           "section": "performance_fees + total_revenue",
@@ -29122,7 +29158,7 @@
               "period_end": "2025-12-31",
               "value": 0.0,
               "basis": "derived",
-              "confidence": 0.4
+              "confidence": 0.45
             }
           ]
         },
@@ -29163,10 +29199,10 @@
           ]
         },
         "revenue_per_employee": {
-          "value": 375000,
+          "value": 345000,
           "unit": "USD",
           "basis": "derived",
-          "confidence": 0.4,
+          "confidence": 0.45,
           "source": "derived",
           "vendor": "derive",
           "section": "headcount + total_revenue",
@@ -29174,9 +29210,9 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 375000,
+              "value": 345000,
               "basis": "derived",
-              "confidence": 0.4
+              "confidence": 0.45
             }
           ]
         }
