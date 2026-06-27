@@ -168,12 +168,39 @@ def _income_statement(cid, tbls, now, rev_hint=None, fye="12-31") -> list[Metric
                                             f"10-K income statement: {row[0]} {vals[i]:,.1f} ({p[:4]})",
                                             note="10-K consolidated statements of income (HTML table parse)."))
                     break
-    # Guard: only trust the fee split if we found a DOMINANT base-fee line (≥40% of revenue).
-    # Firms that split fees by channel (e.g. AllianceBernstein) yield a partial first match — skip
-    # rather than record a misleading fraction.
-    if rev_hint and (mgmt_latest is None or mgmt_latest < 0.4 * rev_hint):
-        return []
-    return out
+    # Guard: only trust the single-line split if we found a DOMINANT base-fee line (≥40% of rev).
+    if not rev_hint or (mgmt_latest is not None and mgmt_latest >= 0.4 * rev_hint):
+        return out
+
+    # Channel-split fallback (e.g. AllianceBernstein: Base fees by Institutions/Retail/Private
+    # Wealth) — sum the leaf "base fees" / "performance fees" rows across channels.
+    def agg(pats):
+        sums, found = [0.0] * len(periods), 0
+        for row in rows:
+            lab = (row[0] or "").strip().lower()
+            if any(p in lab for p in pats) and not any(x in lab for x in ("total", "subtotal")):
+                vals = _bignums(row, floor=1)
+                if vals:
+                    found += 1
+                    for i in range(len(periods)):
+                        if i < len(vals):
+                            sums[i] += vals[i]
+        return sums if found >= 2 else None
+
+    base = agg(("base fees",))
+    if base and 0.4 * rev_hint <= base[0] * scale <= rev_hint:  # base fees are 40-100% of revenue
+        perf = agg(("performance-based fees", "performance fees"))
+        out = []
+        for i, p in enumerate(periods):
+            out.append(_obs(cid, "mgmt_fee_revenue", base[i] * scale, "", p, now,
+                            f"10-K income statement: base fees (sum across channels) {base[i]:,.1f} ({p[:4]})",
+                            note="10-K income statement — base fees aggregated across channels."))
+            if perf and perf[i]:
+                out.append(_obs(cid, "performance_fees", perf[i] * scale, "", p, now,
+                                f"10-K income statement: performance fees (sum) {perf[i]:,.1f} ({p[:4]})",
+                                note="10-K income statement — performance fees aggregated across channels."))
+        return out
+    return []
 
 
 def _bignums(row, floor=1000):
