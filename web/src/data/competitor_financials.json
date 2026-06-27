@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:29:42+00:00",
+  "generated_at": "2026-06-27T08:35:00+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3239,7 +3239,7 @@
           "period_end": "2025-12-31",
           "confidence": 0.92,
           "source": "10-K",
-          "section": "10-K AUM by asset class: Equity $7,793,875M",
+          "section": "10-K AUM by asset class: Equity $7,793.9B (reconciled to firm AuM)",
           "members": [
             {
               "member": "Equity",
@@ -5735,6 +5735,41 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K AUM by asset class: Equity $686.2B (reconciled to firm AuM)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 686200000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Fixed income",
+              "value": 438700000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Alternatives",
+              "value": 263899999999.99997,
+              "confidence": 0.92
+            },
+            {
+              "member": "Multi-asset",
+              "value": 193900000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Money market / cash",
+              "value": 78500000000.0,
+              "confidence": 0.92
+            }
+          ]
+        },
         "num_countries": {
           "value": 30.0,
           "unit": "count",
@@ -5906,6 +5941,23 @@
               "value": 894969,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 15.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-09-30",
+          "history": [
+            {
+              "period_end": "2025-09-30",
+              "value": 15.9,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         }
@@ -7268,6 +7320,26 @@
               "value": 4468.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K AUM by asset class: Equity $601.6B (reconciled to firm AuM)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 601631000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Fixed income",
+              "value": 230741000000.0,
+              "confidence": 0.92
             }
           ]
         },

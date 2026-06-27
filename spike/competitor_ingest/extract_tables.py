@@ -24,29 +24,38 @@ _ASSET_ROWS = [
 _REGION_ROWS = [("Americas", "americas"), ("EMEA", "emea"), ("Asia-Pacific", "asia-pacific")]
 
 
-def _aum_by_asset_class(cid, tbls, now, period) -> list[MetricObservation]:
-    """Generic, reconciliation-guarded: only records the members if they sum to within 8% of the
-    table's own Total row — so a mis-identified table is rejected rather than recorded wrong."""
+def _aum_by_asset_class(cid, tbls, now, period, aum_hint=None) -> list[MetricObservation]:
+    """Generic, reconciliation-guarded AuM-by-asset-class. Aggregates leaf rows per class (so a
+    firm that splits 'U.S. equity' / 'International equity' rolls up to Equity), auto-detects the
+    table's scale (millions vs billions) against the firm's known AuM, and records the members
+    ONLY if they reconcile to within 8% of the firm's total — a mis-identified table is rejected
+    rather than recorded wrong."""
     for t in tables.find(tbls, ["Equity", "Fixed income", "Total"]):
         flat = " ".join(c for r in t for c in r).lower()
-        if "net inflows" in flat or "market change" in flat or "marketchange" in flat:
-            continue  # skip the rollforward; we want the point-in-time table
-        members, seen = [], set()
+        if "net inflows" in flat or "market change" in flat or "marketchange" in flat or "performance" in flat:
+            continue
+        agg: dict[str, float] = {}
         for member, pats in _ASSET_ROWS:
             for row in t:
                 lab = (row[0] or "").strip().lower()
-                if any(lab.startswith(p) for p in pats) and not any(x in lab for x in ("total", "long-term", "subtotal")):
-                    vals = _bignums(row)
-                    if vals and member not in seen:
-                        members.append((member, vals[0]))
-                        seen.add(member)
-                    break
-        total = next((_bignums(r)[0] for r in t if (r[0] or "").strip().lower() in
-                      ("total", "total aum", "total assets under management") and _bignums(r)), None)
-        s = sum(v for _, v in members)
-        if len(members) >= 2 and total and abs(s - total) / total < 0.08:
-            return [_obs(cid, "aum_by_asset_class", v * 1e6, m, period, now,
-                         f"10-K AUM by asset class: {m} ${v:,.0f}M") for m, v in members]
+                if any(p in lab for p in pats) and not any(x in lab for x in ("total", "subtotal", "long-term", "% of", "weighted")):
+                    vals = _bignums(row, floor=1)
+                    if vals:
+                        agg[member] = agg.get(member, 0) + vals[0]  # leaf rows roll up to the class
+        if len(agg) < 2 or not aum_hint:
+            continue
+        s = sum(agg.values())
+        ref = aum_hint / 1e6  # firm's known AuM, in $m — the ONLY reconciliation reference (external)
+        # the table may be in $m or $bn; accept whichever scale matches the firm's AuM within 8%
+        if abs(s - ref) / ref < 0.08:
+            scale = 1e6
+        elif abs(s * 1000 - ref) / ref < 0.08:
+            scale = 1e9
+        else:
+            continue  # doesn't reconcile to the firm's AuM at either scale → reject the table
+        return [_obs(cid, "aum_by_asset_class", v * scale, m, period, now,
+                     f"10-K AUM by asset class: {m} ${v * scale / 1e9:,.1f}B (reconciled to firm AuM)")
+                for m, v in agg.items()]
     return []
 
 
@@ -136,10 +145,11 @@ def _bignums(row, floor=1000):
     return [n for n in (tables.num(c) for c in row) if n is not None and abs(n) >= floor]
 
 
-def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[MetricObservation]:
+def extract(cid: str, cik: str, now: str, period: str = "2025-12-31", aum_hint=None) -> list[MetricObservation]:
     """Breakdowns from a US filer's 10-K MD&A tables. AuM-by-asset-class is generic (any AM, with
-    a reconciliation guard); revenue lines + client channel are BlackRock-specific and no-op for
-    firms whose tables don't match. Runs for every EDGAR bellwether the crawl passes in."""
+    a reconciliation guard against the firm's known AuM); revenue lines + client channel are
+    BlackRock-specific and no-op for firms whose tables don't match. Runs for every EDGAR
+    bellwether the crawl passes in."""
     try:
         html = edgar.get_text(edgar.latest_annual_filing(cik)["url"])
     except Exception as e:
@@ -150,7 +160,7 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[Me
 
     out += _income_statement(cid, tbls, now)  # revenue lines (BlackRock-style income statement)
     out += _client_type(cid, tbls, now)       # client channel + active/passive (BlackRock-style)
-    out += _aum_by_asset_class(cid, tbls, now, period)  # generic, reconciliation-guarded
+    out += _aum_by_asset_class(cid, tbls, now, period, aum_hint)  # generic, reconciliation-guarded
 
     import re as _re
     m = _re.search(r"in (?:more than |over )?(\d{2,3}) countries", _re.sub(r"<[^>]+>", " ", html))
