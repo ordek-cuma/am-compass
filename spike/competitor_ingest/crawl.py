@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_xbrl, manifest, manual_overlay, registry, scrapers, web
+from . import derive, edgar, europe_overlay, extract_tables, extract_xbrl, manifest, manual_overlay, registry, scrapers, web
 
 ARCHIVE = C.OUT_DIR / "archive"
 WEB_DATA = C.OUT_DIR.parents[2] / "web" / "src" / "data" / "competitor_financials.json"
@@ -388,11 +388,13 @@ def refresh_metrics() -> dict:
 
     for comp in registry.BELLWETHERS:
         cid = comp.competitor_id
+        cik = registry.resolve(comp)
         try:
-            obs = extract_xbrl.extract(cid, edgar.companyfacts(registry.resolve(comp)), now)
+            obs = extract_xbrl.extract(cid, edgar.companyfacts(cik), now)
         except Exception as e:
             print(f"  ! {cid} xbrl: {e}"); obs = []
         obs += manual_overlay.overlay(cid, now)
+        obs += extract_tables.extract(cid, cik, now)
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
@@ -443,6 +445,7 @@ def run(only: str | None = None, force: bool = False) -> dict:
         except Exception as e:
             print(f"  ! xbrl failed: {e}"); obs = []
         obs += manual_overlay.overlay(comp.competitor_id, now)
+        obs += extract_tables.extract(comp.competitor_id, cik, now)
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
         export["competitors"][comp.competitor_id] = {
