@@ -23,12 +23,50 @@ _ASSET_ROWS = [
 _REGION_ROWS = [("Americas", "americas"), ("EMEA", "emea"), ("Asia-Pacific", "asia-pacific")]
 
 
-def _obs(cid, key, value, member, period, now, quote, note="10-K MD&A breakdown table (HTML table parse)."):
+def _obs(cid, key, value, member, period, now, quote, unit="USD",
+         note="10-K MD&A breakdown table (HTML table parse)."):
     return MetricObservation(
-        competitor_id=cid, metric_key=key, value=float(value), unit="USD", currency="USD",
+        competitor_id=cid, metric_key=key, value=float(value), unit=unit,
+        currency="USD" if unit == "USD" else None,
         period_type="FY", period_end=period, member=member, basis="reported",
         definition_note=note, source_doc="10-K", source_url="", source_section=quote,
         confidence=0.92, extracted_by="table-parse", extracted_at=now)
+
+
+# Client channel ← client-type rollforward subtotal row (ending AuM = last big number).
+_CHANNEL_ROWS = [
+    ("Retail", "retail subtotal"), ("ETFs", "etfs subtotal"),
+    ("Institutional", "institutional subtotal"), ("Cash management", "cash management"),
+]
+
+
+def _client_type(cid, tbls, now, period="2025-12-31") -> list[MetricObservation]:
+    for t in tables.find(tbls, ["Retail subtotal", "ETFs subtotal", "Institutional subtotal", "Cash management"]):
+        flat = " ".join(c for r in t for c in r).lower()
+        if "active subtotal" not in flat:
+            continue
+
+        def ending(label):
+            for row in t:
+                if (row[0] or "").strip().lower() == label:
+                    vals = _bignums(row, floor=50000)
+                    return vals[-1] if vals else None
+            return None
+
+        out, members = [], {}
+        for member, lab in _CHANNEL_ROWS:
+            v = ending(lab)
+            if v:
+                members[member] = v
+                out.append(_obs(cid, "aum_by_channel", v * 1e6, member, period, now,
+                                f"10-K client-type rollforward: {member} ${v:,.0f}M ending AuM (FY2025)"))
+        etf, idx, tot = members.get("ETFs"), ending("index"), sum(members.values())
+        if etf and idx and tot:  # passive = ETFs + institutional index
+            out.append(_obs(cid, "pct_passive", round(100 * (etf + idx) / tot, 1), "", period, now,
+                            f"10-K: (ETFs ${etf:,.0f}M + institutional index ${idx:,.0f}M) ÷ total AuM",
+                            unit="pct", note="Index + ETF AuM ÷ total AuM (from 10-K client-type table)."))
+        return out
+    return []
 
 
 # Revenue lines ← consolidated income-statement row prefix (3 FY columns: 2025/2024/2023).
@@ -84,6 +122,15 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[Me
 
     # Revenue lines (Business Mix · Revenue) — from the consolidated income statement, 3-year.
     out += _income_statement(cid, tbls, now)
+    # Client channel + active/passive split.
+    out += _client_type(cid, tbls, now)
+    # Countries of operation (prose: "… in more than 30 countries …").
+    import re as _re
+    m = _re.search(r"in (?:more than |over )?(\d{2,3}) countries", _re.sub(r"<[^>]+>", " ", html))
+    if m:
+        out.append(_obs(cid, "num_countries", int(m.group(1)), "", "2025-12-31", now,
+                        f"10-K: “in more than {m.group(1)} countries”", unit="count",
+                        note="10-K business section."))
 
     # AuM by asset class — the point-in-time table (December 31 columns; NOT a rollforward).
     for t in tables.find(tbls, ["Equity", "Fixed income", "Multi-asset", "Cash management", "Total"]):
