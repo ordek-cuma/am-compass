@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:48:17+00:00",
+  "generated_at": "2026-06-27T07:52:59+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3041,38 +3041,183 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 19179000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Total investment advisory, administration fees and securities lending revenue $19,179M (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 19179000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 16100000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 14399000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 1424000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Investment advisory performance fees $1,424M (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1424000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1207000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 554000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "tech_revenue": {
+          "value": 1981000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Technology services and subscription revenue $1,981M (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1981000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1603000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1485000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "dist_fee_revenue": {
+          "value": 1355000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Distribution fees $1,355M (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1355000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1273000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1262000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "advisory_other_revenue": {
+          "value": 277000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Advisory and other revenue $277M (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 277000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 224000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 159000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
         "aum_by_asset_class": {
           "unit": "USD",
           "basis": "reported",
           "period_end": "2025-12-31",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "10-K",
           "section": "10-K \u201cAUM by asset class\u201d: Equity $7,793,875M (FY2025)",
           "members": [
             {
               "member": "Equity",
               "value": 7793875000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "Fixed income",
               "value": 3272021000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "Multi-asset",
               "value": 1223625000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "Cash management",
               "value": 1080732000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "Alternatives",
               "value": 423614000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             }
           ]
         },
@@ -3080,24 +3225,24 @@
           "unit": "USD",
           "basis": "reported",
           "period_end": "2025-12-31",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "10-K",
           "section": "10-K region rollforward: Americas $9,520,643M ending AuM (FY2025)",
           "members": [
             {
               "member": "Americas",
               "value": 9520643000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "EMEA",
               "value": 3582614000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             },
             {
               "member": "Asia-Pacific",
               "value": 938261000000.0,
-              "confidence": 0.9
+              "confidence": 0.92
             }
           ]
         },
@@ -3206,6 +3351,52 @@
             }
           ]
         },
+        "performance_fees_pct": {
+          "value": 5.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.92,
+          "source": "derived",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5.9,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 5.9,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3.1,
+              "basis": "derived",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 13.7,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.92,
+          "source": "derived",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 13.7,
+              "basis": "derived",
+              "confidence": 0.92
+            }
+          ]
+        },
         "organic_growth_rate": {
           "value": 5.2,
           "unit": "pct",
@@ -3261,7 +3452,7 @@
           "value": 3.0,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "derived",
           "section": "aum_by_asset_class + aum_total",
           "period_end": "2025-12-31",
@@ -3270,7 +3461,7 @@
               "period_end": "2025-12-31",
               "value": 3.0,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.92
             }
           ]
         }
