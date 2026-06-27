@@ -179,6 +179,6 @@ export function fmtMetric(m: FinMetric): string {
 export function statusOf(m: FinMetric | undefined): FieldStatus {
   if (!m || m.value === null) return 'add'
   if (m.basis === 'GAAP') return 'have'
-  if (m.basis === 'derived') return 'partial'
+  if (m.basis === 'derived' || m.basis === 'estimate' || m.basis === 'external') return 'partial'
   return m.confidence >= 0.9 ? 'have' : 'partial'
 }

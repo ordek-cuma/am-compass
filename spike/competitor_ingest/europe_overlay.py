@@ -111,6 +111,8 @@ EUROPE: dict[str, dict] = {
     # the SEC Form ADV regulatory AUM (RAUM); the 0.07% asset-weighted expense ratio IS its fee yield.
     "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://reports.adviserinfo.sec.gov/reports/ADV/105958/PDF/105958.pdf",
         items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
+               ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
+               ("total_revenue", 7.5, "USD", "ESTIMATE (Vanguard at-cost — no income statement published): ≈0.07% asset-weighted fee × ~$10.7tn avg 2025 AUM ≈ $7.5bn", 0.4, "2025-12-31", "estimate"),
                ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
                ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)]),
     "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/data-and-insights/2025-annual-report",
@@ -207,23 +209,27 @@ def build(code: str, now_iso: str) -> list[MetricObservation]:
     default_period = spec.get("period", "2025-12-31")
     out: list[MetricObservation] = []
     for item in spec["items"]:
-        # item = (metric_key, native_value, ccy, quote, conf[, period])
+        # item = (metric_key, native_value, ccy, quote, conf[, period[, basis]])
+        # basis: "reported" (default) | "external" (industry tracker) | "estimate" (transparent model).
         key, native, ccy, quote, conf = item[:5]
         period = item[5] if len(item) > 5 else default_period
-        if ccy in RAW_UNITS:  # headcount / countries / pct — raw, not money in billions
+        basis = item[6] if len(item) > 6 else "reported"
+        if ccy in RAW_UNITS:  # headcount / countries / pct / bps — raw, not money in billions
             unit = RAW_UNITS[ccy]
             value = float(native)
-            note = f"Reported {key.replace('_', ' ')} = {native:,.0f} ({unit})."
+            note = f"{basis} {key.replace('_', ' ')} = {native:,.0f} ({unit})."
             currency = None
         else:  # monetary, stated in native billions → USD
             unit, currency = "USD", "USD"
             value = native * FX[ccy] * 1e9
-            note = f"Native {ccy} {native:,.1f}bn → USD at {FX[ccy]} (period-end {period})."
+            note = f"Native {ccy} {native:,.1f}bn → USD at {FX[ccy]} (period-end {period}); basis={basis}."
         out.append(MetricObservation(
             competitor_id=code, metric_key=key, value=value, unit=unit, currency=currency,
-            period_type="FY", period_end=period, basis="reported",
+            period_type="FY", period_end=period, basis=basis,
             definition_note=note, source_doc="results", source_url=spec["src"],
-            source_section=quote, confidence=conf, extracted_by="analyst-eu", extracted_at=now_iso,
+            source_section=quote, confidence=conf,
+            extracted_by={"external": "tracker", "estimate": "estimate"}.get(basis, "analyst-eu"),
+            extracted_at=now_iso,
         ))
     # Breakdown members (AuM by asset class / region / channel), each reconciling to the firm total.
     for item in spec.get("breakdowns", []):

@@ -32,7 +32,7 @@ function Tile({ fin, def }: { fin: FinBlock; def: MetricDef }) {
         {pending ? <span style={{ color: 'var(--ink-3)', fontSize: 15, fontWeight: 500 }}>Not disclosed</span> : fmtMetric(m as FinMetric)}
       </div>
       <div style={{ fontSize: 11.5, marginTop: 2, color: d ? (d.pos ? 'var(--pos)' : 'var(--neg)') : 'var(--ink-3)' }}>
-        {d ? d.txt : def.derived ? 'derived' : m?.basis === 'reported' ? 'reported' : m ? 'filed' : ''}
+        {d ? d.txt : def.derived ? 'derived' : m?.basis === 'estimate' ? 'estimate' : m?.basis === 'external' ? 'tracker' : m?.basis === 'reported' ? 'reported' : m ? 'filed' : ''}
       </div>
     </div>
   )

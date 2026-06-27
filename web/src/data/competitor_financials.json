@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:22:35+00:00",
+  "generated_at": "2026-06-27T14:31:17+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -25246,6 +25246,40 @@
             }
           ]
         },
+        "net_flows": {
+          "value": 240000000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.7,
+          "source": "results",
+          "section": "Morningstar US fund-flows 2025: Vanguard \u2248$240bn net inflows (2nd-largest fund family, after iShares \u2248$366bn)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 240000000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 7500000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.4,
+          "source": "results",
+          "section": "ESTIMATE (Vanguard at-cost \u2014 no income statement published): \u22480.07% asset-weighted fee \u00d7 ~$10.7tn avg 2025 AUM \u2248 $7.5bn",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 7500000000.0,
+              "basis": "estimate",
+              "confidence": 0.4
+            }
+          ]
+        },
         "effective_fee_rate": {
           "value": 7.0,
           "unit": "bps",
@@ -25280,6 +25314,23 @@
             }
           ]
         },
+        "organic_growth_rate": {
+          "value": 2.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.7,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.2,
+              "basis": "derived",
+              "confidence": 0.7
+            }
+          ]
+        },
         "aum_per_employee": {
           "value": 554635000,
           "unit": "USD",
@@ -25294,6 +25345,23 @@
               "value": 554635000,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 375000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.4,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 375000,
+              "basis": "derived",
+              "confidence": 0.4
             }
           ]
         }
