@@ -105,51 +105,86 @@ def _client_type(cid, tbls, now, period="2025-12-31") -> list[MetricObservation]
     return []
 
 
-# Revenue lines ← consolidated income-statement row prefix (3 FY columns: 2025/2024/2023).
-_REV_ROWS = [
-    ("mgmt_fee_revenue", "total investment advisory, administration fees and securities lending"),
-    ("performance_fees", "investment advisory performance fees"),
-    ("tech_revenue", "technology services"),
-    ("dist_fee_revenue", "distribution fees"),
-    ("advisory_other_revenue", "advisory and other revenue"),
+import re
+
+_INCOME_TOTALS = ("total revenue", "total revenues", "net revenues", "total net revenues",
+                  "net revenue", "total operating revenues")
+# metric ← (include-substrings, exclude-substrings), matched within the revenue section in order.
+_FEE_ROWS = [
+    ("mgmt_fee_revenue", ("investment management fee", "investment advisory", "advisory and administration",
+                          "management fees", "advisory fees"), ("performance",)),
+    ("performance_fees", ("performance", "incentive", "carried interest"), ()),
+    ("dist_fee_revenue", ("distribution",), ("cost", "expense")),
+    ("tech_revenue", ("technology",), ()),
 ]
-_IS_PERIODS = ["2025-12-31", "2024-12-31", "2023-12-31"]
 
 
-def _income_statement(cid, tbls, now) -> list[MetricObservation]:
-    cand = find_is(tbls)
-    if not cand:
-        return []
-    t, out = cand, []
-    for key, pat in _REV_ROWS:
-        for row in t:
-            lab = (row[0] or "").strip().lower()
-            if lab.startswith(pat):
-                vals = _bignums(row, floor=10)
-                for i, period in enumerate(_IS_PERIODS):
-                    if i < len(vals):
-                        out.append(_obs(cid, key, vals[i] * 1e6, "", period, now,
-                                        f"10-K income statement: {row[0]} ${vals[i]:,.0f}M ({period[:4]})",
-                                        note="10-K consolidated statements of income (HTML table parse)."))
-                break
-    return out
-
-
-def find_is(tbls):
-    for t in tables.find(tbls, ["Technology services", "Distribution fees", "Total revenue", "Total expense"]):
-        return t
+def _find_income(tbls):
+    """Generic consolidated income statement: a table with a total-revenue row, an advisory/
+    management-fee row, and year columns."""
+    for t in tbls:
+        labs = [(r[0] or "").strip().lower() for r in t]
+        has_total = any(l in _INCOME_TOTALS for l in labs)
+        has_fee = any(("advisor" in l or "management fee" in l) and "performance" not in l for l in labs)
+        has_years = any(len([c for c in r if re.fullmatch(r"20[0-3]\d", (c or "").strip())]) >= 2 for r in t)
+        if has_total and has_fee and has_years and len(t) >= 5:
+            return t
     return None
+
+
+def _income_statement(cid, tbls, now, rev_hint=None, fye="12-31") -> list[MetricObservation]:
+    """Fee lines from the income statement (generic). Scale ($k/$m/$bn) is set by reconciling the
+    table's total-revenue cell to the firm's XBRL total revenue — if it can't reconcile, the table
+    is skipped rather than risk wrong fees."""
+    t = _find_income(tbls)
+    if not t:
+        return []
+    rev_end = next((i for i, r in enumerate(t) if (r[0] or "").strip().lower() in _INCOME_TOTALS), None)
+    years = next(([c.strip() for c in r if re.fullmatch(r"20[0-3]\d", (c or "").strip())][:4] for r in t
+                  if len([c for c in r if re.fullmatch(r"20[0-3]\d", (c or "").strip())]) >= 2), [])
+    if rev_end is None or not years:
+        return []
+    tot = _bignums(t[rev_end], floor=1)
+    if not tot:
+        return []
+    scale = 1e6
+    if rev_hint:
+        scale = next((s for s in (1e3, 1e6, 1e9) if abs(tot[0] * s - rev_hint) / rev_hint < 0.06), None)
+        if not scale:
+            return []  # total revenue doesn't reconcile → don't trust the fee rows
+    periods = [f"{y}-{fye}" for y in years]
+    out, rows, mgmt_latest = [], t[:rev_end + 1], None
+    for key, inc, exc in _FEE_ROWS:
+        for row in rows:
+            lab = (row[0] or "").strip().lower()
+            if any(p in lab for p in inc) and not any(e in lab for e in exc):
+                vals = _bignums(row, floor=1)
+                if vals:
+                    if key == "mgmt_fee_revenue":
+                        mgmt_latest = vals[0] * scale
+                    for i, p in enumerate(periods):
+                        if i < len(vals):
+                            out.append(_obs(cid, key, vals[i] * scale, "", p, now,
+                                            f"10-K income statement: {row[0]} {vals[i]:,.1f} ({p[:4]})",
+                                            note="10-K consolidated statements of income (HTML table parse)."))
+                    break
+    # Guard: only trust the fee split if we found a DOMINANT base-fee line (≥40% of revenue).
+    # Firms that split fees by channel (e.g. AllianceBernstein) yield a partial first match — skip
+    # rather than record a misleading fraction.
+    if rev_hint and (mgmt_latest is None or mgmt_latest < 0.4 * rev_hint):
+        return []
+    return out
 
 
 def _bignums(row, floor=1000):
     return [n for n in (tables.num(c) for c in row) if n is not None and abs(n) >= floor]
 
 
-def extract(cid: str, cik: str, now: str, period: str = "2025-12-31", aum_hint=None) -> list[MetricObservation]:
-    """Breakdowns from a US filer's 10-K MD&A tables. AuM-by-asset-class is generic (any AM, with
-    a reconciliation guard against the firm's known AuM); revenue lines + client channel are
-    BlackRock-specific and no-op for firms whose tables don't match. Runs for every EDGAR
-    bellwether the crawl passes in."""
+def extract(cid: str, cik: str, now: str, period: str = "2025-12-31", aum_hint=None, rev_hint=None) -> list[MetricObservation]:
+    """Breakdowns from a US filer's 10-K MD&A tables. Income-statement fee lines and
+    AuM-by-asset-class are GENERIC (reconciled to the firm's XBRL total revenue / known AuM
+    respectively); client channel is BlackRock-specific and no-ops elsewhere. Runs for every
+    EDGAR bellwether the crawl passes in."""
     try:
         html = edgar.get_text(edgar.latest_annual_filing(cik)["url"])
     except Exception as e:
@@ -157,13 +192,13 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31", aum_hint=N
         return []
     tbls = tables.tables(html)
     out: list[MetricObservation] = []
+    fye = period[5:] if len(period) == 10 else "12-31"  # fiscal year-end MM-DD (e.g. Franklin = 09-30)
 
-    out += _income_statement(cid, tbls, now)  # revenue lines (BlackRock-style income statement)
-    out += _client_type(cid, tbls, now)       # client channel + active/passive (BlackRock-style)
-    out += _aum_by_asset_class(cid, tbls, now, period, aum_hint)  # generic, reconciliation-guarded
+    out += _income_statement(cid, tbls, now, rev_hint=rev_hint, fye=fye)  # fee lines, generic + reconciled
+    out += _client_type(cid, tbls, now)                                   # client channel (BlackRock-style)
+    out += _aum_by_asset_class(cid, tbls, now, period, aum_hint)          # generic, reconciliation-guarded
 
-    import re as _re
-    m = _re.search(r"in (?:more than |over )?(\d{2,3}) countries", _re.sub(r"<[^>]+>", " ", html))
+    m = re.search(r"in (?:more than |over )?(\d{2,3}) countries", re.sub(r"<[^>]+>", " ", html))
     if m:
         out.append(_obs(cid, "num_countries", int(m.group(1)), "", "2025-12-31", now,
                         f"10-K: “in {m.group(0)[3:]}”", unit="count", note="10-K business section."))

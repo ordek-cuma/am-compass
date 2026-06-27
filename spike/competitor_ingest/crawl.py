@@ -395,7 +395,10 @@ def refresh_metrics() -> dict:
             print(f"  ! {cid} xbrl: {e}"); obs = []
         obs += manual_overlay.overlay(cid, now)
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
-        obs += extract_tables.extract(cid, cik, now, aum_hint=aum)
+        tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
+                 key=lambda o: o.period_end, default=None)
+        obs += extract_tables.extract(cid, cik, now, period=(tr.period_end if tr else "2025-12-31"),
+                                      aum_hint=aum, rev_hint=(tr.value if tr else None))
         obs += derive.derive(cid, obs, now)
         export["competitors"][cid] = block(cid, obs)
 
@@ -447,7 +450,10 @@ def run(only: str | None = None, force: bool = False) -> dict:
             print(f"  ! xbrl failed: {e}"); obs = []
         obs += manual_overlay.overlay(comp.competitor_id, now)
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
-        obs += extract_tables.extract(comp.competitor_id, cik, now, aum_hint=aum)
+        tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
+                 key=lambda o: o.period_end, default=None)
+        obs += extract_tables.extract(comp.competitor_id, cik, now, period=(tr.period_end if tr else "2025-12-31"),
+                                      aum_hint=aum, rev_hint=(tr.value if tr else None))
         obs += derive.derive(comp.competitor_id, obs, now)
         all_obs += obs
         export["competitors"][comp.competitor_id] = {
