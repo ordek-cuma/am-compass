@@ -23,13 +23,48 @@ _ASSET_ROWS = [
 _REGION_ROWS = [("Americas", "americas"), ("EMEA", "emea"), ("Asia-Pacific", "asia-pacific")]
 
 
-def _obs(cid, key, value, member, period, now, quote):
+def _obs(cid, key, value, member, period, now, quote, note="10-K MD&A breakdown table (HTML table parse)."):
     return MetricObservation(
         competitor_id=cid, metric_key=key, value=float(value), unit="USD", currency="USD",
         period_type="FY", period_end=period, member=member, basis="reported",
-        definition_note="10-K MD&A breakdown table (HTML table parse).",
-        source_doc="10-K", source_url="", source_section=quote,
-        confidence=0.9, extracted_by="table-parse", extracted_at=now)
+        definition_note=note, source_doc="10-K", source_url="", source_section=quote,
+        confidence=0.92, extracted_by="table-parse", extracted_at=now)
+
+
+# Revenue lines ← consolidated income-statement row prefix (3 FY columns: 2025/2024/2023).
+_REV_ROWS = [
+    ("mgmt_fee_revenue", "total investment advisory, administration fees and securities lending"),
+    ("performance_fees", "investment advisory performance fees"),
+    ("tech_revenue", "technology services"),
+    ("dist_fee_revenue", "distribution fees"),
+    ("advisory_other_revenue", "advisory and other revenue"),
+]
+_IS_PERIODS = ["2025-12-31", "2024-12-31", "2023-12-31"]
+
+
+def _income_statement(cid, tbls, now) -> list[MetricObservation]:
+    cand = find_is(tbls)
+    if not cand:
+        return []
+    t, out = cand, []
+    for key, pat in _REV_ROWS:
+        for row in t:
+            lab = (row[0] or "").strip().lower()
+            if lab.startswith(pat):
+                vals = _bignums(row, floor=10)
+                for i, period in enumerate(_IS_PERIODS):
+                    if i < len(vals):
+                        out.append(_obs(cid, key, vals[i] * 1e6, "", period, now,
+                                        f"10-K income statement: {row[0]} ${vals[i]:,.0f}M ({period[:4]})",
+                                        note="10-K consolidated statements of income (HTML table parse)."))
+                break
+    return out
+
+
+def find_is(tbls):
+    for t in tables.find(tbls, ["Technology services", "Distribution fees", "Total revenue", "Total expense"]):
+        return t
+    return None
 
 
 def _bignums(row, floor=1000):
@@ -46,6 +81,9 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[Me
         return []
     tbls = tables.tables(html)
     out: list[MetricObservation] = []
+
+    # Revenue lines (Business Mix · Revenue) — from the consolidated income statement, 3-year.
+    out += _income_statement(cid, tbls, now)
 
     # AuM by asset class — the point-in-time table (December 31 columns; NOT a rollforward).
     for t in tables.find(tbls, ["Equity", "Fixed income", "Multi-asset", "Cash management", "Total"]):
