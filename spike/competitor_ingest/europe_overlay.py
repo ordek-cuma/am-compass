@@ -13,63 +13,159 @@ from __future__ import annotations
 from .schema import MetricObservation
 
 # Period-end FX (≈ 31 Dec 2025) — stated so the conversion is auditable.
-FX = {"EUR": 1.08, "CHF": 1.10, "USD": 1.0}
+FX = {"EUR": 1.08, "CHF": 1.10, "GBP": 1.27, "USD": 1.0}
 
-# code -> firm. items: (metric_key, native_bn, native_ccy, source_quote, confidence)
+# Non-monetary metric "currencies": a raw value passes through unscaled (no FX, no ×1e9).
+RAW_UNITS = {"count": "count", "pct": "pct", "bps": "bps"}
+
+# code -> firm. items: (metric_key, native_value, native_ccy, source_quote, confidence[, period]).
+# ccy "count" = a raw count (headcount/num_countries). breakdowns: (key, member, native_bn, ccy, quote, conf).
+# All FY2025 (31 Dec 2025) unless a period override is given. Group-filer AM segments report
+# segment PRE-TAX income → stored as operating_income (net_income only where after-tax is disclosed).
 EUROPE: dict[str, dict] = {
     # ---- European-listed ----
-    "AMU": dict(name="Amundi", regime="European-listed", src="https://int.media.amundi.com/article/fourth-quarter-and-full-year-2025-results",
-        items=[("aum_total", 2380.0, "EUR", "€2,380bn AUM at 31 Dec 2025 (all-time high)", 0.85),
-               ("net_flows", 87.6, "EUR", "+€87.6bn net inflows FY2025", 0.85)]),
+    "AMU": dict(name="Amundi", regime="European-listed", src="https://about.amundi.com/financial-results",
+        items=[("aum_total", 2380.0, "EUR", "“Record assets under management, at €2,380bn at end-December”", 0.9),
+               ("net_flows", 87.6, "EUR", "“Net inflows for the year reached +€87.6bn”", 0.9),
+               ("total_revenue", 3.342, "EUR", "“Net revenue 3,342” (€m, FY2025)", 0.9),
+               ("net_income", 1.592, "EUR", "“Accounting net income Group share amounted to €1,592m”", 0.9),
+               ("headcount", 5600, "count", "“5,600 employees in 34 countries”", 0.85),
+               ("num_countries", 34, "count", "“5,600 employees in 34 countries”", 0.85)],
+        breakdowns=[("aum_by_asset_class", "Equities", 623.0, "EUR", "Amundi FY2025 AUM: Equities €623bn", 0.85),
+                    ("aum_by_asset_class", "Bonds", 761.0, "EUR", "Amundi FY2025 AUM: Bonds €761bn", 0.85),
+                    ("aum_by_asset_class", "Multi-asset", 286.0, "EUR", "Amundi FY2025 AUM: Multi-assets €286bn", 0.85),
+                    ("aum_by_asset_class", "Treasury / MMF", 180.0, "EUR", "Amundi FY2025 AUM: Treasury products excl. JVs €180bn", 0.85),
+                    ("aum_by_asset_class", "Real / alternative / structured", 106.0, "EUR", "Amundi FY2025 AUM: Private, alternative & structured assets €106bn", 0.85),
+                    ("aum_by_asset_class", "JVs", 364.0, "EUR", "Amundi FY2025 AUM: JVs €364bn", 0.85),
+                    ("aum_by_asset_class", "Victory (US distribution)", 60.0, "EUR", "Amundi FY2025 AUM: Victory - US Distribution €60bn (sums to €2,380bn)", 0.85),
+                    ("aum_by_region", "France", 1051.0, "EUR", "Amundi FY2025 AUM by region: France €1,051bn", 0.85),
+                    ("aum_by_region", "Italy", 199.0, "EUR", "Amundi FY2025 AUM by region: Italy €199bn", 0.85),
+                    ("aum_by_region", "Rest of Europe", 517.0, "EUR", "Amundi FY2025 AUM by region: Rest of Europe €517bn", 0.85),
+                    ("aum_by_region", "Asia", 475.0, "EUR", "Amundi FY2025 AUM by region: Asia €475bn", 0.85),
+                    ("aum_by_region", "Rest of world", 138.0, "EUR", "Amundi FY2025 AUM by region: Rest of the world €138bn (sums to €2,380bn)", 0.85)]),
     "AGI": dict(name="Allianz Global Investors", regime="European-listed", src="https://www.allianz.com/en/investor_relations.html",
-        items=[("aum_total", 591.0, "EUR", "€591bn AllianzGI AUM at Dec 2025", 0.85)]),
-    "NAT": dict(name="Natixis Investment Managers", regime="European-listed", src="https://www.im.natixis.com/en-intl/about",
-        items=[("aum_total", 1553.0, "USD", "$1,553bn (€1,322bn) affiliated AUM at 31 Dec 2025", 0.8)]),
-    "BNP": dict(name="BNP Paribas Asset Management", regime="European-listed", src="https://group.bnpparibas/en/press-release/bnp-paribas-creates-a-leading-european-asset-manager-with-a-global-reach",
-        items=[("aum_total", 1600.0, "EUR", ">€1.6tn AUM end-2025 (post-AXA IM merger)", 0.8)]),
-    "Swiss Life AM": dict(name="Swiss Life Asset Managers", regime="European-listed", src="https://www.swisslife.com/en/home/about-us/divisions/asset-managers.html",
-        items=[("aum_total", 145.7, "CHF", "CHF 145.7bn third-party AuM at 31 Dec 2025", 0.85)]),
-    # AXA IM Alts: alternatives arm of AXA; corporate docs from the AXA group IR. (AXA IM was
-    # sold to BNP Paribas and merged into BNP Paribas AM on 31 Dec 2025 — no own AuM disclosed.)
+        items=[("aum_total", 591.0, "EUR", "€591bn AllianzGI AUM at Dec 2025 (Allianz AM segment; €417bn third-party). Allianz reports revenue/profit only for the combined PIMCO+AllianzGI segment, so AllianzGI standalone P&L is not disclosed.", 0.8)]),
+    "NAT": dict(name="Natixis Investment Managers", regime="European-listed", src="https://natixis.groupebpce.com/",
+        items=[("aum_total", 1323.0, "EUR", "“assets under management reached a historic high of €1,323 billion” (31 Dec 2025)", 0.85),
+               ("net_flows", 40.0, "EUR", "“Net inflows in Asset Management … reached 40 billion euros” (FY2025)", 0.85),
+               ("total_revenue", 3.540, "EUR", "“Asset & Wealth Management revenues … €3,540m” (bundles Wealth Mgmt)", 0.8),
+               ("operating_income", 0.776, "EUR", "AWM gross operating income €776m FY2025 (pre-tax; bundles Wealth Mgmt)", 0.75)]),
+    "BNP": dict(name="BNP Paribas Asset Management", regime="European-listed", src="https://invest.bnpparibas.com/en/financial-results",
+        items=[("aum_total", 1624.0, "EUR", "“€1,624bn at Asset Management (including AXA IM and Real Estate)” at 31 Dec 2025", 0.85),
+               ("net_flows", 35.8, "EUR", "“Asset Management had very good inflows … €35.8bn in 2025, including AXA IM and REIM”", 0.8)]),
+    "Swiss Life AM": dict(name="Swiss Life Asset Managers", regime="European-listed", src="https://www.swisslife-am.com/en/home.html",
+        items=[("aum_total", 145.7, "CHF", "“over CHF 145.7 billion for third-party asset management” (31 Dec 2025)", 0.85),
+               ("net_flows", 17.7, "CHF", "“nearly doubled net new assets in TPAM business to CHF 17.7 billion in 2025”", 0.85),
+               ("headcount", 2300, "count", "“More than 2300 employees work for Swiss Life Asset Managers in Europe.”", 0.7)]),
+    # AXA IM Alts: sold to BNP Paribas and merged into BNP Paribas AM on 31 Dec 2025 — no own AuM disclosed.
     "AXA IM Alts.": dict(name="AXA IM Alts", regime="European-listed",
         src="https://www.axa.com/en/investor/annual-and-interim-reports", items=[]),
     # ---- German KVG (managers) ----
-    "Union": dict(name="Union Investment", regime="German KVG", src="https://www.union-investment.com/",
-        items=[("aum_total", 534.6, "EUR", "€534.6bn AUM at 31 Dec 2025", 0.85)]),
-    "DEKA": dict(name="DekaBank (Deka)", regime="German KVG", period="2025-06-30", src="https://www.deka.de/deka-group/who-we-are/at-a-glance-",
-        items=[("aum_total", 427.0, "EUR", "€427bn total customer assets (30 Jun 2025; latest clean)", 0.75)]),
+    "Union": dict(name="Union Investment", regime="German KVG", src="https://unternehmen.union-investment.de/",
+        items=[("aum_total", 534.6, "EUR", "“Assets under Management … Höchststand von 534,6 Milliarden Euro” (€534.6bn, 31 Dec 2025)", 0.9),
+               ("net_flows", 23.3, "EUR", "“Der Nettoabsatz belief sich auf 23,3 Milliarden Euro” (net sales €23.3bn FY2025)", 0.85),
+               ("operating_income", 1.185, "EUR", "“Das Betriebsergebnis … auf 1.185 Millionen Euro” (operating result €1,185m FY2025)", 0.85),
+               ("headcount", 4400, "count", "“Rund 4.400 Mitarbeitende” (~4,400 employees)", 0.85)],
+        breakdowns=[("aum_by_channel", "Retail / private", 270.8, "EUR", "“270,8 Mrd. Euro auf das Privatkundengeschäft” (retail €270.8bn)", 0.85),
+                    ("aum_by_channel", "Institutional", 263.8, "EUR", "“263,8 Mrd. Euro auf institutionelle Anleger” (institutional €263.8bn; sums to €534.6bn)", 0.85)]),
+    "DEKA": dict(name="DekaBank (Deka)", regime="German KVG", src="https://www.deka.de/deka-gruppe/investor-relations/kennzahlen",
+        items=[("aum_total", 452.0, "EUR", "“Summe Asset Management und Deka-Zertifikate … 451.971 Mio. €” (€452bn customer assets, 31 Dec 2025)", 0.85),
+               ("net_flows", 24.437, "EUR", "“Asset Management Nettovertriebsleistung: 24.437 Mio. €” (net sales €24.4bn FY2025)", 0.85),
+               ("total_revenue", 2.4243, "EUR", "“Summe Erträge: 2.424,3 Mio. €” (total income FY2025)", 0.85),
+               ("operating_income", 0.9246, "EUR", "“Ergebnis vor Steuern: 924,6 Mio. €” (pre-tax result FY2025)", 0.85),
+               ("headcount", 5953, "count", "“Mitarbeitende: 5.953” (FY2025)", 0.85)]),
     "MEAG": dict(name="MEAG", regime="German KVG", src="https://www.meag.com/en/inform/portraet.html",
-        items=[("aum_total", 368.0, "EUR", "€368bn total AuM at 31 Dec 2025 (~€63bn third-party; rest captive Munich Re/ERGO)", 0.8)]),
+        items=[("aum_total", 368.0, "EUR", "€368bn total AuM end-2025 (~€63bn third-party; rest captive Munich Re/ERGO)", 0.8),
+               ("headcount", 850, "count", "“ca. 850 employees” (MEAG corporate portrait)", 0.6)]),
     "Bayern Invest": dict(name="BayernInvest", regime="German KVG", src="https://www.bayerninvest.de/",
-        items=[("aum_total", 99.0, "EUR", "€99bn AUM at 30 Dec 2025", 0.85)]),
-    "Deka Immobilien": dict(name="Deka Immobilien", regime="German KVG", src="https://www.deka-immobilien.de/en/about-us/",
-        items=[("aum_total", 55.2, "EUR", "€55.2bn real-estate AuM at end-2025", 0.85)]),
+        items=[("aum_total", 99.0, "EUR", "€99bn AUM at 31 Dec 2025 (€102bn at 28.02.2026 per company portrait)", 0.8),
+               ("headcount", 200, "count", "“Rund 200 Mitarbeitende arbeiten in München” (~200 employees)", 0.6)]),
+    "Deka Immobilien": dict(name="Deka Immobilien", regime="German KVG", src="https://www.deka-immobilien.de/en/insights-news/",
+        items=[("aum_total", 55.2, "EUR", "“asset management volume … amounted to €55.2 billion at the end of 2025”", 0.85),
+               ("headcount", 640, "count", "“a total of around 640 professionals” (Deka Immobilien)", 0.6)]),
     # ---- German Master-/Service-KVG platforms (AuA, not AuM) ----
     "Universal Invest.": dict(name="Universal Investment", regime="German KVG", src="https://www.universal-investment.com/en/",
-        items=[("aua", 1400.0, "EUR", "~€1.4tn assets under administration (third-party ManCo platform)", 0.8)]),
-    "HSBC T&B": dict(name="HSBC INKA", regime="German KVG", src="https://www.inka-kag.de/",
-        items=[("aua", 430.0, "EUR", "€430bn+ assets under administration (Master-KVG)", 0.8)]),
+        items=[("aua", 1400.0, "EUR", "“administriertes Vermögen von über 1 Billion Euro” (>€1tn AuA; ~€1.39tn mid-2025 per industry data)", 0.75),
+               ("headcount", 1700, "count", "“Rund 1.700 Mitarbeitende” (~1,700 employees)", 0.6)]),
+    "HSBC T&B": dict(name="HSBC INKA", regime="German KVG", src="https://www.inka-kag.de/wirueberuns/zahlenundfakten",
+        items=[("aua", 625.9, "EUR", "“Gesamtes administriertes Volumen: EUR 625,9 MRD.” (total AuA, 30 Apr 2025)", 0.8, "2025-04-30"),
+               ("headcount", 300, "count", "“nahezu 300 Spezialisten” (~300 specialists)", 0.6)]),
     # ---- Private / Mutual (US, not on EDGAR as an AM) ----
-    "Vanguard": dict(name="Vanguard", regime="Private / Mutual", period="2025-09-30", src="https://www.advratings.com/company/vanguard-group",
-        items=[("aum_total", 11600.0, "USD", "$11.6tn AUM at 30 Sep 2025 (~$12tn 2025)", 0.8)]),
-    "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/",
-        items=[("aum_total", 7100.0, "USD", "$7.1tn discretionary/managed assets 2025", 0.85),
-               ("aua", 18000.0, "USD", "$18tn managed + administered 2025", 0.85)]),
+    "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://corporate.vanguard.com/content/corporatesite/us/en/corp/why-vanguard/who-we-are/facts-and-figures.html",
+        items=[("aum_total", 11600.0, "USD", "~$11.6tn global AUM 2025 (Vanguard does not publish a headline total; industry-tracked)", 0.75),
+               ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)]),
+    "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/data-and-insights",
+        items=[("aum_total", 6400.0, "USD", "“Discretionary assets: $6.4 trillion” (30 Jun 2025)", 0.85, "2025-06-30"),
+               ("aua", 16400.0, "USD", "“Assets under administration: $16.4 trillion” (30 Jun 2025)", 0.85, "2025-06-30"),
+               ("headcount", 80000, "count", "“over 80,000 associates across 11 countries”", 0.8),
+               ("num_countries", 11, "count", "“over 80,000 associates across 11 countries”", 0.8)]),
     "PIMCO": dict(name="PIMCO", regime="Private / Mutual", src="https://www.pimco.com/us/en/about-us",
-        items=[("aum_total", 2260.0, "USD", "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025", 0.85)]),
-    # ---- US group filers: AM-SEGMENT AuM only (parent group financials are not AM-specific) ----
-    "SSgA": dict(name="State Street Global Advisors", regime="US-listed", src="https://www.ssga.com/",
-        items=[("aum_total", 5700.0, "USD", "$5.7tn AUM at 31 Dec 2025 (State Street AM segment)", 0.85)]),
-    "JPM": dict(name="J.P. Morgan Asset Management", regime="US-listed", period="2025-09-30", src="https://am.jpmorgan.com/",
-        items=[("aum_total", 4000.0, "USD", "$4tn AUM at 30 Sep 2025 (JPMorgan AM segment)", 0.8)]),
-    "Goldman Sachs": dict(name="Goldman Sachs Asset Management", regime="US-listed", src="https://am.gs.com/",
-        items=[("aum_total", 3600.0, "USD", "~$3.6tn assets under supervision at 31 Dec 2025 (GSAM)", 0.8)]),
-    "UBS": dict(name="UBS Asset Management", regime="European-listed", src="https://www.ubs.com/global/en/assetmanagement.html",
-        items=[("aum_total", 2000.0, "USD", "AM division surpassed $2tn invested assets in 2025", 0.8)]),
-    "MS": dict(name="Morgan Stanley Investment Management", regime="US-listed", src="https://www.morganstanley.com/im",
-        items=[("aum_total", 1895.0, "USD", "$1.895tn AUM at 31 Dec 2025 (MSIM segment)", 0.85)]),
-    "PGIM": dict(name="PGIM (Prudential)", regime="US-listed", src="https://www.pgim.com/",
-        items=[("aum_total", 1466.0, "USD", "$1.466tn AUM at 31 Dec 2025 (PGIM segment)", 0.85)]),
+        items=[("aum_total", 2260.0, "USD", "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025. Allianz reports revenue/profit only for the combined PIMCO+AllianzGI segment.", 0.85)]),
+    # ---- US group filers: AM-SEGMENT data (parent group financials are not AM-specific) ----
+    "SSgA": dict(name="State Street Global Advisors", regime="US-listed", src="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000093751&type=10-K",
+        items=[("aum_total", 5665.0, "USD", "“Total $5,665” (AUM by asset class, 31 Dec 2025; 10-K Table 6)", 0.9),
+               ("net_flows", 180.0, "USD", "“Total flows, net … 180” (FY2025; 10-K Table 9)", 0.85),
+               ("total_revenue", 2.634, "USD", "Investment Management line-of-business “Total revenue 2,634” ($m FY2025; 10-K Table 14)", 0.9),
+               ("mgmt_fee_revenue", 2.398, "USD", "“Management fees $2,398” ($m FY2025)", 0.9),
+               ("operating_income", 0.859, "USD", "“Income before income tax expense $859 … Pre-tax margin 33%” ($m FY2025)", 0.9)],
+        breakdowns=[("aum_by_asset_class", "Equity", 3589.0, "USD", "SSGA 10-K Table 6: Total equity $3,589bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Fixed income", 734.0, "USD", "SSGA 10-K Table 6: Total fixed-income $734bn", 0.9),
+                    ("aum_by_asset_class", "Cash", 570.0, "USD", "SSGA 10-K Table 6: Cash $570bn", 0.9),
+                    ("aum_by_asset_class", "Multi-asset", 501.0, "USD", "SSGA 10-K Table 6: Multi-asset-class solutions $501bn", 0.9),
+                    ("aum_by_asset_class", "Alternatives", 271.0, "USD", "SSGA 10-K Table 6: Alternative investments $271bn (sums to $5,665bn)", 0.9),
+                    ("aum_by_region", "Americas", 4155.0, "USD", "SSGA 10-K Table 7: Americas $4,155bn", 0.9),
+                    ("aum_by_region", "EMEA", 841.0, "USD", "SSGA 10-K Table 7: EMEA $841bn", 0.9),
+                    ("aum_by_region", "Asia-Pacific", 669.0, "USD", "SSGA 10-K Table 7: Asia/Pacific $669bn (sums to $5,665bn)", 0.9)]),
+    "JPM": dict(name="J.P. Morgan Asset Management", regime="US-listed", src="https://www.jpmorganchase.com/ir/quarterly-earnings",
+        items=[("aum_total", 4791.0, "USD", "“TOTAL ASSETS UNDER MANAGEMENT 4,791” ($bn, AWM, 31 Dec 2025)", 0.9),
+               ("net_flows", 209.0, "USD", "AWM long-term AUM net flows $209bn FY2025 (total incl. liquidity $392bn)", 0.85),
+               ("total_revenue", 24.073, "USD", "AWM “TOTAL NET REVENUE … 24,073” ($m FY2025)", 0.9),
+               ("net_income", 6.522, "USD", "AWM “NET INCOME … 6,522” ($m FY2025, after-tax)", 0.9),
+               ("headcount", 29722, "count", "AWM “Employees 29,722” (31 Dec 2025)", 0.85)],
+        breakdowns=[("aum_by_asset_class", "Equity", 1400.0, "USD", "JPM AWM AUM: Equity $1,400bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Fixed income", 998.0, "USD", "JPM AWM AUM: Fixed income $998bn", 0.9),
+                    ("aum_by_asset_class", "Multi-asset", 884.0, "USD", "JPM AWM AUM: Multi-asset $884bn", 0.9),
+                    ("aum_by_asset_class", "Liquidity", 1279.0, "USD", "JPM AWM AUM: Liquidity $1,279bn", 0.9),
+                    ("aum_by_asset_class", "Alternatives", 230.0, "USD", "JPM AWM AUM: Alternatives $230bn (sums to $4,791bn)", 0.9)]),
+    "Goldman Sachs": dict(name="Goldman Sachs Asset Management", regime="US-listed", src="https://www.goldmansachs.com/investor-relations/financials",
+        items=[("aum_total", 3606.0, "USD", "“Total AUS $3,606” ($bn assets under supervision, 31 Dec 2025)", 0.9),
+               ("net_flows", 168.0, "USD", "“Total long-term AUS net inflows 168” ($bn FY2025; total AUS net inflows $224bn)", 0.85),
+               ("total_revenue", 16.679, "USD", "AWM “Total net revenues 16,679” ($m FY2025)", 0.9),
+               ("operating_income", 4.127, "USD", "AWM “Pre-tax earnings $4,127” ($m FY2025; pre-tax margin 25%)", 0.9)],
+        breakdowns=[("aum_by_asset_class", "Equity", 951.0, "USD", "GS AUS by asset class: Equity $951bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Fixed income", 1334.0, "USD", "GS AUS by asset class: Fixed income $1,334bn", 0.9),
+                    ("aum_by_asset_class", "Alternatives", 420.0, "USD", "GS AUS by asset class: Alternative investments $420bn", 0.9),
+                    ("aum_by_asset_class", "Liquidity", 901.0, "USD", "GS AUS by asset class: Liquidity products $901bn (sums to $3,606bn)", 0.9)]),
+    "UBS": dict(name="UBS Asset Management", regime="European-listed", src="https://www.ubs.com/global/en/investor-relations/financial-information.html",
+        items=[("aum_total", 2098.0, "USD", "“Invested assets increased … to USD 2,098bn” (31 Dec 2025)", 0.9),
+               ("net_flows", 30.4, "USD", "“Total net new money … 30.4” ($bn FY2025)", 0.85),
+               ("total_revenue", 3.156, "USD", "Asset Management “Total revenues … 3,156” ($m FY2025)", 0.9),
+               ("operating_income", 0.719, "USD", "Asset Management “operating profit before tax … 719” ($m FY2025)", 0.9)],
+        breakdowns=[("aum_by_asset_class", "Equities", 904.0, "USD", "UBS AM invested assets: Equities $904bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Fixed income", 506.0, "USD", "UBS AM invested assets: Fixed Income $506bn", 0.9),
+                    ("aum_by_asset_class", "Multi-asset & solutions", 372.0, "USD", "UBS AM invested assets: Multi-asset & Solutions $372bn", 0.9),
+                    ("aum_by_asset_class", "Real estate & private markets", 160.0, "USD", "UBS AM invested assets: Real Estate & Private Markets $160bn", 0.9),
+                    ("aum_by_asset_class", "Hedge funds", 62.0, "USD", "UBS AM invested assets: Hedge Fund Businesses $62bn", 0.9),
+                    ("aum_by_asset_class", "Associates", 93.0, "USD", "UBS AM invested assets: Associates $93bn (sums to $2,098bn)", 0.85)]),
+    "MS": dict(name="Morgan Stanley Investment Management", regime="US-listed", src="https://www.morganstanley.com/about-us-ir",
+        items=[("aum_total", 1895.0, "USD", "“Total Assets Under Management or Supervision $1,895” ($bn, 31 Dec 2025)", 0.9),
+               ("net_flows", 34.4, "USD", "“Long-term net flows … $34.4” ($bn FY2025)", 0.85),
+               ("total_revenue", 6.525, "USD", "Investment Management “Net Revenues $6,525” ($m FY2025)", 0.9),
+               ("operating_income", 1.478, "USD", "Investment Management pre-tax income $1,478m FY2025 (“Pre-tax income … $1.5 billion”)", 0.9)],
+        breakdowns=[("aum_by_asset_class", "Equity", 314.0, "USD", "MSIM AUM/AUS by asset class: Equity $314bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Fixed income", 234.0, "USD", "MSIM AUM/AUS by asset class: Fixed Income $234bn", 0.9),
+                    ("aum_by_asset_class", "Alternatives & solutions", 703.0, "USD", "MSIM AUM/AUS by asset class: Alternatives and Solutions $703bn", 0.9),
+                    ("aum_by_asset_class", "Liquidity & overlay", 644.0, "USD", "MSIM AUM/AUS by asset class: Liquidity and Overlay Services $644bn (sums to $1,895bn)", 0.9)]),
+    "PGIM": dict(name="PGIM (Prudential)", regime="US-listed", src="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001137774&type=10-K",
+        items=[("aum_total", 1466.1, "USD", "“Total PGIM assets under management $1,466.1” ($bn, 31 Dec 2025)", 0.9),
+               ("net_flows", 2.1, "USD", "“Total third-party flows 2.1” ($bn FY2025; Institutional +6.1, Retail −4.0)", 0.85),
+               ("total_revenue", 4.231, "USD", "PGIM segment “Revenues $4,231” ($m FY2025)", 0.9),
+               ("operating_income", 0.878, "USD", "PGIM “Adjusted operating income 878” ($m FY2025; pre-tax income $1,010m)", 0.9)],
+        breakdowns=[("aum_by_asset_class", "Public fixed income", 902.7, "USD", "PGIM AUM: Public fixed income $902.7bn (31 Dec 2025)", 0.9),
+                    ("aum_by_asset_class", "Public equity", 223.1, "USD", "PGIM AUM: Public equity $223.1bn", 0.9),
+                    ("aum_by_asset_class", "Real estate", 134.4, "USD", "PGIM AUM: Real estate $134.4bn", 0.9),
+                    ("aum_by_asset_class", "Private credit & alternatives", 127.4, "USD", "PGIM AUM: Private credit and other alternatives $127.4bn", 0.9),
+                    ("aum_by_asset_class", "Multi-asset", 78.5, "USD", "PGIM AUM: Multi-asset $78.5bn (sums to $1,466.1bn)", 0.9)]),
 }
 
 
@@ -77,14 +173,37 @@ def build(code: str, now_iso: str) -> list[MetricObservation]:
     spec = EUROPE.get(code)
     if not spec:
         return []
-    period = spec.get("period", "2025-12-31")
+    default_period = spec.get("period", "2025-12-31")
     out: list[MetricObservation] = []
-    for key, native_bn, ccy, quote, conf in spec["items"]:
-        usd = native_bn * FX[ccy] * 1e9
+    for item in spec["items"]:
+        # item = (metric_key, native_value, ccy, quote, conf[, period])
+        key, native, ccy, quote, conf = item[:5]
+        period = item[5] if len(item) > 5 else default_period
+        if ccy in RAW_UNITS:  # headcount / countries / pct — raw, not money in billions
+            unit = RAW_UNITS[ccy]
+            value = float(native)
+            note = f"Reported {key.replace('_', ' ')} = {native:,.0f} ({unit})."
+            currency = None
+        else:  # monetary, stated in native billions → USD
+            unit, currency = "USD", "USD"
+            value = native * FX[ccy] * 1e9
+            note = f"Native {ccy} {native:,.1f}bn → USD at {FX[ccy]} (period-end {period})."
         out.append(MetricObservation(
-            competitor_id=code, metric_key=key, value=usd, unit="USD", currency="USD",
+            competitor_id=code, metric_key=key, value=value, unit=unit, currency=currency,
             period_type="FY", period_end=period, basis="reported",
-            definition_note=f"Native {ccy} {native_bn:,.1f}bn → USD at {FX[ccy]} (period-end {period}).",
+            definition_note=note, source_doc="results", source_url=spec["src"],
+            source_section=quote, confidence=conf, extracted_by="analyst-eu", extracted_at=now_iso,
+        ))
+    # Breakdown members (AuM by asset class / region / channel), each reconciling to the firm total.
+    for item in spec.get("breakdowns", []):
+        # item = (metric_key, member, native_bn, ccy, quote, conf[, period])
+        key, member, native, ccy, quote, conf = item[:6]
+        period = item[6] if len(item) > 6 else default_period
+        out.append(MetricObservation(
+            competitor_id=code, metric_key=key, member=member,
+            value=native * FX[ccy] * 1e9, unit="USD", currency="USD",
+            period_type="FY", period_end=period, basis="reported",
+            definition_note=f"{key.replace('_', ' ')} · {member}: native {ccy} {native:,.1f}bn → USD at {FX[ccy]}.",
             source_doc="results", source_url=spec["src"], source_section=quote,
             confidence=conf, extracted_by="analyst-eu", extracted_at=now_iso,
         ))

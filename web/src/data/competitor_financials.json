@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:36:18+00:00",
+  "generated_at": "2026-06-27T13:40:13+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -13550,15 +13550,130 @@
           "value": 1895000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "$1.895tn AUM at 31 Dec 2025 (MSIM segment)",
+          "section": "\u201cTotal Assets Under Management or Supervision $1,895\u201d ($bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 1895000000000.0,
               "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 34400000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cLong-term net flows \u2026 $34.4\u201d ($bn FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 34400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 6525000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "Investment Management \u201cNet Revenues $6,525\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 6525000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 1478000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "Investment Management pre-tax income $1,478m FY2025 (\u201cPre-tax income \u2026 $1.5 billion\u201d)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1478000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "MSIM AUM/AUS by asset class: Equity $314bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Alternatives & solutions",
+              "value": 703000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Liquidity & overlay",
+              "value": 644000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Equity",
+              "value": 314000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income",
+              "value": 234000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 22.7,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 22.7,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 1.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1.8,
+              "basis": "derived",
               "confidence": 0.85
             }
           ]
@@ -13755,19 +13870,151 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 3600000000000.0,
+          "value": 3606000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.9,
           "source": "results",
-          "section": "~$3.6tn assets under supervision at 31 Dec 2025 (GSAM)",
+          "section": "\u201cTotal AUS $3,606\u201d ($bn assets under supervision, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3600000000000.0,
+              "value": 3606000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 168000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cTotal long-term AUS net inflows 168\u201d ($bn FY2025; total AUS net inflows $224bn)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 168000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 16678999999.999998,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "AWM \u201cTotal net revenues 16,679\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 16678999999.999998,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 4127000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "AWM \u201cPre-tax earnings $4,127\u201d ($m FY2025; pre-tax margin 25%)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4127000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "GS AUS by asset class: Equity $951bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Fixed income",
+              "value": 1334000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Equity",
+              "value": 951000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Liquidity",
+              "value": 901000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 420000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 24.7,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 24.7,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 4.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.9,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 11.6,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 11.6,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         }
@@ -13778,7 +14025,7 @@
       "ticker": "JPM",
       "regime": "US-listed",
       "cik": "0000019617",
-      "period_end": "2025-09-30",
+      "period_end": "2025-12-31",
       "documents": [
         {
           "name": "Financial Highlights 2025",
@@ -14343,19 +14590,190 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 4000000000000.0,
+          "value": 4791000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.9,
           "source": "results",
-          "section": "$4tn AUM at 30 Sep 2025 (JPMorgan AM segment)",
-          "period_end": "2025-09-30",
+          "section": "\u201cTOTAL ASSETS UNDER MANAGEMENT 4,791\u201d ($bn, AWM, 31 Dec 2025)",
+          "period_end": "2025-12-31",
           "history": [
             {
-              "period_end": "2025-09-30",
-              "value": 4000000000000.0,
+              "period_end": "2025-12-31",
+              "value": 4791000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 209000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "AWM long-term AUM net flows $209bn FY2025 (total incl. liquidity $392bn)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 209000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 24073000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "AWM \u201cTOTAL NET REVENUE \u2026 24,073\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 24073000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_income": {
+          "value": 6522000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "AWM \u201cNET INCOME \u2026 6,522\u201d ($m FY2025, after-tax)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 6522000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "headcount": {
+          "value": 29722.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "AWM \u201cEmployees 29,722\u201d (31 Dec 2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 29722.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "JPM AWM AUM: Equity $1,400bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 1400000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Liquidity",
+              "value": 1279000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income",
+              "value": 998000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset",
+              "value": 884000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 230000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 4.6,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.6,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 161193729,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 161193729,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 809939,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 809939,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 4.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.8,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         }
@@ -14411,18 +14829,138 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 1466000000000.0,
+          "value": 1466100000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "$1.466tn AUM at 31 Dec 2025 (PGIM segment)",
+          "section": "\u201cTotal PGIM assets under management $1,466.1\u201d ($bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1466000000000.0,
+              "value": 1466100000000.0,
               "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 2100000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cTotal third-party flows 2.1\u201d ($bn FY2025; Institutional +6.1, Retail \u22124.0)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2100000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 4231000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "PGIM segment \u201cRevenues $4,231\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4231000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 878000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "PGIM \u201cAdjusted operating income 878\u201d ($m FY2025; pre-tax income $1,010m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 878000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "PGIM AUM: Public fixed income $902.7bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Public fixed income",
+              "value": 902700000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Public equity",
+              "value": 223100000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Real estate",
+              "value": 134400000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Private credit & alternatives",
+              "value": 127400000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset",
+              "value": 78500000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 20.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 20.8,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 0.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 0.1,
+              "basis": "derived",
               "confidence": 0.85
             }
           ]
@@ -16729,19 +17267,215 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 5700000000000.0,
+          "value": 5665000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "$5.7tn AUM at 31 Dec 2025 (State Street AM segment)",
+          "section": "\u201cTotal $5,665\u201d (AUM by asset class, 31 Dec 2025; 10-K Table 6)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 5700000000000.0,
+              "value": 5665000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 180000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cTotal flows, net \u2026 180\u201d (FY2025; 10-K Table 9)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 180000000000.0,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 2634000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "Investment Management line-of-business \u201cTotal revenue 2,634\u201d ($m FY2025; 10-K Table 14)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2634000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 2398000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "\u201cManagement fees $2,398\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2398000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 859000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "\u201cIncome before income tax expense $859 \u2026 Pre-tax margin 33%\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 859000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "SSGA 10-K Table 6: Total equity $3,589bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 3589000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income",
+              "value": 734000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Cash",
+              "value": 570000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset",
+              "value": 501000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 271000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_region": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "SSGA 10-K Table 7: Americas $4,155bn",
+          "members": [
+            {
+              "member": "Americas",
+              "value": 4155000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "EMEA",
+              "value": 841000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Asia-Pacific",
+              "value": 669000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 32.6,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 32.6,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 4.2,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.2,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 3.3,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3.3,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 4.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.8,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         }
@@ -16887,19 +17621,144 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 2000000000000.0,
+          "value": 2098000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.9,
           "source": "results",
-          "section": "AM division surpassed $2tn invested assets in 2025",
+          "section": "\u201cInvested assets increased \u2026 to USD 2,098bn\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2000000000000.0,
+              "value": 2098000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 30400000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cTotal net new money \u2026 30.4\u201d ($bn FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 30400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 3156000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "Asset Management \u201cTotal revenues \u2026 3,156\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3156000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 719000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "Asset Management \u201coperating profit before tax \u2026 719\u201d ($m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 719000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "UBS AM invested assets: Equities $904bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Equities",
+              "value": 904000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income",
+              "value": 506000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset & solutions",
+              "value": 372000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Real estate & private markets",
+              "value": 160000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Associates",
+              "value": 93000000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Hedge funds",
+              "value": 62000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 22.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 22.8,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 1.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1.5,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         }
@@ -18758,16 +19617,16 @@
           "value": 2570400000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "\u20ac2,380bn AUM at 31 Dec 2025 (all-time high)",
+          "section": "\u201cRecord assets under management, at \u20ac2,380bn at end-December\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 2570400000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.9
             }
           ]
         },
@@ -18775,15 +19634,163 @@
           "value": 94608000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "+\u20ac87.6bn net inflows FY2025",
+          "section": "\u201cNet inflows for the year reached +\u20ac87.6bn\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 94608000000.0,
               "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 3609360000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "\u201cNet revenue 3,342\u201d (\u20acm, FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3609360000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_income": {
+          "value": 1719360000.0000002,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "section": "\u201cAccounting net income Group share amounted to \u20ac1,592m\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1719360000.0000002,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "headcount": {
+          "value": 5600.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201c5,600 employees in 34 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5600.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 34.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201c5,600 employees in 34 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 34.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "Amundi FY2025 AUM: Equities \u20ac623bn",
+          "members": [
+            {
+              "member": "Bonds",
+              "value": 821880000000.0001,
+              "confidence": 0.85
+            },
+            {
+              "member": "Equities",
+              "value": 672840000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "JVs",
+              "value": 393120000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Multi-asset",
+              "value": 308880000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Treasury / MMF",
+              "value": 194400000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Real / alternative / structured",
+              "value": 114480000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Victory (US distribution)",
+              "value": 64800000000.00001,
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_by_region": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "Amundi FY2025 AUM by region: France \u20ac1,051bn",
+          "members": [
+            {
+              "member": "France",
+              "value": 1135080000000.0002,
+              "confidence": 0.85
+            },
+            {
+              "member": "Rest of Europe",
+              "value": 558360000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Asia",
+              "value": 513000000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Italy",
+              "value": 214920000000.00003,
+              "confidence": 0.85
+            },
+            {
+              "member": "Rest of world",
+              "value": 149040000000.00003,
               "confidence": 0.85
             }
           ]
@@ -18792,7 +19799,7 @@
           "value": 3.8,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "derived",
           "section": "aum_total + net_flows",
           "period_end": "2025-12-31",
@@ -18800,6 +19807,40 @@
             {
               "period_end": "2025-12-31",
               "value": 3.8,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 459000000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 459000000,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 644529,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 644529,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -19130,16 +20171,16 @@
           "value": 638280000000.0001,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.8,
           "source": "results",
-          "section": "\u20ac591bn AllianzGI AUM at Dec 2025",
+          "section": "\u20ac591bn AllianzGI AUM at Dec 2025 (Allianz AM segment; \u20ac417bn third-party). Allianz reports revenue/profit only for the combined PIMCO+AllianzGI segment, so AllianzGI standalone P&L is not disclosed.",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 638280000000.0001,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.8
             }
           ]
         }
@@ -19285,19 +20326,104 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 1553000000000.0,
+          "value": 1428840000000.0002,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.85,
           "source": "results",
-          "section": "$1,553bn (\u20ac1,322bn) affiliated AUM at 31 Dec 2025",
+          "section": "\u201cassets under management reached a historic high of \u20ac1,323 billion\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1553000000000.0,
+              "value": 1428840000000.0002,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 43200000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cNet inflows in Asset Management \u2026 reached 40 billion euros\u201d (FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 43200000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 3823200000.0000005,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u201cAsset & Wealth Management revenues \u2026 \u20ac3,540m\u201d (bundles Wealth Mgmt)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3823200000.0000005,
               "basis": "reported",
               "confidence": 0.8
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 838080000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "results",
+          "section": "AWM gross operating income \u20ac776m FY2025 (pre-tax; bundles Wealth Mgmt)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 838080000.0,
+              "basis": "reported",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 21.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.75,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 21.9,
+              "basis": "derived",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 3.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3.1,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         }
@@ -19693,18 +20819,52 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 1728000000000.0,
+          "value": 1753920000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.85,
           "source": "results",
-          "section": ">\u20ac1.6tn AUM end-2025 (post-AXA IM merger)",
+          "section": "\u201c\u20ac1,624bn at Asset Management (including AXA IM and Real Estate)\u201d at 31 Dec 2025",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1728000000000.0,
+              "value": 1753920000000.0,
               "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 38664000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u201cAsset Management had very good inflows \u2026 \u20ac35.8bn in 2025, including AXA IM and REIM\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 38664000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 2.3,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.3,
+              "basis": "derived",
               "confidence": 0.8
             }
           ]
@@ -20676,7 +21836,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "CHF 145.7bn third-party AuM at 31 Dec 2025",
+          "section": "\u201cover CHF 145.7 billion for third-party asset management\u201d (31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -20684,6 +21844,74 @@
               "value": 160270000000.0,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 19470000000.000004,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cnearly doubled net new assets in TPAM business to CHF 17.7 billion in 2025\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 19470000000.000004,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 2300.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.7,
+          "source": "results",
+          "section": "\u201cMore than 2300 employees work for Swiss Life Asset Managers in Europe.\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2300.0,
+              "basis": "reported",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 13.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 13.8,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 69682609,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.7,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 69682609,
+              "basis": "derived",
+              "confidence": 0.7
             }
           ]
         }
@@ -20762,15 +21990,120 @@
           "value": 577368000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "results",
-          "section": "\u20ac534.6bn AUM at 31 Dec 2025",
+          "section": "\u201cAssets under Management \u2026 H\u00f6chststand von 534,6 Milliarden Euro\u201d (\u20ac534.6bn, 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 577368000000.0,
               "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 25164000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cDer Nettoabsatz belief sich auf 23,3 Milliarden Euro\u201d (net sales \u20ac23.3bn FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 25164000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 1279800000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cDas Betriebsergebnis \u2026 auf 1.185 Millionen Euro\u201d (operating result \u20ac1,185m FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1279800000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 4400.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cRund 4.400 Mitarbeitende\u201d (~4,400 employees)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4400.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_by_channel": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201c270,8 Mrd. Euro auf das Privatkundengesch\u00e4ft\u201d (retail \u20ac270.8bn)",
+          "members": [
+            {
+              "member": "Retail / private",
+              "value": 292464000000.00006,
+              "confidence": 0.85
+            },
+            {
+              "member": "Institutional",
+              "value": 284904000000.00006,
+              "confidence": 0.85
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 4.6,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.6,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 131220000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 131220000,
+              "basis": "derived",
               "confidence": 0.85
             }
           ]
@@ -20782,7 +22115,7 @@
       "ticker": "DEKA",
       "regime": "German KVG",
       "cik": null,
-      "period_end": "2025-06-30",
+      "period_end": "2025-12-31",
       "documents": [
         {
           "name": "Business development of Deka Group as of December 31, 2025",
@@ -21587,19 +22920,155 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 461160000000.0,
+          "value": 488160000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "source": "results",
-          "section": "\u20ac427bn total customer assets (30 Jun 2025; latest clean)",
-          "period_end": "2025-06-30",
+          "section": "\u201cSumme Asset Management und Deka-Zertifikate \u2026 451.971 Mio. \u20ac\u201d (\u20ac452bn customer assets, 31 Dec 2025)",
+          "period_end": "2025-12-31",
           "history": [
             {
-              "period_end": "2025-06-30",
-              "value": 461160000000.0,
+              "period_end": "2025-12-31",
+              "value": 488160000000.0,
               "basis": "reported",
-              "confidence": 0.75
+              "confidence": 0.85
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 26391960000.000004,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cAsset Management Nettovertriebsleistung: 24.437 Mio. \u20ac\u201d (net sales \u20ac24.4bn FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 26391960000.000004,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 2618244000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cSumme Ertr\u00e4ge: 2.424,3 Mio. \u20ac\u201d (total income FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2618244000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "operating_income": {
+          "value": 998568000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cErgebnis vor Steuern: 924,6 Mio. \u20ac\u201d (pre-tax result FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 998568000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 5953.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cMitarbeitende: 5.953\u201d (FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5953.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 38.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 38.1,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 5.7,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5.7,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 82002352,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 82002352,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 439819,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 439819,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         }
@@ -21619,7 +23088,7 @@
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
-          "section": "\u20ac368bn total AuM at 31 Dec 2025 (~\u20ac63bn third-party; rest captive Munich Re/ERGO)",
+          "section": "\u20ac368bn total AuM end-2025 (~\u20ac63bn third-party; rest captive Munich Re/ERGO)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -21627,6 +23096,40 @@
               "value": 397440000000.00006,
               "basis": "reported",
               "confidence": 0.8
+            }
+          ]
+        },
+        "headcount": {
+          "value": 850.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "\u201cca. 850 employees\u201d (MEAG corporate portrait)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 850.0,
+              "basis": "reported",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 467576471,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 467576471,
+              "basis": "derived",
+              "confidence": 0.6
             }
           ]
         }
@@ -21765,16 +23268,50 @@
           "value": 106920000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
+          "confidence": 0.8,
           "source": "results",
-          "section": "\u20ac99bn AUM at 30 Dec 2025",
+          "section": "\u20ac99bn AUM at 31 Dec 2025 (\u20ac102bn at 28.02.2026 per company portrait)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 106920000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.8
+            }
+          ]
+        },
+        "headcount": {
+          "value": 200.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "\u201cRund 200 Mitarbeitende arbeiten in M\u00fcnchen\u201d (~200 employees)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 200.0,
+              "basis": "reported",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 534600000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 534600000,
+              "basis": "derived",
+              "confidence": 0.6
             }
           ]
         }
@@ -21815,7 +23352,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "\u20ac55.2bn real-estate AuM at end-2025",
+          "section": "\u201casset management volume \u2026 amounted to \u20ac55.2 billion at the end of 2025\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -21823,6 +23360,40 @@
               "value": 59616000000.00001,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 640.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "\u201ca total of around 640 professionals\u201d (Deka Immobilien)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 640.0,
+              "basis": "reported",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 93150000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 93150000,
+              "basis": "derived",
+              "confidence": 0.6
             }
           ]
         }
@@ -21840,16 +23411,33 @@
           "value": 1512000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.75,
           "source": "results",
-          "section": "~\u20ac1.4tn assets under administration (third-party ManCo platform)",
+          "section": "\u201cadministriertes Verm\u00f6gen von \u00fcber 1 Billion Euro\u201d (>\u20ac1tn AuA; ~\u20ac1.39tn mid-2025 per industry data)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 1512000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.75
+            }
+          ]
+        },
+        "headcount": {
+          "value": 1700.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "\u201cRund 1.700 Mitarbeitende\u201d (~1,700 employees)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1700.0,
+              "basis": "reported",
+              "confidence": 0.6
             }
           ]
         }
@@ -22565,19 +24153,36 @@
       ],
       "metrics": {
         "aua": {
-          "value": 464400000000.00006,
+          "value": 675972000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.8,
           "source": "results",
-          "section": "\u20ac430bn+ assets under administration (Master-KVG)",
+          "section": "\u201cGesamtes administriertes Volumen: EUR 625,9 MRD.\u201d (total AuA, 30 Apr 2025)",
+          "period_end": "2025-04-30",
+          "history": [
+            {
+              "period_end": "2025-04-30",
+              "value": 675972000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "headcount": {
+          "value": 300.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "\u201cnahezu 300 Spezialisten\u201d (~300 specialists)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 464400000000.00006,
+              "value": 300.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.6
             }
           ]
         }
@@ -22588,7 +24193,7 @@
       "ticker": "Vanguard",
       "regime": "Private / Mutual",
       "cik": null,
-      "period_end": "2025-09-30",
+      "period_end": "2025-12-31",
       "documents": [
         {
           "name": "Quarterly Engagement Report (October 1, 2025\u2013December 31, 2025)",
@@ -22916,16 +24521,50 @@
           "value": 11600000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.75,
           "source": "results",
-          "section": "$11.6tn AUM at 30 Sep 2025 (~$12tn 2025)",
-          "period_end": "2025-09-30",
+          "section": "~$11.6tn global AUM 2025 (Vanguard does not publish a headline total; industry-tracked)",
+          "period_end": "2025-12-31",
           "history": [
             {
-              "period_end": "2025-09-30",
+              "period_end": "2025-12-31",
               "value": 11600000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.75
+            }
+          ]
+        },
+        "headcount": {
+          "value": 20000.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201cApproximate number of crew (employees) worldwide, as of December 31, 2025 \u2014 20,000\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 20000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 580000000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.75,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 580000000,
+              "basis": "derived",
+              "confidence": 0.75
             }
           ]
         }
@@ -23121,36 +24760,87 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 7100000000000.0,
+          "value": 6400000000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "$7.1tn discretionary/managed assets 2025",
-          "period_end": "2025-12-31",
+          "section": "\u201cDiscretionary assets: $6.4 trillion\u201d (30 Jun 2025)",
+          "period_end": "2025-06-30",
           "history": [
             {
-              "period_end": "2025-12-31",
-              "value": 7100000000000.0,
+              "period_end": "2025-06-30",
+              "value": 6400000000000.0,
               "basis": "reported",
               "confidence": 0.85
             }
           ]
         },
         "aua": {
-          "value": 18000000000000.0,
+          "value": 16400000000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "$18tn managed + administered 2025",
+          "section": "\u201cAssets under administration: $16.4 trillion\u201d (30 Jun 2025)",
+          "period_end": "2025-06-30",
+          "history": [
+            {
+              "period_end": "2025-06-30",
+              "value": 16400000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 80000.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u201cover 80,000 associates across 11 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 18000000000000.0,
+              "value": 80000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.8
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 11.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "section": "\u201cover 80,000 associates across 11 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 11.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 80000000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-06-30",
+          "history": [
+            {
+              "period_end": "2025-06-30",
+              "value": 80000000,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         }
@@ -23181,7 +24871,7 @@
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
-          "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025",
+          "section": "$2.26tn total AUM ($1.84tn third-party) at 31 Dec 2025. Allianz reports revenue/profit only for the combined PIMCO+AllianzGI segment.",
           "period_end": "2025-12-31",
           "history": [
             {
