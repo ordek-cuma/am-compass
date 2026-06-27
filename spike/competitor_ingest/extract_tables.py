@@ -12,15 +12,42 @@ from .schema import MetricObservation
 # Firms whose 10-K MD&A uses the BlackRock-style "AUM by asset class" + region rollforward.
 TABLE_FIRMS = {"BL"}
 
-# Canonical member ← row-label prefix (BlackRock "AUM by asset class" lines).
+# Canonical member ← row-label prefixes (cross-firm; AMs name asset classes consistently).
 _ASSET_ROWS = [
-    ("Equity", "equity"),
-    ("Fixed income", "fixed income"),
-    ("Multi-asset", "multi-asset"),
-    ("Alternatives", "alternatives"),
-    ("Cash management", "cash management"),
+    ("Equity", ["equity"]),
+    ("Fixed income", ["fixed income"]),
+    ("Multi-asset", ["multi-asset", "multi asset", "balanced", "asset allocation"]),
+    ("Money market / cash", ["cash management", "money market", "stable value", "liquidity"]),
+    ("Alternatives", ["alternatives", "alternative"]),
+    ("Real assets / RE", ["real estate", "real assets"]),
 ]
 _REGION_ROWS = [("Americas", "americas"), ("EMEA", "emea"), ("Asia-Pacific", "asia-pacific")]
+
+
+def _aum_by_asset_class(cid, tbls, now, period) -> list[MetricObservation]:
+    """Generic, reconciliation-guarded: only records the members if they sum to within 8% of the
+    table's own Total row — so a mis-identified table is rejected rather than recorded wrong."""
+    for t in tables.find(tbls, ["Equity", "Fixed income", "Total"]):
+        flat = " ".join(c for r in t for c in r).lower()
+        if "net inflows" in flat or "market change" in flat or "marketchange" in flat:
+            continue  # skip the rollforward; we want the point-in-time table
+        members, seen = [], set()
+        for member, pats in _ASSET_ROWS:
+            for row in t:
+                lab = (row[0] or "").strip().lower()
+                if any(lab.startswith(p) for p in pats) and not any(x in lab for x in ("total", "long-term", "subtotal")):
+                    vals = _bignums(row)
+                    if vals and member not in seen:
+                        members.append((member, vals[0]))
+                        seen.add(member)
+                    break
+        total = next((_bignums(r)[0] for r in t if (r[0] or "").strip().lower() in
+                      ("total", "total aum", "total assets under management") and _bignums(r)), None)
+        s = sum(v for _, v in members)
+        if len(members) >= 2 and total and abs(s - total) / total < 0.08:
+            return [_obs(cid, "aum_by_asset_class", v * 1e6, m, period, now,
+                         f"10-K AUM by asset class: {m} ${v:,.0f}M") for m, v in members]
+    return []
 
 
 def _obs(cid, key, value, member, period, now, quote, unit="USD",
@@ -110,8 +137,9 @@ def _bignums(row, floor=1000):
 
 
 def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[MetricObservation]:
-    if cid not in TABLE_FIRMS:
-        return []
+    """Breakdowns from a US filer's 10-K MD&A tables. AuM-by-asset-class is generic (any AM, with
+    a reconciliation guard); revenue lines + client channel are BlackRock-specific and no-op for
+    firms whose tables don't match. Runs for every EDGAR bellwether the crawl passes in."""
     try:
         html = edgar.get_text(edgar.latest_annual_filing(cik)["url"])
     except Exception as e:
@@ -120,36 +148,15 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31") -> list[Me
     tbls = tables.tables(html)
     out: list[MetricObservation] = []
 
-    # Revenue lines (Business Mix · Revenue) — from the consolidated income statement, 3-year.
-    out += _income_statement(cid, tbls, now)
-    # Client channel + active/passive split.
-    out += _client_type(cid, tbls, now)
-    # Countries of operation (prose: "… in more than 30 countries …").
+    out += _income_statement(cid, tbls, now)  # revenue lines (BlackRock-style income statement)
+    out += _client_type(cid, tbls, now)       # client channel + active/passive (BlackRock-style)
+    out += _aum_by_asset_class(cid, tbls, now, period)  # generic, reconciliation-guarded
+
     import re as _re
     m = _re.search(r"in (?:more than |over )?(\d{2,3}) countries", _re.sub(r"<[^>]+>", " ", html))
     if m:
         out.append(_obs(cid, "num_countries", int(m.group(1)), "", "2025-12-31", now,
-                        f"10-K: “in more than {m.group(1)} countries”", unit="count",
-                        note="10-K business section."))
-
-    # AuM by asset class — the point-in-time table (December 31 columns; NOT a rollforward).
-    for t in tables.find(tbls, ["Equity", "Fixed income", "Multi-asset", "Cash management", "Total"]):
-        flat = " ".join(c for r in t for c in r).lower()
-        if "net inflows" in flat or "market change" in flat or "marketchange" in flat:
-            continue
-        got = []
-        for member, pat in _ASSET_ROWS:
-            for row in t:
-                lab = (row[0] or "").strip().lower()
-                if lab.startswith(pat) and "total" not in lab and "long-term" not in lab:
-                    vals = _bignums(row)
-                    if vals:
-                        got.append(_obs(cid, "aum_by_asset_class", vals[0] * 1e6, member, period, now,
-                                        f"10-K “AUM by asset class”: {member} ${vals[0]:,.0f}M (FY2025)"))
-                    break
-        if len(got) >= 4:
-            out += got
-            break
+                        f"10-K: “in {m.group(0)[3:]}”", unit="count", note="10-K business section."))
 
     # AuM by client region — the rollforward (ending AuM = last big number in each row).
     for t in tables.find(tbls, ["Americas", "EMEA", "Asia-Pacific", "Total"]):
