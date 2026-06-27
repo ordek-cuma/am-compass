@@ -7,6 +7,8 @@ import { financialsFor, fmtMetric, fmtValue, statusOf, type FinBlock, type FinMe
 import {
   METRICS_BY_TAB, OVERVIEW_TILES, REVENUE_LINES, TAB_LABEL, type MetricDef, type Tab,
 } from '../../data/metricCatalog'
+import { countriesFor } from '../../data/geo'
+import { WorldMap } from './WorldMap'
 
 function yoy(m?: FinMetric): { txt: string; pos: boolean } | null {
   const h = (m?.history ?? []).filter((p) => p.value != null)
@@ -205,6 +207,28 @@ export function MetricsTab({ code, tab }: { code: string; tab: Tab }) {
   }
   if (tab === 'Revenue') {
     return (<><Tiles fin={fin} defs={METRICS_BY_TAB.Revenue ?? []} /><YearTable fin={fin} rows={REV_ROWS} title="Revenue by line" /></>)
+  }
+  if (tab === 'Workforce') {
+    const defs = METRICS_BY_TAB.Workforce ?? []
+    const countries = countriesFor(code)
+    return (
+      <>
+        <Tiles fin={fin} defs={defs.filter((d) => d.tile)} />
+        <div className="cols-2" style={{ alignItems: 'start' }}>
+          <Panel title="Workforce">{defs.filter((d) => !d.tile).map((d) => <ScalarRow key={d.key} fin={fin} def={d} />)}</Panel>
+          <Panel title={<>Geographic footprint {countries.length ? <span className="muted2">{countries.length}+ countries</span> : null}</>}>
+            {countries.length ? (
+              <>
+                <WorldMap highlight={countries} />
+                <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 8, lineHeight: 1.6 }}>{countries.join(' · ')}</div>
+              </>
+            ) : (
+              <div className="ph" style={{ padding: '4px 2px' }}>Country footprint not mapped yet</div>
+            )}
+          </Panel>
+        </div>
+      </>
+    )
   }
   if (tab === 'BizmixRev') {
     const items = REVENUE_LINES.filter((d) => d.key !== 'total_revenue')
