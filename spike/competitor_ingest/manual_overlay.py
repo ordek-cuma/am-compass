@@ -28,7 +28,10 @@ OVERLAY: dict[str, list[tuple]] = {
         ("net_flows", -56.9e9, "USD", "2025-12-31", "“net cash outflows of $56.9 billion” (FY2025 10-K)", 0.75),
         ("headcount", 7_773, "count", "2025-12-31", "“employed 7,773 associates”", 0.9),
     ],
-    "IVZ": [  # Invesco — ending total is split across categories; the average is stated cleanly
+    "IVZ": [  # Invesco — ending AUM is the AUM-rollforward "Ending Assets (December 31)" line
+        ("aum_total", 2_169.9e9, "USD", "2025-12-31", "10-K AUM rollforward: “Ending Assets (December 31) $2,169.9” billion", 0.95),
+        ("aum_total", 1_846.0e9, "USD", "2024-12-31", "10-K AUM rollforward: ending assets $1,846.0bn (FY2024)", 0.9),
+        ("aum_total", 1_585.3e9, "USD", "2023-12-31", "10-K AUM rollforward: ending assets $1,585.3bn (FY2023)", 0.9),
         ("aum_average", 2_000.1e9, "USD", "2025-12-31", "“Average AUM was $2,000.1 billion”", 0.9),
         ("headcount", 7_500, "count", "2025-12-31", "“approximately 7,500 employees”", 0.85),
     ],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:35:00+00:00",
+  "generated_at": "2026-06-27T11:08:06+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -4710,6 +4710,35 @@
             }
           ]
         },
+        "aum_total": {
+          "value": 2169900000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "10-K AUM rollforward: \u201cEnding Assets (December 31) $2,169.9\u201d billion",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2169900000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1846000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1585300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
         "aum_average": {
           "value": 2000100000000.0,
           "unit": "USD",
@@ -4881,6 +4910,23 @@
               "value": 74.1,
               "basis": "derived",
               "confidence": 1.0
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 289320000,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 289320000,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         },
