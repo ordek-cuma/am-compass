@@ -188,6 +188,25 @@ const REV_ROWS: [string, string, string][] = [
   ['performance_fees_pct', 'Performance fees % of revenue', 'pct'],
 ]
 
+function TrendPanel({ fin, metricKey, title, unit }: { fin: FinBlock; metricKey: string; title: string; unit: string }) {
+  const h = ((fin.metrics[metricKey] as FinMetric | undefined)?.history ?? []).filter((p) => p.value != null).slice(0, 5).reverse()
+  if (h.length < 2) return null
+  const max = Math.max(...h.map((p) => Math.abs(p.value!))) || 1
+  return (
+    <Panel title={<>{title} <span className="muted2">{h.length}-year</span></>}>
+      <div style={{ display: 'flex', alignItems: 'flex-end', gap: 12, height: 130, padding: '10px 4px 0' }}>
+        {h.map((p) => (
+          <div key={p.period_end} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', height: '100%' }}>
+            <div style={{ fontSize: 11, fontWeight: 500, marginBottom: 4 }}>{fmtValue(p.value, unit)}</div>
+            <div style={{ width: '100%', maxWidth: 46, height: `${Math.max(3, Math.round((84 * Math.abs(p.value!)) / max))}px`, background: 'var(--teal)', borderRadius: '4px 4px 0 0' }} />
+            <div style={{ fontSize: 10.5, color: 'var(--ink-3)', marginTop: 5 }}>{p.period_end.slice(0, 4)}</div>
+          </div>
+        ))}
+      </div>
+    </Panel>
+  )
+}
+
 export function MetricsTab({ code, tab }: { code: string; tab: Tab }) {
   const fin = financialsFor(code)
   if (!fin) {
@@ -195,10 +214,21 @@ export function MetricsTab({ code, tab }: { code: string; tab: Tab }) {
   }
 
   if (tab === 'Overview') {
+    const acm = ((fin.metrics.aum_by_asset_class as FinMetric | undefined)?.members ?? [])
+      .filter((x) => x.value != null).map((x) => ({ label: x.member, value: x.value! }))
+    const revItems = REVENUE_LINES.filter((d) => d.key !== 'total_revenue')
+      .map((d) => ({ label: d.label, value: (fin.metrics[d.key] as FinMetric | undefined)?.value }))
+      .filter((x) => x.value != null) as { label: string; value: number }[]
     return (
       <>
         <Tiles fin={fin} defs={OVERVIEW_TILES} />
-        <div className="sub-note">Headline KPIs across categories. Open a category tab for the full set, history and breakdowns. Hover a tile for its source.</div>
+        <div className="cols-2" style={{ alignItems: 'start' }}>
+          <TrendPanel fin={fin} metricKey="total_revenue" title="Revenue" unit="USD" />
+          <TrendPanel fin={fin} metricKey="operating_margin" title="Operating margin" unit="pct" />
+          {acm.length ? <MixPanel title="AuM by asset class" period={(fin.metrics.aum_by_asset_class as FinMetric | undefined)?.period_end} items={acm} /> : null}
+          {revItems.length ? <MixPanel title="Revenue by business line" period={(fin.metrics.total_revenue as FinMetric | undefined)?.period_end} items={revItems} /> : null}
+        </div>
+        <div className="sub-note">Headline KPIs + trends across categories. Open a category tab for the full set, history and breakdowns. Hover a tile for its source.</div>
       </>
     )
   }
