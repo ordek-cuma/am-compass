@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:31:17+00:00",
+  "generated_at": "2026-06-27T14:43:40+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -8398,6 +8398,23 @@
             }
           ]
         },
+        "net_flows": {
+          "value": 50000000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.45,
+          "source": "10-K",
+          "section": "ESTIMATE: long-term \u2212$0.7bn (reported) + money-market AUM rise +$52.3bn (\u2248all flow at constant $1 NAV) \u2248 +$50bn firmwide",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 50000000000.0,
+              "basis": "estimate",
+              "confidence": 0.45
+            }
+          ]
+        },
         "mgmt_fee_revenue": {
           "value": 1199236000.0,
           "unit": "USD",
@@ -8633,6 +8650,23 @@
               "value": 13.3,
               "basis": "derived",
               "confidence": 0.9
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 5.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.45,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5.9,
+              "basis": "derived",
+              "confidence": 0.45
             }
           ]
         },
@@ -20624,6 +20658,23 @@
             }
           ]
         },
+        "headcount": {
+          "value": 2900.0,
+          "unit": "count",
+          "basis": "external",
+          "confidence": 0.5,
+          "source": "results",
+          "section": "AllianzGI \u22482,900 employees (industry/aggregator; Allianz doesn't split AM headcount; its site states only 700+ investment pros)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2900.0,
+              "basis": "external",
+              "confidence": 0.5
+            }
+          ]
+        },
         "operating_margin": {
           "value": 37.5,
           "unit": "pct",
@@ -20689,6 +20740,40 @@
               "value": 1.0,
               "basis": "derived",
               "confidence": 0.8
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 220096552,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.5,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 220096552,
+              "basis": "derived",
+              "confidence": 0.5
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 763821,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.5,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 763821,
+              "basis": "derived",
+              "confidence": 0.5
             }
           ]
         }
@@ -25866,6 +25951,23 @@
             }
           ]
         },
+        "headcount": {
+          "value": 3100.0,
+          "unit": "count",
+          "basis": "external",
+          "confidence": 0.6,
+          "source": "results",
+          "section": "PIMCO: \u201cover 3,100 employees working in 22 offices\u201d (pimco.com; Allianz doesn't split AM headcount)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3100.0,
+              "basis": "external",
+              "confidence": 0.6
+            }
+          ]
+        },
         "operating_margin": {
           "value": 40.2,
           "unit": "pct",
@@ -25931,6 +26033,40 @@
               "value": 6.8,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "aum_per_employee": {
+          "value": 729032258,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "section": "aum_total + headcount",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 729032258,
+              "basis": "derived",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "revenue_per_employee": {
+          "value": 2247097,
+          "unit": "USD",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "section": "headcount + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2247097,
+              "basis": "derived",
+              "confidence": 0.6
             }
           ]
         }

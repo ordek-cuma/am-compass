@@ -53,7 +53,10 @@ OVERLAY: dict[str, list[tuple]] = {
     "FED": [  # Federated Hermes
         ("aum_total", 902.6e9, "USD", "2025-12-31", "“$902.6 billion in assets under management”", 0.92),
         ("headcount", 2_091, "count", "2025-12-31", "“had 2,091 employees”", 0.85),
-        # Money-market net flows aren't disclosed, so a firmwide net-flow total can't be derived; revenue mix is.
+        # Federated doesn't publish a single firmwide net-flow number; long-term is −$0.7bn (reported),
+        # but money-market AUM rose +$52.3bn and money funds hold constant $1.00 NAV (so that rise is
+        # essentially all flow). Firmwide ≈ +$50bn — an estimate, clearly flagged.
+        ("net_flows", 50.0e9, "USD", "2025-12-31", "ESTIMATE: long-term −$0.7bn (reported) + money-market AUM rise +$52.3bn (≈all flow at constant $1 NAV) ≈ +$50bn firmwide", 0.45, "estimate"),
         ("mgmt_fee_revenue", 1_199.236e6, "USD", "2025-12-31", "10-K revenue by obligation: “Investment Advisory $1,199,236” (thousand, FY2025)", 0.9),
         ("performance_fees", 12.5e6, "USD", "2025-12-31", "“performance fees, including carried interest, of $12.5 million” (FY2025)", 0.85),
     ],
@@ -137,7 +140,11 @@ BREAKDOWN: dict[str, list[tuple]] = {
 
 def overlay(competitor_id: str, now_iso: str, source_url: str = "") -> list[MetricObservation]:
     out: list[MetricObservation] = []
-    for key, value, unit, period_end, quote, conf in OVERLAY.get(competitor_id, []):
+    for row in OVERLAY.get(competitor_id, []):
+        # row = (metric_key, value, unit, period_end, quote, conf[, basis])
+        # basis: "reported" (default) | "external" (tracker) | "estimate" (transparent model).
+        key, value, unit, period_end, quote, conf = row[:6]
+        basis = row[6] if len(row) > 6 else "reported"
         out.append(MetricObservation(
             competitor_id=competitor_id,
             metric_key=key,
@@ -146,13 +153,13 @@ def overlay(competitor_id: str, now_iso: str, source_url: str = "") -> list[Metr
             currency="USD" if unit == "USD" else None,
             period_type="FY",
             period_end=period_end,
-            basis="reported",
+            basis=basis,
             definition_note="Hand-verified from the 10-K (analyst overlay; pending LLM extractor).",
             source_doc="10-K",
             source_url=source_url,
             source_section=quote,
             confidence=conf,
-            extracted_by="analyst",
+            extracted_by={"external": "tracker", "estimate": "estimate"}.get(basis, "analyst"),
             extracted_at=now_iso,
         ))
     for key, member, value, unit, period_end, quote, conf in BREAKDOWN.get(competitor_id, []):
