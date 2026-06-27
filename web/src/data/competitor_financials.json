@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:12:46+00:00",
+  "generated_at": "2026-06-27T14:22:35+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -25230,19 +25230,36 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 11600000000000.0,
+          "value": 11092700000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.75,
+          "confidence": 0.9,
           "source": "results",
-          "section": "~$11.6tn global AUM 2025 (Vanguard does not publish a headline total; industry-tracked)",
+          "section": "SEC Form ADV (CRD 105958): regulatory AUM \u201cTotal $11,092,665,107,962\u201d (discretionary; valued 31 Dec 2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 11600000000000.0,
+              "value": 11092700000000.0,
               "basis": "reported",
-              "confidence": 0.75
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 7.0,
+          "unit": "bps",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "section": "\u201c0.07% Asset-weighted average U.S. mutual fund and ETF expenses\u201d (2025) = its fee yield",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 7.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -25264,19 +25281,19 @@
           ]
         },
         "aum_per_employee": {
-          "value": 580000000,
+          "value": 554635000,
           "unit": "USD",
           "basis": "derived",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "source": "derived",
           "section": "aum_total + headcount",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 580000000,
+              "value": 554635000,
               "basis": "derived",
-              "confidence": 0.75
+              "confidence": 0.85
             }
           ]
         }

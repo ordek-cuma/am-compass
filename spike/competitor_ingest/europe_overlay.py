@@ -105,8 +105,13 @@ EUROPE: dict[str, dict] = {
         items=[("aua", 625.9, "EUR", "“Gesamtes administriertes Volumen: EUR 625,9 MRD.” (total AuA, 30 Apr 2025)", 0.8, "2025-04-30"),
                ("headcount", 300, "count", "“nahezu 300 Spezialisten” (~300 specialists)", 0.6)]),
     # ---- Private / Mutual (US, not on EDGAR as an AM) ----
-    "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://corporate.vanguard.com/content/corporatesite/us/en/corp/why-vanguard/who-we-are/facts-and-figures.html",
-        items=[("aum_total", 11600.0, "USD", "~$11.6tn global AUM 2025 (Vanguard does not publish a headline total; industry-tracked)", 0.75),
+    # Vanguard is owned by its own funds and runs "at cost" → no parent income statement exists, so
+    # revenue/profit are STRUCTURALLY undisclosed (the word "revenue" appears nowhere in its 161-page
+    # Form ADV; Form ADV carries no income-statement field by design). The authoritative AuM figure is
+    # the SEC Form ADV regulatory AUM (RAUM); the 0.07% asset-weighted expense ratio IS its fee yield.
+    "Vanguard": dict(name="Vanguard", regime="Private / Mutual", src="https://reports.adviserinfo.sec.gov/reports/ADV/105958/PDF/105958.pdf",
+        items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
+               ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
                ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)]),
     "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/data-and-insights/2025-annual-report",
         items=[("aum_total", 7100.0, "USD", "FY2025 annual report: “MANAGED ASSETS $7.1 trillion” (Up 19% YoY)", 0.9),
