@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:10:46+00:00",
+  "generated_at": "2026-06-27T17:35:17+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -28904,6 +28904,27 @@
               "value": 20000.0,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "external",
+          "period_end": "2025-12-31",
+          "confidence": 0.55,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "Residual of $11.09tn RAUM \u2212 $2.8tn bond/MMF (Vanguard discloses no equity split)",
+          "members": [
+            {
+              "member": "Equity & balanced",
+              "value": 8292700000000.001,
+              "confidence": 0.55
+            },
+            {
+              "member": "Fixed income & money market",
+              "value": 2800000000000.0,
+              "confidence": 0.7
             }
           ]
         },

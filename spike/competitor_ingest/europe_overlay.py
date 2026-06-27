@@ -176,7 +176,11 @@ EUROPE: dict[str, dict] = {
                ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
                ("total_revenue", 7.5, "USD", "ESTIMATE (Vanguard at-cost — no income statement published): ≈0.07% asset-weighted fee × ~$10.7tn avg 2025 AUM ≈ $7.5bn", 0.4, "2025-12-31", "estimate"),
                ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
-               ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)]),
+               ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)],
+        # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &
+        # balanced is the residual to its $11.09tn RAUM. External basis (Vanguard discloses no clean split).
+        breakdowns=[("aum_by_asset_class", "Equity & balanced", 8292.7, "USD", "Residual of $11.09tn RAUM − $2.8tn bond/MMF (Vanguard discloses no equity split)", 0.55, "2025-12-31", "external"),
+                    ("aum_by_asset_class", "Fixed income & money market", 2800.0, "USD", "Vanguard: “bond funds and money market funds had $2.8 trillion” (31 Dec 2025)", 0.7, "2025-12-31", "external")]),
     "Fidelity": dict(name="Fidelity Investments", regime="Private / Mutual", src="https://about.fidelity.com/data-and-insights/2025-annual-report",
         items=[("aum_total", 7100.0, "USD", "FY2025 annual report: “MANAGED ASSETS $7.1 trillion” (Up 19% YoY)", 0.9),
                ("aua", 18000.0, "USD", "FY2025 annual report: “ASSETS UNDER ADMINISTRATION $18.0 trillion”", 0.9),
@@ -308,15 +312,18 @@ def build(code: str, now_iso: str) -> list[MetricObservation]:
         ))
     # Breakdown members (AuM by asset class / region / channel), each reconciling to the firm total.
     for item in spec.get("breakdowns", []):
-        # item = (metric_key, member, native_bn, ccy, quote, conf[, period])
+        # item = (metric_key, member, native_bn, ccy, quote, conf[, period[, basis]])
         key, member, native, ccy, quote, conf = item[:6]
         period = item[6] if len(item) > 6 else default_period
+        basis = item[7] if len(item) > 7 else "reported"
         out.append(MetricObservation(
             competitor_id=code, metric_key=key, member=member,
             value=native * FX[ccy] * 1e9, unit="USD", currency="USD",
-            period_type="FY", period_end=period, basis="reported",
-            definition_note=f"{key.replace('_', ' ')} · {member}: native {ccy} {native:,.1f}bn → USD at {FX[ccy]}.",
+            period_type="FY", period_end=period, basis=basis,
+            definition_note=f"{key.replace('_', ' ')} · {member}: native {ccy} {native:,.1f}bn → USD at {FX[ccy]}; basis={basis}.",
             source_doc="results", source_url=spec["src"], source_section=quote,
-            confidence=conf, extracted_by="analyst-eu", extracted_at=now_iso,
+            confidence=conf,
+            extracted_by={"external": "tracker", "estimate": "estimate"}.get(basis, "analyst-eu"),
+            extracted_at=now_iso,
         ))
     return out
