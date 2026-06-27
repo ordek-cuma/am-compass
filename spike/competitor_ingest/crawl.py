@@ -311,12 +311,14 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str, force: bool
     slug = web.slug(code)
     base = ARCHIVE / slug
     prev = manifest.index_by_id(manifest.load(base / "manifest.json"))
-    primary_name = {"European-listed": "Universal Registration Document / Results",
-                    "German KVG": "Geschäftsbericht / Results",
-                    "Private / Mutual": "Annual Results & AuM Disclosure"}.get(regime, "FY2025 Results")
+    # No dedicated scraper: harvest only REAL documents (PDF/Excel) linked from the IR source(s).
+    # The IR landing page itself is the competitor's source link (from europe_overlay), not a
+    # "document" — an HTML page is not a report, and the Document Data Room stays PDF-only. Firms
+    # with no downloadable reports at their source (e.g. Universal Investment, MEAG) correctly show
+    # zero documents rather than marketing-page noise.
     sources = [src] + [s for s in registry.IR_SOURCES.get(code, []) if s != src]
-    targets = [(primary_name, src, "Annual")] + _discover(sources, pdf_only=False)
-    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force)
+    targets = _discover(sources, pdf_only=True)
+    docs, n, c, u = _pull(base, slug, prev, targets, now, skip_ids=set(), force=force, keep_only_docs=True)
     _finalize(code, name, None, slug, prev, docs, now)
     return docs, (n, c, u)
 
