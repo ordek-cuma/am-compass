@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T05:44:56+00:00",
+  "generated_at": "2026-06-27T06:01:58+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -15467,18 +15467,7 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [
-        {
-          "name": "Gesch\u00e4ftsbericht / Results",
-          "form": "IR",
-          "group": "Annual",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 53265,
-          "edgarUrl": "https://www.meag.com/en/inform/portraet.html",
-          "file": "filings/MEAG/docs/w955253c57202144f.html"
-        }
-      ],
+      "documents": [],
       "metrics": {
         "aum_total": {
           "value": 397440000000.00006,
@@ -15674,68 +15663,7 @@
       "regime": "German KVG",
       "cik": null,
       "period_end": "2025-12-31",
-      "documents": [
-        {
-          "name": "Accounting and Financial Reporting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 87079,
-          "edgarUrl": "https://www.universal-investment.com/en/Asset-manager/Fund-Administration/Accounting-and-Financial-Reporting/",
-          "file": "filings/Universal_Invest/docs/w53f5f49aa33ebbd3.html"
-        },
-        {
-          "name": "Regulatory Reporting for ManCo and AIFM",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 83826,
-          "edgarUrl": "https://www.universal-investment.com/en/Asset-manager/Value-Added-Services/Regulatory-Reporting-for-ManCo-and-AIFM/",
-          "file": "filings/Universal_Invest/docs/wc0ad71cbe38e21cc.html"
-        },
-        {
-          "name": "ESG Reporting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 94632,
-          "edgarUrl": "https://www.universal-investment.com/en/Asset-manager/Value-Added-Services/ESG-Reporting/",
-          "file": "filings/Universal_Invest/docs/w441a7e05ba5101d1.html"
-        },
-        {
-          "name": "ESG Reporting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 98704,
-          "edgarUrl": "https://www.universal-investment.com/en/Institutional-investors/ESG-reporting/",
-          "file": "filings/Universal_Invest/docs/w6a1dd0529b29dae4.html"
-        },
-        {
-          "name": "Reporting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 105906,
-          "edgarUrl": "https://www.universal-investment.com/en/Institutional-investors/Reporting/",
-          "file": "filings/Universal_Invest/docs/wca624dacc5bf13fe.html"
-        },
-        {
-          "name": "Gesch\u00e4ftsbericht / Results",
-          "form": "IR",
-          "group": "Annual",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 95407,
-          "edgarUrl": "https://www.universal-investment.com/en/",
-          "file": "filings/Universal_Invest/docs/w3d0709a16ac9d3ae.html"
-        }
-      ],
+      "documents": [],
       "metrics": {
         "aua": {
           "value": 1512000000000.0,
