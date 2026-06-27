@@ -91,6 +91,13 @@ def derive(competitor_id: str, obs: list[MetricObservation], now_iso: str) -> li
             out.append(_derived("organic_growth_rate", round(100 * flows.value / opening, 1),
                                 [flows, aum], "net_flows / opening AuM (closing − flows)", now_iso))
 
+    # Capital — P/E from market cap and earnings (both latest available).
+    mcap = _latest(obs, "market_cap")
+    ni = _latest(obs, "net_income")
+    if mcap and ni and ni.value and ni.value > 0:
+        out.append(_derived("pe_ratio", round(mcap.value / ni.value, 1),
+                            [mcap, ni], "market_cap / net_income", now_iso))
+
     # Productivity
     heads = _latest(obs, "headcount")
     if heads and heads.value:

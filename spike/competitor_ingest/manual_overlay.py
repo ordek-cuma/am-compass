@@ -27,6 +27,7 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_total", 1_775.6e9, "USD", "2025-12-31", "“assets under management ended 2025 at $1,775.6 billion”", 0.95),
         ("net_flows", -56.9e9, "USD", "2025-12-31", "“net cash outflows of $56.9 billion” (FY2025 10-K)", 0.75),
         ("headcount", 7_773, "count", "2025-12-31", "“employed 7,773 associates”", 0.9),
+        ("market_cap", 23.62e9, "USD", "2026-06-26", "Market cap $23.62bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
     ],
     "IVZ": [  # Invesco — ending AUM is the AUM-rollforward "Ending Assets (December 31)" line
         ("aum_total", 2_169.9e9, "USD", "2025-12-31", "10-K AUM rollforward: “Ending Assets (December 31) $2,169.9” billion", 0.95),
@@ -36,12 +37,18 @@ OVERLAY: dict[str, list[tuple]] = {
         ("net_flows", 81.2e9, "USD", "2025-12-31", "AUM rollforward: “Net long-term flows 81.2” billion (FY2025)", 0.9),
         ("headcount", 7_500, "count", "2025-12-31", "“approximately 7,500 employees”", 0.85),
         ("num_countries", 120, "count", "2025-12-31", "“We service our clients in 120+ countries” (Invesco corporate)", 0.8),
+        ("market_cap", 11.6e9, "USD", "2026-06-26", "Market cap $11.6bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        # FY2025 GAAP was hit by a $1.832bn non-cash intangible impairment → GAAP operating loss
+        # −$695.7m (the −10.9% margin is real). Adjusted shows the underlying business.
+        ("net_income", -726.3e6, "USD", "2025-12-31", "GAAP net loss −$726.3m FY2025 (after $1.832bn intangible impairment); adjusted net income $922.0m", 0.9),
+        ("adj_operating_margin", 33.4, "pct", "2025-12-31", "“Adjusted operating margin 33.4%” FY2025 (adj. operating income $1,557.8m)", 0.9),
     ],
     "FT": [  # Franklin Resources (fiscal year ends Sep 30)
         ("aum_total", 1_661.2e9, "USD", "2025-09-30", "“total AUM was $1,661.2 billion”", 0.9),
         ("net_flows", -97.4e9, "USD", "2025-09-30", "AUM rollforward: “Long-term net flows (97.4)” billion (FY2025)", 0.85),
         ("headcount", 9_800, "count", "2025-09-30", "“approximately 9,800 employees”", 0.85),
         ("num_countries", 150, "count", "2025-09-30", "“serving clients in over 150 countries” (Franklin Templeton 8-K)", 0.85),
+        ("market_cap", 17.26e9, "USD", "2026-06-26", "Market cap $17.26bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
     ],
     "AB": [  # AllianceBernstein
         ("aum_total", 866.9e9, "USD", "2025-12-31", "“AUM as of December 31, 2025 were $866.9 billion”", 0.95),
@@ -49,6 +56,7 @@ OVERLAY: dict[str, list[tuple]] = {
         ("market_impact", 86.0e9, "USD", "2025-12-31", "“market appreciation of $86.0 billion” (2025)", 0.9),
         ("headcount", 4_468, "count", "2025-12-31", "“had 4,468 full-time employees”", 0.9),
         ("num_countries", 26, "count", "2025-12-31", "“offices in major world markets across 26 countries and jurisdictions”", 0.75),
+        ("dividends_per_share", 3.38, "USD/shares", "2025-12-31", "AB Holding FY2025 cash distributions/unit $3.38 ($0.80+$0.76+$0.86+$0.96)", 0.85),
     ],
     "FED": [  # Federated Hermes
         ("aum_total", 902.6e9, "USD", "2025-12-31", "“$902.6 billion in assets under management”", 0.92),
@@ -59,27 +67,42 @@ OVERLAY: dict[str, list[tuple]] = {
         ("net_flows", 50.0e9, "USD", "2025-12-31", "ESTIMATE: long-term −$0.7bn (reported) + money-market AUM rise +$52.3bn (≈all flow at constant $1 NAV) ≈ +$50bn firmwide", 0.45, "estimate"),
         ("mgmt_fee_revenue", 1_199.236e6, "USD", "2025-12-31", "10-K revenue by obligation: “Investment Advisory $1,199,236” (thousand, FY2025)", 0.9),
         ("performance_fees", 12.5e6, "USD", "2025-12-31", "“performance fees, including carried interest, of $12.5 million” (FY2025)", 0.85),
+        ("market_cap", 4.17e9, "USD", "2026-06-26", "Market cap $4.17bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        ("dividends_per_share", 1.33, "USD/shares", "2025-12-31", "“Dividends Declared Per Share: $1.33” (FY2025)", 0.85),
     ],
     "WisdomTree": [  # WisdomTree
         ("aum_total", 144.5e9, "USD", "2025-12-31", "“AUM of $144.5 billion at December 31, 2025”", 0.95),
         ("net_flows", 8.5e9, "USD", "2025-12-31", "“net inflows of $8.5 billion” (FY2025 10-K)", 0.8),
         ("headcount", 360, "count", "2025-12-31", "“had 360 full-time employees”", 0.9),
+        ("market_cap", 2.58e9, "USD", "2026-06-26", "Market cap $2.58bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        ("dividends_per_share", 0.12, "USD/shares", "2025-12-31", "FY2025 dividends $0.12/share (4×$0.03)", 0.7, "external"),
     ],
     "JH": [  # Janus Henderson
         ("aum_total", 493.2e9, "USD", "2025-12-31", "“assets under management (“AUM”) of $493.2 billion”", 0.95),
         ("net_flows", 56.5e9, "USD", "2025-12-31", "“Net inflows for the year ended December 31, 2025, were $56.5” billion (10-K MD&A; matches the capability rollforward Total)", 0.9),
         ("headcount", 2_300, "count", "2025-12-31", "“2,300 employees”", 0.85),
+        ("market_cap", 8.0e9, "USD", "2026-06-26", "Market cap $8.0bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        ("dividends_per_share", 1.60, "USD/shares", "2025-12-31", "“quarterly dividends of US$0.40 per share for each quarter in 2025” ($1.60 FY)", 0.85),
     ],
     "AMG": [  # Affiliated Managers Group
         ("aum_total", 813.3e9, "USD", "2025-12-31", "10-K “Changes in AUM by strategy … $813.3” billion (31 Dec 2025)", 0.9),
         ("net_flows", 28.7e9, "USD", "2025-12-31", "10-K “Net client cash flows … 28.7” billion (FY2025, by-strategy Total)", 0.8),
         ("headcount", 5_600, "count", "2025-12-31", "“approximately 5,600 employees”", 0.85),
+        # AMG's XBRL OperatingIncomeLoss is stale (FY2017). Consolidated operating income FY2025 =
+        # revenue $2,074.4m − total consolidated expenses $1,805.4m = $269.0m (affiliate equity
+        # earnings sit below this line, so this is the clean CONSOLIDATED operating margin, ~13%).
+        ("operating_income", 269.0e6, "USD", "2025-12-31", "FY2025 consolidated: revenue $2,074.4m − consolidated expenses $1,805.4m = $269.0m (pre-tax incl. affiliate equity earnings = $1,186.3m)", 0.75),
+        ("market_cap", 9.03e9, "USD", "2026-06-26", "Market cap $9.03bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        ("dividends_per_share", 0.04, "USD/shares", "2025-12-31", "FY2025 dividends $0.04/share (4×$0.01)", 0.7, "external"),
     ],
     "Blackstone": [  # AUM/segments from the FY2025 earnings release (8-K Ex-99.1); not in XBRL
         ("aum_total", 1_274.9e9, "USD", "2025-12-31", "Total AUM Rollforward ending balance $1,274,931M at 31 Dec 2025 (FY2025 earnings release)", 0.92),
         ("net_flows", 127.1e9, "USD", "2025-12-31", "Total AUM Rollforward: Net Flows $127,120M FY2025 (gross Inflows $239.4bn)", 0.85),
         ("mgmt_fee_revenue", 8_075.6e6, "USD", "2025-12-31", "GAAP statements: “Management and Advisory Fees, Net $8,075,601” (thousand, FY2025)", 0.9),
         ("performance_fees", 5_283.5e6, "USD", "2025-12-31", "GAAP statements: Performance Allocations $4,305.3m + Incentive Fees $978.2m (FY2025)", 0.9),
+        ("operating_income", 7_171.6e6, "USD", "2025-12-31", "GAAP “Income Before Provision for Taxes $7,171,646” (thousand, FY2025)", 0.9),
+        ("market_cap", 141.96e9, "USD", "2026-06-26", "Market cap $141.96bn (stockanalysis.com, 26 Jun 2026)", 0.7, "external"),
+        ("dividends_per_share", 4.74, "USD/shares", "2025-12-31", "FY2025 declared distributions $4.74/unit ($0.93+$1.03+$1.29+$1.49)", 0.8),
         ("headcount", 5_285, "count", "2025-12-31", "10-K: “we employed approximately 5,285 people” (31 Dec 2025)", 0.9),
     ],
 }

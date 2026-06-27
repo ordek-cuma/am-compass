@@ -66,7 +66,7 @@ export const METRICS_BY_TAB: Partial<Record<Tab, MetricDef[]>> = {
   ],
   Capital: [
     { key: 'market_cap', label: 'Market capitalization', unit: 'USD', tile: true },
-    { key: 'pe_ratio', label: 'P/E ratio', unit: 'ratio', tile: true },
+    { key: 'pe_ratio', label: 'P/E ratio', unit: 'ratio', derived: true, tile: true },
     { key: 'dividends_per_share', label: 'Dividend per share', unit: 'USD/shares', tile: true },
     { key: 'buybacks', label: 'Share buybacks', unit: 'USD', tile: true },
     { key: 'solvency_ratio', label: 'Solvency II ratio', unit: 'pct' },

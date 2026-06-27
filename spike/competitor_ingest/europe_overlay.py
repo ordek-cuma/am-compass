@@ -32,7 +32,10 @@ EUROPE: dict[str, dict] = {
                ("headcount", 5600, "count", "“5,600 employees in 34 countries”", 0.85),
                ("num_countries", 34, "count", "“5,600 employees in 34 countries”", 0.85),
                ("mgmt_fee_revenue", 3.052, "EUR", "Amundi FY2025 P&L: “Net management fees 3,052”", 0.85),
-               ("performance_fees", 0.173, "EUR", "Amundi FY2025 P&L: “Performance fees 173”", 0.85)],
+               ("performance_fees", 0.173, "EUR", "Amundi FY2025 P&L: “Performance fees 173”", 0.85),
+               ("operating_income", 1.636, "EUR", "Amundi FY2025: “Gross operating income - Adjusted 1,636” (cost/income 52.1%)", 0.85),
+               ("market_cap", 16.95, "EUR", "Amundi market cap €16.95bn (stockanalysis.com, 26 Jun 2026)", 0.7, "2025-12-31", "external"),
+               ("dividends_per_share", 4.25, "EUR", "“we are now proposing a dividend of €4.25 per share for 2025”", 0.85)],
         breakdowns=[("aum_by_asset_class", "Equities", 623.0, "EUR", "Amundi FY2025 AUM: Equities €623bn", 0.85),
                     ("aum_by_asset_class", "Bonds", 761.0, "EUR", "Amundi FY2025 AUM: Bonds €761bn", 0.85),
                     ("aum_by_asset_class", "Multi-asset", 286.0, "EUR", "Amundi FY2025 AUM: Multi-assets €286bn", 0.85),
@@ -152,6 +155,7 @@ EUROPE: dict[str, dict] = {
                ("net_flows", 209.0, "USD", "AWM long-term AUM net flows $209bn FY2025 (total incl. liquidity $392bn)", 0.85),
                ("total_revenue", 24.073, "USD", "AWM “TOTAL NET REVENUE … 24,073” ($m FY2025)", 0.9),
                ("net_income", 6.522, "USD", "AWM “NET INCOME … 6,522” ($m FY2025, after-tax)", 0.9),
+               ("operating_income", 8.644, "USD", "AWM “Income before income tax expense … 8,644” ($m FY2025)", 0.9),
                ("headcount", 29722, "count", "AWM “Employees 29,722” (31 Dec 2025)", 0.85),
                ("num_countries", 35, "count", "J.P. Morgan AM: “portfolio managers, traders … in over 70 locations across 35 countries”", 0.8)],
         breakdowns=[("aum_by_asset_class", "Equity", 1400.0, "USD", "JPM AWM AUM: Equity $1,400bn (31 Dec 2025)", 0.9),
@@ -221,6 +225,10 @@ def build(code: str, now_iso: str) -> list[MetricObservation]:
             value = float(native)
             note = f"{basis} {key.replace('_', ' ')} = {native:,.0f} ({unit})."
             currency = None
+        elif key in ("dividends_per_share", "eps_diluted"):  # per-share: FX-convert but DON'T scale
+            unit, currency = "USD/shares", "USD"
+            value = native * FX[ccy]
+            note = f"Native {ccy} {native:,.2f}/share → USD at {FX[ccy]}; basis={basis}."
         else:  # monetary, stated in native billions → USD
             unit, currency = "USD", "USD"
             value = native * FX[ccy] * 1e9
