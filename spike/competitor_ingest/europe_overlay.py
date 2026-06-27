@@ -176,6 +176,7 @@ EUROPE: dict[str, dict] = {
         items=[("aum_total", 11092.7, "USD", "SEC Form ADV (CRD 105958): regulatory AUM “Total $11,092,665,107,962” (discretionary; valued 31 Dec 2025)", 0.9),
                ("net_flows", 240.0, "USD", "Morningstar US fund-flows 2025: Vanguard ≈$240bn net inflows (2nd-largest fund family, after iShares ≈$366bn)", 0.7, "2025-12-31", "external"),
                ("total_revenue", 7.5, "USD", "ESTIMATE (Vanguard at-cost — no income statement published): ≈0.07% asset-weighted fee × ~$10.7tn avg 2025 AUM ≈ $7.5bn", 0.4, "2025-12-31", "estimate"),
+               ("operating_margin", 0.0, "pct", "≈0% by design: Vanguard is owned by its funds and operates at-cost — surplus is returned to investors as lower fees, not booked as operating profit (≈breakeven)", 0.4, "2025-12-31", "estimate"),
                ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
                ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)],
         # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &

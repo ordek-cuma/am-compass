@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:49:19+00:00",
+  "generated_at": "2026-06-27T17:53:15+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -28884,6 +28884,24 @@
             {
               "period_end": "2025-12-31",
               "value": 7500000000.0,
+              "basis": "estimate",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 0.0,
+          "unit": "pct",
+          "basis": "estimate",
+          "confidence": 0.4,
+          "source": "results",
+          "vendor": "estimate",
+          "section": "\u22480% by design: Vanguard is owned by its funds and operates at-cost \u2014 surplus is returned to investors as lower fees, not booked as operating profit (\u2248breakeven)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 0.0,
               "basis": "estimate",
               "confidence": 0.4
             }
