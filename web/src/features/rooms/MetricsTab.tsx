@@ -1,6 +1,7 @@
 // Competitor-intelligence dashboards. Each tab = KPI tiles + detail (tables for Profitability
 // and Revenue, breakdown bars for the cuts, a cockpit for Overview). Values carry a status dot
 // + source tooltip; "Not disclosed" where pending. Organization comes from metricCatalog.ts.
+import type { ReactNode } from 'react'
 import { Empty, Panel } from '../../components/Panel'
 import { financialsFor, fmtMetric, fmtValue, statusOf, type FinBlock, type FinMetric } from '../../data/financials'
 import {
@@ -66,7 +67,30 @@ function ScalarRow({ fin, def }: { fin: FinBlock; def: MetricDef }) {
   )
 }
 
-const TEAL = ['var(--teal)', '#5DCAA5', '#9FE1CB', 'var(--blue)', '#85B7EB', 'var(--gold)']
+const TEAL = ['#1D9E75', '#5DCAA5', '#9FE1CB', '#378ADD', '#85B7EB', '#EF9F27', '#D4537E']
+
+function Donut({ items, unit = 'USD' }: { items: { label: string; value: number }[]; unit?: string }) {
+  const total = items.reduce((a, x) => a + (x.value || 0), 0)
+  if (!total) return null
+  const R = 42, C = 2 * Math.PI * R
+  let acc = 0
+  return (
+    <svg viewBox="0 0 100 100" width="116" height="116" role="img" aria-label="mix donut" style={{ flex: 'none' }}>
+      <circle cx="50" cy="50" r={R} fill="none" stroke="var(--surface-2)" strokeWidth="13" />
+      {items.map((x, i) => {
+        const frac = (x.value || 0) / total
+        const seg = (
+          <circle key={x.label} cx="50" cy="50" r={R} fill="none" stroke={TEAL[i % TEAL.length]} strokeWidth="13"
+            strokeDasharray={`${frac * C} ${C - frac * C}`} strokeDashoffset={-acc * C} transform="rotate(-90 50 50)" />
+        )
+        acc += frac
+        return seg
+      })}
+      <text x="50" y="49" textAnchor="middle" fontSize="11" fontWeight="600" fill="var(--ink-1)">{fmtValue(total, unit)}</text>
+      <text x="50" y="60" textAnchor="middle" fontSize="6" fill="var(--ink-3)">total</text>
+    </svg>
+  )
+}
 
 function shareBars(items: { label: string; value: number }[]) {
   const total = items.reduce((a, x) => a + (x.value || 0), 0)
@@ -89,14 +113,25 @@ function shareBars(items: { label: string; value: number }[]) {
   )
 }
 
+function MixPanel({ title, period, items, unit = 'USD' }: { title: ReactNode; period?: string; items: { label: string; value: number }[]; unit?: string }) {
+  return (
+    <Panel title={<>{title} {period ? <span className="muted2">FY {period.slice(0, 4)}</span> : null}</>}>
+      {items.length ? (
+        <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
+          <Donut items={items} unit={unit} />
+          <div style={{ flex: 1, minWidth: 180 }}>{shareBars(items)}</div>
+        </div>
+      ) : (
+        <div className="ph" style={{ padding: '4px 2px' }}>Not disclosed</div>
+      )}
+    </Panel>
+  )
+}
+
 function Breakdown({ fin, def }: { fin: FinBlock; def: MetricDef }) {
   const m = fin.metrics[def.key] as FinMetric | undefined
   const members = (m?.members ?? []).filter((x) => x.value != null) as { member: string; value: number }[]
-  return (
-    <Panel title={<>{def.label} {m?.period_end ? <span className="muted2">FY {m.period_end.slice(0, 4)}</span> : null}</>}>
-      {members.length ? shareBars(members.map((x) => ({ label: x.member, value: x.value }))) : <div className="ph" style={{ padding: '4px 2px' }}>Not disclosed</div>}
-    </Panel>
-  )
+  return <MixPanel title={def.label} period={m?.period_end} items={members.map((x) => ({ label: x.member, value: x.value }))} />
 }
 
 function YearTable({ fin, rows, title, grain }: { fin: FinBlock; rows: [string, string, string][]; title: string; grain?: string }) {
@@ -175,11 +210,7 @@ export function MetricsTab({ code, tab }: { code: string; tab: Tab }) {
     const items = REVENUE_LINES.filter((d) => d.key !== 'total_revenue')
       .map((d) => ({ label: d.label, value: (fin.metrics[d.key] as FinMetric | undefined)?.value }))
       .filter((x) => x.value != null) as { label: string; value: number }[]
-    return (
-      <Panel title={<>Revenue by business line {fin.metrics.total_revenue?.period_end ? <span className="muted2">FY {fin.metrics.total_revenue.period_end!.slice(0, 4)}</span> : null}</>}>
-        {items.length ? shareBars(items) : <div className="ph" style={{ padding: '4px 2px' }}>Not disclosed</div>}
-      </Panel>
-    )
+    return <MixPanel title="Revenue by business line" period={fin.metrics.total_revenue?.period_end} items={items} />
   }
 
   const defs = METRICS_BY_TAB[tab] ?? []
