@@ -100,6 +100,7 @@ EUROPE: dict[str, dict] = {
                ("net_flows", -1.6, "GBP", "M&G FY2025: total net client flows £(1.6)bn (open business +£7.8bn)", 0.85),
                ("net_income", 0.314, "GBP", "M&G FY2025: “IFRS result after tax attributable … profit of £314 million”", 0.9),
                ("operating_income", 0.838, "GBP", "M&G FY2025: “Adjusted operating profit before tax … £838 million”", 0.9),
+               ("operating_margin", 25.0, "pct", "M&G Asset Management FY2025 cost/income ratio 75% (recurring revenue £1,066m) → 25% operating margin", 0.8),
                ("headcount", 8282, "count", "M&G FY2025: “Average staff headcount 8,282” (>6,000 permanent)", 0.8),
                ("dividends_per_share", 0.205, "GBP", "M&G FY2025: “total dividend of 20.5 pence per share”", 0.85),
                ("market_cap", 8.0, "GBP", "M&G market cap ≈£8.0bn (aggregator, 26 Jun 2026)", 0.65, "2026-06-26", "external")],

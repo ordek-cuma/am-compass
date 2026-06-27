@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:35:17+00:00",
+  "generated_at": "2026-06-27T17:49:19+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -23460,6 +23460,24 @@
               "value": 1064260000.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 25.0,
+          "unit": "pct",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "M&G Asset Management FY2025 cost/income ratio 75% (recurring revenue \u00a31,066m) \u2192 25% operating margin",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 25.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
