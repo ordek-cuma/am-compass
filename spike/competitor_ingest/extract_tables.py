@@ -12,51 +12,61 @@ from .schema import MetricObservation
 # Firms whose 10-K MD&A uses the BlackRock-style "AUM by asset class" + region rollforward.
 TABLE_FIRMS = {"BL"}
 
-# Canonical member ← row-label prefixes (cross-firm; AMs name asset classes consistently).
+# Canonical member ← row-label prefixes (cross-firm; labels are hyphen-normalised before match).
 _ASSET_ROWS = [
     ("Equity", ["equity"]),
     ("Fixed income", ["fixed income"]),
-    ("Multi-asset", ["multi-asset", "multi asset", "balanced", "asset allocation"]),
+    ("Multi-asset", ["multi asset", "balanced", "asset allocation"]),
     ("Money market / cash", ["cash management", "money market", "stable value", "liquidity"]),
-    ("Alternatives", ["alternatives", "alternative"]),
+    ("Alternatives", ["alternative"]),  # "alternatives", "alternative / private markets"
     ("Real assets / RE", ["real estate", "real assets"]),
 ]
 _REGION_ROWS = [("Americas", "americas"), ("EMEA", "emea"), ("Asia-Pacific", "asia-pacific")]
+_REGION_MEMBERS = [
+    ("Americas", ["americas", "north america"]),
+    ("EMEA", ["emea", "europe"]),
+    ("Asia-Pacific", ["asia pacific", "apac", "asia"]),
+]
+
+
+def _breakdown(cid, tbls, key, member_rows, anchors, now, period, aum_hint, cut_label) -> list[MetricObservation]:
+    """Generic, reconciliation-guarded AuM breakdown (asset class, region, …). Hyphen-normalises
+    labels, aggregates leaf rows per member, auto-detects scale ($m/$bn), and — across ALL
+    candidate tables — records the one that reconciles BEST to the firm's known AuM (≤8%),
+    preferring an as-of table over an average/rollforward. A wrong table is rejected, not recorded."""
+    if not aum_hint:
+        return []
+    ref = aum_hint / 1e6
+    best = None  # (diff, agg, scale)
+    for t in tables.find(tbls, anchors):
+        flat = " ".join(c for r in t for c in r).lower()
+        if any(x in flat for x in ("net inflows", "market change", "marketchange", "performance", "average", "outperform")):
+            continue
+        agg: dict[str, float] = {}
+        for member, pats in member_rows:
+            for row in t:
+                lab = (row[0] or "").strip().lower().replace("-", " ")
+                if any(p in lab for p in pats) and not any(x in lab for x in ("total", "subtotal", "long term", "% of", "weighted")):
+                    vals = _bignums(row, floor=1)
+                    if vals:
+                        agg[member] = agg.get(member, 0) + vals[0]
+        if len(agg) < 2:
+            continue
+        s = sum(agg.values())
+        for scale, sv in ((1e6, s), (1e9, s * 1000)):
+            diff = abs(sv - ref) / ref
+            if diff < 0.08 and (best is None or diff < best[0]):
+                best = (diff, dict(agg), scale)
+    if best:
+        _, agg, scale = best
+        return [_obs(cid, key, v * scale, m, period, now,
+                     f"10-K {cut_label}: {m} ${v * scale / 1e9:,.1f}B (reconciled to firm AuM)")
+                for m, v in agg.items()]
+    return []
 
 
 def _aum_by_asset_class(cid, tbls, now, period, aum_hint=None) -> list[MetricObservation]:
-    """Generic, reconciliation-guarded AuM-by-asset-class. Aggregates leaf rows per class (so a
-    firm that splits 'U.S. equity' / 'International equity' rolls up to Equity), auto-detects the
-    table's scale (millions vs billions) against the firm's known AuM, and records the members
-    ONLY if they reconcile to within 8% of the firm's total — a mis-identified table is rejected
-    rather than recorded wrong."""
-    for t in tables.find(tbls, ["Equity", "Fixed income", "Total"]):
-        flat = " ".join(c for r in t for c in r).lower()
-        if "net inflows" in flat or "market change" in flat or "marketchange" in flat or "performance" in flat:
-            continue
-        agg: dict[str, float] = {}
-        for member, pats in _ASSET_ROWS:
-            for row in t:
-                lab = (row[0] or "").strip().lower()
-                if any(p in lab for p in pats) and not any(x in lab for x in ("total", "subtotal", "long-term", "% of", "weighted")):
-                    vals = _bignums(row, floor=1)
-                    if vals:
-                        agg[member] = agg.get(member, 0) + vals[0]  # leaf rows roll up to the class
-        if len(agg) < 2 or not aum_hint:
-            continue
-        s = sum(agg.values())
-        ref = aum_hint / 1e6  # firm's known AuM, in $m — the ONLY reconciliation reference (external)
-        # the table may be in $m or $bn; accept whichever scale matches the firm's AuM within 8%
-        if abs(s - ref) / ref < 0.08:
-            scale = 1e6
-        elif abs(s * 1000 - ref) / ref < 0.08:
-            scale = 1e9
-        else:
-            continue  # doesn't reconcile to the firm's AuM at either scale → reject the table
-        return [_obs(cid, "aum_by_asset_class", v * scale, m, period, now,
-                     f"10-K AUM by asset class: {m} ${v * scale / 1e9:,.1f}B (reconciled to firm AuM)")
-                for m, v in agg.items()]
-    return []
+    return _breakdown(cid, tbls, "aum_by_asset_class", _ASSET_ROWS, ["Equity", "Total"], now, period, aum_hint, "AUM by asset class")
 
 
 def _obs(cid, key, value, member, period, now, quote, unit="USD",
@@ -230,7 +240,12 @@ def extract(cid: str, cik: str, now: str, period: str = "2025-12-31", aum_hint=N
         out.append(_obs(cid, "num_countries", int(m.group(1)), "", "2025-12-31", now,
                         f"10-K: “in {m.group(0)[3:]}”", unit="count", note="10-K business section."))
 
-    # AuM by client region — the rollforward (ending AuM = last big number in each row).
+    # AuM by client region — first try a point-in-time table (reconciled, catches Invesco's
+    # by-domicile split); else fall back to the BlackRock-style rollforward (ending = last big num).
+    region = _breakdown(cid, tbls, "aum_by_region", _REGION_MEMBERS,
+                        ["Americas", "Total"], now, period, aum_hint, "AUM by region")
+    if region:
+        return out + region
     for t in tables.find(tbls, ["Americas", "EMEA", "Asia-Pacific", "Total"]):
         if not any((r[0] or "").strip().lower().startswith("americas") and _bignums(r) for r in t):
             continue

@@ -70,6 +70,45 @@ OVERLAY: dict[str, list[tuple]] = {
 }
 
 
+# Cited AuM breakdowns the table parser can't safely auto-reconcile (disclosed only on an
+# average basis, or split across tangled rollforward sub-tables). Read verbatim from each 10-K;
+# every member reconciles to the firm's disclosed total. competitor_id ->
+# [(metric_key, member, value_base_units, unit, period_end, source_quote, confidence)].
+BREAKDOWN: dict[str, list[tuple]] = {
+    # T. Rowe Price discloses asset-class split ONLY on an AVERAGE-AUM basis (10-K MD&A
+    # "Average AUM (in billions)"); ending AUM is not split by class. Members sum to the
+    # disclosed FY2025 average AUM of $1,677.3B. Quoted as average — mix proportions are the signal.
+    "TROW": [
+        ("aum_by_asset_class", "Equity", 840.9e9, "USD", "2025-12-31", "10-K “Average AUM (in billions): Equity 840.9” (FY2025)", 0.9),
+        ("aum_by_asset_class", "Multi-asset", 580.7e9, "USD", "2025-12-31", "10-K “Average AUM … Multi-asset 580.7” (FY2025)", 0.9),
+        ("aum_by_asset_class", "Fixed income / money market", 201.0e9, "USD", "2025-12-31", "10-K “Average AUM … Fixed income, including money market 201.0” (FY2025)", 0.9),
+        ("aum_by_asset_class", "Alternatives", 54.7e9, "USD", "2025-12-31", "10-K “Average AUM … Alternatives 54.7” (FY2025)", 0.9),
+    ],
+    # WisdomTree (ETF issuer) discloses AUM by product category only in per-category rollforward
+    # sub-tables. Ending (End-of-period) assets, FY2025 10-K, $M; the 8 categories + Private
+    # Assets sum to the firm's $144,524M total AUM. Native categories kept (the real ETF mix).
+    "WisdomTree": [
+        ("aum_by_asset_class", "U.S. Equity", 41_428e6, "USD", "2025-12-31", "10-K product-category rollforward: U.S. Equity end-of-period assets $41,428M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Commodity & Currency", 36_980e6, "USD", "2025-12-31", "10-K: Commodity & Currency end-of-period assets $36,980M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Int'l Developed Equity", 25_616e6, "USD", "2025-12-31", "10-K: International Developed Market Equity end-of-period assets $25,616M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Fixed Income", 21_074e6, "USD", "2025-12-31", "10-K: Fixed Income end-of-period assets $21,074M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Emerging Market Equity", 10_643e6, "USD", "2025-12-31", "10-K: Emerging Market Equity end-of-period assets $10,643M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Leveraged & Inverse", 3_275e6, "USD", "2025-12-31", "10-K: Leveraged & Inverse end-of-period assets $3,275M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Cryptocurrency", 2_242e6, "USD", "2025-12-31", "10-K: Cryptocurrency end-of-period assets $2,242M (FY2025)", 0.9),
+        ("aum_by_asset_class", "Private Assets", 1_889e6, "USD", "2025-12-31", "10-K: Private Assets end-of-period assets $1,889M (FY2025, Ceres acquisition)", 0.85),
+        ("aum_by_asset_class", "Alternatives", 1_377e6, "USD", "2025-12-31", "10-K: Alternatives end-of-period assets $1,377M (FY2025)", 0.9),
+    ],
+    # Janus Henderson discloses AUM by capability in a closing-AUM rollforward (ending column).
+    # Closing AUM at 31 Dec 2025 by capability; members reconcile exactly to the $493.2B total.
+    "JH": [
+        ("aum_by_asset_class", "Equities", 256.6e9, "USD", "2025-12-31", "10-K capability rollforward: Equities closing AUM $256.6B (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Fixed Income", 155.8e9, "USD", "2025-12-31", "10-K capability rollforward: Fixed Income closing AUM $155.8B (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Multi-Asset", 58.8e9, "USD", "2025-12-31", "10-K capability rollforward: Multi-Asset closing AUM $58.8B (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Alternatives", 22.0e9, "USD", "2025-12-31", "10-K capability rollforward: Alternatives closing AUM $22.0B (31 Dec 2025)", 0.9),
+    ],
+}
+
+
 def overlay(competitor_id: str, now_iso: str, source_url: str = "") -> list[MetricObservation]:
     out: list[MetricObservation] = []
     for key, value, unit, period_end, quote, conf in OVERLAY.get(competitor_id, []):
@@ -83,6 +122,25 @@ def overlay(competitor_id: str, now_iso: str, source_url: str = "") -> list[Metr
             period_end=period_end,
             basis="reported",
             definition_note="Hand-verified from the 10-K (analyst overlay; pending LLM extractor).",
+            source_doc="10-K",
+            source_url=source_url,
+            source_section=quote,
+            confidence=conf,
+            extracted_by="analyst",
+            extracted_at=now_iso,
+        ))
+    for key, member, value, unit, period_end, quote, conf in BREAKDOWN.get(competitor_id, []):
+        out.append(MetricObservation(
+            competitor_id=competitor_id,
+            metric_key=key,
+            member=member,
+            value=float(value),
+            unit=unit,
+            currency="USD" if unit == "USD" else None,
+            period_type="FY",
+            period_end=period_end,
+            basis="reported",
+            definition_note="Hand-verified AuM breakdown from the 10-K (analyst overlay; reconciles to disclosed total).",
             source_doc="10-K",
             source_url=source_url,
             source_section=quote,

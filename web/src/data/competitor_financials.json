@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:53:14+00:00",
+  "generated_at": "2026-06-27T12:11:36+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -3960,6 +3960,36 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "10-K \u201cAverage AUM (in billions): Equity 840.9\u201d (FY2025)",
+          "members": [
+            {
+              "member": "Equity",
+              "value": 840900000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-asset",
+              "value": 580700000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed income / money market",
+              "value": 201000000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 54700000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
         "mgmt_fee_revenue": {
           "value": 6602300000.0,
           "unit": "USD",
@@ -4192,6 +4222,23 @@
             {
               "period_end": "2025-12-31",
               "value": 941052,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 3.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3.1,
               "basis": "derived",
               "confidence": 0.9
             }
@@ -4877,6 +4924,31 @@
               "period_end": "2025-12-31",
               "value": 20.0,
               "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "aum_by_region": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K AUM by region: Americas $1,492.4B (reconciled to firm AuM)",
+          "members": [
+            {
+              "member": "Americas",
+              "value": 1492400000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "EMEA",
+              "value": 356500000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Asia-Pacific",
+              "value": 321000000000.0,
               "confidence": 0.92
             }
           ]
@@ -8332,6 +8404,41 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K AUM by asset class: Equity $97.9B (reconciled to firm AuM)",
+          "members": [
+            {
+              "member": "Money market / cash",
+              "value": 682604000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Fixed income",
+              "value": 100127000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Equity",
+              "value": 97898000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Alternatives",
+              "value": 19101000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Multi-asset",
+              "value": 2854000000.0,
+              "confidence": 0.92
+            }
+          ]
+        },
         "operating_margin": {
           "value": 28.5,
           "unit": "pct",
@@ -8503,6 +8610,23 @@
               "value": 861149,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 2.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.92,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.1,
+              "basis": "derived",
+              "confidence": 0.92
             }
           ]
         }
@@ -9071,6 +9195,61 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "10-K",
+          "section": "10-K product-category rollforward: U.S. Equity end-of-period assets $41,428M (FY2025)",
+          "members": [
+            {
+              "member": "U.S. Equity",
+              "value": 41428000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Commodity & Currency",
+              "value": 36980000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Int'l Developed Equity",
+              "value": 25616000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed Income",
+              "value": 21074000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Emerging Market Equity",
+              "value": 10643000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Leveraged & Inverse",
+              "value": 3275000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Cryptocurrency",
+              "value": 2242000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Private Assets",
+              "value": 1889000000.0,
+              "confidence": 0.85
+            },
+            {
+              "member": "Alternatives",
+              "value": 1377000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
         "mgmt_fee_revenue": {
           "value": 439987000.0,
           "unit": "USD",
@@ -9328,6 +9507,23 @@
               "value": 1371536,
               "basis": "derived",
               "confidence": 0.9
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 1.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1.0,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         }
@@ -9790,6 +9986,36 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "10-K",
+          "section": "10-K capability rollforward: Equities closing AUM $256.6B (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Equities",
+              "value": 256600000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fixed Income",
+              "value": 155800000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-Asset",
+              "value": 58800000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Alternatives",
+              "value": 22000000000.0,
+              "confidence": 0.9
+            }
+          ]
+        },
         "aum_per_employee": {
           "value": 214434783,
           "unit": "USD",
@@ -9821,6 +10047,23 @@
               "value": 257391,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "pct_alternatives": {
+          "value": 4.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "section": "aum_by_asset_class + aum_total",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.5,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         }
