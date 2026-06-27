@@ -41,6 +41,7 @@ ADV: dict[str, dict] = {
     "PGIM":          dict(entity="PGIM, Inc.", crd="105676", sec_file="801-22808", filed="2026-04-28", raum=1_131_638_605_327, employees=1_990, advisory=1_350, accounts=938),
     "SSgA":          dict(entity="SSGA Funds Management, Inc.", crd="111242", sec_file="801-60103", filed="2026-03-31", raum=1_420_653_842_286, employees=241, advisory=220, accounts=287),
     "UBS":           dict(entity="UBS Asset Management (Americas) LLC", crd="106838", sec_file="801-49972", filed="2026-03-31", raum=588_219_618_121, employees=574, advisory=260, accounts=433_784),
+    "Capital Group": dict(entity="Capital Research and Management Company", crd="110885", sec_file="801-8273", filed="2026-05-29", raum=3_753_542_800_892, employees=1_417, advisory=393, accounts=22_833),
 }
 
 

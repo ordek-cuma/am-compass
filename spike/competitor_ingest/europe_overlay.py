@@ -193,6 +193,13 @@ EUROPE: dict[str, dict] = {
                ("mgmt_fee_revenue", 6.159, "EUR", "Allianz FY2025: PIMCO AuM-driven & other revenues €6,159m", 0.8),
                ("performance_fees", 0.290, "EUR", "Allianz FY2025: PIMCO performance fees €290m", 0.8),
                ("headcount", 3100, "count", "PIMCO: “over 3,100 employees working in 22 offices” (pimco.com; Allianz doesn't split AM headcount)", 0.6, "2025-12-31", "external")]),
+    # Capital Group (home of the American Funds) is privately/employee-owned — no income statement
+    # exists, so revenue/profit/net-flows are structurally undisclosed (NOT FOUND). RAUM + adviser
+    # staff come via Form ADV (Capital Research and Management Company, CRD 110885).
+    "Capital Group": dict(name="Capital Group", regime="Private / Mutual", src="https://www.capitalgroup.com/about-us.html",
+        items=[("aum_total", 3300.0, "USD", "“$3.3T+ … as of December 31, 2025” (Capital Group company facts)", 0.85),
+               ("headcount", 9300, "count", "“9,300+ associates” worldwide (31 Dec 2025)", 0.8),
+               ("num_countries", 15, "count", "“33 offices in 15 countries”", 0.8)]),
     # ---- US group filers: AM-SEGMENT data (parent group financials are not AM-specific) ----
     "SSgA": dict(name="State Street Global Advisors", regime="US-listed", src="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000093751&type=10-K",
         items=[("aum_total", 5665.0, "USD", "“Total $5,665” (AUM by asset class, 31 Dec 2025; 10-K Table 6)", 0.9),
