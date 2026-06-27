@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T16:51:38+00:00",
+  "generated_at": "2026-06-27T17:10:46+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -29898,7 +29898,39 @@
           ]
         }
       },
-      "period_end": "2025-12-31"
+      "period_end": "2025-12-31",
+      "documents": [
+        {
+          "name": "Capital Group report",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3366930,
+          "edgarUrl": "https://www.capitalgroup.com/individual/pdf/shareholder/ITGEBR-210-1068939.pdf",
+          "file": "filings/Capital_Group/docs/w0f89da51c74084d4.pdf"
+        },
+        {
+          "name": "ESG BROCHURE",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1866193,
+          "edgarUrl": "https://www.capitalgroup.com/advisor/pdf/shareholder/ITGEBR-038-645921.pdf",
+          "file": "filings/Capital_Group/docs/w18a3cab72cb55a88.pdf"
+        },
+        {
+          "name": "2024 REPORT",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2024-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2053203,
+          "edgarUrl": "https://www.capitalgroup.com/individual/pdf/shareholder/ITGEBR-081-1021544.pdf",
+          "file": "filings/Capital_Group/docs/wcc8aee6d67e8631a.pdf"
+        }
+      ]
     }
   }
 }
