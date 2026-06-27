@@ -7,16 +7,22 @@ import { Panel } from '../../components/Panel'
 import { Icon } from '../../components/icons'
 
 type Fetcher = { code: string; name: string; method: string; docs: number; lastCrawl: string | null; ok: boolean }
+type Other = { code: string; name: string; note: string; kind: string; docs: number; lastCrawl: string | null }
 
 export function DocumentFetcher() {
   const [rows, setRows] = useState<Fetcher[] | null>(null)
+  const [others, setOthers] = useState<Other[]>([])
   const [offline, setOffline] = useState(false)
 
   useEffect(() => {
     let live = true
     fetch('/api/fetchers')
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error('offline'))))
-      .then((d) => live && setRows(d.fetchers as Fetcher[]))
+      .then((d) => {
+        if (!live) return
+        setRows(d.fetchers as Fetcher[])
+        setOthers((d.others as Other[]) ?? [])
+      })
       .catch(() => live && setOffline(true))
     return () => {
       live = false
@@ -27,13 +33,18 @@ export function DocumentFetcher() {
     () => ({ total: rows?.reduce((a, r) => a + r.docs, 0) ?? 0, green: rows?.filter((r) => r.ok).length ?? 0 }),
     [rows],
   )
+  const tracked = (rows?.length ?? 0) + others.length
 
   return (
     <>
       <ModuleHeader
         crumb={<>Compass <b>›</b> Settings <b>›</b> Data Fetcher <b>›</b> Document Fetcher</>}
         title={<>Document <span className="em">Fetcher</span></>}
-        sub="Every dedicated document fetcher (per-competitor scraper), its fetch methodology, last run, document count and health test. Live status from the local control server."
+        sub={
+          rows
+            ? `${tracked} competitors tracked · ${rows.length} dedicated fetchers, ${others.length} inherited or overlay-only. Methodology, last run, document count and health test — live from the local control server.`
+            : 'Every dedicated document fetcher (per-competitor scraper), its fetch methodology, last run, document count and health test. Live status from the local control server.'
+        }
       />
       <div className="view">
         {offline ? (
@@ -101,6 +112,52 @@ export function DocumentFetcher() {
             </div>
           </Panel>
         )}
+
+        {!offline && others.length > 0 ? (
+          <Panel
+            title={<>Inherited / overlay-only <span className="muted2">{others.length} competitors · no dedicated fetcher</span></>}
+            bodyStyle={{ padding: 0 }}
+          >
+            <div className="tbl-wrap">
+              <table className="tbl">
+                <thead>
+                  <tr>
+                    <th>Competitor</th>
+                    <th>Coverage</th>
+                    <th className="num">Documents</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {others.map((o) => (
+                    <tr key={o.code}>
+                      <td>
+                        <span className="co-link">
+                          <Icon name="building" size={14} />
+                          {o.name}
+                        </span>
+                        <div className="tk-tick">{o.code}</div>
+                      </td>
+                      <td style={{ color: 'var(--ink-2)', whiteSpace: 'nowrap' }}>{o.note}</td>
+                      <td className="num">{o.docs || <span className="ph">—</span>}</td>
+                      <td>
+                        <span className={`badge ${o.kind === 'covered' ? 'system' : o.kind === 'overlay' ? 'instance' : 'draft'}`}>
+                          {o.kind === 'covered' ? 'Inherited' : o.kind === 'overlay' ? 'Overlay-only' : 'No source'}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="sub-note">
+              These competitors have no dedicated fetcher: <b>Inherited</b> = documents come from a parent already fetched (PIMCO
+              via Allianz, Deka Immobilien via DekaBank); <b>Overlay-only</b> = tracked on financial numbers, parent rollup not
+              crawled; <b>No source</b> = no public document source (Universal Investment's accounts are Bundesanzeiger-only,
+              captcha-gated).
+            </div>
+          </Panel>
+        ) : null}
       </div>
     </>
   )
