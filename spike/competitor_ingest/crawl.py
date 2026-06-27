@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 from . import config as C
-from . import derive, edgar, europe_overlay, extract_tables, extract_xbrl, form_adv, manifest, manual_overlay, registry, scrapers, web
+from . import derive, edgar, europe_overlay, extract_tables, extract_xbrl, form_adv, manifest, manual_overlay, market_data, registry, scrapers, web
 
 ARCHIVE = C.OUT_DIR / "archive"
 WEB_DATA = C.OUT_DIR.parents[2] / "web" / "src" / "data" / "competitor_financials.json"
@@ -349,12 +349,12 @@ def _metrics_block(obs: list) -> dict:
         scalars = [o for o in lst if not o.member and o.value is not None]
         if not scalars:
             continue
-        latest = max(scalars, key=lambda o: o.period_end)
         per: dict[str, object] = {}
         for o in scalars:  # one (highest-confidence) obs per period
             cur = per.get(o.period_end)
             if cur is None or o.confidence > cur.confidence:
                 per[o.period_end] = o
+        latest = per[max(per)]  # flat value = highest-confidence obs of the latest period
         history = [{"period_end": p, "value": h.value, "basis": h.basis, "confidence": h.confidence}
                    for p, h in sorted(per.items(), reverse=True)][:5]
         out[key] = {"value": latest.value, "unit": latest.unit, "basis": latest.basis,
@@ -397,6 +397,7 @@ def refresh_metrics() -> dict:
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
         tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
                  key=lambda o: o.period_end, default=None)
+        obs += market_data.build(cid, cik, now)
         obs += extract_tables.extract(cid, cik, now, period=(tr.period_end if tr else "2025-12-31"),
                                       aum_hint=aum, rev_hint=(tr.value if tr else None))
         obs += form_adv.build(cid, now)
@@ -455,6 +456,7 @@ def run(only: str | None = None, force: bool = False) -> dict:
         aum = next((o.value for o in obs if o.metric_key == "aum_total" and not o.member), None)
         tr = max((o for o in obs if o.metric_key == "total_revenue" and not o.member and o.value),
                  key=lambda o: o.period_end, default=None)
+        obs += market_data.build(comp.competitor_id, cik, now)
         obs += extract_tables.extract(comp.competitor_id, cik, now, period=(tr.period_end if tr else "2025-12-31"),
                                       aum_hint=aum, rev_hint=(tr.value if tr else None))
         obs += form_adv.build(comp.competitor_id, now)

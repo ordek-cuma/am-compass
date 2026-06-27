@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T15:34:00+00:00",
+  "generated_at": "2026-06-27T15:50:25+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -7,7 +7,7 @@
       "ticker": "BLK",
       "regime": "US-listed",
       "cik": "0002012383",
-      "period_end": "2025-12-31",
+      "period_end": "2026-06-26",
       "documents": [
         {
           "name": "May 22, 2026 - Form 8-K",
@@ -3038,15 +3038,21 @@
           ]
         },
         "market_cap": {
-          "value": 159000000000.0,
+          "value": 149458836072.51,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "analyst",
-          "section": "10-K cover: \u201caggregate market value of \u2026 common stock held by nonaffiliates \u2026 approximately $159 billion\u201d (float at 30 Jun 2025)",
-          "period_end": "2025-06-30",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "BLK $964.71 USD (Yahoo Finance close 2026-06-26) \u00d7 154,926,181 shares outstanding (SEC XBRL) = market cap $149.5bn",
+          "period_end": "2026-06-26",
           "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 149458836072.51,
+              "basis": "external",
+              "confidence": 0.85
+            },
             {
               "period_end": "2025-06-30",
               "value": 159000000000.0,
@@ -3503,20 +3509,20 @@
           ]
         },
         "pe_ratio": {
-          "value": 28.6,
+          "value": 26.9,
           "unit": "ratio",
           "basis": "derived",
-          "confidence": 0.7,
+          "confidence": 0.85,
           "source": "derived",
           "vendor": "derive",
           "section": "market_cap + net_income",
-          "period_end": "2025-06-30",
+          "period_end": "2026-06-26",
           "history": [
             {
-              "period_end": "2025-06-30",
-              "value": 28.6,
+              "period_end": "2026-06-26",
+              "value": 26.9,
               "basis": "derived",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -4076,20 +4082,20 @@
           ]
         },
         "market_cap": {
-          "value": 23620000000.0,
+          "value": 23627178643.62,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $23.62bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "TROW $110.27 USD (Yahoo Finance close 2026-06-26) \u00d7 214,266,606 shares outstanding (SEC XBRL) = market cap $23.6bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 23620000000.0,
+              "value": 23627178643.62,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -5000,13 +5006,13 @@
           ]
         },
         "num_countries": {
-          "value": 120.0,
+          "value": 20.0,
           "unit": "count",
           "basis": "reported",
-          "confidence": 0.8,
+          "confidence": 0.92,
           "source": "10-K",
-          "vendor": "analyst",
-          "section": "\u201cWe service our clients in 120+ countries\u201d (Invesco corporate)",
+          "vendor": "table-parse",
+          "section": "10-K: \u201cin more than 20 countries\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -5018,20 +5024,20 @@
           ]
         },
         "market_cap": {
-          "value": 11600000000.0,
+          "value": 11596639814.64,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $11.6bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "IVZ $26.16 USD (Yahoo Finance close 2026-06-26) \u00d7 443,296,629 shares outstanding (SEC XBRL) = market cap $11.6bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 11600000000.0,
+              "value": 11596639814.64,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -6285,20 +6291,20 @@
           ]
         },
         "market_cap": {
-          "value": 17260000000.0,
+          "value": 17257150150.02,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $17.26bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "BEN $33.21 USD (Yahoo Finance close 2026-06-26) \u00d7 519,637,162 shares outstanding (SEC XBRL) = market cap $17.3bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 17260000000.0,
+              "value": 17257150150.02,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -8751,10 +8757,10 @@
           "value": 1199236000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "10-K",
-          "vendor": "analyst",
-          "section": "10-K revenue by obligation: \u201cInvestment Advisory $1,199,236\u201d (thousand, FY2025)",
+          "vendor": "table-parse",
+          "section": "10-K income statement: Investment Advisory Fees, net 1,199,236.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -9679,20 +9685,20 @@
           ]
         },
         "market_cap": {
-          "value": 2580000000.0,
+          "value": 2630589792.4,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $2.58bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "WT $17.20 USD (Yahoo Finance close 2026-06-26) \u00d7 152,941,267 shares outstanding (SEC XBRL) = market cap $2.6bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 2580000000.0,
+              "value": 2630589792.4,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -10546,20 +10552,20 @@
           ]
         },
         "market_cap": {
-          "value": 8000000000.0,
+          "value": 8001146323.44,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $8.0bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "JHG $51.93 USD (Yahoo Finance close 2026-06-26) \u00d7 154,075,608 shares outstanding (SEC XBRL) = market cap $8.0bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 8000000000.0,
+              "value": 8001146323.44,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -11346,20 +11352,20 @@
           ]
         },
         "market_cap": {
-          "value": 9030000000.0,
+          "value": 9032404828.300001,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.7,
-          "source": "10-K",
-          "vendor": "tracker",
-          "section": "Market cap $9.03bn (stockanalysis.com, 26 Jun 2026)",
+          "confidence": 0.85,
+          "source": "Market data",
+          "vendor": "market-data",
+          "section": "AMG $341.98 USD (Yahoo Finance close 2026-06-26) \u00d7 26,412,085 shares outstanding (SEC XBRL) = market cap $9.0bn",
           "period_end": "2026-06-26",
           "history": [
             {
               "period_end": "2026-06-26",
-              "value": 9030000000.0,
+              "value": 9032404828.300001,
               "basis": "external",
-              "confidence": 0.7
+              "confidence": 0.85
             }
           ]
         },
@@ -13426,13 +13432,13 @@
           ]
         },
         "mgmt_fee_revenue": {
-          "value": 8075600000.0,
+          "value": 8075601000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "10-K",
-          "vendor": "analyst",
-          "section": "GAAP statements: \u201cManagement and Advisory Fees, Net $8,075,601\u201d (thousand, FY2025)",
+          "vendor": "table-parse",
+          "section": "10-K income statement: Management and Advisory Fees, Net 8,075,601.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -13456,13 +13462,13 @@
           ]
         },
         "performance_fees": {
-          "value": 5283500000.0,
+          "value": 978202000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "source": "10-K",
-          "vendor": "analyst",
-          "section": "GAAP statements: Performance Allocations $4,305.3m + Incentive Fees $978.2m (FY2025)",
+          "vendor": "table-parse",
+          "section": "10-K income statement: Incentive Fees 978,202.0 (2025)",
           "period_end": "2025-12-31",
           "history": [
             {

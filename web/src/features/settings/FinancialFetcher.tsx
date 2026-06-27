@@ -21,8 +21,10 @@ const VENDORS: Record<string, VendorMeta> = {
     desc: 'Cited figures from European annual reports, Universal Registration Documents and FY results releases. Native currency → USD at a stated period-end FX rate.' },
   'form-adv': { name: 'SEC Form ADV (IAPD)', type: 'Regulatory filing', tier: 1,
     url: 'https://adviserinfo.sec.gov', desc: 'Item 5 regulatory AUM, adviser-entity staff and account counts. Single-entity scope — a regulatory cross-check, not the brand’s marketed AUM/headcount.' },
+  'market-data': { name: 'Market data — live (Yahoo Finance × SEC)', type: 'Computed from market data', tier: 2,
+    url: 'https://finance.yahoo.com', desc: 'Live market cap recomputed on every crawl: Yahoo Finance share price × SEC XBRL shares outstanding (no API key). P/E re-derives from it.' },
   tracker: { name: 'Market data & industry trackers', type: 'Third-party (attributed)', tier: 2,
-    desc: 'Market data and fund-flow trackers where the company discloses nothing firm-level (e.g. market cap from stockanalysis.com, fund flows from Morningstar). Attributed, dated.' },
+    desc: 'Market data and fund-flow trackers where the company discloses nothing firm-level (e.g. fund flows from Morningstar). Attributed, dated.' },
   estimate: { name: 'Transparent model estimate', type: 'Derived estimate', tier: 3,
     desc: 'A clearly-flagged estimate where no figure is published at all (e.g. Vanguard at-cost revenue). The method is shown on every value; never presented as a reported fact.' },
   derive: { name: 'Derived (computed)', type: 'Computed in-pipeline', tier: 4,
@@ -62,7 +64,7 @@ export function FinancialFetcher() {
         points++
       }
     }
-    const order = ['xbrl', 'table-parse', 'analyst', 'analyst-eu', 'form-adv', 'tracker', 'estimate', 'derive']
+    const order = ['xbrl', 'table-parse', 'analyst', 'analyst-eu', 'form-adv', 'market-data', 'tracker', 'estimate', 'derive']
     const vendorRows = order
       .filter((v) => vAgg[v])
       .map((v) => ({ key: v, meta: VENDORS[v], ...vAgg[v] }))
