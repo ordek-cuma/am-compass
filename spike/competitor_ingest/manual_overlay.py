@@ -58,6 +58,7 @@ OVERLAY: dict[str, list[tuple]] = {
     ],
     "JH": [  # Janus Henderson
         ("aum_total", 493.2e9, "USD", "2025-12-31", "“assets under management (“AUM”) of $493.2 billion”", 0.95),
+        ("net_flows", 56.5e9, "USD", "2025-12-31", "“Net inflows for the year ended December 31, 2025, were $56.5” billion (10-K MD&A; matches the capability rollforward Total)", 0.9),
         ("headcount", 2_300, "count", "2025-12-31", "“2,300 employees”", 0.85),
     ],
     "AMG": [  # Affiliated Managers Group
@@ -66,6 +67,7 @@ OVERLAY: dict[str, list[tuple]] = {
     ],
     "Blackstone": [  # AUM isn't in XBRL; from the FY2025 8-K
         ("aum_total", 1_241.7e9, "USD", "2025-12-31", "Total AUM $1,241.7bn at 31 Dec 2025 (fee-earning $906.2bn) — FY2025 8-K", 0.9),
+        ("headcount", 5_285, "count", "2025-12-31", "10-K: “we employed approximately 5,285 people” (31 Dec 2025)", 0.9),
     ],
 }
 
