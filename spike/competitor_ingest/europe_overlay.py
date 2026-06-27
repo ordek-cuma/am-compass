@@ -186,7 +186,11 @@ EUROPE: dict[str, dict] = {
                ("operating_margin", 11.8, "pct", "Vanguard UK ENTITY ONLY (CH 07243412) — FY2023: revenue £169.1m, operating profit £19.9m → 11.8%. NOT global Vanguard.", 0.6, "2023-12-31", "external"),
                ("operating_margin", 11.6, "pct", "Vanguard UK ENTITY ONLY (CH 07243412) — FY2024: revenue £210.7m, operating profit £24.4m (PBT £24.3m) → 11.6%. NOT global Vanguard (US parent at-cost, no consolidated P&L).", 0.6, "2024-12-31", "external"),
                ("effective_fee_rate", 7.0, "bps", "“0.07% Asset-weighted average U.S. mutual fund and ETF expenses” (2025) = its fee yield", 0.85),
-               ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85)],
+               ("headcount", 20000, "count", "“Approximate number of crew (employees) worldwide, as of December 31, 2025 — 20,000”", 0.85),
+               ("num_funds", 465, "count", "Vanguard: 465 funds offered worldwide (228 US + 237 ex-US), as of 28 Feb 2026", 0.8),
+               ("pct_passive", 83.0, "pct", "≈83% index/passive: Vanguard active AUM ~$1.9tn (Morningstar — world's 3rd-largest active manager) of ~$11.1tn → rest index", 0.6, "2025-12-31", "external"),
+               ("mgmt_fee_revenue", 7.5, "USD", "≈ total revenue — Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); ESTIMATE, see total_revenue", 0.4, "2025-12-31", "estimate"),
+               ("performance_fees", 0.0, "USD", "≈$0: Vanguard charges no separate performance fees (low-cost model; only minor net performance adjustments on some externally-subadvised active funds)", 0.5, "2025-12-31", "estimate")],
         # Coarse asset mix: Vanguard states bond+money-market funds = $2.8tn (31 Dec 2025); equity &
         # balanced is the residual to its $11.09tn RAUM. External basis (Vanguard discloses no clean split).
         breakdowns=[("aum_by_asset_class", "Equity & balanced", 8292.7, "USD", "Residual of $11.09tn RAUM − $2.8tn bond/MMF (Vanguard discloses no equity split)", 0.55, "2025-12-31", "external"),

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T18:15:12+00:00",
+  "generated_at": "2026-06-27T18:21:25+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -28961,6 +28961,78 @@
             }
           ]
         },
+        "num_funds": {
+          "value": 465.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Vanguard: 465 funds offered worldwide (228 US + 237 ex-US), as of 28 Feb 2026",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 465.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "pct_passive": {
+          "value": 83.0,
+          "unit": "pct",
+          "basis": "external",
+          "confidence": 0.6,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "\u224883% index/passive: Vanguard active AUM ~$1.9tn (Morningstar \u2014 world's 3rd-largest active manager) of ~$11.1tn \u2192 rest index",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 83.0,
+              "basis": "external",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 7500000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.4,
+          "source": "results",
+          "vendor": "estimate",
+          "section": "\u2248 total revenue \u2014 Vanguard's income is essentially all management/service fees (no separate performance or distribution fee lines); ESTIMATE, see total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 7500000000.0,
+              "basis": "estimate",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 0.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.5,
+          "source": "results",
+          "vendor": "estimate",
+          "section": "\u2248$0: Vanguard charges no separate performance fees (low-cost model; only minor net performance adjustments on some externally-subadvised active funds)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 0.0,
+              "basis": "estimate",
+              "confidence": 0.5
+            }
+          ]
+        },
         "aum_by_asset_class": {
           "unit": "USD",
           "basis": "external",
@@ -29033,6 +29105,24 @@
               "value": 228.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees_pct": {
+          "value": 0.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.4,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 0.0,
+              "basis": "derived",
+              "confidence": 0.4
             }
           ]
         },
