@@ -44,15 +44,38 @@ def _derived(key: str, value: float, parts: list[MetricObservation], note: str, 
     )
 
 
+def _series(obs: list[MetricObservation], key: str) -> dict[str, MetricObservation]:
+    return {o.period_end: o for o in obs if o.metric_key == key and not o.member and o.value is not None}
+
+
+def _ratio_series(obs, key_out, num_key, den_key, scale, note, now_iso) -> list[MetricObservation]:
+    """A derived ratio for EVERY fiscal year both inputs share (period-aligned → no cross-year
+    mixing), so the metric carries multi-year history."""
+    num, den = _series(obs, num_key), _series(obs, den_key)
+    out = []
+    for p in sorted(set(num) & set(den), reverse=True):
+        n, d = num[p], den[p]
+        if d.value:
+            o = _derived(key_out, round(scale * n.value / d.value, 1), [n, d], note, now_iso)
+            o.period_end = p
+            out.append(o)
+    return out
+
+
 def derive(competitor_id: str, obs: list[MetricObservation], now_iso: str) -> list[MetricObservation]:
     out: list[MetricObservation] = []
 
-    rev = _latest(obs, "total_revenue")
-    opinc = _latest(obs, "operating_income")
-    if rev and opinc and rev.value:
-        out.append(_derived("operating_margin", round(100 * opinc.value / rev.value, 1),
-                            [opinc, rev], "operating_income / total_revenue", now_iso))
+    # Income-statement ratios — period-aligned, one per shared fiscal year (history)
+    out += _ratio_series(obs, "operating_margin", "operating_income", "total_revenue", 100,
+                         "operating_income / total_revenue", now_iso)
+    out += _ratio_series(obs, "comp_ratio", "comp_expense", "total_revenue", 100,
+                         "comp_expense / total_revenue", now_iso)
+    out += _ratio_series(obs, "cost_income_ratio", "total_opex", "total_revenue", 100,
+                         "total_opex / total_revenue", now_iso)
+    out += _ratio_series(obs, "performance_fees_pct", "performance_fees", "total_revenue", 100,
+                         "performance_fees / total_revenue", now_iso)
 
+    rev = _latest(obs, "total_revenue")
     fee = _latest(obs, "mgmt_fee_revenue")
     avg_aum = _latest(obs, "aum_average") or _latest(obs, "aum_total")
     if fee and avg_aum and avg_aum.value:
@@ -67,20 +90,6 @@ def derive(competitor_id: str, obs: list[MetricObservation], now_iso: str) -> li
         if opening:
             out.append(_derived("organic_growth_rate", round(100 * flows.value / opening, 1),
                                 [flows, aum], "net_flows / opening AuM (closing − flows)", now_iso))
-
-    # Fee / expense ratios off the income statement
-    perf = _latest(obs, "performance_fees")
-    if perf and rev and rev.value:
-        out.append(_derived("performance_fees_pct", round(100 * perf.value / rev.value, 1),
-                            [perf, rev], "performance_fees / total_revenue", now_iso))
-    comp = _latest(obs, "comp_expense")
-    if comp and rev and rev.value:
-        out.append(_derived("comp_ratio", round(100 * comp.value / rev.value, 1),
-                            [comp, rev], "comp_expense / total_revenue", now_iso))
-    opex = _latest(obs, "total_opex")
-    if opex and rev and rev.value:
-        out.append(_derived("cost_income_ratio", round(100 * opex.value / rev.value, 1),
-                            [opex, rev], "total_opex / total_revenue", now_iso))
 
     # Productivity
     heads = _latest(obs, "headcount")

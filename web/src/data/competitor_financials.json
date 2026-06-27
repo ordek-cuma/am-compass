@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:03:02+00:00",
+  "generated_at": "2026-06-27T07:20:51+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -2655,6 +2655,24 @@
               "value": 24216000000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 20407000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 17859000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 17873000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -2670,6 +2688,24 @@
             {
               "period_end": "2025-12-31",
               "value": 7045000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 7574000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 6275000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 6385000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -2689,6 +2725,24 @@
               "value": 5553000000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 6369000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5502000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 5178000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -2704,6 +2758,24 @@
             {
               "period_end": "2025-12-31",
               "value": 35.31,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 42.01,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 36.51,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 33.97,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -2723,6 +2795,24 @@
               "value": 8446000000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 6546000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5779000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 5681000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -2738,6 +2828,24 @@
             {
               "period_end": "2025-12-31",
               "value": 2731000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2257000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2092000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2057000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -2757,6 +2865,24 @@
               "value": 17171000000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 12833000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 11584000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 11488000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -2774,6 +2900,24 @@
               "value": 20.84,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 20.4,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 20.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 19.52,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -2789,6 +2933,18 @@
             {
               "period_end": "2024-12-31",
               "value": 1930000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1884000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2332000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -2845,6 +3001,46 @@
             }
           ]
         },
+        "adj_operating_margin": {
+          "value": 44.1,
+          "unit": "pct",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "10-K",
+          "section": "10-K reconciliation: \u201cOperating margin, as adjusted 44.1%\u201d (FY2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 44.1,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 44.5,
+              "basis": "reported",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 159000000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.7,
+          "source": "10-K",
+          "section": "10-K cover: \u201caggregate market value of \u2026 common stock held by nonaffiliates \u2026 approximately $159 billion\u201d (float at 30 Jun 2025)",
+          "period_end": "2025-06-30",
+          "history": [
+            {
+              "period_end": "2025-06-30",
+              "value": 159000000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            }
+          ]
+        },
         "operating_margin": {
           "value": 29.1,
           "unit": "pct",
@@ -2859,23 +3055,24 @@
               "value": 29.1,
               "basis": "derived",
               "confidence": 1.0
-            }
-          ]
-        },
-        "organic_growth_rate": {
-          "value": 5.2,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.95,
-          "source": "derived",
-          "section": "aum_total + net_flows",
-          "period_end": "2025-12-31",
-          "history": [
+            },
             {
-              "period_end": "2025-12-31",
-              "value": 5.2,
+              "period_end": "2024-12-31",
+              "value": 37.1,
               "basis": "derived",
-              "confidence": 0.95
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 35.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 35.7,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -2891,6 +3088,24 @@
             {
               "period_end": "2025-12-31",
               "value": 34.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 32.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 32.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 31.8,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -2910,6 +3125,41 @@
               "value": 70.9,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 62.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 64.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 64.3,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 5.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.95,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 5.2,
+              "basis": "derived",
+              "confidence": 0.95
             }
           ]
         },
@@ -3072,6 +3322,30 @@
               "value": 7314800000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 7093600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 6460500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 6488400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 7671900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3087,6 +3361,30 @@
             {
               "period_end": "2025-12-31",
               "value": 2188800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2333300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1986200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2373700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3710000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3106,6 +3404,30 @@
               "value": 2087100000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2100100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1788700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1557900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3082900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3121,6 +3443,30 @@
             {
               "period_end": "2025-12-31",
               "value": 9.24,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 9.15,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 7.76,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 6.7,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 13.12,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3140,6 +3486,30 @@
               "value": 2868100000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2757900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2673500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2320800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2383000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3155,6 +3525,30 @@
             {
               "period_end": "2025-12-31",
               "value": 5126000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4760300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 4474300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4114700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3961900000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3174,6 +3568,30 @@
               "value": 5.08,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4.96,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 4.88,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4.8,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4.32,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3189,6 +3607,30 @@
             {
               "period_end": "2025-12-31",
               "value": 620900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 337200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 254400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 849800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1138500000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3259,23 +3701,30 @@
               "value": 29.9,
               "basis": "derived",
               "confidence": 1.0
-            }
-          ]
-        },
-        "organic_growth_rate": {
-          "value": -3.1,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.75,
-          "source": "derived",
-          "section": "aum_total + net_flows",
-          "period_end": "2025-12-31",
-          "history": [
+            },
             {
-              "period_end": "2025-12-31",
-              "value": -3.1,
+              "period_end": "2024-12-31",
+              "value": 32.9,
               "basis": "derived",
-              "confidence": 0.75
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 30.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 36.6,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 48.4,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -3291,6 +3740,30 @@
             {
               "period_end": "2025-12-31",
               "value": 39.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 38.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 41.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 35.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 31.1,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -3310,6 +3783,47 @@
               "value": 70.1,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 67.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 69.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 63.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 51.6,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": -3.1,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.75,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": -3.1,
+              "basis": "derived",
+              "confidence": 0.75
             }
           ]
         },
@@ -3492,6 +4006,30 @@
               "value": 6377100000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 6067000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5716400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 6048900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 6894500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3507,6 +4045,30 @@
             {
               "period_end": "2025-12-31",
               "value": -695700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 832100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -434800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1317700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1788200000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3526,6 +4088,30 @@
               "value": 538000000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -333700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 683900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1393000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2020-12-31",
+              "value": 524800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3541,6 +4127,30 @@
             {
               "period_end": "2025-12-31",
               "value": -1.6,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1.18,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -0.73,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1.49,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2.99,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3560,6 +4170,30 @@
               "value": 2002800000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2014200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1885800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1725100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1911300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3575,6 +4209,30 @@
             {
               "period_end": "2025-12-31",
               "value": 576500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 594700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 567600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 493600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 424100000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3594,6 +4252,30 @@
               "value": 7072800000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 5234900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 6151200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4731200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 5106300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3611,6 +4293,30 @@
               "value": 0.835,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 0.815,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 0.7875,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 0.73,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 0.67,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -3626,6 +4332,30 @@
             {
               "period_end": "2025-12-31",
               "value": 123600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 79300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 187500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 244700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 60900000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -3679,6 +4409,30 @@
               "value": -10.9,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 13.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -7.6,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 21.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 25.9,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -3696,6 +4450,30 @@
               "value": 31.4,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 33.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 33.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 28.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 27.7,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -3711,6 +4489,30 @@
             {
               "period_end": "2025-12-31",
               "value": 110.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 86.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 107.6,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 78.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 74.1,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -4178,6 +4980,30 @@
               "value": 8770700000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 8478000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 7849400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 8275300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 8425500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -4193,6 +5019,30 @@
             {
               "period_end": "2025-09-30",
               "value": 604100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 407600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 1102300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 1773900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 1875000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -4212,6 +5062,30 @@
               "value": 524900000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 464800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 882800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 1291900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 1831200000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -4227,6 +5101,30 @@
             {
               "period_end": "2025-09-30",
               "value": 0.91,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 0.85,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 1.72,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 2.53,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 3.57,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -4246,6 +5144,30 @@
               "value": 3818200000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 3831100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 3494000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 3089800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 2971300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -4261,6 +5183,30 @@
             {
               "period_end": "2025-09-30",
               "value": 774500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 703300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 565000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 564900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 537200000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -4280,6 +5226,30 @@
               "value": 8166600000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 8070400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 6747100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 6501400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 6550500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -4297,6 +5267,30 @@
               "value": 1.28,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 1.24,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 1.2,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 1.16,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 1.12,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -4312,6 +5306,30 @@
             {
               "period_end": "2025-09-30",
               "value": 240300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 274400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 256300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 180800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 208200000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -4365,6 +5383,30 @@
               "value": 6.9,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 4.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 14.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 21.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 22.3,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -4382,6 +5424,30 @@
               "value": 43.5,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 45.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 44.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 37.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 35.3,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -4397,6 +5463,30 @@
             {
               "period_end": "2025-09-30",
               "value": 93.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 95.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 86.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 78.6,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 77.7,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -5491,6 +6581,30 @@
               "value": 4593648000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4559652000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 4262864000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4120728000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4445288000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5506,6 +6620,30 @@
             {
               "period_end": "2025-12-31",
               "value": 1050475000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1124073000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 817670000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 815096000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1216462000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5525,6 +6663,30 @@
               "value": 982489000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1173247000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 764610000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 831813000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1148623000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5540,6 +6702,30 @@
             {
               "period_end": "2025-12-31",
               "value": 1790452000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1801767000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1769153000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1666636000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1716013000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5559,6 +6745,30 @@
               "value": 557032000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 599215000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 581571000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 641635000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 555608000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5576,6 +6786,30 @@
               "value": 3480177000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3351066000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3337653000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3239194000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3225140000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5591,6 +6825,30 @@
             {
               "period_end": "2018-12-31",
               "value": 153000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-12-31",
+              "value": 1003000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2016-12-31",
+              "value": 374000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2015-12-31",
+              "value": 805000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2014-12-31",
+              "value": 1553000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5644,6 +6902,30 @@
               "value": 22.9,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 24.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 19.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 19.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 27.4,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -5661,6 +6943,30 @@
               "value": 39.0,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 39.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 41.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 40.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 38.6,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -5676,6 +6982,30 @@
             {
               "period_end": "2025-12-31",
               "value": 75.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 73.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 78.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 78.6,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 72.6,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -5810,6 +7140,30 @@
               "value": 1800663000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1632093000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1609574000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1445814000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1300447000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5825,6 +7179,30 @@
             {
               "period_end": "2025-12-31",
               "value": 513882000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 361467000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 387549000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 336796000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 366272000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5844,6 +7222,30 @@
               "value": 403299000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 268314000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 298980000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 239496000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 270293000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5859,6 +7261,30 @@
             {
               "period_end": "2025-12-31",
               "value": 5.13,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3.23,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3.4,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2.65,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2.75,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5878,6 +7304,30 @@
               "value": 577686000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 540486000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 563388000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 512713000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 532492000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5893,6 +7343,30 @@
             {
               "period_end": "2025-12-31",
               "value": 1286781000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1270626000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1222025000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1109018000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 934175000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5912,6 +7386,30 @@
               "value": 1.33,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2.21,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1.11,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1.08,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1.08,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -5927,6 +7425,30 @@
             {
               "period_end": "2025-12-31",
               "value": 262775000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 137615000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 177066000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 218141000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 228349000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -5980,6 +7502,30 @@
               "value": 28.5,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 22.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 24.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 23.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 28.2,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -5997,6 +7543,30 @@
               "value": 32.1,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 33.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 35.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 35.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 40.9,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -6012,6 +7582,30 @@
             {
               "period_end": "2025-12-31",
               "value": 71.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 77.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 75.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 76.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 71.8,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -6216,6 +7810,30 @@
               "value": 493753000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 427737000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 349035000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 301345000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 304318000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6231,6 +7849,30 @@
             {
               "period_end": "2025-12-31",
               "value": 174195000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 137293000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 87492000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 60085000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 89058000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6250,6 +7892,30 @@
               "value": 109133000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 66693000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 102546000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 50684000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 49797000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6265,6 +7931,30 @@
             {
               "period_end": "2025-12-31",
               "value": 0.75,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 0.33,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 0.64,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 0.31,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 0.31,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6284,6 +7974,30 @@
               "value": 137679000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 121281000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 109532000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 97897000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 88163000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6299,6 +8013,24 @@
             {
               "period_end": "2025-12-31",
               "value": 89149000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 83963000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 71348000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 64761000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6318,6 +8050,30 @@
               "value": 319558000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 290444000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 261543000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 241260000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 215260000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6332,6 +8088,30 @@
           "history": [
             {
               "period_end": "2025-12-31",
+              "value": 0.12,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 0.12,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 0.12,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 0.12,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
               "value": 0.12,
               "basis": "GAAP",
               "confidence": 1.0
@@ -6350,6 +8130,30 @@
             {
               "period_end": "2025-12-31",
               "value": 102732000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 62870000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3570000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3418000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 34506000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6420,23 +8224,30 @@
               "value": 35.3,
               "basis": "derived",
               "confidence": 1.0
-            }
-          ]
-        },
-        "organic_growth_rate": {
-          "value": 6.2,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.8,
-          "source": "derived",
-          "section": "aum_total + net_flows",
-          "period_end": "2025-12-31",
-          "history": [
+            },
             {
-              "period_end": "2025-12-31",
-              "value": 6.2,
+              "period_end": "2024-12-31",
+              "value": 32.1,
               "basis": "derived",
-              "confidence": 0.8
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 25.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 19.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 29.3,
+              "basis": "derived",
+              "confidence": 1.0
             }
           ]
         },
@@ -6452,6 +8263,30 @@
             {
               "period_end": "2025-12-31",
               "value": 27.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 28.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 31.4,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 32.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 29.0,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -6471,6 +8306,47 @@
               "value": 64.7,
               "basis": "derived",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 67.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 74.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 80.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 70.7,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 6.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 6.2,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -6630,7 +8506,7 @@
       ],
       "metrics": {
         "total_revenue": {
-          "value": 1743700000.0,
+          "value": 592000000.0,
           "unit": "USD",
           "basis": "GAAP",
           "confidence": 1.0,
@@ -6640,7 +8516,31 @@
           "history": [
             {
               "period_end": "2017-12-31",
-              "value": 1743700000.0,
+              "value": 592000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-09-30",
+              "value": 537400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-06-30",
+              "value": 384800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-03-31",
+              "value": 229500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2016-12-31",
+              "value": 243400000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6660,6 +8560,30 @@
               "value": 976800000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 645700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 483700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 489800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 820900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6675,6 +8599,30 @@
             {
               "period_end": "2025-12-31",
               "value": 815900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 408900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 392000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 372400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 618500000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6694,6 +8642,30 @@
               "value": 5.23,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2.56,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2.37,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2.23,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3.57,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6709,6 +8681,30 @@
             {
               "period_end": "2025-12-31",
               "value": 872100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 716100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 593300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 611500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 693300000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6728,6 +8724,30 @@
               "value": 348300000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 300800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 294600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 279300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 271800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -6743,6 +8763,30 @@
             {
               "period_end": "2025-12-31",
               "value": 2120500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1827500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1618100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1713800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1946100000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6799,57 +8843,6 @@
             }
           ]
         },
-        "operating_margin": {
-          "value": 56.0,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 1.0,
-          "source": "derived",
-          "section": "operating_income + total_revenue",
-          "period_end": "2025-12-31",
-          "history": [
-            {
-              "period_end": "2025-12-31",
-              "value": 56.0,
-              "basis": "derived",
-              "confidence": 1.0
-            }
-          ]
-        },
-        "comp_ratio": {
-          "value": 50.0,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 1.0,
-          "source": "derived",
-          "section": "comp_expense + total_revenue",
-          "period_end": "2025-12-31",
-          "history": [
-            {
-              "period_end": "2025-12-31",
-              "value": 50.0,
-              "basis": "derived",
-              "confidence": 1.0
-            }
-          ]
-        },
-        "cost_income_ratio": {
-          "value": 121.6,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 1.0,
-          "source": "derived",
-          "section": "total_opex + total_revenue",
-          "period_end": "2025-12-31",
-          "history": [
-            {
-              "period_end": "2025-12-31",
-              "value": 121.6,
-              "basis": "derived",
-              "confidence": 1.0
-            }
-          ]
-        },
         "aum_per_employee": {
           "value": 214434783,
           "unit": "USD",
@@ -6868,7 +8861,7 @@
           ]
         },
         "revenue_per_employee": {
-          "value": 758130,
+          "value": 257391,
           "unit": "USD",
           "basis": "derived",
           "confidence": 0.85,
@@ -6878,7 +8871,7 @@
           "history": [
             {
               "period_end": "2017-12-31",
-              "value": 758130,
+              "value": 257391,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -6959,11 +8952,35 @@
               "value": 2074400000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2040900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2057800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2329600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2412400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
         "operating_income": {
-          "value": 1107900000.0,
+          "value": 280000000.0,
           "unit": "USD",
           "basis": "GAAP",
           "confidence": 1.0,
@@ -6973,7 +8990,31 @@
           "history": [
             {
               "period_end": "2017-12-31",
-              "value": 1107900000.0,
+              "value": 280000000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-09-30",
+              "value": 289500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-06-30",
+              "value": 275900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2017-03-31",
+              "value": 262500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2016-12-31",
+              "value": 301900000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -6993,6 +9034,30 @@
               "value": 716600000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 511600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 672900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1145900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 565700000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -7008,6 +9073,30 @@
             {
               "period_end": "2025-12-31",
               "value": 22.74,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 15.13,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 17.42,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 25.35,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 13.05,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -7027,6 +9116,30 @@
               "value": 1019800000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 915300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 907500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1071500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1047100000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -7044,6 +9157,30 @@
               "value": 1805400000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1507800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1496600000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1673500000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1631400000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -7059,6 +9196,30 @@
             {
               "period_end": "2025-12-31",
               "value": 706300000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 709800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 341900000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 713800000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 595300000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -7098,23 +9259,6 @@
             }
           ]
         },
-        "operating_margin": {
-          "value": 53.4,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 1.0,
-          "source": "derived",
-          "section": "operating_income + total_revenue",
-          "period_end": "2017-12-31",
-          "history": [
-            {
-              "period_end": "2017-12-31",
-              "value": 53.4,
-              "basis": "derived",
-              "confidence": 1.0
-            }
-          ]
-        },
         "comp_ratio": {
           "value": 49.2,
           "unit": "pct",
@@ -7127,6 +9271,30 @@
             {
               "period_end": "2025-12-31",
               "value": 49.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 44.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 44.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 46.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 43.4,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -7144,6 +9312,30 @@
             {
               "period_end": "2025-12-31",
               "value": 87.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 73.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 72.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 71.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 67.6,
               "basis": "derived",
               "confidence": 1.0
             }
@@ -8718,6 +10910,30 @@
               "value": 14450265000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 13229968000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 8022841000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 8517673000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 22577148000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -8733,6 +10949,30 @@
             {
               "period_end": "2025-12-31",
               "value": 3019214000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2776508000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1390880000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1747631000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 5857397000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -8752,6 +10992,30 @@
               "value": 3.87,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3.62,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1.84,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2.36,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 8.13,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -8767,6 +11031,30 @@
             {
               "period_end": "2025-12-31",
               "value": 5620529000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4994053000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3312970000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3532454000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 8350126000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -8786,6 +11074,30 @@
               "value": 1524548000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1361909000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1117305000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1092671000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 917847000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -8803,6 +11115,18 @@
               "value": 3727404000.0,
               "basis": "GAAP",
               "confidence": 1.0
+            },
+            {
+              "period_end": "2016-12-31",
+              "value": 2928574000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2015-12-31",
+              "value": 3090875000.0,
+              "basis": "GAAP",
+              "confidence": 1.0
             }
           ]
         },
@@ -8818,6 +11142,30 @@
             {
               "period_end": "2025-12-31",
               "value": 4.69,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3.45,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3.32,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4.94,
+              "basis": "GAAP",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3.57,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -8854,21 +11202,28 @@
               "value": 38.9,
               "basis": "derived",
               "confidence": 1.0
-            }
-          ]
-        },
-        "cost_income_ratio": {
-          "value": 25.8,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 1.0,
-          "source": "derived",
-          "section": "total_opex + total_revenue",
-          "period_end": "2017-12-31",
-          "history": [
+            },
             {
-              "period_end": "2017-12-31",
-              "value": 25.8,
+              "period_end": "2024-12-31",
+              "value": 37.7,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 41.3,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 41.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 37.0,
               "basis": "derived",
               "confidence": 1.0
             }

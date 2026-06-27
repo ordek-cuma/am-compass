@@ -12,10 +12,16 @@ from .schema import MetricObservation
 # competitor_id -> list of (metric_key, value_base_units, unit, period_end, source_quote, confidence)
 # All figures read verbatim from each firm's FY2025 10-K (US-listed bellwethers).
 OVERLAY: dict[str, list[tuple]] = {
-    "BL": [  # BlackRock
+    "BL": [  # BlackRock — figures verbatim from the FY2025 10-K (blk-20251231)
         ("aum_total", 14_000e9, "USD", "2025-12-31", "“total AUM was $14.0 trillion”", 0.95),
         ("net_flows", 698e9, "USD", "2025-12-31", "“record $698 billion of net inflows in 2025”", 0.95),
         ("headcount", 24_900, "count", "2025-12-31", "“approximately 24,900 employees”", 0.9),
+        # As-adjusted operating margin (non-GAAP) — GAAP→as-adjusted reconciliation table:
+        ("adj_operating_margin", 44.1, "pct", "2025-12-31", "10-K reconciliation: “Operating margin, as adjusted 44.1%” (FY2025)", 0.95),
+        ("adj_operating_margin", 44.5, "pct", "2024-12-31", "10-K reconciliation: “Operating margin, as adjusted … 44.5%” (FY2024)", 0.95),
+        # Capital — aggregate market value of common stock held by non-affiliates (10-K cover):
+        ("market_cap", 159e9, "USD", "2025-06-30",
+         "10-K cover: “aggregate market value of … common stock held by nonaffiliates … approximately $159 billion” (float at 30 Jun 2025)", 0.7),
     ],
     "TROW": [  # T. Rowe Price
         ("aum_total", 1_775.6e9, "USD", "2025-12-31", "“assets under management ended 2025 at $1,775.6 billion”", 0.95),
