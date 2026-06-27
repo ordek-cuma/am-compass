@@ -325,18 +325,97 @@ def crawl_web(code: str, name: str, regime: str, src: str, now: str, force: bool
 
 # ---------------------------------------------------------------- numbers
 def _metrics_block(obs: list) -> dict:
-    latest = {}
+    """Per metric_key: the latest value (flat, for the table) + up-to-5y `history`, and for
+    breakdown ('by-X') metrics the `members` of the latest period."""
+    from .schema import METRIC_CATALOG
+    by_key: dict[str, list] = {}
     for o in obs:
-        cur = latest.get(o.metric_key)
-        if cur is None or o.period_end > cur.period_end:
-            latest[o.metric_key] = o
-    return {k: {"value": o.value, "unit": o.unit, "basis": o.basis, "confidence": o.confidence,
-                "source": o.source_doc, "section": o.source_section} for k, o in latest.items()}
+        by_key.setdefault(o.metric_key, []).append(o)
+    out: dict[str, dict] = {}
+    for key, lst in by_key.items():
+        cut = METRIC_CATALOG.get(key, {}).get("cut")
+        if cut:  # breakdown metric — emit the members of the latest period
+            period = max(o.period_end for o in lst)
+            members = [{"member": o.member, "value": o.value, "confidence": o.confidence}
+                       for o in lst if o.period_end == period and o.member and o.value is not None]
+            if not members:
+                continue
+            base = next(o for o in lst if o.period_end == period)
+            out[key] = {"unit": base.unit, "basis": base.basis, "period_end": period,
+                        "confidence": round(min(m["confidence"] for m in members), 2),
+                        "source": base.source_doc, "section": base.source_section,
+                        "members": sorted(members, key=lambda m: -(m["value"] or 0))}
+            continue
+        scalars = [o for o in lst if not o.member and o.value is not None]
+        if not scalars:
+            continue
+        latest = max(scalars, key=lambda o: o.period_end)
+        per: dict[str, object] = {}
+        for o in scalars:  # one (highest-confidence) obs per period
+            cur = per.get(o.period_end)
+            if cur is None or o.confidence > cur.confidence:
+                per[o.period_end] = o
+        history = [{"period_end": p, "value": h.value, "basis": h.basis, "confidence": h.confidence}
+                   for p, h in sorted(per.items(), reverse=True)][:5]
+        out[key] = {"value": latest.value, "unit": latest.unit, "basis": latest.basis,
+                    "confidence": latest.confidence, "source": latest.source_doc,
+                    "section": latest.source_section, "period_end": latest.period_end,
+                    "history": history}
+    return out
 
 
 def _doc_export(docs: list[dict]) -> list[dict]:
     keys = ("name", "form", "group", "date", "fmt", "sizeBytes", "edgarUrl", "file")
     return [{k: d.get(k) for k in keys} for d in sorted(docs, key=lambda d: (d.get("group", ""), d.get("date", "")), reverse=True)]
+
+
+def refresh_metrics() -> dict:
+    """Re-extract metrics for every competitor and rewrite competitor_financials.json, REUSING
+    the documents already in the snapshot (no doc crawl). Fast and safe — never regresses doc
+    counts on flaky sources. Use after a metric-schema / overlay change."""
+    now = _now()
+    fp = C.OUT_DIR / "competitor_financials.json"
+    prev = json.loads(fp.read_text()) if fp.exists() else {"competitors": {}}
+    prev_comp = prev.get("competitors", {})
+    export = {"generated_at": now, "source": prev.get("source", "SEC EDGAR + IR (delta crawl)"),
+              "competitors": {}}
+
+    def block(cid: str, obs: list) -> dict:
+        b = dict(prev_comp.get(cid, {}))
+        b["metrics"] = _metrics_block(obs)
+        b["period_end"] = max((o.period_end for o in obs if not o.member), default=b.get("period_end"))
+        return b
+
+    for comp in registry.BELLWETHERS:
+        cid = comp.competitor_id
+        try:
+            obs = extract_xbrl.extract(cid, edgar.companyfacts(registry.resolve(comp)), now)
+        except Exception as e:
+            print(f"  ! {cid} xbrl: {e}"); obs = []
+        obs += manual_overlay.overlay(cid, now)
+        obs += derive.derive(cid, obs, now)
+        export["competitors"][cid] = block(cid, obs)
+
+    for comp in registry.GROUP_FILERS:
+        cid = comp.competitor_id
+        obs = europe_overlay.build(cid, now)
+        obs += derive.derive(cid, obs, now)
+        export["competitors"][cid] = block(cid, obs)
+
+    for cid in europe_overlay.EUROPE:
+        if cid in GROUP_FILER_CODES:
+            continue
+        obs = europe_overlay.build(cid, now)
+        obs += derive.derive(cid, obs, now)
+        export["competitors"][cid] = block(cid, obs)
+
+    for cid, blk in prev_comp.items():  # carry forward anything not regenerated
+        export["competitors"].setdefault(cid, blk)
+
+    fp.write_text(json.dumps(export, indent=2), encoding="utf-8")
+    synced = sync_web(fp)
+    print(f"refreshed metrics for {len(export['competitors'])} competitors · web synced: {synced}")
+    return {"competitors": len(export["competitors"]), "webSynced": synced}
 
 
 def run(only: str | None = None, force: bool = False) -> dict:

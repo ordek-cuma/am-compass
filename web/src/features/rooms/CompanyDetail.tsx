@@ -5,10 +5,11 @@ import { BackIcon } from '../../components/icons'
 import { AttachList, PlainRow, StatCard, type Attachment } from '../../components/facts'
 import { Empty, Panel } from '../../components/Panel'
 import { COMPANIES } from '../../data/companies'
-import { documentsFor, documentsGroupedFor, financialsFor, fmtBytes, type FinDoc } from '../../data/financials'
+import { documentsFor, documentsGroupedFor, fmtBytes, type FinDoc } from '../../data/financials'
 import { fdate } from '../../lib/format'
-import { FinancialsPanel } from './FinancialsPanel'
 import { ScrapeControls } from './ScrapeControls'
+import { MetricsTab } from './MetricsTab'
+import { CATEGORIES, CATEGORY_LABEL, type Category } from '../../data/metricCatalog'
 
 export function CompanyDetail() {
   const { companyId } = useParams()
@@ -16,8 +17,7 @@ export function CompanyDetail() {
   const c = COMPANIES.find((x) => x.tick === decodeURIComponent(companyId || ''))
   if (!c) return <Navigate to="/rooms/competitor" replace />
 
-  const [tab, setTab] = useState<'docs' | 'financials'>('docs')
-  const hasFinancials = !!financialsFor(c.tick)
+  const [tab, setTab] = useState<'docs' | Category>('docs')
   // ONLY real documents — crawled local files or primary-source links. No placeholders.
   const realDocs = [...documentsFor(c.tick)].sort((a, b) => b.date.localeCompare(a.date))
   const last = realDocs.length ? realDocs[0].date : ''
@@ -76,13 +76,15 @@ export function CompanyDetail() {
         <StatCard label="Last Updated" value={realDocs.length ? fdate(last) : '—'} />
       </div>
 
-      <div className="mtabs ftabs">
+      <div className="mtabs ftabs" style={{ overflowX: 'auto' }}>
         <button className={`mtab${tab === 'docs' ? ' on' : ''}`} onClick={() => setTab('docs')}>
-          Documents
+          Documents<span className="ct">{realDocs.length}</span>
         </button>
-        <button className={`mtab${tab === 'financials' ? ' on' : ''}`} onClick={() => setTab('financials')}>
-          Financials{hasFinancials ? <span className="ct">SEC</span> : null}
-        </button>
+        {CATEGORIES.map((cat) => (
+          <button key={cat} className={`mtab${tab === cat ? ' on' : ''}`} onClick={() => setTab(cat)}>
+            {CATEGORY_LABEL[cat]}
+          </button>
+        ))}
       </div>
 
       {tab === 'docs' ? (
@@ -114,7 +116,7 @@ export function CompanyDetail() {
         </div>
         </>
       ) : (
-        <FinancialsPanel code={c.tick} />
+        <MetricsTab code={c.tick} category={tab} />
       )}
     </div>
   )
