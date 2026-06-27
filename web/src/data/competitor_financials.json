@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:45:10+00:00",
+  "generated_at": "2026-06-27T05:44:56+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -15498,44 +15498,124 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Reporting",
-          "form": "IR",
-          "group": "Reports",
-          "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 161477,
-          "edgarUrl": "https://www.bayerninvest.de/anlageloesungen/master-kvg/reporting/",
-          "file": "filings/Bayern_Invest/docs/wf81eb974f5ae4ad4.html"
-        },
-        {
-          "name": "Mitteilung downloaden",
+          "name": "Disclosure Report 2025",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 72112,
-          "edgarUrl": "https://www.bayerninvest.de/fileadmin/mediapool/bayerninvest_de/dokumente/downloads/Bekanntmachungen/Umsetzung_der_Mitwirkungspolitik_Stand_Nov2025.pdf",
-          "file": "filings/Bayern_Invest/docs/w4386adc2c2fabf81.pdf"
+          "sizeBytes": 4263690,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2025_21/offenlegungsbericht.pdf",
+          "file": "filings/Bayern_Invest/docs/wd6944cd593b40ebb.pdf"
         },
         {
-          "name": "Mitteilung downloaden",
+          "name": "Disclosure Report 2025 Attachment 1: EU CCA \u2013 Main features of regulatory own funds instru",
           "form": "IR",
           "group": "Reports",
           "date": "2025-12-31",
           "fmt": "PDF",
-          "sizeBytes": 111199,
-          "edgarUrl": "https://www.bayerninvest.de/fileadmin/mediapool/bayerninvest_de/dokumente/downloads/Umsetzung_der_Offenlegungspflicht_nach____134c_Abs._1__2_und_4_Aktiengesetz_in_der_Fassung_des_Gesetzes_zur_Umsetzung_der_Zweiten_Aktionaersrechterichtlinie__ARUG_II_.pdf",
-          "file": "filings/Bayern_Invest/docs/w430c804b3c6a01ca.pdf"
+          "sizeBytes": 618628,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2025_21/hauptmerkmale_offenlegungsbericht.pdf",
+          "file": "filings/Bayern_Invest/docs/w85d19ac9e4f0a330.pdf"
         },
         {
-          "name": "Gesch\u00e4ftsbericht / Results",
+          "name": "Disclosure Report 2024",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3892680,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2024_19/offenlegungsbericht.pdf",
+          "file": "filings/Bayern_Invest/docs/w9fc43a6570b4ca36.pdf"
+        },
+        {
+          "name": "Disclosure Report 2024 Attachment 1: EU CCA \u2013 Main features of regulatory own funds instru",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 589925,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2024_19/hauptmerkmale_offenlegungsbericht.pdf",
+          "file": "filings/Bayern_Invest/docs/w37cbee5036e114ed.pdf"
+        },
+        {
+          "name": "Disclosure Report 2023",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3698056,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2023_22/Offenlegungsbericht.pdf",
+          "file": "filings/Bayern_Invest/docs/wd6288a6ff9cc8fe5.pdf"
+        },
+        {
+          "name": "Disclosure Report 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3070866,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2021_18/Offenlegungsbericht_31.12.2021.pdf",
+          "file": "filings/Bayern_Invest/docs/w8a2b5ae9cc5e8e54.pdf"
+        },
+        {
+          "name": "Disclosure Report H1 2021",
+          "form": "IR",
+          "group": "Reports",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2416528,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2021_18/Offenlegungsbericht_30.6.2021.pdf",
+          "file": "filings/Bayern_Invest/docs/w0c9ad155cc33d4b4.pdf"
+        },
+        {
+          "name": "Group Half-Yearly Financial Report H1 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1168468,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2021_18/BayernLB_Halbjahresfinanzbericht_2021_FINAL.pdf",
+          "file": "filings/Bayern_Invest/docs/w0e847383407de82a.pdf"
+        },
+        {
+          "name": "Annual Report 2025",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 174725,
-          "edgarUrl": "https://www.bayerninvest.de/",
-          "file": "filings/Bayern_Invest/docs/w1acc1b63638fcedb.html"
+          "fmt": "PDF",
+          "sizeBytes": 8663869,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2025_21/konzernabschluss_2025.pdf",
+          "file": "filings/Bayern_Invest/docs/wd076f65ed1022f71.pdf"
+        },
+        {
+          "name": "Annual Report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7281862,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2024_19/konzernabschluss_2024.pdf",
+          "file": "filings/Bayern_Invest/docs/w88189d7e1f158703.pdf"
+        },
+        {
+          "name": "Annual Report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7455090,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2023_22/konzernabschluss_2023.pdf",
+          "file": "filings/Bayern_Invest/docs/w96e6a3aef9d57338.pdf"
+        },
+        {
+          "name": "Annual Report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3980842,
+          "edgarUrl": "https://www.bayernlb.com/internet/media/en/ir/downloads_1/investor_relations_3/finanzberichte/2022_24/konzernabschluss_2022.pdf",
+          "file": "filings/Bayern_Invest/docs/w9f4f3c51fd790a45.pdf"
         }
       ],
       "metrics": {
@@ -15675,24 +15755,704 @@
       "period_end": "2025-12-31",
       "documents": [
         {
-          "name": "Reporting",
+          "name": "Interim Results 2025 media release",
           "form": "IR",
-          "group": "Reports",
+          "group": "Quarterly",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 63594,
-          "edgarUrl": "https://www.inka-kag.de/unserekompetenzen/services/reporting",
-          "file": "filings/HSBC_T_B/docs/w44c5aaa9f5b1220f.html"
+          "fmt": "PDF",
+          "sizeBytes": 276286,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/interim/pdfs/hsbc-holdings-plc/250730-hsbc-holdings-plc-interim-results-2025-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wa22e25ccae0f6671.pdf"
         },
         {
-          "name": "Gesch\u00e4ftsbericht / Results",
+          "name": "Interim Report 2025",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7559209,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/interim/pdfs/hsbc-holdings-plc/250730-hsbc-holdings-plc-interim-report-2025.pdf",
+          "file": "filings/HSBC_T_B/docs/w74b31bcc7efb2a7d.pdf"
+        },
+        {
+          "name": "Interim Results 2025 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1060054,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/interim/pdfs/hsbc-holdings-plc/250730-hsbc-holdings-plc-interim-results-2025-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/we276b77e4c4d261f.pdf"
+        },
+        {
+          "name": "Interim Results 2025 Presentation to Fixed Income Investors",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 5520445,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/interim/pdfs/hsbc-holdings-plc/250730-hsbc-holdings-plc-interim-results-2025-presentation-to-fixed-income-investors.pdf",
+          "file": "filings/HSBC_T_B/docs/w870c417ffa745396.pdf"
+        },
+        {
+          "name": "Interim Results 2024 media release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 362283,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/interim/pdfs/hsbc-holdings-plc/240731-interim-results-2024-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w7adc79343b15da44.pdf"
+        },
+        {
+          "name": "Interim Report 2024",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2326221,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/interim/pdfs/hsbc-holdings-plc/240731-interim-report-2024.pdf",
+          "file": "filings/HSBC_T_B/docs/w94e024cf490103ee.pdf"
+        },
+        {
+          "name": "Interim Results 2024 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1376289,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/interim/pdfs/hsbc-holdings-plc/240731-interim-results-2024-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w29a79a02819cb939.pdf"
+        },
+        {
+          "name": "Interim Results 2024 Presentation to Fixed Income Investors",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1179819,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/interim/pdfs/hsbc-holdings-plc/240731-interim-results-2024-presentation-to-fixed-income-investors.pdf",
+          "file": "filings/HSBC_T_B/docs/wacd1eccd817e494c.pdf"
+        },
+        {
+          "name": "Interim Results 2023 media release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 209402,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/interim/pdfs/hsbc-holdings-plc/230801-interim-results-2023-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w266533a98d3a2ac4.pdf"
+        },
+        {
+          "name": "Interim Report 2023",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2075826,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/interim/pdfs/hsbc-holdings-plc/230801-interim-report-2023.pdf",
+          "file": "filings/HSBC_T_B/docs/w00a0e259b932ec34.pdf"
+        },
+        {
+          "name": "Interim Results 2023 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1673234,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/interim/pdfs/hsbc-holdings-plc/230801-interim-results-2023-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wae5fb99c14f6f0ee.pdf"
+        },
+        {
+          "name": "Interim Results 2023 Presentation to Fixed Income Investors",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 784066,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/interim/pdfs/hsbc-holdings-plc/230801-interim-results-2023-presentation-to-fixed-income-investors.pdf",
+          "file": "filings/HSBC_T_B/docs/w2bf2b9a04001079c.pdf"
+        },
+        {
+          "name": "Interim Results 2022 media release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 363206,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/interim/pdfs/hsbc-holdings-plc/220801-interim-results-2022-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w0dffdbdaf300f504.pdf"
+        },
+        {
+          "name": "Interim Report 2022",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3120931,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/interim/pdfs/hsbc-holdings-plc/220801-interim-report-2022.pdf",
+          "file": "filings/HSBC_T_B/docs/wf694a4842bbf4333.pdf"
+        },
+        {
+          "name": "Interim Results 2022 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4603981,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/interim/pdfs/hsbc-holdings-plc/220801-interim-results-2022-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wd515e3dedb42267c.pdf"
+        },
+        {
+          "name": "Interim Results 2022 Presentation to Fixed Income Investors",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 774308,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/interim/pdfs/hsbc-holdings-plc/220801-interim-results-2022-presentation-to-fixed-income-investors.pdf",
+          "file": "filings/HSBC_T_B/docs/w4c5a3a0ede3d705f.pdf"
+        },
+        {
+          "name": "Interim Results 2021 media release",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 217766,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/interim/pdfs/hsbc-holdings-plc/210802-interim-results-2021-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w1322809ab3d8f129.pdf"
+        },
+        {
+          "name": "Interim Report 2021",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4895803,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/interim/pdfs/hsbc-holdings-plc/210802-interim-report-2021.pdf",
+          "file": "filings/HSBC_T_B/docs/w7a8dcf291c4399b3.pdf"
+        },
+        {
+          "name": "Interim Results 2021 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4113577,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/interim/pdfs/hsbc-holdings-plc/210802-interim-results-2021-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w5cb1098562fa2ba4.pdf"
+        },
+        {
+          "name": "Interim Results 2021 Presentation to Fixed Income Investors",
+          "form": "IR",
+          "group": "Quarterly",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2930337,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/interim/pdfs/hsbc-holdings-plc/211014-fixed-income-presentation-1h21.pdf",
+          "file": "filings/HSBC_T_B/docs/w12102798a422fc4a.pdf"
+        },
+        {
+          "name": "1Q 2026 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1243646,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/1q/pdfs/hsbc-holdings-plc/260505-1q-2026-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wb43fe495b0e1a6d5.pdf"
+        },
+        {
+          "name": "1Q 2026 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 642654,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/1q/pdfs/hsbc-holdings-plc/260505-1q-2026-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w4044a78e1e1d521b.pdf"
+        },
+        {
+          "name": "3Q 2025 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1690576,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/3q/pdfs/hsbc-holdings-plc/251028-3q-2025-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w60dfb3240590d8bc.pdf"
+        },
+        {
+          "name": "3Q 2025 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1031512,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/3q/pdfs/hsbc-holdings-plc/251028-3q-2025-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wc42857beaab9d6d4.pdf"
+        },
+        {
+          "name": "1Q 2025 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1638289,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/1q/pdfs/hsbc-holdings-plc/250429-1q-2025-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wb62311f863a1c4fd.pdf"
+        },
+        {
+          "name": "1Q 2025 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 940501,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/1q/pdfs/hsbc-holdings-plc/250429-1q-2025-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wad07616e53e984e7.pdf"
+        },
+        {
+          "name": "3Q 2024 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1087745,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/3q/pdfs/hsbc-holdings-plc/241029-3q-2024-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w03d3348c645ca3b3.pdf"
+        },
+        {
+          "name": "1Q 2024 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1259873,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/1q/pdfs/hsbc-holdings-plc/240430-1q-2024-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wac66b3eaa850274a.pdf"
+        },
+        {
+          "name": "1Q 2024 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1057802,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/1q/pdfs/hsbc-holdings-plc/240430-1q-2024-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/we2890b66877af138.pdf"
+        },
+        {
+          "name": "3Q 2023 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1652588,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/3q/pdfs/hsbc-holdings-plc/231030-3q-2023-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w58af0a75e76699c2.pdf"
+        },
+        {
+          "name": "3Q 2023 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1476138,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/3q/pdfs/hsbc-holdings-plc/231030-3q-2023-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w2d4ad5d66808ace3.pdf"
+        },
+        {
+          "name": "Post Results Equity Analyst Call Q2 2023 Results",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 89755,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/interim/pdfs/hsbc-holdings-plc/230831-post-results-equity-analyst-call-q2-2023-results.pdf",
+          "file": "filings/HSBC_T_B/docs/w3f3961ee94e2e46d.pdf"
+        },
+        {
+          "name": "1Q 2023 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1183616,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/1q/pdfs/hsbc-holdings-plc/230502-1q-2023-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wfd901efdc595750b.pdf"
+        },
+        {
+          "name": "1Q 2023 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1379931,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/1q/pdfs/hsbc-holdings-plc/230502-1q-2023-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wa9aae033458c1e1e.pdf"
+        },
+        {
+          "name": "3Q 2022 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1326767,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/3q/pdfs/hsbc-holdings-plc/221025-3q-2022-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w27e0685c0c0d1a93.pdf"
+        },
+        {
+          "name": "3Q 2022 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 621314,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/3q/pdfs/hsbc-holdings-plc/221025-3q-2022-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wb0c08fb52aa6b897.pdf"
+        },
+        {
+          "name": "Post Results Equity Analyst Call Q3 2022 Results",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 334649,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/3q/pdfs/hsbc-holdings-plc/221107-post-results-equity-analyst-call-q3-2022-results.pdf",
+          "file": "filings/HSBC_T_B/docs/w8bb5ab96b3b78db0.pdf"
+        },
+        {
+          "name": "1Q 2022 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1378417,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/1q/pdfs/hsbc-holdings-plc/220426-1q-2022-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wf4dd75bfb0e9b346.pdf"
+        },
+        {
+          "name": "1Q 2022 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4615504,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/1q/pdfs/hsbc-holdings-plc/220426-1q-2022-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w0607cf8a400db5ab.pdf"
+        },
+        {
+          "name": "3Q 2021 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1221580,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/3q/pdfs/hsbc-holdings-plc/211025-3q-2021-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wb1d81443936443b1.pdf"
+        },
+        {
+          "name": "3Q 2021 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 3806782,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/3q/pdfs/hsbc-holdings-plc/211025-3q-2021-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w988b6239392188fe.pdf"
+        },
+        {
+          "name": "1Q 2021 Earnings Release",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1157686,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/1q/pdf/hsbc-holdings-plc/210427-1q-2021-earnings-release.pdf",
+          "file": "filings/HSBC_T_B/docs/wca5b95e7bc34b052.pdf"
+        },
+        {
+          "name": "1Q 2021 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Earnings / Events",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2811473,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/1q/pdf/hsbc-holdings-plc/210427-1q-2021-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wf754eb816a7884c1.pdf"
+        },
+        {
+          "name": "Annual Results 2025 media release",
           "form": "IR",
           "group": "Annual",
           "date": "2025-12-31",
-          "fmt": "HTML",
-          "sizeBytes": 66658,
-          "edgarUrl": "https://www.inka-kag.de/",
-          "file": "filings/HSBC_T_B/docs/wa0e48ed76ad3cc81.html"
+          "fmt": "PDF",
+          "sizeBytes": 1075414,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-annual-results-2025-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w7fe428982aa674a3.pdf"
+        },
+        {
+          "name": "Annual Report and Accounts 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10110145,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-annual-report-and-accounts-2025.pdf",
+          "file": "filings/HSBC_T_B/docs/w4278456a8ad81250.pdf"
+        },
+        {
+          "name": "Strategic Report 2025",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 6892783,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-strategic-report-2025.pdf",
+          "file": "filings/HSBC_T_B/docs/w0ddb2c0f637f2c28.pdf"
+        },
+        {
+          "name": "Annual Results 2025 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1049762,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-annual-results-2025-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/wf4b5eda67ad8be05.pdf"
+        },
+        {
+          "name": "Annual Results 2025 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 926240,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-annual-results-2025-fixed-income-investor-presentation.pdf",
+          "file": "filings/HSBC_T_B/docs/wc082f105a720e63b.pdf"
+        },
+        {
+          "name": "Annual Results 2024 media release",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 268256,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/annual/pdfs/hsbc-holdings-plc/250219-annual-results-2024-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w7298b289c9418097.pdf"
+        },
+        {
+          "name": "Annual Report and Accounts 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 8670552,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/annual/pdfs/hsbc-holdings-plc/250219-annual-report-and-accounts-2024.pdf",
+          "file": "filings/HSBC_T_B/docs/w84292811e98c7d03.pdf"
+        },
+        {
+          "name": "Strategic Report 2024",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4517543,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/annual/pdfs/hsbc-holdings-plc/250219-strategic-report-2024.pdf",
+          "file": "filings/HSBC_T_B/docs/w210a880b1877922d.pdf"
+        },
+        {
+          "name": "Annual Results 2024 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1408443,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/annual/pdfs/hsbc-holdings-plc/250219-annual-results-2024-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/weca75c8350d23370.pdf"
+        },
+        {
+          "name": "Annual Results 2024 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1156087,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2024/annual/pdfs/hsbc-holdings-plc/250224-annual-results-2024-fixed-income-investor-presentation.pdf",
+          "file": "filings/HSBC_T_B/docs/w4e0537d49413e304.pdf"
+        },
+        {
+          "name": "Annual Results 2023 media release",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 283831,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/annual/pdfs/hsbc-holdings-plc/240221-annual-results-2023-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w35360ced4190c639.pdf"
+        },
+        {
+          "name": "Annual Report and Accounts 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7034549,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/annual/pdfs/hsbc-holdings-plc/240226-annual-report-and-accounts-2023.pdf",
+          "file": "filings/HSBC_T_B/docs/wc860d0f1eaf34259.pdf"
+        },
+        {
+          "name": "Strategic Report 2023",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1517066,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/annual/pdfs/hsbc-holdings-plc/240221-strategic-report-2023.pdf",
+          "file": "filings/HSBC_T_B/docs/w92168c03368d56a9.pdf"
+        },
+        {
+          "name": "Annual Results 2023 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1450035,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/annual/pdfs/hsbc-holdings-plc/240221-annual-results-2023-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w01e9bb2d7d383671.pdf"
+        },
+        {
+          "name": "Annual Results 2023 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1184554,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2023/annual/pdfs/hsbc-holdings-plc/240221-annual-results-2023-fixed-income-investor-presentation.pdf",
+          "file": "filings/HSBC_T_B/docs/w5ca30b13024a13cb.pdf"
+        },
+        {
+          "name": "Annual Results 2022 media release",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 394813,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/annual/pdfs/hsbc-holdings-plc/230221-annual-results-2022-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/w52f65944e269b528.pdf"
+        },
+        {
+          "name": "Annual Report and Accounts 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 7367982,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/annual/pdfs/hsbc-holdings-plc/230221-annual-report-and-accounts-2022.pdf",
+          "file": "filings/HSBC_T_B/docs/w9e379641ca3fd463.pdf"
+        },
+        {
+          "name": "Strategic Report 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1795726,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/annual/pdfs/hsbc-holdings-plc/230221-strategic-report-2022.pdf",
+          "file": "filings/HSBC_T_B/docs/w75e4efda3a373716.pdf"
+        },
+        {
+          "name": "Annual Results 2022 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 1994015,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/annual/pdfs/hsbc-holdings-plc/230228-annual-results-2022-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/w46d49988f11954a3.pdf"
+        },
+        {
+          "name": "Annual Results 2022 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 933144,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2022/annual/pdfs/hsbc-holdings-plc/230221-annual-results-2022-fixed-income-investor-presentation.pdf",
+          "file": "filings/HSBC_T_B/docs/wf5f332db1df27dae.pdf"
+        },
+        {
+          "name": "Annual Results 2021 media release",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 302108,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220222-annual-results-2021-media-release.pdf",
+          "file": "filings/HSBC_T_B/docs/we32c3fdb2aa18d80.pdf"
+        },
+        {
+          "name": "Annual Report and Accounts 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 11834444,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220222-annual-report-and-accounts-2021.pdf",
+          "file": "filings/HSBC_T_B/docs/w6a72f0481c45a5cb.pdf"
+        },
+        {
+          "name": "Strategic Report 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 12230099,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220222-strategic-report-2021.pdf",
+          "file": "filings/HSBC_T_B/docs/wbef206038ca847b3.pdf"
+        },
+        {
+          "name": "Annual Results 2021 Presentation to Investors and Analysts",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 4368603,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220222-annual-results-2021-presentation-to-investors-and-analysts.pdf",
+          "file": "filings/HSBC_T_B/docs/we687254b6d1e0fac.pdf"
+        },
+        {
+          "name": "Annual Results 2021 Fixed Income Investor Presentation",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 2872159,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220222-annual-results-2021-fixed-income-investor-presentation.pdf",
+          "file": "filings/HSBC_T_B/docs/w1798e5d9e5555450.pdf"
+        },
+        {
+          "name": "HSBC Holdings plc Form 20-F 2022",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 10307963,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220224-form-20-f.pdf",
+          "file": "filings/HSBC_T_B/docs/w7f83e0ef1425fa5f.pdf"
+        },
+        {
+          "name": "Investor and Analyst Call Full Year Annual Results 2021",
+          "form": "IR",
+          "group": "Annual",
+          "date": "2025-12-31",
+          "fmt": "PDF",
+          "sizeBytes": 272085,
+          "edgarUrl": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2021/annual/pdfs/hsbc-holdings-plc/220224-hsbc-full-year-annual-results-2021.pdf",
+          "file": "filings/HSBC_T_B/docs/w50f75237efc32f1e.pdf"
         }
       ],
       "metrics": {
