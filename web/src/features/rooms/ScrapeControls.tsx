@@ -1,7 +1,8 @@
-// Scrape triggers for a competitor — calls the local control server (python3 -m
+// Document-fetch triggers — call the local control server (python3 -m
 // competitor_ingest.server, proxied at /api). Full = re-fetch every document; New = delta
 // (only documents not already in the archive). On success the server re-syncs the web
-// snapshot, so a reload surfaces the new docs.
+// snapshot, so a reload surfaces the new docs. ScrapeControls = one competitor;
+// RoomFetchControls = every competitor (the Competitor Data Room header).
 import { useEffect, useState } from 'react'
 
 type Status = { code: string; name?: string; docs: number; lastCrawl: string | null }
@@ -54,7 +55,7 @@ export function ScrapeControls({ code }: { code: string }) {
       const total = data.summary?.docs ?? data.row?.docs
       const message =
         mode === 'full'
-          ? `Full scrape complete · ${total} documents`
+          ? `Full fetch complete · ${total} documents`
           : added > 0
             ? `${added} new document${added > 1 ? 's' : ''} added`
             : changed > 0
@@ -64,7 +65,7 @@ export function ScrapeControls({ code }: { code: string }) {
       sessionStorage.setItem(`scrape:${code}`, JSON.stringify({ msg: message }))
       window.location.reload()
     } catch (e) {
-      setMsg(`Scrape failed · ${(e as Error)?.message || e}`)
+      setMsg(`Fetch failed · ${(e as Error)?.message || e}`)
       setBusy(null)
     }
   }
@@ -73,7 +74,7 @@ export function ScrapeControls({ code }: { code: string }) {
     return (
       <div className="scrape-bar off">
         <span className="scrape-hint">
-          Scrape server offline — run <code>python3 -m competitor_ingest.server</code> in <code>spike/</code>
+          Fetch server offline — run <code>python3 -m competitor_ingest.server</code> in <code>spike/</code>
         </span>
       </div>
     )
@@ -83,18 +84,69 @@ export function ScrapeControls({ code }: { code: string }) {
     <div className="scrape-bar">
       <button className="scrape-btn primary" disabled={!!busy} onClick={() => scrape('full')}>
         {busy === 'full' ? <Spinner /> : null}
-        Scrape Full Documents
+        Fetch Full Documents
       </button>
       <button className="scrape-btn" disabled={!!busy} onClick={() => scrape('new')}>
         {busy === 'new' ? <Spinner /> : null}
-        Scrape New Documents
+        Fetch New Documents
       </button>
       {status ? (
         <span className="scrape-meta">
           {status.docs} docs{status.lastCrawl ? ` · last ${status.lastCrawl.slice(0, 10)}` : ''}
         </span>
       ) : null}
-      {msg ? <span className={`scrape-msg${msg.startsWith('Scrape failed') ? ' err' : ''}`}>{msg}</span> : null}
+      {msg ? <span className={`scrape-msg${msg.startsWith('Fetch failed') ? ' err' : ''}`}>{msg}</span> : null}
     </div>
+  )
+}
+
+// Room-level fetch: runs the crawl for EVERY competitor (code '*'). Lives in the Competitor
+// Data Room header. Full = re-fetch all; New = delta. A full fetch over all players is long —
+// the button stays busy until the server finishes, then the page reloads with the new counts.
+export function RoomFetchControls() {
+  const [busy, setBusy] = useState<'full' | 'new' | null>(null)
+  const [offline, setOffline] = useState(false)
+
+  useEffect(() => {
+    let live = true
+    fetch('/api/health')
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('offline'))))
+      .catch(() => live && setOffline(true))
+    const pending = sessionStorage.getItem('fetch:*')
+    if (pending) sessionStorage.removeItem('fetch:*')
+    return () => {
+      live = false
+    }
+  }, [])
+
+  async function fetchAll(mode: 'full' | 'new') {
+    if (busy) return
+    setBusy(mode)
+    try {
+      const res = await fetch('/api/scrape', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code: '*', mode }),
+      })
+      if (!res.ok) throw new Error((await res.json().catch(() => ({})))?.error || res.statusText)
+      sessionStorage.setItem('fetch:*', '1')
+      window.location.reload()
+    } catch {
+      setBusy(null)
+    }
+  }
+
+  if (offline) return null
+  return (
+    <>
+      <button className="btn pri" disabled={!!busy} onClick={() => fetchAll('full')}>
+        {busy === 'full' ? <span className="scrape-spin" aria-hidden /> : null}
+        Fetch Full Documents
+      </button>
+      <button className="btn" disabled={!!busy} onClick={() => fetchAll('new')}>
+        {busy === 'new' ? <span className="scrape-spin" aria-hidden /> : null}
+        Fetch New Documents
+      </button>
+    </>
   )
 }

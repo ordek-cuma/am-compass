@@ -8,6 +8,8 @@ import { FundDetail } from './features/rooms/FundDetail'
 import { CompanyScreener } from './features/rooms/CompanyScreener'
 import { CompanyDetail } from './features/rooms/CompanyDetail'
 import { CompetitorRadar } from './features/radar/CompetitorRadar'
+import { SettingsLayout } from './features/settings/SettingsLayout'
+import { DocumentFetcher } from './features/settings/DocumentFetcher'
 
 export default function App() {
   return (
@@ -30,6 +32,12 @@ export default function App() {
               <Route path="company/:companyId" element={<Navigate to="/rooms/competitor" replace />} />
               <Route path="radar" element={<Navigate to="/rooms/competitor" replace />} />
               <Route path="radar/competitors" element={<Navigate to="/rooms/competitor" replace />} />
+            </Route>
+            {/* Settings → Data Fetcher → Document Fetcher (scraper status dashboard) */}
+            <Route path="settings" element={<SettingsLayout />}>
+              <Route index element={<Navigate to="/settings/data-fetcher/documents" replace />} />
+              <Route path="data-fetcher" element={<Navigate to="/settings/data-fetcher/documents" replace />} />
+              <Route path="data-fetcher/documents" element={<DocumentFetcher />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>

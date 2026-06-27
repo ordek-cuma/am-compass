@@ -30,6 +30,35 @@ def _manifest_summary(code: str) -> dict:
             "lastCrawl": m.get("last_crawl")}
 
 
+def _method(code: str) -> str:
+    """A short, human description of HOW this player's documents are fetched — for the
+    Document Fetcher dashboard."""
+    sc = scrapers.get(code)
+    if sc is None:
+        return "EDGAR filings"
+    pages = len(sc.pages) or 1
+    if getattr(sc, "download_via_browser", False):
+        base = "Browser-download (WAF/Akamai)"
+    elif getattr(sc, "browser_download", False):
+        base = "Browser-download (in-session)"
+    elif getattr(sc, "channel", ""):
+        base = "Real-Chrome render"
+    else:
+        base = "Headless render + stdlib"
+    return f"{base} · {pages} page{'s' if pages != 1 else ''}"
+
+
+def _fetchers() -> list:
+    """Status of every dedicated document fetcher (scraper), for the dashboard."""
+    out = []
+    for code in scrapers.codes():
+        s = _manifest_summary(code)
+        out.append({
+            "code": code, "name": scrapers.get(code).name, "method": _method(code),
+            "docs": s["docs"], "lastCrawl": s["lastCrawl"], "ok": s["docs"] > 0})
+    return sorted(out, key=lambda r: -r["docs"])
+
+
 class Handler(BaseHTTPRequestHandler):
     def _send(self, code: int, payload: dict) -> None:
         body = json.dumps(payload).encode()
@@ -54,6 +83,8 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, {"ok": True, "scraperVenv": scrapers.available()})
         if u.path == "/api/scrapers":
             return self._send(200, {"scrapers": {c: scrapers.get(c).name for c in scrapers.codes()}})
+        if u.path == "/api/fetchers":
+            return self._send(200, {"fetchers": _fetchers()})
         if u.path == "/api/status":
             code = (parse_qs(u.query).get("code") or [""])[0]
             if not code:
@@ -75,6 +106,12 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(400, {"error": "code required"})
         if mode not in ("full", "new"):
             return self._send(400, {"error": "mode must be 'full' or 'new'"})
+        if code == "*":  # room-level: fetch documents for EVERY competitor
+            try:
+                report = crawl.run(None, force=(mode == "full"))
+            except Exception as e:
+                return self._send(500, {"error": f"crawl failed: {e}"})
+            return self._send(200, {**report, "code": "*"})
         try:
             report = crawl.run(code, force=(mode == "full"))
         except Exception as e:

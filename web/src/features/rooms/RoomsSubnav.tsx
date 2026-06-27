@@ -6,10 +6,10 @@ import { COMPETITORS } from '../../data/competitors'
 import { allDocuments } from '../../data/financials'
 import { FUNDS } from '../../data/funds'
 
-function RoomNav({ to, label, icon, count, active }: { to: string; label: string; icon: IconName; count: number; active: boolean }) {
+function RoomNav({ to, label, icon, count, active, sub }: { to: string; label: string; icon: IconName; count: number; active: boolean; sub?: boolean }) {
   const navigate = useNavigate()
   return (
-    <div className={`sp-row room-nav${active ? ' on' : ''}`} onClick={() => navigate(to)}>
+    <div className={`sp-row room-nav${sub ? ' sub' : ''}${active ? ' on' : ''}`} onClick={() => navigate(to)}>
       <span className="sp-ic">
         <Icon name={icon} size={15} />
       </span>
@@ -38,7 +38,7 @@ export function RoomsSubnav() {
       <div className="sp-treehead">Data Rooms</div>
       <div className="sp-grp-b">
         <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPETITORS.length} active={onCompetitor} />
-        <RoomNav to="/rooms/documents" label="Document Data Room" icon="docs" count={allDocuments().length} active={onDocuments} />
+        <RoomNav to="/rooms/documents" label="Document Room" icon="docs" count={allDocuments().length} active={onDocuments} sub />
         <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={FUNDS.length} active={onProduct} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>

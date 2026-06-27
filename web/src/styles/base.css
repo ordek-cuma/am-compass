@@ -137,6 +137,11 @@ button{font-family:inherit; cursor:pointer}
 .sp-browse svg{width:14px;height:14px}
 .sp-note{font-size:11px;color:var(--ink-3);line-height:1.5;padding:10px 6px 0;border-top:1px solid var(--line);margin-top:12px}
 .sp-treehead{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);padding:9px 4px 4px}
+/* Indented sub-room (Document Room nested under Competitor Data Room) with a tree connector. */
+.room-nav.sub{margin-left:16px;padding-left:13px;position:relative}
+.room-nav.sub::before{content:"";position:absolute;left:1px;top:-4px;bottom:50%;width:9px;
+  border-left:1.5px solid var(--line-2);border-bottom:1.5px solid var(--line-2);border-bottom-left-radius:6px}
+.room-nav.sub.on::before{border-color:var(--teal)}
 
 /* ============== MAIN ============== */
 .main{grid-area:main; overflow-y:auto; background:var(--bg)}
