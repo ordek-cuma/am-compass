@@ -35,21 +35,27 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_average", 2_000.1e9, "USD", "2025-12-31", "“Average AUM was $2,000.1 billion”", 0.9),
         ("net_flows", 81.2e9, "USD", "2025-12-31", "AUM rollforward: “Net long-term flows 81.2” billion (FY2025)", 0.9),
         ("headcount", 7_500, "count", "2025-12-31", "“approximately 7,500 employees”", 0.85),
+        ("num_countries", 120, "count", "2025-12-31", "“We service our clients in 120+ countries” (Invesco corporate)", 0.8),
     ],
     "FT": [  # Franklin Resources (fiscal year ends Sep 30)
         ("aum_total", 1_661.2e9, "USD", "2025-09-30", "“total AUM was $1,661.2 billion”", 0.9),
         ("net_flows", -97.4e9, "USD", "2025-09-30", "AUM rollforward: “Long-term net flows (97.4)” billion (FY2025)", 0.85),
         ("headcount", 9_800, "count", "2025-09-30", "“approximately 9,800 employees”", 0.85),
+        ("num_countries", 150, "count", "2025-09-30", "“serving clients in over 150 countries” (Franklin Templeton 8-K)", 0.85),
     ],
     "AB": [  # AllianceBernstein
         ("aum_total", 866.9e9, "USD", "2025-12-31", "“AUM as of December 31, 2025 were $866.9 billion”", 0.95),
         ("net_flows", -11.3e9, "USD", "2025-12-31", "“net outflows of $11.3 billion” (Inst −$4.6bn, Retail −$9.1bn, PW +$2.4bn)", 0.9),
         ("market_impact", 86.0e9, "USD", "2025-12-31", "“market appreciation of $86.0 billion” (2025)", 0.9),
         ("headcount", 4_468, "count", "2025-12-31", "“had 4,468 full-time employees”", 0.9),
+        ("num_countries", 26, "count", "2025-12-31", "“offices in major world markets across 26 countries and jurisdictions”", 0.75),
     ],
     "FED": [  # Federated Hermes
         ("aum_total", 902.6e9, "USD", "2025-12-31", "“$902.6 billion in assets under management”", 0.92),
         ("headcount", 2_091, "count", "2025-12-31", "“had 2,091 employees”", 0.85),
+        # Money-market net flows aren't disclosed, so a firmwide net-flow total can't be derived; revenue mix is.
+        ("mgmt_fee_revenue", 1_199.236e6, "USD", "2025-12-31", "10-K revenue by obligation: “Investment Advisory $1,199,236” (thousand, FY2025)", 0.9),
+        ("performance_fees", 12.5e6, "USD", "2025-12-31", "“performance fees, including carried interest, of $12.5 million” (FY2025)", 0.85),
     ],
     "WisdomTree": [  # WisdomTree
         ("aum_total", 144.5e9, "USD", "2025-12-31", "“AUM of $144.5 billion at December 31, 2025”", 0.95),
@@ -62,11 +68,15 @@ OVERLAY: dict[str, list[tuple]] = {
         ("headcount", 2_300, "count", "2025-12-31", "“2,300 employees”", 0.85),
     ],
     "AMG": [  # Affiliated Managers Group
-        ("aum_total", 813e9, "USD", "2025-12-31", "“assets under management were approximately $813 billion”", 0.85),
+        ("aum_total", 813.3e9, "USD", "2025-12-31", "10-K “Changes in AUM by strategy … $813.3” billion (31 Dec 2025)", 0.9),
+        ("net_flows", 28.7e9, "USD", "2025-12-31", "10-K “Net client cash flows … 28.7” billion (FY2025, by-strategy Total)", 0.8),
         ("headcount", 5_600, "count", "2025-12-31", "“approximately 5,600 employees”", 0.85),
     ],
-    "Blackstone": [  # AUM isn't in XBRL; from the FY2025 8-K
-        ("aum_total", 1_241.7e9, "USD", "2025-12-31", "Total AUM $1,241.7bn at 31 Dec 2025 (fee-earning $906.2bn) — FY2025 8-K", 0.9),
+    "Blackstone": [  # AUM/segments from the FY2025 earnings release (8-K Ex-99.1); not in XBRL
+        ("aum_total", 1_274.9e9, "USD", "2025-12-31", "Total AUM Rollforward ending balance $1,274,931M at 31 Dec 2025 (FY2025 earnings release)", 0.92),
+        ("net_flows", 127.1e9, "USD", "2025-12-31", "Total AUM Rollforward: Net Flows $127,120M FY2025 (gross Inflows $239.4bn)", 0.85),
+        ("mgmt_fee_revenue", 8_075.6e6, "USD", "2025-12-31", "GAAP statements: “Management and Advisory Fees, Net $8,075,601” (thousand, FY2025)", 0.9),
+        ("performance_fees", 5_283.5e6, "USD", "2025-12-31", "GAAP statements: Performance Allocations $4,305.3m + Incentive Fees $978.2m (FY2025)", 0.9),
         ("headcount", 5_285, "count", "2025-12-31", "10-K: “we employed approximately 5,285 people” (31 Dec 2025)", 0.9),
     ],
 }
@@ -107,6 +117,20 @@ BREAKDOWN: dict[str, list[tuple]] = {
         ("aum_by_asset_class", "Fixed Income", 155.8e9, "USD", "2025-12-31", "10-K capability rollforward: Fixed Income closing AUM $155.8B (31 Dec 2025)", 0.9),
         ("aum_by_asset_class", "Multi-Asset", 58.8e9, "USD", "2025-12-31", "10-K capability rollforward: Multi-Asset closing AUM $58.8B (31 Dec 2025)", 0.9),
         ("aum_by_asset_class", "Alternatives", 22.0e9, "USD", "2025-12-31", "10-K capability rollforward: Alternatives closing AUM $22.0B (31 Dec 2025)", 0.9),
+    ],
+    # Blackstone discloses AUM by its four segments (the alternatives-manager equivalent of asset class).
+    "Blackstone": [
+        ("aum_by_asset_class", "Credit & Insurance", 442.952e9, "USD", "2025-12-31", "Total AUM Rollforward ending: Credit & Insurance $442,952M (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Private Equity", 416.423e9, "USD", "2025-12-31", "Total AUM Rollforward ending: Private Equity $416,423M (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Real Estate", 319.343e9, "USD", "2025-12-31", "Total AUM Rollforward ending: Real Estate $319,343M (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Multi-Asset Investing", 96.214e9, "USD", "2025-12-31", "Total AUM Rollforward ending: Multi-Asset Investing $96,214M (sums to $1,274,931M)", 0.9),
+    ],
+    # AMG discloses AUM by strategy (its asset-class equivalent), reconciling to $813.3bn.
+    "AMG": [
+        ("aum_by_asset_class", "Equities", 312.1e9, "USD", "2025-12-31", "10-K Changes in AUM by strategy: Equities $312.1B (31 Dec 2025)", 0.9),
+        ("aum_by_asset_class", "Liquid Alternatives", 227.2e9, "USD", "2025-12-31", "10-K Changes in AUM by strategy: Liquid Alternatives $227.2B", 0.9),
+        ("aum_by_asset_class", "Private Markets", 146.0e9, "USD", "2025-12-31", "10-K Changes in AUM by strategy: Private Markets $146.0B", 0.9),
+        ("aum_by_asset_class", "Multi-Asset & Fixed Income", 128.0e9, "USD", "2025-12-31", "10-K Changes in AUM by strategy: Multi-Asset & Fixed Income $128.0B (sums to $813.3B)", 0.9),
     ],
 }
 
