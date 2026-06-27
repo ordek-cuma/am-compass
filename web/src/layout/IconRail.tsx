@@ -41,14 +41,23 @@ export const IconRail = forwardRef<HTMLElement>(function IconRail(_props, ref) {
         </div>
       ))}
       <div className="ir-foot">
-        {FOOT.map((f) => (
-          <a key={f.v} className="ir-item" title={`${f.name} · coming soon`}>
-            <span className="ir-ic">
-              <Icon name={f.icon} />
-            </span>
-            <span className="ir-lab">{f.tab}</span>
-          </a>
-        ))}
+        {FOOT.map((f) => {
+          const to = f.v === 'settings' ? '/settings' : null
+          const active = f.v === 'settings' && pathname.startsWith('/settings')
+          return (
+            <a
+              key={f.v}
+              className={`ir-item${active ? ' on' : ''}`}
+              title={to ? f.name : `${f.name} · coming soon`}
+              onClick={to ? () => navigate(to) : undefined}
+            >
+              <span className="ir-ic">
+                <Icon name={f.icon} />
+              </span>
+              <span className="ir-lab">{f.tab}</span>
+            </a>
+          )
+        })}
       </div>
     </nav>
   )

@@ -9,6 +9,7 @@ import { Panel } from '../../components/Panel'
 import { Icon, MagIcon } from '../../components/icons'
 import { CATEGORY_SOURCE, COMPETITORS, CR_FACETS } from '../../data/competitors'
 import { financialsFor, fmtMetric, type FinMetric } from '../../data/financials'
+import { RoomFetchControls } from '../rooms/ScrapeControls'
 
 type SortState = { k: string; d: number }
 type View = 'monitoring' | 'financials'
@@ -99,7 +100,7 @@ export function CompetitorRadar() {
         actions={
           <>
             <button className="btn"><Icon name="dl" size={15} />Import List</button>
-            <button className="btn pri">Add Competitor</button>
+            <RoomFetchControls />
           </>
         }
       />
