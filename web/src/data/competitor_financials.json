@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:11:36+00:00",
+  "generated_at": "2026-06-27T12:28:33+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -9649,41 +9649,41 @@
       ],
       "metrics": {
         "total_revenue": {
-          "value": 592000000.0,
+          "value": 3097300000.0,
           "unit": "USD",
           "basis": "GAAP",
           "confidence": 1.0,
           "source": "10-K",
-          "section": "us-gaap:Revenues (FY2017)",
-          "period_end": "2017-12-31",
+          "section": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax (FY2025)",
+          "period_end": "2025-12-31",
           "history": [
             {
-              "period_end": "2017-12-31",
-              "value": 592000000.0,
+              "period_end": "2025-12-31",
+              "value": 3097300000.0,
               "basis": "GAAP",
               "confidence": 1.0
             },
             {
-              "period_end": "2017-09-30",
-              "value": 537400000.0,
+              "period_end": "2024-12-31",
+              "value": 2473200000.0,
               "basis": "GAAP",
               "confidence": 1.0
             },
             {
-              "period_end": "2017-06-30",
-              "value": 384800000.0,
+              "period_end": "2023-12-31",
+              "value": 2101800000.0,
               "basis": "GAAP",
               "confidence": 1.0
             },
             {
-              "period_end": "2017-03-31",
-              "value": 229500000.0,
+              "period_end": "2022-12-31",
+              "value": 2203600000.0,
               "basis": "GAAP",
               "confidence": 1.0
             },
             {
-              "period_end": "2016-12-31",
-              "value": 243400000.0,
+              "period_end": "2021-12-31",
+              "value": 2767000000.0,
               "basis": "GAAP",
               "confidence": 1.0
             }
@@ -10016,6 +10016,233 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 2168300000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Management fees 2,168.3 (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2168300000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1957700000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1700100000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 460000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.92,
+          "source": "10-K",
+          "section": "10-K income statement: Performance fees 460.0 (2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 460000000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 70400000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5100000.0,
+              "basis": "reported",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 31.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "operating_income + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 31.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 26.1,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 23.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 22.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 29.7,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "comp_ratio": {
+          "value": 28.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "comp_expense + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 28.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 29.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 28.2,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 27.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 25.1,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "cost_income_ratio": {
+          "value": 68.5,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 1.0,
+          "source": "derived",
+          "section": "total_opex + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 68.5,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 73.9,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 77.0,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 77.8,
+              "basis": "derived",
+              "confidence": 1.0
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 70.3,
+              "basis": "derived",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "performance_fees_pct": {
+          "value": 14.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.92,
+          "source": "derived",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 14.9,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2.8,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 0.2,
+              "basis": "derived",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 44.0,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.92,
+          "source": "derived",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 44.0,
+              "basis": "derived",
+              "confidence": 0.92
+            }
+          ]
+        },
         "aum_per_employee": {
           "value": 214434783,
           "unit": "USD",
@@ -10034,17 +10261,17 @@
           ]
         },
         "revenue_per_employee": {
-          "value": 257391,
+          "value": 1346652,
           "unit": "USD",
           "basis": "derived",
           "confidence": 0.85,
           "source": "derived",
           "section": "headcount + total_revenue",
-          "period_end": "2017-12-31",
+          "period_end": "2025-12-31",
           "history": [
             {
-              "period_end": "2017-12-31",
-              "value": 257391,
+              "period_end": "2025-12-31",
+              "value": 1346652,
               "basis": "derived",
               "confidence": 0.85
             }

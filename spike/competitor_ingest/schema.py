@@ -88,6 +88,11 @@ METRIC_CATALOG: dict[str, dict] = {
     # ============ Revenue and fees ============
     "total_revenue": dict(label="Total revenue", unit="USD", group="Revenue",
                           definition="Total net revenue for the period.",
+                          # NB: ...IncludingAssessedTax is NOT in this default list on purpose — for some
+                          # filers (e.g. AllianceBernstein) it's only the customer-contract subset, while
+                          # "Revenues" is the true total (incl. investment gains/interest). Firms that tag
+                          # total revenue ONLY as IncludingAssessedTax (e.g. Janus Henderson) get it via a
+                          # per-firm override in extract_xbrl.CONCEPT_OVERRIDES.
                           xbrl=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"]),
     "mgmt_fee_revenue": dict(label="Investment management / advisory fees", unit="USD", group="Revenue",
                              definition="Advisory/management (base) fee revenue, excl. performance fees.", xbrl=[]),
