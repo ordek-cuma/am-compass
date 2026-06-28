@@ -64,6 +64,7 @@ const MANAGER_BY_CODE: Record<string, string> = {
   Vanguard: 'Vanguard', // UK/EU funds + US flagship ETFs/funds
   Fidelity: 'Fidelity', // US ETFs + major mutual funds (FMR; FIL is separate)
   SSgA: 'State Street Global Advisors', // SPDR ETFs + State Street funds
+  IVZ: 'Invesco', // QQQ + Invesco ETFs + US mutual funds
 }
 
 export function managerForCompetitor(code: string): string | null {
