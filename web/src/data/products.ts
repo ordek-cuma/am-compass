@@ -92,6 +92,12 @@ const MANAGER_BY_CODE: Record<string, string> = {
   MandG: 'M&G',
   NAT: 'Natixis Investment Managers', // incl. DNCA / affiliates
   Union: 'Union Investment',
+  'Swiss Life AM': 'Swiss Life Asset Managers',
+  'Bayern Invest': 'BayernInvest',
+  'Deka Immobilien': 'Deka Immobilien', // open-ended real-estate funds
+  MEAG: 'MEAG',
+  'AXA IM Alts.': 'AXA IM Alts', // AXA IM fund range (acquired by BNP Dec 2025)
+  // Universal Investment & HSBC INKA = Master-KVGs (administer third-party funds, no own retail range)
 }
 
 export function managerForCompetitor(code: string): string | null {
