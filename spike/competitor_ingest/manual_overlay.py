@@ -88,6 +88,7 @@ OVERLAY: dict[str, list[tuple]] = {
         ("aum_total", 813.3e9, "USD", "2025-12-31", "10-K “Changes in AUM by strategy … $813.3” billion (31 Dec 2025)", 0.9),
         ("net_flows", 28.7e9, "USD", "2025-12-31", "10-K “Net client cash flows … 28.7” billion (FY2025, by-strategy Total)", 0.8),
         ("headcount", 5_600, "count", "2025-12-31", "“approximately 5,600 employees”", 0.85),
+        ("num_countries", 50, "count", "2025-12-31", "“AMG’s Affiliates … manage assets for investors in more than 50 countries”", 0.8),
         # AMG's XBRL OperatingIncomeLoss is stale (FY2017). Consolidated operating income FY2025 =
         # revenue $2,074.4m − total consolidated expenses $1,805.4m = $269.0m (affiliate equity
         # earnings sit below this line, so this is the clean CONSOLIDATED operating margin, ~13%).
