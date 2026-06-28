@@ -11468,42 +11468,42 @@
         "operating_income": {
           "value": 269000000.0,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.75,
-          "source": "10-K",
-          "vendor": "analyst",
-          "section": "FY2025 consolidated: revenue $2,074.4m \u2212 consolidated expenses $1,805.4m = $269.0m (pre-tax incl. affiliate equity earnings = $1,186.3m)",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "AMG 2025 & 2023 10-K (consolidated revenue \u2212 total consolidated expenses)",
+          "vendor": "derive",
+          "section": "GAAP operating income. CAVEAT: AMG consolidated revenue excludes most affiliate revenue (equity-method income sits below this line), so GAAP op income understates AMG economics; FY2025 also hit by a $160.3m intangible charge. \u2014 src: AMG 2025 & 2023 10-K (consolidated revenue \u2212 total consolidated expenses)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 269000000.0,
-              "basis": "reported",
-              "confidence": 0.75
+              "basis": "derived",
+              "confidence": 0.9
             },
             {
-              "period_end": "2017-12-31",
-              "value": 280000000.0,
-              "basis": "GAAP",
-              "confidence": 1.0
+              "period_end": "2024-12-31",
+              "value": 533000000.0,
+              "basis": "derived",
+              "confidence": 0.92
             },
             {
-              "period_end": "2017-09-30",
-              "value": 289500000.0,
-              "basis": "GAAP",
-              "confidence": 1.0
+              "period_end": "2023-12-31",
+              "value": 561000000.0,
+              "basis": "derived",
+              "confidence": 0.92
             },
             {
-              "period_end": "2017-06-30",
-              "value": 275900000.0,
-              "basis": "GAAP",
-              "confidence": 1.0
+              "period_end": "2022-12-31",
+              "value": 656000000.0,
+              "basis": "derived",
+              "confidence": 0.92
             },
             {
-              "period_end": "2017-03-31",
-              "value": 262500000.0,
-              "basis": "GAAP",
-              "confidence": 1.0
+              "period_end": "2021-12-31",
+              "value": 781000000.0,
+              "basis": "derived",
+              "confidence": 0.92
             }
           ]
         },
@@ -11908,17 +11908,41 @@
           "value": 13.0,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.75,
-          "source": "derived",
+          "confidence": 0.9,
+          "source": "AMG 2025 & 2023 10-K (GAAP operating income \u00f7 consolidated revenue)",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "GAAP margin \u2014 NOT like-for-like: most affiliate earnings flow in below the line via equity-method income, so this looks low/volatile (2025 hit by a $160.3m intangible charge). Structural artifact, not efficiency. \u2014 src: AMG 2025 & 2023 10-K (GAAP operating income \u00f7 consolidated revenue)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 13.0,
               "basis": "derived",
-              "confidence": 0.75
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 26.1,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 27.3,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 28.2,
+              "basis": "derived",
+              "confidence": 0.92
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 32.4,
+              "basis": "derived",
+              "confidence": 0.92
             }
           ]
         },
@@ -14026,20 +14050,44 @@
           ]
         },
         "operating_income": {
-          "value": 7171600000.0,
+          "value": 7170000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "10-K",
+          "confidence": 0.97,
+          "source": "Blackstone 2025 & 2023 10-K (GAAP Income Before Provision for Taxes)",
           "vendor": "analyst",
-          "section": "GAAP \u201cIncome Before Provision for Taxes $7,171,646\u201d (thousand, FY2025)",
+          "section": "GAAP pre-tax income. Swings with performance allocations; FY2021 an exceptional carry year. Segment Distributable Earnings ~$7.1bn / FRE margin ~58% are the smoother management metrics. \u2014 src: Blackstone 2025 & 2023 10-K (GAAP Income Before Provision for Taxes)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 7171600000.0,
+              "value": 7170000000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 6460000000.0,
+              "basis": "reported",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2960000000.0,
+              "basis": "reported",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3460000000.0,
+              "basis": "reported",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 13560000000.0,
+              "basis": "reported",
+              "confidence": 0.97
             }
           ]
         },
@@ -14114,17 +14162,41 @@
           "value": 49.6,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.97,
+          "source": "Blackstone 2025 & 2023 10-K (Income Before Provision for Taxes \u00f7 Total Revenues)",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "GAAP pre-tax margin (volatile w/ carry). FY2021 60% = record carry year, not run-rate; FRE margin ~58% is the stable operating view. \u2014 src: Blackstone 2025 & 2023 10-K (Income Before Provision for Taxes \u00f7 Total Revenues)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 49.6,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 48.8,
+              "basis": "derived",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 36.9,
+              "basis": "derived",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 40.6,
+              "basis": "derived",
+              "confidence": 0.97
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 60.1,
+              "basis": "derived",
+              "confidence": 0.97
             }
           ]
         },
@@ -15285,20 +15357,44 @@
           ]
         },
         "operating_margin": {
-          "value": 22.7,
+          "value": 22.6,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 22.7,
+              "value": 22.6,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 19.5,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 15.6,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 15.1,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 27.0,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -15852,17 +15948,41 @@
           "value": 24.7,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 24.7,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 28.2,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 9.8,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 9.8,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 48.8,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -16714,20 +16834,44 @@
           ]
         },
         "operating_income": {
-          "value": 8644000000.0,
+          "value": 8640000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "AWM \u201cIncome before income tax expense \u2026 8,644\u201d ($m FY2025)",
+          "confidence": 0.98,
+          "source": "JPMorgan Chase 2025 & 2023 10-K (AWM segment income before income tax expense)",
+          "vendor": "analyst",
+          "section": "AWM segment pre-tax income. \u2014 src: JPMorgan Chase 2025 & 2023 10-K (AWM segment income before income tax expense)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 8644000000.0,
+              "value": 8640000000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 7230000000.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 6890000000.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 5790000000.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 6270000000.0,
+              "basis": "reported",
+              "confidence": 0.98
             }
           ]
         },
@@ -16876,20 +17020,44 @@
           ]
         },
         "operating_margin": {
-          "value": 35.9,
+          "value": 36.0,
           "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "basis": "reported",
+          "confidence": 0.98,
+          "source": "JPMorgan Chase 2025 & 2023 10-K (AWM pre-tax margin ratio)",
+          "vendor": "analyst",
+          "section": "Firm-stated AWM pre-tax margin. \u2014 src: JPMorgan Chase 2025 & 2023 10-K (AWM pre-tax margin ratio)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 35.9,
-              "basis": "derived",
-              "confidence": 0.9
+              "value": 36.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 34.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 35.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 33.0,
+              "basis": "reported",
+              "confidence": 0.98
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 37.0,
+              "basis": "reported",
+              "confidence": 0.98
             }
           ]
         },
@@ -17326,17 +17494,41 @@
           "value": 20.8,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 20.8,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 21.5,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 19.5,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 23.2,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 36.5,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -20028,20 +20220,44 @@
           ]
         },
         "operating_margin": {
-          "value": 32.6,
+          "value": 32.7,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 32.6,
+              "value": 32.7,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 29.5,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 26.0,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 29.6,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 31.6,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -20573,17 +20789,41 @@
           "value": 22.8,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 22.8,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 16.3,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 12.4,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 47.2,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 39.4,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -22775,20 +23015,44 @@
           ]
         },
         "operating_income": {
-          "value": 1766880000.0,
+          "value": 1770000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Amundi FY2025: \u201cGross operating income - Adjusted 1,636\u201d (cost/income 52.1%)",
+          "confidence": 0.95,
+          "source": "Amundi FY2021\u2013FY2025 results press releases (adjusted gross operating income)",
+          "vendor": "analyst",
+          "section": "Adjusted gross operating income (GOI). 2021 a peak perf-fee year. \u2014 src: Amundi FY2021\u2013FY2025 results press releases (adjusted gross operating income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1766880000.0,
+              "value": 1770000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1790000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1620000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1580000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1970000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -22911,20 +23175,44 @@
           ]
         },
         "operating_margin": {
-          "value": 49.0,
+          "value": 47.9,
           "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.85,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "basis": "estimate",
+          "confidence": 0.95,
+          "source": "Amundi adjusted cost/income ratio, FY2021\u2013FY2025 results PRs",
+          "vendor": "estimate",
+          "section": "operating_margin = 100 \u2212 adjusted cost/income ratio (C/I 52.1/52.5/53.2/53.3/47.9%). \u2014 src: Amundi adjusted cost/income ratio, FY2021\u2013FY2025 results PRs",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 49.0,
-              "basis": "derived",
-              "confidence": 0.85
+              "value": 47.9,
+              "basis": "estimate",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 47.5,
+              "basis": "estimate",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 46.8,
+              "basis": "estimate",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 46.7,
+              "basis": "estimate",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 52.1,
+              "basis": "estimate",
+              "confidence": 0.9
             }
           ]
         },
@@ -23209,20 +23497,44 @@
           ]
         },
         "operating_income": {
-          "value": 1429920000.0,
+          "value": 1430000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "DWS FY2025: \u201cProfit before tax \u2026 1,324\u201d (\u20acm)",
+          "confidence": 0.95,
+          "source": "DWS FY2021\u2013FY2025 results (reported profit before tax)",
+          "vendor": "analyst",
+          "section": "Reported (statutory) profit before tax. \u2014 src: DWS FY2021\u2013FY2025 results (reported profit before tax)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1429920000.0,
+              "value": 1430000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1027000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1012000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1142000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1345000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -23401,18 +23713,42 @@
         "operating_margin": {
           "value": 42.0,
           "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "DWS FY2021\u2013FY2025 results (reported cost-income ratio)",
+          "vendor": "analyst",
+          "section": "operating_margin = 100 \u2212 reported CIR (DWS adjusted CIR is a few pp better). \u2014 src: DWS FY2021\u2013FY2025 results (reported cost-income ratio)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 42.0,
-              "basis": "derived",
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 34.4,
+              "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 36.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 39.4,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 41.9,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -23978,18 +24314,42 @@
           ]
         },
         "operating_income": {
-          "value": 855726000.0,
+          "value": 960000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Schroders FY2025: \u201cStatutory profit before tax of \u00a3673.8 million\u201d",
+          "source": "Schroders FY2021\u2013FY2025 results (operating profit before exceptional items)",
+          "vendor": "analyst",
+          "section": "Operating profit before exceptionals; FY2025 on new adjusted basis (slight discontinuity). \u2014 src: Schroders FY2021\u2013FY2025 results (operating profit before exceptional items)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 855726000.0,
+              "value": 960000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 820000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 820000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 900000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1160000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -24104,20 +24464,44 @@
           ]
         },
         "operating_margin": {
-          "value": 25.0,
+          "value": 28.0,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.85,
+          "source": "Derived: Schroders operating profit before exceptionals \u00f7 net operating revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Schroders states no single headline operating margin; computed op profit \u00f7 net operating revenue. \u2014 src: Derived: Schroders operating profit before exceptionals \u00f7 net operating revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 25.0,
+              "value": 28.0,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 26.4,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 27.3,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 29.2,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 33.3,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         },
@@ -24649,18 +25033,42 @@
           ]
         },
         "operating_income": {
-          "value": 335280000.0,
+          "value": 335000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Aberdeen Group FY2025: \u201cAdjusted operating profit \u00a3264m\u201d",
+          "confidence": 0.95,
+          "source": "abrdn/Aberdeen Group FY2021\u2013FY2025 results (group adjusted operating profit)",
+          "vendor": "analyst",
+          "section": "GROUP adjusted operating profit (incl. adviser + interactive investor); Investments segment alone runs near-zero margin. \u2014 src: abrdn/Aberdeen Group FY2021\u2013FY2025 results (group adjusted operating profit)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 335280000.0,
+              "value": 335000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 326000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 309000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 326000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 446000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -24824,17 +25232,41 @@
           "value": 20.7,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.85,
+          "source": "Derived: abrdn group adjusted operating profit \u00f7 group net operating revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "GROUP adjusted operating margin (derived). Investments-segment-only margin is near-zero; group buoyed by adviser/ii. \u2014 src: Derived: abrdn group adjusted operating profit \u00f7 group net operating revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 20.7,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 19.3,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 17.8,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 18.0,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 21.3,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         },
@@ -25562,20 +25994,44 @@
           ]
         },
         "operating_income": {
-          "value": 337820000.0,
+          "value": 356000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "M&G Asset Management FY2025: \u00a31,066m revenue \u00d7 (1 \u2212 75% cost/income ratio) \u2248 \u00a3266m AM operating profit (group adjusted operating profit \u00a3838m)",
+          "confidence": 0.95,
+          "source": "M&G plc FY2021\u2013FY2025 results (Asset Management SEGMENT adjusted operating profit)",
+          "vendor": "analyst",
+          "section": "Asset Management segment AOP (NOT group AOP, which is far larger incl. Life/Heritage). \u2014 src: M&G plc FY2021\u2013FY2025 results (Asset Management SEGMENT adjusted operating profit)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 337820000.0,
+              "value": 356000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 370000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 300000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 327000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 435000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -25755,20 +26211,44 @@
           ]
         },
         "operating_margin": {
-          "value": 25.0,
+          "value": 26.3,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.8,
-          "source": "derived",
+          "confidence": 0.85,
+          "source": "Derived: M&G Asset Management segment AOP \u00f7 AM segment revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "AM-segment operating margin (derived). AM cost/income ratio (excl. perf fees) ~75-79% gives a few-pp-lower view. \u2014 src: Derived: M&G Asset Management segment AOP \u00f7 AM segment revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 25.0,
+              "value": 26.3,
               "basis": "derived",
-              "confidence": 0.8
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 28.7,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 24.4,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 26.6,
+              "basis": "derived",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 32.2,
+              "basis": "derived",
+              "confidence": 0.85
             }
           ]
         },
@@ -26317,38 +26797,86 @@
           ]
         },
         "total_revenue": {
-          "value": 2220000000.0,
+          "value": 2215000000.0,
           "unit": "USD",
-          "basis": "estimate",
-          "confidence": 0.6,
-          "source": "AllianzGI self-reported corporate disclosure (FY2025)",
-          "vendor": "estimate",
-          "section": "AllianzGI-only operating revenue not broken out by Allianz SE for prior years; only FY2025 self-reported figure reliable, so prior years omitted (no interpolation). \u2014 src: AllianzGI self-reported corporate disclosure (FY2025)",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI operating revenues)",
+          "vendor": "analyst",
+          "section": "AllianzGI standalone operating revenues. 2021-22 pre-IFRS17; 2023-25 IFRS17. \u2014 src: Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI operating revenues)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2220000000.0,
-              "basis": "estimate",
-              "confidence": 0.6
+              "value": 2215000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2253000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2162000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2343000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2753000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
         "operating_income": {
-          "value": 831600000.0000001,
+          "value": 832000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Allianz FY2025: \u201cAllianzGI \u2013 OP at EUR 770mn, up 5%\u201d",
+          "confidence": 0.9,
+          "source": "Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI operating profit)",
+          "vendor": "analyst",
+          "section": "AllianzGI standalone operating profit. 2021-22 pre-IFRS17; 2023-25 IFRS17. \u2014 src: Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI operating profit)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 831600000.0000001,
+              "value": 832000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 792000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 720000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 815000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1100000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -26449,20 +26977,44 @@
           ]
         },
         "operating_margin": {
-          "value": 37.5,
+          "value": 37.6,
           "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.85,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI cost-income ratio)",
+          "vendor": "analyst",
+          "section": "operating_margin = 100 \u2212 AllianzGI CIR (same operating-revenue base). \u2014 src: Allianz FY2022/FY2024/FY2025 analyst presentations (AllianzGI cost-income ratio)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 37.5,
-              "basis": "derived",
+              "value": 37.6,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 35.1,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 33.3,
+              "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 34.8,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 40.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -26893,17 +27445,41 @@
           "value": 21.9,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.75,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 21.9,
               "basis": "derived",
-              "confidence": 0.75
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 21.6,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 20.2,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 21.9,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 28.1,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
@@ -27533,18 +28109,30 @@
           ]
         },
         "operating_margin": {
-          "value": 16.7,
+          "value": 15.6,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.8,
-          "source": "derived",
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 16.7,
+              "value": 15.6,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 19.0,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 15.4,
               "basis": "derived",
               "confidence": 0.8
             }
@@ -28780,14 +29368,38 @@
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.8,
-          "source": "derived",
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 36.1,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 38.2,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 29.7,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 34.1,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 33.3,
               "basis": "derived",
               "confidence": 0.8
             }
@@ -29204,20 +29816,44 @@
           ]
         },
         "operating_income": {
-          "value": 1279800000.0,
+          "value": 1280000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cDas Betriebsergebnis \u2026 auf 1.185 Millionen Euro\u201d (operating result \u20ac1,185m FY2025)",
+          "source": "Union Investment annual results 2021\u20132025 (Betriebsergebnis vor Steuern)",
+          "vendor": "analyst",
+          "section": "Operating result before tax. \u2014 src: Union Investment annual results 2021\u20132025 (Betriebsergebnis vor Steuern)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1279800000.0,
+              "value": 1280000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1340000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1052000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 750000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1457000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -29371,6 +30007,42 @@
               "value": 1020000000.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "operating_margin": {
+          "value": 53.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "Derived: Union Betriebsergebnis \u00f7 Provisions\u00fcberschuss-based revenue",
+          "vendor": "derive",
+          "section": "Computed op result \u00f7 revenue (Provisions\u00fcberschuss denominator, so a proxy level). FY2025 omitted \u2014 no FY2025 revenue published. \u2014 src: Derived: Union Betriebsergebnis \u00f7 Provisions\u00fcberschuss-based revenue",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 53.8,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 48.3,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 35.0,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 53.8,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         }
@@ -30312,20 +30984,44 @@
           ]
         },
         "operating_income": {
-          "value": 998568000.0,
+          "value": 1040000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cErgebnis vor Steuern: 924,6 Mio. \u20ac\u201d (pre-tax result FY2025)",
+          "confidence": 0.9,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021\u20132025 (wirtschaftliches Ergebnis)",
+          "vendor": "analyst",
+          "section": "Economic result (headline steering profit; close to IFRS PBT). \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021\u20132025 (wirtschaftliches Ergebnis)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 998568000.0,
+              "value": 1040000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 964000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1049000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1064000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -30392,20 +31088,44 @@
           ]
         },
         "operating_margin": {
-          "value": 38.1,
+          "value": 41.0,
           "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.85,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021\u20132025 (Aufwands-Ertrags-Relation / CIR)",
+          "vendor": "analyst",
+          "section": "operating_margin = 100 \u2212 CIR. \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021\u20132025 (Aufwands-Ertrags-Relation / CIR)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 38.1,
-              "basis": "derived",
-              "confidence": 0.85
+              "value": 41.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 40.8,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 45.6,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 45.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 41.4,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -33044,17 +33764,41 @@
           "value": 33.7,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
+          "confidence": 0.8,
+          "source": "Derived: segment pre-tax operating result \u00f7 net revenue",
           "vendor": "derive",
-          "section": "operating_income + total_revenue",
+          "section": "Pre-tax operating margin = segment operating result \u00f7 net revenue",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 33.7,
               "basis": "derived",
-              "confidence": 0.9
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 31.5,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 30.1,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 31.7,
+              "basis": "derived",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 33.8,
+              "basis": "derived",
+              "confidence": 0.8
             }
           ]
         },
