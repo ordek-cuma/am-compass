@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:32:47+00:00",
+  "generated_at": "2026-06-28T04:12:51+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -2960,38 +2960,86 @@
           ]
         },
         "aum_total": {
-          "value": 14000000000000.0,
+          "value": 14041500000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "\u201ctotal AUM was $14.0 trillion\u201d",
+          "section": "10-K: total AUM $14,041,518 ($m, 31 Dec 2025; \u201c$14.0 trillion\u201d)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 14000000000000.0,
+              "value": 14041500000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 11551300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 10009000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 8594500000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 10010100000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
         "net_flows": {
-          "value": 698000000000.0,
+          "value": 698300000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.95,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "\u201crecord $698 billion of net inflows in 2025\u201d",
+          "section": "\u201crecord $698 billion of net inflows in 2025\u201d (total net flows)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 698000000000.0,
+              "value": 698300000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 641400000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 288700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 306600000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 539700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -3213,31 +3261,31 @@
           "confidence": 0.92,
           "source": "10-K",
           "vendor": "table-parse",
-          "section": "10-K AUM by asset class: Equity $7,793.9B (reconciled to firm AuM)",
+          "section": "10-K AUM by asset class: Equity $5,352.0B (reconciled to firm AuM)",
           "members": [
             {
               "member": "Equity",
-              "value": 7793875000000.0,
+              "value": 5352026000000.0,
               "confidence": 0.92
             },
             {
               "member": "Fixed income",
-              "value": 3272021000000.0,
+              "value": 2066131000000.0,
               "confidence": 0.92
             },
             {
               "member": "Multi-asset",
-              "value": 1223625000000.0,
+              "value": 866443000000.0,
               "confidence": 0.92
             },
             {
               "member": "Money market / cash",
-              "value": 1080732000000.0,
+              "value": 756022000000.0,
               "confidence": 0.92
             },
             {
               "member": "Alternatives",
-              "value": 423614000000.0,
+              "value": 282320000000.0,
               "confidence": 0.92
             }
           ]
@@ -3527,7 +3575,7 @@
           ]
         },
         "aum_per_employee": {
-          "value": 562248996,
+          "value": 563915663,
           "unit": "USD",
           "basis": "derived",
           "confidence": 0.9,
@@ -3538,7 +3586,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 562248996,
+              "value": 563915663,
               "basis": "derived",
               "confidence": 0.9
             }
@@ -3563,7 +3611,7 @@
           ]
         },
         "pct_alternatives": {
-          "value": 3.0,
+          "value": 2.0,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.92,
@@ -3574,7 +3622,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3.0,
+              "value": 2.0,
               "basis": "derived",
               "confidence": 0.92
             }
@@ -4042,6 +4090,30 @@
               "value": 1775600000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1606600000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1444500000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1274700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1687800000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -4049,7 +4121,7 @@
           "value": -56900000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "source": "10-K",
           "vendor": "analyst",
           "section": "\u201cnet cash outflows of $56.9 billion\u201d (FY2025 10-K)",
@@ -4059,7 +4131,31 @@
               "period_end": "2025-12-31",
               "value": -56900000000.0,
               "basis": "reported",
-              "confidence": 0.75
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -43200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -81800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -61700000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": -28500000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -4326,7 +4422,7 @@
           "value": -3.1,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "source": "derived",
           "vendor": "derive",
           "section": "aum_total + net_flows",
@@ -4336,7 +4432,7 @@
               "period_end": "2025-12-31",
               "value": -3.1,
               "basis": "derived",
-              "confidence": 0.75
+              "confidence": 0.85
             }
           ]
         },
@@ -4948,6 +5044,18 @@
               "value": 1585300000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1409200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1610900000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -4982,6 +5090,30 @@
             {
               "period_end": "2025-12-31",
               "value": 81200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 65100000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 10200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -500000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 81400000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -5055,6 +5187,57 @@
               "period_end": "2025-12-31",
               "value": 33.4,
               "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.9,
+          "source": "10-K",
+          "vendor": "analyst",
+          "section": "Invesco FY2025 10-K AUM by investment capability: ETFs and Index $630.2bn",
+          "members": [
+            {
+              "member": "ETFs & Index",
+              "value": 630200000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Invesco QQQ",
+              "value": 407200000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fundamental Fixed Income",
+              "value": 311500000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Fundamental Equities",
+              "value": 298400000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Global Liquidity",
+              "value": 189700000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "China JV & India",
+              "value": 132500000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Private Markets",
+              "value": 130700000000.0,
+              "confidence": 0.9
+            },
+            {
+              "member": "Multi-Asset & Other",
+              "value": 69700000000.0,
               "confidence": 0.9
             }
           ]
@@ -6219,12 +6402,36 @@
           "confidence": 0.9,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "\u201ctotal AUM was $1,661.2 billion\u201d",
+          "section": "\u201ctotal AUM was $1,661.2 billion\u201d (FYE 30 Sep 2025)",
           "period_end": "2025-09-30",
           "history": [
             {
               "period_end": "2025-09-30",
               "value": 1661200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": 1678600000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": 1374200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": 1297400000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": 1530100000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -6237,12 +6444,36 @@
           "confidence": 0.85,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "AUM rollforward: \u201cLong-term net flows (97.4)\u201d billion (FY2025)",
+          "section": "AUM rollforward: \u201cLong-term net flows (97.4)\u201d billion (FY2025; incl. \u2212$141.9bn Western Asset)",
           "period_end": "2025-09-30",
           "history": [
             {
               "period_end": "2025-09-30",
               "value": -97400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-09-30",
+              "value": -32600000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-09-30",
+              "value": -21300000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-09-30",
+              "value": -27800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-09-30",
+              "value": -25200000000.0,
               "basis": "reported",
               "confidence": 0.85
             }
@@ -6364,42 +6595,6 @@
               "period_end": "2023-09-30",
               "value": 1203700000.0,
               "basis": "reported",
-              "confidence": 0.92
-            }
-          ]
-        },
-        "aum_by_asset_class": {
-          "unit": "USD",
-          "basis": "reported",
-          "period_end": "2025-09-30",
-          "confidence": 0.92,
-          "source": "10-K",
-          "vendor": "table-parse",
-          "section": "10-K AUM by asset class: Equity $686.2B (reconciled to firm AuM)",
-          "members": [
-            {
-              "member": "Equity",
-              "value": 686200000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Fixed income",
-              "value": 438700000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Alternatives",
-              "value": 263899999999.99997,
-              "confidence": 0.92
-            },
-            {
-              "member": "Multi-asset",
-              "value": 193900000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Money market / cash",
-              "value": 78500000000.0,
               "confidence": 0.92
             }
           ]
@@ -6617,24 +6812,6 @@
               "value": 894969,
               "basis": "derived",
               "confidence": 0.85
-            }
-          ]
-        },
-        "pct_alternatives": {
-          "value": 15.9,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.9,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "aum_by_asset_class + aum_total",
-          "period_end": "2025-09-30",
-          "history": [
-            {
-              "period_end": "2025-09-30",
-              "value": 15.9,
-              "basis": "derived",
-              "confidence": 0.9
             }
           ]
         }
@@ -7988,6 +8165,30 @@
               "value": 866900000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 792200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 725200000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 646400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 778600000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -8006,6 +8207,30 @@
               "value": -11300000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -2200000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -7000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -3600000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 26100000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -8078,6 +8303,60 @@
               "value": 3.38,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 3346200000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "vendor": "analyst",
+          "section": "AB FY2025 10-K net-revenue table: \u201cBase fees 3,346.2\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3346200000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 185300000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "vendor": "analyst",
+          "section": "AB FY2025 10-K: \u201cPerformance-based fees 185.3\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 185300000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "dist_fee_revenue": {
+          "value": 818400000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "10-K",
+          "vendor": "analyst",
+          "section": "AB FY2025 10-K: distribution revenues $818.4m (all-in-mgmt $358.9m + 12b-1 $63.1m + other distribution $396.5m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 818400000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -8225,6 +8504,42 @@
               "value": 72.6,
               "basis": "derived",
               "confidence": 1.0
+            }
+          ]
+        },
+        "performance_fees_pct": {
+          "value": 4.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 4.0,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 38.6,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 38.6,
+              "basis": "derived",
+              "confidence": 0.9
             }
           ]
         },
@@ -8714,6 +9029,30 @@
               "value": 902600000000.0,
               "basis": "reported",
               "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 829600000000.0,
+              "basis": "reported",
+              "confidence": 0.88
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 757600000000.0,
+              "basis": "reported",
+              "confidence": 0.88
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 668900000000.0,
+              "basis": "reported",
+              "confidence": 0.88
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 668900000000.0,
+              "basis": "reported",
+              "confidence": 0.88
             }
           ]
         },
@@ -8736,20 +9075,44 @@
           ]
         },
         "net_flows": {
-          "value": 50000000000.0,
+          "value": -700000000.0,
           "unit": "USD",
-          "basis": "estimate",
-          "confidence": 0.45,
+          "basis": "reported",
+          "confidence": 0.8,
           "source": "10-K",
-          "vendor": "estimate",
-          "section": "ESTIMATE: long-term \u2212$0.7bn (reported) + money-market AUM rise +$52.3bn (\u2248all flow at constant $1 NAV) \u2248 +$50bn firmwide",
+          "vendor": "analyst",
+          "section": "10-K: long-term net sales/(redemptions) $(691)m (FY2025; money-market flows not disclosed)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 50000000000.0,
-              "basis": "estimate",
-              "confidence": 0.45
+              "value": -700000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -12400000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -4400000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -8500000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 9000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -8816,42 +9179,6 @@
               "value": 4170000000.0,
               "basis": "external",
               "confidence": 0.7
-            }
-          ]
-        },
-        "aum_by_asset_class": {
-          "unit": "USD",
-          "basis": "reported",
-          "period_end": "2025-12-31",
-          "confidence": 0.92,
-          "source": "10-K",
-          "vendor": "table-parse",
-          "section": "10-K AUM by asset class: Equity $97.9B (reconciled to firm AuM)",
-          "members": [
-            {
-              "member": "Money market / cash",
-              "value": 682604000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Fixed income",
-              "value": 100127000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Equity",
-              "value": 97898000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Alternatives",
-              "value": 19101000000.0,
-              "confidence": 0.92
-            },
-            {
-              "member": "Multi-asset",
-              "value": 2854000000.0,
-              "confidence": 0.92
             }
           ]
         },
@@ -9018,10 +9345,10 @@
           ]
         },
         "organic_growth_rate": {
-          "value": 5.9,
+          "value": -0.1,
           "unit": "pct",
           "basis": "derived",
-          "confidence": 0.45,
+          "confidence": 0.8,
           "source": "derived",
           "vendor": "derive",
           "section": "aum_total + net_flows",
@@ -9029,9 +9356,9 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 5.9,
+              "value": -0.1,
               "basis": "derived",
-              "confidence": 0.45
+              "confidence": 0.8
             }
           ]
         },
@@ -9086,24 +9413,6 @@
               "value": 861149,
               "basis": "derived",
               "confidence": 0.85
-            }
-          ]
-        },
-        "pct_alternatives": {
-          "value": 2.1,
-          "unit": "pct",
-          "basis": "derived",
-          "confidence": 0.92,
-          "source": "derived",
-          "vendor": "derive",
-          "section": "aum_by_asset_class + aum_total",
-          "period_end": "2025-12-31",
-          "history": [
-            {
-              "period_end": "2025-12-31",
-              "value": 2.1,
-              "basis": "derived",
-              "confidence": 0.92
             }
           ]
         }
@@ -9645,6 +9954,30 @@
               "value": 144500000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 109800000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 100100000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 82000000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 77500000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -9663,6 +9996,30 @@
               "value": 8500000000.0,
               "basis": "reported",
               "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -350000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 10400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 12180000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4660000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -10512,6 +10869,30 @@
               "value": 493200000000.0,
               "basis": "reported",
               "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 378700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 334900000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 287300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 432300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -10522,7 +10903,7 @@
           "confidence": 0.9,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "\u201cNet inflows for the year ended December 31, 2025, were $56.5\u201d billion (10-K MD&A; matches the capability rollforward Total)",
+          "section": "\u201cNet inflows for the year ended December 31, 2025, were $56.5\u201d billion (incl. ~$46.5bn inorganic Guardian fixed income)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -10530,6 +10911,30 @@
               "value": 56500000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2400000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -36500000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": -16200000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -10602,6 +11007,16 @@
               "confidence": 0.9
             },
             {
+              "member": "Fixed income",
+              "value": 250500000000.0,
+              "confidence": 0.92
+            },
+            {
+              "member": "Equity",
+              "value": 157900000000.0,
+              "confidence": 0.92
+            },
+            {
               "member": "Fixed Income",
               "value": 155800000000.0,
               "confidence": 0.9
@@ -10610,6 +11025,11 @@
               "member": "Multi-Asset",
               "value": 58800000000.0,
               "confidence": 0.9
+            },
+            {
+              "member": "Money market / cash",
+              "value": 36300000000.0,
+              "confidence": 0.92
             },
             {
               "member": "Alternatives",
@@ -11312,6 +11732,30 @@
               "value": 813300000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 707900000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 672700000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 650800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 813800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -11328,6 +11772,30 @@
             {
               "period_end": "2025-12-31",
               "value": 28700000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -13900000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -29200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -33000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": -18500000000.0,
               "basis": "reported",
               "confidence": 0.8
             }
@@ -13428,22 +13896,70 @@
               "value": 1274900000000.0,
               "basis": "reported",
               "confidence": 0.92
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1127200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1040200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 974700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 880900000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
         "net_flows": {
-          "value": 127100000000.0,
+          "value": 192300000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "10-K",
           "vendor": "analyst",
-          "section": "Total AUM Rollforward: Net Flows $127,120M FY2025 (gross Inflows $239.4bn)",
+          "section": "Total AUM rollforward: Net Inflows $192,259,103 thousand (FY2025; gross inflows $239.4bn)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 127100000000.0,
+              "value": 192300000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 123700000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 102800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 174000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 234400000000.0,
               "basis": "reported",
               "confidence": 0.85
             }
@@ -13703,7 +14219,7 @@
           ]
         },
         "organic_growth_rate": {
-          "value": 11.1,
+          "value": 17.8,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.85,
@@ -13714,7 +14230,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 11.1,
+              "value": 17.8,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -14500,6 +15016,30 @@
               "value": 1895000000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1666000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1459000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1305000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1565000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -14518,6 +15058,30 @@
               "value": 34400000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 18000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -15200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -25800000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 26400000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -14534,6 +15098,42 @@
             {
               "period_end": "2025-12-31",
               "value": 6525000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 6068000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "MS IM FY2025 10-K: \u201cAsset management and related fees 6,068\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 6068000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 457000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "MS IM FY2025 10-K: \u201cPerformance-based income and other 457\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 457000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -14673,6 +15273,42 @@
             {
               "period_end": "2025-12-31",
               "value": 22.7,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees_pct": {
+          "value": 7.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 7.0,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 32.0,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 32.0,
               "basis": "derived",
               "confidence": 0.9
             }
@@ -14902,24 +15538,72 @@
               "value": 3606000000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3137000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2812000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2547000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2470000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
         "net_flows": {
-          "value": 168000000000.0,
+          "value": 224000000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "\u201cTotal long-term AUS net inflows 168\u201d ($bn FY2025; total AUS net inflows $224bn)",
+          "section": "FY2025: total AUS net inflows $224bn (long-term $168bn)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 168000000000.0,
+              "value": 224000000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 214000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 101000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 66000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 228000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -14936,6 +15620,42 @@
             {
               "period_end": "2025-12-31",
               "value": 16678999999.999998,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 11538000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "GS AWM FY2025 10-K: \u201cManagement and other fees 11,538\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 11538000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 489000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "GS AWM FY2025 10-K: \u201cIncentive fees 489\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 489000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -15062,8 +15782,44 @@
             }
           ]
         },
+        "performance_fees_pct": {
+          "value": 2.9,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.9,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 32.0,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 32.0,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
         "organic_growth_rate": {
-          "value": 4.9,
+          "value": 6.6,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.85,
@@ -15074,7 +15830,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 4.9,
+              "value": 6.6,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -15684,6 +16440,30 @@
               "value": 4791000000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4045000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3422000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2766000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3113000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -15702,6 +16482,30 @@
               "value": 209000000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 234000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 140000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 47000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 164000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -15774,6 +16578,24 @@
               "value": 29722.0,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 15494000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "JPM AWM FY2025 10-K: \u201cAsset management fees 15,494\u201d ($m; performance fees not separately disclosed at segment level)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 15494000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -15898,6 +16720,24 @@
             {
               "period_end": "2025-12-31",
               "value": 35.9,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 32.3,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 32.3,
               "basis": "derived",
               "confidence": 0.9
             }
@@ -16041,6 +16881,30 @@
               "value": 1466100000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1375200000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1298100000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1228400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1523800000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -16059,6 +16923,30 @@
               "value": 2100000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 13600000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -38400000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -20200000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 11000000000.0,
+              "basis": "reported",
+              "confidence": 0.7
             }
           ]
         },
@@ -16075,6 +16963,42 @@
             {
               "period_end": "2025-12-31",
               "value": 4231000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "mgmt_fee_revenue": {
+          "value": 3355000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "PGIM FY2025 10-K \u201cRevenues by type\u201d: \u201cTotal asset management fees 3,355\u201d ($m)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 3355000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 98000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "PGIM FY2025 10-K: \u201cIncentive fees 98\u201d ($m, within other related revenues)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 98000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -16219,6 +17143,42 @@
             {
               "period_end": "2025-12-31",
               "value": 20.8,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "performance_fees_pct": {
+          "value": 2.3,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.3,
+              "basis": "derived",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 22.9,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.9,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 22.9,
               "basis": "derived",
               "confidence": 0.9
             }
@@ -18558,6 +19518,30 @@
               "value": 5665000000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4715000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 4102000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3481000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4138000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -18574,6 +19558,30 @@
             {
               "period_end": "2025-12-31",
               "value": 180000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 144000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 117000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -37000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 196000000000.0,
               "basis": "reported",
               "confidence": 0.85
             }
@@ -18995,6 +20003,30 @@
               "value": 2098000000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1773000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1649000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1088000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1211000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -19013,6 +20045,30 @@
               "value": 30400000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 44600000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 15700000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 32500000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 44900000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -21139,6 +22195,30 @@
               "value": 2570400000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2419200000000.0005,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2199960000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2056320000000.0002,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2229120000000.0005,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -21157,6 +22237,30 @@
               "value": 94608000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 59832000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 28080000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 7560000000.000001,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 65016000000.00001,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -21549,6 +22653,30 @@
               "value": 1171800000000.0002,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1092960000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 967680000000.0001,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 886680000000.0001,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1002240000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -21567,6 +22695,30 @@
               "value": 55080000000.00001,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 27756000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 30564000000.000004,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -21492000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 51516000000.00001,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -22222,6 +23374,30 @@
               "value": 1046099000000.0001,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 988949000000.0001,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 953262000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 936625000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 973709000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -22238,6 +23414,30 @@
             {
               "period_end": "2025-12-31",
               "value": 14223999999.999998,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -13716000000.000002,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 12319000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -2032000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 44830999999.99999,
               "basis": "reported",
               "confidence": 0.85
             }
@@ -22797,24 +23997,72 @@
               "value": 706120000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 649478000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 628523000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 635000000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 688340000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
         "net_flows": {
-          "value": -4953000000.0,
+          "value": -2159000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "Aberdeen Group FY2025: \u201cNet flows \u00a3(3.9)bn\u201d",
+          "section": "Aberdeen Group FY2025: \u201cNet flows excluding liquidity \u00a3(1.7)bn\u201d",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": -4953000000.0,
+              "value": -2159000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -7747000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -17653000000.000004,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -13081000000.000002,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": -4064000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -22926,6 +24174,42 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 949960000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Aberdeen Group AR2025 Note 3(a): management fee income \u00a3637m (Institutional & Retail Wealth) + \u00a3111m (Insurance Partners) = \u00a3748m",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 949960000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 29210000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Aberdeen Group AR2025 Note 3(a): \u201cPerformance fees and carried interest \u00a323m\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 29210000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
         "num_countries": {
           "value": 80.0,
           "unit": "count",
@@ -22940,6 +24224,52 @@
               "period_end": "2025-12-31",
               "value": 80.0,
               "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Aberdeen Group AR2025: Investments AUM by capability \u2014 Equities \u00a353.3bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Fixed income (incl. liquidity)",
+              "value": 156210000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Quantitative",
+              "value": 139954000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Equities",
+              "value": 67691000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Real assets",
+              "value": 53213000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Alternative investment solutions",
+              "value": 36702999999.99999,
+              "confidence": 0.8
+            },
+            {
+              "member": "Multi-asset",
+              "value": 32384999999.999996,
+              "confidence": 0.8
+            },
+            {
+              "member": "Private credit",
+              "value": 9652000000.0,
               "confidence": 0.8
             }
           ]
@@ -22962,8 +24292,44 @@
             }
           ]
         },
+        "performance_fees_pct": {
+          "value": 1.8,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1.8,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 13.5,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 13.5,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
         "organic_growth_rate": {
-          "value": -0.7,
+          "value": -0.3,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.85,
@@ -22974,7 +24340,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": -0.7,
+              "value": -0.3,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -23496,24 +24862,72 @@
               "value": 477393000000.0,
               "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 439292999999.99994,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 436245000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 434340000000.00006,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 469900000000.00006,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
         "net_flows": {
-          "value": -2032000000.0,
+          "value": 9906000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "M&G FY2025: total net client flows \u00a3(1.6)bn (open business +\u00a37.8bn)",
+          "section": "M&G FY2025: \u201cNet flows from open business \u2026 7.8\u201d (\u00a3bn; total incl. Heritage \u00a3(1.6)bn)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": -2032000000.0,
+              "value": 9906000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -2413000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1397000000.0000002,
+              "basis": "reported",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 254000000.0,
+              "basis": "reported",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 762000000.0,
+              "basis": "reported",
+              "confidence": 0.75
             }
           ]
         },
@@ -23643,6 +25057,42 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 1353820000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "M&G AR2025: Asset Management underlying fee-based revenue \u00a31,066m (ex performance fees)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1353820000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "performance_fees": {
+          "value": 19050000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "M&G AR2025: \u201cPerformance fees 15\u201d (\u00a3m, net of related remuneration)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 19050000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
         "aum_by_channel": {
           "unit": "USD",
           "basis": "reported",
@@ -23669,6 +25119,47 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "M&G AR2025 p.329: total AUMA by asset class \u2014 Equity securities and pooled investment funds \u00a3157.2bn (31 Dec 2025)",
+          "members": [
+            {
+              "member": "Equity securities & pooled funds",
+              "value": 199643999999.99997,
+              "confidence": 0.8
+            },
+            {
+              "member": "Debt securities",
+              "value": 172974000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Investment property",
+              "value": 31496000000.000004,
+              "confidence": 0.8
+            },
+            {
+              "member": "Deposits",
+              "value": 14986000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Loans",
+              "value": 13335000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Cash & cash equivalents",
+              "value": 10414000000.0,
+              "confidence": 0.8
+            }
+          ]
+        },
         "operating_margin": {
           "value": 25.0,
           "unit": "pct",
@@ -23687,8 +25178,44 @@
             }
           ]
         },
+        "performance_fees_pct": {
+          "value": 1.4,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "performance_fees + total_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1.4,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 28.4,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.85,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 28.4,
+              "basis": "derived",
+              "confidence": 0.85
+            }
+          ]
+        },
         "organic_growth_rate": {
-          "value": -0.4,
+          "value": 2.1,
           "unit": "pct",
           "basis": "derived",
           "confidence": 0.85,
@@ -23699,7 +25226,7 @@
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": -0.4,
+              "value": 2.1,
               "basis": "derived",
               "confidence": 0.85
             }
@@ -24222,6 +25749,30 @@
               "value": 6588000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 432000000.00000006,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -3132000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -6804000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 49140000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -24543,6 +26094,30 @@
               "value": 1428840000000.0002,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1422360000000.0002,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1259280000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1165320000000.0002,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1344600000000.0002,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -24561,6 +26136,24 @@
               "value": 43200000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 43200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 13932000000.000002,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 29160000000.000004,
+              "basis": "reported",
+              "confidence": 0.6
             }
           ]
         },
@@ -25052,7 +26645,7 @@
           "confidence": 0.85,
           "source": "results",
           "vendor": "analyst-eu",
-          "section": "\u201c\u20ac1,624bn at Asset Management (including AXA IM and Real Estate)\u201d at 31 Dec 2025",
+          "section": "\u201c\u20ac1,624bn at Asset Management (including AXA IM and Real Estate)\u201d at 31 Dec 2025 (structural break: AXA IM acquired mid-2025)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -25060,6 +26653,30 @@
               "value": 1753920000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 678240000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 611280000000.0001,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 574560000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 612360000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -25078,6 +26695,24 @@
               "value": 38664000000.0,
               "basis": "reported",
               "confidence": 0.8
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 29484000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 14472000000.000002,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 37476000000.00001,
+              "basis": "reported",
+              "confidence": 0.75
             }
           ]
         },
@@ -26258,6 +27893,24 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 1262800000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Swiss Life FY2025: Asset Managers \u201cCommission and other net income 1,148\u201d (CHF m; TPAM 795 + PAM 353; no separate performance-fee line disclosed)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1262800000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
         "headcount": {
           "value": 2300.0,
           "unit": "count",
@@ -26289,6 +27942,24 @@
             {
               "period_end": "2025-12-31",
               "value": 36.1,
+              "basis": "derived",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 78.8,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.8,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 78.8,
               "basis": "derived",
               "confidence": 0.8
             }
@@ -26355,7 +28026,7 @@
       "ticker": "AXA IM Alts.",
       "regime": "European-listed",
       "cik": null,
-      "period_end": "2025-12-31",
+      "period_end": "2024-12-31",
       "documents": [
         {
           "name": "2025 HALF YEAR FINANCIAL REPORT",
@@ -26388,7 +28059,94 @@
           "file": "filings/AXA_IM_Alts/docs/wb9979913cdad4ac9.pdf"
         }
       ],
-      "metrics": {}
+      "metrics": {
+        "aum_total": {
+          "value": 200880000000.00003,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "AXA IM Alts FY2024: \u201cglobal leader in alternative investments with \u20ac186 billion of assets under management\u201d (31 Dec 2024)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 200880000000.00003,
+              "basis": "external",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 197640000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "net_flows": {
+          "value": 4320000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.65,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "AXA IM Alts FY2023: \u201c\u20ac4 billion of net new money from third-party clients\u201d (Alternatives unit; FY2024 \u20ac10bn was gross capital raising, not net)",
+          "period_end": "2023-12-31",
+          "history": [
+            {
+              "period_end": "2023-12-31",
+              "value": 4320000000.0,
+              "basis": "external",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "external",
+          "period_end": "2024-12-31",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "AXA IM Alts FY2024: \u201cover \u20ac93 billion of private debt and alternative credit\u201d",
+          "members": [
+            {
+              "member": "Private debt & alternative credit",
+              "value": 100440000000.00002,
+              "confidence": 0.8
+            },
+            {
+              "member": "Real estate",
+              "value": 87480000000.0,
+              "confidence": 0.8
+            },
+            {
+              "member": "Infrastructure & private equity",
+              "value": 12960000000.0,
+              "confidence": 0.8
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 2.2,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.65,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + net_flows",
+          "period_end": "2023-12-31",
+          "history": [
+            {
+              "period_end": "2023-12-31",
+              "value": 2.2,
+              "basis": "derived",
+              "confidence": 0.65
+            }
+          ]
+        }
+      }
     },
     "Union": {
       "name": "Union Investment",
@@ -27431,6 +29189,24 @@
             }
           ]
         },
+        "mgmt_fee_revenue": {
+          "value": 1809756000.0000002,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.6,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "Deka GB2024: net commission income (Provisionsergebnis) \u20ac1,675.7m FY2024 \u2014 AM Wertpapiere \u20ac1,064.7m + AM Immobilien \u20ac312.9m + other; basis FY2024 (no FY2025 split)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 1809756000.0000002,
+              "basis": "external",
+              "confidence": 0.6
+            }
+          ]
+        },
         "headcount": {
           "value": 5953.0,
           "unit": "count",
@@ -27449,6 +29225,32 @@
             }
           ]
         },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "external",
+          "period_end": "2024-12-31",
+          "confidence": 0.6,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "Deka GB2024 (Abb.9): Asset Management Wertpapiere volume \u20ac338,981m (31 Dec 2024)",
+          "members": [
+            {
+              "member": "Securities funds (Wertpapiere)",
+              "value": 366099480000.0,
+              "confidence": 0.6
+            },
+            {
+              "member": "Real estate (Immobilien)",
+              "value": 59563080000.00001,
+              "confidence": 0.6
+            },
+            {
+              "member": "Certificates (Zertifikate)",
+              "value": 23461920000.000004,
+              "confidence": 0.6
+            }
+          ]
+        },
         "operating_margin": {
           "value": 38.1,
           "unit": "pct",
@@ -27464,6 +29266,24 @@
               "value": 38.1,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "effective_fee_rate": {
+          "value": 37.1,
+          "unit": "bps",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + mgmt_fee_revenue",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 37.1,
+              "basis": "derived",
+              "confidence": 0.6
             }
           ]
         },
@@ -27819,6 +29639,36 @@
             }
           ]
         },
+        "net_flows": {
+          "value": 21600000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.6,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "Deka Immobilien FY2025: \u201coverall positive net sales performance of approximately \u20ac20 million in the real estate business division\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 21600000.0,
+              "basis": "external",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 21600000.0,
+              "basis": "external",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1188000000.0000002,
+              "basis": "external",
+              "confidence": 0.6
+            }
+          ]
+        },
         "headcount": {
           "value": 640.0,
           "unit": "count",
@@ -27833,6 +29683,40 @@
               "period_end": "2025-12-31",
               "value": 640.0,
               "basis": "reported",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "aum_by_asset_class": {
+          "unit": "USD",
+          "basis": "reported",
+          "period_end": "2025-12-31",
+          "confidence": 0.85,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Deka Immobilien is a pure real-estate manager \u2014 100% real estate (asset management volume \u20ac55.2bn, 31 Dec 2025)",
+          "members": [
+            {
+              "member": "Real estate",
+              "value": 59616000000.00001,
+              "confidence": 0.85
+            }
+          ]
+        },
+        "organic_growth_rate": {
+          "value": 0.0,
+          "unit": "pct",
+          "basis": "derived",
+          "confidence": 0.6,
+          "source": "derived",
+          "vendor": "derive",
+          "section": "aum_total + net_flows",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 0.0,
+              "basis": "derived",
               "confidence": 0.6
             }
           ]
@@ -28630,6 +30514,24 @@
             }
           ]
         },
+        "net_flows": {
+          "value": 55080000000.00001,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.6,
+          "source": "results",
+          "vendor": "tracker",
+          "section": "HSBC INKA FY2023: \u201cMit mehr als 51 Milliarden Euro Nettomittelzufl\u00fcssen in 2023\u201d (net new administered volume; FY2024/25 not disclosed)",
+          "period_end": "2023-12-31",
+          "history": [
+            {
+              "period_end": "2023-12-31",
+              "value": 55080000000.00001,
+              "basis": "external",
+              "confidence": 0.6
+            }
+          ]
+        },
         "headcount": {
           "value": 300.0,
           "unit": "count",
@@ -29076,6 +30978,24 @@
             {
               "period_end": "2025-12-31",
               "value": 240000000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 222000000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 82700000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 361900000000.0,
               "basis": "external",
               "confidence": 0.7
             }
@@ -29635,6 +31555,18 @@
               "value": 657300000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 698000000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 647200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -29926,6 +31858,30 @@
               "value": 143856000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 91260000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 26352000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -81108000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 70200000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
