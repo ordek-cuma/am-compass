@@ -62,6 +62,7 @@ export function totalAum(): number {
 const MANAGER_BY_CODE: Record<string, string> = {
   BL: 'BlackRock', // iShares + BGF/BSF + US BlackRock funds
   Vanguard: 'Vanguard', // UK/EU funds + US flagship ETFs/funds
+  Fidelity: 'Fidelity', // US ETFs + major mutual funds (FMR; FIL is separate)
 }
 
 export function managerForCompetitor(code: string): string | null {
