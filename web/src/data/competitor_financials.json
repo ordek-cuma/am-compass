@@ -15086,20 +15086,44 @@
           ]
         },
         "total_revenue": {
-          "value": 6525000000.0,
+          "value": 6530000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Investment Management \u201cNet Revenues $6,525\u201d ($m FY2025)",
+          "confidence": 0.95,
+          "source": "Morgan Stanley 10-K filings; FY2025 IM Net revenues $6,525m",
+          "vendor": "analyst",
+          "section": "Investment Management segment Net revenues (segment scope). \u2014 src: Morgan Stanley 10-K filings; FY2025 IM Net revenues $6,525m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 6525000000.0,
+              "value": 6530000000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 5860000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5370000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 5380000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 6220000000.0,
+              "basis": "reported",
+              "confidence": 0.95
             }
           ]
         },
@@ -15329,6 +15353,42 @@
               "value": 1.8,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "net_income": {
+          "value": 1140000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "Morgan Stanley 10-K filings",
+          "vendor": "estimate",
+          "section": "Investment Management segment INCOME BEFORE income taxes used as proxy; after-tax not disclosed by segment. \u2014 src: Morgan Stanley 10-K filings",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 1140000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 840000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 810000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1680000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         }
@@ -15608,18 +15668,42 @@
           ]
         },
         "total_revenue": {
-          "value": 16678999999.999998,
+          "value": 16680000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "AWM \u201cTotal net revenues 16,679\u201d ($m FY2025)",
+          "confidence": 0.95,
+          "source": "Goldman Sachs 10-K filings (FY2023, FY2024 10-Ks); FY2025 AWM Total net revenues $16,679m",
+          "vendor": "analyst",
+          "section": "AWM segment Total net revenues (segment scope, not group). FY2021 elevated by Equity investments revenue. \u2014 src: Goldman Sachs 10-K filings (FY2023, FY2024 10-Ks); FY2025 AWM Total net revenues $16,679m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 16678999999.999998,
+              "value": 16680000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 16140000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 13880000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 13380000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 21970000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -15851,6 +15935,42 @@
               "value": 11.6,
               "basis": "derived",
               "confidence": 0.9
+            }
+          ]
+        },
+        "net_income": {
+          "value": 4550000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "Goldman Sachs 10-K filings (FY2023, FY2024 10-Ks)",
+          "vendor": "estimate",
+          "section": "AWM segment PRE-TAX earnings used as proxy; after-tax net income not disclosed by segment. FY2021 elevated by Equity investments. \u2014 src: Goldman Sachs 10-K filings (FY2023, FY2024 10-Ks)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 4550000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1360000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1310000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 10730000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         }
@@ -16510,38 +16630,86 @@
           ]
         },
         "total_revenue": {
-          "value": 24073000000.0,
+          "value": 24070000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "AWM \u201cTOTAL NET REVENUE \u2026 24,073\u201d ($m FY2025)",
+          "confidence": 0.95,
+          "source": "JPMorgan Chase 10-K filings; FY2025 AWM Total net revenue $24,073m",
+          "vendor": "analyst",
+          "section": "AWM segment Total net revenue (managed basis, segment scope). \u2014 src: JPMorgan Chase 10-K filings; FY2025 AWM Total net revenue $24,073m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 24073000000.0,
+              "value": 24070000000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 21580000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 19830000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 17750000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 16960000000.0,
+              "basis": "reported",
+              "confidence": 0.95
             }
           ]
         },
         "net_income": {
-          "value": 6522000000.0,
+          "value": 6520000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "AWM \u201cNET INCOME \u2026 6,522\u201d ($m FY2025, after-tax)",
+          "confidence": 0.95,
+          "source": "JPMorgan Chase 10-K AWM Selected income statement data; FY2025 AWM Net income $6,522m",
+          "vendor": "analyst",
+          "section": "AWM segment after-tax Net income as reported by segment. \u2014 src: JPMorgan Chase 10-K AWM Selected income statement data; FY2025 AWM Net income $6,522m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 6522000000.0,
+              "value": 6520000000.0,
               "basis": "reported",
-              "confidence": 0.9
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 5420000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 5230000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 4370000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4740000000.0,
+              "basis": "reported",
+              "confidence": 0.95
             }
           ]
         },
@@ -16951,18 +17119,42 @@
           ]
         },
         "total_revenue": {
-          "value": 4231000000.0,
+          "value": 4230000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "PGIM segment \u201cRevenues $4,231\u201d ($m FY2025)",
+          "confidence": 0.95,
+          "source": "Prudential Financial 10-K filings; FY2025 PGIM Revenues $4,231m",
+          "vendor": "analyst",
+          "section": "PGIM segment Revenues (adjusted-operating-income basis). FY2021 includes a $378m one-time Pramerica SGR JV-sale gain. \u2014 src: Prudential Financial 10-K filings; FY2025 PGIM Revenues $4,231m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 4231000000.0,
+              "value": 4230000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 4090000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3640000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3620000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4490000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -17199,6 +17391,42 @@
               "value": 0.1,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "net_income": {
+          "value": 880000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "Prudential Financial 10-K PGIM segment Operating Results",
+          "vendor": "estimate",
+          "section": "PGIM segment ADJUSTED OPERATING INCOME used as proxy (pre-tax); after-tax segment net income not disclosed. FY2021 elevated by $378m JV-sale gain. \u2014 src: Prudential Financial 10-K PGIM segment Operating Results",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 880000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 710000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 840000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1640000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         }
@@ -19588,18 +19816,42 @@
           ]
         },
         "total_revenue": {
-          "value": 2634000000.0,
+          "value": 2630000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Investment Management line-of-business \u201cTotal revenue 2,634\u201d ($m FY2025; 10-K Table 14)",
+          "confidence": 0.95,
+          "source": "State Street 10-K filings (Note 24 Line of Business); FY2025 IM Total revenue $2,634m",
+          "vendor": "analyst",
+          "section": "Investment Management line-of-business Total revenue (LOB scope). \u2014 src: State Street 10-K filings (Note 24 Line of Business); FY2025 IM Total revenue $2,634m",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2634000000.0,
+              "value": 2630000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2340000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2080000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1990000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2120000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -19846,6 +20098,42 @@
               "confidence": 0.9
             }
           ]
+        },
+        "net_income": {
+          "value": 690000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "State Street 10-K Line of Business / Note 24",
+          "vendor": "estimate",
+          "section": "Investment Management line-of-business PRE-TAX income used as proxy; after-tax by LOB not disclosed. \u2014 src: State Street 10-K Line of Business / Note 24",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 690000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 540000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 590000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 670000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            }
+          ]
         }
       }
     },
@@ -20076,15 +20364,39 @@
           "value": 3156000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Asset Management \u201cTotal revenues \u2026 3,156\u201d ($m FY2025)",
+          "confidence": 0.95,
+          "source": "UBS Group AG Annual Reports 2022-2025 (Asset Management division Total revenues)",
+          "vendor": "analyst",
+          "section": "Asset Management division total revenues (USD). Credit Suisse consolidated from 12 Jun 2023 inflates 2023-2025 vs 2021-2022 (scope break). \u2014 src: UBS Group AG Annual Reports 2022-2025 (Asset Management division Total revenues)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 3156000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3182000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2686000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2961000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2617000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -20326,6 +20638,48 @@
               "value": 1.5,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "net_income": {
+          "value": 719000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.75,
+          "source": "UBS Group AG Annual Reports 2022-2025 (Asset Management division profit before tax)",
+          "vendor": "estimate",
+          "section": "Division PROFIT BEFORE TAX; after-tax not disclosed. FY2022 inflated by ~$848m JV-disposal gain; FY2023 depressed by CS integration costs. CS scope break from 2023. \u2014 src: UBS Group AG Annual Reports 2022-2025 (Asset Management division profit before tax)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 719000000.0,
+              "basis": "estimate",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 520000000.0,
+              "basis": "estimate",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 332000000.0,
+              "basis": "estimate",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1397000000.0,
+              "basis": "estimate",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1030000000.0,
+              "basis": "estimate",
+              "confidence": 0.7
             }
           ]
         }
@@ -22265,36 +22619,84 @@
           ]
         },
         "total_revenue": {
-          "value": 3609360000.0,
+          "value": 3610000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cNet revenue 3,342\u201d (\u20acm, FY2025)",
+          "confidence": 0.95,
+          "source": "Amundi FY2021/FY2023/FY2025 results press releases (accounting 'Net revenue')",
+          "vendor": "analyst",
+          "section": "Accounting net revenue (not adjusted). FY2024 \u20ac3,406m as-originally-reported. \u2014 src: Amundi FY2021/FY2023/FY2025 results press releases (accounting 'Net revenue')",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3609360000.0,
+              "value": 3610000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3680000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3370000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3210000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3700000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "net_income": {
-          "value": 1719360000.0000002,
+          "value": 1720000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cAccounting net income Group share amounted to \u20ac1,592m\u201d",
+          "confidence": 0.95,
+          "source": "Amundi FY2021/FY2023/FY2025 results press releases ('Net income group share', accounting)",
+          "vendor": "analyst",
+          "section": "Accounting net income, Group share. FY2021 incl. one-off Italian tax gain; FY2025 incl. +\u20ac402m Victory Capital non-cash gain. \u2014 src: Amundi FY2021/FY2023/FY2025 results press releases ('Net income group share', accounting)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1719360000.0000002,
+              "value": 1720000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1410000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1260000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1130000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1620000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -22723,36 +23125,84 @@
           ]
         },
         "total_revenue": {
-          "value": 3407400000.0,
+          "value": 3410000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "DWS FY2025: \u201cTotal revenues at \u20ac3,155mn, up 14%\u201d",
+          "confidence": 0.95,
+          "source": "DWS Annual Reports 2022/2024/2025 (IFRS Total net interest and non-interest income)",
+          "vendor": "analyst",
+          "section": "Group IFRS total net revenues (reported, not adjusted). \u2014 src: DWS Annual Reports 2022/2024/2025 (IFRS Total net interest and non-interest income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3407400000.0,
+              "value": 3410000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2990000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2820000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2850000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3210000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "net_income": {
-          "value": 1001160000.0,
+          "value": 1000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "DWS FY2025: \u201cNet income attributable to DWS Group shareholders \u2026 927\u201d (\u20acm)",
+          "confidence": 0.95,
+          "source": "DWS Annual Reports 2022/2024/2025 (Net income attributable to DWS shareholders)",
+          "vendor": "analyst",
+          "section": "After-tax net income attributable to DWS shareholders. \u2014 src: DWS Annual Reports 2022/2024/2025 (Net income attributable to DWS shareholders)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1001160000.0,
+              "value": 1000000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 700000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 600000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 620000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 920000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -23444,36 +23894,84 @@
           ]
         },
         "total_revenue": {
-          "value": 3429635000.0,
+          "value": 3430000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Schroders FY2025: \u201cStatutory net operating income \u2026 2,700.5\u201d (\u00a3m)",
+          "confidence": 0.95,
+          "source": "Schroders Annual Reports 2022/2024/2025 (statutory net operating income)",
+          "vendor": "analyst",
+          "section": "Statutory net operating income. FY2025 re-presented basis; FY2021-23 older presentation. \u2014 src: Schroders Annual Reports 2022/2024/2025 (statutory net operating income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3429635000.0,
+              "value": 3430000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3110000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3000000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3070000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 3480000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "net_income": {
-          "value": 685546000.0,
+          "value": 690000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Schroders FY2025: profit after tax attributable \u00a3539.8m",
+          "confidence": 0.95,
+          "source": "Schroders Annual Reports 2022/2024/2025 (profit after tax attributable to owners of the parent)",
+          "vendor": "analyst",
+          "section": "Profit after tax attributable to owners of the parent (after NCI). \u2014 src: Schroders Annual Reports 2022/2024/2025 (profit after tax attributable to owners of the parent)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 685546000.0,
+              "value": 690000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 530000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 480000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 590000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 840000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -24067,36 +24565,84 @@
           ]
         },
         "total_revenue": {
-          "value": 1620520000.0,
+          "value": 1620000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Aberdeen Group FY2025: \u201cadjusted net operating revenue \u2026 \u00a31,276m\u201d",
+          "confidence": 0.95,
+          "source": "abrdn/Aberdeen Group full-year results 2022-2025 (adjusted net operating revenue)",
+          "vendor": "analyst",
+          "section": "Adjusted net operating revenue. \u2014 src: abrdn/Aberdeen Group full-year results 2022-2025 (adjusted net operating revenue)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1620520000.0,
+              "value": 1620000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1690000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1730000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1810000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2090000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "net_income": {
-          "value": 492760000.00000006,
+          "value": 490000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Aberdeen Group FY2025: profit attributable to equity shareholders \u00a3388m",
+          "source": "abrdn/Aberdeen Group Annual Reports 2021-2025 (IFRS profit/(loss) attributable to equity shareholders of the parent)",
+          "vendor": "analyst",
+          "section": "IFRS bottom line attributable to parent shareholders (not 'adjusted'). FY2022 statutory LOSS \u00a3561m; FY2023 ~breakeven \u00a31m. \u2014 src: abrdn/Aberdeen Group Annual Reports 2021-2025 (IFRS profit/(loss) attributable to equity shareholders of the parent)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 492760000.00000006,
+              "value": 490000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 0.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1370000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -24932,38 +25478,86 @@
           ]
         },
         "net_income": {
-          "value": 398780000.0,
+          "value": 400000000.0,
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "M&G FY2025: \u201cIFRS result after tax attributable \u2026 profit of \u00a3314 million\u201d",
+          "source": "M&G plc full-year results 2021/2023/2025 (IFRS profit/(loss) after tax attributable to equity holders)",
+          "vendor": "analyst",
+          "section": "IFRS profit/(loss) after tax attributable to equity holders. FY2022 LOSS \u00a32,055m (investment-return losses); FY2024 LOSS \u00a3347m. \u2014 src: M&G plc full-year results 2021/2023/2025 (IFRS profit/(loss) after tax attributable to equity holders)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 398780000.0,
+              "value": 400000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": -440000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 380000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": -2550000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 130000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "total_revenue": {
-          "value": 1353820000.0,
+          "value": 1350000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "M&G Asset Management FY2025: recurring revenue \u00a31,066m (annual report; group reports AOP not a revenue line)",
+          "confidence": 0.9,
+          "source": "M&G plc full-year results 2021/2023/2025 (Asset Management segment revenue)",
+          "vendor": "analyst",
+          "section": "Asset Management segment revenue ('recurring revenue' FY24-25; 'fee-based revenue' FY21-23). Not perfectly like-for-like. \u2014 src: M&G plc full-year results 2021/2023/2025 (Asset Management segment revenue)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1353820000.0,
+              "value": 1350000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1290000000.0,
               "basis": "reported",
               "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1230000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1230000000.0,
+              "basis": "reported",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1350000000.0,
+              "basis": "reported",
+              "confidence": 0.75
             }
           ]
         },
@@ -25681,38 +26275,62 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 638280000000.0001,
+          "value": 450000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u20ac591bn AllianzGI total AUM at Dec 2025 (\u20ac417bn third-party). P&L disclosed in the Allianz FY2025 analyst presentation.",
+          "confidence": 0.7,
+          "source": "Allianz SE Financial Supplements FY2023 & FY2025 ('thereof: AllianzGI' third-party AUM); AllianzGI profile FY2025 total",
+          "vendor": "analyst",
+          "section": "SCOPE: history is AllianzGI THIRD-PARTY AUM (only entity-level AUM Allianz discloses); FY2025 TOTAL AUM ~\u20ac591bn (~$638B) is a different, larger scope. Do not compare the two. \u2014 src: Allianz SE Financial Supplements FY2023 & FY2025 ('thereof: AllianzGI' third-party AUM); AllianzGI profile FY2025 total",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 638280000000.0001,
+              "value": 450000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 431000000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 395000000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 357000000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 538000000000.0,
+              "basis": "estimate",
+              "confidence": 0.5
             }
           ]
         },
         "total_revenue": {
-          "value": 2215080000.0000005,
+          "value": 2220000000.0,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Allianz FY2025: \u201cAllianzGI (EUR mn) \u2026 2,051\u201d operating revenues",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "AllianzGI self-reported corporate disclosure (FY2025)",
+          "vendor": "estimate",
+          "section": "AllianzGI-only operating revenue not broken out by Allianz SE for prior years; only FY2025 self-reported figure reliable, so prior years omitted (no interpolation). \u2014 src: AllianzGI self-reported corporate disclosure (FY2025)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2215080000.0000005,
-              "basis": "reported",
-              "confidence": 0.85
+              "value": 2220000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         },
@@ -25937,6 +26555,42 @@
               "confidence": 0.5
             }
           ]
+        },
+        "net_income": {
+          "value": 830000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.65,
+          "source": "Allianz SE Financial Supplements FY2023 & FY2025 (Asset Management operating profit \u2013 thereof AllianzGI)",
+          "vendor": "estimate",
+          "section": "AllianzGI OPERATING PROFIT proxy; after-tax not disclosed at sub-entity level. FY2021 split not published. \u2014 src: Allianz SE Financial Supplements FY2023 & FY2025 (Asset Management operating profit \u2013 thereof AllianzGI)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 830000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 790000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 720000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 790000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            }
+          ]
         }
       }
     },
@@ -26158,18 +26812,42 @@
           ]
         },
         "total_revenue": {
-          "value": 3823200000.0000005,
+          "value": 3820000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cAsset & Wealth Management revenues \u2026 \u20ac3,540m\u201d (bundles Wealth Mgmt)",
+          "confidence": 0.85,
+          "source": "Groupe BPCE FY results press releases 2021-2025 (Asset & Wealth Management net banking income)",
+          "vendor": "analyst",
+          "section": "AWM net banking income (Asset Mgmt + Wealth Mgmt bundled, AM-dominated); not AM-only. \u2014 src: Groupe BPCE FY results press releases 2021-2025 (Asset & Wealth Management net banking income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 3823200000.0000005,
+              "value": 3820000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 3790000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 3460000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3520000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4630000000.0,
               "basis": "reported",
               "confidence": 0.8
             }
@@ -26244,6 +26922,48 @@
               "value": 3.1,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "net_income": {
+          "value": 840000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "Groupe BPCE FY results press releases 2021-2025 (Asset & Wealth Management income before tax)",
+          "vendor": "estimate",
+          "section": "AWM PRE-TAX income (bundles Wealth Mgmt); after-tax at segment not used. (After-tax AWM net income-group share also exists: 2025 \u20ac511m, 2024 \u20ac500m.) \u2014 src: Groupe BPCE FY results press releases 2021-2025 (Asset & Wealth Management income before tax)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 840000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 820000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 700000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 770000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1300000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         }
@@ -26717,20 +27437,44 @@
           ]
         },
         "total_revenue": {
-          "value": 2077920000.0000002,
+          "value": 2220000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "BNP IPS 2025 Dashboard: Asset Management \u201cRevenues \u2026 1,924\u201d (\u20acm; incl. Real Estate & IPS Investments, H2 AXA IM)",
+          "confidence": 0.85,
+          "source": "BNP Paribas Deep Dive Asset Management (Mar 2026) for 2023-2025; BNP 4Q22 results appendix for 2021-2022",
+          "vendor": "analyst",
+          "section": "2023-2025 AM-standalone revenues (2025 incl. ~6m AXA IM). 2021-2022 wider 'AM incl. Real Estate & Principal Investment' bundle \u2014 not comparable to 2023+. \u2014 src: BNP Paribas Deep Dive Asset Management (Mar 2026) for 2023-2025; BNP 4Q22 results appendix for 2021-2022",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2077920000.0000002,
+              "value": 2220000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2050000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2050000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2400000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2560000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         },
@@ -26857,6 +27601,36 @@
               "value": 989486,
               "basis": "derived",
               "confidence": 0.8
+            }
+          ]
+        },
+        "net_income": {
+          "value": 700000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "BNP Paribas Deep Dive Asset Management (Mar 2026), AM pre-tax income",
+          "vendor": "estimate",
+          "section": "AM-standalone PRE-TAX income; after-tax not disclosed at division level. 2025 incl. ~6m AXA IM. 2021/2023 omitted (only non-comparable bundle figures exist). \u2014 src: BNP Paribas Deep Dive Asset Management (Mar 2026), AM pre-tax income",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 700000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 390000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 370000000.0,
+              "basis": "estimate",
+              "confidence": 0.55
             }
           ]
         }
@@ -27822,56 +28596,128 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 160270000000.0,
+          "value": 160300000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cover CHF 145.7 billion for third-party asset management\u201d (31 Dec 2025)",
+          "confidence": 0.9,
+          "source": "Swiss Life Annual Reports 2022 & 2024 and FY2025 results (Asset Managers TPAM third-party AUM)",
+          "vendor": "analyst",
+          "section": "TPAM third-party AUM at year-end (excludes insurance proprietary assets). \u2014 src: Swiss Life Annual Reports 2022 & 2024 and FY2025 results (Asset Managers TPAM third-party AUM)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 160270000000.0,
+              "value": 160300000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 141300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 124300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 110700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 112100000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
         "net_flows": {
-          "value": 19470000000.000004,
+          "value": 19500000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cnearly doubled net new assets in TPAM business to CHF 17.7 billion in 2025\u201d",
+          "confidence": 0.9,
+          "source": "Swiss Life Annual Reports 2022 & 2024 and FY2025 results (TPAM net new assets)",
+          "vendor": "analyst",
+          "section": "TPAM third-party net new assets for the year. \u2014 src: Swiss Life Annual Reports 2022 & 2024 and FY2025 results (TPAM net new assets)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 19470000000.000004,
+              "value": 19500000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 10700000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 10900000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 10300000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 10300000000.0,
               "basis": "reported",
               "confidence": 0.85
             }
           ]
         },
         "total_revenue": {
-          "value": 1262800000.0,
+          "value": 1260000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Swiss Life FY2025: Asset Managers \u201cCommission and other net income \u2026 1 148\u201d (CHF m; TPAM CHF 795m)",
+          "confidence": 0.9,
+          "source": "Swiss Life Annual Reports 2022/2024 & FY2025 (Asset Managers segment income)",
+          "vendor": "analyst",
+          "section": "Asset Managers segment income. Basis NOT fully consistent: 2024/2025 'commission and other net income'; 2021/2022 segment 'total income' (older IFRS basis); 2023 only 'fee and commission income' (understates). Treat step as basis change. \u2014 src: Swiss Life Annual Reports 2022/2024 & FY2025 (Asset Managers segment income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 1262800000.0,
+              "value": 1260000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 1310000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 1010000000.0,
+              "basis": "reported",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 1320000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1230000000.0,
+              "basis": "reported",
+              "confidence": 0.7
             }
           ]
         },
@@ -28018,6 +28864,48 @@
               "confidence": 0.7
             }
           ]
+        },
+        "net_income": {
+          "value": 460000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.65,
+          "source": "Swiss Life Annual Reports 2022/2024 & FY2025 (Asset Managers 'segment result')",
+          "vendor": "estimate",
+          "section": "Pre-tax proxy: Asset Managers 'segment result' (fee result); after-tax segment net income not disclosed. \u2014 src: Swiss Life Annual Reports 2022/2024 & FY2025 (Asset Managers 'segment result')",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 460000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 500000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 300000000.0,
+              "basis": "estimate",
+              "confidence": 0.65
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 450000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 410000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            }
+          ]
         }
       }
     },
@@ -28061,44 +28949,62 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 200880000000.00003,
+          "value": 200900000000.0,
           "unit": "USD",
-          "basis": "external",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "tracker",
-          "section": "AXA IM Alts FY2024: \u201cglobal leader in alternative investments with \u20ac186 billion of assets under management\u201d (31 Dec 2024)",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "AXA IM Alts full-year earnings press releases 2021-2024",
+          "vendor": "analyst",
+          "section": "Total alternatives AUM at year-end. AXA IM (incl. Alts) acquired by BNP Paribas, completing 31 Dec 2025 \u2014 no standalone FY2025 Alts disclosure. \u2014 src: AXA IM Alts full-year earnings press releases 2021-2024",
           "period_end": "2024-12-31",
           "history": [
             {
               "period_end": "2024-12-31",
-              "value": 200880000000.00003,
-              "basis": "external",
-              "confidence": 0.8
+              "value": 200900000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             },
             {
               "period_end": "2023-12-31",
-              "value": 197640000000.0,
-              "basis": "external",
-              "confidence": 0.7
+              "value": 197600000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 195300000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 215900000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
         "net_flows": {
-          "value": 4320000000.0,
+          "value": 15800000000.0,
           "unit": "USD",
-          "basis": "external",
-          "confidence": 0.65,
-          "source": "results",
-          "vendor": "tracker",
-          "section": "AXA IM Alts FY2023: \u201c\u20ac4 billion of net new money from third-party clients\u201d (Alternatives unit; FY2024 \u20ac10bn was gross capital raising, not net)",
-          "period_end": "2023-12-31",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "AXA IM Alts full-year 2021 & 2022 results press releases",
+          "vendor": "analyst",
+          "section": "Total net new money for the year (all clients). FY2023/FY2024 omitted (only third-party gross capital raising disclosed, not comparable). \u2014 src: AXA IM Alts full-year 2021 & 2022 results press releases",
+          "period_end": "2022-12-31",
           "history": [
             {
-              "period_end": "2023-12-31",
-              "value": 4320000000.0,
-              "basis": "external",
-              "confidence": 0.65
+              "period_end": "2022-12-31",
+              "value": 15800000000.0,
+              "basis": "reported",
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 17700000000.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -28145,6 +29051,42 @@
               "confidence": 0.65
             }
           ]
+        },
+        "total_revenue": {
+          "value": 680000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "AXA IM full-year earnings releases (Alternatives business-unit revenue)",
+          "vendor": "analyst",
+          "section": "AXA IM Alts sub-unit revenues (NOT whole-of-AXA-IM). \u2014 src: AXA IM full-year earnings releases (Alternatives business-unit revenue)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 680000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 680000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 660000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 700000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
         }
       }
     },
@@ -28178,38 +29120,86 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 577368000000.0,
+          "value": 577370000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cAssets under Management \u2026 H\u00f6chststand von 534,6 Milliarden Euro\u201d (\u20ac534.6bn, 31 Dec 2025)",
+          "confidence": 0.95,
+          "source": "Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024; FY2025 press release",
+          "vendor": "analyst",
+          "section": "Group AUM (BVI-aligned: funds, mandates, advisory/outsourcing). \u2014 src: Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024; FY2025 press release",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 577368000000.0,
+              "value": 577370000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 545080000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 491620000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 433760000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 535840000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
           ]
         },
         "net_flows": {
-          "value": 25164000000.0,
+          "value": 25160000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cDer Nettoabsatz belief sich auf 23,3 Milliarden Euro\u201d (net sales \u20ac23.3bn FY2025)",
+          "confidence": 0.95,
+          "source": "Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024; FY2025 press release (Nettoabsatz)",
+          "vendor": "analyst",
+          "section": "Total net sales (Nettoabsatz) across funds and mandates. \u2014 src: Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024; FY2025 press release (Nettoabsatz)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 25164000000.0,
+              "value": 25160000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 18680000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 18140000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 18380000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 47790000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -28303,6 +29293,84 @@
               "value": 131220000,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 2490000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024 (Provisions\u00fcberschuss)",
+          "vendor": "analyst",
+          "section": "Net commission income (Provisions\u00fcberschuss), the dominant (>90%) income line; Union reports no single 'total revenue'. FY2025 not yet disclosed. \u2014 src: Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024 (Provisions\u00fcberschuss)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 2490000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2180000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2140000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2710000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "net_income": {
+          "value": 1280000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.6,
+          "source": "Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024 (Konzernergebnis, after-tax); FY2025 operating result before tax from press release",
+          "vendor": "estimate",
+          "section": "FY2021-24 after-tax group result (Konzernergebnis). FY2025 is operating result BEFORE tax (\u20ac1,185m); after-tax FY2025 not yet published. \u2014 src: Union Asset Management Holding Gesch\u00e4ftsberichte 2021/2023/2024 (Konzernergebnis, after-tax); FY2025 operating result before tax from press release",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1280000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 910000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 740000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 510000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 1020000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         }
@@ -29118,56 +30186,128 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 488160000000.0,
+          "value": 488130000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cSumme Asset Management und Deka-Zertifikate \u2026 451.971 Mio. \u20ac\u201d (\u20ac452bn customer assets, 31 Dec 2025)",
+          "confidence": 0.95,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 (headline customer AUM)",
+          "vendor": "analyst",
+          "section": "Headline customer AUM (funds, mandates, Masterfonds, Deka certificates). 'Total Assets' through FY2022, 'Summe Asset Management und Deka-Zertifikate Volumen' from FY2023. \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 (headline customer AUM)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 488160000000.0,
+              "value": 488130000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 449120000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 411420000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 390340000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 466270000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
         "net_flows": {
-          "value": 26391960000.000004,
+          "value": 26390000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cAsset Management Nettovertriebsleistung: 24.437 Mio. \u20ac\u201d (net sales \u20ac24.4bn FY2025)",
+          "confidence": 0.95,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 (Nettovertriebsleistung)",
+          "vendor": "analyst",
+          "section": "Net new money for the year. FY2023 net outflow due to a large institutional one-off. \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 (Nettovertriebsleistung)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 26391960000.000004,
+              "value": 26390000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 15060000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": -12910000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 28750000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 42170000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
         "total_revenue": {
-          "value": 2618244000.0,
+          "value": 2620000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201cSumme Ertr\u00e4ge: 2.424,3 Mio. \u20ac\u201d (total income FY2025)",
+          "confidence": 0.95,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 ('Summe Ertr\u00e4ge', IFRS group total income)",
+          "vendor": "analyst",
+          "section": "Total income (Summe Ertr\u00e4ge), group. FY2023 as-originally-reported \u20ac2,282.9m (later restated \u20ac2,218.0m). \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021/2022/2023/2025 ('Summe Ertr\u00e4ge', IFRS group total income)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 2618244000.0,
+              "value": 2620000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2400000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 2470000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 2350000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 2380000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -29340,6 +30480,48 @@
               "confidence": 0.85
             }
           ]
+        },
+        "net_income": {
+          "value": 700000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.95,
+          "source": "Deka-Gruppe Gesch\u00e4ftsberichte 2021/2023/2025 ('Konzern\u00fcberschuss', after-tax)",
+          "vendor": "analyst",
+          "section": "After-tax group net result (Konzern\u00fcberschuss, attributable to DekaBank). \u2014 src: Deka-Gruppe Gesch\u00e4ftsberichte 2021/2023/2025 ('Konzern\u00fcberschuss', after-tax)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 700000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 700000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 810000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 560000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 630000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            }
+          ]
         }
       }
     },
@@ -29352,20 +30534,38 @@
       "documents": [],
       "metrics": {
         "aum_total": {
-          "value": 397440000000.00006,
+          "value": 397440000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u20ac368bn total AuM end-2025 (~\u20ac63bn third-party; rest captive Munich Re/ERGO)",
+          "confidence": 0.9,
+          "source": "MEAG corporate disclosures / Asset Management Guide / press 2022-2025",
+          "vendor": "analyst",
+          "section": "Total AUM incl. captive Munich Re/ERGO (~85%); ~\u20ac55-63bn third-party. 2025 Dec-31; 2024/2023 Sep-30 snapshots; 2022 year-end press. \u2014 src: MEAG corporate disclosures / Asset Management Guide / press 2022-2025",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 397440000000.00006,
+              "value": 397440000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 382320000000.0,
               "basis": "reported",
               "confidence": 0.8
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 349920000000.0,
+              "basis": "reported",
+              "confidence": 0.8
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 320250000000.0,
+              "basis": "reported",
+              "confidence": 0.6
             }
           ]
         },
@@ -29540,17 +30740,23 @@
           "value": 106920000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.8,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u20ac99bn AUM at 31 Dec 2025 (\u20ac102bn at 28.02.2026 per company portrait)",
+          "confidence": 0.75,
+          "source": "BayernInvest corporate profile and press 2024-2026",
+          "vendor": "analyst",
+          "section": "Group managed volume; mixed period snapshots (mid-2024 ~\u20ac90bn; FY2025 ~\u20ac99bn). Subsidiary of BayernLB. \u2014 src: BayernInvest corporate profile and press 2024-2026",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 106920000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.75
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 97200000000.0,
+              "basis": "estimate",
+              "confidence": 0.6
             }
           ]
         },
@@ -29622,20 +30828,26 @@
       ],
       "metrics": {
         "aum_total": {
-          "value": 59616000000.00001,
+          "value": 59620000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201casset management volume \u2026 amounted to \u20ac55.2 billion at the end of 2025\u201d",
+          "confidence": 0.9,
+          "source": "Deka Immobilien Annual Results 2025 / deka-immobilien.de",
+          "vendor": "analyst",
+          "section": "Total customer real-estate assets. 2023 (~\u20ac50bn) cited in DekaBank reporting; only 2025 verified to a clean primary figure. \u2014 src: Deka Immobilien Annual Results 2025 / deka-immobilien.de",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 59616000000.00001,
+              "value": 59620000000.0,
               "basis": "reported",
-              "confidence": 0.85
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 54000000000.0,
+              "basis": "estimate",
+              "confidence": 0.55
             }
           ]
         },
@@ -29782,6 +30994,54 @@
               "value": 1700.0,
               "basis": "reported",
               "confidence": 0.6
+            }
+          ]
+        },
+        "aum_total": {
+          "value": 1564920000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "Universal Investment press releases / corporate disclosures 2021-2025 (Assets under Administration)",
+          "vendor": "analyst",
+          "section": "Administered assets (AuA), Master-KVG platform scale \u2014 NOT own-managed AUM. 2025 Dec-31 group; 2021 FY end 30-Sep; 2022 post-EFA combined. \u2014 src: Universal Investment press releases / corporate disclosures 2021-2025 (Assets under Administration)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1564920000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 945000000000.0,
+              "basis": "estimate",
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 838150000000.0,
+              "basis": "reported",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "total_revenue": {
+          "value": 420000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.55,
+          "source": "Universal-Investment-Gesellschaft mbH FY2023 (via Preqin/aggregator)",
+          "vendor": "tracker",
+          "section": "Entity revenue (Umsatzerl\u00f6se) FY2023; third-party tracker, not primary filing. EBITDA ~\u20ac20.7m cited alongside. \u2014 src: Universal-Investment-Gesellschaft mbH FY2023 (via Preqin/aggregator)",
+          "period_end": "2023-12-31",
+          "history": [
+            {
+              "period_end": "2023-12-31",
+              "value": 420000000.0,
+              "basis": "external",
+              "confidence": 0.55
             }
           ]
         }
@@ -30515,20 +31775,20 @@
           ]
         },
         "net_flows": {
-          "value": 55080000000.00001,
+          "value": 55080000000.0,
           "unit": "USD",
-          "basis": "external",
-          "confidence": 0.6,
-          "source": "results",
-          "vendor": "tracker",
-          "section": "HSBC INKA FY2023: \u201cMit mehr als 51 Milliarden Euro Nettomittelzufl\u00fcssen in 2023\u201d (net new administered volume; FY2024/25 not disclosed)",
+          "basis": "reported",
+          "confidence": 0.9,
+          "source": "HSBC INKA press release 2024 (Nettomittelzufl\u00fcsse)",
+          "vendor": "analyst",
+          "section": "Net new assets for the year. Only 2023 confirmed (record \u20ac51bn); 2024 not separately disclosed. \u2014 src: HSBC INKA press release 2024 (Nettomittelzufl\u00fcsse)",
           "period_end": "2023-12-31",
           "history": [
             {
               "period_end": "2023-12-31",
-              "value": 55080000000.00001,
-              "basis": "external",
-              "confidence": 0.6
+              "value": 55080000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         },
@@ -30547,6 +31807,30 @@
               "value": 300.0,
               "basis": "reported",
               "confidence": 0.6
+            }
+          ]
+        },
+        "aum_total": {
+          "value": 464400000000.0,
+          "unit": "USD",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "HSBC INKA press releases / inka-kag.de Zahlen und Fakten",
+          "vendor": "analyst",
+          "section": "Assets under Administration (Master-KVG), NOT own-managed AUM. Year-end. \u2014 src: HSBC INKA press releases / inka-kag.de Zahlen und Fakten",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 464400000000.0,
+              "basis": "reported",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 434160000000.0,
+              "basis": "reported",
+              "confidence": 0.9
             }
           ]
         }
@@ -31005,17 +32289,23 @@
           "value": 6900000000.0,
           "unit": "USD",
           "basis": "external",
-          "confidence": 0.45,
-          "source": "results",
+          "confidence": 0.55,
+          "source": "Statista / press estimates",
           "vendor": "tracker",
-          "section": "\u2248$6.9bn (Statista/third-party trackers). Vanguard is privately fund-owned and publishes NO consolidated financial statements / annual report \u2014 no primary revenue figure exists; cross-checks \u22480.07% fee \u00d7 ~$11tn \u2248 $7.7bn.",
+          "section": "Tracker estimate; Vanguard is client-owned and publishes no audited revenue. \u2014 src: Statista / press estimates",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 6900000000.0,
               "basis": "external",
-              "confidence": 0.45
+              "confidence": 0.55
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 6900000000.0,
+              "basis": "external",
+              "confidence": 0.6
             }
           ]
         },
@@ -31508,17 +32798,41 @@
           "value": 7100000000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "FY2025 annual report: \u201cMANAGED ASSETS $7.1 trillion\u201d (Up 19% YoY)",
+          "confidence": 0.95,
+          "source": "Fidelity Investments Annual Reports / ADV Ratings (discretionary managed assets)",
+          "vendor": "analyst",
+          "section": "Discretionary (managed) AUM at year end, NOT assets under administration. \u2014 src: Fidelity Investments Annual Reports / ADV Ratings (discretionary managed assets)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 7100000000000.0,
               "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 5900000000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 4900000000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 3900000000000.0,
+              "basis": "reported",
               "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 4500000000000.0,
+              "basis": "external",
+              "confidence": 0.8
             }
           ]
         },
@@ -31545,9 +32859,9 @@
           "unit": "USD",
           "basis": "reported",
           "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "FY2025 annual report: \u201cNET ASSET FLOWS $657.3 billion\u201d",
+          "source": "Fidelity Investments Annual Reports 2023-2025 (total net asset flows)",
+          "vendor": "analyst",
+          "section": "Total net asset flows, calendar year. \u2014 src: Fidelity Investments Annual Reports 2023-2025 (total net asset flows)",
           "period_end": "2025-12-31",
           "history": [
             {
@@ -31560,13 +32874,19 @@
               "period_end": "2024-12-31",
               "value": 698000000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
             },
             {
               "period_end": "2023-12-31",
               "value": 647200000000.0,
               "basis": "reported",
-              "confidence": 0.8
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 469100000000.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         },
@@ -31574,15 +32894,39 @@
           "value": 37700000000.0,
           "unit": "USD",
           "basis": "reported",
-          "confidence": 0.9,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "FY2025 annual report: \u201cREVENUE $37.7 billion (Up 15% YoY)\u201d",
+          "confidence": 0.95,
+          "source": "Fidelity Investments Annual Reports 2021-2025",
+          "vendor": "analyst",
+          "section": "Total firm revenue, calendar year. \u2014 src: Fidelity Investments Annual Reports 2021-2025",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 37700000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 32700000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 28200000000.0,
+              "basis": "reported",
+              "confidence": 0.95
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 25200000000.0,
+              "basis": "reported",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 24000000000.0,
               "basis": "reported",
               "confidence": 0.9
             }
@@ -31767,6 +33111,48 @@
               "confidence": 0.8
             }
           ]
+        },
+        "net_income": {
+          "value": 12700000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.9,
+          "source": "Fidelity Investments Annual Reports 2021-2025 (operating income)",
+          "vendor": "estimate",
+          "section": "Operating income proxy; Fidelity is private and reports no statutory net income. \u2014 src: Fidelity Investments Annual Reports 2021-2025 (operating income)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 12700000000.0,
+              "basis": "estimate",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 10300000000.0,
+              "basis": "estimate",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2023-12-31",
+              "value": 8500000000.0,
+              "basis": "estimate",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2022-12-31",
+              "value": 8000000000.0,
+              "basis": "estimate",
+              "confidence": 0.85
+            },
+            {
+              "period_end": "2021-12-31",
+              "value": 8100000000.0,
+              "basis": "estimate",
+              "confidence": 0.7
+            }
+          ]
         }
       }
     },
@@ -31808,20 +33194,20 @@
           ]
         },
         "total_revenue": {
-          "value": 6966000000.000001,
+          "value": 6970000000.0,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "Allianz FY2025: \u201cPIMCO (EUR mn) \u2026 6,450\u201d operating revenues",
+          "basis": "estimate",
+          "confidence": 0.7,
+          "source": "Allianz Group Annual Report 2025 (PIMCO operating revenues)",
+          "vendor": "estimate",
+          "section": "PIMCO operating revenues. Historical PIMCO-only splits not machine-verified, so only FY2025 reported. \u2014 src: Allianz Group Annual Report 2025 (PIMCO operating revenues)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
-              "value": 6966000000.000001,
-              "basis": "reported",
-              "confidence": 0.85
+              "value": 6970000000.0,
+              "basis": "estimate",
+              "confidence": 0.7
             }
           ]
         },
@@ -32100,6 +33486,24 @@
               "confidence": 0.6
             }
           ]
+        },
+        "net_income": {
+          "value": 2970000000.0,
+          "unit": "USD",
+          "basis": "estimate",
+          "confidence": 0.5,
+          "source": "Allianz Group Annual Report 2025 (PIMCO operating profit)",
+          "vendor": "estimate",
+          "section": "Pre-tax PIMCO operating profit proxy; after-tax not disclosed. Low-confidence FY2025 estimate. \u2014 src: Allianz Group Annual Report 2025 (PIMCO operating profit)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2970000000.0,
+              "basis": "estimate",
+              "confidence": 0.5
+            }
+          ]
         }
       }
     },
@@ -32108,17 +33512,23 @@
         "aum_total": {
           "value": 3300000000000.0,
           "unit": "USD",
-          "basis": "reported",
-          "confidence": 0.85,
-          "source": "results",
-          "vendor": "analyst-eu",
-          "section": "\u201c$3.3T+ \u2026 as of December 31, 2025\u201d (Capital Group company facts)",
+          "basis": "external",
+          "confidence": 0.9,
+          "source": "Capital Group corporate disclosures / ADV Ratings (FY2025 $3.3T; Dec 2024 $2.8T)",
+          "vendor": "tracker",
+          "section": "Total AUM at period end. Private firm: milestone disclosures, not a continuous series. Pre-2024 year-ends omitted to avoid interpolation. \u2014 src: Capital Group corporate disclosures / ADV Ratings (FY2025 $3.3T; Dec 2024 $2.8T)",
           "period_end": "2025-12-31",
           "history": [
             {
               "period_end": "2025-12-31",
               "value": 3300000000000.0,
-              "basis": "reported",
+              "basis": "external",
+              "confidence": 0.9
+            },
+            {
+              "period_end": "2024-12-31",
+              "value": 2800000000000.0,
+              "basis": "external",
               "confidence": 0.85
             }
           ]
