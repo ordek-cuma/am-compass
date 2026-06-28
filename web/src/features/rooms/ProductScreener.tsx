@@ -13,6 +13,8 @@ const NUM_KEYS = new Set<keyof Product>(['aum', 'ter', 'perf1y', 'perf3y', 'perf
 
 // Facet filters, left→right. Each maps to a Product key; options come from the data feed.
 const FACET_DEFS: [keyof Product, string][] = [
+  ['vehicle', 'Vehicle'],
+  ['brand', 'Brand'],
   ['assetClass', 'Asset Class'],
   ['subAssetClass', 'Sub-Asset Class'],
   ['region', 'Exposure Region'],
@@ -27,6 +29,7 @@ const FACET_DEFS: [keyof Product, string][] = [
 
 const COLS: [keyof Product, string, ('num' | undefined)?][] = [
   ['name', 'Product'],
+  ['vehicle', 'Vehicle'],
   ['assetClass', 'Asset Class'],
   ['region', 'Region'],
   ['listing', 'Listing'],
@@ -92,7 +95,7 @@ export function ProductScreener() {
             Product <span className="em">Data Room</span>
           </>
         }
-        sub={`${fnum(PRODUCTS.length)} real ${PRODUCTS_MANAGER} products (iShares ETFs, US + EMEA/UCITS) — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
+        sub={`${fnum(PRODUCTS.length)} real ${PRODUCTS_MANAGER} products — iShares ETFs (US + EMEA/UCITS) and BlackRock BGF/BSF mutual funds — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
         actions={
           <>
             <button className="btn">
@@ -168,6 +171,9 @@ export function ProductScreener() {
                         <div className="tk-tick">
                           {p.ticker || '—'} · {p.isin}
                         </div>
+                      </td>
+                      <td>
+                        <span className="ac-chip">{p.vehicle}</span>
                       </td>
                       <td>{p.assetClass}</td>
                       <td>{p.region}</td>
