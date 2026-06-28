@@ -95,7 +95,7 @@ export function ProductScreener() {
             Product <span className="em">Data Room</span>
           </>
         }
-        sub={`${fnum(PRODUCTS.length)} real ${PRODUCTS_MANAGER} products — iShares ETFs (US + EMEA/UCITS) and BlackRock BGF/BSF mutual funds — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
+        sub={`${fnum(PRODUCTS.length)} real ${PRODUCTS_MANAGER} products — iShares ETFs (US + EMEA/UCITS) and BlackRock mutual funds (BGF/BSF SICAV + US) — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
         actions={
           <>
             <button className="btn">
@@ -169,7 +169,7 @@ export function ProductScreener() {
                       <td>
                         <div style={{ fontWeight: 600 }}>{p.name}</div>
                         <div className="tk-tick">
-                          {p.ticker || '—'} · {p.isin}
+                          {p.ticker && p.ticker !== p.isin ? `${p.ticker} · ${p.isin}` : p.ticker || p.isin}
                         </div>
                       </td>
                       <td>
