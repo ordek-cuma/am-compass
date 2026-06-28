@@ -65,6 +65,21 @@ const MANAGER_BY_CODE: Record<string, string> = {
   Fidelity: 'Fidelity', // US ETFs + major mutual funds (FMR; FIL is separate)
   SSgA: 'State Street Global Advisors', // SPDR ETFs + State Street funds
   IVZ: 'Invesco', // QQQ + Invesco ETFs + US mutual funds
+  // US issuers — ETFs + full mutual-fund + MMF universe (stockanalysis.com)
+  AB: 'AllianceBernstein',
+  PIMCO: 'PIMCO',
+  'Capital Group': 'Capital Group',
+  AMG: 'Affiliated Managers Group',
+  FED: 'Federated Hermes',
+  FT: 'Franklin Templeton',
+  JH: 'Janus Henderson',
+  JPM: 'J.P. Morgan Asset Management',
+  MS: 'Morgan Stanley Investment Management',
+  PGIM: 'PGIM',
+  TROW: 'T. Rowe Price',
+  WisdomTree: 'WisdomTree',
+  'Goldman Sachs': 'Goldman Sachs Asset Management',
+  Blackstone: 'Blackstone',
 }
 
 export function managerForCompetitor(code: string): string | null {
