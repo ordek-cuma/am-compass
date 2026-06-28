@@ -11,6 +11,7 @@ import { CompetitorRadar } from './features/radar/CompetitorRadar'
 import { SettingsLayout } from './features/settings/SettingsLayout'
 import { DocumentFetcher } from './features/settings/DocumentFetcher'
 import { FinancialFetcher } from './features/settings/FinancialFetcher'
+import { CoverageMatrix } from './features/settings/CoverageMatrix'
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
               <Route path="data-fetcher" element={<Navigate to="/settings/data-fetcher/documents" replace />} />
               <Route path="data-fetcher/documents" element={<DocumentFetcher />} />
               <Route path="data-fetcher/financials" element={<FinancialFetcher />} />
+              <Route path="data-fetcher/coverage" element={<CoverageMatrix />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>

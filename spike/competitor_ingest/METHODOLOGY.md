@@ -68,6 +68,37 @@ never presented as filed facts.
   loss), organic growth (net flows ÷ opening AuM), effective fee rate, AuM/revenue per employee,
   % passive/alternatives.
 
+## Time-series history & coverage
+
+Where a firm publishes a history, scalar metrics carry a **multi-year series** (up to FY2021–FY2025),
+newest-first, each year individually cited. This holds for **net flows** and **total AuM** across all
+listed bellwethers and segment/European filers, and for revenue/income wherever XBRL or the firm's
+own report supplies prior years.
+
+- **One flow convention per firm.** Net-flow definitions are not uniform (total vs long-term vs
+  third-party vs net-inflows-before-realizations). Each firm's series uses a *single* convention,
+  named in every year's citation, so the trend is internally comparable. Do **not** compare a
+  "third-party" series against a "total" series across firms.
+- **Structural breaks are flagged** in the citation where a merger/scope change distorts the trend
+  (UBS↔Credit Suisse 2023, BNPP↔AXA IM 2025, Janus↔Guardian 2025, Amundi↔Lyxor 2021).
+- The **Flows tab** renders the Net-flows + Total-AuM series as bar charts; outflow (negative) bars
+  are coloured rose so a mixed inflow/outflow series reads correctly.
+
+### Completeness view — Settings › Data Fetcher › Coverage
+
+A live **37-competitor × 10-metric** matrix (`web/src/features/settings/CoverageMatrix.tsx`) grading
+every cell, reading the same committed snapshot so it always reflects current coverage:
+
+- **green** — complete: a time-series with **≥3 years**, or a present point/breakdown
+- **orange** — partial: present but a short **1–2 year** series
+- **red** — no data
+
+The cell number is the count of years of history. At the last refresh: ~51% green / ~16% orange /
+~32% red. Best-covered: net flows (28/37 ≥3yr), headcount (29/37), AuM (24/37), revenue-mix (25/37),
+AuM-mix (23/37). **Next gap:** Revenue / Operating-margin / Net-income are still mostly single-year
+(orange) for the European/private firms — extending P&L to a multi-year series is the natural
+follow-up.
+
 ## Known structural gaps (not sourcing failures)
 
 - **Group-filer AM-segment headcount** (MS IM, GSAM, PGIM, SSgA, UBS AM, Natixis) — parents report
@@ -75,8 +106,11 @@ never presented as filed facts.
 - **German private KVGs** (MEAG, BayernInvest, Universal, HSBC INKA, Union total revenue) — P&L is
   Bundesanzeiger-only and the FY2025 statutory accounts are not yet filed (German GmbHs have 12
   months → expect Q3–Q4 2026). The roadmap source for these is **Northdata / Bundesanzeiger**.
-- **Vanguard** — at-cost mutual; no parent income statement exists, so operating margin ≈ 0 by
-  design and revenue is only an estimate.
+- **Vanguard** — at-cost mutual; no parent income statement exists. Operating margin is the
+  **UK-entity-only** Companies House series (Vanguard Asset Management Ltd, 8.9–11.6%, clearly
+  labelled — *not* global); revenue is a flagged estimate; the asset-class split is a coarse
+  bond/MMF-vs-residual external figure (Vanguard publishes no clean dollar split). Net flows are the
+  Morningstar US family series (2021/2022/2024/2025; **2023 is a genuine Morningstar reporting gap**).
 - **Capital tab** (market cap, P/E) — structurally impossible for group-filer *segments* (not
   separately traded) and private firms (not listed). Populated for the 10 publicly-traded pure-plays.
 
