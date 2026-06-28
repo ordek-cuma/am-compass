@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { Icon, MagIcon, type IconName } from '../../components/icons'
 import { COMPETITORS } from '../../data/competitors'
 import { allDocuments } from '../../data/financials'
-import { FUNDS } from '../../data/funds'
+import { PRODUCTS } from '../../data/products'
 
 function RoomNav({ to, label, icon, count, active, sub }: { to: string; label: string; icon: IconName; count: number; active: boolean; sub?: boolean }) {
   const navigate = useNavigate()
@@ -39,7 +39,7 @@ export function RoomsSubnav() {
       <div className="sp-grp-b">
         <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPETITORS.length} active={onCompetitor} />
         <RoomNav to="/rooms/documents" label="Document Room" icon="docs" count={allDocuments().length} active={onDocuments} sub />
-        <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={FUNDS.length} active={onProduct} />
+        <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={PRODUCTS.length} active={onProduct} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>
         <button className="sp-grp-h" onClick={() => setRecentClosed((v) => !v)}>
