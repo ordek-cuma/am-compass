@@ -56,3 +56,19 @@ export function productByIsin(isin: string | undefined): Product | null {
 export function totalAum(): number {
   return PRODUCTS.reduce((a, p) => a + (p.aum ?? 0), 0)
 }
+
+// Map a Competitor Data Room entity (by its competitor code) to the product-catalogue
+// `manager` whose products belong to it. Extend as each manager's products are ingested.
+const MANAGER_BY_CODE: Record<string, string> = {
+  BL: 'BlackRock', // iShares + BGF/BSF + US BlackRock funds
+}
+
+export function managerForCompetitor(code: string): string | null {
+  return MANAGER_BY_CODE[code] ?? null
+}
+
+/** The catalogue products that belong to a competitor (empty until that manager is ingested). */
+export function productsForCompetitor(code: string): Product[] {
+  const m = MANAGER_BY_CODE[code]
+  return m ? PRODUCTS.filter((p) => p.manager === m) : []
+}
