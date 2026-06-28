@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:10:10+00:00",
+  "generated_at": "2026-06-28T02:32:47+00:00",
   "source": "SEC EDGAR + IR (delta crawl)",
   "competitors": {
     "BL": {
@@ -11351,6 +11351,24 @@
             }
           ]
         },
+        "num_countries": {
+          "value": 50.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "10-K",
+          "vendor": "analyst",
+          "section": "\u201cAMG\u2019s Affiliates \u2026 manage assets for investors in more than 50 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 50.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
         "market_cap": {
           "value": 9032404828.300001,
           "unit": "USD",
@@ -14539,6 +14557,24 @@
             }
           ]
         },
+        "num_countries": {
+          "value": 26.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Morgan Stanley IM: \u201coffices in 58 locations across 26 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 26.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
         "aum_by_asset_class": {
           "unit": "USD",
           "basis": "reported",
@@ -16059,6 +16095,24 @@
               "value": 878000000.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 20.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "PGIM: \u201c40 offices in 20 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 20.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -18576,6 +18630,24 @@
               "value": 859000000.0,
               "basis": "reported",
               "confidence": 0.9
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 59.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "State Street Global Advisors: \u201c59 Countries with clients\u201d (31 Dec 2024)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 59.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         },
@@ -22854,6 +22926,24 @@
             }
           ]
         },
+        "num_countries": {
+          "value": 80.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "Aberdeen Group: clients \u201cacross 80 countries\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 80.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
+        },
         "operating_margin": {
           "value": 20.7,
           "unit": "pct",
@@ -23532,6 +23622,24 @@
               "value": 10160000000.0,
               "basis": "external",
               "confidence": 0.65
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 28.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.7,
+          "source": "results",
+          "vendor": "analyst-eu",
+          "section": "M&G: solutions for customers \u201cin 28 markets around the world\u201d",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 28.0,
+              "basis": "reported",
+              "confidence": 0.7
             }
           ]
         },
