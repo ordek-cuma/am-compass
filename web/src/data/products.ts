@@ -81,7 +81,11 @@ const MANAGER_BY_CODE: Record<string, string> = {
   'Goldman Sachs': 'Goldman Sachs Asset Management',
   Blackstone: 'Blackstone',
   // European / UCITS issuers
-  AMU: 'Amundi', // Amundi UCITS ETFs (incl. former Lyxor)
+  AMU: 'Amundi', // Amundi UCITS ETFs (incl. former Lyxor) + SICAV funds
+  DWS: 'DWS', // Xtrackers UCITS ETFs
+  UBS: 'UBS Asset Management', // UBS UCITS ETFs
+  BNP: 'BNP Paribas Asset Management', // BNP Paribas Easy ETFs
+  DEKA: 'DekaBank', // Deka UCITS ETFs
 }
 
 export function managerForCompetitor(code: string): string | null {
