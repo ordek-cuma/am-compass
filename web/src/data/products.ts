@@ -80,6 +80,8 @@ const MANAGER_BY_CODE: Record<string, string> = {
   WisdomTree: 'WisdomTree',
   'Goldman Sachs': 'Goldman Sachs Asset Management',
   Blackstone: 'Blackstone',
+  // European / UCITS issuers
+  AMU: 'Amundi', // Amundi UCITS ETFs (incl. former Lyxor)
 }
 
 export function managerForCompetitor(code: string): string | null {
