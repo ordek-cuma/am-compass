@@ -8596,6 +8596,24 @@
               "confidence": 0.9
             }
           ]
+        },
+        "market_cap": {
+          "value": 3400000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.9,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "AB $35.95 \u00d7 ~93.5m units (AllianceBernstein Holding L.P. is itself listed)",
+          "period_end": "2026-06-19",
+          "history": [
+            {
+              "period_end": "2026-06-19",
+              "value": 3400000000.0,
+              "basis": "external",
+              "confidence": 0.9
+            }
+          ]
         }
       }
     },
@@ -9413,6 +9431,24 @@
               "value": 861149,
               "basis": "derived",
               "confidence": 0.85
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 8.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.35,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Federated Hermes offices across ~8 countries (US, UK, Ireland + intl distribution)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 8.0,
+              "basis": "reported",
+              "confidence": 0.35
             }
           ]
         }
@@ -10420,6 +10456,24 @@
               "confidence": 0.85
             }
           ]
+        },
+        "num_countries": {
+          "value": 6.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.35,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "WisdomTree US, UK, Ireland, Jersey + South America/Israel \u2248 ~6 countries",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 6.0,
+              "basis": "reported",
+              "confidence": 0.35
+            }
+          ]
         }
       }
     },
@@ -11359,6 +11413,24 @@
               "value": 4.5,
               "basis": "derived",
               "confidence": 0.9
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 18.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.5,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Janus Henderson \u201coffices in 24 cities\u201d \u2248 ~18 distinct countries",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 18.0,
+              "basis": "reported",
+              "confidence": 0.5
             }
           ]
         }
@@ -14361,6 +14433,24 @@
               "confidence": 0.9
             }
           ]
+        },
+        "num_countries": {
+          "value": 12.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.45,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Blackstone ~26 offices \u2248 ~12-15 countries worldwide",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 12.0,
+              "basis": "reported",
+              "confidence": 0.45
+            }
+          ]
         }
       }
     },
@@ -15487,6 +15577,42 @@
               "confidence": 0.6
             }
           ]
+        },
+        "market_cap": {
+          "value": 338900000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Morgan Stanley (MS) $214.85 \u2192 $338.9bn; MS Investment Management not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 338900000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 1400.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.55,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "MSIM \u201cmore than 1,400 investment professionals\u201d (total MSIM staff not separately disclosed)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 1400.0,
+              "basis": "reported",
+              "confidence": 0.55
+            }
+          ]
         }
       }
     },
@@ -16091,6 +16217,42 @@
               "value": 10730000000.0,
               "basis": "estimate",
               "confidence": 0.6
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 315600000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent The Goldman Sachs Group (GS) $1,033.93 \u2192 $315.6bn; GS Asset Management not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 315600000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 42.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.55,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Goldman Sachs firm-wide offices across ~42 countries (GS AM uses the group footprint)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 42.0,
+              "basis": "reported",
+              "confidence": 0.55
             }
           ]
         }
@@ -17150,6 +17312,24 @@
               "confidence": 0.9
             }
           ]
+        },
+        "market_cap": {
+          "value": 893500000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent JPMorgan Chase (JPM) ~$329 \u2192 ~$893bn; J.P. Morgan Asset Management not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 893500000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
         }
       }
     },
@@ -17619,6 +17799,42 @@
               "value": 1640000000.0,
               "basis": "estimate",
               "confidence": 0.6
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 37200000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Prudential Financial (PRU) $107.03 \u2192 $37.2bn; PGIM not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 37200000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 3000.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.5,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "PGIM ~3,000 (Newark HQ proxy; global total higher, not cleanly public)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 3000.0,
+              "basis": "reported",
+              "confidence": 0.5
             }
           ]
         }
@@ -20350,6 +20566,42 @@
               "confidence": 0.6
             }
           ]
+        },
+        "market_cap": {
+          "value": 46400000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent State Street Corp (STT) $169.51 \u2192 $46.4bn; State Street Global Advisors not separately listed",
+          "period_end": "2026-06-25",
+          "history": [
+            {
+              "period_end": "2026-06-25",
+              "value": 46400000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 2500.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.7,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "State Street Global Advisors \u201cabout 2,500 people in 29 global offices\u201d",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 2500.0,
+              "basis": "reported",
+              "confidence": 0.7
+            }
+          ]
         }
       }
     },
@@ -20919,6 +21171,42 @@
               "period_end": "2021-12-31",
               "value": 1030000000.0,
               "basis": "estimate",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 161000000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent UBS Group AG (UBS) \u2192 ~$161bn (USD-reported); UBS Asset Management not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 161000000000.0,
+              "basis": "external",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "headcount": {
+          "value": 3300.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.7,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "UBS Asset Management \u201capproximately 3,300 employees\u201d (division only; parent UBS Group ~110k+)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 3300.0,
+              "basis": "reported",
               "confidence": 0.7
             }
           ]
@@ -23877,6 +24165,24 @@
               "confidence": 0.85
             }
           ]
+        },
+        "num_countries": {
+          "value": 22.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "DWS \u201crooted in 22 countries, staff representing 35 nationalities\u201d",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 22.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
         }
       },
       "period_end": "2026-06-26",
@@ -24574,6 +24880,42 @@
               "value": 17.2,
               "basis": "derived",
               "confidence": 0.6
+            }
+          ]
+        },
+        "headcount": {
+          "value": 6194.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Schroders plc ~6,194 employees (group-wide, 2025)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 6194.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 30.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.65,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Schroders \u201c38 locations\u201d \u2248 ~30 distinct countries",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 30.0,
+              "basis": "reported",
+              "confidence": 0.65
             }
           ]
         }
@@ -27143,6 +27485,42 @@
               "confidence": 0.65
             }
           ]
+        },
+        "market_cap": {
+          "value": 174500000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.82,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Allianz SE (ALV) \u20ac153.8bn \u00d7 1.135 \u2192 $174.5bn; Allianz Global Investors not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 174500000000.0,
+              "basis": "external",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 15.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Allianz Global Investors 22 offices \u2248 ~15 distinct countries",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 15.0,
+              "basis": "reported",
+              "confidence": 0.75
+            }
+          ]
         }
       }
     },
@@ -27540,6 +27918,24 @@
               "value": 1300000000.0,
               "basis": "estimate",
               "confidence": 0.6
+            }
+          ]
+        },
+        "headcount": {
+          "value": 2000.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.55,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Natixis IM \u201c~2,000 employees across 6 continents\u201d (holding/distribution unit; excludes affiliate boutiques)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2000.0,
+              "basis": "reported",
+              "confidence": 0.55
             }
           ]
         }
@@ -28219,6 +28615,24 @@
               "value": 370000000.0,
               "basis": "estimate",
               "confidence": 0.55
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 119500000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.82,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent BNP Paribas (BNP) ~\u20ac106bn \u00d7 1.135 \u2192 ~$119.5bn; BNP Paribas Asset Management not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 119500000000.0,
+              "basis": "external",
+              "confidence": 0.82
             }
           ]
         }
@@ -29518,6 +29932,42 @@
               "confidence": 0.6
             }
           ]
+        },
+        "market_cap": {
+          "value": 29000000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.82,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Swiss Life Holding (SLHN) CHF 23.49bn \u00d7 1.235 \u2192 $29.0bn; Swiss Life Asset Managers not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 29000000000.0,
+              "basis": "external",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 9.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Swiss Life Asset Managers ~9 European countries (27 offices)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 9.0,
+              "basis": "reported",
+              "confidence": 0.75
+            }
+          ]
         }
       }
     },
@@ -29697,6 +30147,60 @@
               "value": 700000000.0,
               "basis": "reported",
               "confidence": 0.85
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 119500000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.78,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent now BNP Paribas (acquired AXA IM, completed 31 Dec 2025) ~\u20ac106bn \u2192 ~$119.5bn; AXA IM Alts not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 119500000000.0,
+              "basis": "external",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "headcount": {
+          "value": 980.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.75,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "AXA IM Alts \u201c980 people located in 17 offices\u201d (30 Sep 2024)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 980.0,
+              "basis": "reported",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 12.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.4,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "AXA IM Alts 17 offices \u2248 ~12 countries (EU/NA/APAC/Middle East); parent AXA IM 18 countries",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 12.0,
+              "basis": "reported",
+              "confidence": 0.4
             }
           ]
         }
@@ -30043,6 +30547,24 @@
               "value": 53.8,
               "basis": "derived",
               "confidence": 0.8
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 8.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Union Investment own teams in ~8-9 countries (DE, LU, BE, UK, ES, US, FR, SG, AT)",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 8.0,
+              "basis": "reported",
+              "confidence": 0.6
             }
           ]
         }
@@ -31242,6 +31764,24 @@
               "confidence": 0.9
             }
           ]
+        },
+        "num_countries": {
+          "value": 11.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.65,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Deka-Gruppe \u201crepresented \u2026 in eleven countries\u201d",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 11.0,
+              "basis": "reported",
+              "confidence": 0.65
+            }
+          ]
         }
       }
     },
@@ -31322,6 +31862,42 @@
               "value": 467576471,
               "basis": "derived",
               "confidence": 0.6
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 70400000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.7,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Munich Re (MUV2) ~\u20ac62bn \u00d7 1.135 \u2192 ~$70bn; MEAG is Munich Re's captive AM, not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 70400000000.0,
+              "basis": "external",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 3.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "MEAG: Germany (Munich), USA (New York), Hong Kong",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 3.0,
+              "basis": "reported",
+              "confidence": 0.85
             }
           ]
         }
@@ -31515,6 +32091,24 @@
               "confidence": 0.6
             }
           ]
+        },
+        "num_countries": {
+          "value": 2.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "BayernInvest: Germany (Munich HQ) + Luxembourg subsidiary",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 2.0,
+              "basis": "reported",
+              "confidence": 0.8
+            }
+          ]
         }
       }
     },
@@ -31670,6 +32264,24 @@
               "confidence": 0.6
             }
           ]
+        },
+        "num_countries": {
+          "value": 12.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.55,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Deka Immobilien offices in ~12 countries (property holdings span 20+)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 12.0,
+              "basis": "reported",
+              "confidence": 0.55
+            }
+          ]
         }
       }
     },
@@ -31762,6 +32374,24 @@
               "value": 420000000.0,
               "basis": "external",
               "confidence": 0.55
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 8.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.8,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Universal Investment offices in ~8 countries (DE, LU, IE, UK, FR, SE, PL, SG)",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 8.0,
+              "basis": "reported",
+              "confidence": 0.8
             }
           ]
         }
@@ -32553,6 +33183,42 @@
               "confidence": 0.9
             }
           ]
+        },
+        "market_cap": {
+          "value": 321700000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.75,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent HSBC Holdings (HSBA) \u00a3244bn \u00d7 1.319 \u2192 $321.7bn; HSBC INKA not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 321700000000.0,
+              "basis": "external",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 1.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.85,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "HSBC INKA: Germany (D\u00fcsseldorf) Master-KVG, essentially single-country",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 1.0,
+              "basis": "reported",
+              "confidence": 0.85
+            }
+          ]
         }
       }
     },
@@ -33320,6 +33986,24 @@
               "value": 345000,
               "basis": "derived",
               "confidence": 0.45
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 9.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.6,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "Vanguard offices in ~9 countries (US, UK, Canada, Australia, China, HK, Japan, Singapore, Taiwan); serves clients in ~170 markets",
+          "period_end": "2024-12-31",
+          "history": [
+            {
+              "period_end": "2024-12-31",
+              "value": 9.0,
+              "basis": "reported",
+              "confidence": 0.6
             }
           ]
         }
@@ -34246,6 +34930,42 @@
               "value": 2970000000.0,
               "basis": "estimate",
               "confidence": 0.5
+            }
+          ]
+        },
+        "market_cap": {
+          "value": 174500000000.0,
+          "unit": "USD",
+          "basis": "external",
+          "confidence": 0.82,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "market-data",
+          "section": "Parent Allianz SE (ALV) \u20ac153.8bn \u00d7 1.135 \u2192 $174.5bn; PIMCO not separately listed",
+          "period_end": "2026-06-26",
+          "history": [
+            {
+              "period_end": "2026-06-26",
+              "value": 174500000000.0,
+              "basis": "external",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "num_countries": {
+          "value": 14.0,
+          "unit": "count",
+          "basis": "reported",
+          "confidence": 0.4,
+          "source": "web research (about/IR/annual report; market data)",
+          "vendor": "analyst",
+          "section": "PIMCO ~22 offices \u2248 ~14 countries across Americas/Europe/Asia",
+          "period_end": "2025-12-31",
+          "history": [
+            {
+              "period_end": "2025-12-31",
+              "value": 14.0,
+              "basis": "reported",
+              "confidence": 0.4
             }
           ]
         }
