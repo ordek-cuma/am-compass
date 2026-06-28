@@ -203,7 +203,7 @@ function TrendPanel({ fin, metricKey, title, unit }: { fin: FinBlock; metricKey:
           {h.map((p) => (
             <div key={p.period_end} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', height: '100%' }}>
               <div style={{ fontSize: 11, fontWeight: 500, marginBottom: 4 }}>{fmtValue(p.value, unit)}</div>
-              <div style={{ width: '100%', maxWidth: 46, height: `${Math.max(3, Math.round((84 * Math.abs(p.value!)) / max))}px`, background: 'var(--teal)', borderRadius: '4px 4px 0 0' }} />
+              <div style={{ width: '100%', maxWidth: 46, height: `${Math.max(3, Math.round((84 * Math.abs(p.value!)) / max))}px`, background: p.value! < 0 ? 'var(--rose, #d2766f)' : 'var(--teal)', borderRadius: '4px 4px 0 0' }} />
               <div style={{ fontSize: 10.5, color: 'var(--ink-3)', marginTop: 5 }}>{p.period_end.slice(0, 4)}</div>
             </div>
           ))}
@@ -269,6 +269,29 @@ export function MetricsTab({ code, tab }: { code: string; tab: Tab }) {
             )}
           </Panel>
         </div>
+      </>
+    )
+  }
+  if (tab === 'Flows') {
+    // Flows: headline tiles, then the multi-year Net-flows + Total-AuM trends (where a firm
+    // publishes a history), then any disclosed flow detail / breakdowns.
+    const defs = METRICS_BY_TAB.Flows ?? []
+    const tiles = defs.filter((d) => d.tile)
+    const cuts = defs.filter((d) => d.cut)
+    const scalars = defs.filter((d) => !d.tile && !d.cut)
+    return (
+      <>
+        <Tiles fin={fin} defs={tiles} />
+        <div className="cols-2" style={{ alignItems: 'start' }}>
+          <TrendPanel fin={fin} metricKey="net_flows" title="Net flows" unit="USD" />
+          <TrendPanel fin={fin} metricKey="aum_total" title="Total AuM" unit="USD" />
+        </div>
+        {(scalars.length || cuts.length) ? (
+          <div className="cols-2" style={{ alignItems: 'start' }}>
+            {scalars.length ? <Panel title={TAB_LABEL[tab]}>{scalars.map((d) => <ScalarRow key={d.key} fin={fin} def={d} />)}</Panel> : null}
+            {cuts.map((d) => <Breakdown key={d.key} fin={fin} def={d} />)}
+          </div>
+        ) : null}
       </>
     )
   }
