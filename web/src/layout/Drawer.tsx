@@ -3,7 +3,7 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import { BrandTile, Icon } from '../components/icons'
 import { COMPETITORS } from '../data/competitors'
-import { FUNDS } from '../data/funds'
+import { PRODUCTS } from '../data/products'
 import { FOOT, MODULES } from './modules'
 
 export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }) {
@@ -60,7 +60,7 @@ export function Drawer({ open, onClose }: { open: boolean; onClose: () => void }
           <a className={`dr-item${pathname.startsWith('/rooms/product') ? ' on' : ''}`} onClick={() => go('/rooms/product')}>
             <Icon name="box" size={17} />
             Product Data Room
-            <span className="tag">{FUNDS.length}</span>
+            <span className="tag">{PRODUCTS.length}</span>
           </a>
         </div>
 
