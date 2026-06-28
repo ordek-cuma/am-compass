@@ -12,6 +12,7 @@ import { SettingsLayout } from './features/settings/SettingsLayout'
 import { DocumentFetcher } from './features/settings/DocumentFetcher'
 import { FinancialFetcher } from './features/settings/FinancialFetcher'
 import { CoverageMatrix } from './features/settings/CoverageMatrix'
+import { ProductCoverage } from './features/settings/ProductCoverage'
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
               <Route path="data-fetcher/documents" element={<DocumentFetcher />} />
               <Route path="data-fetcher/financials" element={<FinancialFetcher />} />
               <Route path="data-fetcher/coverage" element={<CoverageMatrix />} />
+              <Route path="data-fetcher/product-coverage" element={<ProductCoverage />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>

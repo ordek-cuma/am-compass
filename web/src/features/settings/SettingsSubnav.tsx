@@ -8,7 +8,8 @@ export function SettingsSubnav() {
   const navigate = useNavigate()
   const onDocFetcher = pathname.startsWith('/settings/data-fetcher/documents')
   const onFinFetcher = pathname.startsWith('/settings/data-fetcher/financials')
-  const onCoverage = pathname.startsWith('/settings/data-fetcher/coverage')
+  const onCoverage = pathname === '/settings/data-fetcher/coverage'
+  const onProductCoverage = pathname.startsWith('/settings/data-fetcher/product-coverage')
 
   return (
     <>
@@ -43,6 +44,15 @@ export function SettingsSubnav() {
             <Icon name="catalog" size={15} />
           </span>
           <span className="sp-txt">Coverage</span>
+        </div>
+        <div
+          className={`sp-row room-nav sub${onProductCoverage ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-fetcher/product-coverage')}
+        >
+          <span className="sp-ic">
+            <Icon name="box" size={15} />
+          </span>
+          <span className="sp-txt">Product Coverage</span>
         </div>
       </div>
     </>

@@ -63,6 +63,7 @@ const MANAGER_BY_CODE: Record<string, string> = {
   BL: 'BlackRock', // iShares + BGF/BSF + US BlackRock funds
   Vanguard: 'Vanguard', // UK/EU funds + US flagship ETFs/funds
   Fidelity: 'Fidelity', // US ETFs + major mutual funds (FMR; FIL is separate)
+  SSgA: 'State Street Global Advisors', // SPDR ETFs + State Street funds
 }
 
 export function managerForCompetitor(code: string): string | null {
