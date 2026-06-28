@@ -85,7 +85,13 @@ const MANAGER_BY_CODE: Record<string, string> = {
   DWS: 'DWS', // Xtrackers UCITS ETFs
   UBS: 'UBS Asset Management', // UBS UCITS ETFs
   BNP: 'BNP Paribas Asset Management', // BNP Paribas Easy ETFs
-  DEKA: 'DekaBank', // Deka UCITS ETFs
+  DEKA: 'DekaBank', // Deka UCITS ETFs + funds
+  AGI: 'Allianz Global Investors', // Allianz GI SICAV funds
+  Schroders: 'Schroders',
+  abrdn: 'abrdn',
+  MandG: 'M&G',
+  NAT: 'Natixis Investment Managers', // incl. DNCA / affiliates
+  Union: 'Union Investment',
 }
 
 export function managerForCompetitor(code: string): string | null {
