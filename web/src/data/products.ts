@@ -61,6 +61,7 @@ export function totalAum(): number {
 // `manager` whose products belong to it. Extend as each manager's products are ingested.
 const MANAGER_BY_CODE: Record<string, string> = {
   BL: 'BlackRock', // iShares + BGF/BSF + US BlackRock funds
+  Vanguard: 'Vanguard', // UK/EU funds + US flagship ETFs/funds
 }
 
 export function managerForCompetitor(code: string): string | null {

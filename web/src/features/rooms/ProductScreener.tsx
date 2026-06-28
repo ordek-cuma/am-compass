@@ -19,7 +19,7 @@ export function ProductScreener() {
             Product <span className="em">Data Room</span>
           </>
         }
-        sub={`${fnum(PRODUCTS.length)} real products — iShares ETFs (US + EMEA/UCITS) and BlackRock mutual funds (BGF/BSF SICAV + US) — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
+        sub={`${fnum(PRODUCTS.length)} real products across BlackRock (iShares ETFs + BGF/BSF/US mutual funds) and Vanguard (UK/EU funds + US flagships) — $${(totalAum() / 1e6).toFixed(2)}T AUM where disclosed. Filter and sort the universe, then open a product for its profile.`}
         actions={
           <>
             <button className="btn">
