@@ -8,6 +8,7 @@ export function SettingsSubnav() {
   const navigate = useNavigate()
   const onDocFetcher = pathname.startsWith('/settings/data-fetcher/documents')
   const onFinFetcher = pathname.startsWith('/settings/data-fetcher/financials')
+  const onCoverage = pathname.startsWith('/settings/data-fetcher/coverage')
 
   return (
     <>
@@ -33,6 +34,15 @@ export function SettingsSubnav() {
             <Icon name="pivot" size={15} />
           </span>
           <span className="sp-txt">Financial Fetcher</span>
+        </div>
+        <div
+          className={`sp-row room-nav sub${onCoverage ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-fetcher/coverage')}
+        >
+          <span className="sp-ic">
+            <Icon name="catalog" size={15} />
+          </span>
+          <span className="sp-txt">Coverage</span>
         </div>
       </div>
     </>
