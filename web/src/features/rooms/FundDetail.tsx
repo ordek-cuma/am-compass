@@ -43,8 +43,7 @@ export function FundDetail() {
             </span>
           ))}
           <span className="pd-isin">
-            {p.isin}
-            {p.ticker ? ` · ${p.ticker}` : ''}
+            {p.ticker && p.ticker !== p.isin ? `${p.isin} · ${p.ticker}` : p.isin}
           </span>
         </div>
       </div>
