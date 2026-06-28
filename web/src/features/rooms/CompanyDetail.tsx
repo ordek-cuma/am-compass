@@ -9,6 +9,8 @@ import { documentsFor, documentsGroupedFor, fmtBytes, type FinDoc } from '../../
 import { fdate } from '../../lib/format'
 import { ScrapeControls } from './ScrapeControls'
 import { MetricsTab } from './MetricsTab'
+import { ProductTable } from './ProductTable'
+import { productsForCompetitor } from '../../data/products'
 import { TOP_TABS, TAB_LABEL, type Tab } from '../../data/metricCatalog'
 
 export function CompanyDetail() {
@@ -17,7 +19,8 @@ export function CompanyDetail() {
   const c = COMPANIES.find((x) => x.tick === decodeURIComponent(companyId || ''))
   if (!c) return <Navigate to="/rooms/competitor" replace />
 
-  const [tab, setTab] = useState<'docs' | Tab>('docs')
+  const [tab, setTab] = useState<'docs' | 'products' | Tab>('docs')
+  const products = productsForCompetitor(c.tick)
   // ONLY real documents — crawled local files or primary-source links. No placeholders.
   const realDocs = [...documentsFor(c.tick)].sort((a, b) => b.date.localeCompare(a.date))
   const last = realDocs.length ? realDocs[0].date : ''
@@ -80,6 +83,9 @@ export function CompanyDetail() {
         <button className={`mtab${tab === 'docs' ? ' on' : ''}`} onClick={() => setTab('docs')}>
           Documents<span className="ct">{realDocs.length}</span>
         </button>
+        <button className={`mtab${tab === 'products' ? ' on' : ''}`} onClick={() => setTab('products')}>
+          Products{products.length ? <span className="ct">{products.length}</span> : null}
+        </button>
         {TOP_TABS.map((t) => (
           <button key={t} className={`mtab${tab === t ? ' on' : ''}`} onClick={() => setTab(t)}>
             {TAB_LABEL[t]}
@@ -87,7 +93,19 @@ export function CompanyDetail() {
         ))}
       </div>
 
-      {tab === 'docs' ? (
+      {tab === 'products' ? (
+        products.length ? (
+          <ProductTable products={products} title={`${c.co} products · ${products.length}`} />
+        ) : (
+          <Panel title="Products">
+            <Empty
+              title="No products ingested yet"
+              desc="This competitor’s fund & ETF catalogue hasn’t been ingested into the Product Data Room yet."
+              icon="box"
+            />
+          </Panel>
+        )
+      ) : tab === 'docs' ? (
         <>
         <ScrapeControls code={c.tick} />
         <div className="cols-21">
