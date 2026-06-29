@@ -97,7 +97,8 @@ const MANAGER_BY_CODE: Record<string, string> = {
   'Deka Immobilien': 'Deka Immobilien', // open-ended real-estate funds
   MEAG: 'MEAG',
   'AXA IM Alts.': 'AXA IM Alts', // AXA IM fund range (acquired by BNP Dec 2025)
-  // Universal Investment & HSBC INKA = Master-KVGs (administer third-party funds, no own retail range)
+  'HSBC T&B': 'HSBC Asset Management', // repositioned from HSBC INKA Master-KVG to the product issuer (UCITS ETFs + index/active funds)
+  // Universal Investment = Master-KVG (administers third-party funds, no own retail range)
 }
 
 export function managerForCompetitor(code: string): string | null {
