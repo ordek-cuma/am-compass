@@ -74,8 +74,8 @@ export function CoverageMatrix() {
   return (
     <>
       <ModuleHeader
-        crumb={<>Compass <b>›</b> Settings <b>›</b> Data Fetcher <b>›</b> Coverage</>}
-        title={<>Data <span className="em">Coverage</span></>}
+        crumb={<>Compass <b>›</b> Settings <b>›</b> Data Coverage <b>›</b> Financial Coverage</>}
+        title={<>Financial <span className="em">Coverage</span></>}
         sub={`Completeness of every collected metric across ${firms.length} competitors × ${COLUMNS.length} metric families (${cellCount} cells). Green = complete (time-series with ≥3 years, or a present point/breakdown); orange = present but a short 1–2 year series; red = no data. Source provenance is on the Financial Fetcher page.`}
       />
       <div className="view">

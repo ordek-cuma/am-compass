@@ -8,8 +8,9 @@ export function SettingsSubnav() {
   const navigate = useNavigate()
   const onDocFetcher = pathname.startsWith('/settings/data-fetcher/documents')
   const onFinFetcher = pathname.startsWith('/settings/data-fetcher/financials')
-  const onCoverage = pathname === '/settings/data-fetcher/coverage'
-  const onProductCoverage = pathname.startsWith('/settings/data-fetcher/product-coverage')
+  const onProductFetcher = pathname.startsWith('/settings/data-fetcher/products')
+  const onFinCoverage = pathname.startsWith('/settings/data-coverage/financials')
+  const onProductCoverage = pathname.startsWith('/settings/data-coverage/products')
 
   return (
     <>
@@ -37,17 +38,29 @@ export function SettingsSubnav() {
           <span className="sp-txt">Financial Fetcher</span>
         </div>
         <div
-          className={`sp-row room-nav sub${onCoverage ? ' on' : ''}`}
-          onClick={() => navigate('/settings/data-fetcher/coverage')}
+          className={`sp-row room-nav sub${onProductFetcher ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-fetcher/products')}
+        >
+          <span className="sp-ic">
+            <Icon name="box" size={15} />
+          </span>
+          <span className="sp-txt">Product Fetcher</span>
+        </div>
+      </div>
+      <div className="sp-treehead">Data Coverage</div>
+      <div className="sp-grp-b">
+        <div
+          className={`sp-row room-nav sub${onFinCoverage ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-coverage/financials')}
         >
           <span className="sp-ic">
             <Icon name="catalog" size={15} />
           </span>
-          <span className="sp-txt">Coverage</span>
+          <span className="sp-txt">Financial Coverage</span>
         </div>
         <div
           className={`sp-row room-nav sub${onProductCoverage ? ' on' : ''}`}
-          onClick={() => navigate('/settings/data-fetcher/product-coverage')}
+          onClick={() => navigate('/settings/data-coverage/products')}
         >
           <span className="sp-ic">
             <Icon name="box" size={15} />

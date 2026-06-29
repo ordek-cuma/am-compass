@@ -12,6 +12,7 @@ import { SettingsLayout } from './features/settings/SettingsLayout'
 import { DocumentFetcher } from './features/settings/DocumentFetcher'
 import { FinancialFetcher } from './features/settings/FinancialFetcher'
 import { CoverageMatrix } from './features/settings/CoverageMatrix'
+import { ProductFetcher } from './features/settings/ProductFetcher'
 import { ProductCoverage } from './features/settings/ProductCoverage'
 
 export default function App() {
@@ -42,8 +43,14 @@ export default function App() {
               <Route path="data-fetcher" element={<Navigate to="/settings/data-fetcher/documents" replace />} />
               <Route path="data-fetcher/documents" element={<DocumentFetcher />} />
               <Route path="data-fetcher/financials" element={<FinancialFetcher />} />
-              <Route path="data-fetcher/coverage" element={<CoverageMatrix />} />
-              <Route path="data-fetcher/product-coverage" element={<ProductCoverage />} />
+              <Route path="data-fetcher/products" element={<ProductFetcher />} />
+              <Route path="data-coverage" element={<Navigate to="/settings/data-coverage/financials" replace />} />
+              <Route path="data-coverage/financials" element={<CoverageMatrix />} />
+              <Route path="data-coverage/products" element={<ProductCoverage />} />
+              {/* legacy redirects */}
+              <Route path="data-fetcher/coverage" element={<Navigate to="/settings/data-coverage/financials" replace />} />
+              <Route path="data-fetcher/product-fetcher" element={<Navigate to="/settings/data-fetcher/products" replace />} />
+              <Route path="data-fetcher/product-coverage" element={<Navigate to="/settings/data-coverage/products" replace />} />
             </Route>
             <Route path="*" element={<Navigate to="/rooms/product" replace />} />
           </Route>
