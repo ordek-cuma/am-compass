@@ -41,7 +41,7 @@ export function RoomsSubnav() {
         <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPETITORS.length} active={onCompetitor} />
         <RoomNav to="/rooms/documents" label="Document Room" icon="docs" count={allDocuments().length} active={onDocuments} sub />
         <RoomNav to="/rooms/financials" label="Financial Room" icon="pivot" count={allFinancialPoints().length} active={onFinancials} sub />
-        <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={PRODUCTS.length} active={onProduct} />
+        <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={PRODUCTS.length} active={onProduct} sub />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>
         <button className="sp-grp-h" onClick={() => setRecentClosed((v) => !v)}>
