@@ -9,6 +9,7 @@ export function SettingsSubnav() {
   const onDocFetcher = pathname.startsWith('/settings/data-fetcher/documents')
   const onFinFetcher = pathname.startsWith('/settings/data-fetcher/financials')
   const onProductFetcher = pathname.startsWith('/settings/data-fetcher/products')
+  const onDocCoverage = pathname.startsWith('/settings/data-coverage/documents')
   const onFinCoverage = pathname.startsWith('/settings/data-coverage/financials')
   const onProductCoverage = pathname.startsWith('/settings/data-coverage/products')
 
@@ -49,6 +50,15 @@ export function SettingsSubnav() {
       </div>
       <div className="sp-treehead">Data Coverage</div>
       <div className="sp-grp-b">
+        <div
+          className={`sp-row room-nav sub${onDocCoverage ? ' on' : ''}`}
+          onClick={() => navigate('/settings/data-coverage/documents')}
+        >
+          <span className="sp-ic">
+            <Icon name="docs" size={15} />
+          </span>
+          <span className="sp-txt">Document Coverage</span>
+        </div>
         <div
           className={`sp-row room-nav sub${onFinCoverage ? ' on' : ''}`}
           onClick={() => navigate('/settings/data-coverage/financials')}
