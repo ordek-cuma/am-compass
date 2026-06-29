@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Icon, MagIcon, type IconName } from '../../components/icons'
 import { COMPETITORS } from '../../data/competitors'
-import { allDocuments } from '../../data/financials'
+import { allDocuments, allFinancialPoints } from '../../data/financials'
 import { PRODUCTS } from '../../data/products'
 
 function RoomNav({ to, label, icon, count, active, sub }: { to: string; label: string; icon: IconName; count: number; active: boolean; sub?: boolean }) {
@@ -24,6 +24,7 @@ export function RoomsSubnav() {
   const [recentClosed, setRecentClosed] = useState(false)
   const onCompetitor = pathname.startsWith('/rooms/competitor')
   const onDocuments = pathname.startsWith('/rooms/documents')
+  const onFinancials = pathname.startsWith('/rooms/financials')
   const onProduct = pathname.startsWith('/rooms/product')
 
   return (
@@ -39,6 +40,7 @@ export function RoomsSubnav() {
       <div className="sp-grp-b">
         <RoomNav to="/rooms/competitor" label="Competitor Data Room" icon="building" count={COMPETITORS.length} active={onCompetitor} />
         <RoomNav to="/rooms/documents" label="Document Room" icon="docs" count={allDocuments().length} active={onDocuments} sub />
+        <RoomNav to="/rooms/financials" label="Financial Room" icon="pivot" count={allFinancialPoints().length} active={onFinancials} sub />
         <RoomNav to="/rooms/product" label="Product Data Room" icon="box" count={PRODUCTS.length} active={onProduct} />
       </div>
       <div className={`sp-grp${recentClosed ? ' closed' : ''}`}>

@@ -6,6 +6,7 @@ import { RoomsLayout } from './features/rooms/RoomsLayout'
 import { ProductScreener } from './features/rooms/ProductScreener'
 import { FundDetail } from './features/rooms/FundDetail'
 import { CompanyScreener } from './features/rooms/CompanyScreener'
+import { FinancialDataRoom } from './features/rooms/FinancialDataRoom'
 import { CompanyDetail } from './features/rooms/CompanyDetail'
 import { CompetitorRadar } from './features/radar/CompetitorRadar'
 import { SettingsLayout } from './features/settings/SettingsLayout'
@@ -32,6 +33,7 @@ export default function App() {
               <Route path="competitor/:companyId" element={<CompanyDetail />} />
               {/* Document Data Room = the flat document feed */}
               <Route path="documents" element={<CompanyScreener />} />
+              <Route path="financials" element={<FinancialDataRoom />} />
               {/* legacy redirects */}
               <Route path="company" element={<Navigate to="/rooms/documents" replace />} />
               <Route path="company/:companyId" element={<Navigate to="/rooms/competitor" replace />} />
