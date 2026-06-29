@@ -114,6 +114,62 @@ export function fmtBytes(n: number): string {
   return `${n} B`
 }
 
+// Provenance vendor → friendly label + trust tier (1 filed → 4 computed). Mirrors the
+// Financial Fetcher vendor catalog so the Financial Data Room can show a Source column.
+export const VENDOR_LABEL: Record<string, { label: string; tier: 1 | 2 | 3 | 4 }> = {
+  xbrl: { label: 'SEC XBRL', tier: 1 },
+  'table-parse': { label: 'SEC 10-K parse', tier: 1 },
+  analyst: { label: 'SEC 10-K / 8-K', tier: 1 },
+  'analyst-eu': { label: 'EU reports / URD', tier: 1 },
+  'form-adv': { label: 'SEC Form ADV', tier: 1 },
+  'market-data': { label: 'Market data', tier: 2 },
+  tracker: { label: 'Tracker (Morningstar…)', tier: 2 },
+  estimate: { label: 'Estimate', tier: 3 },
+  derive: { label: 'Derived', tier: 4 },
+}
+
+export interface FinPointRow {
+  code: string
+  competitor: string
+  regime: string
+  key: string
+  unit: string
+  value: number | null
+  display: string // formatted value (or a breakdown summary)
+  vendor: string
+  basis: string
+  period: string // latest period year, or '—'
+  confidence: number
+  years: number // length of the scalar history (1 = single point)
+}
+
+/** Every financial data point across all competitors — one row per (competitor × metric). */
+export function allFinancialPoints(): FinPointRow[] {
+  const rows: FinPointRow[] = []
+  for (const [code, b] of Object.entries(FIN.competitors)) {
+    for (const [key, m] of Object.entries(b.metrics)) {
+      const hasVal = m.value !== null && m.value !== undefined
+      const members = m.members?.length ?? 0
+      if (!hasVal && members === 0) continue
+      rows.push({
+        code,
+        competitor: b.name,
+        regime: b.regime,
+        key,
+        unit: m.unit,
+        value: m.value ?? null,
+        display: hasVal ? fmtMetric(m) : `${members} breakdown${members === 1 ? '' : 's'}`,
+        vendor: m.vendor || m.source || 'unknown',
+        basis: m.basis,
+        period: m.period_end?.slice(0, 4) || '—',
+        confidence: m.confidence,
+        years: m.history?.length ?? (hasVal ? 1 : 0),
+      })
+    }
+  }
+  return rows
+}
+
 // Catalogue: groups → metrics (mirrors the agent's metric_catalog).
 export const FIN_GROUPS: { group: string; grain: string; items: { key: string; label: string }[] }[] = [
   { group: 'Scale', grain: 'AuM', items: [
