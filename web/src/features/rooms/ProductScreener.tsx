@@ -19,7 +19,7 @@ export function ProductScreener() {
             Product <span className="em">Data Room</span>
           </>
         }
-        sub={`${fnum(PRODUCTS.length)} real products across 20 managers — BlackRock, Vanguard, Fidelity, State Street, Invesco, J.P. Morgan, Franklin Templeton, Amundi and more — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
+        sub={`${fnum(PRODUCTS.length)} real products across ${new Set(PRODUCTS.map((p) => p.manager)).size} managers — BlackRock, Vanguard, Fidelity, State Street, Invesco, J.P. Morgan, Franklin Templeton, Amundi, AXA IM and more — $${(totalAum() / 1e6).toFixed(2)}T AUM. Filter and sort the universe, then open a product for its profile.`}
         actions={
           <>
             <button className="btn">
