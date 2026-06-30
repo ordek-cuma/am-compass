@@ -31,22 +31,22 @@ export function ProductCoverage() {
       <ModuleHeader
         crumb={<>Compass <b>›</b> Settings <b>›</b> Data Coverage <b>›</b> Product Coverage</>}
         title={<>Product <span className="em">Coverage</span></>}
-        sub={`How complete each of ${firms.length} competitors' product lines are (${ingested} ingested). The cell number is the product count, coloured by confidence: green = a populated line (≥5; ≥20 total) OR a confirmed structural zero (we're sure they offer none); amber = thin (1–4); red = an unverified zero that may be a gap. Where the data is fetched from is on the Product Fetcher page.`}
+        sub={`Whether we hold each of ${firms.length} competitors' product range (${ingested} ingested). Colour = COVERAGE, not count: green = covered (publicly-available range ingested) — the cell number is the product count, and 0 means they offer none of that type; amber = partially ingested; red = not ingested. A manager that genuinely offers only a fund or two in a category is still fully covered (green). Where the data is fetched from is on the Product Fetcher page.`}
       />
       <div className="view">
-        <Panel title={<>Coverage confidence <span className="muted2">{ingested}/{firms.length} ingested · {pct(totals.green)}% confident · {pct(totals.orange)}% thin · {pct(totals.red)}% unverified</span></>}>
+        <Panel title={<>Coverage <span className="muted2">{ingested}/{firms.length} ingested · {pct(totals.green)}% covered · {pct(totals.orange)}% partial · {pct(totals.red)}% not ingested</span></>}>
           <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap', fontSize: 12.5 }}>
             {(['green', 'orange', 'red'] as Status[]).map((s) => (
               <span key={s} style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
                 <span style={{ width: 13, height: 13, borderRadius: 3, background: COLOR[s], display: 'inline-block' }} />
                 <b style={{ color: 'var(--ink-1)' }}>{totals[s]}</b>
-                <span className="muted2">{s === 'green' ? 'confident (covered or confirmed-none)' : s === 'orange' ? 'thin (1–4)' : 'unverified zero'}</span>
+                <span className="muted2">{s === 'green' ? 'covered (count shown; 0 = none offered)' : s === 'orange' ? 'partially ingested' : 'not ingested'}</span>
               </span>
             ))}
           </div>
         </Panel>
 
-        <Panel title={<>Coverage matrix <span className="muted2">competitor × product type / group · number = products · colour = confidence</span></>} bodyStyle={{ padding: 0 }}>
+        <Panel title={<>Coverage matrix <span className="muted2">competitor × product type / group · number = products · colour = coverage</span></>} bodyStyle={{ padding: 0 }}>
           <div className="tbl-wrap">
             <table className="tbl" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
               <thead>
@@ -83,7 +83,7 @@ export function ProductCoverage() {
               </tbody>
               <tfoot>
                 <tr>
-                  <td style={{ position: 'sticky', left: 0, background: 'var(--surface-2)', fontWeight: 600, fontSize: 11.5 }}>Confident / total</td>
+                  <td style={{ position: 'sticky', left: 0, background: 'var(--surface-2)', fontWeight: 600, fontSize: 11.5 }}>Covered / total</td>
                   {colTotals.map((ct, i) => (
                     <td key={COLUMNS[i].key} className="num" style={{ textAlign: 'center', background: 'var(--surface-2)', fontSize: 11.5 }}>
                       <b style={{ color: COLOR.green }}>{ct.green}</b>
