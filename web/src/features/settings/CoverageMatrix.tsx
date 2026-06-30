@@ -10,9 +10,17 @@ import { ModuleHeader } from '../../components/ModuleHeader'
 import { Panel } from '../../components/Panel'
 import { allFinancials, type FinBlock } from '../../data/financials'
 
-type Status = 'green' | 'orange' | 'red'
+type Status = 'green' | 'orange' | 'red' | 'na'
 type ColType = 'series' | 'point' | 'breakdown' | 'composite'
 type Col = { key: string; label: string; type: ColType; from?: string[] }
+
+// Competitors that are NOT publicly listed as a standalone entity (private, mutual, cooperative,
+// or a subsidiary of an unlisted/larger parent). For these, a market-cap cell is structurally
+// N/A — there is no own share price — so it reads neutral rather than as a red "gap".
+const NOT_LISTED = new Set<string>([
+  'Vanguard', 'Fidelity', 'Capital Group', 'PIMCO', 'Union', 'NAT', 'Bayern Invest',
+  'Universal Invest.', 'Deka Immobilien', 'DEKA', 'MEAG',
+])
 
 // The columns that matter for competitive analysis, grouped left→right by theme.
 const COLUMNS: Col[] = [
@@ -28,12 +36,16 @@ const COLUMNS: Col[] = [
   { key: 'market_cap', label: 'Mkt cap', type: 'point' },
 ]
 
-const COLOR: Record<Status, string> = { green: '#1f9d76', orange: '#d68a2c', red: '#cf6a63' }
+const COLOR: Record<Status, string> = { green: '#1f9d76', orange: '#d68a2c', red: '#cf6a63', na: '#6b7280' }
 
 type Cell = { status: Status; label: string; detail: string }
 
-function cellFor(block: FinBlock, col: Col): Cell {
+function cellFor(block: FinBlock, col: Col, code: string): Cell {
   const m = block.metrics
+  // Market cap is structurally N/A for non-listed firms — neutral, not a gap.
+  if (col.key === 'market_cap' && m[col.key]?.value == null && NOT_LISTED.has(code)) {
+    return { status: 'na', label: 'n/a', detail: 'not publicly listed — no market cap' }
+  }
   if (col.type === 'composite') {
     const present = (col.from ?? []).filter((k) => m[k]?.value != null)
     return present.length
@@ -60,10 +72,10 @@ function cellFor(block: FinBlock, col: Col): Cell {
 export function CoverageMatrix() {
   const { firms, totals, colTotals } = useMemo(() => {
     const firms = allFinancials()
-      .map(({ code, block }) => ({ code, block, cells: COLUMNS.map((c) => cellFor(block, c)) }))
+      .map(({ code, block }) => ({ code, block, cells: COLUMNS.map((c) => cellFor(block, c, code)) }))
       .sort((a, b) => (a.block.name || a.code).localeCompare(b.block.name || b.code))
-    const totals = { green: 0, orange: 0, red: 0 }
-    const colTotals = COLUMNS.map(() => ({ green: 0, orange: 0, red: 0 }))
+    const totals = { green: 0, orange: 0, red: 0, na: 0 }
+    const colTotals = COLUMNS.map(() => ({ green: 0, orange: 0, red: 0, na: 0 }))
     firms.forEach((f) => f.cells.forEach((cell, i) => { totals[cell.status]++; colTotals[i][cell.status]++ }))
     return { firms, totals, colTotals }
   }, [])
@@ -76,17 +88,17 @@ export function CoverageMatrix() {
       <ModuleHeader
         crumb={<>Compass <b>›</b> Settings <b>›</b> Data Coverage <b>›</b> Financial Coverage</>}
         title={<>Financial <span className="em">Coverage</span></>}
-        sub={`Completeness of every collected metric across ${firms.length} competitors × ${COLUMNS.length} metric families (${cellCount} cells). Green = complete (time-series with ≥3 years, or a present point/breakdown); orange = present but a short 1–2 year series; red = no data. Source provenance is on the Financial Fetcher page.`}
+        sub={`Completeness of every collected metric across ${firms.length} competitors × ${COLUMNS.length} metric families (${cellCount} applicable cells). Green = complete (time-series with ≥3 years, or a present point/breakdown); orange = present but a short 1–2 year series; red = no data; n/a = not applicable (e.g. market cap for a firm that isn't publicly listed). Source provenance is on the Financial Fetcher page.`}
       />
       <div className="view">
-        <Panel title={<>Completeness <span className="muted2">{pct(totals.green)}% complete · {pct(totals.orange)}% partial · {pct(totals.red)}% missing</span></>}>
+        <Panel title={<>Completeness <span className="muted2">{pct(totals.green)}% complete · {pct(totals.orange)}% partial · {pct(totals.red)}% missing · {totals.na} n/a</span></>}>
           <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap', fontSize: 12.5 }}>
-            {(['green', 'orange', 'red'] as Status[]).map((s) => (
+            {(['green', 'orange', 'red', 'na'] as Status[]).map((s) => (
               <span key={s} style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
                 <span style={{ width: 13, height: 13, borderRadius: 3, background: COLOR[s], display: 'inline-block' }} />
                 <b style={{ color: 'var(--ink-1)' }}>{totals[s]}</b>
                 <span className="muted2">
-                  {s === 'green' ? 'complete' : s === 'orange' ? 'partial (1–2yr)' : 'no data'}
+                  {s === 'green' ? 'complete' : s === 'orange' ? 'partial (1–2yr)' : s === 'red' ? 'no data' : 'not applicable'}
                 </span>
               </span>
             ))}
