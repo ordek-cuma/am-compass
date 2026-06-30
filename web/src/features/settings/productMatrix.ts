@@ -23,11 +23,21 @@ export const COLUMNS: Col[] = [
 
 export const COLOR: Record<Status, string> = { green: '#1f9d76', orange: '#d68a2c', red: '#cf6a63' }
 
-// Managers whose catalogue we have NOT fully ingested — a zero may be an un-filled gap, so it
-// renders red rather than green. Everyone else is treated as fully ingested, so a zero is a
-// CONFIRMED structural absence (green). (Universal Investment is a Master-KVG with no own
-// products — that confirmed-empty state is itself a "sure" green.)
-const UNSURE = new Set<string>(['HSBC T&B', 'Bayern Invest', 'MEAG'])
+// Coverage model. The matrix grades how complete our PRODUCT COVERAGE is for each competitor —
+// whether we hold the competitor's product range — NOT the raw product count. A manager that
+// genuinely offers only one or two funds in a category is still FULLY COVERED (green); the cell
+// number conveys the magnitude (0 = they offer none of that type). Colour tiers:
+//   green  = covered — the competitor's publicly-available range is ingested
+//   amber  = partially ingested — we knowingly hold only part of the public range
+//   red    = not ingested — no data captured for this competitor yet
+// This is why thin lines are no longer amber: "few products" is not "incomplete coverage". To
+// flag a competitor as genuinely partial (re-surfacing amber/red by count), add its code to
+// PARTIAL. CONFIRMED_NONE = competitors verified to issue no own products (e.g. a Master-KVG) —
+// their empty cells are a confirmed green, not a gap.
+const PARTIAL = new Set<string>([])
+const CONFIRMED_NONE = new Set<string>(['Universal Invest.'])
+
+export type Tier = 'full' | 'partial' | 'none'
 
 function count(prods: Product[], col: Col): number {
   if (col.kind === 'total') return prods.length
@@ -35,8 +45,11 @@ function count(prods: Product[], col: Col): number {
   return prods.filter((p) => p.assetClass === col.val).length
 }
 
-function grade(n: number, col: Col, sure: boolean): Status {
-  if (n === 0) return sure ? 'green' : 'red'
+function grade(n: number, col: Col, tier: Tier): Status {
+  if (tier === 'full') return 'green' // covered — count shown; 0 = confirmed none
+  if (tier === 'none') return 'red' // not ingested at all
+  // partial: surface the gap by count
+  if (n === 0) return 'red'
   if (col.kind === 'total') return n >= 20 ? 'green' : 'orange'
   return n >= 5 ? 'green' : 'orange'
 }
@@ -99,17 +112,22 @@ export function srcNote(code: string): string {
 }
 
 export type Cell = { n: number; status: Status; src: SrcKey }
-export type Firm = { code: string; name: string; prods: number; sure: boolean; cells: Cell[] }
+export type Firm = { code: string; name: string; prods: number; tier: Tier; sure: boolean; cells: Cell[] }
 
-/** Build the competitor rows (counts, confidence status, and source per cell), sorted by size. */
+/** Build the competitor rows (counts, coverage status, and source per cell), sorted by size. */
 export function buildFirms(): Firm[] {
   return COMPANIES.map((c) => {
     const prods = productsForCompetitor(c.tick)
-    const sure = !UNSURE.has(c.tick)
+    const tier: Tier = PARTIAL.has(c.tick)
+      ? 'partial'
+      : prods.length > 0 || CONFIRMED_NONE.has(c.tick)
+        ? 'full'
+        : 'none'
     const cells: Cell[] = COLUMNS.map((col) => {
       const n = count(prods, col)
-      return { n, status: grade(n, col, sure), src: srcFor(c.tick, col) }
+      return { n, status: grade(n, col, tier), src: srcFor(c.tick, col) }
     })
-    return { code: c.tick, name: c.co, prods: prods.length, sure, cells }
+    // `sure` (a zero is a confirmed structural absence, not a gap) holds for fully-covered firms.
+    return { code: c.tick, name: c.co, prods: prods.length, tier, sure: tier !== 'partial', cells }
   }).sort((a, b) => b.prods - a.prods || a.name.localeCompare(b.name))
 }
